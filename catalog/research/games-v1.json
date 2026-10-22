@@ -7965,6 +7965,7 @@
   },
   "msx2:470342": {
    "boxArtUrl": "https://images.launchbox-app.com/0bd6b3e0-c8f0-4bf3-b7ff-0af29b6488ff.png",
+   "description": "A demanding vertical shooter in the MSX style.",
    "launchbox": "470342",
    "screenshotUrl": "https://images.launchbox-app.com/f6a37a1a-b07a-4d6b-b047-1fc632b5c4ae.png",
    "title": "Space Force",
@@ -9876,6 +9877,7 @@
    "contentIds": [
     "sha256-rom-v1:798f8d60583aab224227615f5701433c9250a675ffe307571034f5092199ab4d"
    ],
+   "description": "A sci-fi maze game: escape the labyrinth safely.",
    "developer": "Sein-Soft",
    "launchbox": "126347",
    "publisher": "Sein-Soft",
@@ -10175,6 +10177,7 @@
    "contentIds": [
     "sha256-rom-v1:83ed518b39a8f90ac3f2edb6922d3dc427105eda4e0acdbc2657039bd78f84e4"
    ],
+   "description": "An action game: the tiny samurai Issun-boshi steers his bowl boat down a stream past piranhas and floating logs.",
    "developer": "Casio Computer",
    "launchbox": "127301",
    "publisher": "Casio Computer",
@@ -10189,6 +10192,7 @@
    "contentIds": [
     "sha256-rom-v1:74dc23783f420de80d8716f813e045b7a35c4ae4863825d4f964014f914db600"
    ],
+   "description": "Konami's shooter: waves of aliens descend on your fighter across a receding 3D grid.",
    "developer": "Konami",
    "launchbox": "127405",
    "mobygames": 19540,
@@ -10204,6 +10208,7 @@
    "contentIds": [
     "sha256-rom-v1:985bc0462aeef1d7ff5f3073d38b3d147f395eab3bbbd7a8cb77f13870fabc3b"
    ],
+   "description": "Activision's chase game: Officer Keystone Kelly pursues the thief Harry Hooligan through a department store.",
    "developer": "Activision",
    "launchbox": "127411",
    "mobygames": 9475,
@@ -10222,6 +10227,7 @@
    "contentIds": [
     "sha256-rom-v1:7175b0c8de53080289a7322bcfa0685fc1c1c9c60ac4e795e8f57836b22ee74e"
    ],
+   "description": "A puzzle action game: a pair of trousers kicks its way across a board of blocks.",
    "developer": "Aackosoft International",
    "launchbox": "127466",
    "mobygames": 19604,
@@ -10240,6 +10246,7 @@
    "contentIds": [
     "sha256-rom-v1:e943e1125a4ebc749a1841fb5355fbcc928dcfbb3f16dbc78f3823878ef71acc"
    ],
+   "description": "A one-on-one wrestling game based on the anime Kinnikuman.",
    "developer": "Bandai",
    "launchbox": "127528",
    "mobygames": 30177,
@@ -10258,6 +10265,7 @@
    "contentIds": [
     "sha256-rom-v1:066685f89b859c50cc945cd418f8868cf1600a6a29a91c780bf1faf01c3726d4"
    ],
+   "description": "Compile's vertical shooter: an adaptive fighter takes on The System, an ancient alien device that destroys civilizations.",
    "developer": "Compile",
    "launchbox": "128023",
    "mobygames": 19517,
@@ -10274,6 +10282,7 @@
    "contentIds": [
     "sha256-rom-v1:a93058238d63b05c8bd30498d695b3769b8d94b76ea7b24d55e2e9f32e270dac"
    ],
+   "description": "Irem's side-scrolling shooter: fly the R-9 against the Bydo Empire, attaching the detachable Force pod to absorb and fire.",
    "developer": "ISCO",
    "launchbox": "128024",
    "mobygames": 5960,
@@ -10290,6 +10299,7 @@
    "contentIds": [
     "sha256-rom-v1:60c44680d51f1b0b1fc30802edba532c8eecf5af4ebe68a67aec312b2dde14fd"
    ],
+   "description": "A behind-view shooter: Sam chases through the sewers after the thing that took his girlfriend Sally.",
    "developer": "Interphase Technologies",
    "launchbox": "128038",
    "mobygames": 20199,
@@ -10302,6 +10312,7 @@
   },
   "msx:128040": {
    "boxArtUrl": "https://images.launchbox-app.com/89c5d5af-66f4-4766-bfca-6de1df43771e.jpg",
+   "description": "Konami's helicopter shooter, sequel to Scramble: fly through a cavern of defenses, managing fuel as you bomb and shoot.",
    "developer": "Konami",
    "launchbox": "128040",
    "publisher": "Konami",
@@ -10323,6 +10334,7 @@
    "contentIds": [
     "sha256-rom-v1:222a55483321d46d8b23716b48003197c33cc043077600f65180974076e1d1ef"
    ],
+   "description": "Irem's American football game: march your team down the field to score.",
    "developer": "Irem",
    "launchbox": "128072",
    "mobygames": 48760,
@@ -10338,6 +10350,7 @@
    "contentIds": [
     "sha256-rom-v1:312a97de1a9374379858749a7167116c291b19d8e2b9e8da4349390c1163ba3e"
    ],
+   "description": "Activision's maze puzzle: rotate pieces of the path to connect every section to the source.",
    "developer": "Activision",
    "launchbox": "129318",
    "mobygames": 9175,
@@ -10353,6 +10366,7 @@
    "contentIds": [
     "sha256-rom-v1:34266e4d5b767d57f5adbb9708e9c06eced071bd321b5f5a7f9eaf255cac32c7"
    ],
+   "description": "Sega's isometric shooter: fly through the Zaxxon fortress, watching your altitude, to destroy the robot Zaxxon.",
    "developer": "Sega Enterprises",
    "launchbox": "129319",
    "mobygames": 411,
@@ -10368,6 +10382,7 @@
    "contentIds": [
     "sha256-rom-v1:501ce9e2d5f22d63546292e103fd81af46c1806eeb33be387833d92f9939ad81"
    ],
+   "description": "The Manic Miner sequel: Miner Willy must tidy every room of his mansion before he can go to bed.",
    "launchbox": "130654",
    "mobygames": 14745,
    "screenshotUrl": "https://images.launchbox-app.com/7e76ea70-9a9c-44fe-8504-b2734ef9b5ba.png",
@@ -10381,6 +10396,7 @@
    "contentIds": [
     "sha256-rom-v1:711461710bf18c9ddd2bf393e2553db04ae391ef9a9d90308902b2472d9e56cc"
    ],
+   "description": "An action game based on Back to the Future: Marty McFly must get his parents together before he fades away.",
    "developer": "Makoto Ichinoseki",
    "launchbox": "131400",
    "mobygames": 47671,
@@ -10427,6 +10443,7 @@
    "contentIds": [
     "sha256-rom-v1:a8cde710a47e12fb49e7362f4392ef73bb8f7d438988af1df86e16499759b381"
    ],
+   "description": "Enix's murder mystery set in a land of animals.",
    "developer": "Enix",
    "launchbox": "132910",
    "publisher": "Enix",
@@ -10441,6 +10458,7 @@
    "contentIds": [
     "sha256-rom-v1:54f2700125d7a4e5ebf3fc55a9f2e2b913f95b46f665674077dcd3bfcc2b2f33"
    ],
+   "description": "An arcade game: termites eat their way through blocks.",
    "developer": "Bothtec",
    "launchbox": "132911",
    "mobygames": 119460,
@@ -10453,6 +10471,7 @@
   },
   "msx:132912": {
    "boxArtUrl": "https://images.launchbox-app.com/426f3636-9672-4dc2-bb14-89ab4466234e.jpg",
+   "description": "Technosoft's action game: a tanuki rescues the forest creatures kidnapped by the evil Count Wolf.",
    "developer": "Tecno Soft",
    "launchbox": "132912",
    "publisher": "Tecno Soft",
@@ -10468,6 +10487,7 @@
    "contentIds": [
     "sha256-rom-v1:4f78d1caf165b445eea71d1d8497ff9d2c14fa7e7daf1dd88cb63eaa4b5f4a34"
    ],
+   "description": "A platformer from the early eighties home computer boom.",
    "developer": "Colpax",
    "launchbox": "132913",
    "mobygames": 25449,
@@ -10483,6 +10503,7 @@
    "contentIds": [
     "sha256-rom-v1:a7f42d77c952981ac8ec4545fd496196a1b0f9a6ad188c38d9fc9e19d8e38bfc"
    ],
+   "description": "Hudson's action game: the cyborg ZED blasts through the alien planet Altile to free it from the tyrant.",
    "developer": "Hudson Soft",
    "launchbox": "132914",
    "publisher": "Hudson Soft",
@@ -10497,6 +10518,7 @@
    "contentIds": [
     "sha256-rom-v1:6c60939c116170324d5d9251f991ab11c27018f04975e591261279081cc08dc2"
    ],
+   "description": "An action platformer set in the jungle.",
    "developer": "Ample Software",
    "launchbox": "132915",
    "mobygames": 132995,
@@ -10512,6 +10534,7 @@
     "3D Golf Simulation: High Speed Edition"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/0f6cd318-aaf8-4174-af18-c2019909263b.jpg",
+   "description": "A faster updated version of T&E Soft's 3-D Golf Simulation.",
    "developer": "T&E Soft",
    "launchbox": "132920",
    "publisher": "T&E Soft",
@@ -10526,6 +10549,7 @@
    "contentIds": [
     "sha256-rom-v1:671d2f4ff3a0fadc835669d8c29089792b44eec49df602f43817b52c99f52973"
    ],
+   "description": "A Lunar Rescue-style arcade game: defend the undersea city of Aquapolis from attack.",
    "developer": "Nisso",
    "launchbox": "132921",
    "mobygames": 211402,
@@ -10541,6 +10565,7 @@
     "Ali Baba and 40 Theives"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/d549d070-9200-4658-84f6-0185062c00ac.jpg",
+   "description": "A Pac-Man-style game: Alibaba catches the thieves while avoiding them.",
    "developer": "ICM",
    "launchbox": "132922",
    "mobygames": 19601,
@@ -10553,6 +10578,7 @@
    "contentIds": [
     "sha256-rom-v1:39dc54032f5bf0611e729d05f4de9bcb0b90efc28749b05d1a19083f3cc653bc"
    ],
+   "description": "Hudson's action game: shoot the bouncing balls, which split into smaller ones each time they are hit.",
    "developer": "Hudson Soft",
    "launchbox": "132923",
    "mobygames": 19608,
@@ -10568,6 +10594,7 @@
    "contentIds": [
     "sha256-rom-v1:4c5812754b70017f644e7a07e70772e332aed89dab87e372787f910eae473263"
    ],
+   "description": "ASCII's puzzle platformer sequel to The Castle: the prince explores a new castle to rescue the princess.",
    "developer": "ASCII",
    "launchbox": "132924",
    "publisher": "ASCII",
@@ -10593,6 +10620,7 @@
    "contentIds": [
     "sha256-rom-v1:cb2cc9d898caee7416b526d2850a28bea6c68d5416e33586fa7c52df99e0d924"
    ],
+   "description": "A kendo game: duel with wooden swords against the computer or a friend.",
    "developer": "Sega Enterprises",
    "launchbox": "132926",
    "mobygames": 82685,
@@ -10608,6 +10636,7 @@
    "contentIds": [
     "sha256-rom-v1:89e1badac10e65886590d55e735ed794e5ca3c41142e6637b3e7ac6b25d042c0"
    ],
+   "description": "Konami's circus action game: Charlie rides lions through flaming hoops, walks tightropes and swings on trapezes.",
    "developer": "Konami",
    "launchbox": "132927",
    "mobygames": 11429,
@@ -10623,6 +10652,7 @@
    "contentIds": [
     "sha256-rom-v1:4e250089bbf91684b7bf22a0952ce708e9af937789673f672330e182daded400"
    ],
+   "description": "Jaleco's driving game: paint every stretch of road on each city stage while dodging police cars.",
    "developer": "Nippon Dexter",
    "launchbox": "132928",
    "publisher": "Jaleco",
@@ -10637,6 +10667,7 @@
    "contentIds": [
     "sha256-rom-v1:a2903b6f7788520ecc8d1978d682857e1f35898fd67a90816af423468d98ca95"
    ],
+   "description": "A racing game on a roller coaster track of steeply banked turns.",
    "developer": "Sony",
    "launchbox": "132929",
    "mobygames": 19727,
@@ -10652,6 +10683,7 @@
    "contentIds": [
     "sha256-rom-v1:effe6446efa584d5f89858a6e74020f6571b08b90f62c15c3f24e1a7eee17c3e"
    ],
+   "description": "Othello, the classic board game, against the computer.",
    "developer": "Sony",
    "launchbox": "132930",
    "mobygames": 119536,
@@ -10667,6 +10699,7 @@
    "contentIds": [
     "sha256-rom-v1:915dfcea0c7ecd57f8d272f64e5ee527146497bd01b81deae0e657feab5e6eec"
    ],
+   "description": "A maze tank battle: destroy your opponent before being destroyed.",
    "developer": "ASCII",
    "launchbox": "132931",
    "mobygames": 180162,
@@ -10684,6 +10717,7 @@
     "sha256-rom-v1:65d5bdeb9a9b8ee85aad1f787cb34bd9d662850a6562b9497fe62d85b314a0de",
     "sha256-rom-v1:8cf0f8a22d9161d37d39cc48bc40b952b6f756df465f0d0c9afb69dac8a5d6ee"
    ],
+   "description": "Konami's action game: a lineman switches the tracks to keep his runaway train from crashing.",
    "developer": "Konami",
    "launchbox": "132932",
    "publisher": "Sony",
@@ -10713,6 +10747,7 @@
    "contentIds": [
     "sha256-rom-v1:e9bd8749c70ad213b3c4c76d8faf25ec765361b302ffb912b34e33f599548769"
    ],
+   "description": "A shooter: fly a Harrier jet against ground and air targets.",
    "developer": "ASCII",
    "launchbox": "132934",
    "publisher": "ASCII",
@@ -10728,6 +10763,7 @@
    "contentIds": [
     "sha256-rom-v1:4fe91164e428e6f941fbca4a72623a3a8ee7cb80583ac202006117232e68c275"
    ],
+   "description": "Sega's puzzle platformer: guide a penguin and its egg safely down to the bottom of each level.",
    "developer": "Sega",
    "launchbox": "132935",
    "mobygames": 58782,
@@ -10743,6 +10779,7 @@
    "contentIds": [
     "sha256-rom-v1:a8656e4b693335b5389a0007645fa9b585a9f50c6cc13bca58a5d06f3b4da907"
    ],
+   "description": "A maze action game: a man in blue overalls runs around the maze collecting while avoiding enemies.",
    "developer": "UPL",
    "launchbox": "132936",
    "mobygames": 19660,
@@ -10758,6 +10795,7 @@
    "contentIds": [
     "sha256-rom-v1:2374765143ce5392c7e9bc672dc1511835e81b05d85635c7f6c8a8aad9c37aed"
    ],
+   "description": "A vertical shooter mixing fantasy and arcade action: fight dragons.",
    "developer": "Takara",
    "launchbox": "132937",
    "mobygames": 111335,
@@ -10770,6 +10808,7 @@
   },
   "msx:132938": {
    "boxArtUrl": "https://images.launchbox-app.com/62c3cd72-466c-4389-a003-18b5e4352c71.jpg",
+   "description": "Falcom's action adventure: a family of five, each with different abilities, explores a vast dungeon to defeat the dragon Keela.",
    "developer": "Nihon Falcom",
    "launchbox": "132938",
    "publisher": "Nihon Falcom",
@@ -10782,6 +10821,7 @@
    "contentIds": [
     "sha256-rom-v1:281baaae7f7dac109d90cb284f5e707f00e36f34d949ba56346a62acc4ed58ea"
    ],
+   "description": "A shooter with puzzle elements: think before you act.",
    "developer": "Fun Project",
    "launchbox": "132939",
    "publisher": "Victor Co. of Japan",
@@ -10800,6 +10840,7 @@
     "sha256-rom-v1:a1891e038566596a9f67067b8ea4694709aa9fee93c8ac0379360b30ea3abe62",
     "sha256-rom-v1:a9e759aeb5c94c3060095d4e50c8170b80ab08df95d8a5666a29badf0a912adf"
    ],
+   "description": "HAL's basketball game: pick your teams and court and take to the hardwood.",
    "developer": "HAL Laboratory",
    "launchbox": "132940",
    "mobygames": 19726,
@@ -10816,6 +10857,7 @@
    "contentIds": [
     "sha256-rom-v1:ea800d0480e6eff2dd232ca9c25847180e36c5c6e445ba3999a6503554cbf001"
    ],
+   "description": "A bowling game for up to five players.",
    "developer": "Softvision",
    "launchbox": "132941",
    "mobygames": 20371,
@@ -10862,6 +10904,7 @@
    "contentIds": [
     "sha256-rom-v1:92a1f6bc6f1b4d9ef86a825a71bab1787a482f9c3f74abbfe79a1f9678fdca5a"
    ],
+   "description": "HAL's puzzle game: Lolo pushes blocks and collects hearts to open each room's treasure chest.",
    "developer": "HAL Laboratory",
    "launchbox": "132944",
    "mobygames": 19596,
@@ -10877,6 +10920,7 @@
    "contentIds": [
     "sha256-rom-v1:9d1fd065ec5c0453acf7c06e66e9c5d1aaf4026972fde73f862fbda9715b4f0b"
    ],
+   "description": "Taito's spy action game: Agent 17 rides elevators down a building, stealing secret documents while shooting enemy agents.",
    "developer": "Taito",
    "launchbox": "132945",
    "mobygames": 10914,
@@ -10892,6 +10936,7 @@
    "contentIds": [
     "sha256-rom-v1:74ed991e243b69c06a45da28d1255aa3f07e96de24f74ef55d0c669d7fc33408"
    ],
+   "description": "Jaleco's shooter with parallax backgrounds and momentum-based flight.",
    "developer": "Jaleco",
    "launchbox": "132946",
    "mobygames": 19664,
@@ -10907,6 +10952,7 @@
    "contentIds": [
     "sha256-rom-v1:77b1b4dcfcc95a58eda50db4cfbdf4ede79a7a4d9c03f133d3f0be31bbb1e647"
    ],
+   "description": "Casio's vertical shooter: a robot transforms into a spaceship.",
    "developer": "Casio Computer",
    "launchbox": "132947",
    "mobygames": 78059,
@@ -10922,6 +10968,7 @@
    "contentIds": [
     "sha256-rom-v1:13215168487f8c759709ffba58fd07f18c8cfb3d23ac96bb141510dc3b729052"
    ],
+   "description": "The sequel to Exoide-Z: a vertical shooter.",
    "developer": "Casio Computer",
    "launchbox": "132948",
    "mobygames": 78060,
@@ -10937,6 +10984,7 @@
    "contentIds": [
     "sha256-rom-v1:1bd341a06c37b2ae99daa048a8a85e6163c10f5660019040311ef0a6bf672c55"
    ],
+   "description": "A combat flight simulator flying the F-16 Fighting Falcon.",
    "developer": "Nexa",
    "launchbox": "132949",
    "mobygames": 15928,
@@ -10952,6 +11000,7 @@
    "contentIds": [
     "sha256-rom-v1:6c489e7bc5e68ba7e8585ab1a52e88778a740f91d9b701dbf17b7c60b1b0e903"
    ],
+   "description": "Sega's shooter: the little ship Opa-Opa destroys enemy bases across eight colorful planets, buying weapons with coins.",
    "developer": "Pony Canyon",
    "launchbox": "132950",
    "mobygames": 8220,
@@ -10967,6 +11016,7 @@
    "contentIds": [
     "sha256-rom-v1:64b3199cd566856a4f20f431f33b380f2e0854d4d55afe44cfb7992eac9535e1"
    ],
+   "description": "Hudson's platformer: a firefighting mouse rescues mice from a burning building.",
    "developer": "Hudson Soft",
    "launchbox": "132951",
    "mobygames": 20258,
@@ -10982,6 +11032,7 @@
     "Flappy Limited 85"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/cbd5dcbf-a8ce-4ef5-8882-1c3176244dd2.jpg",
+   "description": "dB-Soft's puzzle game: push stones to carry the blue stone to its goal.",
    "developer": "dB-SOFT",
    "launchbox": "132952",
    "publisher": "dB-Soft",
@@ -11002,6 +11053,7 @@
    "contentIds": [
     "sha256-rom-v1:07c5749deb8747f09b723266625eafa8a8ff96e614e517a68631247e4bd00347"
    ],
+   "description": "Jaleco's horizontal shooter: a transforming robot fights across land and sea in one long continuous marathon.",
    "developer": "Jaleco",
    "launchbox": "132954",
    "publisher": "Nippon Dexter",
@@ -11016,6 +11068,7 @@
    "contentIds": [
     "sha256-rom-v1:994e2c773f7a5d76d6a35834416f9b60b98c1bd621e042ffcaab555a8709f6be"
    ],
+   "description": "Taito's vertical action game: infiltrate enemy territory on foot and by tank to destroy the enemy fort.",
    "developer": "Taito",
    "launchbox": "132955",
    "mobygames": 13914,
@@ -11031,6 +11084,7 @@
    "contentIds": [
     "sha256-rom-v1:b6935cd113cac8899566a5623544872d413f345b98cbe591ff3daadbf90af964"
    ],
+   "description": "A Mastermind-style deduction puzzle played with fruit.",
    "developer": "Takara",
    "launchbox": "132956",
    "mobygames": 227443,
@@ -11077,6 +11131,7 @@
    "contentIds": [
     "sha256-rom-v1:33da207e7322402967eaaa9db45bc2518f4886be34423d66ac0b2d996b5c747f"
    ],
+   "description": "Data East's arcade game: Chef Pepper builds giant burgers by walking over the ingredients while dodging eggs, sausages and pickles.",
    "developer": "Data East",
    "launchbox": "132961",
    "mobygames": 467,
@@ -11092,6 +11147,7 @@
    "contentIds": [
     "sha256-rom-v1:3a63d1677d9af9ee379484c55d815850fc41ce5efb5958c8179e7f332184b013"
    ],
+   "description": "A top-down racing game across stages in the United States.",
    "developer": "Casio Computer",
    "launchbox": "132962",
    "mobygames": 19609,
@@ -11107,6 +11163,7 @@
    "contentIds": [
     "sha256-rom-v1:9def33fd9861a8fbb7a9e522f165a52731bbe9834ff0b69a22aecfbb9dbac75f"
    ],
+   "description": "Activision's dungeon action adventure: explore the forgotten fortress of Alcazar.",
    "developer": "Activision",
    "launchbox": "132964",
    "mobygames": 20227,
@@ -11138,6 +11195,7 @@
    "contentIds": [
     "sha256-rom-v1:28671b31b71e0b7bcbbcf42c967d4c1c49ed342dfba1c0b9c2af662ea7039158"
    ],
+   "description": "Hot-B's vertical shooter.",
    "developer": "Hot-B",
    "launchbox": "132966",
    "publisher": "Hot-B",
@@ -11149,6 +11207,7 @@
   },
   "msx:132967": {
    "boxArtUrl": "https://images.launchbox-app.com/d35287ea-4c14-4233-a799-29c23f213b48.png",
+   "description": "An action game based on the comic B.C.: Thor rides his stone wheel to rescue Cute Chick from a dinosaur.",
    "developer": "Sydney Development",
    "launchbox": "132967",
    "mobygames": 7196,
@@ -11158,6 +11217,7 @@
   },
   "msx:132968": {
    "boxArtUrl": "https://images.launchbox-app.com/952cf1c5-8046-4f05-87fe-2c259edb3de9.jpg",
+   "description": "Chris Crawford's Cold War strategy game: extend your influence through aid, treaties and covert action without starting a nuclear war.",
    "developer": "Chris Crawford",
    "launchbox": "132968",
    "publisher": "Mindscape",
@@ -11169,6 +11229,7 @@
    "contentIds": [
     "sha256-rom-v1:34bcf10e803cf523e2a79ba11327766afabd25f09906202d1158afe56fc361fc"
    ],
+   "description": "ASCII's real-time strategy action game: lead a growing army against King Ogreth of the Basam Empire, freeing soldiers he turned to stone.",
    "developer": "ASCII",
    "launchbox": "132970",
    "mobygames": 26349,
@@ -11184,6 +11245,7 @@
    "contentIds": [
     "sha256-rom-v1:3b129d4419523e1bb4d495fd069c5f1903d87676f1addc2586b7136578ade74b"
    ],
+   "description": "The first-person dungeon role-playing game that helped start the genre in Japan: a party seeks the legendary Black Onyx.",
    "developer": "Bullet-Proof Software",
    "launchbox": "132971",
    "mobygames": 18757,
@@ -11199,6 +11261,7 @@
    "contentIds": [
     "sha256-rom-v1:b7c6bfba705dbb3487cc3f1a75b62a4db7de6d9aca2f95cb2f1bf5fbb1a2532f"
    ],
+   "description": "A 3D shooter: guide four merchant freighters through a blockade.",
    "developer": "Interphase Technologies",
    "launchbox": "132974",
    "mobygames": 19788,
@@ -11229,6 +11292,7 @@
    "contentIds": [
     "sha256-rom-v1:114945c770531db3ae61eb330d7ed870a3c00d3a90db2a29a4c134135c2c0707"
    ],
+   "description": "Konami's platformer based on the Cabbage Patch Kids: Anna Lee jumps over obstacles through the park.",
    "developer": "Konami",
    "launchbox": "132981",
    "mobygames": 10269,
@@ -11247,6 +11311,7 @@
    "contentIds": [
     "sha256-rom-v1:796c339556b27e54ad498e4b7455ab7eeff3b8789878066d060adbf30ecf06c9"
    ],
+   "description": "A ninja action platformer.",
    "developer": "Mass Tael",
    "launchbox": "132982",
    "mobygames": 213146,
@@ -11262,6 +11327,7 @@
    "contentIds": [
     "sha256-rom-v1:667698dfbc5acfbdd7dad0ecf29eba7ee6af5caf85ceda3eaed82ad7b33c0a71"
    ],
+   "description": "An action shooter: Captain Chef protects the little piggies.",
    "developer": "Nippon Columbia",
    "launchbox": "132983",
    "mobygames": 234347,
@@ -11280,6 +11346,7 @@
    "contentIds": [
     "sha256-rom-v1:31bf40b1ffb1ceaacaa59e29db3b5c40d05e6208d8649de26970a7724905441b"
    ],
+   "description": "A platformer: the boy Dota, whose father is a bioscientist, sets out on an adventure.",
    "developer": "SystemSoft",
    "launchbox": "132984",
    "mobygames": 230435,
@@ -11295,6 +11362,7 @@
    "contentIds": [
     "sha256-rom-v1:3456b5c88f59dc139613112b0db6932bcfa537b69ba7b4c99d2333a249228dc6"
    ],
+   "description": "A side-scrolling arcade game for one to four players starring Captain Cosmo, hero of the universe.",
    "developer": "Nexa",
    "launchbox": "132985",
    "mobygames": 134003,
@@ -11321,6 +11389,7 @@
    "contentIds": [
     "sha256-rom-v1:7b03fd41c11975131db7c2303aa0757b369c4f6e1e54586da8f2b70d68b8d19d"
    ],
+   "description": "Casio's 3D golf game on an eighteen-hole course.",
    "developer": "Casio Computer",
    "launchbox": "132987",
    "mobygames": 20179,
@@ -11333,6 +11402,7 @@
   },
   "msx:132988": {
    "boxArtUrl": "https://images.launchbox-app.com/0f6497f8-54c1-4fd1-90bb-a971cce98395.jpg",
+   "description": "Namco's Dig Dug: tunnel through the earth, inflating monsters or crushing them under falling rocks.",
    "developer": "Namco",
    "launchbox": "132988",
    "publisher": "Namco",
@@ -11345,6 +11415,7 @@
    "contentIds": [
     "sha256-rom-v1:5808675c4c8b592af3f7f832311327e4806a6af426df0987becbac7a06ddeacd"
    ],
+   "description": "Compile's horizontal shooter.",
    "developer": "Compile",
    "launchbox": "133012",
    "mobygames": 24004,
@@ -11360,6 +11431,7 @@
    "contentIds": [
     "sha256-rom-v1:1e6927c245af04d5749466b42f3ab5243f3493fe4a1ded5007479028685921de"
    ],
+   "description": "An isometric Western shooter: the sheriff hunts down outlaws for bounty.",
    "developer": "Ashby Computers and Graphics",
    "launchbox": "133013",
    "mobygames": 70767,
@@ -11375,6 +11447,7 @@
    "contentIds": [
     "sha256-rom-v1:5d3d9e73cc43792c1c921b0e3afbe38a9a3e457ca60c401083bef6b039972380"
    ],
+   "description": "A puzzle game: a hungry squirrel eats its way through each stage.",
    "developer": "Pax Softnica",
    "launchbox": "133014",
    "mobygames": 256320,
@@ -11390,6 +11463,7 @@
    "contentIds": [
     "sha256-rom-v1:7db4d85dde9ea78e7d7a2c779b2fa908ed7e1ef74cfee512ccc41e3c47abebf8"
    ],
+   "description": "A heavyweight boxing game: duck, weave and land punches to win the title.",
    "developer": "Takara",
    "launchbox": "133015",
    "mobygames": 225501,
@@ -11405,6 +11479,7 @@
    "contentIds": [
     "sha256-rom-v1:47f4dbf11ea4e74d42defb643ef4a2ab3d6107e87ec41a7764725c200246ebb3"
    ],
+   "description": "A Berzerk-style shooter.",
    "developer": "NABU",
    "launchbox": "133016",
    "publisher": "ASCII",
@@ -11422,6 +11497,7 @@
    "contentIds": [
     "sha256-rom-v1:80054f049228cddfab0f3db0bcaa2802abb6a9838e2312790df4986d5d4e179a"
    ],
+   "description": "A top-down racing game through a town of maze-like roads.",
    "developer": "Way Limit",
    "launchbox": "133017",
    "mobygames": 19774,
@@ -11437,6 +11513,7 @@
    "contentIds": [
     "sha256-rom-v1:4f267a43407659184c9f3d361c46f755beea79f898807b4f650926f5126d34a7"
    ],
+   "description": "T&E Soft's third Hydlide: an action role-playing game with character creation and a world that tracks time.",
    "developer": "T&E Soft",
    "launchbox": "133018",
    "publisher": "T&E Soft",
@@ -11452,6 +11529,7 @@
    "contentIds": [
     "sha256-rom-v1:56c4333d14b27c70e3e53b11368d2c1a32efe6a6deb210846f3ded9ff7be3263"
    ],
+   "description": "A puzzle action game that mixes Pengo with a classic brain teaser.",
    "developer": "Casio Computer",
    "launchbox": "133019",
    "publisher": "Casio Computer",
@@ -11466,6 +11544,7 @@
    "contentIds": [
     "sha256-rom-v1:92f08a602609c7e7717e92a30c35c8c937f41d4a2176f488a4e6cadd55196455"
    ],
+   "description": "A puzzle game: the halfling Jay falls in love with a human princess.",
    "developer": "MSX Magazine (JP)",
    "launchbox": "133020",
    "publisher": "ASCII",
@@ -11513,6 +11592,7 @@
    "contentIds": [
     "sha256-rom-v1:758fa4aca46df36be05b98d29cb5ca5d61d0926b34db7af95ea6e0e8ce80445d"
    ],
+   "description": "Taito's ninja action game: Kage leaps through forests and castles to rescue Princess Kiri from the warlord Yoshi.",
    "developer": "Taito",
    "launchbox": "133023",
    "mobygames": 8694,
@@ -11528,6 +11608,7 @@
     "The Karuizawa Kidnapping Guidance"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/413a42ae-27a8-44d3-9103-a6e4d2c756e3.png",
+   "description": "Yuji Horii's mystery adventure: a girl vacationing in the resort town of Karuizawa becomes caught up in a kidnapping.",
    "developer": "Yuji Horii",
    "launchbox": "133024",
    "mobygames": 52328,
@@ -11537,6 +11618,7 @@
   },
   "msx:133025": {
    "boxArtUrl": "https://images.launchbox-app.com/r2_9df6c161-0b6a-4a0a-af80-d00564be0160.jpg",
+   "description": "Namco's fixed shooter: defend the king from balloons that try to carry him away.",
    "developer": "Namco",
    "launchbox": "133025",
    "publisher": "Namco",
@@ -11552,6 +11634,7 @@
    "contentIds": [
     "sha256-rom-v1:24cb5bda5f55dcd5ab1343fb61ebac67e8c292f9714ee7a492431e33188b9b40"
    ],
+   "description": "Konami's mahjong game against three computer players.",
    "developer": "Konami",
    "launchbox": "133028",
    "publisher": "Konami",
@@ -11639,6 +11722,7 @@
    "contentIds": [
     "sha256-rom-v1:5291513f875f71149e0c4e48fb37052f9e8a97e2c06b85a660b0712e96aa0d23"
    ],
+   "description": "A sequel to Lode Runner with all-new levels.",
    "developer": "Compile",
    "launchbox": "133034",
    "mobygames": 78687,
@@ -11654,6 +11738,7 @@
    "contentIds": [
     "sha256-rom-v1:79da81ab39168e6dbe797db6b712a1663ca9c71bb07477a75a2801a7ea0d8826"
    ],
+   "description": "A strategy game based loosely on Risk: conquer territories on a map.",
    "developer": "ASCII",
    "launchbox": "133035",
    "publisher": "ASCII",
@@ -11668,6 +11753,7 @@
    "contentIds": [
     "sha256-rom-v1:7fd0088a89b30d5439a7df0f44e33527f2f905bc92aec53580d14283560cfe3e"
    ],
+   "description": "Irem's puzzle game: swap the positions of balls to drop them into the goal.",
    "developer": "Irem",
    "launchbox": "133036",
    "mobygames": 20089,
@@ -11684,6 +11770,7 @@
    "contentIds": [
     "sha256-rom-v1:e534cd778698f058fc093ec5ce0785400957a031a2fd6d39956bca5d98982aa5"
    ],
+   "description": "A futuristic pool game with space-age tables and balls.",
    "developer": "Compile",
    "launchbox": "133037",
    "publisher": "Pony Canyon",
@@ -11701,6 +11788,7 @@
    "contentIds": [
     "sha256-rom-v1:3853d9e8dec6efc34bbcb6e0acd6f169ae2600dd5b32a3c136dda9f779140569"
    ],
+   "description": "A shooter based on the anime Macross: in 1999 an alien ship falls to Earth and begins a war in space.",
    "developer": "Bothtec",
    "launchbox": "133038",
    "mobygames": 73758,
@@ -11719,6 +11807,7 @@
    "contentIds": [
     "sha256-rom-v1:a3f3ad0d8f5cda0f04bf917fbd9d796e9dc66d071bd30a2fde8d06260c7ec9f7"
    ],
+   "description": "Konami's vertical platformer: climb a giant magical tree past the creatures on its branches.",
    "developer": "Konami",
    "launchbox": "133039",
    "mobygames": 19522,
@@ -11735,6 +11824,7 @@
     "sha256-rom-v1:43eb545a1c9bd6423cd9b8c3a6b4f2315e19994d848f09067d88d9ff45edb307",
     "sha256-rom-v1:6093c6d83ce86a6266fe4c4c36f4612c11933c02d1fe30650f3821b41ffa6490"
    ],
+   "description": "A platformer: reach the exit at the bottom right of each screen.",
    "developer": "Zap",
    "launchbox": "133042",
    "mobygames": 19751,
@@ -11753,6 +11843,7 @@
    "contentIds": [
     "sha256-rom-v1:fdd1ecd6936d41039aed04ee4cc4f6421ef1d62febed627143fca4d25bd26336"
    ],
+   "description": "An action adventure in the world of Felix: a cursed prince, turned into a strange creature, fights to regain his human form.",
    "developer": "System Sacom",
    "launchbox": "133043",
    "publisher": "System Sacom",
@@ -11767,6 +11858,7 @@
    "contentIds": [
     "sha256-rom-v1:14f55dc7571944ec7f1d7aaa104c4ceff236dec271a4a304e4991227638737d9"
    ],
+   "description": "An arcade shooter: your destroyer faces aerial and naval enemies.",
    "developer": "ASCII",
    "launchbox": "133044",
    "mobygames": 171350,
@@ -11786,6 +11878,7 @@
    "contentIds": [
     "sha256-rom-v1:acc53eb38dcc68575dfda8e0dab1cfb0006d329e3d7bdf69879571cc5f3dff4c"
    ],
+   "description": "A horror comedy adventure based on the 1986 film House.",
    "developer": "Marionette",
    "launchbox": "133045",
    "publisher": "Pony Canyon",
@@ -11801,6 +11894,7 @@
    "contentIds": [
     "sha256-rom-v1:b7dcdaedc68a685e963e78b4e310ac065524cce73aee8737633f6ecdd7384bda"
    ],
+   "description": "Sega's top-down ice hockey game.",
    "developer": "Sega Enterprises",
    "launchbox": "133049",
    "mobygames": 20084,
@@ -11831,6 +11925,7 @@
    "contentIds": [
     "sha256-rom-v1:c508eb96d48eb947894eee44bdeb123885565e243939e12135e8e3091e8648b5"
    ],
+   "description": "A top-down open-world game: explore a region of space and avoid its hazards.",
    "developer": "Zap",
    "launchbox": "133052",
    "publisher": "Sony",
@@ -11845,6 +11940,7 @@
    "contentIds": [
     "sha256-rom-v1:1c5ae6d1908af674cbba9415f8116ada2d5758184f1130a2ffda217a12c9efbb"
    ],
+   "description": "An action role-playing game: Perseus sets out to free an island overrun by a gorgon, rescue three captured goddesses and recover twelve sacred items.",
    "developer": "Cosmos Computer",
    "launchbox": "133053",
    "mobygames": 127839,
@@ -11860,6 +11956,7 @@
    "contentIds": [
     "sha256-rom-v1:2dae97dbb37bd1cfd733dcfae2f19d34421b101653a49a6de91677db13e448a8"
    ],
+   "description": "A vertically scrolling shooter from 1984.",
    "developer": "Nisso",
    "launchbox": "133056",
    "mobygames": 232496,
@@ -11879,6 +11976,7 @@
    "contentIds": [
     "sha256-rom-v1:6b637ff7fec4d006046d26a16b5bda0fd8f5daae931aa44bd4375adf469b9467"
    ],
+   "description": "An expanded Door Door with fifty more levels: Chun traps aliens behind doors.",
    "developer": "Enix",
    "launchbox": "133057",
    "mobygames": 247213,
@@ -11894,6 +11992,7 @@
    "contentIds": [
     "sha256-rom-v1:b88d59ea548c6d5a5aae1625812dddfa660c4cf07c0005cca84ca45ce3d129b4"
    ],
+   "description": "A dungeon role-playing game: choose four adventurers and descend into the depths.",
    "developer": "Eiichi Saida",
    "launchbox": "133058",
    "publisher": "ASCII",
@@ -11912,6 +12011,7 @@
    "contentIds": [
     "sha256-rom-v1:dc2192f5d03c83d4aab3237c6cccf23ff2406bce86b2988b923d4aee5771b32c"
    ],
+   "description": "An early MSX shooter.",
    "developer": "Programmers-3",
    "launchbox": "133059",
    "publisher": "Sony",
@@ -11938,6 +12038,7 @@
     "sha256-rom-v1:74619d70d357d5f937d940b850a3115e27006773cdbc9aec8e2f5331fed24dfc",
     "sha256-rom-v1:d0cd1ffd6e321fe6d689166428c424cf0b3f3a00e18374d94e1185a3e3ea6b01"
    ],
+   "description": "Compile's vertical shooter.",
    "developer": "Compile",
    "launchbox": "133063",
    "mobygames": 20159,
@@ -11953,6 +12054,7 @@
    "contentIds": [
     "sha256-rom-v1:8a1c0bb85d30a765446376f81c8df8ee612ba91f65bec36f5e68a2e5f55a9a3b"
    ],
+   "description": "A carrier flight simulator, the follow-up to Flight Deck.",
    "developer": "Aackosoft International",
    "launchbox": "133064",
    "mobygames": 213811,
@@ -11968,6 +12070,7 @@
    "contentIds": [
     "sha256-rom-v1:6642ee288451d6cb3000c4e695f709a58a13eb66540f970deed07e54bcea8a2b"
    ],
+   "description": "A water-themed Breakout game with curved paddles.",
    "developer": "Spectravideo",
    "launchbox": "133065",
    "mobygames": 158303,
@@ -11984,6 +12087,7 @@
     "sha256-rom-v1:9f488855344da4e8c320817879b92e32a5cf5d566a4c17354294d79026ba32ad",
     "sha256-rom-v1:df7c345aa9325e7be584484c37718fde6456b4d961e10d810a4d7476fd24a465"
    ],
+   "description": "Namco's arcade shooter: battle the Galaga swarm, letting a fighter be captured so you can rescue it and fire double.",
    "developer": "Namco",
    "launchbox": "133066",
    "mobygames": 8402,
@@ -11999,6 +12103,7 @@
    "contentIds": [
     "sha256-rom-v1:b47b62506c0564cfaa6325c092cb1bc0a186dd731e16325e338abb41683b2840"
    ],
+   "description": "A turn-based grand strategy game of the Mongol conquests.",
    "developer": "Positive",
    "launchbox": "133067",
    "mobygames": 1926,
@@ -12019,6 +12124,7 @@
    "contentIds": [
     "sha256-rom-v1:ed0a72ff668a31dde4f18975726c9967c1640ba7c53cffd09fd6f876fa890917"
    ],
+   "description": "Gomoku: get five stones in a row before your opponent does.",
    "developer": "ComTec",
    "launchbox": "133069",
    "publisher": "Toshiba-EMI",
@@ -12038,6 +12144,7 @@
     "sha256-rom-v1:3210f8a0f2309dd4b9a89fc2b24d0f178ce4393a0a1f2854fbce545c361261bc",
     "sha256-rom-v1:cc808e17b0a8306cafd10038218a85b55d68dd36da483f7b59ee1953bf108a65"
    ],
+   "description": "Konami's side-scrolling shooter: pilot the Vic Viper against the Bacterion invasion, buying upgrades with power capsules.",
    "developer": "Konami",
    "launchbox": "133071",
    "mobygames": 4512,
@@ -12057,6 +12164,7 @@
     "sha256-rom-v1:b98bb0a2e2c333357f9c839dd2b5774f5237b01a1b79fc7e44aa8852dea2686e",
     "sha256-rom-v1:d544a0ff12030ca0f84e2c9c23becb68e77001565cf96ca8d00d2221b3e918f1"
    ],
+   "description": "Backgammon against the computer.",
    "developer": "Electric Software",
    "launchbox": "133072",
    "mobygames": 78252,
@@ -12075,6 +12183,7 @@
    "contentIds": [
     "sha256-rom-v1:d4b918037c1095fb1373a7d22f679a279907dbe7f66ceff37035659ce9524d38"
    ],
+   "description": "Rockford digs through monster-infested caves for diamonds while boulders tumble around him.",
    "developer": "Orpheus",
    "launchbox": "133120",
    "mobygames": 4632,
@@ -12090,6 +12199,7 @@
    "contentIds": [
     "sha256-rom-v1:d07b97daa2c126dd936c6e42c75720e9d7d080025cacf317c19543082fda1ef1"
    ],
+   "description": "A harder follow-up to Lode Runner, with tougher levels.",
    "developer": "Brace Yourself Games",
    "launchbox": "133125",
    "mobygames": 3930,
@@ -12112,6 +12222,7 @@
     "sha256-rom-v1:227113f94d9900cb48d2f9e88627224dd8cc3d9504614a01e94cf6b23ba508dc",
     "sha256-rom-v1:6f8cc5444d99c50dea9e9a0fd0f4d63dc644d880ac6311a07cb8967e906b68bb"
    ],
+   "description": "Konami's MSX-exclusive Gradius sequel: in 6664, Dr. Venom returns from exile and the Vic Viper flies again.",
    "developer": "Konami",
    "launchbox": "133126",
    "mobygames": 19553,
@@ -12130,6 +12241,7 @@
    "contentIds": [
     "sha256-rom-v1:8e5589ea006ae890c2f89b63fea61549f700f06962431686d1845558d1dc996e"
    ],
+   "description": "Gunjin Shogi, a military board game with hidden pieces resembling Stratego.",
    "developer": "Cosmo",
    "launchbox": "133129",
    "publisher": "Toshiba-EMI",
@@ -12146,6 +12258,7 @@
     "sha256-rom-v1:a8a6b786f68dabb2e4a91fbce79f3de925f1a868aac9504a9653834110041fef",
     "sha256-rom-v1:e06cbd5be0fab77186edb90f65d2a4c55f681782a24e8da93bebf5741ec82aa9"
    ],
+   "description": "HAL's golf game with a three-dimensional course display.",
    "developer": "HAL Laboratory",
    "launchbox": "133130",
    "mobygames": 203925,
@@ -12161,6 +12274,7 @@
    "contentIds": [
     "sha256-rom-v1:5287e71844d8beeed2c5b0069353bd027083451c76d8b851670b25abb4b8e74d"
    ],
+   "description": "A behind-view shooter: rescue miners from the moons of Jupiter.",
    "developer": "Imagic",
    "launchbox": "133131",
    "mobygames": 13909,
@@ -12176,6 +12290,7 @@
    "contentIds": [
     "sha256-rom-v1:a262e22ea2c441bf21bc85f69c41c85af78fb69c2c4bc22e4a14ce0f6cd9234c"
    ],
+   "description": "A platformer: as a cat burglar, steal every painting from each level while avoiding the guards.",
    "developer": "Michael S. Livesay",
    "launchbox": "133132",
    "mobygames": 10259,
@@ -12191,6 +12306,7 @@
    "contentIds": [
     "sha256-rom-v1:89c9b84e6f9efa8acce2a6b83c2ff7b7e3d34001dd1d9227a325efbd22ccf047"
    ],
+   "description": "Sega's pro wrestling game in its Champion sports series.",
    "developer": "Pony Canyon",
    "launchbox": "133165",
    "mobygames": 19662,
@@ -12209,6 +12325,7 @@
    "contentIds": [
     "sha256-rom-v1:532d7d9c7d0b17dc486619f86c18c087dd0330d7f225de1b6447e247b4bfed08"
    ],
+   "description": "A platformer based on Takara's Choro Q toy cars.",
    "developer": "Taito",
    "launchbox": "133166",
    "mobygames": 19580,
@@ -12221,6 +12338,7 @@
   },
   "msx:133167": {
    "boxArtUrl": "https://images.launchbox-app.com/f0524481-75ba-4021-b529-9bbe085d9249.jpg",
+   "description": "A homebrew turn-based dungeon crawl: find the amulet at the bottom of the dungeon.",
    "developer": "Trilobyte",
    "launchbox": "133167",
    "publisher": "MSXdev",
@@ -12229,6 +12347,7 @@
   },
   "msx:133168": {
    "boxArtUrl": "https://images.launchbox-app.com/5c2f5a19-86ac-457b-871f-dab6b86960a0.jpg",
+   "description": "The Exerion sequel: a shooter with parallax backgrounds.",
    "developer": "Jaleco",
    "launchbox": "133168",
    "publisher": "Eaglesoft",
@@ -12240,6 +12359,7 @@
    "contentIds": [
     "sha256-rom-v1:50a3403419f70fab2d393581ba2ab8fd6c97f2840b36d15f526f768fcbd69015"
    ],
+   "description": "A platformer: Flicky gathers her chicks and leads them home to the nest, avoiding the cats.",
    "developer": "Micronet",
    "launchbox": "133169",
    "mobygames": 19653,
@@ -12255,6 +12375,7 @@
    "contentIds": [
     "sha256-rom-v1:af055afc99ce5d63204b5d3c2d3ea7eb437c47bacad49f004a5e398a36a70000"
    ],
+   "description": "Sega's Formula One racing game against the clock and computer drivers.",
    "developer": "Sega",
    "launchbox": "133170",
    "mobygames": 15880,
@@ -12270,6 +12391,7 @@
    "contentIds": [
     "sha256-rom-v1:1b3dc773d8808f109f833abc3b9ef3aa58448fa3f5ec6c99ce8922edd98cf6aa"
    ],
+   "description": "A puzzle action game: the demon Sharudo has built a monster town on a mountain in Fairy's land, and a hero climbs it to defeat him.",
    "developer": "Dempa Micomsoft",
    "launchbox": "133190",
    "mobygames": 64366,
@@ -12285,6 +12407,7 @@
    "contentIds": [
     "sha256-rom-v1:0d60ff78e1ab466bce6e888193ca62d6df71fa07344c8ea31f7a8b486323c5f5"
    ],
+   "description": "Konami's Frogger: guide a frog across a busy road and river to safety.",
    "developer": "Konami",
    "launchbox": "133192",
    "mobygames": 1540,
@@ -12321,6 +12444,7 @@
    "contentIds": [
     "sha256-rom-v1:49b62083d0572d06c52d698718dd58f2e852793a1f75f15ba99d0fc8ecf53c98"
    ],
+   "description": "Taito's platformer: the witch Ptolemy turns monsters into cakes and knocks them away.",
    "developer": "Taito",
    "launchbox": "133194",
    "mobygames": 19636,
@@ -12336,6 +12460,7 @@
    "contentIds": [
     "sha256-rom-v1:c830737b3c1eeb27e5829e694d64b8469289f791e44008d939077ec16f53f7c6"
    ],
+   "description": "Lode Runner: dig holes to trap guards and recover the Bungeling Empire's stolen gold.",
    "developer": "Programmers-3",
    "launchbox": "133195",
    "mobygames": 243,
@@ -12351,6 +12476,7 @@
    "contentIds": [
     "sha256-rom-v1:a3b735700412a1ea836e1ee1a0bcd78de25e5a0bb8059d22f3d345422663deeb"
    ],
+   "description": "A side-scrolling shooter: Agent Captain Blitztek fights through enemy territory to stop the Axtoatles.",
    "developer": "Interphase Technologies",
    "launchbox": "133196",
    "mobygames": 19789,
@@ -12366,6 +12492,7 @@
    "contentIds": [
     "sha256-rom-v1:0bc8d936c2de33900356387c01c40d34e720e44c9f29c419e19893abdd2b89cb"
    ],
+   "description": "Hudson's vertical shooter: fly over enemy fleets and ground targets, collecting power-ups.",
    "developer": "Hudson Soft",
    "launchbox": "133272",
    "publisher": "Hudson Soft",
@@ -12380,6 +12507,7 @@
    "contentIds": [
     "sha256-rom-v1:a867d6f2ba05f089ef6448d5e5107e9ef8b752a609a8c3bcc26fcaef2b4724a0"
    ],
+   "description": "A platformer: a house mouse collects pieces of cheese while avoiding the cat.",
    "developer": "Zap",
    "launchbox": "133454",
    "mobygames": 19738,
@@ -12409,6 +12537,7 @@
    "contentIds": [
     "sha256-rom-v1:0a9c16bc3270c47d56bae0f1143ce40e7077871310c621c96533088efe9ee706"
    ],
+   "description": "A vertical shooter piloting a helicopter.",
    "developer": "Taito",
    "launchbox": "133462",
    "mobygames": 19638,
@@ -12424,6 +12553,7 @@
     "Donkey Kong"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/976282e9-d7ea-4928-80a7-7db441976b17.jpg",
+   "description": "Ocean's Donkey Kong: Mario climbs girders and leaps barrels to rescue Pauline from the giant ape.",
    "developer": "Sentient Software",
    "launchbox": "136324",
    "mobygames": 574,
@@ -12437,6 +12567,7 @@
     "Gofer no Yabou: Episode II"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/d95f5238-daf9-4565-8243-16d1ce3d58f1.png",
+   "description": "Konami's MSX-exclusive Gradius sequel: shoot certain enemies to fill your power meter and fight through the Bacterion's forces.",
    "developer": "Konami",
    "launchbox": "138200",
    "mobygames": 19554,
@@ -12446,6 +12577,7 @@
   },
   "msx:138201": {
    "boxArtUrl": "https://images.launchbox-app.com/aad33698-2cf5-49ac-b27b-a79fc71fdc97.png",
+   "description": "An action game: a penguin pushes ice cubes to crush enemies.",
    "developer": "The Bytebusters",
    "launchbox": "138201",
    "mobygames": 211165,
@@ -12458,6 +12590,7 @@
     "RAM"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/e0823c7e-1e24-4d40-be44-74338dcfc236.png",
+   "description": "A Spanish action game: the special agent Fox is sent on a mission to Chernobyl.",
    "developer": "Topo Soft",
    "launchbox": "138216",
    "mobygames": 45033,
@@ -12467,6 +12600,7 @@
   },
   "msx:138291": {
    "boxArtUrl": "https://images.launchbox-app.com/3692a307-162d-4184-868f-efc8e273ea5e.png",
+   "description": "An adventure: a messenger's quiet small-town life is suddenly upended.",
    "developer": "SPE",
    "launchbox": "138291",
    "publisher": "System 4",
@@ -12475,6 +12609,7 @@
   },
   "msx:138293": {
    "boxArtUrl": "https://images.launchbox-app.com/3a6d622e-618b-4ff4-813d-375682ffd85c.png",
+   "description": "A single-screen puzzle game starring a ghost.",
    "developer": "PJ Soft",
    "launchbox": "138293",
    "mobygames": 230761,
@@ -12487,6 +12622,7 @@
    "contentIds": [
     "sha256-rom-v1:66998037dad5f60f30c02525e76a7198f00223499421fc57f12a9dda50d7988c"
    ],
+   "description": "Sega's Western shooting gallery: protect the bank's doors from bandits without hitting innocent customers.",
    "developer": "Sanritsu Denki",
    "launchbox": "138295",
    "mobygames": 8557,
@@ -12511,6 +12647,7 @@
   },
   "msx:138338": {
    "boxArtUrl": "https://images.launchbox-app.com/0d07c3b4-0c34-40ea-b394-c0d363746b7b.png",
+   "description": "An enhanced Blagger with colored graphics and other improvements: the burglar Roger grabs every key to crack the safe.",
    "developer": "José Luis Tur",
    "launchbox": "138338",
    "screenshotUrl": "https://images.launchbox-app.com/e4ade8be-7de2-4254-8a74-941898d2a636.png",
@@ -12519,6 +12656,7 @@
   },
   "msx:138552": {
    "boxArtUrl": "https://images.launchbox-app.com/81279849-c8fc-420c-ab2b-41cc535a366c.jpg",
+   "description": "An action puzzle game: push blocks onto monsters before they get you.",
    "developer": "Steven Wallis",
    "launchbox": "138552",
    "mobygames": 35712,
@@ -12528,6 +12666,7 @@
   },
   "msx:138555": {
    "boxArtUrl": "https://images.launchbox-app.com/1ad1a854-1e72-4e0e-847c-4325ec79798a.png",
+   "description": "Dinamic's action platformer based on the Spanish comic hero El Capitan Trueno.",
    "developer": "Dinamic Software",
    "launchbox": "138555",
    "mobygames": 16010,
@@ -12545,6 +12684,7 @@
   },
   "msx:138583": {
    "boxArtUrl": "https://images.launchbox-app.com/305a1daa-7ea8-4ae7-bbd3-b866b9c6ae9c.png",
+   "description": "A homebrew Manic Miner-style platformer.",
    "developer": "JLTurSan",
    "launchbox": "138583",
    "publisher": "MSXdev",
@@ -12559,6 +12699,7 @@
    "contentIds": [
     "sha256-rom-v1:0047b056478db4f03fa7621c92edd54fc0bffbdea0619fdd52558f4f09465904"
    ],
+   "description": "Activision's ten track and field events for up to four players.",
    "developer": "Activision",
    "launchbox": "138604",
    "mobygames": 11537,
@@ -12571,6 +12712,7 @@
   },
   "msx:138607": {
    "boxArtUrl": "https://images.launchbox-app.com/7c0b4ed5-c45d-4339-97f1-7b09a31f3349.png",
+   "description": "Ocean's driving game: as an undercover agent, chase down criminals and ram their cars until they stop.",
    "developer": "Ocean Software",
    "launchbox": "138607",
    "mobygames": 9832,
@@ -12583,6 +12725,7 @@
     "Chicago 30's"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/4f82babe-955f-479c-869f-c9f1f58cbfdb.jpg",
+   "description": "A side-scrolling shooter: Eliot hunts the gangsters who rule 1930s Chicago.",
    "developer": "Topo Soft",
    "launchbox": "138609",
    "mobygames": 24829,
@@ -12595,6 +12738,7 @@
     "Coq'Inn"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/83ba7be6-0f6a-45dd-b1af-826c25263cd6.jpg",
+   "description": "A platformer: a rooster makes sure his hen can lay her eggs safely.",
    "developer": "Jawx",
    "launchbox": "138610",
    "mobygames": 33791,
@@ -12604,6 +12748,7 @@
   },
   "msx:138611": {
    "boxArtUrl": "https://images.launchbox-app.com/667c4546-3805-46ce-9bf2-0899f22471cb.jpg",
+   "description": "A horror action game: your car breaks down on the way to the haunted mansion where your love is held.",
    "developer": "Mastertronic",
    "launchbox": "138611",
    "mobygames": 13206,
@@ -12613,6 +12758,7 @@
   },
   "msx:138752": {
    "boxArtUrl": "https://images.launchbox-app.com/75074a86-d445-4237-a803-957a7981a6fa.png",
+   "description": "A comic beat 'em up about Mot, a three-meter inter-dimensional monster.",
    "developer": "Opera Soft",
    "launchbox": "138752",
    "mobygames": 4162,
@@ -12622,6 +12768,7 @@
   },
   "msx:138754": {
    "boxArtUrl": "https://images.launchbox-app.com/669fb0df-b360-4574-95fd-90be66e1d922.png",
+   "description": "A platformer: Hen-House Harry collects a dozen eggs on each level while avoiding the hens.",
    "developer": "A&F Software",
    "launchbox": "138754",
    "mobygames": 16344,
@@ -12634,6 +12781,7 @@
     "Colosseum"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/28ec9bf4-abcb-4b99-8e6e-af390e9b3d10.png",
+   "description": "A chariot racing game: Benurio, a merchant's son, races to escape the wicked Nerio.",
    "developer": "Topo Soft",
    "launchbox": "138767",
    "mobygames": 20091,
@@ -12643,6 +12791,7 @@
   },
   "msx:138771": {
    "boxArtUrl": "https://images.launchbox-app.com/d3cce3f6-00e3-4b2d-9bea-cf1b2b9f189c.jpg",
+   "description": "An action game that moves between areas at set time intervals.",
    "developer": "Zigurat Software",
    "launchbox": "138771",
    "mobygames": 78055,
@@ -12655,6 +12804,7 @@
     "Comando Tracer"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/57259016-d4b3-4c2a-998b-b9833803cde6.png",
+   "description": "Dinamic's shooter set in 2046: a lone commando fights the android system DERGON.",
    "developer": "Zeus Software",
    "launchbox": "138773",
    "mobygames": 34024,
@@ -12664,6 +12814,7 @@
   },
   "msx:138774": {
    "boxArtUrl": "https://images.launchbox-app.com/9eb28783-2c7f-4cdb-bb7a-0bba46a3e8fd.png",
+   "description": "A two-part beat 'em up at sea: fight pirates aboard ship.",
    "developer": "Opera Soft",
    "launchbox": "138774",
    "mobygames": 24830,
@@ -12673,6 +12824,7 @@
   },
   "msx:138775": {
    "boxArtUrl": "https://images.launchbox-app.com/b7f886a7-2af4-413a-aca5-24228acb715c.png",
+   "description": "An action shooter: the super detective Mike Bronco is hired to clean up a gang-ridden city.",
    "developer": "Opera Soft",
    "launchbox": "138775",
    "mobygames": 20021,
@@ -12682,6 +12834,7 @@
   },
   "msx:138776": {
    "boxArtUrl": "https://images.launchbox-app.com/057f7ec4-ae66-463b-aec8-ace16854f0dc.png",
+   "description": "A fantasy action game: two rival wizards, Learic and Leanoric, gather herbs to cast spells against each other.",
    "developer": "Mastertronic",
    "launchbox": "138776",
    "mobygames": 1648,
@@ -12691,6 +12844,7 @@
   },
   "msx:138777": {
    "boxArtUrl": "https://images.launchbox-app.com/7cc8e6ee-fdc1-4a7f-a2bf-24ec9df64571.jpg",
+   "description": "A side-scrolling shooter based on Death Wish 3: Paul Kersey takes on the gangs of New York.",
    "developer": "Gremlin Graphics Software",
    "launchbox": "138777",
    "mobygames": 45176,
@@ -12700,6 +12854,7 @@
   },
   "msx:138778": {
    "boxArtUrl": "https://images.launchbox-app.com/1ff56e30-081e-499b-8fab-2f5cf454f57b.png",
+   "description": "A Defender-style horizontal shooter.",
    "developer": "Gremlin Graphics Software",
    "launchbox": "138778",
    "mobygames": 27067,
@@ -12725,6 +12880,7 @@
   },
   "msx:138787": {
    "boxArtUrl": "https://images.launchbox-app.com/a4179b9b-3634-44d8-9258-648eca9fe3e4.png",
+   "description": "A platformer: secret agent Dynamite Dan must save the world from the evil Dr. Blitzen.",
    "developer": "Mirrorsoft",
    "launchbox": "138787",
    "mobygames": 63114,
@@ -12744,6 +12900,7 @@
    "contentIds": [
     "sha256-rom-v1:bf75533a082b0e7ef8bf4873a087a7dbcf8a894c0db260d07eea632e1a99f601"
    ],
+   "description": "HAL's Eggerland sequel: Lolo pushes blocks and collects hearts to open each room's treasure chest.",
    "developer": "HAL Laboratory",
    "launchbox": "138790",
    "mobygames": 19597,
@@ -12759,6 +12916,7 @@
     "Dr.  Jackle & Mr. Wide"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/d56fbb14-68eb-4742-8b18-735f21a58347.jpg",
+   "description": "An action game: find the items that stop you from changing into your monstrous other self as you go from room to room.",
    "developer": "Stephen N. Curtis",
    "launchbox": "138792",
    "mobygames": 35740,
@@ -12768,6 +12926,7 @@
   },
   "msx:138795": {
    "boxArtUrl": "https://images.launchbox-app.com/96e30a80-6db9-4a32-90a2-75a0ca9de69d.png",
+   "description": "A side-scrolling beat 'em up: street fighters Blade and Striker fight the Dragon Ninja to rescue the president.",
    "developer": "Ocean Software",
    "launchbox": "138795",
    "mobygames": 1299,
@@ -12780,6 +12939,7 @@
     "Basket Master"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/7b5d5642-30b0-41f0-879f-5f0a5a2a5744.png",
+   "description": "Dinamic's one-on-one basketball game featuring Fernando Martin.",
    "developer": "Dinamic Software",
    "launchbox": "138850",
    "publisher": "Imagine Software",
@@ -12788,6 +12948,7 @@
   },
   "msx:138851": {
    "boxArtUrl": "https://images.launchbox-app.com/48eeba3b-6929-42c5-9b61-c52ba0c418ff.png",
+   "description": "A platformer: the Magic Knight hunts for a birthday present for the King of Ibsisima's daughter.",
    "developer": "Mastertronic",
    "launchbox": "138851",
    "mobygames": 19116,
@@ -12797,6 +12958,7 @@
   },
   "msx:138852": {
    "boxArtUrl": "https://images.launchbox-app.com/6e99837d-1758-4abe-ad6f-26196fbae4d9.png",
+   "description": "An action game based on the comic strip: Flash Gordon faces three tasks against Ming.",
    "developer": "Mastertronic",
    "launchbox": "138852",
    "publisher": "Mastertronic Added Dimension",
@@ -12805,6 +12967,7 @@
   },
   "msx:138853": {
    "boxArtUrl": "https://images.launchbox-app.com/40717366-632e-4c5a-a7f4-99535f888dc0.png",
+   "description": "A flight simulator billed as an advanced pilot trainer.",
    "developer": "Anirog Software",
    "launchbox": "138853",
    "mobygames": 55803,
@@ -12814,6 +12977,7 @@
   },
   "msx:138854": {
    "boxArtUrl": "https://images.launchbox-app.com/dcb0770c-9fe8-453f-96f8-dfd8f1070e76.jpg",
+   "description": "An action game: farmer Fred rescues his ruined fruit crop after a freak storm.",
    "developer": "Krypton Force",
    "launchbox": "138854",
    "mobygames": 69872,
@@ -12823,6 +12987,7 @@
   },
   "msx:138856": {
    "boxArtUrl": "https://images.launchbox-app.com/5d8165ed-e592-447f-8e52-a8dfea50382a.png",
+   "description": "Dinamic's platformer: Freddy Hardest, the galaxy's most reckless playboy, crash-lands and must escape.",
    "developer": "Dinamic Software",
    "launchbox": "138856",
    "mobygames": 19938,
@@ -12832,6 +12997,7 @@
   },
   "msx:138858": {
    "boxArtUrl": "https://images.launchbox-app.com/a58919c4-1a7d-4322-8be3-cae08dd8a47a.png",
+   "description": "A single-screen platformer in the vein of Mappy: collect fruit while avoiding the enemies.",
    "developer": "Pony Canyon",
    "launchbox": "138858",
    "mobygames": 67453,
@@ -12841,6 +13007,7 @@
   },
   "msx:138859": {
    "boxArtUrl": "https://images.launchbox-app.com/c004ebeb-1b31-4ac3-8315-2ce5ed24a160.png",
+   "description": "An action game: Fruity Frank harvests all the fruit on the screen while monsters chase him.",
    "developer": "Steven Wallis",
    "launchbox": "138859",
    "mobygames": 20257,
@@ -12850,6 +13017,7 @@
   },
   "msx:138861": {
    "boxArtUrl": "https://images.launchbox-app.com/959c1da8-9210-4479-9296-f14a95563b68.png",
+   "description": "A platformer: Future Knight's ship has crashed on a hostile planet, and he must rescue Princess Amelia.",
    "developer": "Gremlin Graphics Software",
    "launchbox": "138861",
    "mobygames": 19982,
@@ -12859,6 +13027,7 @@
   },
   "msx:138862": {
    "boxArtUrl": "https://images.launchbox-app.com/d862608e-37aa-4e7c-aab9-679954601ec1.png",
+   "description": "A space shooter: get past the alien fleet and dock with your mothership.",
    "developer": "Steven Wallis",
    "launchbox": "138862",
    "publisher": "Kuma Computers",
@@ -12871,6 +13040,7 @@
     "sha256-rom-v1:3a90f3cd4aba648bc93b622e2308145b9f3fe80145093d9df438e5463e6e598e",
     "sha256-rom-v1:a73dd4b5e9bf2c1e08d269b470aca81673b3207a4ffafce56582820b700105ae"
    ],
+   "description": "Namco's Galaxian: shoot down the alien formations as they swoop and dive at you.",
    "developer": "Namco",
    "launchbox": "138863",
    "mobygames": 137,
@@ -12895,6 +13065,7 @@
    "contentIds": [
     "sha256-rom-v1:b5113fd5a9e16c463cc7c3334cad56205217c6171472cda10a2730f0b17a8995"
    ],
+   "description": "Activision's game based on Ghostbusters: run a ghostbusting business, trapping ghosts across the city before the Stay Puft Marshmallow Man arrives.",
    "developer": "Activision",
    "launchbox": "138872",
    "mobygames": 2619,
@@ -12910,6 +13081,7 @@
     "Cazafantasmas II"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/c7710a9b-62fa-401d-b1e6-7fdefe2754a2.png",
+   "description": "An action game in three scenes based on Ghostbusters II.",
    "developer": "New Frontier",
    "launchbox": "138874",
    "mobygames": 70330,
@@ -12919,6 +13091,7 @@
   },
   "msx:138875": {
    "boxArtUrl": "https://images.launchbox-app.com/abcd3b34-29f5-409d-9948-add7e5516f46.png",
+   "description": "A side-scrolling platformer starring Gonzzalezz, a sleepy Mexican.",
    "developer": "Opera Soft",
    "launchbox": "138875",
    "mobygames": 28005,
@@ -12936,6 +13109,7 @@
   },
   "msx:138982": {
    "boxArtUrl": "https://images.launchbox-app.com/b3921725-cb89-4e8e-8b81-a3a7fd9a21be.png",
+   "description": "Konami's commando game: armed with a knife, fight through enemy bases to rescue prisoners.",
    "developer": "Konami",
    "launchbox": "138982",
    "publisher": "Konami",
@@ -12947,6 +13121,7 @@
     "Gremlins 2: La Nueva Generacion"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/c71301ba-b5b3-4951-bad7-50eafea4affe.png",
+   "description": "A platform shooter based on Gremlins 2: Billy rescues Gizmo from Clamp Tower.",
    "developer": "Topo Soft",
    "launchbox": "138983",
    "mobygames": 1132,
@@ -12959,6 +13134,7 @@
     "Griel's Quest for the Sangraal - Griel no Seihai"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/9610d282-1727-47e9-a813-f2a619c15542.png",
+   "description": "A homebrew MSX1 remake of the puzzle game Griel no Seihai: guide Griel through rooms in search of the Holy Grail.",
    "developer": "Karoshi",
    "launchbox": "138984",
    "mobygames": 23854,
@@ -12968,6 +13144,7 @@
   },
   "msx:139022": {
    "boxArtUrl": "https://images.launchbox-app.com/b4e8a9ac-b158-4e5d-a285-dfb14102c40f.png",
+   "description": "A helicopter action shooter.",
    "developer": "Colpax",
    "launchbox": "139022",
    "mobygames": 234290,
@@ -12980,6 +13157,7 @@
    "contentIds": [
     "sha256-rom-v1:3ccbe823d9518f72212e1fd0d840935309a8f1bf3c528b2707e9bd83308f27cf"
    ],
+   "description": "Activision's H.E.R.O.: fly with a propeller pack through flooded mines, blasting walls to rescue trapped miners.",
    "developer": "Activision",
    "launchbox": "139023",
    "mobygames": 10150,
@@ -12992,6 +13170,7 @@
   },
   "msx:139132": {
    "boxArtUrl": "https://images.launchbox-app.com/4c3d8edc-3b11-4fe1-af25-320ff1951b94.png",
+   "description": "An arcade game like Whac-A-Mole and Kaboom!: Hammer Boy fends off attackers with his hammer.",
    "developer": "True Emotions Software",
    "launchbox": "139132",
    "mobygames": 14186,
@@ -13001,6 +13180,7 @@
   },
   "msx:139138": {
    "boxArtUrl": "https://images.launchbox-app.com/f7083cbb-784e-438e-8157-2bf29e364b9b.png",
+   "description": "A platformer: search Tinterdell Castle for the hidden treasures of the legendary King Mark.",
    "developer": "Micro Cabin",
    "launchbox": "139138",
    "mobygames": 210794,
@@ -13011,6 +13191,7 @@
   },
   "msx:139180": {
    "boxArtUrl": "https://images.launchbox-app.com/e29a69ab-feee-4eb5-b564-ce676e6fea01.jpg",
+   "description": "A platformer: Joe must find his way out of a haunted house's sixteen rooms.",
    "developer": "Eurosoft",
    "launchbox": "139180",
    "mobygames": 212960,
@@ -13020,6 +13201,7 @@
   },
   "msx:139182": {
    "boxArtUrl": "https://images.launchbox-app.com/85e9a14d-3358-4337-9414-576f7f7609be.jpg",
+   "description": "Ocean's isometric adventure: two characters with different abilities, Head and Heels, work together to free five planets.",
    "developer": "Ocean Software",
    "launchbox": "139182",
    "mobygames": 13812,
@@ -13034,6 +13216,7 @@
     "Monogatari Megami Tensei"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/fc4faaa6-d6c3-4353-814d-11a1d3627810.jpg",
+   "description": "Telenet's dungeon action game: the student Akemi Nakajima's program summons demons from the computer, and he must descend into the demon world to stop them.",
    "developer": "Telenet Japan",
    "launchbox": "139236",
    "mobygames": 18589,
@@ -13043,6 +13226,7 @@
   },
   "msx:139356": {
    "boxArtUrl": "https://images.launchbox-app.com/6d353256-ffe2-43a1-905e-79c467ea4457.png",
+   "description": "An isometric action strategy game: push a bomb along the highway to the alien base, escorted by Vorton droids.",
    "developer": "Vortex Software",
    "launchbox": "139356",
    "mobygames": 37245,
@@ -13052,6 +13236,7 @@
   },
   "msx:139361": {
    "boxArtUrl": "https://images.launchbox-app.com/b870f881-39c4-4979-88ad-c653025b28ba.png",
+   "description": "Ocean's platformer: Quasimodo leaps the castle ramparts to rescue Esmeralda.",
    "developer": "Ocean Software",
    "launchbox": "139361",
    "mobygames": 23031,
@@ -13061,6 +13246,7 @@
   },
   "msx:139494": {
    "boxArtUrl": "https://images.launchbox-app.com/dc7eedd1-4e52-4fea-91be-a0f539b385bf.jpg",
+   "description": "A top-down maze game: steer a snake through scrolling corridors.",
    "developer": "Steven Wallis",
    "launchbox": "139494",
    "mobygames": 70181,
@@ -13070,6 +13256,7 @@
   },
   "msx:139505": {
    "boxArtUrl": "https://images.launchbox-app.com/6ae1ea51-859a-4779-b0a2-2ac79c22329e.png",
+   "description": "A bobsleigh racing game.",
    "developer": "Topo Soft",
    "launchbox": "139505",
    "publisher": "Topo Soft",
@@ -13081,6 +13268,7 @@
     "Inca I"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/fad06810-acf4-42ee-aeda-533234f52688.png",
+   "description": "A Manic Miner-style platformer set among the Incas.",
    "developer": "The Bytebusters",
    "launchbox": "139506",
    "mobygames": 135824,
@@ -13093,6 +13281,7 @@
     "Indy - Indiana Jones y la Ultima Cruzada"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/565b0859-157d-4606-b182-72344a1739c1.png",
+   "description": "A platformer based on Indiana Jones and the Last Crusade: Indy pursues the Holy Grail.",
    "developer": "Tiertex",
    "launchbox": "139507",
    "mobygames": 1146,
@@ -13102,6 +13291,7 @@
   },
   "msx:139508": {
    "boxArtUrl": "https://images.launchbox-app.com/74e3c932-866f-4041-a8eb-cc555bfb995b.jpg",
+   "description": "A conversion of Atari's arcade game: Indiana Jones frees the enslaved children from the Temple of Doom.",
    "developer": "Atari Games",
    "launchbox": "139508",
    "mobygames": 1838,
@@ -13119,6 +13309,7 @@
    "contentIds": [
     "sha256-rom-v1:86225b0559f1d4e5acadc00d5a18febc265bfc43a6ec5b7e2d360087080cbe5c"
    ],
+   "description": "HAL's action game: Inspector Z hunts for the plans of the ultimate weapon.",
    "developer": "HAL Laboratory",
    "launchbox": "139509",
    "publisher": "HAL Laboratory",
@@ -13130,6 +13321,7 @@
   },
   "msx:139511": {
    "boxArtUrl": "https://images.launchbox-app.com/36356488-86a7-47c8-b437-a59ac214785f.png",
+   "description": "A karate game: win bouts to earn higher dan grades.",
    "developer": "Endurance Games",
    "launchbox": "139511",
    "publisher": "Endurance Games",
@@ -13138,6 +13330,7 @@
   },
   "msx:139512": {
    "boxArtUrl": "https://images.launchbox-app.com/10a234d8-da87-44dc-a50f-bf6ec21d9d1f.png",
+   "description": "A modern 8-bit-style platformer: fight through zombie monsters with a range of weapons.",
    "developer": "RELEVO",
    "launchbox": "139512",
    "mobygames": 151231,
@@ -13147,6 +13340,7 @@
   },
   "msx:139513": {
    "boxArtUrl": "https://images.launchbox-app.com/ae3ff245-7e61-490f-8e38-2eb3cfc24a21.png",
+   "description": "A platformer: Jack is a naughty baby who wreaks havoc around town to fill his naughtyometer.",
    "developer": "Gremlin Graphics Software",
    "launchbox": "139513",
    "mobygames": 19988,
@@ -13156,6 +13350,7 @@
   },
   "msx:139880": {
    "boxArtUrl": "https://images.launchbox-app.com/997e67ed-9468-4725-a964-f49e8c8c488b.png",
+   "description": "The Jack the Nipper sequel: naughty baby Jack causes mischief in the jungle.",
    "developer": "Gremlin Graphics Software",
    "launchbox": "139880",
    "mobygames": 15206,
@@ -13168,6 +13363,7 @@
     "Tiburon"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/67afcc7d-3363-410d-b0d8-2742e60f1372.png",
+   "description": "An action strategy game based on Jaws: Chief Brody must stop the shark off Amity Island.",
    "developer": "Intelligent Design",
    "launchbox": "139896",
    "mobygames": 19591,
@@ -13177,6 +13373,7 @@
   },
   "msx:139897": {
    "boxArtUrl": "https://images.launchbox-app.com/45a1ed98-95e6-4027-9921-ff60d7f413cb.jpg",
+   "description": "A Zaxxon-style 3D shooter with speech and music.",
    "developer": "The Bytebusters",
    "launchbox": "139897",
    "mobygames": 210187,
@@ -13186,6 +13383,7 @@
   },
   "msx:139898": {
    "boxArtUrl": "https://images.launchbox-app.com/9b441949-82e1-458d-ad43-e6ff1a489028.png",
+   "description": "A platform shooter: Joe Blade rescues six world leaders from the madman Crax Bloodfinger.",
    "developer": "Players",
    "launchbox": "139898",
    "mobygames": 15100,
@@ -13204,6 +13402,7 @@
   },
   "msx:139902": {
    "boxArtUrl": "https://images.launchbox-app.com/df6c916f-da06-471a-b647-6d0efae0ee6f.png",
+   "description": "A platformer: rescue the girl tied to a stake across the jungle.",
    "developer": "Zigurat Software",
    "launchbox": "139902",
    "mobygames": 76148,
@@ -13213,6 +13412,7 @@
   },
   "msx:141338": {
    "boxArtUrl": "https://images.launchbox-app.com/ca8e9b82-0a51-4f79-8d76-4a96936b97e9.png",
+   "description": "Jordan Mechner's Karateka: fight your way into the fortress of the evil Akuma to rescue Princess Mariko.",
    "developer": "Gamart",
    "launchbox": "141338",
    "mobygames": 1268,
@@ -13222,6 +13422,7 @@
   },
   "msx:141339": {
    "boxArtUrl": "https://images.launchbox-app.com/dfdaa546-ad53-4190-a7b7-c26918a876d7.png",
+   "description": "A Spanish parody action game set in a dystopian future Bangkok.",
    "developer": "Iber Soft",
    "launchbox": "141339",
    "publisher": "MCM Software",
@@ -13233,6 +13434,7 @@
    "contentIds": [
     "sha256-rom-v1:66e2a98217f686f1cd73c6b17af9b2df4ffbe18adde6b16e49f28ff3335d9dac"
    ],
+   "description": "Ultimate's isometric adventure: cursed to turn into a werewolf at night, Sabreman gathers ingredients in the wizard Melkhior's castle to break the spell.",
    "developer": "Ashby Computers and Graphics",
    "launchbox": "141425",
    "mobygames": 14733,
@@ -13245,6 +13447,7 @@
   },
   "msx:141426": {
    "boxArtUrl": "https://images.launchbox-app.com/5013503e-815b-4abe-b94b-78200849f9a1.png",
+   "description": "The Magic Knight is transported to the 25th century and must find a way home through time.",
    "developer": "Mastertronic",
    "launchbox": "141426",
    "mobygames": 28326,
@@ -13257,6 +13460,7 @@
     "Koneko no dai bouken: Chibi-chan ga iku"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/f7bd519d-8de6-4411-ba1f-fb10d19e7b3f.png",
+   "description": "A platformer starring a little cat named Chibi.",
    "developer": "Casio Computer",
    "launchbox": "141633",
    "publisher": "Casio Computer",
@@ -13268,6 +13472,7 @@
     "KnockOut!"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/b3b04ac4-e929-4e86-8465-c78e730d3539.png",
+   "description": "A boxing game: fight your way to the world heavyweight championship.",
    "developer": "Alligata Software",
    "launchbox": "142328",
    "mobygames": 65223,
@@ -13280,6 +13485,7 @@
     "3D Pool: Maltese Joe's Pool Challenge"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/b1f9f7c5-c33e-4fd8-a809-4a8939cb54c3.jpg",
+   "description": "One of the earliest 3D pool games, with a rotating view around the table.",
    "developer": "Aardvark Software",
    "launchbox": "142330",
    "mobygames": 2003,
@@ -13289,6 +13495,7 @@
   },
   "msx:142332": {
    "boxArtUrl": "https://images.launchbox-app.com/2c10c995-f55b-47d0-968a-488a1ebd2ed6.jpg",
+   "description": "An off-road motorcycle racing game across the stages of an African trail.",
    "developer": "Positive",
    "launchbox": "142332",
    "mobygames": 19926,
@@ -13298,6 +13505,7 @@
   },
   "msx:142337": {
    "boxArtUrl": "https://images.launchbox-app.com/58fae168-56a7-4487-9880-8f077d764215.png",
+   "description": "A vertical shooter against alien attackers.",
    "developer": "LiveWire Software UK",
    "launchbox": "142337",
    "mobygames": 19901,
@@ -13307,6 +13515,7 @@
   },
   "msx:142338": {
    "boxArtUrl": "https://images.launchbox-app.com/d1b19c6f-76d2-4329-9956-ef6f0264daed.png",
+   "description": "An Asteroids clone: shoot drifting rocks from a rotating ship.",
    "developer": "Kuma Computers",
    "launchbox": "142338",
    "publisher": "Kuma Computers",
@@ -13315,6 +13524,7 @@
   },
   "msx:142340": {
    "boxArtUrl": "https://images.launchbox-app.com/af0784e9-44cb-465e-b860-9de1ccef98fd.png",
+   "description": "An isometric puzzle action game: a worker at the PuraTom factory fights off killer tomatoes.",
    "developer": "Global Software",
    "launchbox": "142340",
    "mobygames": 19941,
@@ -13336,6 +13546,7 @@
     "Attack Four Volleyball "
    ],
    "boxArtUrl": "https://images.launchbox-app.com/99ed28d3-279e-48e8-98c1-ea6feeb4dcfe.jpg",
+   "description": "A fast four-player women's volleyball game: Japan against the world.",
    "developer": "Pax Softnica",
    "launchbox": "142347",
    "mobygames": 35067,
@@ -13345,6 +13556,7 @@
   },
   "msx:142447": {
    "boxArtUrl": "https://images.launchbox-app.com/a9e16927-5030-4584-b928-8182c83a84f7.jpg",
+   "description": "Infocom's interactive fiction set in a circus: find the owner's kidnapped daughter.",
    "developer": "Infocom",
    "launchbox": "142447",
    "publisher": "Infocom",
@@ -13356,6 +13568,7 @@
    "contentIds": [
     "sha256-rom-v1:cf69315d4b4630db4e749e02292bc105b334d4caf102656e1916c2b41bcdf131"
    ],
+   "description": "An action game: a round little creature on the Amazon flees the man-eating Bocondo.",
    "developer": "Studio GEN",
    "launchbox": "142448",
    "mobygames": 29055,
@@ -13368,6 +13581,7 @@
   },
   "msx:142449": {
    "boxArtUrl": "https://images.launchbox-app.com/07336cb7-fd31-4073-9746-ab0f26127481.png",
+   "description": "A fishing game: choose a lure and reel in black bass.",
    "developer": "Another",
    "launchbox": "142449",
    "mobygames": 59422,
@@ -13400,6 +13614,7 @@
     "Boardelo"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/r2_92b54021-6f05-44ad-9fa4-ef304879fd19.jpg",
+   "description": "A board game for two players or one against the computer.",
    "developer": "Dave Collins",
    "launchbox": "142486",
    "mobygames": 35710,
@@ -13409,6 +13624,7 @@
   },
   "msx:142487": {
    "boxArtUrl": "https://images.launchbox-app.com/a2910e17-028b-4a5c-92c4-d2eb0dc3a31f.png",
+   "description": "A Dutch educational math game of steering a BMX around a map.",
    "developer": "Longman Group",
    "launchbox": "142487",
    "mobygames": 54395,
@@ -13421,6 +13637,7 @@
     "Fraction Fever"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/0dc589fd-c404-4105-8b91-aa0aacbcbe30.png",
+   "description": "An educational platformer about fractions: climb to the twentieth floor by finding the right fractions.",
    "developer": "Spinnaker Software",
    "launchbox": "142497",
    "mobygames": 71169,
@@ -13433,6 +13650,7 @@
     "La Pulga (Bugaboo)"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/8503c34c-3bb1-434e-a7c0-f9d850f1ba15.png",
+   "description": "A platformer: Bugaboo the flea jumps his way out of a deep cave.",
    "developer": "Indescomp S.A.",
    "launchbox": "142500",
    "mobygames": 14332,
@@ -13442,6 +13660,7 @@
   },
   "msx:143194": {
    "boxArtUrl": "https://images.launchbox-app.com/647e8431-8401-461c-b24a-b45efd3c44f8.png",
+   "description": "An action game based on Donkey Kong, in two parts.",
    "developer": "Zigurat Software",
    "launchbox": "143194",
    "mobygames": 48940,
@@ -13451,6 +13670,7 @@
   },
   "msx:143196": {
    "boxArtUrl": "https://images.launchbox-app.com/555f5e81-5399-486e-9fe1-10501fab1c14.png",
+   "description": "A Breakout-style game with the bat on the side of the screen.",
    "developer": "Gremlin Graphics Software",
    "launchbox": "143196",
    "mobygames": 19415,
@@ -13460,6 +13680,7 @@
   },
   "msx:143201": {
    "boxArtUrl": "https://images.launchbox-app.com/81ea08cf-22f9-4815-addb-e22581f616c8.png",
+   "description": "A janitor wanders a hotel's corridors and enters rooms to play many different mini-games.",
    "developer": "Terminal Software",
    "launchbox": "143201",
    "mobygames": 12505,
@@ -13469,6 +13690,7 @@
   },
   "msx:143202": {
    "boxArtUrl": "https://images.launchbox-app.com/987f769a-9566-4e18-bee8-0ad9912109ca.png",
+   "description": "An early first-person racing game set at Le Mans.",
    "developer": "Electric Software",
    "launchbox": "143202",
    "mobygames": 67558,
@@ -13492,6 +13714,7 @@
    "contentIds": [
     "sha256-rom-v1:b85ab62ae22b5bdb85c3dffb1f9d628836e98d928f93512e32d8b2f12a1c89b6"
    ],
+   "description": "A sci-fi action adventure: find out whether the planet M36 is fit for life.",
    "developer": "Pixel",
    "launchbox": "143205",
    "publisher": "Pixel",
@@ -13503,6 +13726,7 @@
   },
   "msx:143218": {
    "boxArtUrl": "https://images.launchbox-app.com/1ee04e8e-4c68-4ae1-b88d-5220fdfcba41.png",
+   "description": "Opera Soft's sequel: Livingstone returns to the jungle on a new expedition.",
    "developer": "Opera Soft",
    "launchbox": "143218",
    "mobygames": 14379,
@@ -13512,6 +13736,7 @@
   },
   "msx:143220": {
    "boxArtUrl": "https://images.launchbox-app.com/cb6f79a5-c8b3-429e-82d1-12a93b9f04c7.png",
+   "description": "An action game based on Alfonso Azpiri's comic heroine Lorna, fighting aliens on a distant world.",
    "developer": "Topo Soft",
    "launchbox": "143220",
    "mobygames": 14242,
@@ -13521,6 +13746,7 @@
   },
   "msx:143225": {
    "boxArtUrl": "https://images.launchbox-app.com/73924fc8-1a51-4ee2-82dd-e56db934b94a.png",
+   "description": "The Mad Mix sequel: an isometric maze game set in a castle of ghosts.",
    "developer": "Topo Soft",
    "launchbox": "143225",
    "mobygames": 19889,
@@ -13530,6 +13756,7 @@
   },
   "msx:143230": {
    "boxArtUrl": "https://images.launchbox-app.com/b3785a3a-35c2-472c-b977-3f9e9b521b30.png",
+   "description": "A Pac-Man variant with transforming power-ups across many maze levels.",
    "developer": "Topo Soft",
    "launchbox": "143230",
    "mobygames": 203,
@@ -13547,6 +13774,7 @@
   },
   "msx:144742": {
    "boxArtUrl": "https://images.launchbox-app.com/0d5bfe32-849c-4126-ac4e-bbb125786f89.png",
+   "description": "An action game: Mambo, the galaxy's most intrepid secret agent, takes on a dangerous mission.",
    "developer": "Positive",
    "launchbox": "144742",
    "mobygames": 20379,
@@ -13556,6 +13784,7 @@
   },
   "msx:144744": {
    "boxArtUrl": "https://images.launchbox-app.com/854d3430-48fc-4f51-a8bb-df77c6c72d34.png",
+   "description": "The classic platformer: Miner Willy explores twenty underground caverns, collecting keys while avoiding strange creatures.",
    "developer": "Software Projects",
    "launchbox": "144744",
    "mobygames": 6440,
@@ -13568,6 +13797,7 @@
     "Bombas"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/208f651b-c136-4aca-b234-9d9da61e38ec.jpg",
+   "description": "An early MSX game: a little man with a cannon defends a military base.",
    "developer": "Policy",
    "launchbox": "146309",
    "publisher": "Morwood Software",
@@ -13579,6 +13809,7 @@
    "contentIds": [
     "sha256-rom-v1:577fc2a97e54b3ab834f68ffb81e65572dd9ea9db488c5bd3bcb6ca435f57799"
    ],
+   "description": "A simple top-down racing game on a single track.",
    "developer": "Ample Software",
    "launchbox": "146310",
    "mobygames": 58428,
@@ -13599,6 +13830,7 @@
    "contentIds": [
     "sha256-rom-v1:40ae370b5335046dfa316718c1c9f3e0e3818ad7411cf291abb8af0cfd5a9f6e"
    ],
+   "description": "A shooter based on the anime Ginga Hyouryuu Vifam.",
    "developer": "Bandai",
    "launchbox": "146314",
    "mobygames": 25374,
@@ -13617,6 +13849,7 @@
     "妖怪屋敷"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/ee246f91-8a81-49f2-885d-e35b8b06b468.jpg",
+   "description": "Casio's horror platformer set in a monster house.",
    "developer": "Casio Computer",
    "launchbox": "146321",
    "mobygames": 230688,
@@ -13626,6 +13859,7 @@
   },
   "msx:146322": {
    "boxArtUrl": "https://images.launchbox-app.com/13868158-e18b-43f1-acbd-eee1f6baf72b.jpg",
+   "description": "Pitfall Harry explores huge caverns searching for the Raj diamond, his niece Rhonda and his cat Quickclaw.",
    "developer": "Activision",
    "launchbox": "146322",
    "mobygames": 6946,
@@ -13638,6 +13872,7 @@
     "Boulder Dash II: Rockford's Riot"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/49da8da4-29fc-4041-a73f-feef58755b37.jpg",
+   "description": "The Boulder Dash sequel: Rockford digs for diamonds in new caves.",
    "developer": "First Star Software",
    "launchbox": "146769",
    "mobygames": 4633,
@@ -13647,6 +13882,7 @@
   },
   "msx:146770": {
    "boxArtUrl": "https://images.launchbox-app.com/d959abb5-eafc-4861-9e36-7b356b0675f5.png",
+   "description": "Gremlin's action game: guide a bouncing tennis ball across scrolling platforms without falling.",
    "developer": "Gremlin Graphics Software",
    "launchbox": "146770",
    "mobygames": 19936,
@@ -13662,6 +13898,7 @@
    "contentIds": [
     "sha256-rom-v1:b4d28de2d267e80712da4810103c37e1722fd8a8a42fb40bb1408365b7d4a3b9"
    ],
+   "description": "Breakout: destroy the wall of bricks with a ball and paddle.",
    "developer": "ASCII",
    "launchbox": "146771",
    "mobygames": 194978,
@@ -13674,6 +13911,7 @@
   },
   "msx:146772": {
    "boxArtUrl": "https://images.launchbox-app.com/4d482cc6-5eba-48d4-a2d5-c328de6135f0.jpg",
+   "description": "Taito's arcade platformer: Bub and Bob, turned into bubble-blowing dragons, trap monsters in bubbles and pop them across a hundred cave rounds.",
    "developer": "Clover Soft",
    "launchbox": "146772",
    "mobygames": 787,
@@ -13683,6 +13921,7 @@
   },
   "msx:146773": {
    "boxArtUrl": "https://images.launchbox-app.com/3d0d78e1-4b5b-4bb1-9e3e-2d943b017309.jpg",
+   "description": "Sega's behind-view shooter loosely based on Buck Rogers: fly through trenches and space to the Planet of Zoom.",
    "developer": "Sega",
    "launchbox": "146773",
    "mobygames": 1813,
@@ -13696,6 +13935,7 @@
     "sha256-rom-v1:3e2658e8414f5f5a69a901c70d8250c94ca1fcc97f3e9205d8fbe98a6f882a40",
     "sha256-rom-v1:8cc5d597bf876402a412ab8310f9b343935161567fbb482c392649a38cbde4a2"
    ],
+   "description": "An action game based on Rambo: starting with only a knife, fight through the jungle to free prisoners.",
    "developer": "Pack-In-Video",
    "launchbox": "146879",
    "mobygames": 18978,
@@ -13716,6 +13956,7 @@
   },
   "msx:147324": {
    "boxArtUrl": "https://images.launchbox-app.com/47414aee-83c6-4140-b216-ecb8854e35bd.jpg",
+   "description": "An action shooter: recover the stolen money from the bank robber prowling the streets.",
    "developer": "Hudson Soft",
    "launchbox": "147324",
    "mobygames": 226591,
@@ -13725,6 +13966,7 @@
   },
   "msx:147638": {
    "boxArtUrl": "https://images.launchbox-app.com/8d1703f3-9e3e-44fe-9efe-a574e45806f7.png",
+   "description": "Ultimate's isometric action game: the robot ship Markon Dawn is attacked by Martianoids, and a robot must defend its brain.",
    "developer": "Ultimate Play The Game",
    "launchbox": "147638",
    "mobygames": 73710,
@@ -13734,6 +13976,7 @@
   },
   "msx:147639": {
    "boxArtUrl": "https://images.launchbox-app.com/aa459ddc-3ff1-48a5-8734-edfa55f9834e.png",
+   "description": "A Spanish geography game.",
    "developer": "Erbe Software",
    "launchbox": "147639",
    "publisher": "Erbe Software",
@@ -13742,6 +13985,7 @@
   },
   "msx:147640": {
    "boxArtUrl": "https://images.launchbox-app.com/48ce956c-dfe2-492a-9eeb-a9721e78474e.png",
+   "description": "Activision's music game: an Eastern prince rides a magic carpet and matches tones on genie lamps to become king.",
    "developer": "Activision",
    "launchbox": "147640",
    "mobygames": 29897,
@@ -13751,6 +13995,7 @@
   },
   "msx:147641": {
    "boxArtUrl": "https://images.launchbox-app.com/2793fa0a-3d61-4528-bae3-eace926e077a.png",
+   "description": "A fixed-screen shooter of sixteen levels, each with its own kind of enemy.",
    "developer": "Personal Software Services",
    "launchbox": "147641",
    "publisher": "Personal Software Services",
@@ -13759,6 +14004,7 @@
   },
   "msx:147642": {
    "boxArtUrl": "https://images.launchbox-app.com/c04dd5bd-2e86-4e61-97db-022a368a2596.jpg",
+   "description": "A maze game: find the treasure in a huge maze guarded by maziacs.",
    "developer": "dk'tronics",
    "launchbox": "147642",
    "mobygames": 20120,
@@ -13768,6 +14014,7 @@
   },
   "msx:147643": {
    "boxArtUrl": "https://images.launchbox-app.com/0b7b8bd4-b3c9-4601-b83a-64cf6f615341.png",
+   "description": "A Dinamic shooter: Philip Sunset, called Long Hands, takes on a mission in space.",
    "developer": "Dinamic Software",
    "launchbox": "147643",
    "mobygames": 19953,
@@ -13777,6 +14024,7 @@
   },
   "msx:147644": {
    "boxArtUrl": "https://images.launchbox-app.com/3919ceaa-e385-4dfd-8691-dce3d976f2ba.png",
+   "description": "An updated Phoenix: shoot down waves of birds and the alien mothership.",
    "developer": "Creepsoft",
    "launchbox": "147644",
    "mobygames": 25335,
@@ -13786,6 +14034,7 @@
   },
   "msx:147645": {
    "boxArtUrl": "https://images.launchbox-app.com/eca83465-fe28-4336-a298-4a346660f862.png",
+   "description": "A Trojan-style action game.",
    "developer": "Topo Soft",
    "launchbox": "147645",
    "mobygames": 49366,
@@ -13795,6 +14044,7 @@
   },
   "msx:147705": {
    "boxArtUrl": "https://images.launchbox-app.com/b9505d8b-ba97-4d60-848f-80012cd5b951.png",
+   "description": "An unofficial adaptation of The Jewel of the Nile: three travelers are captured in the desert.",
    "developer": "Made in Spain",
    "launchbox": "147705",
    "publisher": "Zigurat Software",
@@ -13811,6 +14061,7 @@
     "sha256-rom-v1:bb4a942d016100370a1b047a50e9f1416b8418737d75fb8153e66a75a579c45c",
     "sha256-rom-v1:fdf62cfa6db239fcaa3614b56263dd58e8797b206663e491588c062220b16b01"
    ],
+   "description": "Konami's educational platformer: solve arithmetic problems by finding the missing number.",
    "developer": "Konami",
    "launchbox": "147707",
    "mobygames": 19521,
@@ -13823,6 +14074,7 @@
   },
   "msx:147708": {
    "boxArtUrl": "https://images.launchbox-app.com/663352f6-11d4-4570-afa9-7b652362aa5b.png",
+   "description": "An adventure platformer: Montana John follows his late uncle's diary to the Templars' treasure.",
    "developer": "Infinite",
    "launchbox": "147708",
    "publisher": "Infinite",
@@ -13831,6 +14083,7 @@
   },
   "msx:147854": {
    "boxArtUrl": "https://images.launchbox-app.com/6a94a3a0-fe91-4f06-adb0-3c60736a7abd.jpg",
+   "description": "An action game based on Moonwalker: Michael Jackson rescues children across four levels.",
    "developer": "Emerald Software",
    "launchbox": "147854",
    "mobygames": 1412,
@@ -13844,6 +14097,7 @@
     "sha256-rom-v1:89ae5bdd1541c38c2593a91d36bdacf36634c0c8b85977ff2fff046bae4dadbf",
     "sha256-rom-v1:f141f246e23bee1bb23a12caa00cb52c3019c17ab39cd1c04dbc7ff0058744e0"
    ],
+   "description": "Konami's action game: the Mopira's peaceful land has been invaded by the Razons.",
    "developer": "Konami",
    "launchbox": "147855",
    "mobygames": 19541,
@@ -13859,6 +14113,7 @@
     "Clever & Smart"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/43c63329-59d7-4934-a742-3882106a004d.png",
+   "description": "A puzzle action game based on the Spanish comic Mortadelo y Filemon.",
    "developer": "Magic Bytes",
    "launchbox": "147999",
    "mobygames": 53153,
@@ -13868,6 +14123,7 @@
   },
   "msx:148011": {
    "boxArtUrl": "https://images.launchbox-app.com/aece7e83-a6be-41c3-bf81-00df9f40af25.png",
+   "description": "The second Mortadelo y Filemon game: Dr. Bacterio's giant hens are loose in the city.",
    "developer": "Animagic",
    "launchbox": "148011",
    "mobygames": 14409,
@@ -13878,6 +14134,7 @@
   "msx:148012": {
    "aliases": [],
    "boxArtUrl": "https://images.launchbox-app.com/7a712970-93ca-42dc-a1b2-c170570c16e7.png",
+   "description": "An action game: a lost world built by the advanced civilization of the distant planet Sirius.",
    "developer": "Topo Soft",
    "launchbox": "148012",
    "publisher": "Erbe Software",
@@ -13886,6 +14143,7 @@
   },
   "msx:149679": {
    "boxArtUrl": "https://images.launchbox-app.com/aded0b85-367b-4b3a-99bb-fa98a31d7d6f.png",
+   "description": "Hudson's first-person remake of the original Bomber Man.",
    "developer": "Hudson Soft",
    "launchbox": "149679",
    "publisher": "Hudson Soft",
@@ -13897,6 +14155,7 @@
    "contentIds": [
     "sha256-rom-v1:a6d94f7167549481c1c9b7bd4908d1c3233231be2211762928e9fe24a61e235e"
    ],
+   "description": "An adventure based on the 1985 film Young Sherlock Holmes.",
    "developer": "Pack-In-Video",
    "launchbox": "150594",
    "mobygames": 28281,
@@ -13912,6 +14171,7 @@
    "contentIds": [
     "sha256-rom-v1:1bf44e9b9da458c7d738dce1b8f8f0fc8f61e7452a9aa62e4c1d71643b2a4034"
    ],
+   "description": "Sega's boxing game from 1984.",
    "developer": "Sega Enterprises",
    "launchbox": "150664",
    "mobygames": 19651,
@@ -13948,6 +14208,7 @@
    "contentIds": [
     "sha256-rom-v1:ca3ff159ea44d4fd328fc3a9c0ad0a9b856e2e9702b482aef4dd1b41fe26c9e2"
    ],
+   "description": "Sega's behind-view space shooter.",
    "developer": "Sega",
    "launchbox": "151477",
    "publisher": "Pony Canyon",
@@ -13973,6 +14234,7 @@
   },
   "msx:151526": {
    "boxArtUrl": "https://images.launchbox-app.com/2dca553d-5603-4aee-8c2b-6e4342b03d40.png",
+   "description": "The original licensed Tetris: rotate and place falling four-square pieces to complete and clear lines.",
    "developer": "Mirrorsoft",
    "launchbox": "151526",
    "mobygames": 141393,
@@ -13989,6 +14251,7 @@
    "contentIds": [
     "sha256-rom-v1:c99dbe3c77d65148ceeeea3afa003704c6fd9637b30882294ef21e7f52d958e3"
    ],
+   "description": "An arcade ball game on a screen divided into small areas.",
    "developer": "Taito",
    "launchbox": "151570",
    "mobygames": 19763,
@@ -14006,6 +14269,7 @@
     "高橋名人の冒険島"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/c242cf70-192a-4aa3-9459-24d26127f884.jpg",
+   "description": "Hudson's platformer: Master Higgins races across tropical islands to rescue Princess Leilani, eating fruit to keep his energy up.",
    "developer": "Hudson Soft",
    "launchbox": "151571",
    "mobygames": 6628,
@@ -14022,6 +14286,7 @@
     "sha256-rom-v1:183e80262301b18d41762d64a2fc326f4a4bef17832109225637e184d54a70d9",
     "sha256-rom-v1:9e526ce5fc4b6233ed9fb314a6c62d69bc102979c3b1eb238b622359725d8e4e"
    ],
+   "description": "Konami's multidirectional shooter: fly through five eras of air combat, from 1910 biplanes to the future.",
    "developer": "Konami",
    "launchbox": "151824",
    "mobygames": 12834,
@@ -14040,6 +14305,7 @@
    "contentIds": [
     "sha256-rom-v1:ad011203f1295bf75fc30423cead68e12f96169ffeb9f13474303d9a553e41f7"
    ],
+   "description": "Konami's vertical action game: the brave boy Pippols seeks the Holy Gem to bring light back to the world.",
    "developer": "Konami",
    "launchbox": "151827",
    "mobygames": 71034,
@@ -14055,6 +14321,7 @@
     "007: A View to a Kill"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/afe5aa96-dfda-432f-8646-c648b1596255.jpg",
+   "description": "An action game based on A View to a Kill: James Bond stops Max Zorin from destroying Silicon Valley.",
    "developer": "Softstone",
    "launchbox": "152346",
    "mobygames": 12221,
@@ -14064,6 +14331,7 @@
   },
   "msx:152582": {
    "boxArtUrl": "https://images.launchbox-app.com/c1ad1aef-7cd3-4d16-ab53-50c9e5f82cd1.png",
+   "description": "A light cycle game in the style of Tron: trap your opponent with your trail.",
    "developer": "The Bytebusters",
    "launchbox": "152582",
    "mobygames": 211226,
@@ -14073,6 +14341,7 @@
   },
   "msx:152615": {
    "boxArtUrl": "https://images.launchbox-app.com/76beef7b-219b-409e-b6c8-cb3db6390f93.jpg",
+   "description": "A bullfighting game.",
    "developer": "Jawx",
    "launchbox": "152615",
    "mobygames": 24822,
@@ -14096,6 +14365,7 @@
   },
   "msx:152667": {
    "boxArtUrl": "https://images.launchbox-app.com/8ff4ec47-22f0-463c-8552-90b7a7bc9898.jpg",
+   "description": "Lucasfilm's futuristic sport of 3037: two rotofoils battle over a floating ball on a split-screen grid.",
    "developer": "Mr. Micro",
    "launchbox": "152667",
    "mobygames": 10471,
@@ -14105,6 +14375,7 @@
   },
   "msx:152744": {
    "boxArtUrl": "https://images.launchbox-app.com/dece20da-2586-447c-bfc2-14df8ef5d9c6.jpg",
+   "description": "A Frogger-style game: hop across busy lanes and a river to safety.",
    "developer": "Aackosoft International",
    "launchbox": "152744",
    "mobygames": 198696,
@@ -14131,6 +14402,7 @@
    "contentIds": [
     "sha256-rom-v1:4b251519d3edf641dad96e04102bcc3f8e0fe479a3a3e0ee88a82bbe731095eb"
    ],
+   "description": "A top-down dungeon crawler: descend to the dragon's lair and defeat it.",
    "developer": "ASCII",
    "launchbox": "152771",
    "mobygames": 124131,
@@ -14143,6 +14415,7 @@
    "year": 1983
   },
   "msx:152801": {
+   "description": "The third Bomulus adventure: explore and collect items in search of the lost crown.",
    "developer": "Teknopiste",
    "launchbox": "152801",
    "mobygames": 62903,
@@ -14175,6 +14448,7 @@
   },
   "msx:152843": {
    "boxArtUrl": "https://images.launchbox-app.com/58025b4b-fe31-4f48-ae72-7b10677c69fd.jpg",
+   "description": "A puzzle platformer bundled with the Toshiba HX-10 computer.",
    "developer": "Toshiba Corporation",
    "launchbox": "152843",
    "mobygames": 35709,
@@ -14192,6 +14466,7 @@
   },
   "msx:152891": {
    "boxArtUrl": "https://images.launchbox-app.com/49ca087c-9917-48c1-ad70-3f4470f371d7.jpg",
+   "description": "A multi-event sports game licensed by judo champion Brian Jacks.",
    "developer": "Martech Games",
    "launchbox": "152891",
    "mobygames": 61828,
@@ -14201,6 +14476,7 @@
   },
   "msx:152894": {
    "boxArtUrl": "https://images.launchbox-app.com/2db1812c-c38b-4d49-94bf-d41e3498cc0f.jpg",
+   "description": "A street fighting game set in the slums of the Bronx.",
    "developer": "Animagic",
    "launchbox": "152894",
    "publisher": "MCM Software",
@@ -14209,6 +14485,7 @@
   },
   "msx:152898": {
    "boxArtUrl": "https://images.launchbox-app.com/3de57aa2-fe06-49f5-9be2-b6f1e4d183f5.jpg",
+   "description": "A side-scrolling shooter set in a post-apocalyptic 2019: a buggy fights the machines that destroyed the world.",
    "developer": "Iron Byte",
    "launchbox": "152898",
    "mobygames": 46059,
@@ -14218,6 +14495,7 @@
   },
   "msx:152902": {
    "boxArtUrl": "https://images.launchbox-app.com/d9fceac4-8111-4828-b080-0bf0e7889aef.jpg",
+   "description": "A puzzle platformer: a bouncing ball collects items across each level.",
    "developer": "Loriciels",
    "launchbox": "152902",
    "mobygames": 25683,
@@ -14238,6 +14516,7 @@
     "Busy Rainy Day"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/b26eb558-ae65-4d7d-960b-9f13309a86e7.jpg",
+   "description": "Hudson's action game: whack every mouse that comes out of the holes.",
    "developer": "Hudson Soft",
    "launchbox": "152920",
    "mobygames": 222955,
@@ -14247,6 +14526,7 @@
   },
   "msx:152921": {
    "boxArtUrl": "https://images.launchbox-app.com/5ac0a821-9eb4-4439-8181-8add8ffb0af5.jpg",
+   "description": "A single-screen arcade game starring Bertie the Bee.",
    "developer": "Electric Software",
    "launchbox": "152921",
    "mobygames": 20004,
@@ -14259,6 +14539,7 @@
    "contentIds": [
     "sha256-rom-v1:162b9af14dc9061744e07c0c1686d4bd6f3fb422d1e7230719378633b3f3cbff"
    ],
+   "description": "Compile's platformer: a man collects flowers and other items across each stage.",
    "developer": "Compile",
    "launchbox": "152922",
    "mobygames": 20175,
@@ -14271,6 +14552,7 @@
   },
   "msx:152934": {
    "boxArtUrl": "https://images.launchbox-app.com/a80a2f36-f1ed-4fac-be96-05d9f8a72c3f.jpg",
+   "description": "Epyx's extreme sports collection: surfing, skateboarding, BMX, roller skating, footbag and flying disc.",
    "developer": "Choice Software",
    "launchbox": "152934",
    "mobygames": 1823,
@@ -14280,6 +14562,7 @@
   },
   "msx:152936": {
    "boxArtUrl": "https://images.launchbox-app.com/r2_ea15f597-9c35-402f-a3f8-e9eee356917b.jpg",
+   "description": "A collection of six puzzle and strategy games.",
    "developer": "LiveWire Software UK",
    "launchbox": "152936",
    "mobygames": 68542,
@@ -14295,6 +14578,7 @@
   },
   "msx:152962": {
    "boxArtUrl": "https://images.launchbox-app.com/1de2a90a-8338-4626-b4a1-a1093dad8a7c.jpg",
+   "description": "A rally driving game with Spanish champion Carlos Sainz.",
    "developer": "Zigurat Software",
    "launchbox": "152962",
    "mobygames": 14250,
@@ -14313,6 +14597,7 @@
    "contentIds": [
     "sha256-rom-v1:801dc268c018f0f9a687f70e2569a35e24f89034eb3e0b8f7ccdc2fa5af9f4ce"
    ],
+   "description": "An action game: infiltrate an enemy fortress and free five prisoners of war.",
    "developer": "Carry Lab",
    "launchbox": "152963",
    "mobygames": 217825,
@@ -14325,6 +14610,7 @@
   },
   "msx:152964": {
    "boxArtUrl": "https://images.launchbox-app.com/fd1be87a-f072-4c06-9932-bfb87bd41cb9.jpg",
+   "description": "A comic platformer: as the famous 18th-century seducer Casanova, wander the streets of a city.",
    "developer": "Iber Soft",
    "launchbox": "152964",
    "mobygames": 27174,
@@ -14338,6 +14624,7 @@
     "Cavern of Death"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/382ae62c-7c5b-435a-9025-b83c4dfc3385.jpg",
+   "description": "An action game: cross the screen to the exit while avoiding falling paving stones.",
    "developer": "Juliet Software",
    "launchbox": "152973",
    "publisher": "Discovery Informatic",
@@ -14359,6 +14646,7 @@
    "contentIds": [
     "sha256-rom-v1:156d95006fdb99e5ba7f09ad62ffc583b7ff2489fa5478012a426dc6f3413836"
    ],
+   "description": "Sega's soccer game in its Champion sports series.",
    "developer": "Sega",
    "launchbox": "153011",
    "mobygames": 19661,
@@ -14375,6 +14663,7 @@
    "contentIds": [
     "sha256-rom-v1:9512b761481a4a42409e6a198d54a03c5c5ff2b7a44b9f436e6d54a2ce5b65db"
    ],
+   "description": "An action game based on the film starring the Japanese pop band Checkers.",
    "developer": "Pony Canyon",
    "launchbox": "153049",
    "mobygames": 249474,
@@ -14387,6 +14676,7 @@
   },
   "msx:153050": {
    "boxArtUrl": "https://images.launchbox-app.com/39d48913-d10f-4a55-ae0d-98ab20ad202f.jpg",
+   "description": "A martial arts fighting game of Choy Lee Fut kung fu.",
    "developer": "Positive",
    "launchbox": "153050",
    "mobygames": 20154,
@@ -14396,6 +14686,7 @@
   },
   "msx:153052": {
    "boxArtUrl": "https://images.launchbox-app.com/96b1f664-b2af-46b1-a0fb-d06213a5c269.jpg",
+   "description": "A platformer: a car park attendant with a passion for food eats his way through each level.",
    "developer": "Teque Software Development",
    "launchbox": "153052",
    "mobygames": 18133,
@@ -14405,6 +14696,7 @@
   },
   "msx:153053": {
    "boxArtUrl": "https://images.launchbox-app.com/5b6d5363-c662-450e-b2ea-c17dee0764fa.jpg",
+   "description": "An isometric action game starring El Cid Campeador, the Castilian warrior.",
    "developer": "Dro Soft",
    "launchbox": "153053",
    "mobygames": 15793,
@@ -14415,6 +14707,7 @@
   },
   "msx:153054": {
    "boxArtUrl": "https://images.launchbox-app.com/61d67e2a-775e-4f93-9c2e-637ae1c41252.jpg",
+   "description": "The Waddington's board game Cluedo: deduce the murderer, weapon and room.",
    "developer": "Leisure Genius",
    "launchbox": "153054",
    "mobygames": 48099,
@@ -14427,6 +14720,7 @@
     "Cobra's Arc"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/99813cca-03f3-405d-a324-981acc84f785.jpg",
+   "description": "Dinamic's conversational text adventure.",
    "developer": "Dinamic Software",
    "launchbox": "153055",
    "mobygames": 20391,
@@ -14441,6 +14735,7 @@
     "En la edad media"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/9fcec59c-ebb5-4688-bef7-a265c336b342.jpg",
+   "description": "An action game: Coco the clown explores a castle.",
    "developer": "Kuma Computers",
    "launchbox": "153056",
    "mobygames": 217560,
@@ -14450,6 +14745,7 @@
   },
   "msx:153080": {
    "boxArtUrl": "https://images.launchbox-app.com/6ec64a12-e453-4ac5-b46f-b859bd754183.jpg",
+   "description": "An isometric strategy shooter: tend a distant colony's crops while fending off giant insects.",
    "developer": "Icon Design",
    "launchbox": "153080",
    "mobygames": 19174,
@@ -14467,6 +14763,7 @@
   },
   "msx:153084": {
    "boxArtUrl": "https://images.launchbox-app.com/00b12609-03b3-4838-815b-8744863c5619.jpg",
+   "description": "Konami's billiards game, released by Sony.",
    "developer": "Konami Industry",
    "launchbox": "153084",
    "publisher": "Sony",
@@ -14479,6 +14776,7 @@
    "contentIds": [
     "sha256-rom-v1:fb0151a2bca6de27ddb5c316aad0e6fdce529214a6e464d53ebfbfb53b6ef4b0"
    ],
+   "description": "A Snake-style game in the vein of Tron's light cycles.",
    "developer": "ASCII",
    "launchbox": "153086",
    "mobygames": 223795,
@@ -14516,6 +14814,7 @@
     "Confused?"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/8d3abd8a-3981-4fbe-91de-eb2f5bfab60d.jpg",
+   "description": "A sliding puzzle of moving animated pictures.",
    "developer": "The Bytebusters",
    "launchbox": "153121",
    "mobygames": 30559,
@@ -14526,6 +14825,7 @@
   },
   "msx:153122": {
    "boxArtUrl": "https://images.launchbox-app.com/2b6f4191-abf8-44a8-9a6c-165c0c25c7b5.jpg",
+   "description": "A Donkey Kong-style game: climb from the bottom of the screen to the top to save your mate.",
    "developer": "LiveWire Software UK",
    "launchbox": "153122",
    "mobygames": 37001,
@@ -14535,6 +14835,7 @@
   },
   "msx:153123": {
    "boxArtUrl": "https://images.launchbox-app.com/b926d0d9-821b-4872-ad27-4dbda27de1b1.jpg",
+   "description": "Sega's isometric platformer: the hunter climbs after the giant ape Bongo who played a prank on him.",
    "developer": "Sega",
    "launchbox": "153123",
    "mobygames": 3955,
@@ -14545,6 +14846,7 @@
   },
   "msx:153125": {
    "boxArtUrl": "https://images.launchbox-app.com/5997b804-dfd0-4599-9ba4-f7844f9eeec4.jpg",
+   "description": "Taito's Formula One racing game: race to qualify on circuits around the world.",
    "developer": "New Frontier",
    "launchbox": "153125",
    "mobygames": 17741,
@@ -14554,6 +14856,7 @@
   },
   "msx:153141": {
    "boxArtUrl": "https://images.launchbox-app.com/8d7a691b-8637-44cc-952a-3e4c95c1aafa.jpg",
+   "description": "Titus's racing game: drive exotic cars across the United States.",
    "developer": "Titus France",
    "launchbox": "153141",
    "mobygames": 781,
@@ -14564,6 +14867,7 @@
   },
   "msx:153142": {
    "boxArtUrl": "https://images.launchbox-app.com/db871c9a-2721-4665-9ee1-7c0a3e5384da.jpg",
+   "description": "Nine holes of crazy golf full of ricochets and hazards.",
    "developer": "Mr. Micro",
    "launchbox": "153142",
    "mobygames": 25442,
@@ -14578,6 +14882,7 @@
     "sha256-rom-v1:6390dae49a14193c269bb84c68b81c5f5c163885350fff028945ce8fe8bbdc95",
     "sha256-rom-v1:c11935202800b910189db5673d0b65ac2f945438c933182376c9f2069356d188"
    ],
+   "description": "Compile's action platformer: the crusader Zarback heads for the troubled country of Nasali in the 15th century.",
    "developer": "Compile",
    "launchbox": "153153",
    "mobygames": 230841,
@@ -14600,6 +14905,7 @@
   },
   "msx:153187": {
    "boxArtUrl": "https://images.launchbox-app.com/c72a28bd-474f-4829-b0e4-5a15939be71c.png",
+   "description": "A homebrew horror platformer that won MSXdev'05.",
    "developer": "XL2S Entertainment",
    "launchbox": "153187",
    "mobygames": 23823,
@@ -14613,6 +14919,7 @@
     "Curro Jiménez"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/59f6c69a-10ea-4170-9da1-5d380c410391.jpg",
+   "description": "A shooting game based on the Spanish bandit hero Curro Jimenez.",
    "developer": "Arcadia Software",
    "launchbox": "153189",
    "publisher": "Zigurat Software",
@@ -14621,6 +14928,7 @@
   },
   "msx:153192": {
    "boxArtUrl": "https://images.launchbox-app.com/85c7c595-561f-4f21-aaf4-f32142e9908a.jpg",
+   "description": "A colorful arcade action game.",
    "developer": "Animagic",
    "launchbox": "153192",
    "publisher": "MCM Software",
@@ -14633,6 +14941,7 @@
     "Cyrus II Chess"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/fa3080b1-0778-42d3-9797-b34c02dddb16.png",
+   "description": "A chess program, the sequel to Cyrus.",
    "developer": "Intelligent Chess Software",
    "launchbox": "153193",
    "mobygames": 57916,
@@ -14646,6 +14955,7 @@
    "contentIds": [
     "sha256-rom-v1:6abd6fcb6eeb033e4f62bbf9ad162c954d205511a18cade1e93d8677990e4b51"
    ],
+   "description": "A World War II flight simulation of the Dam Busters raid on the German dams.",
    "developer": "Sydney Development",
    "launchbox": "153194",
    "mobygames": 9517,
@@ -14658,6 +14968,7 @@
   },
   "msx:153195": {
    "boxArtUrl": "https://images.launchbox-app.com/f0e04f72-3cd0-4cc4-8715-ac3beb78adf0.jpg",
+   "description": "A text adventure: Danger Mouse takes on Baron Greenback at the Black Forest Chateau.",
    "launchbox": "153195",
    "mobygames": 32767,
    "publisher": "Alternative Software",
@@ -14666,6 +14977,7 @@
   },
   "msx:153196": {
    "boxArtUrl": "https://images.launchbox-app.com/e1bba7db-e1a7-4234-868e-bb7a8a4ca001.jpg",
+   "description": "A text mystery: solve the murder at Darkwood Manor.",
    "developer": "Kuma Computers",
    "launchbox": "153196",
    "mobygames": 214441,
@@ -14689,6 +15001,7 @@
    "contentIds": [
     "sha256-rom-v1:06196c589367a552e08d9e40e728de96e775e8f7f6cc9aaa43666d142e76be06"
    ],
+   "description": "A naval simulation: carry out the assignments in your ship's log.",
    "developer": "The Bytebusters",
    "launchbox": "153198",
    "mobygames": 214367,
@@ -14705,6 +15018,7 @@
    "contentIds": [
     "sha256-rom-v1:2bf5b34b5dde9b8ae127509ef4c80f3bc017dbf374f1113bf10ff83e03d58631"
    ],
+   "description": "A scrolling shooter: a battleship sails through enemy waters.",
    "developer": "Jaleco",
    "launchbox": "153199",
    "mobygames": 19659,
@@ -14725,6 +15039,7 @@
   },
   "msx:153206": {
    "boxArtUrl": "https://images.launchbox-app.com/7aceb3b3-c866-4cfe-a3d9-afed6b7b4f05.jpg",
+   "description": "Ultimate's side-scrolling shooter: upgrade your ship to mine the precious element of the Zebarema system.",
    "developer": "Ashby Computers and Graphics",
    "launchbox": "153206",
    "mobygames": 30456,
@@ -14743,6 +15058,7 @@
   },
   "msx:153209": {
    "boxArtUrl": "https://images.launchbox-app.com/002a489f-1062-4887-899f-792da43ad72c.jpg",
+   "description": "A shooter sequel to Gun.Smoke: Marshal James is sent to clean up a lawless town.",
    "developer": "Topo Soft",
    "launchbox": "153209",
    "mobygames": 46502,
@@ -14755,6 +15071,7 @@
     "Detective Orson Welles"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/4ee8a9f0-0af7-4030-b47a-c6e51c9486f8.jpg",
+   "description": "A detective game: solve a crime committed in a mansion.",
    "developer": "Iveson Software",
    "launchbox": "153218",
    "publisher": "Sony Spain",
@@ -14781,6 +15098,7 @@
   },
   "msx:153222": {
    "boxArtUrl": "https://images.launchbox-app.com/6a5eb8e4-5c86-4908-b958-045fe48aa203.jpg",
+   "description": "An action game: collect diamonds from underground shafts.",
    "developer": "Mike Williams",
    "launchbox": "153222",
    "mobygames": 50117,
@@ -14841,6 +15159,7 @@
     "Zero Fighter"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/8a95580d-6ba9-42bb-9076-8095091f0b61.jpg",
+   "description": "Hudson's cockpit-view air combat game: control your altitude and direction to shoot down enemy planes.",
    "developer": "Hudson Soft",
    "launchbox": "153256",
    "publisher": "Hudson Soft",
@@ -14859,6 +15178,7 @@
   },
   "msx:153264": {
    "boxArtUrl": "https://images.launchbox-app.com/78603f7e-97d8-4834-9427-9b0c855fc4dd.jpg",
+   "description": "Dinamic's text adventure: as Don Alonso Quijano in La Mancha, 1605, set out as Don Quixote.",
    "developer": "Dinamic Software",
    "launchbox": "153264",
    "mobygames": 19904,
@@ -14868,6 +15188,7 @@
   },
   "msx:153265": {
    "boxArtUrl": "https://images.launchbox-app.com/c249ddd2-9301-46f2-ac3f-0b70fc38b0f5.jpg",
+   "description": "An action game: a girl's balloon floats away and the hero goes after it.",
    "developer": "TOMY",
    "launchbox": "153265",
    "mobygames": 67752,
@@ -14877,6 +15198,7 @@
    "year": 1983
   },
   "msx:153278": {
+   "description": "An adventure: the hero floats in on a raft and must find his way through the jungle.",
    "developer": "Microtac Software",
    "launchbox": "153278",
    "publisher": "Eurosoft",
@@ -14885,6 +15207,7 @@
   },
   "msx:153285": {
    "boxArtUrl": "https://images.launchbox-app.com/7cbd0fe6-759d-4c69-a783-c7a3c36f5064.jpg",
+   "description": "A Korean 3D racing game that won a game contest.",
    "developer": "Jang Changsu",
    "launchbox": "153285",
    "publisher": "Indietopia Games",
@@ -14897,6 +15220,7 @@
     "Tanque Destructor"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/4cbc6694-bfe9-46c3-b49d-004bb33d38ab.jpg",
+   "description": "An action shooter: a tank burrowing through an underground maze fights the creatures living there.",
    "developer": "Hudson Soft",
    "launchbox": "153286",
    "mobygames": 15551,
@@ -14910,6 +15234,7 @@
     "Droids: The White Witch"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/7440f528-14f1-4aa2-99d2-fcbd4c93a6a5.jpg",
+   "description": "A game based on the Star Wars: Droids animated series.",
    "developer": "Walther Miller",
    "launchbox": "153289",
    "publisher": "Walther Miller",
@@ -14919,6 +15244,7 @@
   },
   "msx:153294": {
    "boxArtUrl": "https://images.launchbox-app.com/8270741b-40ed-4bfb-8319-2875ba2bf6ed.jpg",
+   "description": "An action game: a KRUN commando has kidnapped someone from Earth's military colonies.",
    "developer": "Juliet Software",
    "launchbox": "153294",
    "publisher": "Dro Soft",
@@ -14934,6 +15260,7 @@
    "contentIds": [
     "sha256-rom-v1:a2681f6a5dbbc18d6e4ae22bd610df178475c883f944e8f94362e5f6c623cfcd"
    ],
+   "description": "A Snake-style game: eat clovers to grow while avoiding obstacles.",
    "developer": "The Bytebusters",
    "launchbox": "153295",
    "mobygames": 19740,
@@ -14946,6 +15273,7 @@
   },
   "msx:153296": {
    "boxArtUrl": "https://images.launchbox-app.com/c26a54ae-2050-49cb-941f-a8fe9ebf41d8.jpg",
+   "description": "A motorcycle stunt game licensed by Eddie Kidd: recreate his famous jumps.",
    "developer": "Martech Games",
    "launchbox": "153296",
    "mobygames": 13008,
@@ -14955,6 +15283,7 @@
   },
   "msx:153305": {
    "boxArtUrl": "https://images.launchbox-app.com/b29ac1e3-81d6-4feb-9d01-18c12d783de5.jpg",
+   "description": "Bothtec's action game inspired by Choplifter: fly rescue missions over enemy territory.",
    "developer": "Bothtec",
    "launchbox": "153305",
    "mobygames": 118272,
@@ -14963,6 +15292,7 @@
    "title": "EGGY"
   },
   "msx:153306": {
+   "description": "A fantasy adventure: the wizard Azgar seeks the late wizard Godless's spellbook in his castle.",
    "launchbox": "153306",
    "publisher": "Idealogic",
    "screenshotUrl": "https://images.launchbox-app.com/d9cc6a0e-cd6a-4d43-b7d4-def53ab428a9.png",
@@ -14970,6 +15300,7 @@
   },
   "msx:153307": {
    "boxArtUrl": "https://images.launchbox-app.com/b2058b9e-5ae0-4e42-8648-cdbcd71b03d8.jpg",
+   "description": "A game about the discovery of America: follow the great voyage of Columbus.",
    "developer": "OMK Software",
    "launchbox": "153307",
    "mobygames": 34011,
@@ -14979,6 +15310,7 @@
   },
   "msx:153308": {
    "boxArtUrl": "https://images.launchbox-app.com/32478504-bd9c-47e4-ac3c-d8753620f08f.jpg",
+   "description": "A platformer: help the Faerie Queen of Elidon celebrate the arrival of spring.",
    "developer": "Orpheus",
    "launchbox": "153308",
    "mobygames": 63121,
@@ -14988,6 +15320,7 @@
   },
   "msx:153309": {
    "boxArtUrl": "https://images.launchbox-app.com/deb00abe-302a-4697-ae44-166e2c5ce318.jpg",
+   "description": "Level 9's text adventure: deliver important documents across the Emerald Isle.",
    "developer": "Level 9 Computing",
    "launchbox": "153309",
    "mobygames": 56324,
@@ -15000,6 +15333,7 @@
     "Emilio Butragueno Futbol"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/0795e0ec-a447-4251-9503-78de73d3624a.jpg",
+   "description": "A soccer game featuring the Spanish star Emilio Butragueno.",
    "developer": "Topo Soft",
    "launchbox": "153312",
    "mobygames": 2495,
@@ -15009,6 +15343,7 @@
   },
   "msx:153318": {
    "boxArtUrl": "https://images.launchbox-app.com/dad5f644-e1f7-4393-8876-20e4c8e4da95.jpg",
+   "description": "A tennis game starring Spanish champion Emilio Sanchez Vicario.",
    "developer": "Zigurat Software",
    "launchbox": "153318",
    "mobygames": 19910,
@@ -15024,6 +15359,7 @@
    "contentIds": [
     "sha256-rom-v1:f254764f4bd1634f50abcdabe5813d133d719197216071772845983ffabad22d"
    ],
+   "description": "Konami's Olympic sports sequel with new events.",
    "developer": "Konami",
    "launchbox": "153339",
    "mobygames": 170845,
@@ -15052,6 +15388,7 @@
   },
   "msx:153367": {
    "boxArtUrl": "https://images.launchbox-app.com/b6bc6971-acae-47d4-8a0e-0dc13608b03a.jpg",
+   "description": "A collection of sports events, mostly joystick waggling.",
    "developer": "W.T. Smith",
    "launchbox": "153367",
    "mobygames": 30662,
@@ -15085,6 +15422,7 @@
   },
   "msx:153371": {
    "boxArtUrl": "https://images.launchbox-app.com/9cc277b4-57db-4e8d-b9af-dfcad47246b5.jpg",
+   "description": "A board game for two to four players based on the game of the same name.",
    "developer": "Endurance Games",
    "launchbox": "153371",
    "mobygames": 54688,
@@ -15105,6 +15443,7 @@
     "Fernando Martín Basket Master"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/acc62c6b-76df-429a-9adb-67012c0cb99e.jpg",
+   "description": "An executive edition of Basket Master: one-on-one basketball with Fernando Martin.",
    "developer": "Dinamic Software",
    "launchbox": "153395",
    "mobygames": 14279,
@@ -15122,6 +15461,7 @@
   },
   "msx:153405": {
    "boxArtUrl": "https://images.launchbox-app.com/be2f04b1-df91-4599-9eb7-dd68e81a6224.jpg",
+   "description": "Educational games for young children with the Mr. Men characters.",
    "developer": "PrImer Educational Software",
    "launchbox": "153405",
    "mobygames": 83511,
@@ -15131,6 +15471,7 @@
   },
   "msx:153406": {
    "boxArtUrl": "https://images.launchbox-app.com/0e8c1028-597d-467e-a13a-23257bbd20d6.jpg",
+   "description": "A vertical shooter.",
    "developer": "Isoco",
    "launchbox": "153406",
    "mobygames": 20373,
@@ -15140,6 +15481,7 @@
   },
   "msx:153408": {
    "boxArtUrl": "https://images.launchbox-app.com/91144817-732c-49a5-8463-4c082ff13bb2.jpg",
+   "description": "A carrier simulation: command a flight deck and launch aircraft.",
    "developer": "Aackosoft International",
    "launchbox": "153408",
    "mobygames": 213625,
@@ -15152,6 +15494,7 @@
     "Picapiedra, Los"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/f4c48ae0-eb0d-4448-9b35-92e1501e51d3.jpg",
+   "description": "A game based on The Flintstones: Fred paints the house and goes bowling.",
    "developer": "Teque Software Development",
    "launchbox": "153413",
    "mobygames": 19986,
@@ -15178,6 +15521,7 @@
   },
   "msx:153416": {
    "boxArtUrl": "https://images.launchbox-app.com/3229767e-2d94-45ed-8980-2d7164550c27.png",
+   "description": "A soccer career game: guide a young player to become footballer of the year.",
    "developer": "Gremlin Graphics Software",
    "launchbox": "153416",
    "mobygames": 12650,
@@ -15187,6 +15531,7 @@
   },
   "msx:153420": {
    "boxArtUrl": "https://images.launchbox-app.com/b87b0aa0-2475-481c-8055-d2c2c46825b0.jpg",
+   "description": "A Formula 1 racing simulation on international circuits.",
    "developer": "Spirit Software",
    "launchbox": "153420",
    "mobygames": 20034,
@@ -15197,6 +15542,7 @@
   },
   "msx:153421": {
    "boxArtUrl": "https://images.launchbox-app.com/0d114568-9496-4dee-a576-8262098adafa.jpg",
+   "description": "Dinamic's beat 'em up: in a depraved future New York, Freddy Hardest fights the thugs on every corner.",
    "developer": "Iron Byte",
    "launchbox": "153421",
    "mobygames": 16685,
@@ -15209,6 +15555,7 @@
    "aliases": [
     "Quebert"
    ],
+   "description": "A Q*bert-style isometric game: hop on cubes to change their colors.",
    "developer": "The Bytebusters",
    "launchbox": "153424",
    "mobygames": 27025,
@@ -15218,6 +15565,7 @@
   },
   "msx:153425": {
    "boxArtUrl": "https://images.launchbox-app.com/4409d87a-c0bd-4225-ab19-ca56aca19bea.jpg",
+   "description": "A sci-fi game set in 2400 AD: hire out as a mercenary to free Earth from alien invaders.",
    "developer": "AA Software",
    "launchbox": "153425",
    "publisher": "Infogrames",
@@ -15226,6 +15574,7 @@
   },
   "msx:153443": {
    "boxArtUrl": "https://images.launchbox-app.com/af1584b1-3106-4c4a-877f-8b050f52e976.jpg",
+   "description": "Epyx's winter Olympic events, follower of Winter Games.",
    "developer": "Epyx",
    "launchbox": "153443",
    "mobygames": 9261,
@@ -15236,6 +15585,7 @@
   },
   "msx:153451": {
    "boxArtUrl": "https://images.launchbox-app.com/f66910c7-120c-4be9-821e-bfcf50b7cbe8.jpg",
+   "description": "A soccer game endorsed by Gary Lineker.",
    "developer": "Gremlin Graphics Software",
    "launchbox": "153451",
    "publisher": "Gremlin Graphics Software",
@@ -15244,6 +15594,7 @@
   },
   "msx:153453": {
    "boxArtUrl": "https://images.launchbox-app.com/9acf0ef7-b321-4291-afba-888463a4e55e.jpg",
+   "description": "Atari's dungeon crawl: choose a hero and fight through hordes of monsters, collecting food and keys.",
    "developer": "Gremlin Graphics Software",
    "launchbox": "153453",
    "mobygames": 1837,
@@ -15258,6 +15609,7 @@
   },
   "msx:153455": {
    "boxArtUrl": "https://images.launchbox-app.com/f7e0141b-25d3-4103-968c-22d7a80e3c68.png",
+   "description": "A vertical shooter: humans and aliens live in harmony until a journalist sparks a war.",
    "developer": "Imagitec Design",
    "launchbox": "153455",
    "mobygames": 18352,
@@ -15275,6 +15627,7 @@
   },
   "msx:153464": {
    "boxArtUrl": "https://images.launchbox-app.com/8b29cc1c-c29c-4b4e-a2ef-28788aca769f.png",
+   "description": "An action game based on the TV puppet Gilbert the alien: escape from the planet Drill.",
    "developer": "Clockwize Software Developments",
    "launchbox": "153464",
    "mobygames": 54047,
@@ -15284,6 +15637,7 @@
   },
   "msx:153465": {
    "boxArtUrl": "https://images.launchbox-app.com/ff18a14f-fbb4-414a-9660-3847d457009d.png",
+   "description": "A 3D shooter flying a starfighter simulator.",
    "developer": "Channel 8 Software",
    "launchbox": "153465",
    "mobygames": 82253,
@@ -15305,6 +15659,7 @@
   },
   "msx:153469": {
    "boxArtUrl": "https://images.launchbox-app.com/8db177d1-97f3-4507-a9e1-9651a18d4de2.jpg",
+   "description": "Opera Soft's basketball game with several difficulty levels.",
    "developer": "Opera Soft",
    "launchbox": "153469",
    "mobygames": 20005,
@@ -15344,6 +15699,7 @@
     "ゴジラ対３大怪獣"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/07bda25a-fc67-4200-8d57-117a18b63ac8.jpg",
+   "description": "Bandai's game of Godzilla against three giant monsters.",
    "developer": "Bandai",
    "launchbox": "153488",
    "publisher": "Bandai",
@@ -15363,6 +15719,7 @@
   },
   "msx:153492": {
    "boxArtUrl": "https://images.launchbox-app.com/d370ec61-2bb7-4c17-a18e-228b5989473a.jpg",
+   "description": "An overhead shooter: destroy every alien object you meet.",
    "developer": "Eurosoft",
    "launchbox": "153492",
    "mobygames": 213250,
@@ -15390,6 +15747,7 @@
    "contentIds": [
     "sha256-rom-v1:b6f690d7a5c3dd4e7075d9128480d93161e563b037cdc02123851fca550897ac"
    ],
+   "description": "Sega's motorcycle racing game: lean through curves and race against the clock.",
    "developer": "Sega",
    "launchbox": "153509",
    "mobygames": 10651,
@@ -15402,6 +15760,7 @@
   },
   "msx:153597": {
    "boxArtUrl": "https://images.launchbox-app.com/1720950c-c003-4ccc-9e7e-477bccd5370f.jpg",
+   "description": "A maze action game starring a hard-boiled egg.",
    "developer": "Methodic Solutions",
    "launchbox": "153597",
    "mobygames": 209144,
@@ -15411,6 +15770,7 @@
   },
   "msx:153602": {
    "boxArtUrl": "https://images.launchbox-app.com/25a57767-19b9-414e-8761-4e500c06e684.jpg",
+   "description": "A beat 'em up: Hercules, son of Zeus, faces the monsters of the underworld.",
    "developer": "Cygnus Software",
    "launchbox": "153602",
    "mobygames": 20255,
@@ -15420,6 +15780,7 @@
   },
   "msx:153603": {
    "boxArtUrl": "https://images.launchbox-app.com/9c5a878b-def5-4a40-8e16-a1ff7bed04a4.png",
+   "description": "Educational games for young children with the Mr. Men characters.",
    "developer": "PrImer Educational Software",
    "launchbox": "153603",
    "mobygames": 107964,
@@ -15436,6 +15797,7 @@
   },
   "msx:153657": {
    "boxArtUrl": "https://images.launchbox-app.com/fe431243-a605-4f41-bcc2-5b1a90deac6c.jpg",
+   "description": "Infocom's comic text adventure: Arthur Dent escapes the destruction of Earth and hitchhikes across the galaxy.",
    "developer": "Infocom",
    "launchbox": "153657",
    "publisher": "Infocom",
@@ -15452,6 +15814,7 @@
    "contentIds": [
     "sha256-rom-v1:063ceaf8e5a79d8d795d62af7e3c5e4ae75687ba8e9a88b026be8e5bf6246e33"
    ],
+   "description": "An action game: a shepherd gathers all the sheep into the pen.",
    "developer": "Hudson Soft",
    "launchbox": "153658",
    "mobygames": 221185,
@@ -15464,6 +15827,7 @@
   },
   "msx:153664": {
    "boxArtUrl": "https://images.launchbox-app.com/a6032b59-c9ef-465d-bd4c-a47b227ff34b.jpg",
+   "description": "Melbourne House's text adventure of The Hobbit: Bilbo Baggins travels with characters who act on their own.",
    "developer": "Beam Software",
    "launchbox": "153664",
    "mobygames": 3893,
@@ -15473,6 +15837,7 @@
   },
   "msx:153665": {
    "boxArtUrl": "https://images.launchbox-app.com/ae0830a8-6154-4ec4-bf63-c9f89df4fd65.jpg",
+   "description": "Infocom's text adventure: spend the night in the mansion of the late B-movie actor Buddy Burbank to claim your inheritance.",
    "developer": "Infocom",
    "launchbox": "153665",
    "publisher": "Infocom",
@@ -15481,6 +15846,7 @@
   },
   "msx:153669": {
    "boxArtUrl": "https://images.launchbox-app.com/93803685-6fc9-479e-b03b-7d175995f9d3.jpg",
+   "description": "A 3D arcade game in two parts: save the galaxy.",
    "developer": "Longman Software",
    "launchbox": "153669",
    "mobygames": 227656,
@@ -15503,6 +15869,7 @@
   },
   "msx:153707": {
    "boxArtUrl": "https://images.launchbox-app.com/dbd76d1d-7c72-4194-aca7-19fe656d304b.jpg",
+   "description": "A submarine simulation based on Tom Clancy's novel: defect with the Soviet submarine Red October.",
    "developer": "Oxford Digital Enterprises",
    "launchbox": "153707",
    "mobygames": 2212,
@@ -15515,6 +15882,7 @@
    "contentIds": [
     "sha256-rom-v1:34fa3e7b6126ba77bda136ff05ede31774b42b72502fa80e3d95c6f84c472b62"
    ],
+   "description": "A platformer: Chumy the hungry mouse forages for food in the sewer.",
    "developer": "Nisso",
    "launchbox": "153715",
    "mobygames": 23402,
@@ -15530,6 +15898,7 @@
    "contentIds": [
     "sha256-rom-v1:ff10b5be9231e2b9af0d820bb6bb50c96a0f7c8b2fec201216e181bb6372529a"
    ],
+   "description": "T&E Soft's open-world action role-playing game: the knight Jim explores Fairyland to rescue the princess and defeat the demon Varalys.",
    "developer": "T&E Soft",
    "launchbox": "153716",
    "mobygames": 12807,
@@ -15542,6 +15911,7 @@
   },
   "msx:153751": {
    "boxArtUrl": "https://images.launchbox-app.com/1309b66f-ad90-458b-8cc2-dd470b07283b.png",
+   "description": "A sci-fi action game: decades after the fall of the Royal House of Goriok, the imperial army of Hypsys rules.",
    "developer": "Techno Arts",
    "launchbox": "153751",
    "publisher": "Dro Soft",
@@ -15558,6 +15928,7 @@
   },
   "msx:153753": {
    "boxArtUrl": "https://images.launchbox-app.com/6ddf4d4b-1293-4424-ac9f-58c8389ebeb2.jpg",
+   "description": "An action game: Santa must recover the presents for Christmas from the Icicle Works.",
    "developer": "State Soft",
    "launchbox": "153753",
    "publisher": "State Soft",
@@ -15606,6 +15977,7 @@
    "contentIds": [
     "sha256-rom-v1:dbb6c3c9e00018bb9ae164709484d957b7da1d669fbebebbf8b07d80aaab66c3"
    ],
+   "description": "ASCII's platformer inspired by the maze section of an arcade game: Theseus explores a labyrinth.",
    "developer": "ASCII",
    "launchbox": "153814",
    "mobygames": 121189,
@@ -15618,6 +15990,7 @@
   },
   "msx:153815": {
    "boxArtUrl": "https://images.launchbox-app.com/4e1b669a-7bd6-4274-bccc-84cc905308f1.jpg",
+   "description": "A maze game on the planet Al-Mazar, covered by a vast network of mazes.",
    "developer": "ASCII",
    "launchbox": "153815",
    "publisher": "ASCII",
@@ -15626,6 +15999,7 @@
   },
   "msx:153816": {
    "boxArtUrl": "https://images.launchbox-app.com/efd61988-08d0-4974-829d-ed1ea7d2b726.jpg",
+   "description": "A puzzle game in surreal three-dimensional spaces.",
    "developer": "Nice Ideas",
    "launchbox": "153816",
    "publisher": "Nice Ideas",
@@ -15640,6 +16014,7 @@
    "contentIds": [
     "sha256-rom-v1:f7761d5f3f2f46152c83fd966f8b2a89e51edfbe7cdec0836ad88e6b7f30734e"
    ],
+   "description": "Hudson's maze game: eat all the fruits while avoiding enemies.",
    "developer": "Hudson Soft",
    "launchbox": "153817",
    "mobygames": 162724,
@@ -15652,6 +16027,7 @@
   },
   "msx:153827": {
    "boxArtUrl": "https://images.launchbox-app.com/0f6bc5d5-f1d8-4b66-b1bb-de5267d08380.png",
+   "description": "A homebrew game in which you play the dragon defending its hoard.",
    "developer": "GW's Workshop",
    "launchbox": "153827",
    "publisher": "MSXdev",
@@ -15660,6 +16036,7 @@
   },
   "msx:153835": {
    "boxArtUrl": "https://images.launchbox-app.com/2d8ea13f-450a-4233-89da-b1c84210556d.jpg",
+   "description": "A racing game: drive twelve laps of the Indy 500 as fast as you can.",
    "developer": "Methodic Solutions",
    "launchbox": "153835",
    "mobygames": 208811,
@@ -15669,6 +16046,7 @@
   },
   "msx:153836": {
    "boxArtUrl": "https://images.launchbox-app.com/1cea4399-8c48-4d26-b4b9-75bd46d18468.jpg",
+   "description": "A Manic Miner-style platformer: escape the mine.",
    "developer": "Loriciels",
    "launchbox": "153836",
    "publisher": "Loriciels",
@@ -15692,6 +16070,7 @@
   },
   "msx:153874": {
    "boxArtUrl": "https://images.launchbox-app.com/4587d074-053a-4b36-b91f-a32deb5e20ea.jpg",
+   "description": "A space strategy action game: defend your planets against invasion.",
    "developer": "Mastertronic",
    "launchbox": "153874",
    "mobygames": 16970,
@@ -15701,6 +16080,7 @@
   },
   "msx:153878": {
    "boxArtUrl": "https://images.launchbox-app.com/cb0b50da-d4e7-4eb8-9884-fe3d39484ba6.jpg",
+   "description": "A six-part text adventure based on the Spanish comic hero Jabato.",
    "developer": "Aventuras AD",
    "launchbox": "153878",
    "mobygames": 20151,
@@ -15710,6 +16090,7 @@
   },
   "msx:153879": {
    "boxArtUrl": "https://images.launchbox-app.com/95f7d7fb-8d07-4667-94bf-e0fef5816e81.jpg",
+   "description": "A vertically scrolling space shooter.",
    "developer": "Diabolic Software",
    "launchbox": "153879",
    "mobygames": 56808,
@@ -15719,6 +16100,7 @@
   },
   "msx:153880": {
    "boxArtUrl": "https://images.launchbox-app.com/d67245e4-b1ad-4dbf-857e-a41a1b6dcf7c.jpg",
+   "description": "A Jai Alai game based on the Basque sport of cesta punta.",
    "developer": "Opera Soft",
    "launchbox": "153880",
    "mobygames": 20226,
@@ -15760,6 +16142,7 @@
     "Jumping Jack"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/b16dc2da-66b1-4ff9-9670-b64e83f0b033.jpg",
+   "description": "A Frogger-style game: guide the frog safely across the road and river.",
    "developer": "LiveWire Software UK",
    "launchbox": "153896",
    "mobygames": 63248,
@@ -15777,6 +16160,7 @@
   },
   "msx:153898": {
    "boxArtUrl": "https://images.launchbox-app.com/f85ccce3-7591-4c82-9412-1b327a34d14d.png",
+   "description": "Hudson's pseudo-3D shooter: blast the frogs.",
    "developer": "Hudson Soft",
    "launchbox": "153898",
    "mobygames": 201504,
@@ -15792,6 +16176,7 @@
    "contentIds": [
     "sha256-rom-v1:efd32d32733427b6315e37206ac78107cbc590a2ca0b1a05a574058f345c784e"
    ],
+   "description": "HAL's educational game: the bird Karamaru flies over a map of Japan.",
    "developer": "HAL Laboratory",
    "launchbox": "153899",
    "publisher": "HAL Laboratory",
@@ -15820,6 +16205,7 @@
    "contentIds": [
     "sha256-rom-v1:823911ec562b4ee2eb8237a31253fe7853746a02d4dd27057cf535d0bfbd06b1"
    ],
+   "description": "Casio's hack-and-slash action game: Leon is transported to a mysterious castle.",
    "developer": "Casio Computer",
    "launchbox": "153901",
    "mobygames": 147477,
@@ -15872,6 +16258,7 @@
     "Come On!"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/f50d84b4-6cd0-4982-89ab-29fdf7ea7391.jpg",
+   "description": "A Space Panic-style game: dig holes to trap aliens and bury them.",
    "developer": "Hudson Soft",
    "launchbox": "153918",
    "mobygames": 223453,
@@ -15889,6 +16276,7 @@
   },
   "msx:153920": {
    "boxArtUrl": "https://images.launchbox-app.com/2598cd08-9bb5-4ff8-8707-98425707a6c5.jpg",
+   "description": "Atari's tile puzzle: catch colored tiles tumbling down a conveyor and drop them into the bin to make rows of a color.",
    "developer": "Teque Software Development",
    "launchbox": "153920",
    "mobygames": 4642,
@@ -15906,6 +16294,7 @@
   },
   "msx:153956": {
    "boxArtUrl": "https://images.launchbox-app.com/29987ae9-cbf4-4909-abcd-a32d6678819c.jpg",
+   "description": "A homebrew Tetris for MSX made for MSXdev'04.",
    "developer": "Kralizec",
    "launchbox": "153956",
    "publisher": "MSXdev",
@@ -15914,6 +16303,7 @@
   },
   "msx:153957": {
    "boxArtUrl": "https://images.launchbox-app.com/fa091fd1-cc90-409b-9aad-22e07f340ef3.jpg",
+   "description": "A galactic shooter of four screens and four difficulty levels.",
    "developer": "Rubén Jiménez Infante",
    "launchbox": "153957",
    "publisher": "Manhattan Transfer",
@@ -15922,6 +16312,7 @@
   },
   "msx:153958": {
    "boxArtUrl": "https://images.launchbox-app.com/365cadf5-75fd-4ac9-b5ed-504382b6054e.png",
+   "description": "A vertical scrolling arcade game: an astronaut collects items across a strange world.",
    "developer": "Simon K. Overy",
    "launchbox": "153958",
    "mobygames": 20352,
@@ -15931,6 +16322,7 @@
   },
   "msx:153959": {
    "boxArtUrl": "https://images.launchbox-app.com/80c2d9ac-ef13-4b30-a3e7-031adc0f7822.jpg",
+   "description": "A platformer: a strange crab-like creature makes its way through difficult screens.",
    "developer": "Mind Games España",
    "launchbox": "153959",
    "publisher": "Mind Games España",
@@ -15939,6 +16331,7 @@
   },
   "msx:153960": {
    "boxArtUrl": "https://images.launchbox-app.com/0883c109-3695-4136-ae73-f3d92d6f412e.jpg",
+   "description": "A sci-fi adventure: a supercomputer in a remote galaxy has gone mad.",
    "developer": "Aventuras AD",
    "launchbox": "153960",
    "mobygames": 19870,
@@ -15952,6 +16345,7 @@
     "La Diosa de Cozumel"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/8965d7b1-206d-42ff-8a1d-6e2687142d24.jpg",
+   "description": "The first adventure of the Ci-U-Than trilogy, set on the island of Cozumel.",
    "developer": "Aventuras AD",
    "launchbox": "153961",
    "mobygames": 20074,
@@ -15982,6 +16376,7 @@
    "contentIds": [
     "sha256-rom-v1:005093dea9fb4d17b3042f69d0739c513868d707c6e307c2d05643d0294ee176"
    ],
+   "description": "Konami's shooter: a mother pig defends her piglets from wolves floating down on balloons.",
    "developer": "Konami Industry",
    "launchbox": "153966",
    "mobygames": 14109,
@@ -15994,6 +16389,7 @@
   },
   "msx:153970": {
    "boxArtUrl": "https://images.launchbox-app.com/fcc7ba55-ed1f-415f-ba99-0886c95b9719.jpg",
+   "description": "A Tron-style light cycle game against a human or computer opponent.",
    "developer": "Personal Software Services",
    "launchbox": "153970",
    "mobygames": 27225,
@@ -16006,6 +16402,7 @@
     "Legends"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/22de9022-a31b-496c-8253-de2aaf6abbb7.png",
+   "description": "A medieval fantasy illustrated adventure: free your uncle and destroy a dragon.",
    "developer": "Mind Games España",
    "launchbox": "153972",
    "publisher": "Mind Games España",
@@ -16017,6 +16414,7 @@
     "Flics, Les"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/b669387a-1381-410d-8439-890eca3be2bf.jpg",
+   "description": "An action game inspired by The Pink Panther: steal the diamond and escape the police.",
    "developer": "Personal Software Services",
    "launchbox": "153973",
    "mobygames": 69425,
@@ -16037,6 +16435,7 @@
     "La Herencia: Las Vegas"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/06c73d93-4805-4c7a-b753-ba33b8a3ea59.jpg",
+   "description": "A gambling adventure in Las Vegas: Peter Stone must win at the casinos to claim an inheritance.",
    "developer": "Infogrames",
    "launchbox": "154001",
    "mobygames": 28017,
@@ -16046,6 +16445,7 @@
   },
   "msx:154006": {
    "boxArtUrl": "https://images.launchbox-app.com/677c9649-b523-4e7a-a28c-7b94835a70f3.jpg",
+   "description": "A side-scrolling shooter through enemy forests.",
    "developer": "P.J. Software",
    "launchbox": "154006",
    "mobygames": 262829,
@@ -16055,6 +16455,7 @@
   },
   "msx:154007": {
    "boxArtUrl": "https://images.launchbox-app.com/bfbb11a4-660d-4a86-857b-6521f8d70ac5.jpg",
+   "description": "A futuristic racing shooter crossing Trailblazer with other games.",
    "developer": "The Bytebusters",
    "launchbox": "154007",
    "mobygames": 23818,
@@ -16078,6 +16479,7 @@
   },
   "msx:154011": {
    "boxArtUrl": "https://images.launchbox-app.com/8e677958-7fe8-4e9f-a7d4-25944cc8df01.png",
+   "description": "A 3D puzzle game: guide a ball through fifty levels of moving walls and barriers.",
    "developer": "New Frontier",
    "launchbox": "154011",
    "mobygames": 6904,
@@ -16099,6 +16501,7 @@
     "Mac Attack"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/dabf3403-312e-47e7-bd3c-36bf4ac6f4fe.jpg",
+   "description": "A BurgerTime-style game: walk across the ingredients to build burgers.",
    "developer": "The Bytebusters",
    "launchbox": "154085",
    "mobygames": 19603,
@@ -16108,6 +16511,7 @@
   },
   "msx:154256": {
    "boxArtUrl": "https://images.launchbox-app.com/60897a86-d84d-4afd-8b1b-1234357c4fff.jpg",
+   "description": "A pinball simulation with a table editor.",
    "developer": "ERE Informatique",
    "launchbox": "154256",
    "mobygames": 6447,
@@ -16117,6 +16521,7 @@
   },
   "msx:154258": {
    "boxArtUrl": "https://images.launchbox-app.com/a7babf3c-4416-458b-9103-9c51f1b1d298.jpg",
+   "description": "A behind-view shooter: travel between worlds, destroying enemies and avoiding mines.",
    "developer": "Loriciels",
    "launchbox": "154258",
    "mobygames": 249,
@@ -16139,6 +16544,7 @@
   },
   "msx:154263": {
    "boxArtUrl": "https://images.launchbox-app.com/1135ea67-0fc0-4425-8221-9ef5c81b2d13.jpg",
+   "description": "An arcade basketball game starring Magic Johnson.",
    "developer": "New Frontier",
    "launchbox": "154263",
    "publisher": "Dro Soft",
@@ -16171,6 +16577,7 @@
    "contentIds": [
     "sha256-rom-v1:865cda521590190bdd7014ce10ea7135966d8ad998c035370c5a716684d2ef0c"
    ],
+   "description": "A first-person shooting gallery set in 1931: hunt the gangsters who killed your family.",
    "developer": "Seibu Kaihatsu",
    "launchbox": "154268",
    "mobygames": 20374,
@@ -16186,6 +16593,7 @@
     "Manchester United"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/7d0b87e1-f1c7-436a-a503-8cf83e88c395.png",
+   "description": "A soccer game licensed by Manchester United.",
    "developer": "Krisalis Software",
    "launchbox": "154269",
    "publisher": "Krisalis Software",
@@ -16194,6 +16602,7 @@
   },
   "msx:154270": {
    "boxArtUrl": "https://images.launchbox-app.com/a9f16645-f6fb-4310-b979-5a496dbf6c78.jpg",
+   "description": "A French fantasy role-playing game: the kingdom is threatened by an evil force.",
    "developer": "Infogrames",
    "launchbox": "154270",
    "mobygames": 48750,
@@ -16203,6 +16612,7 @@
   },
   "msx:154271": {
    "boxArtUrl": "https://images.launchbox-app.com/fc8b491d-b4a8-41a8-a289-b06cadd8d0aa.jpg",
+   "description": "A sci-fi game: hostilities break out just as you fly Earth's ambassadors into the city of Canalus.",
    "developer": "Nagi-P Soft",
    "launchbox": "154271",
    "publisher": "Nagi-P Soft",
@@ -16215,6 +16625,7 @@
     "Mask II"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/5356c89a-eafe-4d68-9c38-3addd705a391.jpg",
+   "description": "The second M.A.S.K. game: a side-scrolling shooter based on the toy and cartoon line.",
    "developer": "Gremlin Graphics Software",
    "launchbox": "154272",
    "mobygames": 48870,

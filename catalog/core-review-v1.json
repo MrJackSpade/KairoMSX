@@ -33,6 +33,10 @@
    "reason": "MobyGames Adult genre",
    "title": "Leather Skirts"
   },
+  "msx2:179789": {
+   "reason": "MobyGames Adult genre",
+   "title": "Bishōjo Control"
+  },
   "msx2:188846": {
    "reason": "MobyGames Adult genre",
    "title": "Cal II"
@@ -105,9 +109,25 @@
    "reason": "MobyGames Adult genre",
    "title": "Lipstick Adventure 2"
   },
+  "msx2:189072": {
+   "reason": "MobyGames Adult genre",
+   "title": "Pinky Ponky Dai-1 Shū: Beautiful Dream"
+  },
+  "msx2:189073": {
+   "reason": "MobyGames Adult genre",
+   "title": "Pinky Ponky Dai-2 Shū: Twilight Games"
+  },
+  "msx2:189074": {
+   "reason": "MobyGames Adult genre",
+   "title": "Pinky Ponky Dai-3 Shū: Battle Lovers"
+  },
   "msx2:189077": {
    "reason": "MobyGames Adult genre",
    "title": "Pocky"
+  },
+  "msx2:189079": {
+   "reason": "MobyGames Adult genre",
+   "title": "Rance II: Hangyaku no Shōjotachi"
   },
   "msx2:189083": {
    "reason": "MobyGames Adult genre",
@@ -125,6 +145,14 @@
    "reason": "MobyGames Adult genre",
    "title": "Abunai Tengu Densetsu"
   },
+  "msx2:189103": {
+   "reason": "MobyGames Adult genre",
+   "title": "Tōshin Toshi"
+  },
+  "msx2:189107": {
+   "reason": "MobyGames Adult genre",
+   "title": "Urotsukidōji"
+  },
   "msx2:189110": {
    "reason": "MobyGames Adult genre",
    "title": "Little Princess"
@@ -137,6 +165,10 @@
    "reason": "MobyGames Adult genre",
    "title": "CAL"
   },
+  "msx2:205521": {
+   "reason": "MobyGames Adult genre",
+   "title": "Ayayo's Love Affair"
+  },
   "msx2:206295": {
    "reason": "MobyGames Adult genre",
    "title": "Cosmic Psycho"
@@ -144,6 +176,10 @@
   "msx2:206302": {
    "reason": "MobyGames Adult genre",
    "title": "Kurutta Kajitsu"
+  },
+  "msx2:206313": {
+   "reason": "MobyGames Adult genre",
+   "title": "Mahjong Hana no Momoko Gumi"
   },
   "msx2:33318": {
    "reason": "MobyGames Adult genre",
@@ -209,41 +245,21 @@
    "reason": "MobyGames Adult genre",
    "title": "Strip Poker II Plus"
   },
+  "msx:214365": {
+   "reason": "MobyGames Adult genre",
+   "title": "Erika: SF Adult Adventure"
+  },
   "msx:moby-101758": {
    "reason": "MobyGames Adult genre",
    "title": "Peach Up 4"
-  },
-  "msx:moby-18681": {
-   "reason": "MobyGames Adult genre",
-   "title": "Rance II: Hangyaku no Shōjotachi"
-  },
-  "msx:moby-18730": {
-   "reason": "MobyGames Adult genre",
-   "title": "Tōshin Toshi"
-  },
-  "msx:moby-20410": {
-   "reason": "MobyGames Adult genre",
-   "title": "Mahjong Hana no Momoko Gumi"
-  },
-  "msx:moby-205184": {
-   "reason": "MobyGames Adult genre",
-   "title": "Erika: SF Adult Adventure"
   },
   "msx:moby-227748": {
    "reason": "MobyGames Adult genre",
    "title": "Puzzle Mania: MSXdev24 Edition"
   },
-  "msx:moby-28782": {
-   "reason": "MobyGames Adult genre",
-   "title": "Bishōjo Control"
-  },
   "msx:moby-29111": {
    "reason": "MobyGames Adult genre",
    "title": "Cybernetic Hi-School"
-  },
-  "msx:moby-43465": {
-   "reason": "MobyGames Adult genre",
-   "title": "Urotsukidōji"
   },
   "msx:moby-44509": {
    "reason": "MobyGames Adult genre",
@@ -289,25 +305,9 @@
    "reason": "MobyGames Adult genre",
    "title": "Kōnai Shasei vol.1"
   },
-  "msx:moby-58118": {
-   "reason": "MobyGames Adult genre",
-   "title": "Ayayo's Love Affair"
-  },
   "msx:moby-58780": {
    "reason": "MobyGames Adult genre",
    "title": "Danchi-zuma no Yūwaku"
-  },
-  "msx:moby-58836": {
-   "reason": "MobyGames Adult genre",
-   "title": "Pinky Ponky Dai-1 Shū: Beautiful Dream"
-  },
-  "msx:moby-58838": {
-   "reason": "MobyGames Adult genre",
-   "title": "Pinky Ponky Dai-3 Shū: Battle Lovers"
-  },
-  "msx:moby-58839": {
-   "reason": "MobyGames Adult genre",
-   "title": "Pinky Ponky Dai-2 Shū: Twilight Games"
   },
   "msx:moby-58840": {
    "reason": "MobyGames Adult genre",

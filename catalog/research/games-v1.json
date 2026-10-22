@@ -169,10 +169,16 @@
     "Romanshia"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/3f47e181-8269-46ec-8d6c-c6ff9f0e8afd.jpg",
+   "contentIds": [
+    "sha256-rom-v1:097060b1c8d6b0728e8bfc9dc726389cf439515845e3686aade2f7e6403f3cb6"
+   ],
    "developer": "Nihon Falcom",
    "launchbox": "113068",
    "publisher": "Nihon Falcom",
    "screenshotUrl": "https://images.launchbox-app.com/2b002619-f83b-43e2-9d7e-bcf4181aca5e.png",
+   "sourceGroups": [
+    "msx2:Romancia (1986) (Falcom).zip"
+   ],
    "title": "Romancia: Dragon Slayer Jr.",
    "year": 1986
   },
@@ -268,10 +274,17 @@
   },
   "msx2:115795": {
    "boxArtUrl": "https://images.launchbox-app.com/3f4671ef-f4c0-425a-a32d-e8b6e8d7471e.png",
+   "contentIds": [
+    "sha256-rom-v1:7653fad3417927288c252445e99913ddde50bfc8ab1f5a1fec342b242ba252c5"
+   ],
    "developer": "Pack-In-Video",
    "launchbox": "115795",
+   "mobygames": 12175,
    "publisher": "Pack-In-Video",
    "screenshotUrl": "https://images.launchbox-app.com/24371b44-70cd-4668-acd3-95606c7091ee.png",
+   "sourceGroups": [
+    "msx2:Labyrinth (1987) (Pack In Video).zip"
+   ],
    "title": "Labyrinth: The Computer Game"
   },
   "msx2:115808": {
@@ -285,6 +298,7 @@
    ],
    "developer": "Capcom",
    "launchbox": "115808",
+   "mobygames": 19884,
    "publisher": "Capcom",
    "screenshotUrl": "https://images.launchbox-app.com/fadcd0f0-966c-4b4c-8d3c-ada77f2029e4.png",
    "sourceGroups": [
@@ -300,10 +314,19 @@
     "King's Valley II: The Seal of El Giza"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/c14dfe50-5714-43e2-b4f4-7a12f4d7af33.jpg",
+   "contentIds": [
+    "sha256-rom-v1:4fa7d0b88ca4cb88177fab7efaae07dffb43ef624779af6a1a38f944e2f267cb",
+    "sha256-rom-v1:87a51e8744c0dafa0ab27d8b3b16585cfb5f76673ec62ad05c49c58384ce81b8",
+    "sha256-rom-v1:c7f138f16ddb8c8bf7af2fbd136c1f949ab95c375205375a3509d8ad32e00d93"
+   ],
    "developer": "Konami",
    "launchbox": "118562",
    "publisher": "Konami",
    "screenshotUrl": "https://images.launchbox-app.com/a96e41c4-cb42-4c68-9dd5-e315737012f6.png",
+   "sourceGroups": [
+    "msx2:King's Valley 2 (1988) (Konami).zip",
+    "msx:King's Valley 2 (1988) (Konami).zip"
+   ],
    "title": "Ouke no Tani: El Giza no Fuuin"
   },
   "msx2:119872": {
@@ -313,6 +336,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/cab732f6-3585-4ba9-93de-78dc0f4211f2.jpg",
    "developer": "Atelier Double",
    "launchbox": "119872",
+   "mobygames": 13332,
    "publisher": "Pony Canyon",
    "screenshotUrl": "https://images.launchbox-app.com/a67d0514-9877-4ddc-a347-c19da01008a5.png",
    "title": "Fantasy Zone II: The Tears of Opa Opa"
@@ -478,11 +502,18 @@
     "Hinotori: Firebird Phoenix"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/6096ae60-cdd4-441d-a640-5a07bb467b0e.jpg",
+   "contentIds": [
+    "sha256-rom-v1:79bfdbbd0e9e6a6e6d49389339e02789538724fab0b8790ae0c52314887f05b3",
+    "sha256-rom-v1:d4d443c18203f1a463b4d0b356a95c5dc578e24e47e5ea596c773b63ad20fba0"
+   ],
    "developer": "Konami",
    "launchbox": "123976",
    "mobygames": 70584,
    "publisher": "Konami",
    "screenshotUrl": "https://images.launchbox-app.com/09c1e524-c83e-4a22-ba48-2ba18df0d7ac.png",
+   "sourceGroups": [
+    "msx2:Hinotori (1987) (Konami).zip"
+   ],
    "title": "Hi no tori Hououhen"
   },
   "msx2:124208": {
@@ -851,10 +882,16 @@
     "Jackie Chan in 'Project A' 2"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/dd000f85-16ca-43e5-9f9b-96cf034550d4.jpg",
+   "contentIds": [
+    "sha256-rom-v1:d5b48ca819e722725297539d3abe14b4ae863666eb33186a58ff81167b64de4f"
+   ],
    "developer": "Pony Canyon",
    "launchbox": "124413",
    "publisher": "Pony Canyon",
    "screenshotUrl": "https://images.launchbox-app.com/b7e06332-f975-4eb1-b6d6-f9a7b781f1cc.png",
+   "sourceGroups": [
+    "msx2:Project A2 (1987) (Pony Cannon).zip"
+   ],
    "title": "Project A2: Shijousaidai no Hyouteki"
   },
   "msx2:124414": {
@@ -895,6 +932,7 @@
    ],
    "developer": "Taito",
    "launchbox": "124416",
+   "mobygames": 1883,
    "publisher": "Taito",
    "screenshotUrl": "https://images.launchbox-app.com/28a76e54-6dfc-4b5a-addb-312b3402bcfa.png",
    "sourceGroups": [
@@ -923,11 +961,17 @@
     "イシターの復活"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/d6b615fb-e9eb-4e7f-90c5-58079b298769.jpg",
+   "contentIds": [
+    "sha256-rom-v1:c5f9fb0e38f15478850e0ccfecfe68e4bc5ab3a67565c4a7d483ef1d80a8d71f"
+   ],
    "developer": "Namco",
    "launchbox": "124472",
    "mobygames": 19633,
    "publisher": "Namco",
    "screenshotUrl": "https://images.launchbox-app.com/35ad1ea8-5e2f-4516-91b8-45c7be92b661.png",
+   "sourceGroups": [
+    "msx2:Return of Ishtar, The (1988) (Namcot).zip"
+   ],
    "title": "The Return of Ishtar"
   },
   "msx2:124473": {
@@ -949,10 +993,17 @@
     "Rick and Mick's Adventure"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/dc49b8f4-bdb5-438d-9b92-1340c1d95ee6.jpg",
+   "contentIds": [
+    "sha256-rom-v1:7fa50a10db0e4e9a934746673249b7bb3beeb8a1dbb54cbb0c6faf182c186ea7"
+   ],
    "developer": "Humming Bird Soft",
    "launchbox": "124474",
+   "mobygames": 249075,
    "publisher": "Humming Bird Soft",
    "screenshotUrl": "https://images.launchbox-app.com/9551b252-461c-44ca-a3af-02694ebc76fa.png",
+   "sourceGroups": [
+    "msx2:Rick & Mick's Adventure (1987) (Humming Bird Soft).zip"
+   ],
    "title": "Rick to Mick no Daibouken"
   },
   "msx2:124475": {
@@ -995,6 +1046,7 @@
    ],
    "developer": "Koei",
    "launchbox": "124520",
+   "mobygames": 9099,
    "publisher": "Koei",
    "screenshotUrl": "https://images.launchbox-app.com/011be9e2-44da-43aa-8286-21eea94c502c.png",
    "sourceGroups": [
@@ -1024,6 +1076,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/fa2b9eec-4713-4eff-b806-0fe2c55d38af.jpg",
    "developer": "ISCO",
    "launchbox": "124522",
+   "mobygames": 58233,
    "publisher": "CBS Sony Group",
    "screenshotUrl": "https://images.launchbox-app.com/21ad6dee-a000-4a2f-a472-ad5c904bfb41.png",
    "title": "Seikima II Special: Akuma no Gyakushuu"
@@ -1062,11 +1115,17 @@
     "Bandit Kings of Ancient China"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/958ac7b4-1c91-4bae-a827-2e71a580a4dd.jpg",
+   "contentIds": [
+    "sha256-rom-v1:92b9004897da2bf6708e695da29fbb72a36cd70feb79be37537db4b6d921e86d"
+   ],
    "developer": "Koei",
    "launchbox": "124559",
    "mobygames": 2137,
    "publisher": "Koei",
    "screenshotUrl": "https://images.launchbox-app.com/5f84ac3c-4c7b-489f-a67b-9b45bd995cea.png",
+   "sourceGroups": [
+    "msx2:Suikoden (1989) (Koei).zip"
+   ],
    "title": "Suikoden: Tenmei no Chikai"
   },
   "msx2:124560": {
@@ -1170,6 +1229,7 @@
    ],
    "developer": "Zap",
    "launchbox": "124856",
+   "mobygames": 51402,
    "publisher": "Tokyo Shoseki",
    "screenshotUrl": "https://images.launchbox-app.com/19c74cb2-2491-4187-9983-81d7d51c5218.png",
    "sourceGroups": [
@@ -1289,28 +1349,41 @@
   },
   "msx2:124874": {
    "boxArtUrl": "https://images.launchbox-app.com/79bb3fd6-1da0-4e7e-b3c5-184ad2aada34.jpg",
+   "contentIds": [
+    "sha256-rom-v1:a12a5512587e4924a049b0ee06be1f4183cd1b44db49532e5c0a429914fe7603"
+   ],
    "developer": "Micro Cabin",
    "launchbox": "124874",
    "mobygames": 202238,
    "publisher": "Micro Cabin",
    "screenshotUrl": "https://images.launchbox-app.com/b77aec49-50fd-4570-8db6-0553f650bcc6.png",
+   "sourceGroups": [
+    "msx2:Urusei Yatsura (1987) (Micro Cabin).zip"
+   ],
    "title": "Urusei Yatsura: Koi no Survival Birthday"
   },
   "msx2:124875": {
    "boxArtUrl": "https://images.launchbox-app.com/ce621df8-cf92-49ac-99ef-13a2c2357eaa.jpg",
    "developer": "Taito",
    "launchbox": "124875",
+   "mobygames": 19745,
    "publisher": "Nidecom",
    "screenshotUrl": "https://images.launchbox-app.com/a3883f14-dcda-4853-b4b9-ce0bc88c4178.png",
    "title": "Victorious Nine II: Koukou Yakyuu Hen"
   },
   "msx2:124877": {
    "boxArtUrl": "https://images.launchbox-app.com/187584ad-5a7a-4170-bfac-e731c2037080.jpg",
+   "contentIds": [
+    "sha256-rom-v1:6e701658f0ba494529127243a5b0741a1b5281a6eabda4b3d5a8975368eafdbe"
+   ],
    "developer": "Sir-Tech Software",
    "launchbox": "124877",
    "mobygames": 1209,
    "publisher": "ASCII",
    "screenshotUrl": "https://images.launchbox-app.com/9d28a8dd-8035-4c0e-bec6-2b0248ba353d.png",
+   "sourceGroups": [
+    "msx2:Wizardry (1988) (Ascii).zip"
+   ],
    "title": "Wizardry: Proving Grounds of the Mad Overlord"
   },
   "msx2:124878": {
@@ -1330,11 +1403,17 @@
   },
   "msx2:124879": {
    "boxArtUrl": "https://images.launchbox-app.com/9680680a-e1cb-4ff9-b4a3-ebf96e2f9c44.jpg",
+   "contentIds": [
+    "sha256-rom-v1:12231b41ed31a2ab653df4612e792e0da549e926a529453614cca5367c5185aa"
+   ],
    "developer": "Compile",
    "launchbox": "124879",
    "mobygames": 19950,
    "publisher": "Namco",
    "screenshotUrl": "https://images.launchbox-app.com/37b35e05-2a20-4a49-be28-68ee71a02dc4.png",
+   "sourceGroups": [
+    "msx2:Xevious - Fardraut Saga (1989) (Namcot).zip"
+   ],
    "title": "Xevious: Fardraut Saga",
    "year": 1988
   },
@@ -1407,10 +1486,17 @@
   },
   "msx2:124894": {
    "boxArtUrl": "https://images.launchbox-app.com/4421189f-ad85-4ebe-b479-5d2789b6e830.jpg",
+   "contentIds": [
+    "sha256-rom-v1:20b03228be21ea3f8e305cbeeb7e49034527ecab75e0a89043b9b737324763a5"
+   ],
    "developer": "Micronics",
    "launchbox": "124894",
+   "mobygames": 147105,
    "publisher": "Toshiba-EMI",
    "screenshotUrl": "https://images.launchbox-app.com/68d703b6-362d-4a4b-a9bb-39c487c54979.png",
+   "sourceGroups": [
+    "msx2:Zoids (1988) (Toshiba Emi).zip"
+   ],
    "title": "Zoids: Chuuou Tairiku no Tatakai"
   },
   "msx2:124895": {
@@ -1451,6 +1537,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/2ed2fb93-4fc7-44e7-9cfc-db7feac5a9b4.jpg",
    "developer": "ASCII",
    "launchbox": "125136",
+   "mobygames": 259,
    "publisher": "ASCII",
    "screenshotUrl": "https://images.launchbox-app.com/0de89a0b-467b-4e53-a616-650fd7e971af.png",
    "title": "Balance of Power: Geopolitics in the Nuclear Age"
@@ -1534,6 +1621,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/4aed9296-38f3-4e26-81d6-91fe0ac9e036.jpg",
    "developer": "Renovation Game",
    "launchbox": "139229",
+   "mobygames": 26191,
    "publisher": "Telenet Japan",
    "screenshotUrl": "https://images.launchbox-app.com/94a9557d-073c-4d97-b143-791f7c9676e5.png",
    "title": "XZR: Hakai no Guuzou"
@@ -1997,6 +2085,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/bb238a60-5a93-4ed3-9fb0-d826cdb6f11a.jpg",
    "developer": "Idealogic",
    "launchbox": "151552",
+   "mobygames": 6935,
    "publisher": "Idealogic",
    "screenshotUrl": "https://images.launchbox-app.com/50242f67-2eed-49e5-a618-242c24542131.png",
    "title": "Nueve Principes en Amber"
@@ -2347,6 +2436,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/64e8a589-2b44-4350-a1fb-76a008db79f5.jpg",
    "developer": "Riverhill Soft",
    "launchbox": "156308",
+   "mobygames": 43758,
    "publisher": "Riverhill Soft",
    "screenshotUrl": "https://images.launchbox-app.com/53ae08e0-86a4-45c9-8fb5-fd0356bb8995.png",
    "title": "Burai"
@@ -2753,6 +2843,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/r2_e4f556bb-4871-4062-af3e-13a0a4c775c0.png",
    "developer": "Fony",
    "launchbox": "167688",
+   "mobygames": 39978,
    "publisher": "Fony",
    "screenshotUrl": "https://images.launchbox-app.com/7495656d-0897-426a-964d-2110005bd719.png",
    "title": "Eggbert"
@@ -3007,6 +3098,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/22c4702a-5035-481b-b47c-09255e176dfa.png",
    "developer": "Artec",
    "launchbox": "169217",
+   "mobygames": 51176,
    "publisher": "Artec",
    "title": "Gdleen: Digan no Maseki"
   },
@@ -3038,12 +3130,14 @@
    "title": "Gall Force: Eternal Story"
   },
   "msx2:179789": {
+   "adult": true,
    "aliases": [
     "Bishoujo Control"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/502b9d2c-f7f4-4c7e-98ed-abf2efa101de.jpg",
    "developer": "HARD",
    "launchbox": "179789",
+   "mobygames": 28782,
    "publisher": "HARD",
    "screenshotUrl": "https://images.launchbox-app.com/bcb7f8f3-4eac-4af2-9cf3-669c4a494c39.png",
    "title": "Girl's Control"
@@ -3118,6 +3212,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/b148e300-74da-42e6-a2b2-aed3bee7dedc.jpg",
    "developer": "Micro Cabin",
    "launchbox": "182883",
+   "mobygames": 50049,
    "publisher": "Micro Cabin",
    "screenshotUrl": "https://images.launchbox-app.com/6f2f1152-9d59-4c34-bfa9-4061b9e00240.png",
    "title": "Kimagure Orange Road"
@@ -3583,6 +3678,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/303effb9-678b-4493-8b9f-4f78a6cbdb81.jpg",
    "developer": "Idealogic",
    "launchbox": "188900",
+   "mobygames": 1283,
    "publisher": "Philips Spain",
    "screenshotUrl": "https://images.launchbox-app.com/c878960c-bdb7-4f58-b016-e6d5a486aa0d.png",
    "title": "Dragonworld"
@@ -3643,6 +3739,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/44a7821e-3488-41ab-975b-a67ecdf57fcd.jpg",
    "developer": "Bothtec",
    "launchbox": "189011",
+   "mobygames": 47773,
    "publisher": "Bothtec",
    "screenshotUrl": "https://images.launchbox-app.com/b55ada7b-4bf7-485d-9531-569be98ffe79.png",
    "title": "Ginga Eiyuu Densetsu",
@@ -3655,6 +3752,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/d8317398-a295-4d30-96c9-4707b1c9c7b0.jpg",
    "developer": "Bothtec",
    "launchbox": "189012",
+   "mobygames": 47779,
    "publisher": "Bothtec",
    "screenshotUrl": "https://images.launchbox-app.com/e5ad103a-b08d-4b72-977d-fbc7d594e1f2.png",
    "title": "Ginga Eiyuu Densetsu II",
@@ -3800,6 +3898,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/5d26fa28-80e8-49cc-b4e5-288dd33becf9.jpg",
    "developer": "Riverhill Soft",
    "launchbox": "189035",
+   "mobygames": 45910,
    "publisher": "Riverhill Soft",
    "screenshotUrl": "https://images.launchbox-app.com/14ea2458-7393-4216-a2ed-0abca5c63a8f.png",
    "title": "JB Harold no Jikenbo #2: Manhattan Requiem"
@@ -3861,6 +3960,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/d1dfb725-6700-4072-a2c7-fc1b702522a0.jpg",
    "developer": "Riverhill Soft",
    "launchbox": "189043",
+   "mobygames": 54290,
    "publisher": "Riverhill Soft",
    "screenshotUrl": "https://images.launchbox-app.com/848cc36d-16f6-49b6-8a16-cd95bc5db549.png",
    "title": "Kohakuiro no Yuigon"
@@ -3903,6 +4003,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/4e375c2c-912a-4cf6-8e8d-9234ffad8e2e.jpg",
    "developer": "Pony Canyon",
    "launchbox": "189047",
+   "mobygames": 76837,
    "publisher": "Pony Canyon",
    "screenshotUrl": "https://images.launchbox-app.com/c4c4923e-1e49-4807-b0b7-d186a5b5bd87.png",
    "title": "Kujaku Ou"
@@ -4048,6 +4149,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/440fa330-3b0e-46bd-9cb5-1d6f6385aef3.jpg",
    "developer": "Soft Studio Wing",
    "launchbox": "189068",
+   "mobygames": 54968,
    "publisher": "Soft Studio Wing",
    "screenshotUrl": "https://images.launchbox-app.com/4214756d-3934-4d22-9493-8ad469773286.png",
    "title": "Onryou Senki",
@@ -4083,29 +4185,35 @@
    "title": "Phantasie III: The Wrath of Nikademus"
   },
   "msx2:189072": {
+   "adult": true,
    "aliases": [
     "Pinky Ponky I"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/01d3f788-f073-438e-b487-272aef3fb0a8.jpg",
    "developer": "Elf",
    "launchbox": "189072",
+   "mobygames": 58836,
    "publisher": "elf",
    "screenshotUrl": "https://images.launchbox-app.com/fe544b99-a580-403e-8529-2512fa6c5728.png",
    "title": "Pinky Ponky 1: Beautiful Dream",
    "year": 1989
   },
   "msx2:189073": {
+   "adult": true,
    "boxArtUrl": "https://images.launchbox-app.com/8a71181b-0df4-4698-81ee-0dcb9378dca3.jpg",
    "developer": "Elf",
    "launchbox": "189073",
+   "mobygames": 58839,
    "publisher": "elf",
    "screenshotUrl": "https://images.launchbox-app.com/d604607f-062b-4f67-beba-e534d757e8b8.png",
    "title": "Pinky Ponky 2: Twilight Games"
   },
   "msx2:189074": {
+   "adult": true,
    "boxArtUrl": "https://images.launchbox-app.com/ded2531d-014d-4650-a946-6326990ba420.jpg",
    "developer": "Elf",
    "launchbox": "189074",
+   "mobygames": 58838,
    "publisher": "elf",
    "screenshotUrl": "https://images.launchbox-app.com/f77938de-5d36-4d97-860e-bf1918157e87.png",
    "title": "Pinky Ponky 3: Battle Lover",
@@ -4157,9 +4265,11 @@
    "title": "Konyamo Asama de Powerful Mahjong 2"
   },
   "msx2:189079": {
+   "adult": true,
    "boxArtUrl": "https://images.launchbox-app.com/f3c4d949-b9d7-422a-b81f-d4c2cc223b93.jpg",
    "developer": "Alice Soft",
    "launchbox": "189079",
+   "mobygames": 18681,
    "publisher": "Alice Soft",
    "screenshotUrl": "https://images.launchbox-app.com/e69cf2e0-63e9-40e3-9549-65a3a8e54dc0.png",
    "title": "Rance II: Hangyaku no Shojoutachi",
@@ -4184,6 +4294,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/200df1dd-5bda-48e5-9c79-d23f66f3c393.jpg",
    "developer": "Kemsx",
    "launchbox": "189081",
+   "mobygames": 18638,
    "publisher": "Compile",
    "screenshotUrl": "https://images.launchbox-app.com/d2144aab-8581-41b7-8981-8ce3dad861cb.png",
    "title": "Randar no Bouken"
@@ -4269,7 +4380,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/5cdd4c11-7cd1-47d1-b982-194c086e622c.jpg",
    "developer": "Sun Electronics",
    "launchbox": "189091",
-   "mobygames": 54959,
+   "mobygames": 2055,
    "publisher": "SystemSoft",
    "screenshotUrl": "https://images.launchbox-app.com/ef34702c-4fea-4b09-8efd-bcc71504fcfd.png",
    "title": "Shanghai II"
@@ -4394,6 +4505,7 @@
    "title": "Konami Game Collection Extra"
   },
   "msx2:189103": {
+   "adult": true,
    "aliases": [
     "Toshin City",
     "Toushin Doshi"
@@ -4401,6 +4513,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/896b52bd-80f4-4be2-b50d-b5c1912f8019.jpg",
    "developer": "Alice Soft",
    "launchbox": "189103",
+   "mobygames": 18730,
    "publisher": "Alice Soft",
    "screenshotUrl": "https://images.launchbox-app.com/3fb874e2-985f-42c6-9844-32c861fc52a0.png",
    "title": "Toushin Toshi",
@@ -4440,11 +4553,13 @@
    "title": "Ultima IV: Quest of the Avatar"
   },
   "msx2:189107": {
+   "adult": true,
    "aliases": [
     "Urotsuki Doji"
    ],
    "developer": "FairyTale",
    "launchbox": "189107",
+   "mobygames": 43465,
    "publisher": "FairyTale",
    "screenshotUrl": "https://images.launchbox-app.com/fe1ccefe-d336-4c83-ad4f-e49c30caf2bf.png",
    "title": "Urotsukidouji",
@@ -4754,6 +4869,7 @@
    "title": "The Avenger of Death"
   },
   "msx2:205521": {
+   "adult": true,
    "aliases": [
     "AYAYO's Love Affair: I don't have a holiday",
     "はっちゃけあやよさんIIいけないホリディ"
@@ -4761,6 +4877,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/925aded4-1f79-4bc6-aa03-f2fed4175997.jpg",
    "developer": "HARD",
    "launchbox": "205521",
+   "mobygames": 58118,
    "publisher": "HARD",
    "screenshotUrl": "https://images.launchbox-app.com/b401d25c-1d7b-4bbb-a870-6a6d81cacae8.png",
    "title": "Hacchake Ayayo-san 2: Ikenai Holiday"
@@ -5058,9 +5175,11 @@
    "title": "Highway Fighter"
   },
   "msx2:206313": {
+   "adult": true,
    "boxArtUrl": "https://images.launchbox-app.com/15f53b62-9c58-4f46-9676-e87e666f568f.jpg",
    "developer": "Nichibutsu",
    "launchbox": "206313",
+   "mobygames": 20410,
    "publisher": "Nichibutsu",
    "screenshotUrl": "https://images.launchbox-app.com/90826314-ff92-4737-b7fd-0bebdb244d54.png",
    "title": "Mahjong Shikaku Gaiden: Hana no Momoko Gumi!"
@@ -5538,6 +5657,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/c6daa6cc-5d36-4c72-b7eb-867326b2ffa0.png",
    "developer": "Kai Magazine Software",
    "launchbox": "218635",
+   "mobygames": 186675,
    "publisher": "Kai Magazine Software",
    "screenshotUrl": "https://images.launchbox-app.com/d99f7c7f-acd3-4473-8795-8d01849aecca.png",
    "title": "Metal Dragon",
@@ -5712,6 +5832,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/4fa4fc09-977c-4dca-bdea-b74cf2a6c51e.jpg",
    "developer": "Emphasys",
    "launchbox": "26955",
+   "mobygames": 231492,
    "publisher": "Emphasys",
    "screenshotUrl": "https://images.launchbox-app.com/ee81b790-41f9-41d0-802b-fb285767564d.png",
    "title": "DuckTales",
@@ -5761,11 +5882,17 @@
     "King Kong 2: The Reviving Legend"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/f709870e-f12b-4ceb-9555-fdc1f5feb080.png",
+   "contentIds": [
+    "sha256-rom-v1:9c42a0b4d4219176e0e894c434deb0b479cde3ce9edbd9e99395a8baae6c01d6"
+   ],
    "developer": "Konami",
    "launchbox": "26972",
    "mobygames": 70956,
    "publisher": "Konami",
    "screenshotUrl": "https://images.launchbox-app.com/e2f94042-487f-4b96-b916-b65f9b37b869.png",
+   "sourceGroups": [
+    "msx2:King Kong 2 (1986) (Konami).zip"
+   ],
    "title": "King Kong 2: Yomigaeru Densetsu"
   },
   "msx2:26995": {
@@ -5801,11 +5928,18 @@
     "The Pro Yakyu Gekitotsu: Pennant Race"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/7686e828-e8a9-461f-ae84-c59e871be305.jpg",
+   "contentIds": [
+    "sha256-rom-v1:6576a4cfdd389fd47e4f314c775f3814118027764a75d7b8ec64a09efce82cbb",
+    "sha256-rom-v1:73d0010369bbbd4ca65af721fba396ae393e1414ee995b6489ae0649017c3cc3"
+   ],
    "developer": "Konami",
    "launchbox": "27008",
    "mobygames": 71053,
    "publisher": "Konami",
    "screenshotUrl": "https://images.launchbox-app.com/4f7abaae-3123-4d80-a579-71831112ef31.png",
+   "sourceGroups": [
+    "msx2:Gekitotsu Pennant Race (1988) (Konami).zip"
+   ],
    "title": "The Gekitotsu Pennant Race: Pro Yakyuu"
   },
   "msx2:27025": {
@@ -5878,6 +6012,7 @@
    ],
    "developer": "Konami",
    "launchbox": "27101",
+   "mobygames": 19512,
    "publisher": "Konami",
    "screenshotUrl": "https://images.launchbox-app.com/4a5523ce-956e-48aa-b92f-9b622bb1be06.png",
    "sourceGroups": [
@@ -6140,6 +6275,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/c838287e-d128-4af4-afda-5a1223c27fef.jpg",
    "developer": "Enix",
    "launchbox": "33781",
+   "mobygames": 51192,
    "publisher": "Enix",
    "screenshotUrl": "https://images.launchbox-app.com/102175a9-ba8c-478d-bb89-ce969ff1d5ce.jpg",
    "title": "Gandhara",
@@ -6343,6 +6479,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/ff3073eb-eee3-40cf-88b5-36b575f067e2.jpg",
    "developer": "Hertz",
    "launchbox": "33847",
+   "mobygames": 8237,
    "publisher": "Hertz",
    "screenshotUrl": "https://images.launchbox-app.com/8955ac48-89d1-4883-9484-fea732ecfcb9.jpg",
    "title": "Psycho World",
@@ -6415,6 +6552,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/5120147d-8d7a-45a6-8d3f-6c0a3da48b34.jpg",
    "developer": "ArtDink",
    "launchbox": "33858",
+   "mobygames": 51412,
    "publisher": "Pony Canyon",
    "screenshotUrl": "https://images.launchbox-app.com/ac03b862-cb25-4ead-82ab-495beb31450e.png",
    "title": "A Ressha De Ikou"
@@ -6483,6 +6621,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/9ce0adc8-a6fd-41df-a559-845f62f04390.png",
    "developer": "Taito",
    "launchbox": "33864",
+   "mobygames": 1088,
    "publisher": "Nidecom",
    "screenshotUrl": "https://images.launchbox-app.com/d6f5b11a-0401-4d81-b13c-a4e978b2fd58.jpg",
    "title": "Arkanoid II: Revenge of Doh"
@@ -6590,10 +6729,16 @@
   },
   "msx2:34002": {
    "boxArtUrl": "https://images.launchbox-app.com/348e7990-4d95-40b6-801e-f1c06a5829ce.png",
+   "contentIds": [
+    "sha256-rom-v1:913fa26b38af54b3fd3ba6024ec7e578ad84760f62ed31bb6e5aafd5205222f6"
+   ],
    "developer": "Wood Place",
    "launchbox": "34002",
    "publisher": "Sony",
    "screenshotUrl": "https://images.launchbox-app.com/8e804dec-0b2c-4ba4-a794-9bd5759a7369.jpg",
+   "sourceGroups": [
+    "msx2:Family Boxing (1988) (Sony).zip"
+   ],
    "title": "Family Boxing: MSX Title Match",
    "year": 1988
   },
@@ -6648,6 +6793,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/b70f736e-7c5c-4974-bd93-533431b0f037.jpg",
    "developer": "Nihon Falcom",
    "launchbox": "34082",
+   "mobygames": 242,
    "publisher": "Nihon Falcom",
    "screenshotUrl": "https://images.launchbox-app.com/cb4d8cc2-0ddb-4cfc-b1d1-7e4e72f50f66.jpg",
    "title": "Ys: Ancient Ys Vanished",
@@ -6657,6 +6803,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/b92c3ee2-04b4-42ec-9b39-88c27dda59bd.png",
    "developer": "Pack-In-Video",
    "launchbox": "34083",
+   "mobygames": 237130,
    "publisher": "Pack-In-Video",
    "screenshotUrl": "https://images.launchbox-app.com/86a55907-428d-42fe-8a48-af0c7994ba55.jpg",
    "title": "Silviana",
@@ -6700,11 +6847,17 @@
   },
   "msx2:34125": {
    "boxArtUrl": "https://images.launchbox-app.com/6439fe48-342c-4b1a-9a47-1f4563d1a805.png",
+   "contentIds": [
+    "sha256-rom-v1:0be38a676ac6f6bae0ee2b36b9ae14f90843b688cd3f652261a5d7a9abb54c57"
+   ],
    "developer": "Nidecom",
    "launchbox": "34125",
    "mobygames": 101058,
    "publisher": "Nidecom",
    "screenshotUrl": "https://images.launchbox-app.com/45d4b37e-5f36-46e7-9593-eff4625e3599.png",
+   "sourceGroups": [
+    "msx2:Cockpit, The (1987) (Taito).zip"
+   ],
    "title": "The Cockpit"
   },
   "msx2:34128": {
@@ -6727,11 +6880,17 @@
     "Dires: Giger Loop"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/63185d37-4637-4edc-bfde-e0e956202ca3.png",
+   "contentIds": [
+    "sha256-rom-v1:b720df7dd6cbcd97b855e14fd1124d929534dbf4035e090a8b824c15bd17d8f1"
+   ],
    "developer": "Bothtec",
    "launchbox": "34129",
    "mobygames": 117794,
    "publisher": "Bothtec",
    "screenshotUrl": "https://images.launchbox-app.com/c896ca20-38c2-4e2f-9144-e255abfa5afb.jpg",
+   "sourceGroups": [
+    "msx2:Dires (1987) (Telenet).zip"
+   ],
    "title": "DIRES: giger・loop"
   },
   "msx2:34137": {
@@ -6742,6 +6901,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/5842a44c-064b-4069-accc-367ef5d8384a.jpg",
    "developer": "Koei",
    "launchbox": "34137",
+   "mobygames": 13947,
    "publisher": "Koei",
    "screenshotUrl": "https://images.launchbox-app.com/d90f3bfa-15af-4dda-9851-b4ee84c17c92.png",
    "title": "Inindou: Datou Nobunaga"
@@ -6753,6 +6913,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/b8ce3bd6-f42a-4332-a990-e172ef7d28ba.jpg",
    "developer": "Compile",
    "launchbox": "34146",
+   "mobygames": 228797,
    "publisher": "Compile",
    "screenshotUrl": "https://images.launchbox-app.com/0178efd8-bb08-425f-accf-5d709368bfdb.jpg",
    "title": "Shin Maou Golvellius",
@@ -6775,10 +6936,16 @@
   },
   "msx2:34730": {
    "boxArtUrl": "https://images.launchbox-app.com/9562d7ef-816c-4f9a-8e45-f9a20ec65f2e.jpg",
+   "contentIds": [
+    "sha256-rom-v1:8b3c5d7e802c3644a3c8b7816c5101955c2f8750b44b958341b081d1fad42283"
+   ],
    "developer": "T&E Soft",
    "launchbox": "34730",
    "publisher": "T&E Soft",
    "screenshotUrl": "https://images.launchbox-app.com/b5955d92-27fe-44b9-b630-4252c28f6671.png",
+   "sourceGroups": [
+    "msx2:Hydlide 3 (1987) (T&E Soft).zip"
+   ],
    "title": "Hydlide 3: The Space Memories"
   },
   "msx2:35008": {
@@ -6873,6 +7040,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/7227e7ab-0d36-43a4-94a6-6c95f3906a01.jpg",
    "developer": "Kai Magazine Software",
    "launchbox": "424994",
+   "mobygames": 192899,
    "publisher": "Kai Magazine Software",
    "screenshotUrl": "https://images.launchbox-app.com/284ecb29-d1f3-48ca-b9c7-4424802714bb.png",
    "title": "The Sorrow of Gadhlan 'Thur",
@@ -6882,6 +7050,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/2bdba98d-7df6-4808-96e4-23b0b5544e49.jpg",
    "developer": "Kai Magazine Software",
    "launchbox": "425020",
+   "mobygames": 192991,
    "publisher": "Kai Magazine Software",
    "screenshotUrl": "https://images.launchbox-app.com/77f2023f-f25b-45b5-890d-1c306b570ba8.png",
    "title": "Life on Mars",
@@ -7546,16 +7715,6 @@
    "title": "Double Vision",
    "year": 1988
   },
-  "msx2:local-26a8031fd8": {
-   "contentIds": [
-    "sha256-rom-v1:12231b41ed31a2ab653df4612e792e0da549e926a529453614cca5367c5185aa"
-   ],
-   "sourceGroups": [
-    "msx2:Xevious - Fardraut Saga (1989) (Namcot).zip"
-   ],
-   "title": "Xevious - Fardraut Saga",
-   "year": 1989
-  },
   "msx2:local-30ced065e6": {
    "contentIds": [
     "sha256-rom-v1:0ac0756a7b4305948e00209f5cd4057e7444d534f87c5452a10de0de09bb1fb7",
@@ -7577,16 +7736,6 @@
    "title": "Gambler Jikichushinpa 2",
    "year": 1988
   },
-  "msx2:local-41b1935b06": {
-   "contentIds": [
-    "sha256-rom-v1:a12a5512587e4924a049b0ee06be1f4183cd1b44db49532e5c0a429914fe7603"
-   ],
-   "sourceGroups": [
-    "msx2:Urusei Yatsura (1987) (Micro Cabin).zip"
-   ],
-   "title": "Urusei Yatsura",
-   "year": 1987
-  },
   "msx2:local-4216d10253": {
    "contentIds": [
     "sha256-rom-v1:b4704dc30e9958dc0fdaab0e152677baf46bfa89f9adaf1c45f667863c408298"
@@ -7605,27 +7754,6 @@
     "msx2:Arkanoid 2 (1987) (Taito).zip"
    ],
    "title": "Arkanoid 2",
-   "year": 1987
-  },
-  "msx2:local-4766f620a7": {
-   "contentIds": [
-    "sha256-rom-v1:d5b48ca819e722725297539d3abe14b4ae863666eb33186a58ff81167b64de4f"
-   ],
-   "sourceGroups": [
-    "msx2:Project A2 (1987) (Pony Cannon).zip"
-   ],
-   "title": "Project A2",
-   "year": 1987
-  },
-  "msx2:local-47ce62877b": {
-   "contentIds": [
-    "sha256-rom-v1:79bfdbbd0e9e6a6e6d49389339e02789538724fab0b8790ae0c52314887f05b3",
-    "sha256-rom-v1:d4d443c18203f1a463b4d0b356a95c5dc578e24e47e5ea596c773b63ad20fba0"
-   ],
-   "sourceGroups": [
-    "msx2:Hinotori (1987) (Konami).zip"
-   ],
-   "title": "Hinotori",
    "year": 1987
   },
   "msx2:local-4c7f2d9df6": {
@@ -7698,26 +7826,6 @@
    "title": "Kontora - Contra",
    "year": 1989
   },
-  "msx2:local-777f266db0": {
-   "contentIds": [
-    "sha256-rom-v1:913fa26b38af54b3fd3ba6024ec7e578ad84760f62ed31bb6e5aafd5205222f6"
-   ],
-   "sourceGroups": [
-    "msx2:Family Boxing (1988) (Sony).zip"
-   ],
-   "title": "Family Boxing",
-   "year": 1988
-  },
-  "msx2:local-7affc4540c": {
-   "contentIds": [
-    "sha256-rom-v1:9c42a0b4d4219176e0e894c434deb0b479cde3ce9edbd9e99395a8baae6c01d6"
-   ],
-   "sourceGroups": [
-    "msx2:King Kong 2 (1986) (Konami).zip"
-   ],
-   "title": "King Kong 2",
-   "year": 1986
-  },
   "msx2:local-7fe1443ac4": {
    "contentIds": [
     "sha256-rom-v1:c56c957f3e9bbb3c589553af170c49e9343966058298ddc8b5692907cb82a200"
@@ -7748,16 +7856,6 @@
    "title": "Shougi Sinan 2",
    "year": 1988
   },
-  "msx2:local-8843c6acf6": {
-   "contentIds": [
-    "sha256-rom-v1:8b3c5d7e802c3644a3c8b7816c5101955c2f8750b44b958341b081d1fad42283"
-   ],
-   "sourceGroups": [
-    "msx2:Hydlide 3 (1987) (T&E Soft).zip"
-   ],
-   "title": "Hydlide 3",
-   "year": 1987
-  },
   "msx2:local-8c8d057ee1": {
    "contentIds": [
     "sha256-rom-v1:29ecd3ac6d07c73566d3be8582f8383ddad9dd7b03ce42a50e35dcecb45c57e3"
@@ -7777,17 +7875,6 @@
    ],
    "title": "Mon Mon Monstar",
    "year": 1989
-  },
-  "msx2:local-92b0e49cd3": {
-   "contentIds": [
-    "sha256-rom-v1:6576a4cfdd389fd47e4f314c775f3814118027764a75d7b8ec64a09efce82cbb",
-    "sha256-rom-v1:73d0010369bbbd4ca65af721fba396ae393e1414ee995b6489ae0649017c3cc3"
-   ],
-   "sourceGroups": [
-    "msx2:Gekitotsu Pennant Race (1988) (Konami).zip"
-   ],
-   "title": "Gekitotsu Pennant Race",
-   "year": 1988
   },
   "msx2:local-95b0ea2550": {
    "contentIds": [
@@ -7812,16 +7899,6 @@
    "title": "Akumajyo Drakyula - Vampire Killer",
    "year": 1986
   },
-  "msx2:local-9750d6f29c": {
-   "contentIds": [
-    "sha256-rom-v1:b720df7dd6cbcd97b855e14fd1124d929534dbf4035e090a8b824c15bd17d8f1"
-   ],
-   "sourceGroups": [
-    "msx2:Dires (1987) (Telenet).zip"
-   ],
-   "title": "Dires",
-   "year": 1987
-  },
   "msx2:local-a1105a612c": {
    "contentIds": [
     "sha256-rom-v1:3668e0ec34b2e69c5a84ee6082e277466d60e99807936c06bc79a8a87b23d850"
@@ -7843,26 +7920,6 @@
    "title": "Japanese MSX-Write II",
    "year": 1988
   },
-  "msx2:local-a76ad9a29e": {
-   "contentIds": [
-    "sha256-rom-v1:097060b1c8d6b0728e8bfc9dc726389cf439515845e3686aade2f7e6403f3cb6"
-   ],
-   "sourceGroups": [
-    "msx2:Romancia (1986) (Falcom).zip"
-   ],
-   "title": "Romancia",
-   "year": 1986
-  },
-  "msx2:local-abade0cf38": {
-   "contentIds": [
-    "sha256-rom-v1:0be38a676ac6f6bae0ee2b36b9ae14f90843b688cd3f652261a5d7a9abb54c57"
-   ],
-   "sourceGroups": [
-    "msx2:Cockpit, The (1987) (Taito).zip"
-   ],
-   "title": "Cockpit, The",
-   "year": 1987
-  },
   "msx2:local-aee92c8727": {
    "contentIds": [
     "sha256-rom-v1:7b5a2256f321398f67f6b1cc0408412cdca397534e4715b068bf1ab0f3c68eef"
@@ -7872,16 +7929,6 @@
    ],
    "title": "Family Stadium",
    "year": 1989
-  },
-  "msx2:local-b076f9cc4f": {
-   "contentIds": [
-    "sha256-rom-v1:7fa50a10db0e4e9a934746673249b7bb3beeb8a1dbb54cbb0c6faf182c186ea7"
-   ],
-   "sourceGroups": [
-    "msx2:Rick & Mick's Adventure (1987) (Humming Bird Soft).zip"
-   ],
-   "title": "Rick & Mick's Adventure",
-   "year": 1987
   },
   "msx2:local-b634e77ed8": {
    "contentIds": [
@@ -7913,16 +7960,6 @@
    "title": "A-Train",
    "year": 1989
   },
-  "msx2:local-e10c628c22": {
-   "contentIds": [
-    "sha256-rom-v1:6e701658f0ba494529127243a5b0741a1b5281a6eabda4b3d5a8975368eafdbe"
-   ],
-   "sourceGroups": [
-    "msx2:Wizardry (1988) (Ascii).zip"
-   ],
-   "title": "Wizardry",
-   "year": 1988
-  },
   "msx2:local-e1e1d6a0ce": {
    "contentIds": [
     "sha256-rom-v1:d0c8091d62113ba041676cec9e480fb199cfb528bb45ff54dad5f506814d85d4"
@@ -7933,16 +7970,6 @@
    "title": "Inindo Tado Nobunaga",
    "year": 1991
   },
-  "msx2:local-e50a2c4266": {
-   "contentIds": [
-    "sha256-rom-v1:c5f9fb0e38f15478850e0ccfecfe68e4bc5ab3a67565c4a7d483ef1d80a8d71f"
-   ],
-   "sourceGroups": [
-    "msx2:Return of Ishtar, The (1988) (Namcot).zip"
-   ],
-   "title": "Return of Ishtar, The",
-   "year": 1988
-  },
   "msx2:local-e821e1de50": {
    "contentIds": [
     "sha256-rom-v1:a436addc241d977ba38081463322e7e611d6bab4d10cd06305fe5a71f02a549c"
@@ -7952,27 +7979,6 @@
    ],
    "title": "Ganbare Goemon",
    "year": 1987
-  },
-  "msx2:local-f9e95a9f63": {
-   "contentIds": [
-    "sha256-rom-v1:92b9004897da2bf6708e695da29fbb72a36cd70feb79be37537db4b6d921e86d"
-   ],
-   "sourceGroups": [
-    "msx2:Suikoden (1989) (Koei).zip"
-   ],
-   "title": "Suikoden",
-   "year": 1989
-  },
-  "msx2:local-fa2adb710e": {
-   "contentIds": [
-    "sha256-rom-v1:4fa7d0b88ca4cb88177fab7efaae07dffb43ef624779af6a1a38f944e2f267cb",
-    "sha256-rom-v1:c7f138f16ddb8c8bf7af2fbd136c1f949ab95c375205375a3509d8ad32e00d93"
-   ],
-   "sourceGroups": [
-    "msx2:King's Valley 2 (1988) (Konami).zip"
-   ],
-   "title": "King's Valley 2",
-   "year": 1988
   },
   "msx2:local-fc0409fbcb": {
    "contentIds": [
@@ -8194,6 +8200,7 @@
    ],
    "developer": "RAC House",
    "launchbox": "201222",
+   "mobygames": 261483,
    "screenshotUrl": "https://images.launchbox-app.com/1e4f31b3-696a-435b-a901-3f61edd5c7eb.jpg",
    "sourceGroups": [
     "turbor:MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/PaRaDream (1992)(RAC House)(JP).zip",
@@ -8276,6 +8283,7 @@
    ],
    "developer": "Micro Cabin",
    "launchbox": "33659",
+   "mobygames": 15537,
    "publisher": "Micro Cabin",
    "screenshotUrl": "https://images.launchbox-app.com/b48891b5-566e-4b93-ae50-0f64820f8e59.jpg",
    "sourceGroups": [
@@ -8732,7 +8740,7 @@
    "sourceGroups": [
     "turbor:MSX TurboR [TOSEC]/MSX TurboR - Applications (TOSEC-v2012-04-15_CM)/PCM Player, The (19xx)(-)[b].zip"
    ],
-   "title": "PCM Player, The"
+   "title": "The PCM Player"
   },
   "msx2plus:local-99bdf1ae4f": {
    "contentIds": [
@@ -8899,7 +8907,7 @@
    "sourceGroups": [
     "turbor:MSX TurboR [TOSEC]/MSX TurboR - Demos (TOSEC-v2012-04-15_CM)/Swiss Demo, The (1992)(MJ-CHJ & AT Productions)[b].zip"
    ],
-   "title": "Swiss Demo, The",
+   "title": "The Swiss Demo",
    "year": 1992
   },
   "msx:101795": {
@@ -9069,6 +9077,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/eaacc215-dc9f-40d6-8d93-ca77a5b39382.png",
    "developer": "Hi-Score",
    "launchbox": "103631",
+   "mobygames": 19876,
    "publisher": "Dinamic Software",
    "screenshotUrl": "https://images.launchbox-app.com/9d341f5f-49e0-4d3c-8b70-a4e0849c433b.png",
    "title": "Captain 'S'"
@@ -9260,7 +9269,7 @@
    ],
    "developer": "Mass Tael",
    "launchbox": "119137",
-   "mobygames": 52944,
+   "mobygames": 7511,
    "publisher": "Mass Tael",
    "screenshotUrl": "https://images.launchbox-app.com/3227f90a-75b3-441b-aade-8610606fde78.png",
    "sourceGroups": [
@@ -9270,11 +9279,17 @@
   },
   "msx:122811": {
    "boxArtUrl": "https://images.launchbox-app.com/d4e36848-3378-49c7-85ec-6263df7af393.jpg",
+   "contentIds": [
+    "sha256-rom-v1:b4678f81e6b9e03f59f1fef8cd0488e3bb524143285364ce69ec02fff1cce828"
+   ],
    "developer": "ASCII",
    "launchbox": "122811",
    "mobygames": 20353,
    "publisher": "ASCII",
    "screenshotUrl": "https://images.launchbox-app.com/7b2ea128-c300-4163-8d51-84fbda548dcd.png",
+   "sourceGroups": [
+    "msx:Castle, The (1986) (Ascii).zip"
+   ],
    "title": "The Castle"
   },
   "msx:123972": {
@@ -9334,6 +9349,7 @@
    ],
    "developer": "Pony Canyon",
    "launchbox": "126314",
+   "mobygames": 20356,
    "publisher": "Pony Canyon",
    "screenshotUrl": "https://images.launchbox-app.com/b8fd02be-9a7f-475a-b916-728ecd05c49b.jpg",
    "sourceGroups": [
@@ -9706,11 +9722,17 @@
     "Kinnikuman: Muscle Man"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/0387d03d-b9f7-4ac6-938c-6d0d3a2ea6d5.jpg",
+   "contentIds": [
+    "sha256-rom-v1:e943e1125a4ebc749a1841fb5355fbcc928dcfbb3f16dbc78f3823878ef71acc"
+   ],
    "developer": "Bandai",
    "launchbox": "127528",
    "mobygames": 30177,
    "publisher": "Bandai",
    "screenshotUrl": "https://images.launchbox-app.com/ac923099-a3a3-45e3-8c41-516737d2114a.png",
+   "sourceGroups": [
+    "msx:Kinnikuman (1985) (Bandai).zip"
+   ],
    "title": "Kinnikuman: Colosseum Deathmatch"
   },
   "msx:128023": {
@@ -9734,10 +9756,17 @@
   },
   "msx:128024": {
    "boxArtUrl": "https://images.launchbox-app.com/5d652af0-f1f3-42fd-94af-aedb973303e9.png",
+   "contentIds": [
+    "sha256-rom-v1:a93058238d63b05c8bd30498d695b3769b8d94b76ea7b24d55e2e9f32e270dac"
+   ],
    "developer": "ISCO",
    "launchbox": "128024",
+   "mobygames": 5960,
    "publisher": "Irem",
    "screenshotUrl": "https://images.launchbox-app.com/0f93e4e7-8fc2-4afe-bc10-40b6baab201f.png",
+   "sourceGroups": [
+    "msx:R-Type (1988) (Irem).zip"
+   ],
    "title": "R-Type",
    "year": 1987
   },
@@ -10151,10 +10180,16 @@
   },
   "msx:132933": {
    "boxArtUrl": "https://images.launchbox-app.com/096fdf99-5316-46bd-aa95-b4b70c50f49a.jpg",
+   "contentIds": [
+    "sha256-rom-v1:9fca736ccb35838a11de8e57c9b41aa2f5b5a0f80da81f2ecdd944dd04770b27"
+   ],
    "developer": "dB-SOFT",
    "launchbox": "132933",
    "publisher": "dB-Soft",
    "screenshotUrl": "https://images.launchbox-app.com/54e6dccb-95e4-4aa7-983c-43f923e455f5.jpg",
+   "sourceGroups": [
+    "msx:Cross Blaim (1985) (dB-Soft).zip"
+   ],
    "title": "Cross Blaim",
    "year": 1986
   },
@@ -10554,11 +10589,17 @@
   },
   "msx:132964": {
    "boxArtUrl": "https://images.launchbox-app.com/928dc170-6419-46e1-8178-03bf3a975d05.jpg",
+   "contentIds": [
+    "sha256-rom-v1:9def33fd9861a8fbb7a9e522f165a52731bbe9834ff0b69a22aecfbb9dbac75f"
+   ],
    "developer": "Activision",
    "launchbox": "132964",
    "mobygames": 20227,
    "publisher": "Activision",
    "screenshotUrl": "https://images.launchbox-app.com/2a99d05c-a61c-4764-87ad-42c409b39840.png",
+   "sourceGroups": [
+    "msx:Alcazar (1985) (Pony Cannon).zip"
+   ],
    "title": "Alcazar: The Forgotten Fortress"
   },
   "msx:132965": {
@@ -10579,10 +10620,16 @@
     "Anaza: Kaleidoscope Special"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/10c90a72-5da1-40bb-9cbb-e5b9fd61ea99.jpg",
+   "contentIds": [
+    "sha256-rom-v1:28671b31b71e0b7bcbbcf42c967d4c1c49ed342dfba1c0b9c2af662ea7039158"
+   ],
    "developer": "Hot-B",
    "launchbox": "132966",
    "publisher": "Hot-B",
    "screenshotUrl": "https://images.launchbox-app.com/2cdf71a7-e7fb-46bf-b28e-54d3020b5211.png",
+   "sourceGroups": [
+    "msx:Anaza (1987) (Hot-B).zip"
+   ],
    "title": "A-Na-Za: Kaleidoscope Special"
   },
   "msx:132967": {
@@ -10619,11 +10666,17 @@
   },
   "msx:132971": {
    "boxArtUrl": "https://images.launchbox-app.com/cd03df69-627b-4307-a259-8ce256c6ebdd.jpg",
+   "contentIds": [
+    "sha256-rom-v1:3b129d4419523e1bb4d495fd069c5f1903d87676f1addc2586b7136578ade74b"
+   ],
    "developer": "Bullet-Proof Software",
    "launchbox": "132971",
    "mobygames": 18757,
    "publisher": "ASCII",
    "screenshotUrl": "https://images.launchbox-app.com/e411f2c5-5d29-4f7f-a2b1-d66c3bad07ee.png",
+   "sourceGroups": [
+    "msx:Black Onyx 1, The (1985) (Ascii).zip"
+   ],
    "title": "The Black Onyx"
   },
   "msx:132974": {
@@ -10663,6 +10716,7 @@
    ],
    "developer": "Konami",
    "launchbox": "132981",
+   "mobygames": 10269,
    "publisher": "Konami",
    "screenshotUrl": "https://images.launchbox-app.com/1c0d19fc-61c6-4050-87b3-a9cc997105aa.png",
    "sourceGroups": [
@@ -10865,10 +10919,16 @@
   },
   "msx:133018": {
    "boxArtUrl": "https://images.launchbox-app.com/dbdf8745-90a4-4697-890a-715fefc6bce0.jpg",
+   "contentIds": [
+    "sha256-rom-v1:4f267a43407659184c9f3d361c46f755beea79f898807b4f650926f5126d34a7"
+   ],
    "developer": "T&E Soft",
    "launchbox": "133018",
    "publisher": "T&E Soft",
    "screenshotUrl": "https://images.launchbox-app.com/758c9c37-7e61-46bf-bd1e-470b73648d54.png",
+   "sourceGroups": [
+    "msx:Hydlide 3 (1987) (T&E Soft).zip"
+   ],
    "title": "Hydlide 3: The Space Memories",
    "year": 1987
   },
@@ -10955,6 +11015,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/413a42ae-27a8-44d3-9103-a6e4d2c756e3.png",
    "developer": "Yuji Horii",
    "launchbox": "133024",
+   "mobygames": 52328,
    "publisher": "Enix",
    "screenshotUrl": "https://images.launchbox-app.com/4c310ffa-34ac-4fe3-8707-99328836a37a.png",
    "title": "Karuizawa Yuukai Annai"
@@ -11089,11 +11150,17 @@
   },
   "msx:133036": {
    "boxArtUrl": "https://images.launchbox-app.com/4dc5bae3-7572-4517-89a7-98469e940d94.jpg",
+   "contentIds": [
+    "sha256-rom-v1:7fd0088a89b30d5439a7df0f44e33527f2f905bc92aec53580d14283560cfe3e"
+   ],
    "developer": "Irem",
    "launchbox": "133036",
    "mobygames": 20089,
    "publisher": "Technopolis Soft",
    "screenshotUrl": "https://images.launchbox-app.com/1006714c-519f-4798-a7e6-5749f47792c3.png",
+   "sourceGroups": [
+    "msx:Lot Lot (1986) (Irem).zip"
+   ],
    "title": "Lot Lot",
    "year": 1985
   },
@@ -11373,6 +11440,7 @@
    ],
    "developer": "Aackosoft International",
    "launchbox": "133064",
+   "mobygames": 213811,
    "publisher": "Pony Canyon",
    "screenshotUrl": "https://images.launchbox-app.com/2b68b993-a817-4cf7-b66b-8b6221ef91af.png",
    "sourceGroups": [
@@ -11580,6 +11648,7 @@
    ],
    "developer": "Imagic",
    "launchbox": "133131",
+   "mobygames": 13909,
    "publisher": "Toshiba-EMI",
    "screenshotUrl": "https://images.launchbox-app.com/eb71c076-3706-4d08-9ef3-d6a0fde68b8f.png",
    "sourceGroups": [
@@ -11589,11 +11658,17 @@
   },
   "msx:133132": {
    "boxArtUrl": "https://images.launchbox-app.com/90c39f41-fbee-428a-af81-49fd7ac76468.png",
+   "contentIds": [
+    "sha256-rom-v1:a262e22ea2c441bf21bc85f69c41c85af78fb69c2c4bc22e4a14ce0f6cd9234c"
+   ],
    "developer": "Michael S. Livesay",
    "launchbox": "133132",
    "mobygames": 10259,
    "publisher": "Comptiq",
    "screenshotUrl": "https://images.launchbox-app.com/4d033911-1404-4d72-a021-c22ec2701e67.png",
+   "sourceGroups": [
+    "msx:Heist, The (1985) (Comptiq).zip"
+   ],
    "title": "The Heist"
   },
   "msx:133165": {
@@ -11677,11 +11752,17 @@
   },
   "msx:133190": {
    "boxArtUrl": "https://images.launchbox-app.com/9821ba1d-b763-4572-aa39-70a228bad217.jpg",
+   "contentIds": [
+    "sha256-rom-v1:1b3dc773d8808f109f833abc3b9ef3aa58448fa3f5ec6c99ce8922edd98cf6aa"
+   ],
    "developer": "Dempa Micomsoft",
    "launchbox": "133190",
    "mobygames": 64366,
    "publisher": "Dempa Micomsoft",
    "screenshotUrl": "https://images.launchbox-app.com/56422f02-3a43-4b53-8744-b64802278471.png",
+   "sourceGroups": [
+    "msx:Demon Crystal, The (1986) (Dempa).zip"
+   ],
    "title": "The Demon Crystal"
   },
   "msx:133192": {
@@ -11722,11 +11803,17 @@
     "The Fairy Land Story"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/9d53ed4c-7fac-46c3-84d3-e6554b22b554.jpg",
+   "contentIds": [
+    "sha256-rom-v1:49b62083d0572d06c52d698718dd58f2e852793a1f75f15ba99d0fc8ecf53c98"
+   ],
    "developer": "Taito",
    "launchbox": "133194",
    "mobygames": 19636,
    "publisher": "Hot-B",
    "screenshotUrl": "https://images.launchbox-app.com/d3043be8-ad65-442a-98f7-1ba0134aa79d.png",
+   "sourceGroups": [
+    "msx:Fairy Land Story, The (1987) (Hot-B).zip"
+   ],
    "title": "The Fairyland Story"
   },
   "msx:133195": {
@@ -12168,6 +12255,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/96e30a80-6db9-4a32-90a2-75a0ca9de69d.png",
    "developer": "Ocean Software",
    "launchbox": "138795",
+   "mobygames": 1299,
    "publisher": "Imagine",
    "screenshotUrl": "https://images.launchbox-app.com/61badf54-52b1-45f9-9400-e572398004d7.png",
    "title": "Dragon Ninja"
@@ -12492,6 +12580,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/565b0859-157d-4606-b182-72344a1739c1.png",
    "developer": "Tiertex",
    "launchbox": "139507",
+   "mobygames": 1146,
    "publisher": "Lucasfilm Games",
    "screenshotUrl": "https://images.launchbox-app.com/2a11899e-8400-4e31-b1b6-e5971851b808.png",
    "title": "Indiana Jones and the Last Crusade"
@@ -12512,10 +12601,16 @@
     "Inspecteur Z"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/8e6e707e-ada8-4836-9910-5dce9e58f8be.png",
+   "contentIds": [
+    "sha256-rom-v1:86225b0559f1d4e5acadc00d5a18febc265bfc43a6ec5b7e2d360087080cbe5c"
+   ],
    "developer": "HAL Laboratory",
    "launchbox": "139509",
    "publisher": "HAL Laboratory",
    "screenshotUrl": "https://images.launchbox-app.com/09a4bc5c-f1fa-472b-8a06-ea110dd98bb3.png",
+   "sourceGroups": [
+    "msx:Buru To Marty Kikiippatsu (1986) (Hal).zip"
+   ],
    "title": "Bull and Mighty's Slim Chance"
   },
   "msx:139511": {
@@ -12672,6 +12767,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/b1f9f7c5-c33e-4fd8-a809-4a8939cb54c3.jpg",
    "developer": "Aardvark Software",
    "launchbox": "142330",
+   "mobygames": 2003,
    "publisher": "Firebird Software",
    "screenshotUrl": "https://images.launchbox-app.com/8ee5edca-5e99-4607-8b4a-e456f4cf3c88.png",
    "title": "3D Pool"
@@ -12824,6 +12920,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/8503c34c-3bb1-434e-a7c0-f9d850f1ba15.png",
    "developer": "Indescomp S.A.",
    "launchbox": "142500",
+   "mobygames": 14332,
    "publisher": "Quicksilva",
    "screenshotUrl": "https://images.launchbox-app.com/54d4f528-4cb7-4033-80f9-c3a4da704d00.png",
    "title": "Booga-Boo: The Flea"
@@ -12877,16 +12974,23 @@
     "M36: A Life Planet"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/r2_38929878-782c-403c-add0-2bc1b8630cbd.jpg",
+   "contentIds": [
+    "sha256-rom-v1:b85ab62ae22b5bdb85c3dffb1f9d628836e98d928f93512e32d8b2f12a1c89b6"
+   ],
    "developer": "Pixel",
    "launchbox": "143205",
    "publisher": "Pixel",
    "screenshotUrl": "https://images.launchbox-app.com/08efb40b-1113-4661-8c4e-790c8aa05948.png",
+   "sourceGroups": [
+    "msx:A Life M36 Planet (1987) (Pixel).zip"
+   ],
    "title": "A Life M36 Planet: MotherBrain Has Been Aliving"
   },
   "msx:143218": {
    "boxArtUrl": "https://images.launchbox-app.com/1ee04e8e-4c68-4ae1-b88d-5220fdfcba41.png",
    "developer": "Opera Soft",
    "launchbox": "143218",
+   "mobygames": 14379,
    "publisher": "Opera Soft",
    "screenshotUrl": "https://images.launchbox-app.com/f6933108-f0cf-43dc-9973-e0dc43de0bc1.png",
    "title": "Livingstone Supongo II"
@@ -12982,6 +13086,7 @@
    ],
    "developer": "Bandai",
    "launchbox": "146314",
+   "mobygames": 25374,
    "publisher": "Bandai",
    "screenshotUrl": "https://images.launchbox-app.com/53cefc75-e9db-4e8a-9809-a8aabc6073cd.png",
    "sourceGroups": [
@@ -13098,6 +13203,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/47414aee-83c6-4140-b216-ecb8854e35bd.jpg",
    "developer": "Hudson Soft",
    "launchbox": "147324",
+   "mobygames": 226591,
    "publisher": "Honeybee Soft",
    "screenshotUrl": "https://images.launchbox-app.com/4d44b135-350a-49b6-a9fa-559360c97f7d.png",
    "title": "Machinegun Joe vs The Mafia"
@@ -13212,6 +13318,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/6a94a3a0-fe91-4f06-adb0-3c60736a7abd.jpg",
    "developer": "Emerald Software",
    "launchbox": "147854",
+   "mobygames": 1412,
    "publisher": "U.S. Gold",
    "screenshotUrl": "https://images.launchbox-app.com/54326a44-370b-45bb-93a0-4cf777d2ffa7.png",
    "title": "Michael Jackson: Moonwalker"
@@ -13272,11 +13379,17 @@
   },
   "msx:150594": {
    "boxArtUrl": "https://images.launchbox-app.com/129ff33e-10cc-431c-ac6f-3e72dfbaca6e.jpg",
+   "contentIds": [
+    "sha256-rom-v1:a6d94f7167549481c1c9b7bd4908d1c3233231be2211762928e9fe24a61e235e"
+   ],
    "developer": "Pack-In-Video",
    "launchbox": "150594",
    "mobygames": 28281,
    "publisher": "Pack-In-Video",
    "screenshotUrl": "https://images.launchbox-app.com/06728e61-3606-4239-a86a-0e63daf97653.png",
+   "sourceGroups": [
+    "msx:Young Sherlock (1987) (Pack In Video).zip"
+   ],
    "title": "Young Sherlock: The Legacy of Doyle"
   },
   "msx:150664": {
@@ -13612,6 +13725,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/b26eb558-ae65-4d7d-960b-9f13309a86e7.jpg",
    "developer": "Hudson Soft",
    "launchbox": "152920",
+   "mobygames": 222955,
    "publisher": "Hudson Soft",
    "screenshotUrl": "https://images.launchbox-app.com/dae6e89f-80c7-4d23-96c2-cfb09d0f90ae.png",
    "title": "Ame no hi wa Ooisogashi"
@@ -13668,6 +13782,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/1de2a90a-8338-4626-b4a1-a1093dad8a7c.jpg",
    "developer": "Zigurat Software",
    "launchbox": "152962",
+   "mobygames": 14250,
    "publisher": "Zigurat Software",
    "screenshotUrl": "https://images.launchbox-app.com/56d8ea55-4f82-4cdc-a249-5d4391e4bc1e.png",
    "title": "Carlos Sainz: Campeonato del Mundo de Rallies",
@@ -13685,6 +13800,7 @@
    ],
    "developer": "Carry Lab",
    "launchbox": "152963",
+   "mobygames": 217825,
    "publisher": "Carry Lab",
    "screenshotUrl": "https://images.launchbox-app.com/95e04dd6-de1b-405e-96e9-dabc0b4f325d.png",
    "sourceGroups": [
@@ -13935,6 +14051,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/db871c9a-2721-4665-9ee1-7c0a3e5384da.jpg",
    "developer": "Mr. Micro",
    "launchbox": "153142",
+   "mobygames": 25442,
    "publisher": "Mr. Micro",
    "screenshotUrl": "https://images.launchbox-app.com/52d0bfce-a2a6-43d1-80b5-c3a9104ae700.jpg",
    "title": "Crazy Golf",
@@ -14011,11 +14128,17 @@
   },
   "msx:153194": {
    "boxArtUrl": "https://images.launchbox-app.com/fe7e6946-ca36-4754-9968-a5ae687aed41.jpg",
+   "contentIds": [
+    "sha256-rom-v1:6abd6fcb6eeb033e4f62bbf9ad162c954d205511a18cade1e93d8677990e4b51"
+   ],
    "developer": "Sydney Development",
    "launchbox": "153194",
    "mobygames": 9517,
    "publisher": "U.S. Gold",
    "screenshotUrl": "https://images.launchbox-app.com/bc6f29df-fe2c-4b48-9ea8-e96b845e6f00.jpg",
+   "sourceGroups": [
+    "msx:Dam Busters, The (1985) (Comptiq).zip"
+   ],
    "title": "The Dam Busters"
   },
   "msx:153195": {
@@ -14040,6 +14163,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/r2_e476667b-439f-4a84-accb-8e70b56c0c1c.jpg",
    "developer": "Ample Software",
    "launchbox": "153197",
+   "mobygames": 160606,
    "publisher": "ASCII",
    "screenshotUrl": "https://images.launchbox-app.com/eb4d284e-9adf-4ced-ba16-6b9fe02f5883.jpg",
    "title": "David II",
@@ -14047,11 +14171,17 @@
   },
   "msx:153198": {
    "boxArtUrl": "https://images.launchbox-app.com/6e25c35a-db29-42ee-8269-b11007de048a.jpg",
+   "contentIds": [
+    "sha256-rom-v1:06196c589367a552e08d9e40e728de96e775e8f7f6cc9aaa43666d142e76be06"
+   ],
    "developer": "The Bytebusters",
    "launchbox": "153198",
    "mobygames": 214367,
    "publisher": "Eaglesoft",
    "screenshotUrl": "https://images.launchbox-app.com/81d0444d-042f-4a5f-8bd3-238d5aad82ec.jpg",
+   "sourceGroups": [
+    "msx:Dawn Patrol (1987) (Pony Cannon).zip"
+   ],
    "title": "Dawn Patrol",
    "year": 1986
   },
@@ -14165,6 +14295,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/5fb892d9-7ce0-4c31-8280-e55c0b46c9c5.jpg",
    "developer": "Alligata Software",
    "launchbox": "153226",
+   "mobygames": 237407,
    "publisher": "Alligata Software",
    "screenshotUrl": "https://images.launchbox-app.com/3cba1d6b-26b8-4974-9374-3352e606424c.png",
    "title": "Disc Warrior",
@@ -14224,6 +14355,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/c249ddd2-9301-46f2-ac3f-0b70fc38b0f5.jpg",
    "developer": "TOMY",
    "launchbox": "153265",
+   "mobygames": 67752,
    "publisher": "Colpax",
    "screenshotUrl": "https://images.launchbox-app.com/e7d33e31-c2bf-4d50-a471-d998fc385c36.png",
    "title": "Donpan",
@@ -14252,6 +14384,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/4cbc6694-bfe9-46c3-b49d-004bb33d38ab.jpg",
    "developer": "Hudson Soft",
    "launchbox": "153286",
+   "mobygames": 15551,
    "publisher": "Hudson Soft",
    "screenshotUrl": "https://images.launchbox-app.com/066782a6-e506-48c1-a1e5-605ae40f61cc.jpg",
    "title": "Driller Tanks",
@@ -14378,6 +14511,7 @@
    ],
    "developer": "Konami",
    "launchbox": "153339",
+   "mobygames": 170845,
    "publisher": "Konami",
    "screenshotUrl": "https://images.launchbox-app.com/f9e907a1-b89a-4c56-ad94-c464449af529.png",
    "sourceGroups": [
@@ -14936,10 +15070,16 @@
     "Iga Ninpouten: Small Ninja 2"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/3dfd3548-3052-4a6a-9a56-2b61f036b043.png",
+   "contentIds": [
+    "sha256-rom-v1:7040f9b91d0059eb774d5b2184c5d01b81dc95b24bb4599e162fe353c2751c3a"
+   ],
    "developer": "Casio Computer",
    "launchbox": "153757",
    "publisher": "Casio Computer",
    "screenshotUrl": "https://images.launchbox-app.com/532b18c9-d1d7-4f3c-8476-6be0494f4f7f.png",
+   "sourceGroups": [
+    "msx:Iga Ninpouten 2 (1986) (Casio).zip"
+   ],
    "title": "Small Ninja 2"
   },
   "msx:153814": {
@@ -14948,11 +15088,17 @@
     "Theseus"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/96adb382-89c4-498c-a884-0d43766e996c.jpg",
+   "contentIds": [
+    "sha256-rom-v1:dbb6c3c9e00018bb9ae164709484d957b7da1d669fbebebbf8b07d80aaab66c3"
+   ],
    "developer": "ASCII",
    "launchbox": "153814",
    "mobygames": 121189,
    "publisher": "ASCII",
    "screenshotUrl": "https://images.launchbox-app.com/8e556905-8d32-4fd6-b51b-6cf2cb3e163f.png",
+   "sourceGroups": [
+    "msx:Iriegas (1983) (Ascii).zip"
+   ],
    "title": "Iligks Episode I: Theseus"
   },
   "msx:153815": {
@@ -14981,6 +15127,7 @@
    ],
    "developer": "Hudson Soft",
    "launchbox": "153817",
+   "mobygames": 162724,
    "publisher": "Hudson Soft",
    "screenshotUrl": "https://images.launchbox-app.com/01110f93-ab93-4078-ac66-80ebad10d3b1.png",
    "sourceGroups": [
@@ -15155,11 +15302,17 @@
     "Kenja no ishi"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/05a5177a-170b-4f48-94c8-b00cf20f4e24.jpg",
+   "contentIds": [
+    "sha256-rom-v1:823911ec562b4ee2eb8237a31253fe7853746a02d4dd27057cf535d0bfbd06b1"
+   ],
    "developer": "Casio Computer",
    "launchbox": "153901",
    "mobygames": 147477,
    "publisher": "Casio Computer",
    "screenshotUrl": "https://images.launchbox-app.com/3c4a22a5-015f-47c8-b5b8-b67aa8593c9a.png",
+   "sourceGroups": [
+    "msx:Stone of Wisdom, The (1986) (Casio).zip"
+   ],
    "title": "The Stone of Wisdom"
   },
   "msx:153914": {
@@ -15177,6 +15330,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/4321b0b8-cf93-4e1d-b644-ad821e9127b4.png",
    "developer": "Hudson Soft",
    "launchbox": "153915",
+   "mobygames": 224914,
    "screenshotUrl": "https://images.launchbox-app.com/2186a4a1-e2dd-4221-829d-83df559144f1.png",
    "title": "Killer Station"
   },
@@ -15395,10 +15549,16 @@
   },
   "msx:154010": {
    "boxArtUrl": "https://images.launchbox-app.com/15ee3782-5478-4b63-a1ea-b60e85a654b5.jpg",
+   "contentIds": [
+    "sha256-rom-v1:1a53e1e8b8b2e491f82f76ddeedecebdb06eb14240d378c3d912dd7a391305b8"
+   ],
    "developer": "ASCII",
    "launchbox": "154010",
    "publisher": "ASCII",
    "screenshotUrl": "https://images.launchbox-app.com/b492f872-7d1e-4591-aad3-99afe07e7c5a.png",
+   "sourceGroups": [
+    "msx:Brain, The (1983) (Ascii).zip"
+   ],
    "title": "The Brain"
   },
   "msx:154011": {
@@ -15414,6 +15574,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/c52bb2a3-5fa6-4603-8b32-b1d31228a41a.jpg",
    "developer": "MIA",
    "launchbox": "154084",
+   "mobygames": 228695,
    "publisher": "MIA",
    "screenshotUrl": "https://images.launchbox-app.com/a88191cf-6605-4301-a667-afe413e781f7.png",
    "title": "Lonesome Tank"
@@ -15614,6 +15775,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/fca03a62-537a-4ec8-ba39-26cfc310263a.jpg",
    "developer": "Dinamic Software",
    "launchbox": "154368",
+   "mobygames": 16012,
    "publisher": "Dinamic Software",
    "screenshotUrl": "https://images.launchbox-app.com/64d28af2-7251-4b6c-9a86-eac9d7fe000d.png",
    "title": "Michel Futbol Master"
@@ -15750,6 +15912,7 @@
    ],
    "developer": "Casio Computer",
    "launchbox": "154410",
+   "mobygames": 20225,
    "publisher": "Casio Computer",
    "screenshotUrl": "https://images.launchbox-app.com/cdfa80c3-7468-4a0e-8d81-4c27940a57f1.png",
    "sourceGroups": [
@@ -15763,18 +15926,31 @@
     "The Roving Planet Styllus"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/8f09284f-38df-4c77-a7e0-9295caa509ff.jpg",
+   "contentIds": [
+    "sha256-rom-v1:d3a67c5a3e9d0d6b18b8779dfd3480c070d82ba3eceebe69593cf5893d404a00"
+   ],
    "developer": "HAL Laboratory",
    "launchbox": "154411",
    "publisher": "HAL Laboratory",
    "screenshotUrl": "https://images.launchbox-app.com/417ff57f-97fb-4ea2-93ec-e1147b2f56ec.png",
+   "sourceGroups": [
+    "msx:Mobile Planet Suthirus (1986) (Hal).zip"
+   ],
    "title": "Mobile Planet Stylus: Approach from the Westgate"
   },
   "msx:154412": {
    "boxArtUrl": "https://images.launchbox-app.com/79e24672-aa24-4b57-b7ab-c3b23e20715d.jpg",
+   "contentIds": [
+    "sha256-rom-v1:78726acda8ece3e11b2d1a106efb1fdfb04dc208a9b7b0c03e74da2c4f4fb3ff"
+   ],
    "developer": "Bandai",
    "launchbox": "154412",
+   "mobygames": 19977,
    "publisher": "Bandai",
    "screenshotUrl": "https://images.launchbox-app.com/c55402ed-8a16-4ca9-a9d1-beeb84761976.png",
+   "sourceGroups": [
+    "msx:Mobile Suit Gundam (1984) (Bandai).zip"
+   ],
    "title": "Mobile Suit Gundam: Last Shooting"
   },
   "msx:154455": {
@@ -15935,6 +16111,7 @@
    ],
    "developer": "HAL Laboratory",
    "launchbox": "154571",
+   "mobygames": 143057,
    "publisher": "HAL Laboratory",
    "screenshotUrl": "https://images.launchbox-app.com/75c92049-7891-42a5-8f31-2d721b6b734a.png",
    "sourceGroups": [
@@ -16242,6 +16419,7 @@
    ],
    "developer": "Nippon Dexter",
    "launchbox": "154814",
+   "mobygames": 51264,
    "publisher": "Nippon Dexter",
    "screenshotUrl": "https://images.launchbox-app.com/da79d218-2a93-49c4-925f-1539e98513b9.png",
    "sourceGroups": [
@@ -16799,6 +16977,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/2e3ce1fc-59d7-44d7-b480-7bd71d6cf1bf.png",
    "developer": "Opera Soft",
    "launchbox": "155164",
+   "mobygames": 14385,
    "publisher": "Opera Soft",
    "screenshotUrl": "https://images.launchbox-app.com/8ee80966-0ff8-45d0-9d5b-4ad3ef21959c.png",
    "title": "Poogaboo: La Pulga II"
@@ -17234,6 +17413,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/c3d6d3c2-592f-45cf-98cf-81fea6166af6.jpg",
    "developer": "Opera Soft",
    "launchbox": "155289",
+   "mobygames": 34184,
    "publisher": "Opera Soft",
    "screenshotUrl": "https://images.launchbox-app.com/ecf7daad-ed61-4bbb-9c6f-010e43cc2fb8.png",
    "title": "Poli Diaz"
@@ -17921,6 +18101,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/ad5d0c02-3cd3-4796-b854-ce636bdfab59.png",
    "developer": "Image Works",
    "launchbox": "155596",
+   "mobygames": 6932,
    "publisher": "Image Works",
    "screenshotUrl": "https://images.launchbox-app.com/395f5017-1ab0-4976-a57f-a2e93fd5d3c2.png",
    "title": "Teenage Mutant Hero Turtles"
@@ -18909,6 +19090,7 @@
    ],
    "developer": "Mass Tael",
    "launchbox": "168631",
+   "mobygames": 35940,
    "publisher": "ASCII",
    "screenshotUrl": "https://images.launchbox-app.com/8d60d72e-716b-4a8f-ad13-32222a8b5fba.png",
    "sourceGroups": [
@@ -19060,6 +19242,7 @@
    ],
    "developer": "Yellow Horn",
    "launchbox": "168904",
+   "mobygames": 23387,
    "publisher": "ASCII",
    "screenshotUrl": "https://images.launchbox-app.com/7071cec2-c855-4009-b3da-211febcb5a19.png",
    "sourceGroups": [
@@ -19156,6 +19339,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/62232763-ed9d-41ef-b1ce-8165e3e7ead5.jpg",
    "developer": "Indescomp",
    "launchbox": "173989",
+   "mobygames": 20079,
    "publisher": "Indescomp",
    "screenshotUrl": "https://images.launchbox-app.com/ac46682e-f68a-452a-bebe-1b035ee45426.png",
    "title": "Futbol"
@@ -20132,10 +20316,17 @@
     "Harryfox Yki No Maoh"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/e279ba84-35f4-469b-8c84-39e3ae3cf2db.jpg",
+   "contentIds": [
+    "sha256-rom-v1:752f55f80a9c65e6b475d8e8773ddf151f12cc0c73be519632da83397102f79b"
+   ],
    "developer": "Microcabin",
    "launchbox": "181410",
+   "mobygames": 159871,
    "publisher": "Micro Cabin",
    "screenshotUrl": "https://images.launchbox-app.com/b00ffe52-4183-4fb4-98a7-d29a27a80a33.png",
+   "sourceGroups": [
+    "msx:Harryfox Yki no Maoh (1985) (Micro Cabin).zip"
+   ],
    "title": "Harry Fox: Yuki no Maou hen",
    "year": 1986
   },
@@ -20218,6 +20409,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/99812222-90d3-424a-ad0b-0b9a4efbfd4e.jpg",
    "developer": "Game Arts",
    "launchbox": "181419",
+   "mobygames": 177705,
    "publisher": "Game Arts",
    "screenshotUrl": "https://images.launchbox-app.com/2877dd26-104b-4bc6-9d35-76e7ca3232e9.png",
    "title": "Gambler Jiko Chuushinha",
@@ -20490,11 +20682,17 @@
   },
   "msx:181959": {
    "boxArtUrl": "https://images.launchbox-app.com/4ab3e7a1-4cbe-4cfc-88a6-2fd89454dced.jpg",
+   "contentIds": [
+    "sha256-rom-v1:3f7442f7224ebf773bf228d421f2962e234f2380112846e722a602ba9ead7e0c"
+   ],
    "developer": "Soft Pro International",
    "launchbox": "181959",
    "mobygames": 20372,
    "publisher": "Toshiba-EMI",
    "screenshotUrl": "https://images.launchbox-app.com/ff674d17-254e-4e8d-8ce6-fb84ae8973c8.jpg",
+   "sourceGroups": [
+    "msx:Scarlet 7 (1986) (Toshiba Emi).zip"
+   ],
    "title": "Scarlet 7: The Mightiest Women"
   },
   "msx:181960": {
@@ -20590,11 +20788,17 @@
   },
   "msx:181966": {
    "boxArtUrl": "https://images.launchbox-app.com/43af6952-bce8-4efd-a941-3703cccbf52f.jpg",
+   "contentIds": [
+    "sha256-rom-v1:088af2f988dcf4da5197f01f0ba1542abe6e30f6fc98c3e28b003ac37e046866"
+   ],
    "developer": "Heart Soft",
    "launchbox": "181966",
    "mobygames": 25698,
    "publisher": "Heart Soft",
    "screenshotUrl": "https://images.launchbox-app.com/d5e07527-707b-4672-b5bb-c403b7718092.png",
+   "sourceGroups": [
+    "msx:Vaxol (1987) (Heart Soft).zip"
+   ],
    "title": "Vaxol: Heavy Armed Storm Vehicle"
   },
   "msx:181967": {
@@ -20659,6 +20863,7 @@
    ],
    "developer": "Alex Bros",
    "launchbox": "182016",
+   "mobygames": 118545,
    "publisher": "Bothtec",
    "screenshotUrl": "https://images.launchbox-app.com/46b8540e-1280-4f82-a135-09a54422ed7f.png",
    "sourceGroups": [
@@ -21440,6 +21645,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/3e21b55d-dd28-4ead-be84-b821b7cee275.jpg",
    "developer": "Lerner Research",
    "launchbox": "188825",
+   "mobygames": 4812,
    "publisher": "Dro Soft",
    "screenshotUrl": "https://images.launchbox-app.com/17f07fe5-2b41-4343-8855-2bf5036d843e.png",
    "title": "Chuck Yeager's Advanced Flight Trainer"
@@ -21593,6 +21799,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/9f8c48de-0bda-4eb7-9935-d43ad72ecc74.jpg",
    "developer": "Software Projects",
    "launchbox": "188865",
+   "mobygames": 70063,
    "publisher": "Software Projects",
    "screenshotUrl": "https://images.launchbox-app.com/07a6d053-1fe7-4709-8c7e-fef0f2df64c7.png",
    "title": "Team Sanyo & Harvey Smith: Showjumper"
@@ -21665,6 +21872,7 @@
    ],
    "boxArtUrl": "https://images.launchbox-app.com/122b3c9c-f25f-46c5-be53-2bb7da3503a1.jpg",
    "launchbox": "188871",
+   "mobygames": 19882,
    "publisher": "Ocean Software",
    "screenshotUrl": "https://images.launchbox-app.com/4c20213f-2969-487b-9712-071c01286028.png",
    "title": "Emilio Butragueño Fútbol 2"
@@ -22179,6 +22387,7 @@
   "msx:188961": {
    "boxArtUrl": "https://images.launchbox-app.com/ad51d8f0-248e-4a77-a445-e3c94bf42355.jpg",
    "launchbox": "188961",
+   "mobygames": 35609,
    "publisher": "Atlantis Software",
    "screenshotUrl": "https://images.launchbox-app.com/3142c90c-5619-4ec7-8c90-62dd2a4564d7.png",
    "title": "Survivors"
@@ -23175,6 +23384,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/e25f2879-a583-4805-9b4f-46103c047907.jpg",
    "developer": "Prosoft",
    "launchbox": "195295",
+   "mobygames": 14515,
    "publisher": "Prosoft",
    "screenshotUrl": "https://images.launchbox-app.com/40df2b47-afcd-483f-b58e-ae123c5e3df4.png",
    "title": "Gun.Smoke"
@@ -24449,6 +24659,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/8df0a7a5-4d42-49e6-8149-facb05dc005f.jpg",
    "developer": "Zemina",
    "launchbox": "205591",
+   "mobygames": 15247,
    "publisher": "Zemina",
    "screenshotUrl": "https://images.launchbox-app.com/c64354a4-c910-4a35-819c-0e3e8214bdf5.png",
    "title": "Puznic"
@@ -25002,12 +25213,14 @@
    "title": "Mystery House II"
   },
   "msx:214365": {
+   "adult": true,
    "boxArtUrl": "https://images.launchbox-app.com/05b79b73-2f66-48a9-93ff-bb404ab22d68.jpg",
    "contentIds": [
     "sha256-rom-v1:a03c6ab987baeacd4f2e1416764c4533a6d4681da601c3d373d0c3e0a2c6aad0"
    ],
    "developer": "JAST",
    "launchbox": "214365",
+   "mobygames": 205184,
    "publisher": "Jast",
    "screenshotUrl": "https://images.launchbox-app.com/3398a42c-cf87-4970-8db9-39d55e71d5d0.png",
    "sourceGroups": [
@@ -25109,11 +25322,17 @@
     "Kekkyoku Nankyoku Daibōken"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/98148ea0-f286-4d36-9117-b4a7d7096a04.png",
+   "contentIds": [
+    "sha256-rom-v1:087378ddad1379a6e378f0810e9cf1dbb64ee03c36e630bb78020b754b7dfebd"
+   ],
    "developer": "Konami Industry",
    "launchbox": "26953",
    "mobygames": 11543,
    "publisher": "Konami Industry",
    "screenshotUrl": "https://images.launchbox-app.com/0f4e0de7-1793-4e8d-ae6c-3f527f413f4f.png",
+   "sourceGroups": [
+    "msx:Antarctic Adventure (1984) (Konami).zip"
+   ],
    "title": "Antarctic Adventure",
    "year": 1983
   },
@@ -25128,6 +25347,7 @@
    ],
    "developer": "Konami Industry",
    "launchbox": "26954",
+   "mobygames": 19472,
    "publisher": "Konami Industry",
    "screenshotUrl": "https://images.launchbox-app.com/7fb0e606-0721-45db-9323-10a61d3335a5.png",
    "sourceGroups": [
@@ -25141,10 +25361,17 @@
     "Hyper Olympic 1"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/fda86f27-5040-404c-9b8c-6dc3824e44b0.jpg",
+   "contentIds": [
+    "sha256-rom-v1:0cd8a7928e10a8551d7f6fd68943a6d4a008e04a254d258413c120dda18b792e"
+   ],
    "developer": "Konami",
    "launchbox": "26959",
+   "mobygames": 19505,
    "publisher": "Konami",
    "screenshotUrl": "https://images.launchbox-app.com/0af9666a-0920-4379-b40a-8a7131ecf9dd.png",
+   "sourceGroups": [
+    "msx:Hyper Olympic 1 (1984) (Konami).zip"
+   ],
    "title": "Track & Field 1",
    "year": 1983
   },
@@ -25201,11 +25428,17 @@
     "Konami no Baseball - Konami's Baseball"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/d0fd98a2-945d-4c63-9d5f-febe67d774af.jpg",
+   "contentIds": [
+    "sha256-rom-v1:06504efb72d1cd3351dae8eb1f7b073f69d599fa7018663937f85535658ad3e7"
+   ],
    "developer": "Konami",
    "launchbox": "26974",
    "mobygames": 19532,
    "publisher": "Konami",
    "screenshotUrl": "https://images.launchbox-app.com/8067a12d-cd4b-483b-b2d1-4b6d42bd1e25.png",
+   "sourceGroups": [
+    "msx:Konami's Baseball (1984) (Konami).zip"
+   ],
    "title": "Konami's Baseball",
    "year": 1985
   },
@@ -25280,6 +25513,7 @@
    ],
    "developer": "Konami",
    "launchbox": "26993",
+   "mobygames": 14989,
    "publisher": "Konami",
    "screenshotUrl": "https://images.launchbox-app.com/89c0593c-7efb-4397-ab07-7765bcd90fb5.png",
    "sourceGroups": [
@@ -25293,10 +25527,18 @@
     "Konami no Tennis - Konami's Tennis"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/3a55f052-504f-4bf3-aa63-2a721f0b860e.jpg",
+   "contentIds": [
+    "sha256-rom-v1:68bec8172d816025a21dd47482e9413fd8bd726b2cafb49236ca58a65c73e07f",
+    "sha256-rom-v1:a8afeeac391cd3f6cf57e2c4f2e9bf6a0fffc815a2c79ffd7500925b4d289c26"
+   ],
    "developer": "Konami",
    "launchbox": "26994",
+   "mobygames": 19747,
    "publisher": "Konami",
    "screenshotUrl": "https://images.launchbox-app.com/4e280e82-d55b-434e-9d56-37b49c2a0348.png",
+   "sourceGroups": [
+    "msx:Konami's Tennis (1984) (Konami).zip"
+   ],
    "title": "Konami's Tennis",
    "year": 1985
   },
@@ -25463,10 +25705,19 @@
   },
   "msx:29043": {
    "boxArtUrl": "https://images.launchbox-app.com/ced6d399-9fa4-491c-aca9-065e1b391d8d.png",
+   "contentIds": [
+    "sha256-rom-v1:3b9afd12b29680abb655f05d24e0970954c38e48c5ccb24227d6c710474396a7",
+    "sha256-rom-v1:abf9b93e1b43fa8257ce3d6854e3ca989b07926a7017a263a5a4ba78a32a87a3",
+    "sha256-rom-v1:d4399d4ad45454ff4a5d5e6c24fc90c656e81442af012369c48f09433defae77"
+   ],
    "developer": "Konami",
    "launchbox": "29043",
+   "mobygames": 19509,
    "publisher": "Konami",
    "screenshotUrl": "https://images.launchbox-app.com/f0c0ba99-cc00-4f40-aa95-51f02dc349f1.png",
+   "sourceGroups": [
+    "msx:F1 Spirit (1987) (Konami).zip"
+   ],
    "title": "F-1 Spirit: The Way to Formula-1",
    "year": 1987
   },
@@ -25557,10 +25808,17 @@
     "The Maze of Galious: Knightmare II"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/65209863-a205-4963-8a8a-10543b97b551.jpg",
+   "contentIds": [
+    "sha256-rom-v1:420c42c18006eb5dbb25efa5b83e340d740824c15a714929a945c0db51f97280"
+   ],
    "developer": "Konami",
    "launchbox": "31618",
+   "mobygames": 19474,
    "publisher": "Konami",
    "screenshotUrl": "https://images.launchbox-app.com/33b3bc05-b794-4938-ae83-0193adaafa55.png",
+   "sourceGroups": [
+    "msx:Maze of Galious, The (1987) (Konami).zip"
+   ],
    "title": "The Maze of Galious",
    "year": 1987
   },
@@ -25599,10 +25857,17 @@
   },
   "msx:31622": {
    "boxArtUrl": "https://images.launchbox-app.com/4e03ad2e-7155-42e2-9729-cf078f996b6d.jpg",
+   "contentIds": [
+    "sha256-rom-v1:2ba602b1a17e4797da1588afe6e65640331c15746bf5959f4778b404be929dde"
+   ],
    "developer": "Konami",
    "launchbox": "31622",
+   "mobygames": 63992,
    "publisher": "Konami",
    "screenshotUrl": "https://images.launchbox-app.com/62aa17e5-5aa1-4eeb-9b77-ef71f50159df.png",
+   "sourceGroups": [
+    "msx:Goonies, The (1986) (Konami).zip"
+   ],
    "title": "The Goonies",
    "year": 1986
   },
@@ -25733,11 +25998,17 @@
     "Majou Densetsu III: Shalom"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/df638470-4609-4502-9d33-dd2d204417b4.jpg",
+   "contentIds": [
+    "sha256-rom-v1:658ad7ef812eb15b09d76bc413ddf2956a2361c7e534ffcb915cfaafbf7e2a4a"
+   ],
    "developer": "Konami",
    "launchbox": "33791",
    "mobygames": 18610,
    "publisher": "Konami",
    "screenshotUrl": "https://images.launchbox-app.com/437e83bd-a790-4a32-8f8d-d6998558f9fe.jpg",
+   "sourceGroups": [
+    "msx:Shalom (1987) (Konami).zip"
+   ],
    "title": "Shalom: Knightmare III",
    "year": 1987
   },
@@ -25755,10 +26026,17 @@
     "Q*Bert"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/d3ad64b0-a954-4e43-a945-1d525948b9b3.jpg",
+   "contentIds": [
+    "sha256-rom-v1:bd253f3285b3bf31501cd34f593f35ed3b9adfc6eb44c360c6fd59f8ab2c3684"
+   ],
    "developer": "Konami",
    "launchbox": "33846",
+   "mobygames": 74049,
    "publisher": "Konami",
    "screenshotUrl": "https://images.launchbox-app.com/b0a3cd82-c3cf-44bc-8f9d-df4faaff79f5.jpg",
+   "sourceGroups": [
+    "msx:Q-bert (1986) (Konami).zip"
+   ],
    "title": "Qbert",
    "year": 1986
   },
@@ -25883,10 +26161,16 @@
     "daiva4"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/3dd639c5-cabc-4f0f-a244-4a7a29c38ec3.png",
+   "contentIds": [
+    "sha256-rom-v1:0adc52a8b7f0ea35a700ee0c468edd885969453a2bf5da9b8dffdf500c42cb87"
+   ],
    "developer": "T&E Soft",
    "launchbox": "34033",
    "publisher": "T&E Soft",
    "screenshotUrl": "https://images.launchbox-app.com/fc60adf0-c543-42af-b256-d84e89d58d9a.jpg",
+   "sourceGroups": [
+    "msx:Daiva Story 4 (1987) (T&E Soft).zip"
+   ],
    "title": "Daiva Story 4: Asura's Bloodfeud",
    "year": 1987
   },
@@ -25897,11 +26181,17 @@
     "Dragon Slayer Jr.: Romancia"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/9deb1220-874e-4213-b64b-ab942bbcffed.jpg",
+   "contentIds": [
+    "sha256-rom-v1:ef9285c11ccf02181d52b4a22999465af509bdbd20e21c7ce07bf0f7a583662b"
+   ],
    "developer": "Nihon Falcom",
    "launchbox": "34039",
    "mobygames": 18620,
    "publisher": "Nihon Falcom",
    "screenshotUrl": "https://images.launchbox-app.com/6259c475-316f-4afd-ab2d-262e66283c19.jpg",
+   "sourceGroups": [
+    "msx:Romancia (1986) (Falcom).zip"
+   ],
    "title": "Romancia: Dragon Slayer Jr.",
    "year": 1986
   },
@@ -25910,11 +26200,17 @@
     "Hydlide 2: Shine of Darkness"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/0679eca5-6894-4292-b87b-5a2cc5545411.png",
+   "contentIds": [
+    "sha256-rom-v1:4ed1d1273b60d03e7508bab5727dffb59b0b932ab08b114549afc129817ad93c"
+   ],
    "developer": "T&E Soft",
    "launchbox": "34121",
    "mobygames": 20398,
    "publisher": "T&E Soft",
    "screenshotUrl": "https://images.launchbox-app.com/52a004db-5685-4e80-aa23-8f37b44af890.jpg",
+   "sourceGroups": [
+    "msx:Hydlide 2 (1986) (T&E Soft).zip"
+   ],
    "title": "Hydlide II: Shine of Darkness",
    "year": 1986
   },
@@ -26006,6 +26302,7 @@
    ],
    "developer": "Compile",
    "launchbox": "34151",
+   "mobygames": 16056,
    "publisher": "Compile",
    "screenshotUrl": "https://images.launchbox-app.com/889cb6ab-1e97-41f0-9cca-875ef2e5fee1.jpg",
    "sourceGroups": [
@@ -26085,11 +26382,17 @@
   },
   "msx:35006": {
    "boxArtUrl": "https://images.launchbox-app.com/24398535-6098-4c9f-95a3-49c15c55d788.jpg",
+   "contentIds": [
+    "sha256-rom-v1:1653a215b219b19493d9d2ffb7595556c2592f45c91e99567cf53dcfb2d967fc"
+   ],
    "developer": "HAL Laboratory",
    "launchbox": "35006",
    "mobygames": 78063,
    "publisher": "Sony",
    "screenshotUrl": "https://images.launchbox-app.com/b97f4b68-98e9-4c9b-9c6a-6d28009d679b.jpg",
+   "sourceGroups": [
+    "msx:Gall Force (1986) (Sony).zip"
+   ],
    "title": "Gall Force: Defense of Chaos",
    "year": 1986
   },
@@ -26179,6 +26482,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/4bd93a70-aad8-4a24-8479-79582cc1f577.png",
    "developer": "Opera Soft",
    "launchbox": "418500",
+   "mobygames": 34101,
    "publisher": "Opera Soft",
    "screenshotUrl": "https://images.launchbox-app.com/af7faf4b-a2e6-423f-8c3a-50bd7f11109f.png",
    "title": "Solo"
@@ -26258,6 +26562,7 @@
    ],
    "developer": "Scaptrust",
    "launchbox": "420280",
+   "mobygames": 57548,
    "publisher": "Scaptrust",
    "screenshotUrl": "https://images.launchbox-app.com/5e15a704-2d89-43e4-9d73-11c6899d32bb.png",
    "sourceGroups": [
@@ -26687,6 +26992,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/1f86e9e6-ef9b-4a8c-8bae-3631ac042272.jpg",
    "developer": "Konami",
    "launchbox": "450056",
+   "mobygames": 78107,
    "publisher": "Konami",
    "screenshotUrl": "https://images.launchbox-app.com/d0eb5039-635f-47a6-8d01-74177207624d.png",
    "title": "Konami Game Collection 1: Action Series",
@@ -26696,6 +27002,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/1787f310-9c78-496d-b696-32cbd2425f4e.jpg",
    "developer": "Konami",
    "launchbox": "450062",
+   "mobygames": 78109,
    "publisher": "Konami",
    "screenshotUrl": "https://images.launchbox-app.com/45bbfee8-fa43-47d7-b928-9ae55e0e8b33.png",
    "title": "Konami Game Collection 2: Sports Series 1",
@@ -26705,6 +27012,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/555640d0-c6c6-4cfe-b710-d274ffac98a1.jpg",
    "developer": "Konami",
    "launchbox": "450072",
+   "mobygames": 78111,
    "publisher": "Konami",
    "screenshotUrl": "https://images.launchbox-app.com/9ea338d0-92db-4661-921a-453d67ff1953.png",
    "title": "Konami Game Collection 3: Shooting Series",
@@ -26714,6 +27022,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/518ad6c1-86e2-47f9-99f7-e1fb6a461778.jpg",
    "developer": "Konami",
    "launchbox": "450074",
+   "mobygames": 78113,
    "publisher": "Konami",
    "screenshotUrl": "https://images.launchbox-app.com/3cf04ac4-3e17-4326-9803-f4941f6ad5e0.png",
    "title": "Konami Game Collection 4: Sports Series 2",
@@ -26939,19 +27248,31 @@
   },
   "msx:466715": {
    "boxArtUrl": "https://images.launchbox-app.com/45e26bdd-0a32-4bea-981e-cd02dac05cd4.jpg",
+   "contentIds": [
+    "sha256-rom-v1:994b95224d6de4efa6a187412fae092130e86a54b39dc96c9757ea0baf4164bb"
+   ],
    "developer": "Nihon Falcom",
    "launchbox": "466715",
    "mobygames": 18619,
    "publisher": "Nihon Falcom",
    "screenshotUrl": "https://images.launchbox-app.com/dcf7d507-0a0b-4187-ae62-af970c03674b.png",
+   "sourceGroups": [
+    "msx:Xanadu (1987) (Falcom).zip"
+   ],
    "title": "Xanadu: Dragon Slayer II"
   },
   "msx:466716": {
    "boxArtUrl": "https://images.launchbox-app.com/31a90f8c-2cdb-450a-a7af-8e2f366347c9.png",
+   "contentIds": [
+    "sha256-rom-v1:edf97888644f267961e2d00cc65c2ef0f03bacf08a9fb1e8da5f2a9e3e0b310e"
+   ],
    "developer": "Kogado Studio",
    "launchbox": "466716",
    "publisher": "Kogado Studio",
    "screenshotUrl": "https://images.launchbox-app.com/3d11900c-321d-4c1e-ab8c-433e77289c3f.png",
+   "sourceGroups": [
+    "msx:Psychic War (1987) (Kogado).zip"
+   ],
    "title": "Psychic War: Cosmic Soldier 2"
   },
   "msx:467193": {
@@ -27303,6 +27624,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/1d1cb8ad-be57-45c0-a1b8-26d1e9b87810.png",
    "developer": "Opera Soft",
    "launchbox": "90595",
+   "mobygames": 4517,
    "publisher": "Opera Soft",
    "screenshotUrl": "https://images.launchbox-app.com/165946a3-b385-4bf3-9934-0d8e5eb09bc4.png",
    "title": "Livingstone Supongo"
@@ -27759,6 +28081,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/8e082979-ea75-45a9-a54f-4a8ac7aa9f8f.png",
    "developer": "Gremlin Graphics Software",
    "launchbox": "94931",
+   "mobygames": 18980,
    "publisher": "Erbe Software",
    "screenshotUrl": "https://images.launchbox-app.com/c0abedb0-5f28-4eae-aa21-62ee0bd58397.png",
    "title": "The Way of the Tiger: Avenger"
@@ -27904,36 +28227,6 @@
    "screenshotUrl": "https://images.launchbox-app.com/d150fbe1-ab33-41c1-818e-99e855f02bc9.png",
    "title": "Binary Land"
   },
-  "msx:local-017ffe9cb0": {
-   "contentIds": [
-    "sha256-rom-v1:2ba602b1a17e4797da1588afe6e65640331c15746bf5959f4778b404be929dde"
-   ],
-   "sourceGroups": [
-    "msx:Goonies, The (1986) (Konami).zip"
-   ],
-   "title": "Goonies, The",
-   "year": 1986
-  },
-  "msx:local-031af9c5e1": {
-   "contentIds": [
-    "sha256-rom-v1:06196c589367a552e08d9e40e728de96e775e8f7f6cc9aaa43666d142e76be06"
-   ],
-   "sourceGroups": [
-    "msx:Dawn Patrol (1987) (Pony Cannon).zip"
-   ],
-   "title": "Dawn Patrol",
-   "year": 1987
-  },
-  "msx:local-05518b140e": {
-   "contentIds": [
-    "sha256-rom-v1:3b129d4419523e1bb4d495fd069c5f1903d87676f1addc2586b7136578ade74b"
-   ],
-   "sourceGroups": [
-    "msx:Black Onyx 1, The (1985) (Ascii).zip"
-   ],
-   "title": "Black Onyx 1, The",
-   "year": 1985
-  },
   "msx:local-0812a86cf1": {
    "contentIds": [
     "sha256-rom-v1:7ae271fccf6d8bc3dab0e7f6e50988b34f4f3ca978555a03855ad6bb0de3ee0e"
@@ -27963,16 +28256,6 @@
     "msx:Super Monitor (1985) (Emiiru).zip"
    ],
    "title": "Super Monitor",
-   "year": 1985
-  },
-  "msx:local-0aee3b209e": {
-   "contentIds": [
-    "sha256-rom-v1:e943e1125a4ebc749a1841fb5355fbcc928dcfbb3f16dbc78f3823878ef71acc"
-   ],
-   "sourceGroups": [
-    "msx:Kinnikuman (1985) (Bandai).zip"
-   ],
-   "title": "Kinnikuman",
    "year": 1985
   },
   "msx:local-0d2d90a5d0": {
@@ -28005,16 +28288,6 @@
    "title": "Cheese",
    "year": 1984
   },
-  "msx:local-144055683d": {
-   "contentIds": [
-    "sha256-rom-v1:ef9285c11ccf02181d52b4a22999465af509bdbd20e21c7ce07bf0f7a583662b"
-   ],
-   "sourceGroups": [
-    "msx:Romancia (1986) (Falcom).zip"
-   ],
-   "title": "Romancia",
-   "year": 1986
-  },
   "msx:local-1531e222ba": {
    "contentIds": [
     "sha256-rom-v1:f8a0a21683d81c9ade26be2537f983fade03b3a07570d54f85168949d67d6f68"
@@ -28035,26 +28308,6 @@
    "title": "FB-01 Voicing Program",
    "year": 1985
   },
-  "msx:local-20dd3ca779": {
-   "contentIds": [
-    "sha256-rom-v1:0adc52a8b7f0ea35a700ee0c468edd885969453a2bf5da9b8dffdf500c42cb87"
-   ],
-   "sourceGroups": [
-    "msx:Daiva Story 4 (1987) (T&E Soft).zip"
-   ],
-   "title": "Daiva Story 4",
-   "year": 1987
-  },
-  "msx:local-213af0dd3a": {
-   "contentIds": [
-    "sha256-rom-v1:1653a215b219b19493d9d2ffb7595556c2592f45c91e99567cf53dcfb2d967fc"
-   ],
-   "sourceGroups": [
-    "msx:Gall Force (1986) (Sony).zip"
-   ],
-   "title": "Gall Force",
-   "year": 1986
-  },
   "msx:local-233083fdfd": {
    "contentIds": [
     "sha256-rom-v1:fe8766a76ff098863069ece024788b9308f46dea2028fc258393fbc36b53172b"
@@ -28064,16 +28317,6 @@
    ],
    "title": "Music Editior",
    "year": 1984
-  },
-  "msx:local-2580389ec0": {
-   "contentIds": [
-    "sha256-rom-v1:a262e22ea2c441bf21bc85f69c41c85af78fb69c2c4bc22e4a14ce0f6cd9234c"
-   ],
-   "sourceGroups": [
-    "msx:Heist, The (1985) (Comptiq).zip"
-   ],
-   "title": "Heist, The",
-   "year": 1985
   },
   "msx:local-265af05b5d": {
    "contentIds": [
@@ -28094,36 +28337,6 @@
    ],
    "title": "Computer Billiards",
    "year": 1983
-  },
-  "msx:local-28d4deeb51": {
-   "contentIds": [
-    "sha256-rom-v1:1b3dc773d8808f109f833abc3b9ef3aa58448fa3f5ec6c99ce8922edd98cf6aa"
-   ],
-   "sourceGroups": [
-    "msx:Demon Crystal, The (1986) (Dempa).zip"
-   ],
-   "title": "Demon Crystal, The",
-   "year": 1986
-  },
-  "msx:local-2a398f21b6": {
-   "contentIds": [
-    "sha256-rom-v1:dbb6c3c9e00018bb9ae164709484d957b7da1d669fbebebbf8b07d80aaab66c3"
-   ],
-   "sourceGroups": [
-    "msx:Iriegas (1983) (Ascii).zip"
-   ],
-   "title": "Iriegas",
-   "year": 1983
-  },
-  "msx:local-2afd186f98": {
-   "contentIds": [
-    "sha256-rom-v1:86225b0559f1d4e5acadc00d5a18febc265bfc43a6ec5b7e2d360087080cbe5c"
-   ],
-   "sourceGroups": [
-    "msx:Buru To Marty Kikiippatsu (1986) (Hal).zip"
-   ],
-   "title": "Buru To Marty Kikiippatsu",
-   "year": 1986
   },
   "msx:local-2bc15025af": {
    "contentIds": [
@@ -28152,7 +28365,7 @@
    "sourceGroups": [
     "msx:Keiba, The (1986) (Champion Soft).zip"
    ],
-   "title": "Keiba, The",
+   "title": "The Keiba",
    "year": 1986
   },
   "msx:local-36754f20d2": {
@@ -28176,26 +28389,6 @@
    "title": "Flash Sprash",
    "year": 1984
   },
-  "msx:local-382d3b89fb": {
-   "contentIds": [
-    "sha256-rom-v1:1a53e1e8b8b2e491f82f76ddeedecebdb06eb14240d378c3d912dd7a391305b8"
-   ],
-   "sourceGroups": [
-    "msx:Brain, The (1983) (Ascii).zip"
-   ],
-   "title": "Brain, The",
-   "year": 1983
-  },
-  "msx:local-3a0e577093": {
-   "contentIds": [
-    "sha256-rom-v1:4ed1d1273b60d03e7508bab5727dffb59b0b932ab08b114549afc129817ad93c"
-   ],
-   "sourceGroups": [
-    "msx:Hydlide 2 (1986) (T&E Soft).zip"
-   ],
-   "title": "Hydlide 2",
-   "year": 1986
-  },
   "msx:local-3c4328fa64": {
    "contentIds": [
     "sha256-rom-v1:660db3f2e59f4bc942bea9cde95552b4900e6d63271f97a08a55385aaf4f69e6"
@@ -28205,26 +28398,6 @@
    ],
    "title": "Home Calc",
    "year": 1984
-  },
-  "msx:local-406c366091": {
-   "contentIds": [
-    "sha256-rom-v1:088af2f988dcf4da5197f01f0ba1542abe6e30f6fc98c3e28b003ac37e046866"
-   ],
-   "sourceGroups": [
-    "msx:Vaxol (1987) (Heart Soft).zip"
-   ],
-   "title": "Vaxol",
-   "year": 1987
-  },
-  "msx:local-41678a22e3": {
-   "contentIds": [
-    "sha256-rom-v1:752f55f80a9c65e6b475d8e8773ddf151f12cc0c73be519632da83397102f79b"
-   ],
-   "sourceGroups": [
-    "msx:Harryfox Yki no Maoh (1985) (Micro Cabin).zip"
-   ],
-   "title": "Harryfox Yki no Maoh",
-   "year": 1985
   },
   "msx:local-41a84ebba2": {
    "contentIds": [
@@ -28287,16 +28460,6 @@
    "title": "MSX Bunsetsu Henkan Jisyo",
    "year": 1985
   },
-  "msx:local-50cc1b847f": {
-   "contentIds": [
-    "sha256-rom-v1:6abd6fcb6eeb033e4f62bbf9ad162c954d205511a18cade1e93d8677990e4b51"
-   ],
-   "sourceGroups": [
-    "msx:Dam Busters, The (1985) (Comptiq).zip"
-   ],
-   "title": "Dam Busters, The",
-   "year": 1985
-  },
   "msx:local-559b450434": {
    "contentIds": [
     "sha256-rom-v1:f95d781d37bcacc2c9e25b180def1ba5169b8e4cb68c4a730ec8f4965337ec71"
@@ -28357,26 +28520,6 @@
    "title": "Dragon Slayer 4",
    "year": 1987
   },
-  "msx:local-5b6aa4b8a6": {
-   "contentIds": [
-    "sha256-rom-v1:7fd0088a89b30d5439a7df0f44e33527f2f905bc92aec53580d14283560cfe3e"
-   ],
-   "sourceGroups": [
-    "msx:Lot Lot (1986) (Irem).zip"
-   ],
-   "title": "Lot Lot",
-   "year": 1986
-  },
-  "msx:local-604e31d94f": {
-   "contentIds": [
-    "sha256-rom-v1:7040f9b91d0059eb774d5b2184c5d01b81dc95b24bb4599e162fe353c2751c3a"
-   ],
-   "sourceGroups": [
-    "msx:Iga Ninpouten 2 (1986) (Casio).zip"
-   ],
-   "title": "Iga Ninpouten 2",
-   "year": 1986
-  },
   "msx:local-60a069addf": {
    "contentIds": [
     "sha256-rom-v1:121198c105a4897211b770ac8dd534d49fdf246baf857d917e1e956e290d2686"
@@ -28434,7 +28577,7 @@
    "sourceGroups": [
     "msx:Fantasm Soldier Valis, The (1986) (Telenet).zip"
    ],
-   "title": "Fantasm Soldier Valis, The",
+   "title": "The Fantasm Soldier Valis",
    "year": 1986
   },
   "msx:local-680d569108": {
@@ -28517,16 +28660,6 @@
    "title": "MSX Eiwa Jiten",
    "year": 1988
   },
-  "msx:local-7f31d741c5": {
-   "contentIds": [
-    "sha256-rom-v1:9fca736ccb35838a11de8e57c9b41aa2f5b5a0f80da81f2ecdd944dd04770b27"
-   ],
-   "sourceGroups": [
-    "msx:Cross Blaim (1985) (dB-Soft).zip"
-   ],
-   "title": "Cross Blaim",
-   "year": 1985
-  },
   "msx:local-7fba22c6a4": {
    "contentIds": [
     "sha256-rom-v1:613b3c57b7754a5d0088f6a902c663309fcea7a7e751ad274216d925b687b7aa"
@@ -28547,16 +28680,6 @@
    "title": "Ningyo Densetsu - Fathom",
    "year": 1985
   },
-  "msx:local-81f713da6d": {
-   "contentIds": [
-    "sha256-rom-v1:0cd8a7928e10a8551d7f6fd68943a6d4a008e04a254d258413c120dda18b792e"
-   ],
-   "sourceGroups": [
-    "msx:Hyper Olympic 1 (1984) (Konami).zip"
-   ],
-   "title": "Hyper Olympic 1",
-   "year": 1984
-  },
   "msx:local-8262c2e688": {
    "contentIds": [
     "sha256-rom-v1:1f9949b3a7e173d0c42892972a9d6b47a7509eea09f8a10c078edd8f337dbfe7",
@@ -28568,18 +28691,6 @@
    "title": "Japanese MSX-Write",
    "year": 1986
   },
-  "msx:local-8603ef9e5d": {
-   "contentIds": [
-    "sha256-rom-v1:3b9afd12b29680abb655f05d24e0970954c38e48c5ccb24227d6c710474396a7",
-    "sha256-rom-v1:abf9b93e1b43fa8257ce3d6854e3ca989b07926a7017a263a5a4ba78a32a87a3",
-    "sha256-rom-v1:d4399d4ad45454ff4a5d5e6c24fc90c656e81442af012369c48f09433defae77"
-   ],
-   "sourceGroups": [
-    "msx:F1 Spirit (1987) (Konami).zip"
-   ],
-   "title": "F1 Spirit",
-   "year": 1987
-  },
   "msx:local-86419a9f93": {
    "contentIds": [
     "sha256-rom-v1:24a28256c95f1165fafc52f8ca133114fd41230a11288924c9d2edaea0552019"
@@ -28587,7 +28698,7 @@
    "sourceGroups": [
     "msx:Police Story, The (1985) (Pony Cannon).zip"
    ],
-   "title": "Police Story, The",
+   "title": "The Police Story",
    "year": 1985
   },
   "msx:local-86847f6f88": {
@@ -28610,16 +28721,6 @@
    ],
    "title": "FM Music Composer II",
    "year": 1985
-  },
-  "msx:local-8fb574e169": {
-   "contentIds": [
-    "sha256-rom-v1:edf97888644f267961e2d00cc65c2ef0f03bacf08a9fb1e8da5f2a9e3e0b310e"
-   ],
-   "sourceGroups": [
-    "msx:Psychic War (1987) (Kogado).zip"
-   ],
-   "title": "Psychic War",
-   "year": 1987
   },
   "msx:local-973e3c18c1": {
    "contentIds": [
@@ -28691,26 +28792,6 @@
    "title": "Majyo Densetsu",
    "year": 1986
   },
-  "msx:local-a931dc80ab": {
-   "contentIds": [
-    "sha256-rom-v1:b4678f81e6b9e03f59f1fef8cd0488e3bb524143285364ce69ec02fff1cce828"
-   ],
-   "sourceGroups": [
-    "msx:Castle, The (1986) (Ascii).zip"
-   ],
-   "title": "Castle, The",
-   "year": 1986
-  },
-  "msx:local-ad5f5c3f1d": {
-   "contentIds": [
-    "sha256-rom-v1:d3a67c5a3e9d0d6b18b8779dfd3480c070d82ba3eceebe69593cf5893d404a00"
-   ],
-   "sourceGroups": [
-    "msx:Mobile Planet Suthirus (1986) (Hal).zip"
-   ],
-   "title": "Mobile Planet Suthirus",
-   "year": 1986
-  },
   "msx:local-ad8ecadb83": {
    "contentIds": [
     "sha256-rom-v1:36585c7882f4cf44b8f1bfd51d6d3829e82f36b27685b90f92ca7e0aa8fc8faa"
@@ -28718,7 +28799,7 @@
    "sourceGroups": [
     "msx:Protector, The (1985) (Pony Cannon).zip"
    ],
-   "title": "Protector, The",
+   "title": "The Protector",
    "year": 1985
   },
   "msx:local-ae33a4b1f7": {
@@ -28796,26 +28877,6 @@
    "title": "Super Synth",
    "year": 1984
   },
-  "msx:local-bb49067fa9": {
-   "contentIds": [
-    "sha256-rom-v1:994b95224d6de4efa6a187412fae092130e86a54b39dc96c9757ea0baf4164bb"
-   ],
-   "sourceGroups": [
-    "msx:Xanadu (1987) (Falcom).zip"
-   ],
-   "title": "Xanadu",
-   "year": 1987
-  },
-  "msx:local-bda174ae6a": {
-   "contentIds": [
-    "sha256-rom-v1:06504efb72d1cd3351dae8eb1f7b073f69d599fa7018663937f85535658ad3e7"
-   ],
-   "sourceGroups": [
-    "msx:Konami's Baseball (1984) (Konami).zip"
-   ],
-   "title": "Konami's Baseball",
-   "year": 1984
-  },
   "msx:local-befcb4798b": {
    "contentIds": [
     "sha256-rom-v1:e0bd21430fe10ab26bd9543878361f6acebd431f8b94b4d9d90a107c6a0d15f3"
@@ -28863,37 +28924,7 @@
    "sourceGroups": [
     "msx:Black Onyx 2, The (1986) (Ascii).zip"
    ],
-   "title": "Black Onyx 2, The",
-   "year": 1986
-  },
-  "msx:local-c830e7e186": {
-   "contentIds": [
-    "sha256-rom-v1:49b62083d0572d06c52d698718dd58f2e852793a1f75f15ba99d0fc8ecf53c98"
-   ],
-   "sourceGroups": [
-    "msx:Fairy Land Story, The (1987) (Hot-B).zip"
-   ],
-   "title": "Fairy Land Story, The",
-   "year": 1987
-  },
-  "msx:local-cbb5e06e8f": {
-   "contentIds": [
-    "sha256-rom-v1:87a51e8744c0dafa0ab27d8b3b16585cfb5f76673ec62ad05c49c58384ce81b8"
-   ],
-   "sourceGroups": [
-    "msx:King's Valley 2 (1988) (Konami).zip"
-   ],
-   "title": "King's Valley 2",
-   "year": 1988
-  },
-  "msx:local-cce282ea37": {
-   "contentIds": [
-    "sha256-rom-v1:823911ec562b4ee2eb8237a31253fe7853746a02d4dd27057cf535d0bfbd06b1"
-   ],
-   "sourceGroups": [
-    "msx:Stone of Wisdom, The (1986) (Casio).zip"
-   ],
-   "title": "Stone of Wisdom, The",
+   "title": "The Black Onyx 2",
    "year": 1986
   },
   "msx:local-d2ab3b8dfe": {
@@ -28926,16 +28957,6 @@
    "title": "NGA II",
    "year": 1985
   },
-  "msx:local-d747190d65": {
-   "contentIds": [
-    "sha256-rom-v1:4f267a43407659184c9f3d361c46f755beea79f898807b4f650926f5126d34a7"
-   ],
-   "sourceGroups": [
-    "msx:Hydlide 3 (1987) (T&E Soft).zip"
-   ],
-   "title": "Hydlide 3",
-   "year": 1987
-  },
   "msx:local-d90593e344": {
    "contentIds": [
     "sha256-rom-v1:3cfe44646b69a622656b96305f1b975f48ca018839f7946895f7a1352d9720aa"
@@ -28946,16 +28967,6 @@
    "title": "FM Pana Amusement Cartridge",
    "year": 1988
   },
-  "msx:local-db010869cc": {
-   "contentIds": [
-    "sha256-rom-v1:28671b31b71e0b7bcbbcf42c967d4c1c49ed342dfba1c0b9c2af662ea7039158"
-   ],
-   "sourceGroups": [
-    "msx:Anaza (1987) (Hot-B).zip"
-   ],
-   "title": "Anaza",
-   "year": 1987
-  },
   "msx:local-dc3a9c8b27": {
    "contentIds": [
     "sha256-rom-v1:a5ce9120985a72c1758bd903ff8bddae90d7ff7ae7b879b5ead7edd0354c9e27"
@@ -28965,16 +28976,6 @@
    ],
    "title": "Dr.Copy",
    "year": 1987
-  },
-  "msx:local-ddcabea598": {
-   "contentIds": [
-    "sha256-rom-v1:087378ddad1379a6e378f0810e9cf1dbb64ee03c36e630bb78020b754b7dfebd"
-   ],
-   "sourceGroups": [
-    "msx:Antarctic Adventure (1984) (Konami).zip"
-   ],
-   "title": "Antarctic Adventure",
-   "year": 1984
   },
   "msx:local-de49becbdf": {
    "contentIds": [
@@ -29036,26 +29037,6 @@
    "title": "BASIC Nyuumon 2",
    "year": 1985
   },
-  "msx:local-ec2cc511c2": {
-   "contentIds": [
-    "sha256-rom-v1:420c42c18006eb5dbb25efa5b83e340d740824c15a714929a945c0db51f97280"
-   ],
-   "sourceGroups": [
-    "msx:Maze of Galious, The (1987) (Konami).zip"
-   ],
-   "title": "Maze of Galious, The",
-   "year": 1987
-  },
-  "msx:local-eeb663cf56": {
-   "contentIds": [
-    "sha256-rom-v1:a6d94f7167549481c1c9b7bd4908d1c3233231be2211762928e9fe24a61e235e"
-   ],
-   "sourceGroups": [
-    "msx:Young Sherlock (1987) (Pack In Video).zip"
-   ],
-   "title": "Young Sherlock",
-   "year": 1987
-  },
   "msx:local-f1d22b9562": {
    "contentIds": [
     "sha256-rom-v1:bd30d26b7ace39477e56be3bbde1668c8c8648ad9f321621528c8e5a2f1ebe84"
@@ -29065,26 +29046,6 @@
    ],
    "title": "Deep Dungeon 2",
    "year": 1988
-  },
-  "msx:local-f23eb19deb": {
-   "contentIds": [
-    "sha256-rom-v1:b85ab62ae22b5bdb85c3dffb1f9d628836e98d928f93512e32d8b2f12a1c89b6"
-   ],
-   "sourceGroups": [
-    "msx:A Life M36 Planet (1987) (Pixel).zip"
-   ],
-   "title": "A Life M36 Planet",
-   "year": 1987
-  },
-  "msx:local-f26b429e3e": {
-   "contentIds": [
-    "sha256-rom-v1:658ad7ef812eb15b09d76bc413ddf2956a2361c7e534ffcb915cfaafbf7e2a4a"
-   ],
-   "sourceGroups": [
-    "msx:Shalom (1987) (Konami).zip"
-   ],
-   "title": "Shalom",
-   "year": 1987
   },
   "msx:local-f3b254c2b7": {
    "contentIds": [
@@ -29128,16 +29089,6 @@
    "title": "MSX Audio",
    "year": 1985
   },
-  "msx:local-f8079c1c04": {
-   "contentIds": [
-    "sha256-rom-v1:3f7442f7224ebf773bf228d421f2962e234f2380112846e722a602ba9ead7e0c"
-   ],
-   "sourceGroups": [
-    "msx:Scarlet 7 (1986) (Toshiba Emi).zip"
-   ],
-   "title": "Scarlet 7",
-   "year": 1986
-  },
   "msx:local-f810f6dddd": {
    "contentIds": [
     "sha256-rom-v1:25f8d336335e4dbdb1c23a476559d803f1c3a79472c6f6fc6d5ea55a17df7d4b",
@@ -29147,16 +29098,6 @@
     "msx:Konami's Game Master (1985) (Konami).zip"
    ],
    "title": "Konami's Game Master",
-   "year": 1985
-  },
-  "msx:local-fa67045c22": {
-   "contentIds": [
-    "sha256-rom-v1:9def33fd9861a8fbb7a9e522f165a52731bbe9834ff0b69a22aecfbb9dbac75f"
-   ],
-   "sourceGroups": [
-    "msx:Alcazar (1985) (Pony Cannon).zip"
-   ],
-   "title": "Alcazar",
    "year": 1985
   },
   "msx:moby-100445": {
@@ -29174,11 +29115,6 @@
    "mobygames": 101758,
    "title": "Peach Up 4",
    "year": 1990
-  },
-  "msx:moby-10269": {
-   "mobygames": 10269,
-   "title": "Cabbage Patch Kids Adventures in the Park",
-   "year": 1984
   },
   "msx:moby-10376": {
    "mobygames": 10376,
@@ -29206,11 +29142,6 @@
    "title": "Super Cobra",
    "year": 1983
   },
-  "msx:moby-1088": {
-   "mobygames": 1088,
-   "title": "Arkanoid: Revenge of DOH",
-   "year": 1988
-  },
   "msx:moby-10985": {
    "mobygames": 10985,
    "title": "Road Blaster",
@@ -29226,11 +29157,6 @@
    "title": "Grime Z80",
    "year": 2018
   },
-  "msx:moby-1146": {
-   "mobygames": 1146,
-   "title": "Indiana Jones and the Last Crusade: The Action Game",
-   "year": 1989
-  },
   "msx:moby-116793": {
    "mobygames": 116793,
    "title": "FD Konami Collection",
@@ -29240,11 +29166,6 @@
    "mobygames": 118103,
    "title": "Witches",
    "year": 2018
-  },
-  "msx:moby-118545": {
-   "mobygames": 118545,
-   "title": "Yōkai Tantei Chima Chima",
-   "year": 1985
   },
   "msx:moby-119465": {
    "mobygames": 119465,
@@ -29265,17 +29186,6 @@
    "mobygames": 12167,
    "title": "Axe of Rage",
    "year": 1988
-  },
-  "msx:moby-12175": {
-   "contentIds": [
-    "sha256-rom-v1:7653fad3417927288c252445e99913ddde50bfc8ab1f5a1fec342b242ba252c5"
-   ],
-   "mobygames": 12175,
-   "sourceGroups": [
-    "msx2:Labyrinth (1987) (Pack In Video).zip"
-   ],
-   "title": "Labyrinth",
-   "year": 1987
   },
   "msx:moby-12261": {
    "mobygames": 12261,
@@ -29312,11 +29222,6 @@
    "title": "Pig Mock",
    "year": 1983
   },
-  "msx:moby-1283": {
-   "mobygames": 1283,
-   "title": "Dragonworld",
-   "year": 1986
-  },
   "msx:moby-1292": {
    "mobygames": 1292,
    "title": "Knight Orc",
@@ -29326,11 +29231,6 @@
    "mobygames": 129487,
    "title": "Weird Computer Games",
    "year": 1985
-  },
-  "msx:moby-1299": {
-   "mobygames": 1299,
-   "title": "Bad Dudes vs. Dragon Ninja",
-   "year": 1988
   },
   "msx:moby-1304": {
    "mobygames": 1304,
@@ -29347,11 +29247,6 @@
    "title": "Journey to the Centre of the Earth: Extended Version",
    "year": 2017
   },
-  "msx:moby-13332": {
-   "mobygames": 13332,
-   "title": "Fantasy Zone II",
-   "year": 1989
-  },
   "msx:moby-13496": {
    "mobygames": 13496,
    "title": "Time Gal",
@@ -29361,17 +29256,6 @@
    "mobygames": 13526,
    "title": "Super Hydlide",
    "year": 1987
-  },
-  "msx:moby-13827": {
-   "contentIds": [
-    "sha256-rom-v1:20b03228be21ea3f8e305cbeeb7e49034527ecab75e0a89043b9b737324763a5"
-   ],
-   "mobygames": 13827,
-   "sourceGroups": [
-    "msx2:Zoids (1988) (Toshiba Emi).zip"
-   ],
-   "title": "Zoids",
-   "year": 1986
   },
   "msx:moby-139": {
    "contentIds": [
@@ -29389,16 +29273,6 @@
    "title": "Trivial Pursuit",
    "year": 1986
   },
-  "msx:moby-13909": {
-   "mobygames": 13909,
-   "title": "Moonsweeper",
-   "year": 1985
-  },
-  "msx:moby-13947": {
-   "mobygames": 13947,
-   "title": "Inindo: Way of the Ninja",
-   "year": 1991
-  },
   "msx:moby-140432": {
    "mobygames": 140432,
    "title": "Hibernated 1: This Place Is Death",
@@ -29413,36 +29287,6 @@
    "mobygames": 141060,
    "title": "De Sekte...",
    "year": 1987
-  },
-  "msx:moby-1412": {
-   "mobygames": 1412,
-   "title": "Moonwalker",
-   "year": 1989
-  },
-  "msx:moby-14250": {
-   "mobygames": 14250,
-   "title": "Carlos Sainz",
-   "year": 1990
-  },
-  "msx:moby-143057": {
-   "mobygames": 143057,
-   "title": "Mr. Ching",
-   "year": 1984
-  },
-  "msx:moby-14332": {
-   "mobygames": 14332,
-   "title": "Bugaboo (The Flea)",
-   "year": 1985
-  },
-  "msx:moby-14379": {
-   "mobygames": 14379,
-   "title": "Livingstone II",
-   "year": 1989
-  },
-  "msx:moby-14385": {
-   "mobygames": 14385,
-   "title": "Poogaboo: La Pulga 2",
-   "year": 1991
   },
   "msx:moby-143930": {
    "mobygames": 143930,
@@ -29469,11 +29313,6 @@
    "title": "Worry",
    "year": 1985
   },
-  "msx:moby-14515": {
-   "mobygames": 14515,
-   "title": "Gun.Smoke",
-   "year": 1987
-  },
   "msx:moby-145781": {
    "mobygames": 145781,
    "title": "The Curse of Rabenstein",
@@ -29489,25 +29328,10 @@
    "title": "North Sea Bullion Adventure",
    "year": 1985
   },
-  "msx:moby-147105": {
-   "mobygames": 147105,
-   "title": "Zoids: Chūō Tairiku no Tatakai",
-   "year": 1987
-  },
   "msx:moby-14761": {
    "mobygames": 14761,
    "title": "Passengers on the Wind",
    "year": 1986
-  },
-  "msx:moby-14989": {
-   "mobygames": 14989,
-   "title": "Ping Pong",
-   "year": 1985
-  },
-  "msx:moby-15027": {
-   "mobygames": 15027,
-   "title": "Exile",
-   "year": 1988
   },
   "msx:moby-15084": {
    "mobygames": 15084,
@@ -29524,25 +29348,10 @@
    "title": "The Queen's Footsteps",
    "year": 2020
   },
-  "msx:moby-15247": {
-   "mobygames": 15247,
-   "title": "Puzznic",
-   "year": 1990
-  },
   "msx:moby-154785": {
    "mobygames": 154785,
    "title": "Tristam Island",
    "year": 2020
-  },
-  "msx:moby-15537": {
-   "mobygames": 15537,
-   "title": "Illusion City: Gen'ei Toshi",
-   "year": 1991
-  },
-  "msx:moby-15551": {
-   "mobygames": 15551,
-   "title": "Driller Tanks",
-   "year": 1983
   },
   "msx:moby-157550": {
    "mobygames": 157550,
@@ -29559,26 +29368,6 @@
    "title": "Power Strike",
    "year": 1988
   },
-  "msx:moby-159871": {
-   "mobygames": 159871,
-   "title": "Hurry Fox: Yuki no Maō-hen",
-   "year": 1986
-  },
-  "msx:moby-16012": {
-   "mobygames": 16012,
-   "title": "Michel Futbol Master + Super Skills",
-   "year": 1989
-  },
-  "msx:moby-16056": {
-   "mobygames": 16056,
-   "title": "Golvellius: Valley of Doom",
-   "year": 1987
-  },
-  "msx:moby-160606": {
-   "mobygames": 160606,
-   "title": "David II",
-   "year": 1983
-  },
   "msx:moby-161042": {
    "mobygames": 161042,
    "title": "Alice in Wonderland",
@@ -29589,67 +29378,25 @@
    "title": "Might and Magic: Book One - Secret of the Inner Sanctum",
    "year": 1988
   },
-  "msx:moby-162724": {
-   "mobygames": 162724,
-   "title": "Indian no Bōken",
-   "year": 1984
-  },
   "msx:moby-16840": {
    "mobygames": 16840,
    "title": "Red Moon",
    "year": 1985
-  },
-  "msx:moby-170845": {
-   "mobygames": 170845,
-   "title": "Track & Field II",
-   "year": 1984
   },
   "msx:moby-17130": {
    "mobygames": 17130,
    "title": "Rocco",
    "year": 1985
   },
-  "msx:moby-177705": {
-   "mobygames": 177705,
-   "title": "Gyuwambler Jiko Chūshinha",
-   "year": 1988
-  },
   "msx:moby-183694": {
    "mobygames": 183694,
    "title": "North Sea Helicopter",
    "year": 1985
   },
-  "msx:moby-18638": {
-   "mobygames": 18638,
-   "title": "Randar no Bōken",
-   "year": 1989
-  },
-  "msx:moby-186675": {
-   "mobygames": 186675,
-   "title": "Metal Dragon",
-   "year": 2021
-  },
-  "msx:moby-18681": {
-   "adult": true,
-   "mobygames": 18681,
-   "title": "Rance II: Hangyaku no Shōjotachi",
-   "year": 1990
-  },
-  "msx:moby-18730": {
-   "adult": true,
-   "mobygames": 18730,
-   "title": "Tōshin Toshi",
-   "year": 1991
-  },
   "msx:moby-18758": {
    "mobygames": 18758,
    "title": "The Fire Crystal",
    "year": 1986
-  },
-  "msx:moby-1883": {
-   "mobygames": 1883,
-   "title": "Rastan",
-   "year": 1988
   },
   "msx:moby-188308": {
    "mobygames": 188308,
@@ -29661,20 +29408,10 @@
    "title": "Indoor Soccer",
    "year": 1987
   },
-  "msx:moby-18980": {
-   "mobygames": 18980,
-   "title": "Avenger",
-   "year": 1986
-  },
   "msx:moby-19067": {
    "mobygames": 19067,
    "title": "Captain Zapp",
    "year": 1987
-  },
-  "msx:moby-192899": {
-   "mobygames": 192899,
-   "title": "The Sorrow of Gadhlan' Thur",
-   "year": 2019
   },
   "msx:moby-192901": {
    "mobygames": 192901,
@@ -29686,11 +29423,6 @@
    "title": "Nuts",
    "year": 1997
   },
-  "msx:moby-192991": {
-   "mobygames": 192991,
-   "title": "Life on Mars",
-   "year": 2016
-  },
   "msx:moby-193611": {
    "mobygames": 193611,
    "title": "Hold Fast",
@@ -29701,40 +29433,15 @@
    "title": "Grand Prix Master",
    "year": 1988
   },
-  "msx:moby-19472": {
-   "mobygames": 19472,
-   "title": "Athletic Land",
-   "year": 1983
-  },
-  "msx:moby-19474": {
-   "mobygames": 19474,
-   "title": "Knightmare II: The Maze of Galious",
-   "year": 1987
-  },
   "msx:moby-19501": {
    "mobygames": 19501,
    "title": "Tokio",
    "year": 1987
   },
-  "msx:moby-19505": {
-   "mobygames": 19505,
-   "title": "Track & Field",
-   "year": 1984
-  },
   "msx:moby-19508": {
    "mobygames": 19508,
    "title": "Billiards",
    "year": 1983
-  },
-  "msx:moby-19509": {
-   "mobygames": 19509,
-   "title": "F-1 Spirit: The Road to Formula 1",
-   "year": 1987
-  },
-  "msx:moby-19512": {
-   "mobygames": 19512,
-   "title": "Space Manbow",
-   "year": 1990
   },
   "msx:moby-195611": {
    "mobygames": 195611,
@@ -29799,23 +29506,6 @@
    "title": "Super Laydock: Mission Striker",
    "year": 1987
   },
-  "msx:moby-19745": {
-   "mobygames": 19745,
-   "title": "Victorious Nine II: Kōkō Yakyū-hen",
-   "year": 1987
-  },
-  "msx:moby-19747": {
-   "contentIds": [
-    "sha256-rom-v1:68bec8172d816025a21dd47482e9413fd8bd726b2cafb49236ca58a65c73e07f",
-    "sha256-rom-v1:a8afeeac391cd3f6cf57e2c4f2e9bf6a0fffc815a2c79ffd7500925b4d289c26"
-   ],
-   "mobygames": 19747,
-   "sourceGroups": [
-    "msx:Konami's Tennis (1984) (Konami).zip"
-   ],
-   "title": "Konami's Tennis",
-   "year": 1984
-  },
   "msx:moby-19769": {
    "mobygames": 19769,
    "title": "Mahjong Dōjō",
@@ -29830,21 +29520,6 @@
    "mobygames": 19853,
    "title": "Harrier Mission",
    "year": 1985
-  },
-  "msx:moby-19876": {
-   "mobygames": 19876,
-   "title": "Capitán Sevilla",
-   "year": 1988
-  },
-  "msx:moby-19882": {
-   "mobygames": 19882,
-   "title": "Emilio Butragueño 2",
-   "year": 1989
-  },
-  "msx:moby-19884": {
-   "mobygames": 19884,
-   "title": "Higemaru Makaijima: Nanatsu no Shima Daibōken",
-   "year": 1987
   },
   "msx:moby-19912": {
    "mobygames": 19912,
@@ -29861,17 +29536,6 @@
    "title": "Wild Cat",
    "year": 1985
   },
-  "msx:moby-19977": {
-   "contentIds": [
-    "sha256-rom-v1:78726acda8ece3e11b2d1a106efb1fdfb04dc208a9b7b0c03e74da2c4f4fb3ff"
-   ],
-   "mobygames": 19977,
-   "sourceGroups": [
-    "msx:Mobile Suit Gundam (1984) (Bandai).zip"
-   ],
-   "title": "Mobile Suit Gundam",
-   "year": 1984
-  },
   "msx:moby-200038": {
    "mobygames": 200038,
    "title": "Hareraiser: Prelude",
@@ -29887,11 +29551,6 @@
    "title": "Megachess",
    "year": 1988
   },
-  "msx:moby-2003": {
-   "mobygames": 2003,
-   "title": "Sharkey's 3D Pool",
-   "year": 1989
-  },
   "msx:moby-200749": {
    "mobygames": 200749,
    "title": "Ginga Eiyū Densetsu: Power-Up & Scenario Shū",
@@ -29902,20 +29561,10 @@
    "title": "Multi Sports",
    "year": 1991
   },
-  "msx:moby-20079": {
-   "mobygames": 20079,
-   "title": "Fútbol",
-   "year": 1985
-  },
   "msx:moby-201968": {
    "mobygames": 201968,
    "title": "Cracky",
    "year": 2023
-  },
-  "msx:moby-20225": {
-   "mobygames": 20225,
-   "title": "Moai No Hihō",
-   "year": 1986
   },
   "msx:moby-20234": {
    "mobygames": 20234,
@@ -29937,11 +29586,6 @@
    "title": "Castlequest",
    "year": 1986
   },
-  "msx:moby-20356": {
-   "mobygames": 20356,
-   "title": "Alphαroid",
-   "year": 1986
-  },
   "msx:moby-20375": {
    "mobygames": 20375,
    "title": "The Computer Edition of Scrabble Brand Crossword Game",
@@ -29957,12 +29601,6 @@
    "title": "Maths Invaders",
    "year": 1985
   },
-  "msx:moby-20410": {
-   "adult": true,
-   "mobygames": 20410,
-   "title": "Mahjong Hana no Momoko Gumi",
-   "year": 1990
-  },
   "msx:moby-20417": {
    "mobygames": 20417,
    "title": "Pub Darts",
@@ -29972,17 +29610,6 @@
    "mobygames": 204611,
    "title": "Edusom",
    "year": 1984
-  },
-  "msx:moby-205184": {
-   "adult": true,
-   "mobygames": 205184,
-   "title": "Erika: SF Adult Adventure",
-   "year": 1987
-  },
-  "msx:moby-2055": {
-   "mobygames": 2055,
-   "title": "Shanghai II: Dragon's Eye",
-   "year": 1991
   },
   "msx:moby-207007": {
    "mobygames": 207007,
@@ -30039,11 +29666,6 @@
    "title": "Maze Master",
    "year": 1988
   },
-  "msx:moby-213811": {
-   "mobygames": 213811,
-   "title": "Flight Deck II",
-   "year": 1987
-  },
   "msx:moby-214039": {
    "mobygames": 214039,
    "title": "Jet Fighter",
@@ -30094,11 +29716,6 @@
    "title": "Kaminari Bōya",
    "year": 1984
   },
-  "msx:moby-217825": {
-   "mobygames": 217825,
-   "title": "Daidassō",
-   "year": 1985
-  },
   "msx:moby-219027": {
    "mobygames": 219027,
    "title": "Dog Fighter",
@@ -30119,11 +29736,6 @@
    "title": "Police Dog",
    "year": 1984
   },
-  "msx:moby-222955": {
-   "mobygames": 222955,
-   "title": "Super Doors / Ame no Hi wa Ōisogashi",
-   "year": 1983
-  },
   "msx:moby-223452": {
    "mobygames": 223452,
    "title": "Sanjigen Bomberman",
@@ -30134,11 +29746,6 @@
    "title": "Disk Station #0",
    "year": 1988
   },
-  "msx:moby-224914": {
-   "mobygames": 224914,
-   "title": "Biotech / Killer Station",
-   "year": 1983
-  },
   "msx:moby-224915": {
    "mobygames": 224915,
    "title": "Help! / Sea Bomber",
@@ -30148,16 +29755,6 @@
    "mobygames": 224916,
    "title": "Fire Ball / Akarui Nōen",
    "year": 1983
-  },
-  "msx:moby-224917": {
-   "mobygames": 224917,
-   "title": "Gunman / Submarine Shooter",
-   "year": 1983
-  },
-  "msx:moby-226591": {
-   "mobygames": 226591,
-   "title": "Ginkō Gōtō: Machinegun Joe vs The Mafia",
-   "year": 1984
   },
   "msx:moby-227748": {
    "adult": true,
@@ -30175,11 +29772,6 @@
    "title": "Champions!",
    "year": 1985
   },
-  "msx:moby-228695": {
-   "mobygames": 228695,
-   "title": "Lonesome Tank Shingeki",
-   "year": 1984
-  },
   "msx:moby-228732": {
    "mobygames": 228732,
    "title": "Bubble Kund 1999",
@@ -30189,16 +29781,6 @@
    "mobygames": 228758,
    "title": "Square Garden",
    "year": 1984
-  },
-  "msx:moby-228797": {
-   "mobygames": 228797,
-   "title": "Shin Maō Golvellius",
-   "year": 1988
-  },
-  "msx:moby-231492": {
-   "mobygames": 231492,
-   "title": "DuckTales: The Lucky Dime",
-   "year": 1994
   },
   "msx:moby-23260": {
    "mobygames": 23260,
@@ -30214,11 +29796,6 @@
    "mobygames": 23369,
    "title": "Return to Eden",
    "year": 1984
-  },
-  "msx:moby-23387": {
-   "mobygames": 23387,
-   "title": "Exoa II: Warroid",
-   "year": 1985
   },
   "msx:moby-234261": {
    "mobygames": 234261,
@@ -30249,16 +29826,6 @@
    "mobygames": 235913,
    "title": "Five Star Games",
    "year": 1987
-  },
-  "msx:moby-237130": {
-   "mobygames": 237130,
-   "title": "Silviana: Ai Ippai no Little Angel",
-   "year": 1989
-  },
-  "msx:moby-237407": {
-   "mobygames": 237407,
-   "title": "Disc Warrior",
-   "year": 1985
   },
   "msx:moby-237842": {
    "mobygames": 237842,
@@ -30300,11 +29867,6 @@
    "title": "Gumshoe Logic",
    "year": 1985
   },
-  "msx:moby-242": {
-   "mobygames": 242,
-   "title": "Ys: The Vanished Omens",
-   "year": 1987
-  },
   "msx:moby-244228": {
    "mobygames": 244228,
    "title": "Igloo",
@@ -30330,11 +29892,6 @@
    "title": "Wacky Darts",
    "year": 1987
   },
-  "msx:moby-249075": {
-   "mobygames": 249075,
-   "title": "Rick & Mick's Big Adventure",
-   "year": 1987
-  },
   "msx:moby-25042": {
    "mobygames": 25042,
    "title": "Realms of Darkness",
@@ -30355,16 +29912,6 @@
    "title": "Sōkoban Toolkit",
    "year": 1984
   },
-  "msx:moby-25374": {
-   "mobygames": 25374,
-   "title": "Gingahyōryū Vifam",
-   "year": 1984
-  },
-  "msx:moby-25442": {
-   "mobygames": 25442,
-   "title": "Crazy Golf",
-   "year": 1983
-  },
   "msx:moby-255493": {
    "mobygames": 255493,
    "title": "Patsy Duck's Card",
@@ -30383,21 +29930,6 @@
    "mobygames": 258627,
    "title": "Disc Station Deluxe 3",
    "year": 1990
-  },
-  "msx:moby-259": {
-   "mobygames": 259,
-   "title": "Balance of Power",
-   "year": 1988
-  },
-  "msx:moby-261483": {
-   "mobygames": 261483,
-   "title": "Paradream: Parallel Dream",
-   "year": 1992
-  },
-  "msx:moby-26191": {
-   "mobygames": 26191,
-   "title": "XZR: Hakai no Gūzō",
-   "year": 1988
   },
   "msx:moby-262840": {
    "mobygames": 262840,
@@ -30469,12 +30001,6 @@
    "title": "Treasure Island",
    "year": 1986
   },
-  "msx:moby-28782": {
-   "adult": true,
-   "mobygames": 28782,
-   "title": "Bishōjo Control",
-   "year": 1989
-  },
   "msx:moby-28812": {
    "mobygames": 28812,
    "title": "Time and Magik: The Trilogy",
@@ -30521,16 +30047,6 @@
    "title": "Mystery of the Nile",
    "year": 1986
   },
-  "msx:moby-34101": {
-   "mobygames": 34101,
-   "title": "Solo",
-   "year": 1989
-  },
-  "msx:moby-34184": {
-   "mobygames": 34184,
-   "title": "Poli Díaz",
-   "year": 1990
-  },
   "msx:moby-34502": {
    "mobygames": 34502,
    "title": "Oberon 69",
@@ -30546,11 +30062,6 @@
    "title": "Kids on Keys",
    "year": 1985
   },
-  "msx:moby-35609": {
-   "mobygames": 35609,
-   "title": "The Survivors",
-   "year": 1987
-  },
   "msx:moby-35733": {
    "mobygames": 35733,
    "title": "Spaghetti Western Simulator",
@@ -30564,11 +30075,6 @@
   "msx:moby-35790": {
    "mobygames": 35790,
    "title": "Ninja",
-   "year": 1984
-  },
-  "msx:moby-35940": {
-   "mobygames": 35940,
-   "title": "Telebunny",
    "year": 1984
   },
   "msx:moby-36502": {
@@ -30591,11 +30097,6 @@
    "title": "Wizardry: Legacy of Llylgamyn - The Third Scenario",
    "year": 1990
   },
-  "msx:moby-39978": {
-   "mobygames": 39978,
-   "title": "Eggbert in Eggciting Adventure",
-   "year": 1994
-  },
   "msx:moby-40652": {
    "mobygames": 40652,
    "title": "Loco-Motion",
@@ -30605,17 +30106,6 @@
    "mobygames": 41813,
    "title": "Laserfight!",
    "year": 1989
-  },
-  "msx:moby-43465": {
-   "adult": true,
-   "mobygames": 43465,
-   "title": "Urotsukidōji",
-   "year": 1990
-  },
-  "msx:moby-43758": {
-   "mobygames": 43758,
-   "title": "Burai: Jōkan",
-   "year": 1990
   },
   "msx:moby-44509": {
    "adult": true,
@@ -30628,11 +30118,6 @@
    "mobygames": 44597,
    "title": "Mirage",
    "year": 1992
-  },
-  "msx:moby-4517": {
-   "mobygames": 4517,
-   "title": "Livingstone I Presume?",
-   "year": 1987
   },
   "msx:moby-45214": {
    "adult": true,
@@ -30663,11 +30148,6 @@
    "title": "Tenshitachi no Gogo II: Bangai-hen",
    "year": 1989
   },
-  "msx:moby-45910": {
-   "mobygames": 45910,
-   "title": "Manhattan Requiem",
-   "year": 1988
-  },
   "msx:moby-46215": {
    "mobygames": 46215,
    "title": "Pack Powersports",
@@ -30695,16 +30175,6 @@
    "title": "Foxy",
    "year": 1990
   },
-  "msx:moby-47773": {
-   "mobygames": 47773,
-   "title": "Ginga Eiyū Densetsu",
-   "year": 1989
-  },
-  "msx:moby-47779": {
-   "mobygames": 47779,
-   "title": "Ginga Eiyū Densetsu II",
-   "year": 1990
-  },
   "msx:moby-47799": {
    "adult": true,
    "mobygames": 47799,
@@ -30716,20 +30186,10 @@
    "title": "Cosmic Soldier: Psychic War",
    "year": 1988
   },
-  "msx:moby-4812": {
-   "mobygames": 4812,
-   "title": "Chuck Yeager's Advanced Flight Simulator",
-   "year": 1989
-  },
   "msx:moby-49700": {
    "mobygames": 49700,
    "title": "Superman: The Man of Steel",
    "year": 1989
-  },
-  "msx:moby-50049": {
-   "mobygames": 50049,
-   "title": "Kimagure Orange Road: Natsu no Mirage",
-   "year": 1988
   },
   "msx:moby-50286": {
    "adult": true,
@@ -30758,39 +30218,9 @@
    "title": "Rad Action",
    "year": 1987
   },
-  "msx:moby-51176": {
-   "mobygames": 51176,
-   "title": "Digan no Maseki",
-   "year": 1989
-  },
-  "msx:moby-51192": {
-   "mobygames": 51192,
-   "title": "Gandhara: Buddha no Seisen",
-   "year": 1988
-  },
   "msx:moby-51205": {
    "mobygames": 51205,
    "title": "Chikyū Senshi Rayieza",
-   "year": 1986
-  },
-  "msx:moby-51264": {
-   "mobygames": 51264,
-   "title": "Ninja-Kun: Majō no Bōken",
-   "year": 1985
-  },
-  "msx:moby-51402": {
-   "mobygames": 51402,
-   "title": "Taiyō no Shinden",
-   "year": 1987
-  },
-  "msx:moby-51412": {
-   "mobygames": 51412,
-   "title": "A Ressha de Ikō",
-   "year": 1989
-  },
-  "msx:moby-52328": {
-   "mobygames": 52328,
-   "title": "Karuizawa Yūkai Annai",
    "year": 1986
   },
   "msx:moby-53911": {
@@ -30802,11 +30232,6 @@
    "mobygames": 54023,
    "title": "Time Scanner",
    "year": 1989
-  },
-  "msx:moby-54290": {
-   "mobygames": 54290,
-   "title": "Tōdō Ryūnosuke Tantei Nikki: Kohakuiro no Yuigon",
-   "year": 1988
   },
   "msx:moby-54416": {
    "mobygames": 54416,
@@ -30821,11 +30246,6 @@
   "msx:moby-54768": {
    "mobygames": 54768,
    "title": "Lightning Vaccus: The Knight of Iron",
-   "year": 1989
-  },
-  "msx:moby-54968": {
-   "mobygames": 54968,
-   "title": "Onryō Senki",
    "year": 1989
   },
   "msx:moby-55031": {
@@ -30878,26 +30298,10 @@
    "title": "Astrododge",
    "year": 2013
   },
-  "msx:moby-57548": {
-   "mobygames": 57548,
-   "title": "Deep Dungeon: Madō Senki",
-   "year": 1988
-  },
   "msx:moby-580": {
    "mobygames": 580,
    "title": "World Karate Championship",
    "year": 1986
-  },
-  "msx:moby-58118": {
-   "adult": true,
-   "mobygames": 58118,
-   "title": "Ayayo's Love Affair",
-   "year": 1990
-  },
-  "msx:moby-58233": {
-   "mobygames": 58233,
-   "title": "Seikima II: Akuma no Gyakushū",
-   "year": 1987
   },
   "msx:moby-58524": {
    "mobygames": 58524,
@@ -30944,24 +30348,6 @@
    "mobygames": 58780,
    "title": "Danchi-zuma no Yūwaku",
    "year": 1985
-  },
-  "msx:moby-58836": {
-   "adult": true,
-   "mobygames": 58836,
-   "title": "Pinky Ponky Dai-1 Shū: Beautiful Dream",
-   "year": 1989
-  },
-  "msx:moby-58838": {
-   "adult": true,
-   "mobygames": 58838,
-   "title": "Pinky Ponky Dai-3 Shū: Battle Lovers",
-   "year": 1989
-  },
-  "msx:moby-58839": {
-   "adult": true,
-   "mobygames": 58839,
-   "title": "Pinky Ponky Dai-2 Shū: Twilight Games",
-   "year": 1989
   },
   "msx:moby-58840": {
    "adult": true,
@@ -31034,17 +30420,6 @@
    "title": "Ranma 1/2: Hiryū Densetsu",
    "year": 1992
   },
-  "msx:moby-5960": {
-   "contentIds": [
-    "sha256-rom-v1:a93058238d63b05c8bd30498d695b3769b8d94b76ea7b24d55e2e9f32e270dac"
-   ],
-   "mobygames": 5960,
-   "sourceGroups": [
-    "msx:R-Type (1988) (Irem).zip"
-   ],
-   "title": "R-Type",
-   "year": 1988
-  },
   "msx:moby-60067": {
    "mobygames": 60067,
    "title": "Hokkaidō Rensa Satsujin: Okhotsk ni Kiyu",
@@ -31054,11 +30429,6 @@
    "mobygames": 6167,
    "title": "Nobunaga's Ambition II",
    "year": 1989
-  },
-  "msx:moby-63992": {
-   "mobygames": 63992,
-   "title": "The Goonies",
-   "year": 1985
   },
   "msx:moby-64105": {
    "mobygames": 64105,
@@ -31095,11 +30465,6 @@
    "title": "Ikari Warriors",
    "year": 1987
   },
-  "msx:moby-67752": {
-   "mobygames": 67752,
-   "title": "Don Pan",
-   "year": 1984
-  },
   "msx:moby-6839": {
    "mobygames": 6839,
    "title": "Amazon",
@@ -31109,16 +30474,6 @@
    "mobygames": 68841,
    "title": "Dezeni Land",
    "year": 1984
-  },
-  "msx:moby-6932": {
-   "mobygames": 6932,
-   "title": "Teenage Mutant Ninja Turtles",
-   "year": 1990
-  },
-  "msx:moby-6935": {
-   "mobygames": 6935,
-   "title": "Nine Princes in Amber",
-   "year": 1986
   },
   "msx:moby-6939": {
    "mobygames": 6939,
@@ -31134,11 +30489,6 @@
    "mobygames": 70017,
    "title": "Duck Out!",
    "year": 1989
-  },
-  "msx:moby-70063": {
-   "mobygames": 70063,
-   "title": "Harvey Smith Showjumper",
-   "year": 1985
   },
   "msx:moby-7009": {
    "mobygames": 7009,
@@ -31175,56 +30525,15 @@
    "title": "Bases Loaded",
    "year": 1988
   },
-  "msx:moby-74049": {
-   "contentIds": [
-    "sha256-rom-v1:bd253f3285b3bf31501cd34f593f35ed3b9adfc6eb44c360c6fd59f8ab2c3684"
-   ],
-   "mobygames": 74049,
-   "sourceGroups": [
-    "msx:Q-bert (1986) (Konami).zip"
-   ],
-   "title": "Q*bert",
-   "year": 1986
-  },
-  "msx:moby-7511": {
-   "mobygames": 7511,
-   "title": "Kung-Fu Master",
-   "year": 1985
-  },
   "msx:moby-76804": {
    "mobygames": 76804,
    "title": "Pelmanism",
    "year": 1984
   },
-  "msx:moby-76837": {
-   "mobygames": 76837,
-   "title": "Kujakuō",
-   "year": 1988
-  },
   "msx:moby-77227": {
    "mobygames": 77227,
    "title": "Shifted",
    "year": 2014
-  },
-  "msx:moby-78107": {
-   "mobygames": 78107,
-   "title": "Konami Game Collection Vol. 1",
-   "year": 1988
-  },
-  "msx:moby-78109": {
-   "mobygames": 78109,
-   "title": "Konami Game Collection Vol. 2",
-   "year": 1988
-  },
-  "msx:moby-78111": {
-   "mobygames": 78111,
-   "title": "Konami Game Collection Vol. 3",
-   "year": 1988
-  },
-  "msx:moby-78113": {
-   "mobygames": 78113,
-   "title": "Konami Game Collection Vol. 4",
-   "year": 1988
   },
   "msx:moby-7932": {
    "mobygames": 7932,
@@ -31240,11 +30549,6 @@
    "mobygames": 80838,
    "title": "Unbelievable! Ultimate",
    "year": 1986
-  },
-  "msx:moby-8237": {
-   "mobygames": 8237,
-   "title": "Psychic World",
-   "year": 1988
   },
   "msx:moby-8264": {
    "mobygames": 8264,
@@ -31290,11 +30594,6 @@
    "mobygames": 9071,
    "title": "Gauntlet: The Deeper Dungeons",
    "year": 1987
-  },
-  "msx:moby-9099": {
-   "mobygames": 9099,
-   "title": "Romance of the Three Kingdoms II",
-   "year": 1990
   },
   "msx:moby-9223": {
    "mobygames": 9223,

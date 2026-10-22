@@ -40,6 +40,10 @@
 #if defined(__ANDROID__)
 #include "SDL_system.h"
 #endif
+#ifdef SDL_KAIRO_NO_JAVA /* KairoMSX: the API level from the NDK instead of SDL's Java side */
+#include <android/api-level.h>
+#define SDL_GetAndroidSDKVersion() android_get_device_api_level()
+#endif
 
 /* Many controllers turn the center button into an instantaneous button press */
 #define SDL_MINIMUM_GUIDE_BUTTON_DELAY_MS 250
@@ -1877,7 +1881,7 @@ static SDL_bool SDL_GetControllerMappingFilePath(char *path, size_t size)
         return SDL_strlcpy(path, hint, size) < size;
     }
 
-#if defined(__ANDROID__)
+#if defined(__ANDROID__) && !defined(SDL_KAIRO_NO_JAVA) /* KairoMSX */
     return SDL_snprintf(path, size, "%s/controller_map.txt", SDL_AndroidGetInternalStoragePath()) < size;
 #else
     return SDL_FALSE;

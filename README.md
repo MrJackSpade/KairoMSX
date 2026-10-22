@@ -4,7 +4,7 @@
 
 ## Status
 
-Early development. There is no release yet. The emulator core is pinned in this repository, and the Android app is being built around it.
+Early development. There is no release yet. The app runs cartridge games on C-BIOS with sound, the on-screen keyboard, the joystick, save states and the shared game library. Disk and tape games need an MSX's own system ROMs, which the app cannot use yet.
 
 ## Games and firmware
 
@@ -36,7 +36,13 @@ Clone with submodules to get the pinned shared frontend:
 git clone --recurse-submodules https://github.com/MrJackSpade/KairoMSX.git
 ```
 
-The Android build is not set up yet.
+Build the app, and optionally install it, with the shared build script:
+
+```powershell
+shared\tools\build.ps1 -Install <adb serial>
+```
+
+The host boot test runs the machine without Android: build `core/` with CMake for the host, stage openMSX's data folder with `tools/stage_openmsx_data.py <folder>`, then run `boot_test <data folder> <work folder> <seconds> [cartridge [joystick|none]]`.
 
 ## License
 

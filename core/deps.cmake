@@ -131,7 +131,10 @@ if(WIN32)
     target_link_libraries(kairo_tcl PUBLIC netapi32 kernel32 user32 advapi32 userenv ws2_32)
 endif()
 
-# SDL2, statically, with the subsystems openMSX's emulation code calls.
+# SDL2, statically, with the subsystems openMSX's emulation code calls; openMSX starts none of
+# them in KairoMSX (only its main() and its SDL video and sound drivers do). On Android, SDL is
+# built without its bridge to its own Java classes (SDL_KAIRO_NO_JAVA; see the sdl-no-java change
+# in tools/local_patches.py): the Kairo frontend owns the app's Java side and JNI_OnLoad.
 set(SDL_SHARED OFF CACHE BOOL "" FORCE)
 set(SDL_STATIC ON CACHE BOOL "" FORCE)
 set(SDL_TEST OFF CACHE BOOL "" FORCE)
@@ -144,4 +147,8 @@ endforeach()
 foreach(subsystem ATOMIC EVENTS THREADS TIMERS FILE LOADSO CPUINFO FILESYSTEM)
     set(SDL_${subsystem} ON CACHE BOOL "" FORCE)
 endforeach()
+set(SDL_KAIRO_NO_JAVA ${ANDROID})
 add_subdirectory("${THIRD_PARTY}/sdl2" sdl2 EXCLUDE_FROM_ALL)
+if(ANDROID)
+    target_compile_definitions(SDL2-static PRIVATE SDL_KAIRO_NO_JAVA)
+endif()

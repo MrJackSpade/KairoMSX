@@ -46,7 +46,12 @@ void* mallocAligned(size_t alignment, size_t size)
 #else
 	// Ensure size is a multiple of alignment for std::aligned_alloc()
 	size = (size + alignment - 1) & ~(alignment - 1);
+#if defined(__ANDROID__) && __ANDROID_API__ < 28 // KairoMSX: no aligned_alloc before API 28
+	void* result = nullptr;
+	if (posix_memalign(&result, alignment, size) != 0) result = nullptr;
+#else
 	void* result = std::aligned_alloc(alignment, size);
+#endif
 #endif
 	if (!result && size) throw std::bad_alloc();
 	return result;

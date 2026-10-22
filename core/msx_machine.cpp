@@ -2,6 +2,7 @@
 
 #include <algorithm>
 #include <cstdlib>
+#include <filesystem>
 #include <initializer_list>
 #include <string_view>
 
@@ -116,9 +117,13 @@ MsxMachine::MsxMachine(std::unique_ptr<Impl> impl) : impl_(std::move(impl)) {}
 MsxMachine::~MsxMachine() = default;
 
 std::unique_ptr<MsxMachine> MsxMachine::create(const Config &config, std::string &error) {
-    // openMSX reads its folders from these once per process.
+    // openMSX reads its folders from these once per process. Its temporary files (uncompressed
+    // copies of compressed images) go to TMPDIR, which Android does not set.
     set_environment("OPENMSX_SYSTEM_DATA", config.data_dir);
     set_environment("OPENMSX_HOME", config.home);
+    const std::string temp = config.home + "/tmp";
+    std::filesystem::create_directories(temp);
+    set_environment("TMPDIR", temp);
     Thread::setMainThread();
 
     auto impl = std::make_unique<Impl>();

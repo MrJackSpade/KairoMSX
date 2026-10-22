@@ -649,7 +649,7 @@ const char *SDL_GetPlatform(void)
 
 SDL_bool SDL_IsTablet(void)
 {
-#if defined(__ANDROID__)
+#if defined(__ANDROID__) && !defined(SDL_KAIRO_NO_JAVA) /* KairoMSX */
     extern SDL_bool SDL_IsAndroidTablet(void);
     return SDL_IsAndroidTablet();
 #elif defined(__IPHONEOS__)

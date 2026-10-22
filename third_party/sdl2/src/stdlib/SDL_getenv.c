@@ -170,7 +170,7 @@ int SDL_setenv(const char *name, const char *value, int overwrite)
 #if defined(HAVE_GETENV)
 char *SDL_getenv(const char *name)
 {
-#if defined(__ANDROID__)
+#if defined(__ANDROID__) && !defined(SDL_KAIRO_NO_JAVA) /* KairoMSX: no SDL Java side */
     /* Make sure variables from the application manifest are available */
     Android_JNI_GetManifestEnvironmentVariables();
 #endif

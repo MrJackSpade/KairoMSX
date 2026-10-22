@@ -15,6 +15,7 @@ class ESE_SCC final : public MSXDevice
 {
 public:
 	ESE_SCC(DeviceConfig& config, bool withSCSI);
+	~ESE_SCC() override; // KairoMSX: where MB89352 is complete
 
 	void powerUp(EmuTime time) override;
 	void reset(EmuTime time) override;

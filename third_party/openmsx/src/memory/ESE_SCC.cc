@@ -84,6 +84,8 @@ ESE_SCC::ESE_SCC(DeviceConfig& config, bool withSCSI)
 	ranges::iota(mapper, byte(0));
 }
 
+ESE_SCC::~ESE_SCC() = default;
+
 void ESE_SCC::powerUp(EmuTime time)
 {
 	scc.powerUp(time);

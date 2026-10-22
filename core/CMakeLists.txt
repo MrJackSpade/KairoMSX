@@ -41,8 +41,9 @@ target_compile_definitions(kairo_imgui PUBLIC KAIRO_OPENMSX)
 add_library(kairo_openmsx STATIC ${OPENMSX_SOURCES} "${OPENMSX}/imgui/Shortcuts.cc"
     kairo/ImGuiManager.cc kairo/KeyChords.cc kairo/KairoHost.cc kairo/KairoOutputSurface.cc kairo/KairoSoundDriver.cc
     kairo/KairoVideoSystem.cc kairo/PostProcessor.cc kairo/RealTime.cc kairo/RendererFactory.cc)
-# openMSX's build flags for clang: its tables are computed at compile time.
-target_compile_options(kairo_openmsx PRIVATE -fconstexpr-steps=2000000
+# openMSX's build flags for clang: its tables are computed at compile time. char is signed, as on
+# the x86 hosts openMSX is mostly developed on (ARM's is unsigned).
+target_compile_options(kairo_openmsx PRIVATE -fconstexpr-steps=2000000 -fsigned-char
     # dynarray.hh uses std::size without including <iterator>, which GCC's headers bring in.
     "$<$<COMPILE_LANGUAGE:CXX>:SHELL:-include iterator>")
 # KairoMSX's replacements come first, so its headers stand in for the excluded ones.

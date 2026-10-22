@@ -70,7 +70,7 @@ static const int sig_list[] = {
 
 static void *RunThread(void *data)
 {
-#ifdef __ANDROID__
+#if defined(__ANDROID__) && !defined(SDL_KAIRO_NO_JAVA) /* KairoMSX */
     Android_JNI_SetupThread();
 #endif
     SDL_RunThread((SDL_Thread *)data);

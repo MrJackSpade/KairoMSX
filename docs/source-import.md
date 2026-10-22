@@ -50,9 +50,12 @@ Each archive was copied whole except for files no KairoMSX build uses:
 
 | Change | File | What and why |
 | --- | --- | --- |
-| `sdl-cpufeatures` | `sdl2/CMakeLists.txt` | Adds the NDK's `cpufeatures` (Apache-2.0) only to 32-bit ARM builds, the only ones whose code calls it, so KairoMSX's arm64 build links no Apache-2.0 code into GPL-2.0-only openMSX. |
+| `sdl-android-sources` | `sdl2/CMakeLists.txt` | Leaves SDL's bridge to its own Java classes (`src/core/android`) out of Android builds with `SDL_KAIRO_NO_JAVA`, and adds the NDK's `cpufeatures` only to 32-bit ARM builds, the only ones whose code calls it. |
 | `openmsx-imgui-freetype` | `openmsx/src/3rdparty/imgui/imconfig.h` | Builds Dear ImGui without FreeType fonts. KairoMSX compiles ImGui's core only for the key names of openMSX's settings. |
 | `openmsx-postprocessor` | `openmsx/src/video/PostProcessor.hh` | Includes KairoMSX's `PostProcessor` (`core/kairo/KairoPostProcessor.hh`), which hands frames to the host instead of OpenGL. The rasterizers include this header from their own folder, so a stand-in header elsewhere cannot replace it. |
 | `openmsx-sound-driver` | `openmsx/src/sound/Mixer.cc` | Creates KairoMSX's sound driver, which queues the mixed sound for the host, where openMSX creates its SDL one. |
+| `openmsx-ese-scc-destructor` | `openmsx/src/memory/ESE_SCC.hh`, `ESE_SCC.cc` | Defines `ESE_SCC`'s destructor where its SCSI controller's type is complete. Without it, every file that destroys an `ESE_SCC` deletes an incomplete type, which the NDK's C++ library rejects. |
+| `openmsx-android-aligned-alloc` | `openmsx/src/utils/MemoryOps.cc` | Allocates aligned memory with `posix_memalign` on Android before API level 28, whose C library has no `aligned_alloc`. |
+| `sdl-no-java` | `sdl2/src/SDL.c`, `stdlib/SDL_getenv.c`, `file/SDL_rwops.c`, `thread/pthread/SDL_systhread.c`, `video/SDL_video.c`, `joystick/SDL_gamecontroller.c` | With `SDL_KAIRO_NO_JAVA`, the rest of SDL takes its non-Android paths where it would call that bridge: files open with stdio, threads and getenv do not attach to Java, there is no controller mapping file in app storage, minimize-on-focus-loss setting or tablet check, and the controller code reads the Android API level from the NDK. SDL's Android port expects its own Java classes and `JNI_OnLoad`; in a Kairo app the frontend owns both, and openMSX starts no SDL subsystem. |
 
 The rest of KairoMSX's replacements need no change to openMSX: `core/CMakeLists.txt` leaves openMSX's OpenGL renderer, ImGui windows, on-screen display, SDL video and sound drivers and real-time pacing out of the build, and compiles classes of the same names from `core/kairo/` in their place.

@@ -24,7 +24,7 @@ constexpr int kJoystickControls = 6;
 struct Config {
     // openMSX's data folder (share/ with the C-BIOS machines; tools/stage_openmsx_data.py).
     std::string data_dir;
-    // A private folder for openMSX's own files: settings, system ROMs, saved states.
+    // A private folder for openMSX's own files: settings, system ROMs, temporary files.
     std::string home;
     // The machine, by openMSX's name for it (a file in <data_dir>/machines).
     std::string machine = "C-BIOS_MSX2+";

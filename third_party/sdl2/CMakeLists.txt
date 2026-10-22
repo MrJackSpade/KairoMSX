@@ -1267,7 +1267,9 @@ endif()
 # Platform-specific options and settings
 if(ANDROID)
   file(GLOB ANDROID_CORE_SOURCES ${SDL2_SOURCE_DIR}/src/core/android/*.c)
-  list(APPEND SOURCE_FILES ${ANDROID_CORE_SOURCES})
+  if(NOT SDL_KAIRO_NO_JAVA) # KairoMSX: no bridge to SDL's Java classes
+    list(APPEND SOURCE_FILES ${ANDROID_CORE_SOURCES})
+  endif()
   # KairoMSX: only 32-bit ARM's NEON check uses cpufeatures (SDL_cpuinfo.c).
   if(SDL_CPU_ARM32)
     list(APPEND SOURCE_FILES ${ANDROID_NDK}/sources/android/cpufeatures/cpu-features.c)

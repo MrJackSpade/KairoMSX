@@ -9,6 +9,11 @@ namespace openmsx::Thread {
 	  */
 	void setMainThread();
 
+	/** KairoMSX: forgets the main thread, from that thread, when openMSX has shut down, so a
+	  * later openMSX can run on another thread.
+	  */
+	void clearMainThread();
+
 	/** Returns true when called from the main thread.
 	  */
 	[[nodiscard]] bool isMainThread();

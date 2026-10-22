@@ -12,6 +12,12 @@ void setMainThread()
 	mainThreadId = std::this_thread::get_id();
 }
 
+void clearMainThread()
+{
+	assert(mainThreadId == std::this_thread::get_id());
+	mainThreadId = std::thread::id();
+}
+
 bool isMainThread()
 {
 	assert(mainThreadId != std::thread::id());

@@ -12,6 +12,7 @@
 #include "Event.hh"
 #include "EventDistributor.hh"
 #include "EventListener.hh"
+#include "Interpreter.hh"
 #include "KairoHost.hh"
 #include "KairoOutputSurface.hh"
 #include "MSXEventDistributor.hh"
@@ -92,7 +93,18 @@ private:
 
 } // namespace
 
+// openMSX's main thread is the one a machine is created on, until the machine (and with it openMSX)
+// is gone; then another thread may run the next machine.
+struct MainThreadRole {
+    MainThreadRole() { Thread::setMainThread(); }
+    ~MainThreadRole() { Thread::clearMainThread(); }
+    MainThreadRole(const MainThreadRole &) = delete;
+    MainThreadRole &operator=(const MainThreadRole &) = delete;
+};
+
 struct MsxMachine::Impl {
+    // First, so it is given up last.
+    MainThreadRole main_thread;
     KairoHost host;
     // openMSX's video and sound find the host through this while openMSX lives.
     KairoHost::Install install{host};
@@ -124,7 +136,6 @@ std::unique_ptr<MsxMachine> MsxMachine::create(const Config &config, std::string
     const std::string temp = config.home + "/tmp";
     std::filesystem::create_directories(temp);
     set_environment("TMPDIR", temp);
-    Thread::setMainThread();
 
     auto impl = std::make_unique<Impl>();
     impl->host.sampleRate = unsigned(config.sample_rate);
@@ -299,9 +310,17 @@ bool MsxMachine::insert(Slot slot, const std::string &path, std::string &error) 
 }
 
 std::string MsxMachine::media_path(Slot slot) {
+    // A slot the machine does not have, such as a disk drive on C-BIOS, holds nothing.
+    const std::string_view name = kSlotCommands[slot].media;
+    TclObject slots = impl_->execute(tcl_command({"machine_info", "media"}));
+    Interpreter &interpreter = impl_->reactor->getInterpreter();
+    bool present = false;
+    for (size_t i = 0; i < slots.getListLength(interpreter); ++i)
+        present = present || slots.getListIndex(interpreter, i).getString() == name;
+    if (!present) return {};
     // openMSX's own report of a slot's medium: its "target" is the image or extension, absent or
     // empty for an empty slot.
-    TclObject info = impl_->execute(tcl_command({"machine_info", "media", kSlotCommands[slot].media}));
+    TclObject info = impl_->execute(tcl_command({"machine_info", "media", name}));
     auto target = info.getOptionalDictValue(TclObject("target"));
     return target ? std::string(target->getString()) : std::string();
 }

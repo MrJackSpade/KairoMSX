@@ -280,7 +280,9 @@ int main(int argc, char **argv) {
                 same_picture ? "matches" : "differs", sound ? "matches" : "differs",
                 after_save.sound == after_load.sound ? "also" : "not");
     if (drift >= 0 || !same_picture || !sound) return fail("state round trip");
-    std::printf("cartridge A after the load: %s\n", machine->media_path(kairomsx::kCartA).c_str());
+    // Every slot, as the app asks after a load; slots the machine lacks are empty.
+    for (int slot = 0; slot < kairomsx::kSlots; ++slot)
+        std::printf("slot %d after the load: '%s'\n", slot, machine->media_path(kairomsx::Slot(slot)).c_str());
 
     machine.reset();
     auto second = MsxMachine::create(config, error);

@@ -38,7 +38,7 @@ template class ArchiveBase<XmlOutputArchive>;
 
 unsigned OutputArchiveBase2::generateID1(const void* p)
 {
-	#ifdef linux
+	#if defined(linux) && !defined(__ANDROID__) // KairoMSX: tagged heap pointers on Android
 	assert("Can't serialize ID of object located on the stack" &&
 	       !addressOnStack(p));
 	#endif
@@ -50,7 +50,7 @@ unsigned OutputArchiveBase2::generateID1(const void* p)
 unsigned OutputArchiveBase2::generateID2(
 	const void* p, const std::type_info& typeInfo)
 {
-	#ifdef linux
+	#if defined(linux) && !defined(__ANDROID__) // KairoMSX: tagged heap pointers on Android
 	assert("Can't serialize ID of object located on the stack" &&
 	       !addressOnStack(p));
 	#endif

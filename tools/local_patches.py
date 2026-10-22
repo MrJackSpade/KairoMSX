@@ -158,7 +158,39 @@ SDL_NO_JAVA = [
      '    return SDL_snprintf(path, size, "%s/controller_map.txt", SDL_AndroidGetInternalStoragePath()) < size;\n'),
 ]
 
+# openMSX's debug builds check that an object saved by ID is not on the stack, assuming the heap
+# lies below the stack. On Android arm64 heap pointers carry a tag in their top byte and thread
+# stacks are mapped low, so every heap object fails the check and saving a state aborts. Android
+# builds leave the check out.
+OPENMSX_ANDROID_STACK_CHECK = [
+    ('openmsx/src/serialize.cc',
+     '\t#ifdef linux\n\tassert("Can\'t serialize ID of object located on the stack" &&\n\t       !addressOnStack(p));\n\t#endif\n\t++lastId;\n\tassert(!polyIdMap.contains(p));\n',
+     '\t#if defined(linux) && !defined(__ANDROID__) // KairoMSX: tagged heap pointers on Android\n\tassert("Can\'t serialize ID of object located on the stack" &&\n\t       !addressOnStack(p));\n\t#endif\n\t++lastId;\n\tassert(!polyIdMap.contains(p));\n'),
+    ('openmsx/src/serialize.cc',
+     '\t#ifdef linux\n\tassert("Can\'t serialize ID of object located on the stack" &&\n\t       !addressOnStack(p));\n\t#endif\n\t++lastId;\n\tauto key',
+     '\t#if defined(linux) && !defined(__ANDROID__) // KairoMSX: tagged heap pointers on Android\n\tassert("Can\'t serialize ID of object located on the stack" &&\n\t       !addressOnStack(p));\n\t#endif\n\t++lastId;\n\tauto key'),
+]
+
+# openMSX takes the thread that starts it as its main thread for the life of the process. KairoMSX
+# runs one openMSX at a time, each on its own thread, so a machine hands the role back when it
+# ends (MsxMachine's destructor), and the next one takes it.
+OPENMSX_MAIN_THREAD = [
+    ('openmsx/src/thread/Thread.hh',
+     '\tvoid setMainThread();\n',
+     '\tvoid setMainThread();\n\n'
+     '\t/** KairoMSX: forgets the main thread, from that thread, when openMSX has shut down, so a\n'
+     '\t  * later openMSX can run on another thread.\n'
+     '\t  */\n'
+     '\tvoid clearMainThread();\n'),
+    ('openmsx/src/thread/Thread.cc',
+     'bool isMainThread()\n',
+     'void clearMainThread()\n{\n\tassert(mainThreadId == std::this_thread::get_id());\n'
+     '\tmainThreadId = std::thread::id();\n}\n\nbool isMainThread()\n'),
+]
+
 PATCHES = {
+    'openmsx-main-thread': OPENMSX_MAIN_THREAD,
+    'openmsx-android-stack-check': OPENMSX_ANDROID_STACK_CHECK,
     'sdl-android-sources': SDL_ANDROID_SOURCES,
     'sdl-no-java': SDL_NO_JAVA,
     'openmsx-android-aligned-alloc': OPENMSX_ANDROID_ALIGNED_ALLOC,

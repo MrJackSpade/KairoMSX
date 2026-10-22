@@ -3050,6 +3050,7 @@
    "title": "De Grotten van Oberon"
   },
   "msx2:167860": {
+   "boxArtUrl": "https://images.launchbox-app.com/093f5cdc-1755-4644-b127-cb05b1403c40.jpg",
    "developer": "Impact Soft",
    "launchbox": "167860",
    "publisher": "Impact Soft",
@@ -3068,6 +3069,7 @@
   },
   "msx2:168011": {
    "adult": true,
+   "boxArtUrl": "https://images.launchbox-app.com/622dc1b0-f9f5-486e-bc56-2f03f269c59f.jpg",
    "description": "A maze game of collecting items while avoiding the places along the way.",
    "developer": "Methodic Solutions",
    "launchbox": "168011",
@@ -3166,6 +3168,7 @@
    "title": "Rick Dangerous: Extra Levels"
   },
   "msx2:168379": {
+   "boxArtUrl": "https://images.launchbox-app.com/da49a78b-4299-40ff-83cc-2940accb87d9.jpg",
    "description": "An adventure in which a traveler explores the mysterious Shrines of Enigma.",
    "developer": "Element",
    "launchbox": "168379",
@@ -4051,6 +4054,7 @@
    "aliases": [
     "Haja no Fuin"
    ],
+   "boxArtUrl": "https://images.launchbox-app.com/c6428c1c-8bd4-4e92-8983-2c78ec989d6c.jpg",
    "description": "A role-playing game: recover the Golden Seal guarded by the Dark Lord Terarin.",
    "developer": "Kogado Studio",
    "launchbox": "189020",
@@ -4096,6 +4100,7 @@
   },
   "msx2:189032": {
    "adult": true,
+   "boxArtUrl": "https://images.launchbox-app.com/e9b54968-5275-42a0-9e09-6715af027cd1.jpg",
    "description": "A fantasy role-playing game: a young man wakes in a bed in an unknown house in an unknown land.",
    "developer": "Cocktail Soft",
    "launchbox": "189032",
@@ -5617,6 +5622,7 @@
    "aliases": [
     "ガイアの紋章"
    ],
+   "boxArtUrl": "https://images.launchbox-app.com/0b69e435-878a-47ef-8396-5f3f5ef438f7.jpg",
    "developer": "NCS",
    "launchbox": "208917",
    "publisher": "TAKERU",
@@ -5736,6 +5742,7 @@
    "aliases": [
     "MSX FAN 1992 04"
    ],
+   "boxArtUrl": "https://images.launchbox-app.com/edd3d6ad-01b7-4604-9e4c-81fd55b4e79e.jpg",
    "developer": "Tokuma Shoten",
    "launchbox": "218366",
    "publisher": "Tokuma Shoten",
@@ -5747,6 +5754,7 @@
    "aliases": [
     "MSX FAN 1991 10"
    ],
+   "boxArtUrl": "https://images.launchbox-app.com/df9fbff6-0328-499d-b31e-391f4e49c9cb.jpg",
    "developer": "Tokuma Shoten",
    "launchbox": "218367",
    "publisher": "Tokuma Shoten",
@@ -5758,6 +5766,7 @@
    "aliases": [
     "MSX FAN 1991 11"
    ],
+   "boxArtUrl": "https://images.launchbox-app.com/d3ffb2f3-2f87-4219-b2ae-a9b178ab1fb4.jpg",
    "developer": "Tokuma Shoten",
    "launchbox": "218368",
    "publisher": "Tokuma Shoten",
@@ -5769,6 +5778,7 @@
    "aliases": [
     "MSX FAN 1991 12"
    ],
+   "boxArtUrl": "https://images.launchbox-app.com/7d309d47-8f93-4b72-bc8a-616fdb121940.jpg",
    "developer": "Tokuma Shoten",
    "launchbox": "218369",
    "publisher": "Tokuma Shoten",
@@ -5780,6 +5790,7 @@
    "aliases": [
     "MSX FAN 1992 02"
    ],
+   "boxArtUrl": "https://images.launchbox-app.com/c7efdeb0-40c5-4e75-ad53-f435aadb87fd.jpg",
    "developer": "Tokuma Shoten",
    "launchbox": "218370",
    "publisher": "Tokuma Shoten",
@@ -5791,6 +5802,7 @@
    "aliases": [
     "MSX FAN 1992 01"
    ],
+   "boxArtUrl": "https://images.launchbox-app.com/caffa8c5-1768-48a0-99d5-6097323ddc05.jpg",
    "developer": "Tokuma Shoten",
    "launchbox": "218371",
    "publisher": "Tokuma Shoten",
@@ -5802,6 +5814,7 @@
    "aliases": [
     "MSX FAN 1992 05"
    ],
+   "boxArtUrl": "https://images.launchbox-app.com/771a0b1d-8fdb-4faa-be53-b1828bd858a2.jpg",
    "developer": "Tokuma Shoten",
    "launchbox": "218372",
    "publisher": "Tokuma Shoten",
@@ -5813,6 +5826,7 @@
    "aliases": [
     "MSX FAN 1992 03"
    ],
+   "boxArtUrl": "https://images.launchbox-app.com/d78e598d-1cfd-419a-b5ff-830c15830c93.jpg",
    "developer": "Tokuma Shoten",
    "launchbox": "218373",
    "publisher": "Tokuma Shoten",
@@ -5824,6 +5838,7 @@
    "aliases": [
     "MSX FAN 1992 06"
    ],
+   "boxArtUrl": "https://images.launchbox-app.com/a52d3b25-07da-4882-af35-824019f57b1c.jpg",
    "developer": "Tokuma Shoten",
    "launchbox": "218374",
    "publisher": "Tokuma Shoten",
@@ -5835,6 +5850,7 @@
    "aliases": [
     "MSX FAN 1992 07"
    ],
+   "boxArtUrl": "https://images.launchbox-app.com/b46969b6-d211-42d8-b2ca-8ac49d1c8a36.jpg",
    "developer": "Tokuma Shoten",
    "launchbox": "218375",
    "publisher": "Tokuma Shoten",
@@ -5846,6 +5862,7 @@
    "aliases": [
     "MSX FAN 1992 12"
    ],
+   "boxArtUrl": "https://images.launchbox-app.com/094af029-a32f-4f37-ad72-546a9e5d1916.jpg",
    "developer": "Tokuma Shoten",
    "launchbox": "218378",
    "publisher": "Tokuma Shoten",
@@ -5857,6 +5874,7 @@
    "aliases": [
     "MSX FAN 1993 01"
    ],
+   "boxArtUrl": "https://images.launchbox-app.com/1f32708a-86dc-4545-a67c-19de1f7cf5fc.jpg",
    "developer": "Tokuma Shoten",
    "launchbox": "218382",
    "publisher": "Tokuma Shoten",
@@ -5868,6 +5886,7 @@
    "aliases": [
     "MSX FAN 1993 02"
    ],
+   "boxArtUrl": "https://images.launchbox-app.com/4665400f-62c2-4ed9-8140-7b8514748a43.jpg",
    "developer": "Various",
    "launchbox": "218383",
    "publisher": "Tokuma Shoten",
@@ -5879,6 +5898,7 @@
    "aliases": [
     "MSX FAN 1993 03"
    ],
+   "boxArtUrl": "https://images.launchbox-app.com/a6a68e4f-7f3c-4896-b5e9-9c9f526c67d8.jpg",
    "developer": "Tokuma Shoten",
    "launchbox": "218384",
    "publisher": "Tokuma Shoten",
@@ -5890,6 +5910,7 @@
    "aliases": [
     "MSX FAN 1993 08"
    ],
+   "boxArtUrl": "https://images.launchbox-app.com/b3424404-a341-434e-be65-fb0e538b5781.jpg",
    "developer": "Tokuma Shoten",
    "launchbox": "218385",
    "publisher": "Tokuma Shoten",
@@ -5901,6 +5922,7 @@
    "aliases": [
     "MSX FAN 1993 04"
    ],
+   "boxArtUrl": "https://images.launchbox-app.com/547e52b8-ae83-46d1-815d-69e1e13544a1.jpg",
    "developer": "Tokuma Shoten",
    "launchbox": "218386",
    "publisher": "Tokuma Shoten",
@@ -5912,6 +5934,7 @@
    "aliases": [
     "MSX FAN 1993 10"
    ],
+   "boxArtUrl": "https://images.launchbox-app.com/fe944725-e2ab-487c-b8c8-02afe2ad8f95.jpg",
    "developer": "Tokuma Shoten",
    "launchbox": "218387",
    "publisher": "Tokuma Shoten",
@@ -5923,6 +5946,7 @@
    "aliases": [
     "MSX FAN 1993 12"
    ],
+   "boxArtUrl": "https://images.launchbox-app.com/e0774dfd-8d47-4038-959b-1dc7f7bbd1ec.jpg",
    "developer": "Tokuma Shoten",
    "launchbox": "218388",
    "publisher": "Tokuma Shoten",
@@ -5934,6 +5958,7 @@
    "aliases": [
     "MSX FAN 1994 02"
    ],
+   "boxArtUrl": "https://images.launchbox-app.com/1ba1833f-a783-449e-803e-73863b9f9a75.jpg",
    "developer": "Tokuma Shoten",
    "launchbox": "218389",
    "publisher": "Tokuma Shoten",
@@ -5945,6 +5970,7 @@
    "aliases": [
     "MSX FAN 1995 06"
    ],
+   "boxArtUrl": "https://images.launchbox-app.com/9e70b826-0ea9-43ed-a6ae-8d5d3c081d82.jpg",
    "developer": "Tokuma Shoten",
    "launchbox": "218390",
    "publisher": "Tokuma Shoten",
@@ -5953,6 +5979,7 @@
    "year": 1995
   },
   "msx2:218391": {
+   "boxArtUrl": "https://images.launchbox-app.com/e7cb42d7-8132-4899-bc01-00d42280779c.jpg",
    "developer": "Tokuma Shoten",
    "launchbox": "218391",
    "publisher": "Tokuma Shoten",
@@ -5964,6 +5991,7 @@
    "aliases": [
     "MSX FAN 1994 06"
    ],
+   "boxArtUrl": "https://images.launchbox-app.com/fed78416-0b82-4cfb-8b76-0cdf9236a980.jpg",
    "developer": "Tokuma Shoten",
    "launchbox": "218392",
    "publisher": "Tokuma Shoten",
@@ -6394,12 +6422,21 @@
     "Akumajō Dracula"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/363da3ad-e433-41e6-8233-53825dd7a60b.jpg",
+   "contentIds": [
+    "sha256-rom-v1:21613bbcc44cbb09ff779ad02e542ec176e9ed41a565d044e0c634c129452fd7",
+    "sha256-rom-v1:377d253d285b8a4776de1dc6bacaad9f326e0d9207433269441eac25fa776a4b",
+    "sha256-rom-v1:99eabaaeb2b6c02220e131043d5a6401d0d8c5f413d89204547adcc04d65e7e2",
+    "sha256-rom-v1:e1b1a0cbb03a1e8a1129ed16df77188c9c5591b8df3be17aca1ba597621cb398"
+   ],
    "description": "Konami's MSX Castlevania: Simon Belmont explores Dracula's castle, finding keys and items to reach the Count.",
    "developer": "Konami",
    "launchbox": "27106",
    "mobygames": 18725,
    "publisher": "Konami",
    "screenshotUrl": "https://images.launchbox-app.com/b49958f6-afa1-411a-83d7-41e66abc9702.png",
+   "sourceGroups": [
+    "msx2:Akumajyo Drakyula - Vampire Killer (1986) (Konami).zip"
+   ],
    "title": "Vampire Killer",
    "year": 1986
   },
@@ -6465,12 +6502,18 @@
     "Contra - Gryzor"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/84266747-ac1c-4638-97e3-fc9e18071390.jpg",
+   "contentIds": [
+    "sha256-rom-v1:f823346e745203ff87dd2a00a414c729a5556e42332489219538d169395ea62a"
+   ],
    "description": "Konami's run-and-gun shooter: commandos Bill and Lance fight the alien warlord Red Falcon.",
    "developer": "Konami",
    "launchbox": "31625",
    "mobygames": 138050,
    "publisher": "Konami",
    "screenshotUrl": "https://images.launchbox-app.com/dc5bce67-f983-4e9a-816a-b806ef77a7b8.png",
+   "sourceGroups": [
+    "msx2:Kontora - Contra (1989) (Konami).zip"
+   ],
    "title": "Contra",
    "year": 1989
   },
@@ -8272,16 +8315,6 @@
    "title": "Eidolon",
    "year": 1986
   },
-  "msx2:local-742cae152a": {
-   "contentIds": [
-    "sha256-rom-v1:f823346e745203ff87dd2a00a414c729a5556e42332489219538d169395ea62a"
-   ],
-   "sourceGroups": [
-    "msx2:Kontora - Contra (1989) (Konami).zip"
-   ],
-   "title": "Kontora - Contra",
-   "year": 1989
-  },
   "msx2:local-7fe1443ac4": {
    "contentIds": [
     "sha256-rom-v1:c56c957f3e9bbb3c589553af170c49e9343966058298ddc8b5692907cb82a200"
@@ -8341,19 +8374,6 @@
    ],
    "title": "Crimuzon",
    "year": 1987
-  },
-  "msx2:local-95d0f637fb": {
-   "contentIds": [
-    "sha256-rom-v1:21613bbcc44cbb09ff779ad02e542ec176e9ed41a565d044e0c634c129452fd7",
-    "sha256-rom-v1:377d253d285b8a4776de1dc6bacaad9f326e0d9207433269441eac25fa776a4b",
-    "sha256-rom-v1:99eabaaeb2b6c02220e131043d5a6401d0d8c5f413d89204547adcc04d65e7e2",
-    "sha256-rom-v1:e1b1a0cbb03a1e8a1129ed16df77188c9c5591b8df3be17aca1ba597621cb398"
-   ],
-   "sourceGroups": [
-    "msx2:Akumajyo Drakyula - Vampire Killer (1986) (Konami).zip"
-   ],
-   "title": "Akumajyo Drakyula - Vampire Killer",
-   "year": 1986
   },
   "msx2:local-a1105a612c": {
    "contentIds": [
@@ -14373,6 +14393,7 @@
    "title": "Ole!"
   },
   "msx:152662": {
+   "boxArtUrl": "https://images.launchbox-app.com/85abfc5f-fe11-43ec-9383-b6b068fc3eee.png",
    "launchbox": "152662",
    "screenshotUrl": "https://images.launchbox-app.com/ec733b73-ec98-426f-84e4-a25cd434819a.png",
    "title": "Attack of Mosquiton",
@@ -14786,11 +14807,17 @@
   },
   "msx:153084": {
    "boxArtUrl": "https://images.launchbox-app.com/00b12609-03b3-4838-815b-8744863c5619.jpg",
+   "contentIds": [
+    "sha256-rom-v1:fa70f4ff62815fadefadd0f781b856b8d212868537cdc18073e2410a82a57c5b"
+   ],
    "description": "Konami's billiards game, released by Sony.",
    "developer": "Konami Industry",
    "launchbox": "153084",
    "publisher": "Sony",
    "screenshotUrl": "https://images.launchbox-app.com/a2e614db-8849-4fa8-804e-b489967d11e1.png",
+   "sourceGroups": [
+    "msx:Computer Billiards (1983) (Sony).zip"
+   ],
    "title": "Computer Billiards",
    "year": 1985
   },
@@ -15709,10 +15736,16 @@
     "Hudson 3D Golf"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/04758e6f-5218-4602-947e-556603f8dc47.jpg",
+   "contentIds": [
+    "sha256-rom-v1:4fb686789d1e209e6119c4267fdcfbdddce47322d2878b4743b0d5002b81a7cd"
+   ],
    "developer": "Hudson Soft",
    "launchbox": "153479",
    "publisher": "Honeybee Soft",
    "screenshotUrl": "https://images.launchbox-app.com/58f8477e-2740-4897-9348-1acb2af880a0.jpg",
+   "sourceGroups": [
+    "msx:Golf Kyou - Golf Crazy (1984) (Hudson).zip"
+   ],
    "title": "Golf Crazy"
   },
   "msx:153488": {
@@ -17356,12 +17389,18 @@
   },
   "msx:154736": {
    "boxArtUrl": "https://images.launchbox-app.com/07c057e7-5fd7-4a21-a9f5-f548bf74729d.jpg",
+   "contentIds": [
+    "sha256-rom-v1:a82291760ac8f27d2257d40fa4c825879c2435fab8dcb6be3e5e44ad93d15efb"
+   ],
    "description": "An undersea action game: rescue Neptune's daughter Neptina, imprisoned by Titans.",
    "developer": "Interphase Technologies",
    "launchbox": "154736",
    "mobygames": 16614,
    "publisher": "Toshiba-EMI",
    "screenshotUrl": "https://images.launchbox-app.com/f9b86405-3b34-4712-89b8-68250d9e7e28.png",
+   "sourceGroups": [
+    "msx:Ningyo Densetsu - Fathom (1985) (Toshiba Emi).zip"
+   ],
    "title": "Fathom"
   },
   "msx:154738": {
@@ -18062,12 +18101,17 @@
   },
   "msx:155187": {
    "adult": true,
+   "artwork": {
+    "boxArt": "art/catalog/moby/30376/box-9bf46453978e.webp",
+    "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/30376/box-9bf46453978e.webp",
+    "preview": "art/catalog/moby/30376/screenshot-2136f63dd858.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/30376/screenshot-2136f63dd858.webp"
+   },
    "description": "A Space Panic-style platform game.",
    "developer": "The Bytebusters",
    "launchbox": "155187",
    "mobygames": 30376,
    "publisher": "Eaglesoft",
-   "screenshotUrl": "https://images.launchbox-app.com/fb1d63ca-8d4a-4bfe-825f-96740bc7698b.png",
    "title": "Panique"
   },
   "msx:155188": {
@@ -18799,10 +18843,16 @@
     "Golgo 13 - Wolf's Nest"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/4dcffb26-6165-484a-9497-78b2d00395fc.png",
+   "contentIds": [
+    "sha256-rom-v1:87ecf3e0fb911b740f1271c09d745ae9365d32036f953684cd82d784a3517c7d"
+   ],
    "developer": "Pony Canyon",
    "launchbox": "155350",
    "publisher": "Pony Canyon",
    "screenshotUrl": "https://images.launchbox-app.com/2a35db8b-84aa-44af-a763-80fb54604513.png",
+   "sourceGroups": [
+    "msx:Golgo 13 Okami no Su (1986) (Pony Cannon).zip"
+   ],
    "title": "Golgo 13: Okami no Su",
    "year": 1984
   },
@@ -20632,6 +20682,7 @@
    "title": "Classic Pong"
   },
   "msx:177561": {
+   "boxArtUrl": "https://images.launchbox-app.com/55715ebb-5da4-487d-b7e7-d31c7e0a1600.png",
    "description": "A homebrew Pong for two players.",
    "developer": "NightFox & Co.",
    "launchbox": "177561",
@@ -20736,6 +20787,7 @@
    "title": "747 Flight Simulator"
   },
   "msx:178066": {
+   "boxArtUrl": "https://images.launchbox-app.com/d93f964b-0d25-479f-b3ff-791753b71a2c.jpg",
    "description": "A port of the ColecoVision game based on the film 2010: The Year We Make Contact.",
    "developer": "GDX",
    "launchbox": "178066",
@@ -20967,6 +21019,7 @@
     "Wonder Kid",
     "원더키드"
    ],
+   "boxArtUrl": "https://images.launchbox-app.com/1406c44e-2517-4db4-ba29-03d79a3252f3.jpg",
    "description": "An unofficial port of Adventure Island II: a platformer through tropical islands.",
    "developer": "Open Production",
    "launchbox": "180784",
@@ -26103,6 +26156,7 @@
    "title": "Aprendiendo Ingles 2"
   },
   "msx:205544": {
+   "boxArtUrl": "https://images.launchbox-app.com/d8a1f909-97c2-48be-b4cf-9dcb379e8076.jpg",
    "description": "A homebrew vertical shooter with smooth scrolling.",
    "developer": "usebox.net",
    "launchbox": "205544",
@@ -28459,6 +28513,10 @@
    "year": 1989
   },
   "msx:423889": {
+   "artwork": {
+    "boxArt": "art/catalog/moby/50107/box-348dd299758e.webp",
+    "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/50107/box-348dd299758e.webp"
+   },
    "launchbox": "423889",
    "mobygames": 50107,
    "title": "Firehawk"
@@ -28758,6 +28816,7 @@
    "year": 2023
   },
   "msx:452329": {
+   "boxArtUrl": "https://images.launchbox-app.com/c0e0dc25-e22c-49a6-b420-dc11ea7e0c9e.png",
    "developer": "Gakken",
    "launchbox": "452329",
    "publisher": "Gakken",
@@ -28766,6 +28825,10 @@
    "year": 1985
   },
   "msx:452380": {
+   "artwork": {
+    "preview": "art/catalog/moby/19920/screenshot-d6028dc4f846.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/19920/screenshot-d6028dc4f846.webp"
+   },
    "launchbox": "452380",
    "mobygames": 19920,
    "publisher": "Iber Software",
@@ -29334,6 +29397,7 @@
    "title": "Eye Brawls"
   },
   "msx:472338": {
+   "boxArtUrl": "https://images.launchbox-app.com/81f959d6-251a-44f0-b7cc-a6cdaa984668.png",
    "developer": "Yuichi Ago",
    "launchbox": "472338",
    "publisher": "MSX Magazine (JP)",
@@ -30144,16 +30208,6 @@
    "title": "Yokai Yasiki",
    "year": 1986
   },
-  "msx:local-281bd1001c": {
-   "contentIds": [
-    "sha256-rom-v1:fa70f4ff62815fadefadd0f781b856b8d212868537cdc18073e2410a82a57c5b"
-   ],
-   "sourceGroups": [
-    "msx:Computer Billiards (1983) (Sony).zip"
-   ],
-   "title": "Computer Billiards",
-   "year": 1983
-  },
   "msx:local-2bc15025af": {
    "contentIds": [
     "sha256-rom-v1:5d02bfe0ccc56c80af4224f4086041f292e282c9a2e80310686db7f7652fcdf2"
@@ -30486,16 +30540,6 @@
    "title": "Dragon Quest 2",
    "year": 1987
   },
-  "msx:local-81ae50df13": {
-   "contentIds": [
-    "sha256-rom-v1:a82291760ac8f27d2257d40fa4c825879c2435fab8dcb6be3e5e44ad93d15efb"
-   ],
-   "sourceGroups": [
-    "msx:Ningyo Densetsu - Fathom (1985) (Toshiba Emi).zip"
-   ],
-   "title": "Ningyo Densetsu - Fathom",
-   "year": 1985
-  },
   "msx:local-8262c2e688": {
    "contentIds": [
     "sha256-rom-v1:1f9949b3a7e173d0c42892972a9d6b47a7509eea09f8a10c078edd8f337dbfe7",
@@ -30566,16 +30610,6 @@
     "msx:MSX Basic-Kun (1986) (Ascii).zip"
    ],
    "title": "MSX Basic-Kun",
-   "year": 1986
-  },
-  "msx:local-a5c7cd7534": {
-   "contentIds": [
-    "sha256-rom-v1:87ecf3e0fb911b740f1271c09d745ae9365d32036f953684cd82d784a3517c7d"
-   ],
-   "sourceGroups": [
-    "msx:Golgo 13 Okami no Su (1986) (Pony Cannon).zip"
-   ],
-   "title": "Golgo 13 Okami no Su",
    "year": 1986
   },
   "msx:local-a5ff334aa2": {
@@ -30672,16 +30706,6 @@
    ],
    "title": "MSX AID",
    "year": 1987
-  },
-  "msx:local-b461345143": {
-   "contentIds": [
-    "sha256-rom-v1:4fb686789d1e209e6119c4267fdcfbdddce47322d2878b4743b0d5002b81a7cd"
-   ],
-   "sourceGroups": [
-    "msx:Golf Kyou - Golf Crazy (1984) (Hudson).zip"
-   ],
-   "title": "Golf Kyou - Golf Crazy",
-   "year": 1984
   },
   "msx:local-b6195abb3a": {
    "contentIds": [
@@ -30922,6 +30946,10 @@
    "year": 1986
   },
   "msx:moby-10067": {
+   "artwork": {
+    "preview": "art/catalog/moby/10067/screenshot-88bde7d2b342.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/10067/screenshot-88bde7d2b342.webp"
+   },
    "description": "Solitaire poker: build poker hands in a grid of cards.",
    "mobygames": 10067,
    "title": "Solitaire Poker",
@@ -30929,6 +30957,10 @@
   },
   "msx:moby-101758": {
    "adult": true,
+   "artwork": {
+    "preview": "art/catalog/moby/101758/screenshot-942c1b1920ef.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/101758/screenshot-942c1b1920ef.webp"
+   },
    "mobygames": 101758,
    "title": "Peach Up 4",
    "year": 1990
@@ -30939,16 +30971,28 @@
    "year": 1990
   },
   "msx:moby-10630": {
+   "artwork": {
+    "preview": "art/catalog/moby/10630/screenshot-4ac46a30e443.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/10630/screenshot-4ac46a30e443.webp"
+   },
    "mobygames": 10630,
    "title": "Mr. Do!'s Castle",
    "year": 1984
   },
   "msx:moby-10650": {
+   "artwork": {
+    "preview": "art/catalog/moby/10650/screenshot-ad863e7a7bbf.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/10650/screenshot-ad863e7a7bbf.webp"
+   },
    "mobygames": 10650,
    "title": "Vigilante",
    "year": 1989
   },
   "msx:moby-10840": {
+   "artwork": {
+    "preview": "art/catalog/moby/10840/screenshot-45bfab7532db.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/10840/screenshot-45bfab7532db.webp"
+   },
    "contentIds": [
     "sha256-rom-v1:062aeefd04e6ac28f565c15bd1010fc2a007bfbe8d3898ff8586778462091470"
    ],
@@ -30966,6 +31010,12 @@
    "year": 1986
   },
   "msx:moby-113647": {
+   "artwork": {
+    "boxArt": "art/catalog/moby/113647/box-fc00e4242324.webp",
+    "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/113647/box-fc00e4242324.webp",
+    "preview": "art/catalog/moby/113647/screenshot-52a11f44537d.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/113647/screenshot-52a11f44537d.webp"
+   },
    "mobygames": 113647,
    "title": "Grime Z80",
    "year": 2018
@@ -30976,16 +31026,28 @@
    "year": 1999
   },
   "msx:moby-118103": {
+   "artwork": {
+    "preview": "art/catalog/moby/118103/screenshot-bc715d0803ee.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/118103/screenshot-bc715d0803ee.webp"
+   },
    "mobygames": 118103,
    "title": "Witches",
    "year": 2018
   },
   "msx:moby-119465": {
+   "artwork": {
+    "preview": "art/catalog/moby/119465/screenshot-c92861a21295.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/119465/screenshot-c92861a21295.webp"
+   },
    "mobygames": 119465,
    "title": "Ninja",
    "year": 1988
   },
   "msx:moby-1196": {
+   "artwork": {
+    "preview": "art/catalog/moby/1196/screenshot-bf92117dda61.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/1196/screenshot-bf92117dda61.webp"
+   },
    "mobygames": 1196,
    "title": "Perry Mason: The Case of the Mandarin Murder",
    "year": 1986
@@ -30996,11 +31058,19 @@
    "year": 1986
   },
   "msx:moby-12261": {
+   "artwork": {
+    "boxArt": "art/catalog/moby/12261/box-d1a6fd831ca2.webp",
+    "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/12261/box-d1a6fd831ca2.webp"
+   },
    "mobygames": 12261,
    "title": "Silicon Dreams",
    "year": 1986
   },
   "msx:moby-122777": {
+   "artwork": {
+    "preview": "art/catalog/moby/122777/screenshot-51e61d77f01e.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/122777/screenshot-51e61d77f01e.webp"
+   },
    "mobygames": 122777,
    "title": "Illegus Episode IV",
    "year": 1983
@@ -31016,16 +31086,28 @@
    "year": 1986
   },
   "msx:moby-12594": {
+   "artwork": {
+    "boxArt": "art/catalog/moby/12594/box-47eccfe39d9d.webp",
+    "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/12594/box-47eccfe39d9d.webp"
+   },
    "mobygames": 12594,
    "title": "Brian Clough's Football Fortunes",
    "year": 1987
   },
   "msx:moby-127559": {
+   "artwork": {
+    "preview": "art/catalog/moby/127559/screenshot-5742e1b62445.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/127559/screenshot-5742e1b62445.webp"
+   },
    "mobygames": 127559,
    "title": "Pig Mock",
    "year": 1983
   },
   "msx:moby-1292": {
+   "artwork": {
+    "boxArt": "art/catalog/moby/1292/box-5f34eb35e264.webp",
+    "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/1292/box-5f34eb35e264.webp"
+   },
    "mobygames": 1292,
    "title": "Knight Orc",
    "year": 1987
@@ -31042,11 +31124,19 @@
    "year": 1989
   },
   "msx:moby-132167": {
+   "artwork": {
+    "preview": "art/catalog/moby/132167/screenshot-90d55aec6172.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/132167/screenshot-90d55aec6172.webp"
+   },
    "mobygames": 132167,
    "title": "Zombie Calavera: Prologue",
    "year": 2021
   },
   "msx:moby-132197": {
+   "artwork": {
+    "boxArt": "art/catalog/moby/132197/box-d92fe5b12af8.webp",
+    "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/132197/box-d92fe5b12af8.webp"
+   },
    "mobygames": 132197,
    "title": "Journey to the Centre of the Earth: Extended Version",
    "year": 2017
@@ -31057,17 +31147,31 @@
    "year": 1986
   },
   "msx:moby-13526": {
+   "artwork": {
+    "boxArt": "art/catalog/moby/13526/box-df83a97c552f.webp",
+    "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/13526/box-df83a97c552f.webp",
+    "preview": "art/catalog/moby/13526/screenshot-7bcba79f17e4.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/13526/screenshot-7bcba79f17e4.webp"
+   },
    "description": "An action role-playing game: a lone hero is foretold to save the people of Hydlide from the evil that descended on them.",
    "mobygames": 13526,
    "title": "Super Hydlide",
    "year": 1987
   },
   "msx:moby-13907": {
+   "artwork": {
+    "preview": "art/catalog/moby/13907/screenshot-6306e749a030.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/13907/screenshot-6306e749a030.webp"
+   },
    "mobygames": 13907,
    "title": "Trivial Pursuit",
    "year": 1986
   },
   "msx:moby-140432": {
+   "artwork": {
+    "preview": "art/catalog/moby/140432/screenshot-053d5d8c1857.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/140432/screenshot-053d5d8c1857.webp"
+   },
    "mobygames": 140432,
    "title": "Hibernated 1: This Place Is Death",
    "year": 2019
@@ -31078,22 +31182,38 @@
    "year": 1986
   },
   "msx:moby-141060": {
+   "artwork": {
+    "preview": "art/catalog/moby/141060/screenshot-dcaba58c4e38.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/141060/screenshot-dcaba58c4e38.webp"
+   },
    "mobygames": 141060,
    "title": "De Sekte...",
    "year": 1987
   },
   "msx:moby-143930": {
+   "artwork": {
+    "preview": "art/catalog/moby/143930/screenshot-ba4603bce67b.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/143930/screenshot-ba4603bce67b.webp"
+   },
    "description": "One of the first Japanese illustrated text adventures: explore a mansion in search of hidden treasure.",
    "mobygames": 143930,
    "title": "Mystery House",
    "year": 1983
   },
   "msx:moby-144572": {
+   "artwork": {
+    "preview": "art/catalog/moby/144572/screenshot-cb6eecf63866.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/144572/screenshot-cb6eecf63866.webp"
+   },
    "mobygames": 144572,
    "title": "Tempo Typen",
    "year": 1986
   },
   "msx:moby-144573": {
+   "artwork": {
+    "preview": "art/catalog/moby/144573/screenshot-b25fad57ee71.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/144573/screenshot-b25fad57ee71.webp"
+   },
    "mobygames": 144573,
    "title": "Kruiswoord",
    "year": 1986
@@ -31109,6 +31229,10 @@
    "year": 1985
   },
   "msx:moby-145781": {
+   "artwork": {
+    "preview": "art/catalog/moby/145781/screenshot-62503c206050.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/145781/screenshot-62503c206050.webp"
+   },
    "mobygames": 145781,
    "title": "The Curse of Rabenstein",
    "year": 2022
@@ -31124,6 +31248,10 @@
    "year": 1985
   },
   "msx:moby-14761": {
+   "artwork": {
+    "preview": "art/catalog/moby/14761/screenshot-f3e568c6d818.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/14761/screenshot-f3e568c6d818.webp"
+   },
    "mobygames": 14761,
    "title": "Passengers on the Wind",
    "year": 1986
@@ -31139,48 +31267,88 @@
    "year": 1987
   },
   "msx:moby-151988": {
+   "artwork": {
+    "preview": "art/catalog/moby/151988/screenshot-371ef13b6834.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/151988/screenshot-371ef13b6834.webp"
+   },
    "mobygames": 151988,
    "title": "The Queen's Footsteps",
    "year": 2020
   },
   "msx:moby-154785": {
+   "artwork": {
+    "boxArt": "art/catalog/moby/154785/box-2e03029a4873.webp",
+    "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/154785/box-2e03029a4873.webp",
+    "preview": "art/catalog/moby/154785/screenshot-e19d24cbccf9.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/154785/screenshot-e19d24cbccf9.webp"
+   },
    "mobygames": 154785,
    "title": "Tristam Island",
    "year": 2020
   },
   "msx:moby-157550": {
+   "artwork": {
+    "boxArt": "art/catalog/moby/157550/box-8af1b123b280.webp",
+    "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/157550/box-8af1b123b280.webp"
+   },
    "mobygames": 157550,
    "title": "Tanigawa Kōji no Shōgi Shinan II: Meijin e no Michi",
    "year": 1988
   },
   "msx:moby-15803": {
+   "artwork": {
+    "preview": "art/catalog/moby/15803/screenshot-279630420877.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/15803/screenshot-279630420877.webp"
+   },
    "mobygames": 15803,
    "title": "Conquestador",
    "year": 1986
   },
   "msx:moby-15864": {
+   "artwork": {
+    "boxArt": "art/catalog/moby/15864/box-f8abc40dfa23.webp",
+    "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/15864/box-f8abc40dfa23.webp",
+    "preview": "art/catalog/moby/15864/screenshot-4749e029912e.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/15864/screenshot-4749e029912e.webp"
+   },
    "mobygames": 15864,
    "title": "Power Strike",
    "year": 1988
   },
   "msx:moby-161042": {
+   "artwork": {
+    "preview": "art/catalog/moby/161042/screenshot-b7b4df1edca3.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/161042/screenshot-b7b4df1edca3.webp"
+   },
    "description": "A Japanese text adventure based on Lewis Carroll's Alice's Adventures in Wonderland.",
    "mobygames": 161042,
    "title": "Alice in Wonderland",
    "year": 1984
   },
   "msx:moby-1619": {
+   "artwork": {
+    "boxArt": "art/catalog/moby/1619/box-80894ba89720.webp",
+    "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/1619/box-80894ba89720.webp"
+   },
    "description": "The first Might and Magic: a party in the world of Varn searches for the Inner Sanctum.",
    "mobygames": 1619,
    "title": "Might and Magic: Book One - Secret of the Inner Sanctum",
    "year": 1988
   },
   "msx:moby-16840": {
+   "artwork": {
+    "preview": "art/catalog/moby/16840/screenshot-b976ea6e3363.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/16840/screenshot-b976ea6e3363.webp"
+   },
    "mobygames": 16840,
    "title": "Red Moon",
    "year": 1985
   },
   "msx:moby-17130": {
+   "artwork": {
+    "preview": "art/catalog/moby/17130/screenshot-5a12e7a7f74b.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/17130/screenshot-5a12e7a7f74b.webp"
+   },
    "mobygames": 17130,
    "title": "Rocco",
    "year": 1985
@@ -31191,6 +31359,10 @@
    "year": 1985
   },
   "msx:moby-188308": {
+   "artwork": {
+    "preview": "art/catalog/moby/188308/screenshot-0ddb73918dea.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/188308/screenshot-0ddb73918dea.webp"
+   },
    "mobygames": 188308,
    "title": "Tenebra",
    "year": 2023
@@ -31201,16 +31373,30 @@
    "year": 1987
   },
   "msx:moby-19067": {
+   "artwork": {
+    "boxArt": "art/catalog/moby/19067/box-0303e43cbcee.webp",
+    "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/19067/box-0303e43cbcee.webp",
+    "preview": "art/catalog/moby/19067/screenshot-6fa41d59f6c5.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/19067/screenshot-6fa41d59f6c5.webp"
+   },
    "mobygames": 19067,
    "title": "Captain Zapp",
    "year": 1987
   },
   "msx:moby-192901": {
+   "artwork": {
+    "boxArt": "art/catalog/moby/192901/box-646e7a44fc2f.webp",
+    "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/192901/box-646e7a44fc2f.webp"
+   },
    "mobygames": 192901,
    "title": "Dim X",
    "year": 2016
   },
   "msx:moby-192902": {
+   "artwork": {
+    "boxArt": "art/catalog/moby/192902/box-663a80ac7812.webp",
+    "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/192902/box-663a80ac7812.webp"
+   },
    "mobygames": 192902,
    "title": "Nuts",
    "year": 1997
@@ -31221,22 +31407,40 @@
    "year": 1984
   },
   "msx:moby-1941": {
+   "artwork": {
+    "preview": "art/catalog/moby/1941/screenshot-2685a9b63b87.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/1941/screenshot-2685a9b63b87.webp"
+   },
    "mobygames": 1941,
    "title": "Grand Prix Master",
    "year": 1988
   },
   "msx:moby-19501": {
+   "artwork": {
+    "preview": "art/catalog/moby/19501/screenshot-888491136fd3.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/19501/screenshot-888491136fd3.webp"
+   },
    "mobygames": 19501,
    "title": "Tokio",
    "year": 1987
   },
   "msx:moby-19508": {
+   "artwork": {
+    "boxArt": "art/catalog/moby/19508/box-eb2d4ec5d445.webp",
+    "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/19508/box-eb2d4ec5d445.webp",
+    "preview": "art/catalog/moby/19508/screenshot-d40193bfe3e0.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/19508/screenshot-d40193bfe3e0.webp"
+   },
    "description": "A pool simulation.",
    "mobygames": 19508,
    "title": "Billiards",
    "year": 1983
   },
   "msx:moby-195611": {
+   "artwork": {
+    "preview": "art/catalog/moby/195611/screenshot-d6e26ced9bec.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/195611/screenshot-d6e26ced9bec.webp"
+   },
    "mobygames": 195611,
    "title": "Spy Story",
    "year": 1986
@@ -31247,11 +31451,19 @@
    "year": 2023
   },
   "msx:moby-195731": {
+   "artwork": {
+    "boxArt": "art/catalog/moby/195731/box-7c2f6a8a893d.webp",
+    "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/195731/box-7c2f6a8a893d.webp"
+   },
    "mobygames": 195731,
    "title": "Traditional Story",
    "year": 2022
   },
   "msx:moby-19630": {
+   "artwork": {
+    "preview": "art/catalog/moby/19630/screenshot-06f60491ac0c.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/19630/screenshot-06f60491ac0c.webp"
+   },
    "contentIds": [
     "sha256-rom-v1:0012a61b7eb4100a598d407e081624bd6ed6969f6b8b0c7c2f81f595ff4da911",
     "sha256-rom-v1:2ea80d02fadd25c97e63ab109f10ca43659872533de6c90cea10075f3b0b5a93"
@@ -31264,21 +31476,39 @@
    "year": 1984
   },
   "msx:moby-19641": {
+   "artwork": {
+    "preview": "art/catalog/moby/19641/screenshot-0834b3520548.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/19641/screenshot-0834b3520548.webp"
+   },
    "mobygames": 19641,
    "title": "Do! Run Run",
    "year": 1988
   },
   "msx:moby-19665": {
+   "artwork": {
+    "preview": "art/catalog/moby/19665/screenshot-354384e8c254.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/19665/screenshot-354384e8c254.webp"
+   },
    "mobygames": 19665,
    "title": "Zorni: Exerion II",
    "year": 1984
   },
   "msx:moby-19705": {
+   "artwork": {
+    "preview": "art/catalog/moby/19705/screenshot-50abb504915b.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/19705/screenshot-50abb504915b.webp"
+   },
    "mobygames": 19705,
    "title": "Disc Station Special 4: Autumn Edition",
    "year": 1989
   },
   "msx:moby-19734": {
+   "artwork": {
+    "boxArt": "art/catalog/moby/19734/box-d0a9ed20d22f.webp",
+    "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/19734/box-d0a9ed20d22f.webp",
+    "preview": "art/catalog/moby/19734/screenshot-7a722fb73ccf.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/19734/screenshot-7a722fb73ccf.webp"
+   },
    "contentIds": [
     "sha256-rom-v1:4984380f2010daaff49ceeab5c336dc3bc3830c8489961f351bd3c72aac3251c"
    ],
@@ -31290,6 +31520,12 @@
    "year": 1987
   },
   "msx:moby-19769": {
+   "artwork": {
+    "boxArt": "art/catalog/moby/19769/box-0bb94b6e9007.webp",
+    "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/19769/box-0bb94b6e9007.webp",
+    "preview": "art/catalog/moby/19769/screenshot-4e31464a0cd7.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/19769/screenshot-4e31464a0cd7.webp"
+   },
    "mobygames": 19769,
    "title": "Mahjong Dōjō",
    "year": 1984
@@ -31301,16 +31537,30 @@
    "year": 1984
   },
   "msx:moby-19853": {
+   "artwork": {
+    "boxArt": "art/catalog/moby/19853/box-3b93b26b7fa6.webp",
+    "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/19853/box-3b93b26b7fa6.webp",
+    "preview": "art/catalog/moby/19853/screenshot-06d87411ed24.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/19853/screenshot-06d87411ed24.webp"
+   },
    "mobygames": 19853,
    "title": "Harrier Mission",
    "year": 1985
   },
   "msx:moby-19912": {
+   "artwork": {
+    "preview": "art/catalog/moby/19912/screenshot-7b6943447903.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/19912/screenshot-7b6943447903.webp"
+   },
    "mobygames": 19912,
    "title": "Fernando Martín Executive",
    "year": 1987
   },
   "msx:moby-199165": {
+   "artwork": {
+    "preview": "art/catalog/moby/199165/screenshot-e7b9899916a9.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/199165/screenshot-e7b9899916a9.webp"
+   },
    "mobygames": 199165,
    "title": "Torreoscura",
    "year": 2020
@@ -31332,6 +31582,10 @@
    "year": 1984
   },
   "msx:moby-20023": {
+   "artwork": {
+    "preview": "art/catalog/moby/20023/screenshot-c93d8293bec5.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/20023/screenshot-c93d8293bec5.webp"
+   },
    "mobygames": 20023,
    "title": "Megachess",
    "year": 1988
@@ -31343,6 +31597,10 @@
    "year": 1989
   },
   "msx:moby-20077": {
+   "artwork": {
+    "boxArt": "art/catalog/moby/20077/box-73bb6051524b.webp",
+    "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/20077/box-73bb6051524b.webp"
+   },
    "mobygames": 20077,
    "title": "Multi Sports",
    "year": 1991
@@ -31354,12 +31612,22 @@
    "year": 2023
   },
   "msx:moby-20234": {
+   "artwork": {
+    "boxArt": "art/catalog/moby/20234/box-5ccb75e3d91a.webp",
+    "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/20234/box-5ccb75e3d91a.webp"
+   },
    "description": "A laserdisc Western shooter of animated video: avenge your family's murder.",
    "mobygames": 20234,
    "title": "Badlands",
    "year": 1984
   },
   "msx:moby-20248": {
+   "artwork": {
+    "boxArt": "art/catalog/moby/20248/box-eec6289f9759.webp",
+    "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/20248/box-eec6289f9759.webp",
+    "preview": "art/catalog/moby/20248/screenshot-06e4298e4f96.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/20248/screenshot-06e4298e4f96.webp"
+   },
    "mobygames": 20248,
    "title": "Ring King",
    "year": 1988
@@ -31370,21 +31638,41 @@
    "year": 1984
   },
   "msx:moby-20375": {
+   "artwork": {
+    "boxArt": "art/catalog/moby/20375/box-f6da7928a075.webp",
+    "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/20375/box-f6da7928a075.webp",
+    "preview": "art/catalog/moby/20375/screenshot-64b5702788ef.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/20375/screenshot-64b5702788ef.webp"
+   },
    "mobygames": 20375,
    "title": "The Computer Edition of Scrabble Brand Crossword Game",
    "year": 1985
   },
   "msx:moby-20397": {
+   "artwork": {
+    "preview": "art/catalog/moby/20397/screenshot-693d529ca7bd.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/20397/screenshot-693d529ca7bd.webp"
+   },
    "mobygames": 20397,
    "title": "Hiper Tronic",
    "year": 1987
   },
   "msx:moby-203986": {
+   "artwork": {
+    "preview": "art/catalog/moby/203986/screenshot-8210c3cfe620.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/203986/screenshot-8210c3cfe620.webp"
+   },
    "mobygames": 203986,
    "title": "Maths Invaders",
    "year": 1985
   },
   "msx:moby-20417": {
+   "artwork": {
+    "boxArt": "art/catalog/moby/20417/box-ded6c8cbfe4f.webp",
+    "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/20417/box-ded6c8cbfe4f.webp",
+    "preview": "art/catalog/moby/20417/screenshot-7763be746b94.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/20417/screenshot-7763be746b94.webp"
+   },
    "mobygames": 20417,
    "title": "Pub Darts",
    "year": 1987
@@ -31401,6 +31689,10 @@
    "year": 1990
   },
   "msx:moby-208583": {
+   "artwork": {
+    "preview": "art/catalog/moby/208583/screenshot-508e03579d04.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/208583/screenshot-508e03579d04.webp"
+   },
    "mobygames": 208583,
    "title": "Het Geheim van de drie burchten",
    "year": 1986
@@ -31417,21 +31709,37 @@
    "year": 1988
   },
   "msx:moby-209670": {
+   "artwork": {
+    "preview": "art/catalog/moby/209670/screenshot-8e98772299dc.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/209670/screenshot-8e98772299dc.webp"
+   },
    "mobygames": 209670,
    "title": "Bounce",
    "year": 1987
   },
   "msx:moby-210188": {
+   "artwork": {
+    "preview": "art/catalog/moby/210188/screenshot-24483c7da90c.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/210188/screenshot-24483c7da90c.webp"
+   },
    "mobygames": 210188,
    "title": "Star Wars",
    "year": 1986
   },
   "msx:moby-210407": {
+   "artwork": {
+    "preview": "art/catalog/moby/210407/screenshot-4afefebf8eb0.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/210407/screenshot-4afefebf8eb0.webp"
+   },
    "mobygames": 210407,
    "title": "Martian War",
    "year": 2023
   },
   "msx:moby-210875": {
+   "artwork": {
+    "preview": "art/catalog/moby/210875/screenshot-314aefbbd83b.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/210875/screenshot-314aefbbd83b.webp"
+   },
    "description": "A fixed-screen arcade game: an electrician keeps the power running.",
    "mobygames": 210875,
    "title": "Power Fail",
@@ -31444,6 +31752,10 @@
    "year": 1988
   },
   "msx:moby-212341": {
+   "artwork": {
+    "preview": "art/catalog/moby/212341/screenshot-db170c466a91.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/212341/screenshot-db170c466a91.webp"
+   },
    "mobygames": 212341,
    "title": "Snake",
    "year": 1987
@@ -31454,6 +31766,10 @@
    "year": 1988
   },
   "msx:moby-214039": {
+   "artwork": {
+    "preview": "art/catalog/moby/214039/screenshot-5f414e41ba88.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/214039/screenshot-5f414e41ba88.webp"
+   },
    "mobygames": 214039,
    "title": "Jet Fighter",
    "year": 1985
@@ -31494,6 +31810,10 @@
    "year": 2023
   },
   "msx:moby-217472": {
+   "artwork": {
+    "preview": "art/catalog/moby/217472/screenshot-eee55e9708e4.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/217472/screenshot-eee55e9708e4.webp"
+   },
    "description": "An action game of steering a skydiver through the air.",
    "mobygames": 217472,
    "title": "Sky Diver",
@@ -31505,6 +31825,10 @@
    "year": 1984
   },
   "msx:moby-219027": {
+   "artwork": {
+    "preview": "art/catalog/moby/219027/screenshot-fce6053d58d7.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/219027/screenshot-fce6053d58d7.webp"
+   },
    "description": "A flight shooter: fly a Zero fighter against waves of enemy aircraft.",
    "mobygames": 219027,
    "title": "Dog Fighter",
@@ -31533,32 +31857,56 @@
    "year": 1984
   },
   "msx:moby-22416": {
+   "artwork": {
+    "preview": "art/catalog/moby/22416/screenshot-d4fd3d10ad79.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/22416/screenshot-d4fd3d10ad79.webp"
+   },
    "mobygames": 22416,
    "title": "Disk Station #0",
    "year": 1988
   },
   "msx:moby-224915": {
+   "artwork": {
+    "preview": "art/catalog/moby/224915/screenshot-d36d94180895.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/224915/screenshot-d36d94180895.webp"
+   },
    "mobygames": 224915,
    "title": "Help! / Sea Bomber",
    "year": 1983
   },
   "msx:moby-224916": {
+   "artwork": {
+    "preview": "art/catalog/moby/224916/screenshot-a63d0f98bf06.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/224916/screenshot-a63d0f98bf06.webp"
+   },
    "mobygames": 224916,
    "title": "Fire Ball / Akarui Nōen",
    "year": 1983
   },
   "msx:moby-227748": {
    "adult": true,
+   "artwork": {
+    "preview": "art/catalog/moby/227748/screenshot-cf582fc37c86.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/227748/screenshot-cf582fc37c86.webp"
+   },
    "mobygames": 227748,
    "title": "Puzzle Mania: MSXdev24 Edition",
    "year": 2024
   },
   "msx:moby-228160": {
+   "artwork": {
+    "boxArt": "art/catalog/moby/228160/box-52fc998bf531.webp",
+    "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/228160/box-52fc998bf531.webp"
+   },
    "mobygames": 228160,
    "title": "Rite of the Druid",
    "year": 2022
   },
   "msx:moby-22841": {
+   "artwork": {
+    "boxArt": "art/catalog/moby/22841/box-01f4808ef62d.webp",
+    "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/22841/box-01f4808ef62d.webp"
+   },
    "mobygames": 22841,
    "title": "Champions!",
    "year": 1985
@@ -31580,11 +31928,19 @@
    "year": 1988
   },
   "msx:moby-23363": {
+   "artwork": {
+    "preview": "art/catalog/moby/23363/screenshot-beda65abc625.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/23363/screenshot-beda65abc625.webp"
+   },
    "mobygames": 23363,
    "title": "Snowball",
    "year": 1984
   },
   "msx:moby-23369": {
+   "artwork": {
+    "preview": "art/catalog/moby/23369/screenshot-c8333bd7d86c.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/23369/screenshot-c8333bd7d86c.webp"
+   },
    "mobygames": 23369,
    "title": "Return to Eden",
    "year": 1984
@@ -31623,11 +31979,21 @@
    "year": 1987
   },
   "msx:moby-237842": {
+   "artwork": {
+    "boxArt": "art/catalog/moby/237842/box-055e6f8ead32.webp",
+    "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/237842/box-055e6f8ead32.webp"
+   },
    "mobygames": 237842,
    "title": "MarloW in Apocalyptic Acid World",
    "year": 2025
   },
   "msx:moby-23796": {
+   "artwork": {
+    "boxArt": "art/catalog/moby/23796/box-af22efef1c35.webp",
+    "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/23796/box-af22efef1c35.webp",
+    "preview": "art/catalog/moby/23796/screenshot-2476eb99bb83.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/23796/screenshot-2476eb99bb83.webp"
+   },
    "mobygames": 23796,
    "title": "Cosmic Relief: Prof. Renegade to the Rescue",
    "year": 1988
@@ -31638,21 +32004,39 @@
    "year": 1986
   },
   "msx:moby-23904": {
+   "artwork": {
+    "boxArt": "art/catalog/moby/23904/box-330e6f35117b.webp",
+    "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/23904/box-330e6f35117b.webp",
+    "preview": "art/catalog/moby/23904/screenshot-a191f7012de8.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/23904/screenshot-a191f7012de8.webp"
+   },
    "mobygames": 23904,
    "title": "SuperStar Soccer",
    "year": 1987
   },
   "msx:moby-24052": {
+   "artwork": {
+    "preview": "art/catalog/moby/24052/screenshot-8cbfa5e6e1bc.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/24052/screenshot-8cbfa5e6e1bc.webp"
+   },
    "mobygames": 24052,
    "title": "Sport Racer",
    "year": 2006
   },
   "msx:moby-24119": {
+   "artwork": {
+    "preview": "art/catalog/moby/24119/screenshot-977779efe637.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/24119/screenshot-977779efe637.webp"
+   },
    "mobygames": 24119,
    "title": "Winglancer",
    "year": 2002
   },
   "msx:moby-241516": {
+   "artwork": {
+    "preview": "art/catalog/moby/241516/screenshot-c1b4a8bda070.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/241516/screenshot-c1b4a8bda070.webp"
+   },
    "mobygames": 241516,
    "title": "La Geste d'Artillac",
    "year": 1985
@@ -31674,6 +32058,10 @@
    "year": 1989
   },
   "msx:moby-246028": {
+   "artwork": {
+    "boxArt": "art/catalog/moby/246028/box-36beb4d83c5b.webp",
+    "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/246028/box-36beb4d83c5b.webp"
+   },
    "mobygames": 246028,
    "title": "Devwill Too ZX",
    "year": 2021
@@ -31685,11 +32073,19 @@
    "year": 2025
   },
   "msx:moby-24731": {
+   "artwork": {
+    "preview": "art/catalog/moby/24731/screenshot-01a42164d429.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/24731/screenshot-01a42164d429.webp"
+   },
    "mobygames": 24731,
    "title": "Wacky Darts",
    "year": 1987
   },
   "msx:moby-251843": {
+   "artwork": {
+    "boxArt": "art/catalog/moby/251843/box-d2a921b7b2a3.webp",
+    "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/251843/box-d2a921b7b2a3.webp"
+   },
    "mobygames": 251843,
    "title": "Binary Battle",
    "year": 2025
@@ -31720,6 +32116,10 @@
    "year": 1985
   },
   "msx:moby-258627": {
+   "artwork": {
+    "preview": "art/catalog/moby/258627/screenshot-55fc2b72756b.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/258627/screenshot-55fc2b72756b.webp"
+   },
    "mobygames": 258627,
    "title": "Disc Station Deluxe 3",
    "year": 1990
@@ -31730,6 +32130,10 @@
    "year": 2021
   },
   "msx:moby-26379": {
+   "artwork": {
+    "preview": "art/catalog/moby/26379/screenshot-6862e1f95742.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/26379/screenshot-6862e1f95742.webp"
+   },
    "mobygames": 26379,
    "title": "Snooper Troops: Case #2 - The Case of the Disappearing Dolphin",
    "year": 1986
@@ -31747,33 +32151,57 @@
    "year": 1985
   },
   "msx:moby-266301": {
+   "artwork": {
+    "boxArt": "art/catalog/moby/266301/box-961cee34efd4.webp",
+    "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/266301/box-961cee34efd4.webp"
+   },
    "mobygames": 266301,
    "title": "Matchy Matchy",
    "year": 2023
   },
   "msx:moby-267255": {
+   "artwork": {
+    "preview": "art/catalog/moby/267255/screenshot-968feadd3cb1.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/267255/screenshot-968feadd3cb1.webp"
+   },
    "mobygames": 267255,
    "title": "River Chase",
    "year": 1985
   },
   "msx:moby-268110": {
+   "artwork": {
+    "preview": "art/catalog/moby/268110/screenshot-4c7b0d281461.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/268110/screenshot-4c7b0d281461.webp"
+   },
    "description": "Shogi, the Japanese chess game, against the computer.",
    "mobygames": 268110,
    "title": "Ohsho",
    "year": 1984
   },
   "msx:moby-27036": {
+   "artwork": {
+    "preview": "art/catalog/moby/27036/screenshot-b14232542b44.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/27036/screenshot-b14232542b44.webp"
+   },
    "mobygames": 27036,
    "title": "Smash Out",
    "year": 1984
   },
   "msx:moby-28103": {
+   "artwork": {
+    "preview": "art/catalog/moby/28103/screenshot-d767640ea3e5.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/28103/screenshot-d767640ea3e5.webp"
+   },
    "description": "A Brazilian text adventure: two million years ago, a spaceship crashed on what is now the Brazilian coast.",
    "mobygames": 28103,
    "title": "A Lenda da Gávea",
    "year": 1988
   },
   "msx:moby-28314": {
+   "artwork": {
+    "preview": "art/catalog/moby/28314/screenshot-c2cbecfc5220.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/28314/screenshot-c2cbecfc5220.webp"
+   },
    "mobygames": 28314,
    "title": "Serra Pelada",
    "year": 1987
@@ -31789,16 +32217,30 @@
    "year": 1988
   },
   "msx:moby-28559": {
+   "artwork": {
+    "boxArt": "art/catalog/moby/28559/box-951775d421f2.webp",
+    "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/28559/box-951775d421f2.webp",
+    "preview": "art/catalog/moby/28559/screenshot-ea8593d341d3.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/28559/screenshot-ea8593d341d3.webp"
+   },
    "mobygames": 28559,
    "title": "Coil Cop",
    "year": 1987
   },
   "msx:moby-28564": {
+   "artwork": {
+    "preview": "art/catalog/moby/28564/screenshot-05c2a83e77ac.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/28564/screenshot-05c2a83e77ac.webp"
+   },
    "mobygames": 28564,
    "title": "Treasure Island",
    "year": 1986
   },
   "msx:moby-28812": {
+   "artwork": {
+    "boxArt": "art/catalog/moby/28812/box-34cff1c1a8aa.webp",
+    "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/28812/box-34cff1c1a8aa.webp"
+   },
    "mobygames": 28812,
    "title": "Time and Magik: The Trilogy",
    "year": 1988
@@ -31809,6 +32251,10 @@
    "year": 1986
   },
   "msx:moby-2963": {
+   "artwork": {
+    "preview": "art/catalog/moby/2963/screenshot-ba088f7bd8ba.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/2963/screenshot-ba088f7bd8ba.webp"
+   },
    "mobygames": 2963,
    "title": "Rick Davis's World Trophy Soccer",
    "year": 1989
@@ -31820,21 +32266,39 @@
    "year": 1986
   },
   "msx:moby-3020": {
+   "artwork": {
+    "boxArt": "art/catalog/moby/3020/box-4346642bb3b6.webp",
+    "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/3020/box-4346642bb3b6.webp",
+    "preview": "art/catalog/moby/3020/screenshot-21da67587619.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/3020/screenshot-21da67587619.webp"
+   },
    "mobygames": 3020,
    "title": "Rush'n Attack",
    "year": 1986
   },
   "msx:moby-30337": {
+   "artwork": {
+    "boxArt": "art/catalog/moby/30337/box-b9429c8c5224.webp",
+    "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/30337/box-b9429c8c5224.webp"
+   },
    "mobygames": 30337,
    "title": "MSX Compilation 7",
    "year": 1987
   },
   "msx:moby-30399": {
+   "artwork": {
+    "preview": "art/catalog/moby/30399/screenshot-7fac0a49d43e.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/30399/screenshot-7fac0a49d43e.webp"
+   },
    "mobygames": 30399,
    "title": "Shadow Hunter",
    "year": 1988
   },
   "msx:moby-32520": {
+   "artwork": {
+    "preview": "art/catalog/moby/32520/screenshot-50e209b608b9.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/32520/screenshot-50e209b608b9.webp"
+   },
    "mobygames": 32520,
    "title": "Mystery of the Nile",
    "year": 1986
@@ -31855,21 +32319,41 @@
    "year": 1985
   },
   "msx:moby-35733": {
+   "artwork": {
+    "boxArt": "art/catalog/moby/35733/box-f0523e3cb687.webp",
+    "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/35733/box-f0523e3cb687.webp"
+   },
    "mobygames": 35733,
    "title": "Spaghetti Western Simulator",
    "year": 1989
   },
   "msx:moby-35788": {
+   "artwork": {
+    "boxArt": "art/catalog/moby/35788/box-0ca47482314b.webp",
+    "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/35788/box-0ca47482314b.webp"
+   },
    "mobygames": 35788,
    "title": "Tournament Snooker",
    "year": 1985
   },
   "msx:moby-35790": {
+   "artwork": {
+    "boxArt": "art/catalog/moby/35790/box-963a33bf0d04.webp",
+    "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/35790/box-963a33bf0d04.webp",
+    "preview": "art/catalog/moby/35790/screenshot-7e8f7adfd5a3.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/35790/screenshot-7e8f7adfd5a3.webp"
+   },
    "mobygames": 35790,
    "title": "Ninja",
    "year": 1984
   },
   "msx:moby-36502": {
+   "artwork": {
+    "boxArt": "art/catalog/moby/36502/box-0b56266eb423.webp",
+    "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/36502/box-0b56266eb423.webp",
+    "preview": "art/catalog/moby/36502/screenshot-a2572ff4da2c.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/36502/screenshot-a2572ff4da2c.webp"
+   },
    "mobygames": 36502,
    "title": "Space Busters",
    "year": 1985
@@ -31892,6 +32376,12 @@
    "year": 1990
   },
   "msx:moby-40652": {
+   "artwork": {
+    "boxArt": "art/catalog/moby/40652/box-9f0df5b724e0.webp",
+    "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/40652/box-9f0df5b724e0.webp",
+    "preview": "art/catalog/moby/40652/screenshot-0afac1343eb6.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/40652/screenshot-0afac1343eb6.webp"
+   },
    "mobygames": 40652,
    "title": "Loco-Motion",
    "year": 1983
@@ -32002,11 +32492,19 @@
    "year": 1991
   },
   "msx:moby-50641": {
+   "artwork": {
+    "preview": "art/catalog/moby/50641/screenshot-2228232e1451.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/50641/screenshot-2228232e1451.webp"
+   },
    "mobygames": 50641,
    "title": "O Ogro",
    "year": 1988
   },
   "msx:moby-51064": {
+   "artwork": {
+    "preview": "art/catalog/moby/51064/screenshot-1448f229b8a9.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/51064/screenshot-1448f229b8a9.webp"
+   },
    "mobygames": 51064,
    "title": "Rad Action",
    "year": 1987
@@ -32058,6 +32556,10 @@
    "year": 1986
   },
   "msx:moby-55882": {
+   "artwork": {
+    "preview": "art/catalog/moby/55882/screenshot-f78986b2c4a9.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/55882/screenshot-f78986b2c4a9.webp"
+   },
    "description": "A simple Wizardry-style first-person dungeon crawler.",
    "mobygames": 55882,
    "title": "Lizard",
@@ -32090,12 +32592,22 @@
    "year": 1985
   },
   "msx:moby-57334": {
+   "artwork": {
+    "preview": "art/catalog/moby/57334/screenshot-173fa8ff94e8.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/57334/screenshot-173fa8ff94e8.webp"
+   },
    "description": "A homebrew game: steer a spaceship through an asteroid field.",
    "mobygames": 57334,
    "title": "Astrododge",
    "year": 2013
   },
   "msx:moby-580": {
+   "artwork": {
+    "boxArt": "art/catalog/moby/580/box-529b1fddd14c.webp",
+    "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/580/box-529b1fddd14c.webp",
+    "preview": "art/catalog/moby/580/screenshot-a5323220d8f5.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/580/screenshot-a5323220d8f5.webp"
+   },
    "mobygames": 580,
    "title": "World Karate Championship",
    "year": 1986
@@ -32150,12 +32662,20 @@
   },
   "msx:moby-58840": {
    "adult": true,
+   "artwork": {
+    "preview": "art/catalog/moby/58840/screenshot-07737e5f0007.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/58840/screenshot-07737e5f0007.webp"
+   },
    "mobygames": 58840,
    "title": "Pink Sox",
    "year": 1989
   },
   "msx:moby-58841": {
    "adult": true,
+   "artwork": {
+    "preview": "art/catalog/moby/58841/screenshot-dbad1bab56bb.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/58841/screenshot-dbad1bab56bb.webp"
+   },
    "mobygames": 58841,
    "title": "Pink Sox 2",
    "year": 1990
@@ -32224,17 +32744,29 @@
    "year": 1985
   },
   "msx:moby-64105": {
+   "artwork": {
+    "preview": "art/catalog/moby/64105/screenshot-2ce28bf1e54b.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/64105/screenshot-2ce28bf1e54b.webp"
+   },
    "mobygames": 64105,
    "title": "Minnesota Fats' Pool Challenge",
    "year": 1984
   },
   "msx:moby-647": {
+   "artwork": {
+    "preview": "art/catalog/moby/647/screenshot-6a6d9e5e8841.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/647/screenshot-6a6d9e5e8841.webp"
+   },
    "description": "The first Phantasie: adventurers free the island of Gelnor from the Black Knights.",
    "mobygames": 647,
    "title": "Phantasie",
    "year": 1988
   },
   "msx:moby-65750": {
+   "artwork": {
+    "preview": "art/catalog/moby/65750/screenshot-8cbaa8b9f9e2.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/65750/screenshot-8cbaa8b9f9e2.webp"
+   },
    "mobygames": 65750,
    "title": "The Ultra",
    "year": 1984
@@ -32250,16 +32782,30 @@
    "year": 1988
   },
   "msx:moby-6683": {
+   "artwork": {
+    "preview": "art/catalog/moby/6683/screenshot-3f22bf04e285.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/6683/screenshot-3f22bf04e285.webp"
+   },
    "mobygames": 6683,
    "title": "FaceMaker",
    "year": 1985
   },
   "msx:moby-6739": {
+   "artwork": {
+    "boxArt": "art/catalog/moby/6739/box-e4880e8c15d5.webp",
+    "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/6739/box-e4880e8c15d5.webp",
+    "preview": "art/catalog/moby/6739/screenshot-37a518a30985.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/6739/screenshot-37a518a30985.webp"
+   },
    "mobygames": 6739,
    "title": "Ikari Warriors",
    "year": 1987
   },
   "msx:moby-68841": {
+   "artwork": {
+    "preview": "art/catalog/moby/68841/screenshot-88858ddf6c6e.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/68841/screenshot-88858ddf6c6e.webp"
+   },
    "description": "Hudson's text adventure: visit six attractions in a parody of a famous theme park.",
    "mobygames": 68841,
    "title": "Dezeni Land",
@@ -32271,6 +32817,10 @@
    "year": 1990
   },
   "msx:moby-69866": {
+   "artwork": {
+    "preview": "art/catalog/moby/69866/screenshot-944fb428eb63.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/69866/screenshot-944fb428eb63.webp"
+   },
    "mobygames": 69866,
    "title": "Jeu de Tarot",
    "year": 1985
@@ -32281,6 +32831,10 @@
    "year": 1989
   },
   "msx:moby-7009": {
+   "artwork": {
+    "preview": "art/catalog/moby/7009/screenshot-12017c127b40.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/7009/screenshot-12017c127b40.webp"
+   },
    "description": "Sega's jet combat arcade sequel: fly an F-14 through waves of enemy fighters, now with throttle control and extra stages.",
    "mobygames": 7009,
    "title": "After Burner II",
@@ -32308,6 +32862,10 @@
    "year": 1990
   },
   "msx:moby-7374": {
+   "artwork": {
+    "preview": "art/catalog/moby/7374/screenshot-dae9d3871f62.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/7374/screenshot-dae9d3871f62.webp"
+   },
    "description": "A baseball game for one or two players with a behind-the-pitcher view.",
    "mobygames": 7374,
    "title": "Bases Loaded",
@@ -32324,6 +32882,10 @@
    "year": 2014
   },
   "msx:moby-8075": {
+   "artwork": {
+    "preview": "art/catalog/moby/8075/screenshot-70bae3fa209c.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/8075/screenshot-70bae3fa209c.webp"
+   },
    "mobygames": 8075,
    "title": "Dragon Warrior II",
    "year": 1988
@@ -32334,16 +32896,30 @@
    "year": 1986
   },
   "msx:moby-8264": {
+   "artwork": {
+    "preview": "art/catalog/moby/8264/screenshot-8211d1321d33.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/8264/screenshot-8211d1321d33.webp"
+   },
    "mobygames": 8264,
    "title": "Scramble Spirits",
    "year": 1990
   },
   "msx:moby-8334": {
+   "artwork": {
+    "boxArt": "art/catalog/moby/8334/box-9a0cfca577c0.webp",
+    "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/8334/box-9a0cfca577c0.webp",
+    "preview": "art/catalog/moby/8334/screenshot-513ea473a284.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/8334/screenshot-513ea473a284.webp"
+   },
    "mobygames": 8334,
    "title": "Cruisin'",
    "year": 1986
   },
   "msx:moby-8620": {
+   "artwork": {
+    "preview": "art/catalog/moby/8620/screenshot-0ae8af19c28a.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/8620/screenshot-0ae8af19c28a.webp"
+   },
    "mobygames": 8620,
    "title": "KinderComp",
    "year": 1985
@@ -32354,32 +32930,56 @@
    "year": 2013
   },
   "msx:moby-880": {
+   "artwork": {
+    "preview": "art/catalog/moby/880/screenshot-37b238475309.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/880/screenshot-37b238475309.webp"
+   },
    "description": "The second Ultima: travel through time to stop the enchantress Minax.",
    "mobygames": 880,
    "title": "Ultima II: The Revenge of the Enchantress...",
    "year": 1989
   },
   "msx:moby-90158": {
+   "artwork": {
+    "preview": "art/catalog/moby/90158/screenshot-e1e599b5ac54.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/90158/screenshot-e1e599b5ac54.webp"
+   },
    "mobygames": 90158,
    "title": "Nederlandse Topografie",
    "year": 1986
   },
   "msx:moby-90165": {
+   "artwork": {
+    "preview": "art/catalog/moby/90165/screenshot-751e501d76f3.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/90165/screenshot-751e501d76f3.webp"
+   },
    "mobygames": 90165,
    "title": "Maps Europe",
    "year": 1986
   },
   "msx:moby-90208": {
+   "artwork": {
+    "preview": "art/catalog/moby/90208/screenshot-3f8bebcba177.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/90208/screenshot-3f8bebcba177.webp"
+   },
    "mobygames": 90208,
    "title": "Maps World",
    "year": 1986
   },
   "msx:moby-9071": {
+   "artwork": {
+    "boxArt": "art/catalog/moby/9071/box-4ef286022c36.webp",
+    "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/9071/box-4ef286022c36.webp"
+   },
    "mobygames": 9071,
    "title": "Gauntlet: The Deeper Dungeons",
    "year": 1987
   },
   "msx:moby-9223": {
+   "artwork": {
+    "preview": "art/catalog/moby/9223/screenshot-d1ad3bc8fb2e.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/9223/screenshot-d1ad3bc8fb2e.webp"
+   },
    "mobygames": 9223,
    "title": "Dragon Warrior",
    "year": 1986

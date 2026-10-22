@@ -1,0 +1,800 @@
+{
+ "images": {
+  "art/catalog/moby/10067/screenshot-88bde7d2b342.webp": {
+   "game": "msx:moby-10067",
+   "sha256": "444c25681abbba0dd8d3af598f5793cb7ac2bea01490f93edb817342356453e4",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/16872150-solitaire-poker-msx-a-joker-can-be-dropped.png"
+  },
+  "art/catalog/moby/101758/screenshot-942c1b1920ef.webp": {
+   "game": "msx:moby-101758",
+   "sha256": "be917142a35c55861c0ad246fec59a4d8ead4524dac5694677a03d7e5683de0a",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/8016456-peach-up-4-msx-outer-limits-outer-limits-bangai-hen-youve-won-th.png"
+  },
+  "art/catalog/moby/10630/screenshot-4ac46a30e443.webp": {
+   "game": "msx:moby-10630",
+   "sha256": "5bc47fab33d1f1b3bcc8b30a5f739b38c0aa67e2e0cb5f60f08d282c93777f97",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/15994476-mr-dos-castle-msx-dont-let-the-unicorns-get-you.png"
+  },
+  "art/catalog/moby/10650/screenshot-ad863e7a7bbf.webp": {
+   "game": "msx:moby-10650",
+   "sha256": "588c49eb17a617787b9445e75d9ca486e184e33bef7a5c2c35b306bbc1475642",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/15697759-vigilante-msx-high-kick.png"
+  },
+  "art/catalog/moby/10840/screenshot-45bfab7532db.webp": {
+   "game": "msx:moby-10840",
+   "sha256": "549cd8ea1cd06cbbc12b06a3b49bd04ab43bb71dc65f809df5e5c4514af556b3",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/15792017-super-cobra-msx-100-miles-cleared.png"
+  },
+  "art/catalog/moby/113647/box-fc00e4242324.webp": {
+   "game": "msx:moby-113647",
+   "sha256": "7b9dd3f10dfe015fe828c897ec83a66415eb444320ab6c1004cd87019860e804",
+   "sourceUrl": "https://cdn.mobygames.com/covers/3663022-grime-z80-game-boy-front-cover.jpg"
+  },
+  "art/catalog/moby/113647/screenshot-52a11f44537d.webp": {
+   "game": "msx:moby-113647",
+   "sha256": "1637d1dca698371c4db5abbec49c98f5910a1d1cec5990353ad5a280a3a81028",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/16297073-grime-z80-msx-the-fight-begins-msx-2.png"
+  },
+  "art/catalog/moby/118103/screenshot-bc715d0803ee.webp": {
+   "game": "msx:moby-118103",
+   "sha256": "58bb565b0977c0ca8c9fe77b4cc4682e6a99dba7c77b0af517926ee794e46d4b",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/6334706-witches-msx-the-patterns-can-get-really-pretty.png"
+  },
+  "art/catalog/moby/119465/screenshot-c92861a21295.webp": {
+   "game": "msx:moby-119465",
+   "sha256": "5dbef9d19f2302361b5adebf08591e7de170e8f62dcd6b72be8c354a24420b9c",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/16468786-ninja-msx-this-is-how-divided-japan-is-in-this-world.png"
+  },
+  "art/catalog/moby/1196/screenshot-bf92117dda61.webp": {
+   "game": "msx:moby-1196",
+   "sha256": "a5b0b600e25bcfe8a6dd799fe31e08decc03e8de116e0751373ff92cd05ad9c3",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/15852007-perry-mason-the-case-of-the-mandarin-murder-msx-murder-scene.png"
+  },
+  "art/catalog/moby/12261/box-d1a6fd831ca2.webp": {
+   "game": "msx:moby-12261",
+   "sha256": "7957aeb0dd78487cf82ad6aba6937f401bdedf7122773509832011faadf7c80a",
+   "sourceUrl": "https://cdn.mobygames.com/covers/5488705-silicon-dreams-msx-front-cover.jpg"
+  },
+  "art/catalog/moby/122777/screenshot-51e61d77f01e.webp": {
+   "game": "msx:moby-122777",
+   "sha256": "353c805f7da16d7930ff7f486bc146ec32b9abdfa6d12a58bd0797ee9cf001aa",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/16279952-illegus-episode-iv-msx-shot-the-robot.png"
+  },
+  "art/catalog/moby/12594/box-47eccfe39d9d.webp": {
+   "game": "msx:moby-12594",
+   "sha256": "1ceaff86bb20c880b3459998fde8dcb3615a4b84bdf1029fe916cb38a27e4d42",
+   "sourceUrl": "https://cdn.mobygames.com/covers/5491111-brian-cloughs-football-fortunes-msx-front-cover.jpg"
+  },
+  "art/catalog/moby/127559/screenshot-5742e1b62445.webp": {
+   "game": "msx:moby-127559",
+   "sha256": "f9041ea37bf41640c9ae0175e7e38fbf50f67c13fdd3a2661a6f8023b3392109",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/16497523-pig-mock-msx-the-mole-appears-in-round-3.png"
+  },
+  "art/catalog/moby/1292/box-5f34eb35e264.webp": {
+   "game": "msx:moby-1292",
+   "sha256": "e6e6cdc160217a61d347b14070308dac596ae16b3f84791aa8f246190b5f3fb2",
+   "sourceUrl": "https://cdn.mobygames.com/covers/5467179-knight-orc-msx-front-cover.jpg"
+  },
+  "art/catalog/moby/132167/screenshot-90d55aec6172.webp": {
+   "game": "msx:moby-132167",
+   "sha256": "df46bf43778c8f0d642e1dd5008d1544c30a7eecfd7abd5bbaae54db32508edf",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/19664796-zombie-calavera-prologue-msx-game-over.png"
+  },
+  "art/catalog/moby/132197/box-d92fe5b12af8.webp": {
+   "game": "msx:moby-132197",
+   "sha256": "a7c8ae56c6f473d80208c65147aae662ae95044f34790c575c1e10d55d294fb3",
+   "sourceUrl": "https://cdn.mobygames.com/covers/8137832-journey-to-the-centre-of-the-earth-extended-version-msx-front-co.png"
+  },
+  "art/catalog/moby/13526/box-df83a97c552f.webp": {
+   "game": "msx:moby-13526",
+   "sha256": "c050a220d24b9c79933d006872ba1c075194f4b7236eccb0a79fcb279dafcc03",
+   "sourceUrl": "https://cdn.mobygames.com/covers/6224916-super-hydlide-msx-front-cover.jpg"
+  },
+  "art/catalog/moby/13526/screenshot-7bcba79f17e4.webp": {
+   "game": "msx:moby-13526",
+   "sha256": "b12573dbb1f72d6f323d9dfd07c4db2b27ed1bb4d2f79ed3536b0d9c0607b570",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/16206027-super-hydlide-msx-there-is-a-shop-in-the-upper-right-of-the-scre.png"
+  },
+  "art/catalog/moby/13907/screenshot-6306e749a030.webp": {
+   "game": "msx:moby-13907",
+   "sha256": "4aac42ae861c9f17c8756cab62fb220cf83c0fb6c09d098d03afcac89289b237",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/1352851-trivial-pursuit-msx-choose-your-question-category.png"
+  },
+  "art/catalog/moby/140432/screenshot-053d5d8c1857.webp": {
+   "game": "msx:moby-140432",
+   "sha256": "ecff2bc81380d15c9de4db0a9c717eaaa19e5ef0a1b7377fa3238442c8cf7a0e",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/19680092-hibernated-1-this-place-is-death-msx-game-start.png"
+  },
+  "art/catalog/moby/141060/screenshot-dcaba58c4e38.webp": {
+   "game": "msx:moby-141060",
+   "sha256": "faa5e8772a4b5b4f565b9b2b914b563e43675c49cedb90b684afe53b4165d74d",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/16591409-de-sekte-msx-at-the-church.png"
+  },
+  "art/catalog/moby/143930/screenshot-ba4603bce67b.webp": {
+   "game": "msx:moby-143930",
+   "sha256": "ba867a7fc58e12105890554521ef79a7c387fcf425784bfe3a637d06519f2901",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/19563103-mystery-house-msx-search-fireplace-wow-i-have-found-a-safe-it-is.png"
+  },
+  "art/catalog/moby/144572/screenshot-cb6eecf63866.webp": {
+   "game": "msx:moby-144572",
+   "sha256": "ee4e9226fd19d6a6af7838726e2467b6d11fcfc849eb33187ff54712fe74f221",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/16599252-tempo-typen-msx-loading-screen.png"
+  },
+  "art/catalog/moby/144573/screenshot-b25fad57ee71.webp": {
+   "game": "msx:moby-144573",
+   "sha256": "c08f6032362be7905715c49f91771c8bcbb0fa68e93f24322b0de93d66d0a683",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/12415142-kruiswoord-msx-each-time-you-start-a-new-game-it-will-assemble-a.png"
+  },
+  "art/catalog/moby/145781/screenshot-62503c206050.webp": {
+   "game": "msx:moby-145781",
+   "sha256": "9701c94b887fcb1f9bbadb8d8007b4cc813113a4919a75de37441413e186359c",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/19688725-the-curse-of-rabenstein-msx-inn-msx1.png"
+  },
+  "art/catalog/moby/14761/screenshot-f3e568c6d818.webp": {
+   "game": "msx:moby-14761",
+   "sha256": "6f6835ba57452f2ff72d2009a630ea2af9a9d061ca25816f7e5198b6d6018b4b",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/15764835-passengers-on-the-wind-msx-setting-the-scene.png"
+  },
+  "art/catalog/moby/151988/screenshot-371ef13b6834.webp": {
+   "game": "msx:moby-151988",
+   "sha256": "72540e738045853ef21a379c1d71ba96eddde55fe65981c9ee019efc68c11bc5",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/19689285-the-queens-footsteps-msx-game-start.png"
+  },
+  "art/catalog/moby/154785/box-2e03029a4873.webp": {
+   "game": "msx:moby-154785",
+   "sha256": "4fe9ae52f093d094dc2a2aafb9d1bd630feca72a2a24b9466cd9e4fa5412e8ce",
+   "sourceUrl": "https://cdn.mobygames.com/covers/9624576-tristam-island-linux-front-cover.png"
+  },
+  "art/catalog/moby/154785/screenshot-e19d24cbccf9.webp": {
+   "game": "msx:moby-154785",
+   "sha256": "0b11be1ee4b3e5afdd9f9a3545f2ad550dfff55dea3acfabb013d592d003281d",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/16875366-tristam-island-msx-msx2.png"
+  },
+  "art/catalog/moby/157550/box-8af1b123b280.webp": {
+   "game": "msx:moby-157550",
+   "sha256": "cdd81123acbc52dbb7fd71e5e1f5c147e9f471bf267076b54c390bf0cc3360d6",
+   "sourceUrl": "https://cdn.mobygames.com/covers/9581590-tanigawa-koji-no-shogi-shinan-ii-meijin-e-no-michi-msx-front-cov.jpg"
+  },
+  "art/catalog/moby/15803/screenshot-279630420877.webp": {
+   "game": "msx:moby-15803",
+   "sha256": "38ee6250addcf0e177091bd04eeb101a620dc8b5e628322dac59b09e604a4b46",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/15818219-conquestador-msx-chest.png"
+  },
+  "art/catalog/moby/15864/box-f8abc40dfa23.webp": {
+   "game": "msx:moby-15864",
+   "sha256": "2b080d94185e9a34fa385b829032ebc28ac421b0ba881246da680333b38f64a9",
+   "sourceUrl": "https://cdn.mobygames.com/covers/4646891-power-strike-msx-front-cover.jpg"
+  },
+  "art/catalog/moby/15864/screenshot-4749e029912e.webp": {
+   "game": "msx:moby-15864",
+   "sha256": "810669b163b3108b3a03d67bcbd0e707dac38b51b853d79b56f3588b9468d552",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/15749370-power-strike-msx-round-2.png"
+  },
+  "art/catalog/moby/161042/screenshot-b7b4df1edca3.webp": {
+   "game": "msx:moby-161042",
+   "sha256": "0303b83fc4397889f08d5d40c7863fcd31a92a5f01d1f7ee343c3226694412df",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/12530509-alice-in-wonderland-msx-the-label-on-the-juice-bottle-says-in-en.png"
+  },
+  "art/catalog/moby/1619/box-80894ba89720.webp": {
+   "game": "msx:moby-1619",
+   "sha256": "dba9ebe5246fbc20afb0f60a2005e3087404c533fde1c3dae9f44ea491d61c7e",
+   "sourceUrl": "https://cdn.mobygames.com/covers/7510418-might-and-magic-book-one-secret-of-the-inner-sanctum-msx-front-c.jpg"
+  },
+  "art/catalog/moby/16840/screenshot-b976ea6e3363.webp": {
+   "game": "msx:moby-16840",
+   "sha256": "ef8e2155858cc86db0dd505b44d754a2aeedd5e91059839a43e0d7c03652425b",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/4935257-red-moon-msx-volcanic-outcrop.png"
+  },
+  "art/catalog/moby/17130/screenshot-5a12e7a7f74b.webp": {
+   "game": "msx:moby-17130",
+   "sha256": "375f59a80b6a6239d5e5b9fab0d2c462c74b6b5e280ea26c4f8ee0b958ede88b",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/16126272-rocco-msx-i-won-prepare-for-the-next-one.png"
+  },
+  "art/catalog/moby/188308/screenshot-0ddb73918dea.webp": {
+   "game": "msx:moby-188308",
+   "sha256": "ce28d462eb0f03cc65359a284331dd9ecbc8a94d19f92341dac861c9d0132868",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/19714189-tenebra-msx-level-2.png"
+  },
+  "art/catalog/moby/19067/box-0303e43cbcee.webp": {
+   "game": "msx:moby-19067",
+   "sha256": "953d7d3cbbb0db5ca69a6b610b97fd30131d7045b1060ecc0d956a6b554b501c",
+   "sourceUrl": "https://cdn.mobygames.com/covers/5116707-captain-zapp-msx-front-cover.jpg"
+  },
+  "art/catalog/moby/19067/screenshot-6fa41d59f6c5.webp": {
+   "game": "msx:moby-19067",
+   "sha256": "17ae565faf81cc1abb44d679a7ffd8dbd953d97c193f1ca0a8e784702cef29f7",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/15681684-captain-zapp-msx-shoot-the-apeman.png"
+  },
+  "art/catalog/moby/192901/box-646e7a44fc2f.webp": {
+   "game": "msx:moby-192901",
+   "sha256": "d19b83b8cce127fcc76823b1525ca7e5284289f0a82bfba77d1269b20b43b357",
+   "sourceUrl": "https://cdn.mobygames.com/covers/11021930-dim-x-msx-front-cover.jpg"
+  },
+  "art/catalog/moby/192902/box-663a80ac7812.webp": {
+   "game": "msx:moby-192902",
+   "sha256": "c5c9828a2d4f480ac06c025167949bc7ab625bf774c8735953bd60ea3c8ae542",
+   "sourceUrl": "https://cdn.mobygames.com/covers/11021933-nuts-msx-front-cover.jpg"
+  },
+  "art/catalog/moby/1941/screenshot-2685a9b63b87.webp": {
+   "game": "msx:moby-1941",
+   "sha256": "bc301ddbae3bb2290832d4474afe4e27f488cff41140e6f3761273ac98b7bc0a",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/4528938-grand-prix-master-msx-no-curves-so-go-full-speed.png"
+  },
+  "art/catalog/moby/19501/screenshot-888491136fd3.webp": {
+   "game": "msx:moby-19501",
+   "sha256": "bb79285baeabc35aecc17612a642ea788ae254122bb67fb981973f745f7a2d98",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/15680628-tokio-msx-shoot-all-enemy-planes.png"
+  },
+  "art/catalog/moby/19508/box-eb2d4ec5d445.webp": {
+   "game": "msx:moby-19508",
+   "sha256": "10e8fb20f2256eacd35bb84eadb4d61301f83d520074cc187266caea91e1cb39",
+   "sourceUrl": "https://cdn.mobygames.com/covers/538423-billiards-msx-front-cover.jpg"
+  },
+  "art/catalog/moby/19508/screenshot-d40193bfe3e0.webp": {
+   "game": "msx:moby-19508",
+   "sha256": "e9c4de7ddc982d2294fa502a293e3d18fdec3ee32e538aa18840972160a55c2e",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/15647248-billiards-msx-pool-table-screenshot.png"
+  },
+  "art/catalog/moby/195611/screenshot-d6e26ced9bec.webp": {
+   "game": "msx:moby-195611",
+   "sha256": "6c0ef7e0b3d7b21abf7b5a7e32563fe29ba7be27c0333d6b45bd81b81ada700e",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/16931609-spy-story-msx-look-can-be-used-to-take-a-close-look-at-various-s.png"
+  },
+  "art/catalog/moby/195731/box-7c2f6a8a893d.webp": {
+   "game": "msx:moby-195731",
+   "sha256": "16444994e5022cd058bbe74d12db34006047b5d42dfdb12f275004fac338fa62",
+   "sourceUrl": "https://cdn.mobygames.com/covers/11213029-traditional-story-msx-front-cover.jpg"
+  },
+  "art/catalog/moby/19630/screenshot-06f60491ac0c.webp": {
+   "game": "msx:moby-19630",
+   "sha256": "81251da61f8c4e3f63a9938cb77a09f0ac7f101e0be1aa45cb3530d30b38db62",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/15708856-king-balloon-msx-the-king-is-kidnapped.png"
+  },
+  "art/catalog/moby/19641/screenshot-0834b3520548.webp": {
+   "game": "msx:moby-19641",
+   "sha256": "d61f307ef629ac061e5180af60bf05d8429a073e89def4103d61f45b17aa0f5d",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/15685726-do-run-run-msx-killed-the-enemy-to-the-next-level.png"
+  },
+  "art/catalog/moby/19665/screenshot-354384e8c254.webp": {
+   "game": "msx:moby-19665",
+   "sha256": "d2935fc50c829f2cd93db442e8b2bf575897b06914cd59d2338b5f03137f2e21",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/15690781-zorni-exerion-ii-msx-lots-of-enemies.png"
+  },
+  "art/catalog/moby/19705/screenshot-50abb504915b.webp": {
+   "game": "msx:moby-19705",
+   "sha256": "2b35d355cc6e03be79de04a25cd4826af496c34f16ed55e9d94d1aa2ca77b742",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/16940973-disc-station-special-4-autumn-edition-msx-shoot-the-yellow-space.png"
+  },
+  "art/catalog/moby/19734/box-d0a9ed20d22f.webp": {
+   "game": "msx:moby-19734",
+   "sha256": "b5b6b58ceb49a35da78659482b6e2d38886f937ada60bb227daf78e44f53df10",
+   "sourceUrl": "https://cdn.mobygames.com/covers/1132117-super-laydock-mission-striker-msx-front-cover.jpg"
+  },
+  "art/catalog/moby/19734/screenshot-7a722fb73ccf.webp": {
+   "game": "msx:moby-19734",
+   "sha256": "b68d4cf5b548e2d03850aa13204c3585b23c34e7acf17766012bebef8cabd3e5",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/15990322-super-laydock-mission-striker-msx-score-level-1.png"
+  },
+  "art/catalog/moby/19769/box-0bb94b6e9007.webp": {
+   "game": "msx:moby-19769",
+   "sha256": "817b20019a2eacfe79f9723ae839350136c6a607871abc741aea1560868a6a0d",
+   "sourceUrl": "https://cdn.mobygames.com/covers/1152585-mahjong-dojo-msx-front-cover.jpg"
+  },
+  "art/catalog/moby/19769/screenshot-4e31464a0cd7.webp": {
+   "game": "msx:moby-19769",
+   "sha256": "af565dfe52b07fc026d40d07522317ee1a2297bce22c66581c2511e804fb8422",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/15717442-mahjong-dojo-msx-pair-the-tiles.png"
+  },
+  "art/catalog/moby/19853/box-3b93b26b7fa6.webp": {
+   "game": "msx:moby-19853",
+   "sha256": "5a6837e441cb4fcbc20e4a16bef685e0099f2e398171ad7e88cb3fe32e68eed5",
+   "sourceUrl": "https://cdn.mobygames.com/covers/4141121-harrier-mission-msx-front-cover.jpg"
+  },
+  "art/catalog/moby/19853/screenshot-06d87411ed24.webp": {
+   "game": "msx:moby-19853",
+   "sha256": "b6d7dfb73f43f2293529f5f5c1d2b9cc81e8f99b9356c9730b4eeefa2772dc1c",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/15705199-harrier-mission-msx-the-cockpit.png"
+  },
+  "art/catalog/moby/19912/screenshot-7b6943447903.webp": {
+   "game": "msx:moby-19912",
+   "sha256": "31d6f103c08e89215c77f2051fa288549136a6c48b80c5f2bd28fb049346cb02",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/4488729-fernando-martin-executive-msx-jump.png"
+  },
+  "art/catalog/moby/199165/screenshot-e7b9899916a9.webp": {
+   "game": "msx:moby-199165",
+   "sha256": "20ef1b0e36b98e1a2d412ff57529ded77df00a9a6ae84c8466b46f1dd8b11de9",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/19685281-torreoscura-msx-game-start.png"
+  },
+  "art/catalog/moby/19920/screenshot-d6028dc4f846.webp": {
+   "game": "msx:452380",
+   "sha256": "4efe3d9a47070dd5cbf2f65cd0aa39dc621928936a208e2824ab704a69f05864",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/2299257-race-city-msx-the-gas-station.png"
+  },
+  "art/catalog/moby/20023/screenshot-c93d8293bec5.webp": {
+   "game": "msx:moby-20023",
+   "sha256": "280e0e733850a2d8ffe4de37181b860932f71d792ce895f5844c8bfa69fd2646",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/16085831-megachess-msx-the-game-board-is-set-to-go.png"
+  },
+  "art/catalog/moby/20077/box-73bb6051524b.webp": {
+   "game": "msx:moby-20077",
+   "sha256": "201f36126a923edae79c6ee8ca24b09fea60d4f6f77eb2244c25dd40273a4098",
+   "sourceUrl": "https://cdn.mobygames.com/covers/5966437-multi-sports-msx-front-cover.jpg"
+  },
+  "art/catalog/moby/20234/box-5ccb75e3d91a.webp": {
+   "game": "msx:moby-20234",
+   "sha256": "3ddeb7be86f8e10aa5b3490ebcd346839c9b81e0837b12ca9e8e4366b969f178",
+   "sourceUrl": "https://cdn.mobygames.com/covers/1159678-badlands-msx-front-cover.jpg"
+  },
+  "art/catalog/moby/20248/box-eec6289f9759.webp": {
+   "game": "msx:moby-20248",
+   "sha256": "53b2ac15326850109bd0669f3f4062a89fee2ebece7b1edd8ed041615f618359",
+   "sourceUrl": "https://cdn.mobygames.com/covers/4656423-ring-king-msx-front-cover.jpg"
+  },
+  "art/catalog/moby/20248/screenshot-06e4298e4f96.webp": {
+   "game": "msx:moby-20248",
+   "sha256": "aa6213c7e7f5284315ae7bc0d194339daec329e7c15bf85c8d2d6e8c14cf73e0",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/15728202-ring-king-msx-you-lost.png"
+  },
+  "art/catalog/moby/20375/box-f6da7928a075.webp": {
+   "game": "msx:moby-20375",
+   "sha256": "7deb2143c9be1332158d6b4496819aee2cbd523b9851e6d4b03aeb645a520973",
+   "sourceUrl": "https://cdn.mobygames.com/covers/5110734-the-computer-edition-of-scrabble-brand-crossword-game-msx-front-.jpg"
+  },
+  "art/catalog/moby/20375/screenshot-64b5702788ef.webp": {
+   "game": "msx:moby-20375",
+   "sha256": "64ae8463372418f827e4ebf27a020ef559e703c91275f8aea181a972e8d1ad94",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/15730974-the-computer-edition-of-scrabble-brand-crossword-game-msx-the-se.png"
+  },
+  "art/catalog/moby/20397/screenshot-693d529ca7bd.webp": {
+   "game": "msx:moby-20397",
+   "sha256": "b2a87b2d4f038ebb04839c45333f21b96c202bd2373c87e6c6825f11fa67db95",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/16119582-hiper-tronic-msx-they-got-me.png"
+  },
+  "art/catalog/moby/203986/screenshot-8210c3cfe620.webp": {
+   "game": "msx:moby-203986",
+   "sha256": "ff7cf39f3f2f1f8616ebf7d3b2e3d1faf33290c9a56f1e8701e6e8392201e73d",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/17159669-maths-invaders-msx-you-can-choose-questions-on-addition-subtract.png"
+  },
+  "art/catalog/moby/20417/box-ded6c8cbfe4f.webp": {
+   "game": "msx:moby-20417",
+   "sha256": "f3eb60927a8267d43519183f46b87fb8e1c75735bda89b416eeb7f8cf85815f9",
+   "sourceUrl": "https://cdn.mobygames.com/covers/5180896-pub-darts-msx-front-cover.jpg"
+  },
+  "art/catalog/moby/20417/screenshot-7763be746b94.webp": {
+   "game": "msx:moby-20417",
+   "sha256": "1aa3f2670988b70466cf6ef788efdf720e7a053746ec89f22af8af0b3245b85e",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/4724716-pub-darts-msx-its-your-opponents-turn-to-throw-the-darts.png"
+  },
+  "art/catalog/moby/208583/screenshot-508e03579d04.webp": {
+   "game": "msx:moby-208583",
+   "sha256": "8cdda97f6ae6b1ec9092780df6cf972c5f126fe77cc2a870d939a49d042eb5d7",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/17943560-het-geheim-van-de-drie-burchten-msx-if-there-is-also-a-creature-.png"
+  },
+  "art/catalog/moby/209670/screenshot-8e98772299dc.webp": {
+   "game": "msx:moby-209670",
+   "sha256": "fa4358610aab02fe2adf7856c7a8bf597b91f584b23ceacf802ced78d66c03f7",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/17718149-bounce-msx-the-player-has-to-bounce-away-all-the-blocks-on-the-s.png"
+  },
+  "art/catalog/moby/210188/screenshot-24483c7da90c.webp": {
+   "game": "msx:moby-210188",
+   "sha256": "7727f1467eeb7a07eefd3f4b0b406d8a8c18ea90e641924d70b5daaf28c3ae24",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/17750463-star-wars-msx-you-a-cadet-of-the-kenobian-air-defense-must-inter.png"
+  },
+  "art/catalog/moby/210407/screenshot-4afefebf8eb0.webp": {
+   "game": "msx:moby-210407",
+   "sha256": "599fda906ef34834e2e41ed0cd2e4f7891cc3a3877d01ea9215e0d35266a1694",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/17739983-martian-war-msx-the-game-keeps-track-of-how-many-enemies-and-how.png"
+  },
+  "art/catalog/moby/210875/screenshot-314aefbbd83b.webp": {
+   "game": "msx:moby-210875",
+   "sha256": "25a7eee94376d3efab81efd4b70246f45f4845f6936c51292f6d79a757c670d9",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/17770150-power-fail-msx-software-produced-from-the-electricity.png"
+  },
+  "art/catalog/moby/212341/screenshot-db170c466a91.webp": {
+   "game": "msx:moby-212341",
+   "sha256": "32eae1618e3ab0ab03cc4bcf736f180be09ee7afce46e25a41e1a2d496b772eb",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/17991489-snake-msx-using-the-fire-button-or-space-bar-the-player-can-shoo.png"
+  },
+  "art/catalog/moby/214039/screenshot-5f414e41ba88.webp": {
+   "game": "msx:moby-214039",
+   "sha256": "26eb9c1e29313d4e54a0d35f389726a0a2b9e5a738ff0a4de6f95b92a8b3fef8",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/18026523-jet-fighter-msx-demonstration.png"
+  },
+  "art/catalog/moby/217472/screenshot-eee55e9708e4.webp": {
+   "game": "msx:moby-217472",
+   "sha256": "f3ef705f5cea8fb8df76876cbe3511e9455080b6a908f3402810324ac9131235",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/18724159-sky-diver-msx-about-to-land-successfully.png"
+  },
+  "art/catalog/moby/219027/screenshot-fce6053d58d7.webp": {
+   "game": "msx:moby-219027",
+   "sha256": "bf36d3eb5ef0e6e5be547d6670c4f1cbc81bdd8bb5659c84c2f92ba88c184aa7",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/19200656-dog-fighter-msx-the-enemy-aircraft-carrier-escaping-after-launch.png"
+  },
+  "art/catalog/moby/22416/screenshot-d4fd3d10ad79.webp": {
+   "game": "msx:moby-22416",
+   "sha256": "d93106d2c07d4a3bebf549ca0f5cadaf5ed7c16cb3db00139c1a7a66e4bead00",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/15651580-disk-station-0-msx-brain-greys-last-armageddon.png"
+  },
+  "art/catalog/moby/224915/screenshot-d36d94180895.webp": {
+   "game": "msx:moby-224915",
+   "sha256": "3bf9aa8f5ddc3f0cec45a645c240df9368f4f9777426da17d31d117b6863ef9f",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/18888371-help-sea-bomber-msx-game-over.png"
+  },
+  "art/catalog/moby/224916/screenshot-a63d0f98bf06.webp": {
+   "game": "msx:moby-224916",
+   "sha256": "1b651812f4471ab36d9bf0807b0f8e69e2b94fd9f141ece220f8a9beedeac1de",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/18946640-fire-ball-akarui-noen-msx-game-instructions.png"
+  },
+  "art/catalog/moby/227748/screenshot-cf582fc37c86.webp": {
+   "game": "msx:moby-227748",
+   "sha256": "691e965a2a36cc3a5663c59853b5849a455fe6f7cfd372c177b5ea6fe9856f5b",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/18919889-puzzle-mania-msxdev24-edition-msx-ingame-puzzle-screen.png"
+  },
+  "art/catalog/moby/228160/box-52fc998bf531.webp": {
+   "game": "msx:moby-228160",
+   "sha256": "01aa93f2d15f7906db74c188b8b9c3faf296e34763be2b77ae5a953e2859e527",
+   "sourceUrl": "https://cdn.mobygames.com/covers/18931075-rite-of-the-druid-dos-front-cover.png"
+  },
+  "art/catalog/moby/22841/box-01f4808ef62d.webp": {
+   "game": "msx:moby-22841",
+   "sha256": "394600871dd9b4c814f048212cab8abc7b355f6797ff1deb8b2fb7c6112606ba",
+   "sourceUrl": "https://cdn.mobygames.com/covers/5166311-champions-msx-front-cover.jpg"
+  },
+  "art/catalog/moby/23363/screenshot-beda65abc625.webp": {
+   "game": "msx:moby-23363",
+   "sha256": "8d75a8d433611be01a723643f1b09f8bf0b64e281072eb713e49703da4c3ed42",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/15799279-snowball-msx-stupid-interpreter.png"
+  },
+  "art/catalog/moby/23369/screenshot-c8333bd7d86c.webp": {
+   "game": "msx:moby-23369",
+   "sha256": "9646ef92de875e04a1acd03345cf7e3a22d432ed223e72edf8159c8fbc8e4e5c",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/15786337-return-to-eden-msx-outside-view.png"
+  },
+  "art/catalog/moby/237842/box-055e6f8ead32.webp": {
+   "game": "msx:moby-237842",
+   "sha256": "49b7a3df8df39b5f63627d6a2e4c6527b22d816c916418c528609c1540c9d065",
+   "sourceUrl": "https://cdn.mobygames.com/covers/19895781-marlow-in-apocalyptic-acid-world-msx-front-cover.png"
+  },
+  "art/catalog/moby/23796/box-af22efef1c35.webp": {
+   "game": "msx:moby-23796",
+   "sha256": "04c2c93953e43a6abc36692349d1e0f35e42bf54f83b19c13125ed65aad69026",
+   "sourceUrl": "https://cdn.mobygames.com/covers/5496468-cosmic-relief-prof-renegade-to-the-rescue-msx-front-cover.jpg"
+  },
+  "art/catalog/moby/23796/screenshot-2476eb99bb83.webp": {
+   "game": "msx:moby-23796",
+   "sha256": "7bf8f256101a16e14e59bf5c3093ed3f2366ff6bef791f5fb0d7fbf3629f7ea5",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/16000329-cosmic-relief-prof-renegade-to-the-rescue-msx-hmm-i-wonder-what-.png"
+  },
+  "art/catalog/moby/23904/box-330e6f35117b.webp": {
+   "game": "msx:moby-23904",
+   "sha256": "b7f864f7a63a45509a64ce44362f5e64bb56963369055bba67fc2323515a858b",
+   "sourceUrl": "https://cdn.mobygames.com/covers/202483-superstar-soccer-msx-front-cover.jpg"
+  },
+  "art/catalog/moby/23904/screenshot-a191f7012de8.webp": {
+   "game": "msx:moby-23904",
+   "sha256": "43d97fc34ed1d24243e314bac8662c3699e7171f22ce0071a4118d1271303a86",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/16101719-superstar-soccer-msx-it-went-out-of-bounds-beside-the-goal.png"
+  },
+  "art/catalog/moby/24052/screenshot-8cbfa5e6e1bc.webp": {
+   "game": "msx:moby-24052",
+   "sha256": "10af27b1fe650674e35289f920d343df519f8a1328944eafcb530239dd2e339f",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/16039156-sport-racer-msx-second-race.png"
+  },
+  "art/catalog/moby/24119/screenshot-977779efe637.webp": {
+   "game": "msx:moby-24119",
+   "sha256": "f190297b4a225845750f2d8bf1c37c76ebaf8bcc57812ee259ad07a6e08c060a",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/15761040-winglancer-msx-boss-1-2.png"
+  },
+  "art/catalog/moby/241516/screenshot-c1b4a8bda070.webp": {
+   "game": "msx:moby-241516",
+   "sha256": "69ff5fba5a1179b79ba4288f0d3cc960f876837aa5d40cc04b7aa6317c5fe0dd",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/20123041-la-geste-dartillac-msx-the-henerim-window-displays-the-artillac-.png"
+  },
+  "art/catalog/moby/246028/box-36beb4d83c5b.webp": {
+   "game": "msx:moby-246028",
+   "sha256": "d13f37eaa0802b4f19999786fa2f751865bd745ecd4e5cdb047b0c04f48f2045",
+   "sourceUrl": "https://cdn.mobygames.com/covers/20486125-devwill-too-zx-zx-spectrum-front-cover.png"
+  },
+  "art/catalog/moby/24731/screenshot-01a42164d429.webp": {
+   "game": "msx:moby-24731",
+   "sha256": "f23508b2b2919716e879814bb7a7fc5820ef2a13c94b240a69c1ef5f119d0cf1",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/16120089-wacky-darts-msx-that-throw-scored-an-outer-bulls-eye-25.png"
+  },
+  "art/catalog/moby/251843/box-d2a921b7b2a3.webp": {
+   "game": "msx:moby-251843",
+   "sha256": "783d6d7485a125a1d95fa08335fb0698799ab2b19b67289e80dac37bfd92aa25",
+   "sourceUrl": "https://cdn.mobygames.com/covers/25323007-binary-battle-commodore-64-front-cover.png"
+  },
+  "art/catalog/moby/258627/screenshot-55fc2b72756b.webp": {
+   "game": "msx:moby-258627",
+   "sha256": "7361ba945a42494dd953d511d4a8655c4b18ea35f841196812cb89fb41eb754e",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/41506769-disc-station-deluxe-3-msx-round-3-walk-into-the-yellow-balloons-.png"
+  },
+  "art/catalog/moby/26379/screenshot-6862e1f95742.webp": {
+   "game": "msx:moby-26379",
+   "sha256": "998d60e391ac467b2baf92b65aaebd08f6de806461cce7c6204a020382fc23fb",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/16320492-snooper-troops-case-2-the-case-of-the-disappearing-dolphin-msx-c.png"
+  },
+  "art/catalog/moby/266301/box-961cee34efd4.webp": {
+   "game": "msx:moby-266301",
+   "sha256": "b9d0ef703920d2459164f60fa4e3e20b41c9e58ace3300d8c5a13ad3ab46851d",
+   "sourceUrl": "https://cdn.mobygames.com/covers/39509256-matchy-matchy-msx-front-cover.png"
+  },
+  "art/catalog/moby/267255/screenshot-968feadd3cb1.webp": {
+   "game": "msx:moby-267255",
+   "sha256": "599d1135713ad772e39b1394bd36112eb95c8f55e86a9f106d04389844afb4d1",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/42636021-river-chase-msx-laying-mines.png"
+  },
+  "art/catalog/moby/268110/screenshot-4c7b0d281461.webp": {
+   "game": "msx:moby-268110",
+   "sha256": "a47101c2196c6af0fedec881d2fa71d0378389f1896978474c0a181541b019a0",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/40898846-ohsho-msx-the-middle-game.png"
+  },
+  "art/catalog/moby/27036/screenshot-b14232542b44.webp": {
+   "game": "msx:moby-27036",
+   "sha256": "f9d541cd901fc2c41f1f5f580cde0cbbcd5d42966bdc1aa0eb3c22bf0703947d",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/15818159-smash-out-msx-can-you-spot-the-ball-can-you-find-the-paddle.png"
+  },
+  "art/catalog/moby/28103/screenshot-d767640ea3e5.webp": {
+   "game": "msx:moby-28103",
+   "sha256": "c52f6ee9dd72c92b30e8d92f64489b4e3cf8663c7dcf35c147ab959f7bfe25f7",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/15841645-a-lenda-da-gavea-msx-iposeira-street.png"
+  },
+  "art/catalog/moby/28314/screenshot-c2cbecfc5220.webp": {
+   "game": "msx:moby-28314",
+   "sha256": "17b392995893df5085c49376bdb5e8d31f90ae840c1c93a4000bfa2016c91977",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/15836752-serra-pelada-msx-map-jail-and-other-areas.png"
+  },
+  "art/catalog/moby/28559/box-951775d421f2.webp": {
+   "game": "msx:moby-28559",
+   "sha256": "23d553a18e95a2c63a1d1185bc59dd8d9ffaea9549a6071124a621272e6bd464",
+   "sourceUrl": "https://cdn.mobygames.com/covers/5121401-coil-cop-msx-front-cover.jpg"
+  },
+  "art/catalog/moby/28559/screenshot-ea8593d341d3.webp": {
+   "game": "msx:moby-28559",
+   "sha256": "b9eaeba41f921c1d043e071973692cfa2574a58acba1edf7ef607a730888e525",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/16122030-coil-cop-msx-entering-through-pipes.png"
+  },
+  "art/catalog/moby/28564/screenshot-05c2a83e77ac.webp": {
+   "game": "msx:moby-28564",
+   "sha256": "4658f1bd2c4ac8206588a30501b6286df59cbc7ca968eb8e3835c54d9cfc750f",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/15855377-treasure-island-msx-demo-friends.png"
+  },
+  "art/catalog/moby/28812/box-34cff1c1a8aa.webp": {
+   "game": "msx:moby-28812",
+   "sha256": "255e011f84e293a17a43226022e279d0223b18a1ef82e43305d5712b8edec233",
+   "sourceUrl": "https://cdn.mobygames.com/covers/5461990-time-and-magik-the-trilogy-msx-front-cover.jpg"
+  },
+  "art/catalog/moby/2963/screenshot-ba088f7bd8ba.webp": {
+   "game": "msx:moby-2963",
+   "sha256": "abd7f13a879163bb91cbd2a981987532a32fc175799037f47385fa4c42a2fe27",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/16085216-rick-daviss-world-trophy-soccer-msx-hes-running-the-ball-down-th.png"
+  },
+  "art/catalog/moby/3020/box-4346642bb3b6.webp": {
+   "game": "msx:moby-3020",
+   "sha256": "1eb59cb3ac9fe8dcdd851d6ed86cfa3c10eda051a74cfa39a39bd21c88dcffa9",
+   "sourceUrl": "https://cdn.mobygames.com/covers/1434337-rushn-attack-msx-front-cover.jpg"
+  },
+  "art/catalog/moby/3020/screenshot-21da67587619.webp": {
+   "game": "msx:moby-3020",
+   "sha256": "3bdc68a8ef9cacbcc6082d8ea3cf6d44c23010be3501c47bd7856e4f8f6726e9",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/16034338-rushn-attack-msx-kill-the-ruskies.png"
+  },
+  "art/catalog/moby/30337/box-b9429c8c5224.webp": {
+   "game": "msx:moby-30337",
+   "sha256": "84b55e7572daff10d0f926a98e1d4c5cadbc3ef0dce6620fed85ef5060343184",
+   "sourceUrl": "https://cdn.mobygames.com/covers/4311424-msx-compilation-7-msx-front-cover.jpg"
+  },
+  "art/catalog/moby/30376/box-9bf46453978e.webp": {
+   "game": "msx:155187",
+   "sha256": "7fe8b31527f4273a6ed47339be643e33e4e2cefe806efa896f9e9eaaa96fa0eb",
+   "sourceUrl": "https://cdn.mobygames.com/covers/5150266-panique-msx-front-cover.jpg"
+  },
+  "art/catalog/moby/30376/screenshot-2136f63dd858.webp": {
+   "game": "msx:155187",
+   "sha256": "a54b17630d9232a2b52f95f3e62d7549d2246ae86c4899dd840b24a7f5851c93",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/15868890-panique-msx-a-short-intermission.png"
+  },
+  "art/catalog/moby/30399/screenshot-7fac0a49d43e.webp": {
+   "game": "msx:moby-30399",
+   "sha256": "5a97165edd7b7e1a03fd71bf6cff857285cb81e4cabbb3aca1577c1f46dc9edc",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/16039630-shadow-hunter-msx-inside-you-find-rika-dead.png"
+  },
+  "art/catalog/moby/32520/screenshot-50e209b608b9.webp": {
+   "game": "msx:moby-32520",
+   "sha256": "5bfa85894806b457b1e6fb2af86e7ff0ff4ccf0c228ce395970bb00a494e0eff",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/15670013-mystery-of-the-nile-msx-in-the-next-area.png"
+  },
+  "art/catalog/moby/35733/box-f0523e3cb687.webp": {
+   "game": "msx:moby-35733",
+   "sha256": "fca3f83e0c75daf471cc1eaf300b31c9552ae148102ebc0e994073b7e139b284",
+   "sourceUrl": "https://cdn.mobygames.com/covers/5117549-spaghetti-western-simulator-msx-front-cover.jpg"
+  },
+  "art/catalog/moby/35788/box-0ca47482314b.webp": {
+   "game": "msx:moby-35788",
+   "sha256": "9e6690f2c7cc5c0665cc8dd7ca8e217ee053f4d09d7c6511634007f3fa398c42",
+   "sourceUrl": "https://cdn.mobygames.com/covers/5149230-tournament-snooker-msx-front-cover.jpg"
+  },
+  "art/catalog/moby/35790/box-963a33bf0d04.webp": {
+   "game": "msx:moby-35790",
+   "sha256": "3000e6a1848661bf209aaec1d0b1e114fe31249ffb852e7090d83355a21e1932",
+   "sourceUrl": "https://cdn.mobygames.com/covers/11514-ninja-msx-front-cover.jpg"
+  },
+  "art/catalog/moby/35790/screenshot-7e8f7adfd5a3.webp": {
+   "game": "msx:moby-35790",
+   "sha256": "97ff10d2f2efa1620e7b164d2d131990f19e76bdb71387d8fce8c2e901746bb9",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/15972188-ninja-msx-survived-the-first-level.png"
+  },
+  "art/catalog/moby/36502/box-0b56266eb423.webp": {
+   "game": "msx:moby-36502",
+   "sha256": "9de68ed28151eac494e289f33791d996e9f6c95fe28ab6461161028d43211592",
+   "sourceUrl": "https://cdn.mobygames.com/covers/5131074-space-busters-msx-front-cover.jpg"
+  },
+  "art/catalog/moby/36502/screenshot-a2572ff4da2c.webp": {
+   "game": "msx:moby-36502",
+   "sha256": "77aac75d48a000bf98630e84c75cbc2893275333c48838ff9af5b5d7e0098bed",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/16068169-space-busters-msx-i-was-hit-an-lost-a-life.png"
+  },
+  "art/catalog/moby/40652/box-9f0df5b724e0.webp": {
+   "game": "msx:moby-40652",
+   "sha256": "60d504b326673b6c8b2852b5e8d77871756d0a56ff33d88dfcd6a75453d3f7a0",
+   "sourceUrl": "https://cdn.mobygames.com/covers/8541983-loco-motion-msx-front-cover.jpg"
+  },
+  "art/catalog/moby/40652/screenshot-0afac1343eb6.webp": {
+   "game": "msx:moby-40652",
+   "sha256": "a97d5c7f2a8577f62fe0e4137df2d9822cb7b3c6bb4c11fce57ddf4182ec9103",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/16610234-loco-motion-msx-pick-up-the-people-at-the-train-stations.png"
+  },
+  "art/catalog/moby/50107/box-348dd299758e.webp": {
+   "game": "msx:423889",
+   "sha256": "9d6e7ad971954dfcc0c129d1442c04188504732701eee9b877690f7846202886",
+   "sourceUrl": "https://cdn.mobygames.com/covers/6128959-firehawk-msx-front-cover.jpg"
+  },
+  "art/catalog/moby/50641/screenshot-2228232e1451.webp": {
+   "game": "msx:moby-50641",
+   "sha256": "850331488bd11145c88f5401a45ba57ab8ab87607defe7a0d784868b6ce93225",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/16014642-o-ogro-msx-bonus-level-catch-all-rings-and-youll-earn-many-bonus.png"
+  },
+  "art/catalog/moby/51064/screenshot-1448f229b8a9.webp": {
+   "game": "msx:moby-51064",
+   "sha256": "0d96bc3feb1ac9c5a7e4c7c2169721d383abf73f7b63269a8c6915cb8e7bfb07",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/15989000-rad-action-msx-scene-2.png"
+  },
+  "art/catalog/moby/55882/screenshot-f78986b2c4a9.webp": {
+   "game": "msx:moby-55882",
+   "sha256": "588a3dbdf4ebc5fc4f0edc96f7d19c44589cdf50d815406646d628a7ffa5a345",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/15973985-lizard-msx-fight-mode.png"
+  },
+  "art/catalog/moby/57334/screenshot-173fa8ff94e8.webp": {
+   "game": "msx:moby-57334",
+   "sha256": "8afaf9a2c765cba5fcf54a1646dfd0af67d84a04a90dc528c3c40561445aaf3f",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/16291670-astrododge-msx-enhanced-graphics-on-msx2-machines.png"
+  },
+  "art/catalog/moby/580/box-529b1fddd14c.webp": {
+   "game": "msx:moby-580",
+   "sha256": "a32f156ebe4b5497463c9e9d2dd9af4bf4475257b83d3b6f7c1552858dee6bbf",
+   "sourceUrl": "https://cdn.mobygames.com/covers/6377904-world-karate-championship-msx-front-cover.jpg"
+  },
+  "art/catalog/moby/580/screenshot-a5323220d8f5.webp": {
+   "game": "msx:moby-580",
+   "sha256": "9e9401acdca7d8785bf5ac58c2b9031a99f80fe7381b29f8ba978c84bc1825b6",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/16217861-world-karate-championship-msx-full-point.png"
+  },
+  "art/catalog/moby/58840/screenshot-07737e5f0007.webp": {
+   "game": "msx:moby-58840",
+   "sha256": "2ea36a76e596c56e780d359915c4eeb16c515bec878c43280fa5019300e51206",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/16847427-pink-sox-msx-closer-to-success.png"
+  },
+  "art/catalog/moby/58841/screenshot-dbad1bab56bb.webp": {
+   "game": "msx:moby-58841",
+   "sha256": "1ade479d6dd510a763434a1b5c8134a5f582b56e79425b8dd138ac5240dd2f8c",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/19205643-pink-sox-2-msx-a-cartoon-scene.png"
+  },
+  "art/catalog/moby/64105/screenshot-2ce28bf1e54b.webp": {
+   "game": "msx:moby-64105",
+   "sha256": "ce015da1afb90827c8b3f351babb58b5d94c9c28de136e387c0373cf56856c4d",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/15973078-minnesota-fats-pool-challenge-msx-bad-first-shot.png"
+  },
+  "art/catalog/moby/647/screenshot-6a6d9e5e8841.webp": {
+   "game": "msx:moby-647",
+   "sha256": "bdc7926c921200b41a31faf853ae5ce63ab84e21a41e8f9fc8c110407578bfb8",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/16205544-phantasie-msx-world-map.png"
+  },
+  "art/catalog/moby/65750/screenshot-8cbaa8b9f9e2.webp": {
+   "game": "msx:moby-65750",
+   "sha256": "480ff013ada4798fa9e4f74e6a4f67654555cedd9afa1cae5a8a0f572f1f26a8",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/15973435-the-ultra-msx-level-2-gameplay.png"
+  },
+  "art/catalog/moby/6683/screenshot-3f22bf04e285.webp": {
+   "game": "msx:moby-6683",
+   "sha256": "54b077695e19e1c87504f1b406cfdbfeab35cc5ecbb6d52b29e1dd48ade15bb6",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/16154133-facemaker-msx-complete-face.png"
+  },
+  "art/catalog/moby/6739/box-e4880e8c15d5.webp": {
+   "game": "msx:moby-6739",
+   "sha256": "ac457dcde2fda5ae06118f9689fffd577ad38cdcd7125a1e1c147514d350ad3a",
+   "sourceUrl": "https://cdn.mobygames.com/covers/4646833-ikari-warriors-msx-front-cover.jpg"
+  },
+  "art/catalog/moby/6739/screenshot-37a518a30985.webp": {
+   "game": "msx:moby-6739",
+   "sha256": "737f6f99f8ec0a0e19252ac04276f5941d4b3171ea577a0a570188c4e66be7be",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/15692125-ikari-warriors-msx-shoot-the-ninjas.png"
+  },
+  "art/catalog/moby/68841/screenshot-88858ddf6c6e.webp": {
+   "game": "msx:moby-68841",
+   "sha256": "4638638928a1ce41aeb1be64dcb3c1ed88873f7be897375d9bc3f6d9519dfca6",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/15972134-dezeni-land-msx-beginning-of-game.png"
+  },
+  "art/catalog/moby/69866/screenshot-944fb428eb63.webp": {
+   "game": "msx:moby-69866",
+   "sha256": "d14e93f29d2579329f25738499610f34d2476568307641ca8a40e59cd21d4356",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/15970969-jeu-de-tarot-msx-south-bid.png"
+  },
+  "art/catalog/moby/7009/screenshot-12017c127b40.webp": {
+   "game": "msx:moby-7009",
+   "sha256": "c441189b94be36a0a5e87ce9a11124286e82afbf1e22a23c63066625e0aad511",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/16113744-after-burner-ii-msx-stage-17-is-quite-a-labyrinth.png"
+  },
+  "art/catalog/moby/7374/screenshot-dae9d3871f62.webp": {
+   "game": "msx:moby-7374",
+   "sha256": "873a3689d2eaf5ca6ebd8f2dee71f032d702be58b6e24fccba8cad3e706075ec",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/16901016-bases-loaded-msx-a-new-pitcher-comes-in.png"
+  },
+  "art/catalog/moby/8075/screenshot-70bae3fa209c.webp": {
+   "game": "msx:moby-8075",
+   "sha256": "62183f93603fc26f4f107de67bb03b9c38831049fcf3b3d3322792618a4b90ea",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/2007814-dragon-warrior-ii-msx-hey-nice-dog.png"
+  },
+  "art/catalog/moby/8264/screenshot-8211d1321d33.webp": {
+   "game": "msx:moby-8264",
+   "sha256": "ad9140e253eb94269fb3eac83095c4d84d77ba6be1ccf69f3009b1203f2b38c6",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/15786121-scramble-spirits-msx-title-screen.png"
+  },
+  "art/catalog/moby/8334/box-9a0cfca577c0.webp": {
+   "game": "msx:moby-8334",
+   "sha256": "6f2e0bc7026e0e7d3baabdc834976a24f0de703a046dfa0b61135bfc8032f3d3",
+   "sourceUrl": "https://cdn.mobygames.com/covers/535905-cruisin-msx-front-cover.jpg"
+  },
+  "art/catalog/moby/8334/screenshot-513ea473a284.webp": {
+   "game": "msx:moby-8334",
+   "sha256": "a89a6fe41c5e095f25b4af101c0115a6b55dfeb42299990949c2e4ae393dd3aa",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/15716398-cruisin-msx-crashed-in-new-york.png"
+  },
+  "art/catalog/moby/8620/screenshot-0ae8af19c28a.webp": {
+   "game": "msx:moby-8620",
+   "sha256": "42147a525e718e19bedd704ac0ec0b623ff06c8b153f3dfff09499aa433daad7",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/16153686-kindercomp-msx-numeros-numbers.png"
+  },
+  "art/catalog/moby/880/screenshot-37b238475309.webp": {
+   "game": "msx:moby-880",
+   "sha256": "60e9cf98aa2e49ca5235c6aed3f9c4489b508e7b447f269146b3634ee3db0149",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/6958085-ultima-ii-the-revenge-of-the-enchantress-msx-entering-a-town.png"
+  },
+  "art/catalog/moby/90158/screenshot-e1e599b5ac54.webp": {
+   "game": "msx:moby-90158",
+   "sha256": "168390efcbdec92be1106aada746639d2685512b206e35f6faf2e76cd1b48a23",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/16889860-nederlandse-topografie-msx-opzoeken-you-can-even-look-up-the-pro.png"
+  },
+  "art/catalog/moby/90165/screenshot-751e501d76f3.webp": {
+   "game": "msx:moby-90165",
+   "sha256": "9c81dc2f184cf86d6974fbd3a4b6c99d51a5ad484db7492f4c207366fedd1f04",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/12455890-maps-europe-msx-opzoeken-the-game-is-from-the-80s-so-the-ddr-sti.png"
+  },
+  "art/catalog/moby/90208/screenshot-3f8bebcba177.webp": {
+   "game": "msx:moby-90208",
+   "sha256": "9a300aec0073b20efb7c14aca5909130fe661f9de24f8d2d7f4b8d97fc62c9d6",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/17025556-maps-world-msx-opzoeken-zuid-jemen-still-exists-back-then-as-wel.png"
+  },
+  "art/catalog/moby/9071/box-4ef286022c36.webp": {
+   "game": "msx:moby-9071",
+   "sha256": "60414335d794effe0ccfd87a7e2a836777e8fea8081eb691bb4194ffeeaa3c1d",
+   "sourceUrl": "https://cdn.mobygames.com/covers/5461978-gauntlet-the-deeper-dungeons-msx-front-cover.jpg"
+  },
+  "art/catalog/moby/9223/screenshot-d1ad3bc8fb2e.webp": {
+   "game": "msx:moby-9223",
+   "sha256": "1c0ec23ff7a3bcb6770e38d8b0b515a67caa8ae8d5ef246bee5aff28b4ba1261",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/1038137-dragon-warrior-msx-battles-have-nice-little-backgrounds.png"
+  }
+ },
+ "schemaVersion": 1
+}

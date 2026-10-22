@@ -1,0 +1,29 @@
+{
+ "games": {
+  "msx2:123952": {
+   "adult": true
+  },
+  "msx2:156346": {
+   "adult": true
+  },
+  "msx2:186754": {
+   "adult": true
+  },
+  "msx2:188835": {
+   "adult": true
+  },
+  "msx2:188898": {
+   "adult": true
+  },
+  "msx2:189066": {
+   "adult": true
+  },
+  "msx2:189076": {
+   "adult": true
+  },
+  "msx2:33917": {
+   "adult": true
+  }
+ },
+ "schemaVersion": 1
+}

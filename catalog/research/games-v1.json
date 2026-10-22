@@ -10,6 +10,7 @@
   },
   "msx2:102126": {
    "boxArtUrl": "https://images.launchbox-app.com/a910a741-25c1-495f-ae9f-645c4a6e81f7.png",
+   "description": "A single-screen platformer: guide the greedy Uwol through a cursed castle, collecting every coin on each screen while dodging its monsters.",
    "developer": "Imanok",
    "launchbox": "102126",
    "mobygames": 130745,
@@ -22,6 +23,7 @@
    "contentIds": [
     "sha256-rom-v1:15962fd815c3fd8d28cbb664c8f99d10825979fb5b9bd975b7aac785d35532eb"
    ],
+   "description": "Taito's arcade platformer: Bub and Bob, turned into bubble-blowing dragons, trap monsters in bubbles and pop them across a hundred cave rounds.",
    "developer": "Taito",
    "launchbox": "103629",
    "publisher": "Taito",
@@ -36,6 +38,7 @@
    "contentIds": [
     "sha256-rom-v1:d8442d2c08958f0bc9be7d2078e3cf07224e1ec3493ddce3215ed8df2bd37b1f"
    ],
+   "description": "Capcom's vertical shooter: fly a P-38 across the Pacific in 1942, rolling to evade fire and shooting down waves of enemy aircraft.",
    "developer": "Capcom",
    "launchbox": "107041",
    "publisher": "ASCII",
@@ -51,6 +54,7 @@
     "Genghis Khan II: Clan of the Gray Wolf"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/3480e89e-9707-4a1c-8dab-c4d861df02e6.png",
+   "description": "Koei's grand strategy game of the Mongol conquests: lead Genghis Khan or a rival ruler across Asia and Europe through war, diplomacy and governance.",
    "developer": "Koei",
    "launchbox": "107664",
    "mobygames": 1927,
@@ -63,6 +67,7 @@
    "contentIds": [
     "sha256-rom-v1:e128f69bb8f51fad98e403bf8294210aea9953b7ac3610009a36c763482118b2"
    ],
+   "description": "A soccer game played on a walled indoor pitch.",
    "developer": "Universal",
    "launchbox": "112693",
    "publisher": "Nidecom Soft",
@@ -81,6 +86,7 @@
    "contentIds": [
     "sha256-rom-v1:93496f086751fc4c2a0e6bbeda285b552bcb385632ebf0fe6a50cc226ba6d200"
    ],
+   "description": "Koei's strategy game of the Mongol conquests: unite the Mongol tribes as Genghis Khan, then build an empire across Asia and Europe.",
    "developer": "Koei",
    "launchbox": "112694",
    "publisher": "Koei",
@@ -102,6 +108,7 @@
    "contentIds": [
     "sha256-rom-v1:17d836e10c413f285649d4c3374ec508513f0a8b3b2b7bfd6a25889441299593"
    ],
+   "description": "A fantasy action role-playing game from Kogado, the Wings of Arugisu.",
    "developer": "Kogado Software Products",
    "launchbox": "112695",
    "mobygames": 228798,
@@ -114,6 +121,7 @@
   },
   "msx2:113064": {
    "boxArtUrl": "https://images.launchbox-app.com/fa593b1e-bd8e-4290-8d73-193321046948.jpg",
+   "description": "A Dragon Quest-style fantasy role-playing game: a lone young man sets out on a quest across a medieval land.",
    "developer": "Xtalsoft",
    "launchbox": "113064",
    "mobygames": 55871,
@@ -131,6 +139,7 @@
    "contentIds": [
     "sha256-rom-v1:f2f227cc198fcc085d6aea4b565a1317f995254b7a8ad9eb70bfeacb4abf0580"
    ],
+   "description": "The first Daisenryaku: a modern war strategy game of producing units and capturing cities on hex maps.",
    "developer": "SystemSoft",
    "launchbox": "113065",
    "publisher": "Micro Cabin",
@@ -146,6 +155,7 @@
     "The Double Vision: Beauty Girl Photo Studio"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/e1f81e91-7f4d-4441-bcc0-a87b9d908b87.png",
+   "description": "A combined release of two Bishoujo Shashinkan games, Moving School and Studio Cut.",
    "developer": "HARD",
    "launchbox": "113066",
    "mobygames": 64520,
@@ -155,6 +165,7 @@
   },
   "msx2:113067": {
    "boxArtUrl": "https://images.launchbox-app.com/61b453b2-b312-4219-8aa8-b6d3b705f4e8.jpg",
+   "description": "Enix's role-playing sequel: three descendants of Erdrick unite to stop the wizard Hargon, sailing the world in search of the five crests.",
    "developer": "Chunsoft",
    "launchbox": "113067",
    "publisher": "Enix",
@@ -172,6 +183,7 @@
    "contentIds": [
     "sha256-rom-v1:097060b1c8d6b0728e8bfc9dc726389cf439515845e3686aade2f7e6403f3cb6"
    ],
+   "description": "Falcom's action adventure: sent by the king to rescue a lost princess, a young warrior explores the kingdom of Romancia and helps its people.",
    "developer": "Nihon Falcom",
    "launchbox": "113068",
    "publisher": "Nihon Falcom",
@@ -187,6 +199,7 @@
    "contentIds": [
     "sha256-rom-v1:efd7494030ef50f34287b8f1908e9e115a530bf4ab6da6fda944b5f75f64b2b8"
    ],
+   "description": "An action game inspired by Gauntlet: the druid Hasrinaxx battles through dungeons with magic to destroy four skulls.",
    "developer": "Nippon Dexter",
    "launchbox": "113069",
    "mobygames": 12712,
@@ -199,6 +212,7 @@
   },
   "msx2:113169": {
    "boxArtUrl": "https://images.launchbox-app.com/3cda9a69-224a-4ed1-8098-9ed75d650a33.jpg",
+   "description": "A first-person action puzzle game: pilot the Eidolon, a 19th-century machine, through caves, collecting and firing energy balls at the creatures within.",
    "developer": "P.A.W. Software",
    "launchbox": "113169",
    "mobygames": 21128,
@@ -214,6 +228,7 @@
    "contentIds": [
     "sha256-rom-v1:0bacc708ff143c8bc954ce5d8861102107f277f8feb306e5127995a8a0aff907"
    ],
+   "description": "Koei's Napoleonic strategy game: rise from general to emperor in the wars after the French Revolution, commanding armies and governing France.",
    "developer": "Koei",
    "launchbox": "113170",
    "mobygames": 1930,
@@ -234,6 +249,7 @@
    "contentIds": [
     "sha256-rom-v1:28bfb18e2d6c4446252fdf9a7adebb1c2a4a8d7f95b5b503bef8c3c4d3ea2f92"
    ],
+   "description": "Koei's World War II strategy game of the European and North African theaters, for one or two players.",
    "developer": "Koei",
    "launchbox": "113171",
    "mobygames": 1934,
@@ -249,6 +265,7 @@
    "contentIds": [
     "sha256-rom-v1:0159f4bafdf0919e51373ea80b2791f82b9a1fa5031c28997816c19bcc69ccf5"
    ],
+   "description": "A combat flight simulator flying the F-15 through seven missions based on real operations.",
    "developer": "SystemSoft",
    "launchbox": "113172",
    "publisher": "SystemSoft",
@@ -263,6 +280,7 @@
    "contentIds": [
     "sha256-rom-v1:3335f19264e3434cb78689d1dff6caee14c8354b26e804b1c9ccb9269f5ad2b6"
    ],
+   "description": "A billiards game with several pool variations.",
    "developer": "Dual",
    "launchbox": "113173",
    "publisher": "Pack-In-Video",
@@ -277,6 +295,7 @@
    "contentIds": [
     "sha256-rom-v1:7653fad3417927288c252445e99913ddde50bfc8ab1f5a1fec342b242ba252c5"
    ],
+   "description": "An action adventure based on the film Labyrinth: an ordinary moviegoer is drawn into the Goblin King's maze and has thirteen hours to escape.",
    "developer": "Pack-In-Video",
    "launchbox": "115795",
    "mobygames": 12175,
@@ -296,6 +315,7 @@
    "contentIds": [
     "sha256-rom-v1:d840babd34f724b5866efcdc9755911431144120066cdbbfa5b98f0ce21d45f1"
    ],
+   "description": "Capcom's action adventure built on Pirate Ship Higemaru: a sailor explores seven islands, throwing barrels to defeat pirates and recover treasure.",
    "developer": "Capcom",
    "launchbox": "115808",
    "mobygames": 19884,
@@ -319,6 +339,7 @@
     "sha256-rom-v1:87a51e8744c0dafa0ab27d8b3b16585cfb5f76673ec62ad05c49c58384ce81b8",
     "sha256-rom-v1:c7f138f16ddb8c8bf7af2fbd136c1f949ab95c375205375a3509d8ad32e00d93"
    ],
+   "description": "Konami's puzzle platformer: an interplanetary archaeologist explores malfunctioning pyramids, collecting jewels and solving each chamber.",
    "developer": "Konami",
    "launchbox": "118562",
    "publisher": "Konami",
@@ -334,6 +355,7 @@
     "Fantasy Zone II: The tears of OPA-OPA"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/cab732f6-3585-4ba9-93de-78dc0f4211f2.jpg",
+   "description": "The Fantasy Zone sequel: the little ship Opa-Opa returns to his homeland, destroying enemy bases across warp-linked zones and buying weapons from shops.",
    "developer": "Atelier Double",
    "launchbox": "119872",
    "mobygames": 13332,
@@ -343,6 +365,7 @@
   },
   "msx2:123139": {
    "boxArtUrl": "https://images.launchbox-app.com/84ac86d7-1aeb-40f2-9012-0e6fcb649a38.png",
+   "description": "A side-scrolling shooter in comic style: the ship's rotating weapon ring fires in any direction.",
    "developer": "Zap",
    "launchbox": "123139",
    "mobygames": 20173,
@@ -357,6 +380,7 @@
     "J.B. Harold’s case file #1 – Murder Club"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/c320be26-aede-4fe7-8fcf-9a3419b701cc.png",
+   "description": "A detective adventure: J.B. Harold investigates a murder by questioning suspects and checking alibis.",
    "developer": "Micro Cabin",
    "launchbox": "123934",
    "publisher": "Micro Cabin",
@@ -371,6 +395,7 @@
    "contentIds": [
     "sha256-rom-v1:f847ac31986712fa38eacbb2f48bf6474156526dcb06df268ee53d14871359b2"
    ],
+   "description": "ASCII's naval strategy game, the second Fleet Commander.",
    "developer": "ASCII",
    "launchbox": "123941",
    "publisher": "ASCII",
@@ -381,6 +406,7 @@
    "title": "Fleet Commander II: Koukon no Kaiiki"
   },
   "msx2:123952": {
+   "adult": true,
    "aliases": [
     "Gakuen Monogatari: High School Story"
    ],
@@ -399,6 +425,7 @@
   },
   "msx2:123957": {
    "boxArtUrl": "https://images.launchbox-app.com/4ebbbe08-430d-42f4-9164-84e1fdc212d0.jpg",
+   "description": "The second Gambler Jiko Chuushinha mahjong game, against a cast of rival players.",
    "developer": "Game Arts",
    "launchbox": "123957",
    "publisher": "Game Arts",
@@ -410,6 +437,7 @@
    "contentIds": [
     "sha256-rom-v1:cc4f1938d56528928ff46e1365aea43d7d6dcfc02c1e64763693a59c9569f00a"
    ],
+   "description": "An adventure and trading game: a hacker breaks into a mysterious system and travels the world to stop a sinister plot.",
    "developer": "Pony Canyon",
    "launchbox": "123967",
    "mobygames": 2165,
@@ -429,6 +457,7 @@
    "contentIds": [
     "sha256-rom-v1:7839c843dc787e01765c1ba3efbd26dcf5209d27e38bcee1345db3b3cffdf5db"
    ],
+   "description": "Konami's mahjong game, played against characters from its well-known games.",
    "developer": "Konami",
    "launchbox": "123969",
    "mobygames": 70967,
@@ -447,6 +476,7 @@
    "contentIds": [
     "sha256-rom-v1:d887952513acc9a44f262c078d018a3f33e61d4968799ce6edb96ed0ec70556f"
    ],
+   "description": "A baseball game for one or two players: throw a range of pitches, hit, field and steal bases.",
    "developer": "Sony",
    "launchbox": "123970",
    "mobygames": 7061,
@@ -466,6 +496,7 @@
    "contentIds": [
     "sha256-rom-v1:00d713f62928d084149ac4653a1a1fc29bba763e12b07f6cda3346054787cc48"
    ],
+   "description": "An action game from the Dragonlance novels: lead the heroes through the ruined city of Xak Tsaroth to recover the Disks of Mishakal.",
    "developer": "Opera House",
    "launchbox": "123971",
    "mobygames": 3601,
@@ -482,6 +513,7 @@
     "sha256-rom-v1:4bdd8ef5ec8517abd162512abe1b8fae4effd746a2d2ba4e281ed71ab58c1bf8",
     "sha256-rom-v1:aa00aba4b100812116ff2824f4ff87d4ea4c0625324bf4d0a68e318c58452364"
    ],
+   "description": "HAL's third golf game: a full 18-hole golf simulation.",
    "developer": "HAL Laboratory",
    "launchbox": "123975",
    "mobygames": 20170,
@@ -506,6 +538,7 @@
     "sha256-rom-v1:79bfdbbd0e9e6a6e6d49389339e02789538724fab0b8790ae0c52314887f05b3",
     "sha256-rom-v1:d4d443c18203f1a463b4d0b356a95c5dc578e24e47e5ea596c773b63ad20fba0"
    ],
+   "description": "Konami's vertical shooter based on Osamu Tezuka's Phoenix manga: the sculptor Gao fights through ancient Japan to find the firebird.",
    "developer": "Konami",
    "launchbox": "123976",
    "mobygames": 70584,
@@ -521,6 +554,7 @@
    "contentIds": [
     "sha256-rom-v1:04f86f7239ba4423c583d0e09ba4bd25155bb842153ce011a4feb39f615e5e76"
    ],
+   "description": "SNK's commando action game: one or two soldiers fight their way north through jungle, commandeering tanks along the way.",
    "developer": "SNK",
    "launchbox": "124208",
    "publisher": "SNK",
@@ -535,6 +569,7 @@
     "Champion Yosuke Ide's Mah-Jong"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/7dee8c4b-f3ef-43f7-b50e-4f09558ba9fc.jpg",
+   "description": "A mahjong game featuring the professional player Ide Yousuke.",
    "developer": "Capcom",
    "launchbox": "124239",
    "mobygames": 231549,
@@ -549,6 +584,7 @@
     "Nap Tetsuya's Mah-Jong"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/f5724f8e-adf9-44a4-be3b-fdc275d42af5.png",
+   "description": "A mahjong game based on the manga Inemuri Ryuu Adada Tetsuya.",
    "developer": "Pony Canyon",
    "launchbox": "124241",
    "publisher": "Pony Canyon",
@@ -563,6 +599,7 @@
    "contentIds": [
     "sha256-rom-v1:295b93ca3516f60dba546df2b621c435335ed04cdca2ca1959d25c73f71971e0"
    ],
+   "description": "Koei's strategy game of the Bakumatsu era: back the shogunate or the reformers and win over Japan's domains in the years before the Meiji Restoration.",
    "developer": "Koei",
    "launchbox": "124287",
    "mobygames": 48472,
@@ -583,6 +620,7 @@
   },
   "msx2:124289": {
    "boxArtUrl": "https://images.launchbox-app.com/91143da9-fabd-4c17-88db-643c5402cd9e.jpg",
+   "description": "A chess program with several boards and play options.",
    "developer": "Andromeda Software",
    "launchbox": "124289",
    "mobygames": 20119,
@@ -606,6 +644,7 @@
   },
   "msx2:124292": {
    "boxArtUrl": "https://images.launchbox-app.com/5ee7857e-21dd-49a8-a6f5-6543b0105fd7.jpg",
+   "description": "Shogi, the Japanese chess game, against the computer.",
    "developer": "Micro Cabin",
    "launchbox": "124292",
    "mobygames": 78067,
@@ -618,6 +657,7 @@
    "contentIds": [
     "sha256-rom-v1:6462e159111d5480a9b8cea160857c2ed54c7415cfe2da5f06a4b114c6ad167e"
    ],
+   "description": "A racing game against the clock across six courses, from a megacity to the Alps and Egypt.",
    "developer": "Carry Lab",
    "launchbox": "124293",
    "mobygames": 78068,
@@ -637,6 +677,7 @@
    "contentIds": [
     "sha256-rom-v1:eadea2636651839a33a7220bc42a8567cab90a9dc9a5ca9774a300a521ab8ef4"
    ],
+   "description": "The concluding Maison Ikkoku adventure, based on Rumiko Takahashi's manga about life in a Tokyo boarding house.",
    "developer": "Micro Cabin",
    "launchbox": "124298",
    "mobygames": 46111,
@@ -655,6 +696,7 @@
    "contentIds": [
     "sha256-rom-v1:f101434ec0891869d4424f06ca7b56c0ad84d11d7adbe8239f5bb7ff504d2188"
    ],
+   "description": "An adventure based on Rumiko Takahashi's Maison Ikkoku: a student tries to win over the boarding house's young manager.",
    "developer": "Micro Cabin",
    "launchbox": "124301",
    "mobygames": 119799,
@@ -670,6 +712,7 @@
     "Future"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/69672d78-0409-4c6e-b470-b5eb71b01606.jpg",
+   "description": "A sci-fi action game set in the year 720 of the Galactic Era, after humans meet alien life in deep space.",
    "developer": "Sein-Soft",
    "launchbox": "124332",
    "publisher": "Sein-Soft",
@@ -684,6 +727,7 @@
    "contentIds": [
     "sha256-rom-v1:39939767023c07cbe8abc26f525ffd1e18afc2044b4f58763fb30ef4536a6d29"
    ],
+   "description": "A mystery adventure aboard a Mississippi riverboat: Sir Charles Foxworth and his servant Regis investigate a murder.",
    "developer": "Jaleco",
    "launchbox": "124333",
    "mobygames": 24845,
@@ -719,6 +763,7 @@
    "contentIds": [
     "sha256-rom-v1:0ff6e614de315f70c80d0f382213bf35a60f8a720106310207e33481487899db"
    ],
+   "description": "The fourth Nobunaga's Ambition: rule a clan of the Warring States era, using tea ceremonies, technology and generals to conquer Japan.",
    "developer": "Koei",
    "launchbox": "124379",
    "publisher": "Koei",
@@ -736,6 +781,7 @@
    "contentIds": [
     "sha256-rom-v1:943864a9cb98ab87f61a269c979995713029ac288434a7d8d39ace5b59572ca2"
    ],
+   "description": "The third Nobunaga's Ambition: unify Warring States Japan as one of its daimyo, now with officers and their abilities.",
    "developer": "Koei",
    "launchbox": "124380",
    "publisher": "Koei",
@@ -754,6 +800,7 @@
     "sha256-rom-v1:34b21cf9b07b222b35683c7b2a70561adf097928af87a8452cf3adf7d6128cc0",
     "sha256-rom-v1:feb39b9a72815c1d8d763caf6a55187539475b3bf01c29400ef6bdeb7ddc2f63"
    ],
+   "description": "The second Nobunaga's Ambition: unify Warring States Japan through war, diplomacy and domestic rule, now across all of Japan's provinces.",
    "developer": "Koei",
    "launchbox": "124381",
    "publisher": "Koei",
@@ -769,6 +816,7 @@
    "contentIds": [
     "sha256-rom-v1:27e9eaa0fec89438bb23592880c3bde76a2cf7ba8f7de6d416acd87a4bf67986"
    ],
+   "description": "A conversion of Steve Jackson's board game: a giant cybernetic supertank against conventional forces.",
    "developer": "SystemSoft",
    "launchbox": "124383",
    "mobygames": 1622,
@@ -787,6 +835,7 @@
    "contentIds": [
     "sha256-rom-v1:5c619e4c73cccd3f79e807aea89611a015cfd6661bdd32547da3a407f63450d1"
    ],
+   "description": "Sega's driving game: race a Ferrari across branching routes, choosing your path at each fork against the clock.",
    "developer": "Sega",
    "launchbox": "124384",
    "publisher": "Pony Canyon",
@@ -819,6 +868,7 @@
    "contentIds": [
     "sha256-rom-v1:499c638f85de06f3caa803d13b3df03e9e9266ea5fe8ba740bed7db5f03a95a7"
    ],
+   "description": "Namco's Pac-Man in isometric 3D: eat every dot in larger mazes, and jump over the ghosts.",
    "developer": "Namco",
    "launchbox": "124395",
    "publisher": "Namco",
@@ -833,6 +883,7 @@
    "contentIds": [
     "sha256-rom-v1:b56d80334aba581eb12de83262df52bada524634534357223b14cc8939be406c"
    ],
+   "description": "An action platformer based on the film Predator: survive the jungle, fight guerrillas, and face the alien hunter.",
    "developer": "Klon",
    "launchbox": "124406",
    "mobygames": 138650,
@@ -848,6 +899,7 @@
     "Family Stadium Professional Baseball"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/27720a81-6836-4788-86ba-e6ace52f4486.jpg",
+   "description": "Namco's baseball game for one or two players, with a choice of teams for exhibition and pennant play.",
    "developer": "Namco",
    "launchbox": "124410",
    "publisher": "Namco",
@@ -867,6 +919,7 @@
    "contentIds": [
     "sha256-rom-v1:5c05f1118e1f00a8f66c48caa7dc71b38faa90ec2d7f21f14972cdc6c4f36d2c"
    ],
+   "description": "Four-player mahjong with several rule variations.",
    "developer": "Chatnoir",
    "launchbox": "124412",
    "mobygames": 57923,
@@ -885,6 +938,7 @@
    "contentIds": [
     "sha256-rom-v1:d5b48ca819e722725297539d3abe14b4ae863666eb33186a58ff81167b64de4f"
    ],
+   "description": "An action game based on Jackie Chan's Project A 2: fight through enemies across the city.",
    "developer": "Pony Canyon",
    "launchbox": "124413",
    "publisher": "Pony Canyon",
@@ -900,6 +954,7 @@
     "sha256-rom-v1:50d77b9d852b1168470df6daf00edcf4360f2cf2e1c4de9e1cb4e6a71638f7ad",
     "sha256-rom-v1:5f6048c69de81c3d1fb74ab1e1fcf0c770977c3cbcbf46924a0d47d26aea9f0f"
    ],
+   "description": "Konami's block-shooting puzzle: fire blocks upward to complete descending shapes into rectangles, which vanish.",
    "developer": "Konami",
    "launchbox": "124414",
    "mobygames": 19595,
@@ -915,6 +970,7 @@
    "contentIds": [
     "sha256-rom-v1:ac9c2b0aa7bc4f0051e3acadb6bc7f9f39ab1771495924de260ff4a524815684"
    ],
+   "description": "A puzzle game: push and use blocks to reach the exit door in each room.",
    "developer": "Bit2",
    "launchbox": "124415",
    "mobygames": 28246,
@@ -930,6 +986,7 @@
    "contentIds": [
     "sha256-rom-v1:03fa40fa0fa58f252ad9cd9e78b2bc01a0127b5509fe1babdb5a9443ec1f705e"
    ],
+   "description": "Taito's barbarian action game: hack and slash through five levels of monsters, each ending with a boss.",
    "developer": "Taito",
    "launchbox": "124416",
    "mobygames": 1883,
@@ -945,6 +1002,7 @@
    "contentIds": [
     "sha256-rom-v1:7906e71faed44134fcb1c0cd51cf645cbcc31e66233e137f63a400bcde258627"
    ],
+   "description": "A 22nd-century action game: Earth's scientists build a craft to fight off an alien invasion led by a giant robotic snake.",
    "developer": "Klon",
    "launchbox": "124471",
    "mobygames": 70588,
@@ -964,6 +1022,7 @@
    "contentIds": [
     "sha256-rom-v1:c5f9fb0e38f15478850e0ccfecfe68e4bc5ab3a67565c4a7d483ef1d80a8d71f"
    ],
+   "description": "Namco's sequel to The Tower of Druaga: Gil and Ki escape the tower together, working through its rooms with light puzzles.",
    "developer": "Namco",
    "launchbox": "124472",
    "mobygames": 19633,
@@ -1014,6 +1073,7 @@
    "contentIds": [
     "sha256-rom-v1:73343c569af0b56d96e692edee100b0744f44dadc0d283666f744e4a96fd989a"
    ],
+   "description": "Koei's fantasy strategy game: six magicians trapped in magic gems are freed, and rival lords fight for the kingdom.",
    "developer": "Koei",
    "launchbox": "124475",
    "mobygames": 1932,
@@ -1029,6 +1089,7 @@
     "Romance of the Three Kingdoms"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/95fc9aac-4006-46fe-83d1-62ee213bf0a6.jpg",
+   "description": "Koei's Romance of the Three Kingdoms: choose a warlord of 3rd-century China and unite the land through war, diplomacy and governance.",
    "developer": "Koei",
    "launchbox": "124519",
    "publisher": "Koei",
@@ -1044,6 +1105,7 @@
    "contentIds": [
     "sha256-rom-v1:5d881f0aaafb4c385546934c5003cf79251bf2fe4c3c470021b71ee0bfa96a9d"
    ],
+   "description": "The second Romance of the Three Kingdoms, with more officers, scenarios and diplomatic options.",
    "developer": "Koei",
    "launchbox": "124520",
    "mobygames": 9099,
@@ -1059,6 +1121,7 @@
    "contentIds": [
     "sha256-rom-v1:75440136f941b2061c581b72dbe47574a6a4b716d30dbe094930a03f51c9cd13"
    ],
+   "description": "Taito's vertical shooter: pilot a biplane and gather wingmen into formations.",
    "developer": "Taito",
    "launchbox": "124521",
    "publisher": "Taito",
@@ -1074,6 +1137,7 @@
     "Seikima II Special: Revenge of the Devil"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/fa2b9eec-4713-4eff-b806-0fe2c55d38af.jpg",
+   "description": "An action platformer starring the heavy metal band Seikima-II: Demon Kogure sets out to rescue his bandmates.",
    "developer": "ISCO",
    "launchbox": "124522",
    "mobygames": 58233,
@@ -1086,6 +1150,7 @@
    "contentIds": [
     "sha256-rom-v1:ff10083963802ff90aa2e4f80d69d34d49750cf1f873c362d295f22dfa94e50e"
    ],
+   "description": "Mahjong solitaire: remove pairs of matching tiles from a stacked layout, taking only tiles free on one side.",
    "developer": "SystemSoft",
    "launchbox": "124554",
    "mobygames": 4272,
@@ -1101,6 +1166,7 @@
    "contentIds": [
     "sha256-rom-v1:894a39c5c6c15e4bbf09e3e0b1e179cf973d0cc29609416f3d9989ac7e9b4bbc"
    ],
+   "description": "A shooter: fly out from base, earn points, and buy upgrades between sorties.",
    "developer": "dB-SOFT",
    "launchbox": "124558",
    "publisher": "dB-Soft",
@@ -1118,6 +1184,7 @@
    "contentIds": [
     "sha256-rom-v1:92b9004897da2bf6708e695da29fbb72a36cd70feb79be37537db4b6d921e86d"
    ],
+   "description": "Koei's strategy game of the Water Margin: lead one of the outlaw heroes and build a band strong enough to overthrow the corrupt minister Gao Qiu.",
    "developer": "Koei",
    "launchbox": "124559",
    "mobygames": 2137,
@@ -1136,6 +1203,7 @@
    "contentIds": [
     "sha256-rom-v1:579ffe556a9a4ac69f8c09f9871cef4dd72c4ea89601cc949b88f784d65abc9c"
    ],
+   "description": "SystemSoft's modern war strategy game in the Daisenryaku series: produce units and capture cities on hex maps.",
    "developer": "SystemSoft",
    "launchbox": "124560",
    "mobygames": 44630,
@@ -1154,6 +1222,7 @@
    "contentIds": [
     "sha256-rom-v1:6c4cb9320b4627fe5e9b870b261802003221272657973509538f6fbc8306a734"
    ],
+   "description": "Irem's Lode Runner: dig holes to trap guards and collect all the gold to escape each level.",
    "developer": "Irem",
    "launchbox": "124561",
    "mobygames": 78689,
@@ -1169,6 +1238,7 @@
    "contentIds": [
     "sha256-rom-v1:40b81d50c576a4e9d239cf759342ec6a87ca6362e9674b2467564953c783729b"
    ],
+   "description": "An action game based on Rambo: First Blood Part II: a one-man army fights through the jungle to free prisoners.",
    "developer": "Pack-In-Video",
    "launchbox": "124562",
    "mobygames": 34188,
@@ -1211,6 +1281,7 @@
   },
   "msx2:124581": {
    "boxArtUrl": "https://images.launchbox-app.com/22df8328-c88e-4f0d-b77b-ca51d17039a6.jpg",
+   "description": "A Japanese-style adventure based on Back to the Future.",
    "developer": "Pony Canyon",
    "launchbox": "124581",
    "mobygames": 59093,
@@ -1227,6 +1298,7 @@
    "contentIds": [
     "sha256-rom-v1:1b7c3ebda70f1f5801fb793912f879c3c07f122b32cf6e8aa83b69160e52f4c1"
    ],
+   "description": "An adventure set among the Maya: explore ancient temples and solve their puzzles.",
    "developer": "Zap",
    "launchbox": "124856",
    "mobygames": 51402,
@@ -1245,6 +1317,7 @@
     "Tanikawa Hiroshi no Shougi Shinan 2"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/f6f7584d-a698-4585-a621-abe4f347592a.jpg",
+   "description": "A shogi instruction program hosted by the professional player Tanigawa Koji.",
    "developer": "Pony Canyon",
    "launchbox": "124857",
    "publisher": "Pony Canyon",
@@ -1260,6 +1333,7 @@
    "contentIds": [
     "sha256-rom-v1:3ab1cbe89b89b909873de25410abfa8fb10b35144f57d426fb6919833ada6ed7"
    ],
+   "description": "Koei's Pacific War strategy game: command the Japanese or Allied navy, managing fleets, production and bases.",
    "developer": "Koei",
    "launchbox": "124858",
    "mobygames": 8221,
@@ -1292,6 +1366,7 @@
    "contentIds": [
     "sha256-rom-v1:9b450715a901ffb1e4d50087e08bc0b824a4a34621285188fdd03c32f573eced"
    ],
+   "description": "The block-stacking puzzle: rotate and place falling four-square pieces to complete and clear lines.",
    "developer": "Bullet-Proof Software",
    "launchbox": "124866",
    "publisher": "Bullet-Proof Software",
@@ -1321,6 +1396,7 @@
     "Tsurikichi Sanpei: Blue Marine Hen"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/d8fb7d3c-31eb-439d-9340-1add4bae3eee.jpg",
+   "description": "A fishing game based on the Tsurikichi Sanpei manga: the young angler Sanpei sets out after the blue marlin.",
    "developer": "Cross Media Soft",
    "launchbox": "124871",
    "mobygames": 233680,
@@ -1337,6 +1413,7 @@
    "contentIds": [
     "sha256-rom-v1:98a6a96ea769ecf7b6fd118959f3a2fa2d04c3e4c150030531d2c174534f77cb"
    ],
+   "description": "The third Ultima: a party of four adventurers sets out to find and destroy the mysterious Exodus, threatening Sosaria.",
    "developer": "Miki & Fujiwara Production",
    "launchbox": "124873",
    "mobygames": 878,
@@ -1352,6 +1429,7 @@
    "contentIds": [
     "sha256-rom-v1:a12a5512587e4924a049b0ee06be1f4183cd1b44db49532e5c0a429914fe7603"
    ],
+   "description": "An adventure based on the anime Urusei Yatsura, built around a birthday party.",
    "developer": "Micro Cabin",
    "launchbox": "124874",
    "mobygames": 202238,
@@ -1364,6 +1442,7 @@
   },
   "msx2:124875": {
    "boxArtUrl": "https://images.launchbox-app.com/ce621df8-cf92-49ac-99ef-13a2c2357eaa.jpg",
+   "description": "A high school baseball game: pitch, hit, field and run in tournament play.",
    "developer": "Taito",
    "launchbox": "124875",
    "mobygames": 19745,
@@ -1376,6 +1455,7 @@
    "contentIds": [
     "sha256-rom-v1:6e701658f0ba494529127243a5b0741a1b5281a6eabda4b3d5a8975368eafdbe"
    ],
+   "description": "The first Wizardry: build a party and descend through a ten-level dungeon beneath the castle to retrieve an amulet from the wizard Werdna.",
    "developer": "Sir-Tech Software",
    "launchbox": "124877",
    "mobygames": 1209,
@@ -1391,6 +1471,7 @@
    "contentIds": [
     "sha256-rom-v1:93d02db577b452240c2eb17773fcdda59b55c308cf01ddc6b082b5390126660c"
    ],
+   "description": "A side-scrolling action role-playing game starring Woody Poco, a wooden figure who comes to life.",
    "developer": "dB-SOFT",
    "launchbox": "124878",
    "mobygames": 244246,
@@ -1406,6 +1487,7 @@
    "contentIds": [
     "sha256-rom-v1:12231b41ed31a2ab653df4612e792e0da549e926a529453614cca5367c5185aa"
    ],
+   "description": "Compile's Xevious collection: a port of the arcade game plus a new Scramble mode.",
    "developer": "Compile",
    "launchbox": "124879",
    "mobygames": 19950,
@@ -1440,6 +1522,7 @@
    "contentIds": [
     "sha256-rom-v1:cf9eb8ef7b3b0a61e68e649b7b700ba31dd528c51925a16b2d98245805a65fa5"
    ],
+   "description": "A detective adventure based on Misa Yamamura's mysteries: a murder at a Kyoto temple.",
    "developer": "Taito",
    "launchbox": "124886",
    "mobygames": 243409,
@@ -1459,6 +1542,7 @@
    "contentIds": [
     "sha256-rom-v1:7760cd8736a41226d6e52ca7773b1e3cee8ccf1b8f786d7d43da25efd5e91ff3"
    ],
+   "description": "An action game: a ghost with no memory of his past sets out to rescue an imprisoned princess.",
    "developer": "System Sacom",
    "launchbox": "124887",
    "mobygames": 247207,
@@ -1474,6 +1558,7 @@
    "contentIds": [
     "sha256-rom-v1:f8bc932ba35ee175547c7741e558d43211236e5825b8378162e37f794b537e4e"
    ],
+   "description": "An enhanced Zanac: a vertical shooter whose enemies adapt to how well you play.",
    "developer": "Compile",
    "launchbox": "124890",
    "mobygames": 19518,
@@ -1489,6 +1574,7 @@
    "contentIds": [
     "sha256-rom-v1:20b03228be21ea3f8e305cbeeb7e49034527ecab75e0a89043b9b737324763a5"
    ],
+   "description": "A role-playing game based on Tomy's Zoids robot toys: battles between mechanical beasts on the central continent.",
    "developer": "Micronics",
    "launchbox": "124894",
    "mobygames": 147105,
@@ -1504,6 +1590,7 @@
    "contentIds": [
     "sha256-rom-v1:8f237f5bec056f4775786fac74d18974fa6194dd62b9ea24ac648e38dd3f590f"
    ],
+   "description": "An action role-playing game: the city of Palma, guarded by elemental spirits, is threatened when the earth spirit revolts.",
    "developer": "Hi-Score Media Work",
    "launchbox": "124895",
    "mobygames": 19072,
@@ -1524,6 +1611,7 @@
     "sha256-rom-v1:29a358a207c054ce962e6771f621b7988a395d7cf817689549d1b35182adea2b",
     "sha256-rom-v1:48bc60f41a4b83ae0c143065dd25ec6142d3b4c43ef59e8e0e9b379c74e52969"
    ],
+   "description": "HAL's action role-playing game of two comic travelers on a secret mission along a road in Edo-era Japan.",
    "developer": "HAL Laboratory",
    "launchbox": "124897",
    "publisher": "HAL Laboratory",
@@ -1535,6 +1623,7 @@
   },
   "msx2:125136": {
    "boxArtUrl": "https://images.launchbox-app.com/2ed2fb93-4fc7-44e7-9cfc-db7feac5a9b4.jpg",
+   "description": "A Cold War strategy game set in 1986: as the US President or Soviet General Secretary, extend your influence through aid, treaties and covert action without starting a nuclear war.",
    "developer": "ASCII",
    "launchbox": "125136",
    "mobygames": 259,
@@ -1544,6 +1633,7 @@
   },
   "msx2:125245": {
    "boxArtUrl": "https://images.launchbox-app.com/r2_f5d77c23-7ed6-4370-bca0-756924ea0e83.png",
+   "description": "A brick-breaking game: smash through layer after layer of a bank's underground defenses to reach the vault.",
    "developer": "Methodic Solutions",
    "launchbox": "125245",
    "mobygames": 12690,
@@ -1557,6 +1647,7 @@
     "Space Manbow 2"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/e63cba34-3dff-493c-804c-ff722f846b58.png",
+   "description": "A fan-made horizontal shooter: the surviving remnant of Manbow seeks revenge on the pilot Kliever.",
    "developer": "Manbow 2 Team",
    "launchbox": "127338",
    "publisher": "Manbow 2 Team",
@@ -1568,6 +1659,7 @@
    "contentIds": [
     "sha256-rom-v1:c2a5fc228d2fb29c232c763d275cbee8443e20d21e3fcb1879300dd92f744507"
    ],
+   "description": "An action adventure in which a spirit possesses different bodies to explore a strange ruin.",
    "developer": "Bothtec",
    "launchbox": "132764",
    "publisher": "Bothtec",
@@ -1580,6 +1672,7 @@
   },
   "msx2:132788": {
    "boxArtUrl": "https://images.launchbox-app.com/f62adc8a-156a-47b8-8043-fe774ea59a28.jpg",
+   "description": "A fan-made role-playing game in the style of the Rune Master series.",
    "developer": "Kai Magazine Software",
    "launchbox": "132788",
    "mobygames": 192969,
@@ -1590,6 +1683,7 @@
   },
   "msx2:135135": {
    "boxArtUrl": "https://images.launchbox-app.com/c8cbfe98-d7d8-4ac3-a3c6-62164ce8d3cd.jpg",
+   "description": "Square's role-playing game: four Light Warriors carry darkened crystals to restore the elements and break the cycle of time that is decaying the world.",
    "developer": "Micro Cabin",
    "launchbox": "135135",
    "mobygames": 7313,
@@ -1600,6 +1694,7 @@
   },
   "msx2:138297": {
    "boxArtUrl": "https://images.launchbox-app.com/d282e038-7029-4ae6-b143-0812f644fce0.jpg",
+   "description": "A Bomberman-style action game: lay bombs to clear blocks and defeat enemies in a maze.",
    "developer": "Paragon Productions",
    "launchbox": "138297",
    "mobygames": 67948,
@@ -1619,6 +1714,7 @@
     "Exile: Hakai no Guuzou"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/4aed9296-38f3-4e26-81d6-91fe0ac9e036.jpg",
+   "description": "Telenet's action role-playing game: the assassin Sadler is drawn into a conflict spanning the Middle East during the Crusades, exploring towns from above and dungeons from the side.",
    "developer": "Renovation Game",
    "launchbox": "139229",
    "mobygames": 26191,
@@ -1646,6 +1742,7 @@
     "ファイアーホークテクザー２"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/8c5a589f-54a3-4681-808b-db6b5dadb499.png",
+   "description": "Game Arts' Thexder sequel: a transforming robot, now able to switch between jet and walking forms with new weapons, blasts through enemy bases.",
    "developer": "Game Arts",
    "launchbox": "141117",
    "mobygames": 64,
@@ -1662,6 +1759,7 @@
    "contentIds": [
     "sha256-rom-v1:890d360db8ec392786ee0fe42c37fd859aec702d4971566cbbc0d4646dc0c2a0"
    ],
+   "description": "A fishing game based on the Tsurikichi Sanpei manga.",
    "developer": "Cross Media Soft",
    "launchbox": "149627",
    "publisher": "Victor Interactive Software",
@@ -1707,6 +1805,7 @@
   "msx2:150176": {
    "adult": true,
    "boxArtUrl": "https://images.launchbox-app.com/a9e40d80-b035-4b89-9a34-12078a3f3e5c.png",
+   "description": "A sci-fi action game set aboard a starship.",
    "developer": "Scaptrust",
    "launchbox": "150176",
    "mobygames": 78070,
@@ -1734,6 +1833,7 @@
     "Affaire, L'"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/5f820870-a337-4121-bad8-df3955f264f7.jpg",
+   "description": "A detective adventure: investigate the case of Raymond Pardon, accused of a crime he could not defend himself against.",
    "developer": "Infogrames France",
    "launchbox": "151097",
    "mobygames": 36138,
@@ -1746,6 +1846,7 @@
     "あかんべドラゴン"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/f0caeeba-6751-46ab-96bf-f5ac9db53b58.jpg",
+   "description": "Winky Soft's strategy action game on a single-screen battlefield, a forerunner of its Super Robot Taisen series.",
    "developer": "Winky Soft",
    "launchbox": "151098",
    "mobygames": 26260,
@@ -1755,6 +1856,7 @@
   },
   "msx2:151167": {
    "boxArtUrl": "https://images.launchbox-app.com/dd44d67b-29dd-4e64-958b-18ad5aa004f5.jpg",
+   "description": "A Knightmare-style vertical shooter made by Moai-Tech.",
    "developer": "Moai-Tech",
    "launchbox": "151167",
    "publisher": "Moai-Tech",
@@ -1773,6 +1875,7 @@
   },
   "msx2:151297": {
    "boxArtUrl": "https://images.launchbox-app.com/c151a064-641a-4480-9732-0e9253fb267d.png",
+   "description": "A puzzle game in the vein of sliding block puzzles: rearrange tiles to guide a moving ball safely across each level.",
    "launchbox": "151297",
    "mobygames": 54156,
    "publisher": "Brøderbund Japan",
@@ -1797,6 +1900,7 @@
   },
   "msx2:151314": {
    "boxArtUrl": "https://images.launchbox-app.com/5e0dc3f5-d43d-4d79-9eb2-8d9adde325b5.jpg",
+   "description": "A text adventure based on Ray Bradbury's Fahrenheit 451: in a future where books are burned, join the resistance to save literature.",
    "developer": "Idealogic",
    "launchbox": "151314",
    "mobygames": 12337,
@@ -1806,6 +1910,7 @@
   },
   "msx2:151317": {
    "boxArtUrl": "https://images.launchbox-app.com/17b23823-d56a-4fa0-a249-4b76b31cbafb.png",
+   "description": "A behind-view shooter: the dimensional control computer Laxis has run amok, and a lone fighter flies through its warped worlds.",
    "developer": "Tecno Soft",
    "launchbox": "151317",
    "mobygames": 25699,
@@ -1822,6 +1927,7 @@
    "title": "F-Zeru Ex"
   },
   "msx2:151325": {
+   "description": "Opera Soft's platformer: the master thief Goody breaks into the Bank of Spain, gathering tools and the vault combination.",
    "developer": "Opera Soft",
    "launchbox": "151325",
    "publisher": "Opera Soft",
@@ -1834,6 +1940,7 @@
     "Gorby's Pipeline: Great Military Operation"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/bd404133-0c76-448c-9100-0a60249d3ad5.png",
+   "description": "Compile's falling-block puzzle: build a pipeline from oddly shaped pieces to carry oil from Japan to the Soviet Union.",
    "developer": "Compile",
    "launchbox": "151326",
    "mobygames": 20251,
@@ -1863,6 +1970,7 @@
     "Military Chess"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/c9a95e7a-1cf5-4f1b-8502-67ee3d00a9b1.png",
+   "description": "Gunjin Shogi, a military board game with hidden pieces resembling Stratego.",
    "developer": "Dual",
    "launchbox": "151329",
    "publisher": "Pack-In-Video",
@@ -1871,6 +1979,7 @@
   },
   "msx2:151345": {
    "boxArtUrl": "https://images.launchbox-app.com/75e7fe31-2e97-4c4b-8a3f-b3f7964700eb.jpg",
+   "description": "A puzzle game: slide pieces across the board to recreate the target pattern.",
    "developer": "Teddy Warez",
    "launchbox": "151345",
    "publisher": "Teddy Warez",
@@ -1879,6 +1988,7 @@
   },
   "msx2:151351": {
    "boxArtUrl": "https://images.launchbox-app.com/875f58d0-8f68-4ac2-83d0-6c79c2df8ab9.jpg",
+   "description": "An action game: terrorists threaten to blow up New York, and a lone agent must stop them.",
    "developer": "Eurosoft",
    "launchbox": "151351",
    "publisher": "Methodic Solutions",
@@ -1887,6 +1997,7 @@
   },
   "msx2:151357": {
    "boxArtUrl": "https://images.launchbox-app.com/11fb08f3-1c84-405a-a82a-f6d4ebee9967.png",
+   "description": "Technosoft's early real-time strategy shooter: pilot a transforming craft while producing and sending units to destroy the enemy base.",
    "developer": "Tecno Soft",
    "launchbox": "151357",
    "mobygames": 22190,
@@ -1897,6 +2008,7 @@
   },
   "msx2:151358": {
    "boxArtUrl": "https://images.launchbox-app.com/e6bc3af4-6939-4933-b949-41d21a7bb5d5.png",
+   "description": "A side-scrolling shooter: defend the planet Tiar, whose climate has been thrown into chaos, from invading forces.",
    "developer": "Hertz",
    "launchbox": "151358",
    "mobygames": 148123,
@@ -1906,6 +2018,7 @@
   },
   "msx2:151362": {
    "boxArtUrl": "https://images.launchbox-app.com/7d9ab029-4740-4deb-a99f-aa92844610c2.png",
+   "description": "A text adventure of Treasure Island: young Jim Hawkins sets out after Captain Flint's treasure.",
    "developer": "Telarium",
    "launchbox": "151362",
    "publisher": "Idealogic",
@@ -1914,6 +2027,7 @@
   },
   "msx2:151388": {
    "boxArtUrl": "https://images.launchbox-app.com/68686f77-aa15-47df-85e6-8f8d2eaef757.jpg",
+   "description": "A sliding jigsaw puzzle with animated pictures that move as you assemble them.",
    "developer": "Sadato Saneda",
    "launchbox": "151388",
    "mobygames": 19752,
@@ -1926,6 +2040,7 @@
     "Legendly Nine Gems"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/0c3623bc-0ba7-4758-85ca-34577d83488a.jpg",
+   "description": "Technosoft's action game: a quest for the nine legendary gems.",
    "developer": "Tecno Soft",
    "launchbox": "151389",
    "mobygames": 175031,
@@ -1938,6 +2053,7 @@
     "La Abadia del Crimen (Remake)"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/8d1a60de-319d-42fd-b158-61714fdda330.png",
+   "description": "A remake of the Spanish classic La Abadia del Crimen: a Franciscan monk and his novice investigate deaths in a medieval abbey.",
    "developer": "Manuel Pazos & Daniel Celemín",
    "launchbox": "151391",
    "publisher": "Manuel Pazos & Daniel Celemín",
@@ -1949,6 +2065,7 @@
     "Laplace's Evil Spirit"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/0ce67e3f-928e-46f4-b8df-0581ab3d82ef.jpg",
+   "description": "A horror role-playing game: investigators explore a haunted mansion in 1920s New England.",
    "developer": "Humming Bird Soft",
    "launchbox": "151392",
    "mobygames": 203967,
@@ -1963,6 +2080,7 @@
     "Mashou Denki"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/r2_b5dbbaf8-20a0-4d40-8198-5f46eac27041.jpg",
+   "description": "A fantasy role-playing game: the swordsman Alan arrives at the village of Flodi and is drawn into its troubles.",
    "developer": "Kogado Software Products",
    "launchbox": "151396",
    "mobygames": 49343,
@@ -1972,6 +2090,7 @@
   },
   "msx2:151427": {
    "boxArtUrl": "https://images.launchbox-app.com/ec7e0097-b885-402b-9afd-40a2ee4741f5.png",
+   "description": "Opera Soft's action game: after a robot rebellion, the robot OR-CABE-3 is sent back to Earth to destroy the rebels' base.",
    "developer": "Opera Soft",
    "launchbox": "151427",
    "publisher": "Opera Soft",
@@ -1980,6 +2099,7 @@
   },
   "msx2:151441": {
    "boxArtUrl": "https://images.launchbox-app.com/0e33f16d-6ea7-4b44-a321-6e49608b78b8.jpg",
+   "description": "Opera Soft's adventure platformer: as the explorer Stanley, search the African jungle for the lost Dr. Livingstone using a boomerang, knives and a pole vault.",
    "developer": "Opera Soft",
    "launchbox": "151441",
    "publisher": "Opera Soft",
@@ -2004,6 +2124,7 @@
     "Marchen Veil"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/f0db3117-169f-46d5-b3b7-765688178554.jpg",
+   "description": "An action game in the world of Felix: a cursed prince, turned into a strange creature, fights to regain his human form.",
    "developer": "System Sacom",
    "launchbox": "151452",
    "mobygames": 55901,
@@ -2013,6 +2134,7 @@
   },
   "msx2:151453": {
    "boxArtUrl": "https://images.launchbox-app.com/2ad1e780-ce0a-4437-ad31-dfba5f8f261b.jpg",
+   "description": "SystemSoft's fantasy strategy game: as one of five wizards, summon monsters and capture towers to defeat the rival wizards.",
    "developer": "SystemSoft",
    "launchbox": "151453",
    "mobygames": 15756,
@@ -2025,6 +2147,7 @@
     "The Wizard of Oz"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/66c4b978-5d10-4cc3-bd54-41d30274763b.png",
+   "description": "An illustrated text adventure of The Wizard of Oz.",
    "developer": "Windham Classics",
    "launchbox": "151470",
    "mobygames": 19549,
@@ -2033,6 +2156,7 @@
    "title": "El Mago de Oz"
   },
   "msx2:151478": {
+   "description": "A brick-breaking game in the style of Arkanoid.",
    "developer": "Javier Lavandeira",
    "launchbox": "151478",
    "screenshotUrl": "https://images.launchbox-app.com/253723e9-b482-4488-b2ed-07cd6c1d5fcd.png",
@@ -2051,6 +2175,7 @@
     "Might and Magic II: Gates to Another World"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/36cc349b-7931-4a2f-898f-d906143ddbb3.jpg",
+   "description": "The second Might and Magic: a party travels the world of CRON, and through time, to stop the rogue guardian Sheltem.",
    "developer": "New World Computing",
    "launchbox": "151529",
    "mobygames": 1620,
@@ -2083,6 +2208,7 @@
   },
   "msx2:151552": {
    "boxArtUrl": "https://images.launchbox-app.com/bb238a60-5a93-4ed3-9fb0-d826cdb6f11a.jpg",
+   "description": "A text adventure based on Roger Zelazny's Nine Princes in Amber: Corwin regains his memory and challenges his brothers for the throne of Amber.",
    "developer": "Idealogic",
    "launchbox": "151552",
    "mobygames": 6935,
@@ -2095,6 +2221,7 @@
     "Shi-Kin-Joh"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/r2_07984526-3a17-4639-87df-df555236431f.jpg",
+   "description": "A Sokoban-style puzzle game set in the Forbidden City.",
    "developer": "Scaptrust",
    "launchbox": "151574",
    "mobygames": 43384,
@@ -2103,6 +2230,7 @@
    "title": "Shikinjoh"
   },
   "msx2:151578": {
+   "description": "Taito's dice puzzle: roll your die to match the faces of descending rows, then build poker-style hands to clear them.",
    "developer": "Taito",
    "launchbox": "151578",
    "mobygames": 28739,
@@ -2120,6 +2248,7 @@
   },
   "msx2:151640": {
    "boxArtUrl": "https://images.launchbox-app.com/a0996f16-b230-412d-9c4a-124936d2bd49.jpg",
+   "description": "An adventure adapted from Francois Bourgeon's historical comics The Passengers of the Wind.",
    "developer": "Infogrames",
    "launchbox": "151640",
    "publisher": "Infogrames",
@@ -2131,6 +2260,7 @@
     "Perfect Soukoban"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/da787b4e-995a-43de-b5f7-96f319b5988f.png",
+   "description": "Sokoban: push crates onto their marked spots in a warehouse, never pulling, across many puzzles.",
    "developer": "Thinking Rabbit",
    "launchbox": "151642",
    "mobygames": 71627,
@@ -2140,6 +2270,7 @@
   },
   "msx2:151652": {
    "boxArtUrl": "https://images.launchbox-app.com/4789a2a8-1c05-458d-bc7e-44eaa1d465e3.jpg",
+   "description": "An illustrated text adventure: Perry Mason defends a client in the case of the Mandarin murder.",
    "developer": "Telarium",
    "launchbox": "151652",
    "publisher": "Idealogic",
@@ -2147,6 +2278,7 @@
    "title": "Perry Mason: El Caso del Asesinato del Mandarín"
   },
   "msx2:151668": {
+   "description": "A Sokoban-style puzzle: push pyramids onto their marked spots to finish each level.",
    "developer": "Teddy Warez",
    "launchbox": "151668",
    "publisher": "Teddy Warez",
@@ -2171,6 +2303,7 @@
   },
   "msx2:151721": {
    "boxArtUrl": "https://images.launchbox-app.com/91ef7421-f268-4b3e-8f97-ba51c00d276a.jpg",
+   "description": "A card puzzle game decorated with an island theme: arrange cards into poker hands.",
    "developer": "ASCII",
    "launchbox": "151721",
    "publisher": "FACE",
@@ -2239,6 +2372,7 @@
   },
   "msx2:151823": {
    "boxArtUrl": "https://images.launchbox-app.com/81bb72f2-a2fb-456f-b474-7bc654303610.jpg",
+   "description": "A Commando-style shooter: fight across terrain against waves of enemy soldiers.",
    "developer": "Infogrames",
    "launchbox": "151823",
    "mobygames": 78083,
@@ -2248,6 +2382,7 @@
   },
   "msx2:151826": {
    "boxArtUrl": "https://images.launchbox-app.com/76f15956-493d-4a88-a024-583051979d20.jpg",
+   "description": "A fantasy shooter: monsters invade the continent of Diodoran, ruled by five dragons.",
    "developer": "Basho House",
    "launchbox": "151826",
    "mobygames": 59057,
@@ -2272,6 +2407,7 @@
   },
   "msx2:151926": {
    "boxArtUrl": "https://images.launchbox-app.com/4203bc47-ef36-4cb5-8b25-0e78f7350154.jpg",
+   "description": "Micro Cabin's action role-playing sequel: Latok faces the demon Badu's return after rescuing a fellow warrior.",
    "developer": "Micro Cabin",
    "launchbox": "151926",
    "mobygames": 44118,
@@ -2281,6 +2417,7 @@
   },
   "msx2:152001": {
    "boxArtUrl": "https://images.launchbox-app.com/1733bad1-c0b4-4efb-96ff-2c2544496fd2.jpg",
+   "description": "Micro Cabin's action role-playing game: the young warrior Latok sets out to stop the demon Badu.",
    "developer": "Micro Cabin",
    "launchbox": "152001",
    "mobygames": 15379,
@@ -2293,6 +2430,7 @@
     "Ninja Dexter"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/cf810f3e-0ca6-4676-bfda-fb9dad9a053b.jpg",
+   "description": "An adventure set in the Edo era, about a girl courted by three different men.",
    "developer": "Falcon",
    "launchbox": "152002",
    "publisher": "Nippon Dexter",
@@ -2310,6 +2448,7 @@
    "title": "Zowazo World"
   },
   "msx2:152021": {
+   "description": "A puzzle game: collect every crystal on the screen, clearing the bombs that block the way.",
    "developer": "GrischaSoft",
    "launchbox": "152021",
    "publisher": "GrischaSoft",
@@ -2318,6 +2457,7 @@
   },
   "msx2:152214": {
    "boxArtUrl": "https://images.launchbox-app.com/c770644d-d608-44f9-b17e-e0f24bc63e76.jpg",
+   "description": "The fourth Phantasie: twenty years after Nikademus fell, a new threat rises in Scandor.",
    "developer": "Starcraft",
    "launchbox": "152214",
    "mobygames": 51593,
@@ -2331,6 +2471,7 @@
     "Xak III: The Tower of Gazzel"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/8caf9f0a-b1b4-454d-b460-bce7e1dd0147.jpg",
+   "description": "A Xak side story set shortly after Latok's defeat of the demon in Xak II.",
    "developer": "Micro Cabin",
    "launchbox": "152280",
    "mobygames": 44137,
@@ -2343,6 +2484,7 @@
     "Rune Worth: The Young Noble of a Wire-Puller"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/8e4a3e52-40cf-40ae-9525-a9146c4ae05b.jpg",
+   "description": "The first of T&E Soft's Rune Worth action role-playing trilogy.",
    "developer": "T&E Soft",
    "launchbox": "152281",
    "publisher": "T&E Soft",
@@ -2359,6 +2501,7 @@
   },
   "msx2:152520": {
    "boxArtUrl": "https://images.launchbox-app.com/ccfc9a3b-0efb-47c2-b1f2-7147fa5b6b59.jpg",
+   "description": "T&E Soft's open-world action role-playing game: the knight Jim explores Fairyland to rescue the princess and defeat the demon Varalys.",
    "developer": "T&E Soft",
    "launchbox": "152520",
    "publisher": "T&E Soft",
@@ -2395,6 +2538,7 @@
     "Block Breaker"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/af5af3af-4596-4110-87c9-c3c3c51dfc24.jpg",
+   "description": "A brick-breaking game by the Dutch developer Radarsoft.",
    "developer": "Radarsoft",
    "launchbox": "154180",
    "mobygames": 101407,
@@ -2404,6 +2548,7 @@
   },
   "msx2:154569": {
    "boxArtUrl": "https://images.launchbox-app.com/44c67567-662f-4b38-a0b2-78d16c36981f.jpg",
+   "description": "An adventure platformer: Montana John follows his late uncle's diary to the Templars' treasure.",
    "developer": "Infinite",
    "launchbox": "154569",
    "publisher": "Infinite",
@@ -2423,6 +2568,7 @@
   },
   "msx2:155352": {
    "boxArtUrl": "https://images.launchbox-app.com/60c137a7-7369-44bf-9468-b8161efbd260.png",
+   "description": "Kogado's sci-fi role-playing sequel: the battleship Century Parody heads for the trade station Samar.",
    "developer": "Kogado Software Products",
    "launchbox": "155352",
    "publisher": "Kogado Software Products",
@@ -2434,6 +2580,7 @@
     "ＢＵＲＡＩ上巻"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/64e8a589-2b44-4350-a1fb-76a008db79f5.jpg",
+   "description": "Riverhill Soft's role-playing game: eight heroes chosen by magical pearls gather to stop the followers of the defeated evil god Daar.",
    "developer": "Riverhill Soft",
    "launchbox": "156308",
    "mobygames": 43758,
@@ -2446,6 +2593,7 @@
     "Ākusu II Sairento Shinfonī"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/7565baa7-e25a-4e56-bf02-c45fce3fd4d9.jpg",
+   "description": "Wolf Team's role-playing sequel: ten years after Jedah Chaf's companions met the Golden Dragon, a new danger stirs.",
    "developer": "Wolf Team",
    "launchbox": "156309",
    "mobygames": 18668,
@@ -2458,6 +2606,7 @@
     "サイキックウォー"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/20ec7cef-c344-4dd2-b5ed-e68f0ee457e2.jpg",
+   "description": "Kogado's sci-fi role-playing game set in 3530 AD, when the KGD star system has fallen to an evil power.",
    "developer": "Kogado Studio",
    "launchbox": "156345",
    "mobygames": 51212,
@@ -2465,10 +2614,12 @@
    "title": "Cosmic Soldier"
   },
   "msx2:156346": {
+   "adult": true,
    "aliases": [
     "電脳学園シナリオ１"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/21a97f92-6dfd-4610-ab3a-b1d13ac2d38b.jpg",
+   "description": "A quiz adventure from Gainax set at a high-tech school.",
    "developer": "Gainax",
    "launchbox": "156346",
    "publisher": "Gainax",
@@ -2481,6 +2632,7 @@
     "電脳学園シナリオ２ハイウェイバスター！！"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/8091088c-0cca-4528-991d-bf3ece1971ce.jpg",
+   "description": "The second Cybernetic Hi-School: a midnight rider is challenging drivers on the highway with tricky questions.",
    "developer": "Gainax",
    "launchbox": "156347",
    "mobygames": 23817,
@@ -2504,6 +2656,7 @@
     "ドラゴンナイト"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/6c3104f4-ed97-4dc6-a7de-d7a6ce04a94d.png",
+   "description": "Elf's first-person role-playing game: a warrior sets out to free the land of Strawberry Fields from an evil force.",
    "developer": "Elf",
    "launchbox": "156349",
    "mobygames": 18615,
@@ -2517,6 +2670,7 @@
     "ドラゴンナイトII"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/568fd542-1611-453a-83a1-380b132815e2.png",
+   "description": "The second Dragon Knight: the warrior returns to Strawberry Fields to face a new threat.",
    "developer": "Elf",
    "launchbox": "156350",
    "mobygames": 16368,
@@ -2528,6 +2682,7 @@
     "ドラゴンクイズ"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/77b0c1fa-6693-462c-a525-f8e3ab1651ac.png",
+   "description": "Compile's role-playing quiz game: battle monsters by answering trivia questions.",
    "developer": "Compile",
    "launchbox": "156351",
    "mobygames": 20946,
@@ -2539,6 +2694,7 @@
     "エメラルドドラゴン"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/b58200f9-608a-4415-879e-13dea57141d4.jpg",
+   "description": "A fantasy role-playing game: the blue dragon Atrushan leaves the Dragon World to protect the human girl Tiara.",
    "developer": "Glodia",
    "launchbox": "156352",
    "mobygames": 13893,
@@ -2552,6 +2708,7 @@
     "Rendez Vous con Rama"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/ce5faa64-4dea-444d-adfe-0bcdefc31e72.png",
+   "description": "A text adventure based on Arthur C. Clarke's Rendezvous with Rama: explore a vast alien vessel passing through the solar system.",
    "developer": "Idealogic",
    "launchbox": "156362",
    "mobygames": 12339,
@@ -2563,6 +2720,7 @@
     "クリムゾンII"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/79fe6ac6-edc2-403f-8e11-7861ea424343.jpg",
+   "description": "The second Crimson: years after the evil Crimson's defeat, peace is threatened again.",
    "developer": "Xtalsoft",
    "launchbox": "156368",
    "mobygames": 55872,
@@ -2576,6 +2734,7 @@
     "カオスエンジェルス"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/76990563-b9fc-4add-8d1b-370d148e2b37.jpg",
+   "description": "A fantasy role-playing game: a lone traveler arrives at a desert camp and is drawn into an adventure.",
    "developer": "ASCII",
    "launchbox": "156369",
    "mobygames": 18670,
@@ -2589,6 +2748,7 @@
     "Cybernetic Hi-School Part 3 - gunbusters"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/9b25f7b7-a7c6-4c17-b812-951a2e14dbc3.jpg",
+   "description": "The third Cybernetic Hi-School quiz game.",
    "developer": "Gainax",
    "launchbox": "156371",
    "mobygames": 29090,
@@ -2621,6 +2781,7 @@
     "Madō Monogatari 1-2-3"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/d55fce7d-085f-4d58-a954-9311c24cfc28.jpg",
+   "description": "Compile's first-person role-playing game in three chapters, following the young apprentice sorceress Arle Nadja.",
    "developer": "Compile",
    "launchbox": "156374",
    "mobygames": 28128,
@@ -2669,6 +2830,7 @@
   },
   "msx2:166649": {
    "boxArtUrl": "https://images.launchbox-app.com/e14980e7-76cb-4c01-9cb8-11422139a49b.jpg",
+   "description": "A remake of Knight Lore: cursed to turn into a werewolf at night, Sabreman gathers ingredients in the wizard Melkhior's castle to break the spell.",
    "launchbox": "166649",
    "mobygames": 45038,
    "publisher": "Retroworks",
@@ -2720,6 +2882,7 @@
   },
   "msx2:167627": {
    "boxArtUrl": "https://images.launchbox-app.com/fc843d1c-6f4c-4bf0-ad2b-4ad87a832223.png",
+   "description": "The word game Boggle, in Dutch.",
    "developer": "Erik van Bilsen",
    "launchbox": "167627",
    "publisher": "MSX Club",
@@ -2775,6 +2938,7 @@
   },
   "msx2:167656": {
    "boxArtUrl": "https://images.launchbox-app.com/r2_f5f3b8e7-ec85-4c48-a34c-871af3eddd00.png",
+   "description": "An adventure in which Senor Cowboyana Jones travels the world setting things right.",
    "developer": "Kurt de Vocht",
    "launchbox": "167656",
    "publisher": "MSX Computer & Club Magazine",
@@ -2805,6 +2969,7 @@
     "Get Dexter"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/9e1e4d7e-e788-4876-b201-2567cc0de90c.jpg",
+   "description": "An isometric action puzzle game: Crafton the android and his companion Xunk search a complex for the pieces of a code.",
    "developer": "ERE Informatique",
    "launchbox": "167659",
    "mobygames": 27622,
@@ -2833,6 +2998,7 @@
   },
   "msx2:167676": {
    "boxArtUrl": "https://images.launchbox-app.com/r2_f25b495e-296f-429a-821e-5e1ed9f78e33.png",
+   "description": "An action game: grab junk from the sides of the screen and fling it away.",
    "developer": "Paxanga Soft",
    "launchbox": "167676",
    "publisher": "Paxanga Soft",
@@ -2841,6 +3007,7 @@
   },
   "msx2:167688": {
    "boxArtUrl": "https://images.launchbox-app.com/r2_e4f556bb-4871-4062-af3e-13a0a4c775c0.png",
+   "description": "A puzzle platformer: help Eggbert rescue his fellow eggs using a limited set of tools, the game that later became Toki Tori.",
    "developer": "Fony",
    "launchbox": "167688",
    "mobygames": 39978,
@@ -2854,6 +3021,7 @@
     "L'Infini "
    ],
    "boxArtUrl": "https://images.launchbox-app.com/b603faff-2a22-4fd4-b9df-390c73730b3e.jpg",
+   "description": "A puzzle adventure set in Eindeloos, once a famous underground attraction.",
    "developer": "Radarsoft",
    "launchbox": "167690",
    "publisher": "RadarSoft",
@@ -2870,6 +3038,7 @@
   },
   "msx2:167859": {
    "boxArtUrl": "https://images.launchbox-app.com/10a881ba-3e85-4701-9041-299875664958.jpg",
+   "description": "A puzzle game in a large cave system on Oberon, one of Uranus's moons.",
    "developer": "Radarsoft",
    "launchbox": "167859",
    "publisher": "Philips",
@@ -2886,6 +3055,7 @@
   },
   "msx2:167882": {
    "boxArtUrl": "https://images.launchbox-app.com/dcf0707d-2c31-4e33-9693-7f0ee571a159.jpg",
+   "description": "A Pang-style action game: shoot bouncing balls that split into smaller ones.",
    "developer": "Boh-Ken",
    "launchbox": "167882",
    "publisher": "Matra",
@@ -2894,6 +3064,7 @@
   },
   "msx2:168011": {
    "adult": true,
+   "description": "A maze game of collecting items while avoiding the places along the way.",
    "developer": "Methodic Solutions",
    "launchbox": "168011",
    "mobygames": 209794,
@@ -2965,6 +3136,7 @@
   },
   "msx2:168365": {
    "boxArtUrl": "https://images.launchbox-app.com/r2_543b7696-49af-428b-9a25-91642747b679.jpg",
+   "description": "A Dutch educational program that teaches mental arithmetic through playful action.",
    "developer": "Radarsoft",
    "launchbox": "168365",
    "mobygames": 202862,
@@ -2974,6 +3146,7 @@
   },
   "msx2:168366": {
    "boxArtUrl": "https://images.launchbox-app.com/473c710d-0351-44c7-aac1-8e37bcc8ce8f.jpg",
+   "description": "An action platformer: adventurer Rick Dangerous escapes a temple of the Goolu tribe and other trap-filled places.",
    "developer": "Paragon Productions",
    "launchbox": "168366",
    "publisher": "Paragon Productions",
@@ -2989,6 +3162,7 @@
    "title": "Rick Dangerous: Extra Levels"
   },
   "msx2:168379": {
+   "description": "An adventure in which a traveler explores the mysterious Shrines of Enigma.",
    "developer": "Element",
    "launchbox": "168379",
    "publisher": "Sunrise Interactive",
@@ -3029,6 +3203,7 @@
   },
   "msx2:168608": {
    "boxArtUrl": "https://images.launchbox-app.com/r2_045807da-0058-4a98-8e70-ab92bc743989.jpg",
+   "description": "An action game: a teacher on the verge of a breakdown throws classroom supplies at unruly students.",
    "developer": "Hegega",
    "launchbox": "168608",
    "publisher": "Hegega",
@@ -3046,6 +3221,7 @@
     "Topografie Nederland"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/ea974de8-def6-40dd-b737-916c2db837ed.jpg",
+   "description": "An educational game that teaches the names and locations of cities in the Netherlands.",
    "developer": "Radarsoft",
    "launchbox": "168783",
    "publisher": "Philips",
@@ -3061,6 +3237,7 @@
   },
   "msx2:168791": {
    "boxArtUrl": "https://images.launchbox-app.com/8403e080-c323-4b3a-871e-d1ab0db0c7c4.jpg",
+   "description": "A Dutch falling-block puzzle game in the style of Tetris.",
    "developer": "BCF",
    "launchbox": "168791",
    "publisher": "BCF",
@@ -3084,6 +3261,7 @@
   },
   "msx2:168965": {
    "boxArtUrl": "https://images.launchbox-app.com/dd499fb9-5e77-4fe4-a01c-fa1b118d787d.jpg",
+   "description": "A point-and-click adventure: an animal welfare worker looks after lonely animals.",
    "developer": "Radarsoft",
    "launchbox": "168965",
    "mobygames": 142907,
@@ -3096,6 +3274,7 @@
     "Digan no Maseki: Gdleen"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/22c4702a-5035-481b-b47c-09255e176dfa.png",
+   "description": "A fantasy role-playing game that blends Western elements into the Japanese style, with menu-driven turn-based battles.",
    "developer": "Artec",
    "launchbox": "169217",
    "mobygames": 51176,
@@ -3114,6 +3293,7 @@
    "title": "Galf Streem"
   },
   "msx2:177812": {
+   "description": "A music album for MSX computers.",
    "developer": "Project M",
    "launchbox": "177812",
    "publisher": "Full Slot",
@@ -3122,6 +3302,7 @@
   },
   "msx2:179788": {
    "boxArtUrl": "https://images.launchbox-app.com/6f5b7b9c-36b7-4d95-96ae-bb018dcb7185.jpg",
+   "description": "A sci-fi visual novel based on the anime Gall Force: Eternal Story.",
    "developer": "Scaptrust",
    "launchbox": "179788",
    "mobygames": 184572,
@@ -3147,6 +3328,7 @@
     "Psyoblade"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/c0e99369-fbe0-49fd-bba3-fb2f79dd9edd.jpg",
+   "description": "T&E Soft's sci-fi adventure set in a 21st century divided among three world powers.",
    "developer": "T&E Soft",
    "launchbox": "179792",
    "mobygames": 16946,
@@ -3172,6 +3354,7 @@
     "Dead of the Brain"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/18e5ca5a-1424-443c-bbb9-198848e99790.jpg",
+   "description": "A horror adventure: a young man visits his scientist friend's lab and the dead begin to rise across the town.",
    "developer": "FairyTale",
    "launchbox": "182121",
    "mobygames": 47298,
@@ -3210,6 +3393,7 @@
   },
   "msx2:182883": {
    "boxArtUrl": "https://images.launchbox-app.com/b148e300-74da-42e6-a2b2-aed3bee7dedc.jpg",
+   "description": "An adventure based on the Kimagure Orange Road manga and anime: Kyosuke, a boy with psychic powers, is caught between two girls.",
    "developer": "Micro Cabin",
    "launchbox": "182883",
    "mobygames": 50049,
@@ -3219,6 +3403,7 @@
   },
   "msx2:186752": {
    "boxArtUrl": "https://images.launchbox-app.com/7d2f25ea-785f-4b98-847e-df5a658c05bb.jpg",
+   "description": "A sci-fi adventure: after a mysterious spaceship is shot down over Japan, its sole survivor, the bionic girl Blon-Win, is drawn into a secret conflict.",
    "developer": "Data West",
    "launchbox": "186752",
    "mobygames": 58056,
@@ -3228,6 +3413,7 @@
   },
   "msx2:186753": {
    "boxArtUrl": "https://images.launchbox-app.com/b65a5372-eb07-4a81-915d-06730ede7745.jpg",
+   "description": "The second 4th Unit: the bionic soldier Blon-Win faces the organization she has exposed.",
    "developer": "Data West",
    "launchbox": "186753",
    "mobygames": 58059,
@@ -3236,6 +3422,7 @@
    "title": "The 4th Unit 2"
   },
   "msx2:186754": {
+   "adult": true,
    "boxArtUrl": "https://images.launchbox-app.com/5c0941a8-710e-40b4-b486-371f8b899f12.jpg",
    "developer": "JAST",
    "launchbox": "186754",
@@ -3253,6 +3440,7 @@
   },
   "msx2:186756": {
    "boxArtUrl": "https://images.launchbox-app.com/3e8efb48-b926-489a-8fff-15c3b5a7ca61.jpg",
+   "description": "The second MSX Train: an action adventure and collection of mini-games.",
    "developer": "Family Soft",
    "launchbox": "186756",
    "publisher": "Family Soft",
@@ -3265,6 +3453,7 @@
     "Dual Targets: The 4th Unit Act.3"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/b2a94520-60f4-42c4-89c2-cd005590473a.jpg",
+   "description": "The third 4th Unit: three months after the destruction of the WWWF's ocean base, Blon-Win takes on a new mission.",
    "developer": "Data West",
    "launchbox": "186757",
    "mobygames": 58062,
@@ -3278,6 +3467,7 @@
     "Zerø: The 4th Unit Act.4"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/9c1d57c5-d077-43a0-9477-a818c7df4339.jpg",
+   "description": "The fourth 4th Unit, continuing directly from Dual Targets.",
    "developer": "Data West",
    "launchbox": "186758",
    "mobygames": 58064,
@@ -3291,6 +3481,7 @@
     "Jesus: Kyoufu no Bio-Monster"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/158218dd-5e7f-47b8-954f-b7de1cdd6f00.jpg",
+   "description": "Enix's sci-fi adventure: in 2061, an international crew heads out to meet Halley's Comet and finds something deadly aboard their station.",
    "developer": "Enix",
    "launchbox": "186759",
    "mobygames": 40777,
@@ -3303,6 +3494,7 @@
     "Record of Lodoss War"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/32890916-9404-4685-839c-1c3341479666.jpg",
+   "description": "A role-playing game set in Ryo Mizuno's Record of Lodoss War: the young warrior Parn and his companions confront the Grey Witch.",
    "developer": "Humming Bird Soft",
    "launchbox": "186760",
    "mobygames": 58636,
@@ -3317,6 +3509,7 @@
     "Record of Lodoss War Pack"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/a222a49d-fd8b-455b-a07b-0602e066a300.jpg",
+   "description": "A small, humorous Record of Lodoss War side game.",
    "developer": "Humming Bird Soft",
    "launchbox": "186761",
    "mobygames": 58645,
@@ -3327,6 +3520,7 @@
   },
   "msx2:186766": {
    "boxArtUrl": "https://images.launchbox-app.com/4d373378-d51d-4fbd-963c-aeedf7b02fb2.jpg",
+   "description": "Enix's tournament golf game featuring thirty professional players.",
    "developer": "Enix",
    "launchbox": "186766",
    "mobygames": 19731,
@@ -3336,6 +3530,7 @@
   },
   "msx2:186767": {
    "boxArtUrl": "https://images.launchbox-app.com/fe2abbb1-001d-4fce-bd66-914ff816d865.jpg",
+   "description": "Enix's second World Golf.",
    "developer": "Enix",
    "launchbox": "186767",
    "mobygames": 199316,
@@ -3345,6 +3540,7 @@
   },
   "msx2:186768": {
    "boxArtUrl": "https://images.launchbox-app.com/beb07a59-9d03-491a-a065-381002ad1cfc.jpg",
+   "description": "Enix's occult adventure: two horrifying incidents in unrelated places lead to a sinister conspiracy.",
    "developer": "Enix",
    "launchbox": "186768",
    "mobygames": 43671,
@@ -3358,6 +3554,7 @@
     "Arcusyu: Arcus Arch"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/dd563494-081f-4d06-9675-de6d8df1e6da.jpg",
+   "description": "A visual novel loosely tied to Wolf Team's Arcus series.",
    "developer": "Wolf Team",
    "launchbox": "186769",
    "mobygames": 78428,
@@ -3376,6 +3573,7 @@
   },
   "msx2:186771": {
    "boxArtUrl": "https://images.launchbox-app.com/1393c342-9da2-41ef-8ec6-e5f68df50162.jpg",
+   "description": "Konami's collection of four fortune-telling games: matchmaking, horoscope, palm reading and runes.",
    "developer": "Konami Industry",
    "launchbox": "186771",
    "mobygames": 78224,
@@ -3415,6 +3613,7 @@
   },
   "msx2:187756": {
    "boxArtUrl": "https://images.launchbox-app.com/68da95c2-0cc4-4fc5-b1f3-80c1ed30453f.jpg",
+   "description": "An illustrated text adventure by Michael Crichton: an expedition searches the Amazon for a lost city.",
    "developer": "Idealogic",
    "launchbox": "187756",
    "publisher": "Philips Spain",
@@ -3434,6 +3633,7 @@
     "Myth of Darkness: Legend of Yamato Takeru"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/c3a6aa9d-97b2-43b3-9601-36e1e72421b2.jpg",
+   "description": "An adventure based on the legends of Yamato Takeru, a hero of ancient Japan.",
    "developer": "Zap",
    "launchbox": "187758",
    "mobygames": 17755,
@@ -3462,6 +3662,7 @@
    "title": "Birdy World"
   },
   "msx2:188835": {
+   "adult": true,
    "boxArtUrl": "https://images.launchbox-app.com/07ab6835-435d-4ca7-9f1e-231740f1421a.jpg",
    "developer": "Harmonics",
    "launchbox": "188835",
@@ -3486,6 +3687,7 @@
     "Burai: The Concluding Chapter"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/039379fe-def0-49d9-b1b5-a363cde1d7c2.jpg",
+   "description": "The concluding Burai: the eight heroes chosen by magical pearls continue their quest against the followers of the evil god Daar.",
    "developer": "Riverhill Soft",
    "launchbox": "188837",
    "mobygames": 43759,
@@ -3496,6 +3698,7 @@
   "msx2:188846": {
    "adult": true,
    "boxArtUrl": "https://images.launchbox-app.com/0f1e02f4-bb8b-4780-a330-24caa3db6d7d.jpg",
+   "description": "The Cal sequel: the high school student Wataru Ishibashi is drawn into a magic world.",
    "developer": "Birdy Soft",
    "launchbox": "188846",
    "mobygames": 16365,
@@ -3506,6 +3709,7 @@
   "msx2:188847": {
    "adult": true,
    "boxArtUrl": "https://images.launchbox-app.com/f9b5079a-a1ea-4a2d-9679-d2473ade64ce.jpg",
+   "description": "The third Can Can Bunny, with a hero named by the player.",
    "developer": "Cocktail Soft",
    "launchbox": "188847",
    "mobygames": 43151,
@@ -3516,6 +3720,7 @@
   "msx2:188848": {
    "adult": true,
    "boxArtUrl": "https://images.launchbox-app.com/f42a1c3e-115f-46fb-a434-2b047ea56029.jpg",
+   "description": "The second Can Can Bunny, following a young man named Takeshi.",
    "developer": "Cocktail Soft",
    "launchbox": "188848",
    "mobygames": 43149,
@@ -3537,6 +3742,7 @@
   },
   "msx2:188850": {
    "boxArtUrl": "https://images.launchbox-app.com/31a582a9-8474-4a36-a0bd-bbb098d0bc73.jpg",
+   "description": "A text mystery set in 1945: the Chicago reporter Jerry Randolph investigates a murder that reaches across time.",
    "developer": "Thinking Rabbit",
    "launchbox": "188850",
    "mobygames": 54750,
@@ -3546,6 +3752,7 @@
   },
   "msx2:188851": {
    "boxArtUrl": "https://images.launchbox-app.com/8a479a5a-3b11-492f-a1a4-99fb1be0d96e.jpg",
+   "description": "Taito's shooter: a small hero floats on a cloud, firing energy balls at waves of flying foes.",
    "developer": "Taito",
    "launchbox": "188851",
    "publisher": "Hot-B",
@@ -3562,6 +3769,7 @@
   "msx2:188854": {
    "adult": true,
    "boxArtUrl": "https://images.launchbox-app.com/b086c46a-df7c-40f3-8237-21c4f8ecc4cc.jpg",
+   "description": "An Alice Soft adventure starring a cat who wanders into a tent.",
    "developer": "Alice Soft",
    "launchbox": "188854",
    "mobygames": 59190,
@@ -3575,6 +3783,7 @@
     "Dream Program System SG: Set 1"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/aed85e64-f942-40a0-a115-24aab29d5482.jpg",
+   "description": "The second Dream Program System entry: a collection of short scenarios.",
    "developer": "Alice Soft",
    "launchbox": "188890",
    "mobygames": 47525,
@@ -3586,6 +3795,7 @@
   "msx2:188891": {
    "adult": true,
    "boxArtUrl": "https://images.launchbox-app.com/6f238b8c-b3b0-4c01-8f09-1d37221b3a0d.jpg",
+   "description": "The third Dream Program System entry: a collection of short scenarios.",
    "developer": "Alice Soft",
    "launchbox": "188891",
    "mobygames": 47526,
@@ -3597,6 +3807,7 @@
   "msx2:188892": {
    "adult": true,
    "boxArtUrl": "https://images.launchbox-app.com/c06d3012-3abc-4f42-bb53-63fe1c6a377a.jpg",
+   "description": "The fourth Dream Program System entry: a collection of short scenarios.",
    "developer": "Alice Soft",
    "launchbox": "188892",
    "mobygames": 47527,
@@ -3611,6 +3822,7 @@
     "Deja"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/9c7008d5-e429-48b5-9a90-b8f7e8b5f915.jpg",
+   "description": "Elf's sci-fi adventure: the young archaeologist Ryuusuke uncovers the secret of an ancient civilization.",
    "developer": "Elf",
    "launchbox": "188893",
    "mobygames": 47325,
@@ -3621,6 +3833,7 @@
   },
   "msx2:188894": {
    "boxArtUrl": "https://images.launchbox-app.com/54300f71-bca8-4e21-87d5-7cb35cbd281d.jpg",
+   "description": "A sci-fi action game set in 2231 on the pioneer planet Dios, where a mysterious creature is attacking settlers.",
    "developer": "Zainsoft",
    "launchbox": "188894",
    "publisher": "Zainsoft",
@@ -3637,6 +3850,7 @@
   },
   "msx2:188896": {
    "boxArtUrl": "https://images.launchbox-app.com/771c8eec-a858-483c-82ab-41c069057bc6.jpg",
+   "description": "A single-player baseball card battle game.",
    "developer": "Artist Soft",
    "launchbox": "188896",
    "publisher": "Great",
@@ -3646,6 +3860,7 @@
   "msx2:188897": {
    "adult": true,
    "boxArtUrl": "https://images.launchbox-app.com/775e427d-e572-4012-81d2-f9c9b601ff4b.jpg",
+   "description": "An Alice Soft adventure set in a hospital.",
    "developer": "Alice Soft",
    "launchbox": "188897",
    "mobygames": 18727,
@@ -3655,7 +3870,9 @@
    "year": 1992
   },
   "msx2:188898": {
+   "adult": true,
    "boxArtUrl": "https://images.launchbox-app.com/f2b9c43b-fe30-4304-8b80-4af29c8b1cc8.jpg",
+   "description": "A FairyTale adventure in which the hero is taken to another world.",
    "developer": "FairyTale",
    "launchbox": "188898",
    "publisher": "FairyTale",
@@ -3666,6 +3883,7 @@
   "msx2:188899": {
    "adult": true,
    "boxArtUrl": "https://images.launchbox-app.com/064cc171-5a21-47d6-9f27-5f1864427c9b.jpg",
+   "description": "A space opera adventure about Ines, a young girl on the planet Miu.",
    "developer": "Game Technopolis",
    "launchbox": "188899",
    "mobygames": 47512,
@@ -3676,6 +3894,7 @@
   },
   "msx2:188900": {
    "boxArtUrl": "https://images.launchbox-app.com/303effb9-678b-4493-8b9f-4f78a6cbdb81.jpg",
+   "description": "An illustrated text adventure: the last dragon has been kidnapped, and you set out to rescue it.",
    "developer": "Idealogic",
    "launchbox": "188900",
    "mobygames": 1283,
@@ -3686,6 +3905,7 @@
   "msx2:188901": {
    "adult": true,
    "boxArtUrl": "https://images.launchbox-app.com/859b903d-8200-460a-89e9-e0c227d1ce39.jpg",
+   "description": "A post-apocalyptic sci-fi adventure set after an atomic war in 1999.",
    "developer": "Elf",
    "launchbox": "188901",
    "mobygames": 47622,
@@ -3727,6 +3947,7 @@
   },
   "msx2:189010": {
    "boxArtUrl": "https://images.launchbox-app.com/d2f1f4e0-f947-46cc-b301-1553d5a27e0b.jpg",
+   "description": "Wolf Team's first adventure, set in Barcelona around the work of Antoni Gaudi.",
    "developer": "Wolf Team",
    "launchbox": "189010",
    "mobygames": 48812,
@@ -3737,6 +3958,7 @@
   },
   "msx2:189011": {
    "boxArtUrl": "https://images.launchbox-app.com/44a7821e-3488-41ab-975b-a67ecdf57fcd.jpg",
+   "description": "The first Legend of the Galactic Heroes strategy game, based on the anime of Yoshiki Tanaka's novels.",
    "developer": "Bothtec",
    "launchbox": "189011",
    "mobygames": 47773,
@@ -3750,6 +3972,7 @@
     "Ginga Eiyuudensetsu II"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/d8317398-a295-4d30-96c9-4707b1c9c7b0.jpg",
+   "description": "The second Legend of the Galactic Heroes strategy game.",
    "developer": "Bothtec",
    "launchbox": "189012",
    "mobygames": 47779,
@@ -3798,6 +4021,7 @@
     "Gunship"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/d360f236-fe82-4722-b237-71a3ff95772f.jpg",
+   "description": "MicroProse's attack helicopter simulator: fly the AH-64A Apache on missions in several war zones.",
    "developer": "MicroProse Software",
    "launchbox": "189018",
    "mobygames": 335,
@@ -3808,6 +4032,7 @@
   "msx2:189019": {
    "adult": true,
    "boxArtUrl": "https://images.launchbox-app.com/2cf30e78-f22b-45a3-b61d-028b8a85397f.jpg",
+   "description": "A short visual novel about Ayayo, a seventeen-year-old with a part-time job.",
    "developer": "HARD",
    "launchbox": "189019",
    "mobygames": 58117,
@@ -3820,6 +4045,7 @@
    "aliases": [
     "Haja no Fuin"
    ],
+   "description": "A role-playing game: recover the Golden Seal guarded by the Dark Lord Terarin.",
    "developer": "Kogado Studio",
    "launchbox": "189020",
    "publisher": "Kogado Studio",
@@ -3828,6 +4054,7 @@
   },
   "msx2:189021": {
    "boxArtUrl": "https://images.launchbox-app.com/952de45a-0992-4cbf-a66b-4c94981a341b.jpg",
+   "description": "A detective adventure: the Harajuku police investigate the body of a fashionably dressed man found in a park.",
    "developer": "Kogado Studio",
    "launchbox": "189021",
    "publisher": "Kogado Studio",
@@ -3863,6 +4090,7 @@
   },
   "msx2:189032": {
    "adult": true,
+   "description": "A fantasy role-playing game: a young man wakes in a bed in an unknown house in an unknown land.",
    "developer": "Cocktail Soft",
    "launchbox": "189032",
    "mobygames": 43345,
@@ -3874,6 +4102,7 @@
   "msx2:189033": {
    "adult": true,
    "boxArtUrl": "https://images.launchbox-app.com/626d8d9d-94b6-4913-9c34-bf76cd95994b.jpg",
+   "description": "An Alice Soft adventure about a young man who meets a girl under a cherry tree.",
    "developer": "Alice Soft",
    "launchbox": "189033",
    "mobygames": 18729,
@@ -3884,6 +4113,7 @@
   },
   "msx2:189034": {
    "boxArtUrl": "https://images.launchbox-app.com/35edb67d-cbbb-4132-a446-ebd5e059a858.jpg",
+   "description": "A solitaire tile game: place each stone next to tiles that match its color or symbol, scoring most for stones that touch four neighbors.",
    "developer": "Software Resources International",
    "launchbox": "189034",
    "mobygames": 4253,
@@ -3896,6 +4126,7 @@
     "J.B. Harold 2: Manhattan Requiem: Angels Flying in the Dark"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/5d26fa28-80e8-49cc-b4e5-288dd33becf9.jpg",
+   "description": "The second J.B. Harold case: a young woman is found murdered in her Manhattan apartment.",
    "developer": "Riverhill Soft",
    "launchbox": "189035",
    "mobygames": 45910,
@@ -3914,6 +4145,7 @@
   "msx2:189038": {
    "adult": true,
    "boxArtUrl": "https://images.launchbox-app.com/36d0d165-30ea-4cf8-8c30-803ce9ca3cad.jpg",
+   "description": "An adventure set in the American Old West.",
    "developer": "Birdy Soft",
    "launchbox": "189038",
    "mobygames": 48530,
@@ -3925,6 +4157,7 @@
   "msx2:189040": {
    "adult": true,
    "boxArtUrl": "https://images.launchbox-app.com/2a0ad7a9-511b-420a-ac9b-46d1f3035ddb.jpg",
+   "description": "The Joker sequel, continuing the young hero Wild's story in the Old West.",
    "developer": "Birdy Soft",
    "launchbox": "189040",
    "mobygames": 48535,
@@ -3946,6 +4179,7 @@
   },
   "msx2:189042": {
    "boxArtUrl": "https://images.launchbox-app.com/b8cc3e3d-24f5-4062-8920-fdb9cc8fcd3b.jpg",
+   "description": "An adventure set in Agarta, a lawless city built over part of Yokohama: two years after a disaster, the young Yuuki searches it for his missing lover.",
    "developer": "Panther Software",
    "launchbox": "189042",
    "publisher": "Panther Software",
@@ -3958,6 +4192,7 @@
     "Amber's Will"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/d1dfb725-6700-4072-a2c7-fc1b702522a0.jpg",
+   "description": "The first case of the detective Ryunosuke Todo: a murder mystery in 1920s Japan.",
    "developer": "Riverhill Soft",
    "launchbox": "189043",
    "mobygames": 54290,
@@ -4001,6 +4236,7 @@
     "Kujaku Oh"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/4e375c2c-912a-4cf6-8e8d-9234ffad8e2e.jpg",
+   "description": "An adventure based on the manga Kujaku Ou by Makoto Ogino.",
    "developer": "Pony Canyon",
    "launchbox": "189047",
    "mobygames": 76837,
@@ -4010,6 +4246,7 @@
   },
   "msx2:189048": {
    "boxArtUrl": "https://images.launchbox-app.com/abace9fa-a32b-478f-afe9-a0a4735467bf.jpg",
+   "description": "A post-apocalyptic role-playing game: with humanity gone, demons battle aliens for control of the Earth.",
    "developer": "BrainGrey",
    "launchbox": "189048",
    "mobygames": 13538,
@@ -4019,6 +4256,7 @@
   },
   "msx2:189050": {
    "adult": true,
+   "description": "A detective adventure: the young private detective Gorou takes a case from a wealthy client.",
    "developer": "FairyTale",
    "launchbox": "189050",
    "mobygames": 45923,
@@ -4029,6 +4267,7 @@
   },
   "msx2:189052": {
    "adult": true,
+   "description": "The second Lipstick Adventure, with another case for the private detective Gorou.",
    "developer": "FairyTale",
    "launchbox": "189052",
    "mobygames": 45926,
@@ -4048,6 +4287,7 @@
   },
   "msx2:189055": {
    "boxArtUrl": "https://images.launchbox-app.com/65d077cc-6ff2-40c3-ad52-629166919324.jpg",
+   "description": "A trading and colony game for four players: claim land on a new planet, equip mules to produce resources, and compete at auction.",
    "developer": "Ozark Softscape",
    "launchbox": "189055",
    "mobygames": 9752,
@@ -4126,6 +4366,8 @@
    "title": "Nichiyoubi ni Uchuujin ga…?"
   },
   "msx2:189066": {
+   "adult": true,
+   "description": "A sci-fi adventure set in 2526: the pilot Nike and her young co-pilot Miho enter an interstellar space race.",
    "developer": "Cocktail Soft",
    "launchbox": "189066",
    "publisher": "Cocktail Soft",
@@ -4147,6 +4389,7 @@
   },
   "msx2:189068": {
    "boxArtUrl": "https://images.launchbox-app.com/440fa330-3b0e-46bd-9cb5-1d6f6385aef3.jpg",
+   "description": "A horror adventure: an ordinary young man's stroll through his quiet town turns into a nightmare.",
    "developer": "Soft Studio Wing",
    "launchbox": "189068",
    "mobygames": 54968,
@@ -4168,6 +4411,7 @@
     "Phantasie II: Story of Ferronrah"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/dab46fd5-3c7c-4b26-8e24-4a341e2c68b6.jpg",
+   "description": "The second Phantasie: a party of adventurers sets out to free a new land from the dark lord Nikademus.",
    "developer": "Bothtec",
    "launchbox": "189070",
    "mobygames": 9547,
@@ -4177,6 +4421,7 @@
   },
   "msx2:189071": {
    "boxArtUrl": "https://images.launchbox-app.com/e31b931f-f2af-4dc4-8c6f-332dde6b9197.jpg",
+   "description": "The third Phantasie: the dark lord Nikademus returns to conquer the world in the trilogy's conclusion.",
    "developer": "Bothtec",
    "launchbox": "189071",
    "mobygames": 9548,
@@ -4190,6 +4435,7 @@
     "Pinky Ponky I"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/01d3f788-f073-438e-b487-272aef3fb0a8.jpg",
+   "description": "The first Pinky Ponky, a dating simulation with visual novel elements.",
    "developer": "Elf",
    "launchbox": "189072",
    "mobygames": 58836,
@@ -4201,6 +4447,7 @@
   "msx2:189073": {
    "adult": true,
    "boxArtUrl": "https://images.launchbox-app.com/8a71181b-0df4-4698-81ee-0dcb9378dca3.jpg",
+   "description": "The second Pinky Ponky, a dating simulation.",
    "developer": "Elf",
    "launchbox": "189073",
    "mobygames": 58839,
@@ -4211,6 +4458,7 @@
   "msx2:189074": {
    "adult": true,
    "boxArtUrl": "https://images.launchbox-app.com/ded2531d-014d-4650-a946-6326990ba420.jpg",
+   "description": "The third Pinky Ponky, a dating simulation.",
    "developer": "Elf",
    "launchbox": "189074",
    "mobygames": 58838,
@@ -4232,10 +4480,12 @@
    "year": 1991
   },
   "msx2:189076": {
+   "adult": true,
    "aliases": [
     "Playhouse Strip Poker"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/32db09c6-2ddc-4329-b0aa-46fdc752269b.jpg",
+   "description": "A poker game against computer opponents.",
    "developer": "Playhouse",
    "launchbox": "189076",
    "publisher": "Eurosoft",
@@ -4248,6 +4498,7 @@
     "Pokey"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/c4799eeb-e36c-4fc1-a5b5-19ac384efea4.jpg",
+   "description": "An adventure set at the Pocky private high school.",
    "developer": "Ponytail Soft",
    "launchbox": "189077",
    "mobygames": 58867,
@@ -4267,6 +4518,7 @@
   "msx2:189079": {
    "adult": true,
    "boxArtUrl": "https://images.launchbox-app.com/f3c4d949-b9d7-422a-b81f-d4c2cc223b93.jpg",
+   "description": "The second Rance: sent to recover four stolen magical rings, Rance faces the sorceresses terrorizing Custom Town.",
    "developer": "Alice Soft",
    "launchbox": "189079",
    "mobygames": 18681,
@@ -4280,6 +4532,7 @@
     "Adventure of Randar II: Revenge of Death"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/1e6137fa-27f8-4ef1-8913-7b2463a394c9.png",
+   "description": "The second Randar role-playing game, now in a sci-fi setting.",
    "developer": "Kemsx",
    "launchbox": "189080",
    "mobygames": 18642,
@@ -4292,6 +4545,7 @@
     "Adventure of Randar"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/200df1dd-5bda-48e5-9c79-d23f66f3c393.jpg",
+   "description": "Compile's role-playing game starring Randar, the little egg-shaped healer from Golvellius.",
    "developer": "Kemsx",
    "launchbox": "189081",
    "mobygames": 18638,
@@ -4305,6 +4559,7 @@
     "Randar no Bōken III: Yami ni Miserareta Majutsushi"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/dc320e73-c38d-4a35-9899-39ecc61c376f.jpg",
+   "description": "The third Randar role-playing game, with a human hero named by the player.",
    "developer": "Compile",
    "launchbox": "189082",
    "mobygames": 18645,
@@ -4315,6 +4570,7 @@
   "msx2:189083": {
    "adult": true,
    "boxArtUrl": "https://images.launchbox-app.com/ff2a248e-b273-40d2-9c6b-b11a3ad0d461.jpg",
+   "description": "A sci-fi role-playing game: Georgie, who repairs combat robots in a quiet town, is drawn into a battle.",
    "developer": "Elf",
    "launchbox": "189083",
    "mobygames": 42914,
@@ -4326,6 +4582,7 @@
   "msx2:189084": {
    "adult": true,
    "boxArtUrl": "https://images.launchbox-app.com/83cf79cc-273e-4d00-927a-d04180c64de8.jpg",
+   "description": "A poker game against a single opponent.",
    "developer": "The Bytebusters",
    "launchbox": "189084",
    "mobygames": 210087,
@@ -4343,6 +4600,7 @@
   },
   "msx2:189086": {
    "boxArtUrl": "https://images.launchbox-app.com/4c57d323-6a3f-4d93-9c7f-fb93546df81a.jpg",
+   "description": "A sci-fi role-playing game blending party combat with exploration.",
    "developer": "Strategic Simulations",
    "launchbox": "189086",
    "publisher": "StarCraft",
@@ -4351,6 +4609,7 @@
   },
   "msx2:189088": {
    "boxArtUrl": "https://images.launchbox-app.com/bb547cca-3a29-4204-8479-98057ee261da.jpg",
+   "description": "Kogado's space strategy game set in 3260, when humans have colonized most of the Milky Way.",
    "developer": "Kogado Studio",
    "launchbox": "189088",
    "publisher": "Kogado Studio",
@@ -4360,6 +4619,7 @@
   },
   "msx2:189089": {
    "boxArtUrl": "https://images.launchbox-app.com/2500b7af-707b-4db9-8077-0437af2b018b.jpg",
+   "description": "The sequel to Schwarzschild, a space strategy game set four years after the first, in 3964.",
    "developer": "Kogado Studio",
    "launchbox": "189089",
    "mobygames": 57206,
@@ -4370,6 +4630,7 @@
   },
   "msx2:189090": {
    "boxArtUrl": "https://images.launchbox-app.com/7c06203f-ea27-45b7-af37-038dff6c7ac6.jpg",
+   "description": "A Sorcerian scenario pack set in Japan's Warring States era.",
    "developer": "Nihon Falcom",
    "launchbox": "189090",
    "publisher": "TAKERU",
@@ -4378,6 +4639,7 @@
   },
   "msx2:189091": {
    "boxArtUrl": "https://images.launchbox-app.com/5cdd4c11-7cd1-47d1-b982-194c086e622c.jpg",
+   "description": "The second Shanghai: mahjong solitaire with new tile layouts.",
    "developer": "Sun Electronics",
    "launchbox": "189091",
    "mobygames": 2055,
@@ -4398,6 +4660,7 @@
   },
   "msx2:189093": {
    "boxArtUrl": "https://images.launchbox-app.com/08d5ca36-7d52-4797-9831-45e976307f5e.jpg",
+   "description": "A collection of eight solitaire card games, including Klondike.",
    "developer": "Software Resources International",
    "launchbox": "189093",
    "mobygames": 4231,
@@ -4409,6 +4672,7 @@
   "msx2:189094": {
    "adult": true,
    "boxArtUrl": "https://images.launchbox-app.com/4c4ccad9-0c78-4623-95cc-152b1cc4509e.jpg",
+   "description": "A mystery adventure about a 19-year-old living in a boarding house.",
    "developer": "D.O.",
    "launchbox": "189094",
    "mobygames": 44320,
@@ -4427,6 +4691,7 @@
   },
   "msx2:189096": {
    "boxArtUrl": "https://images.launchbox-app.com/5ec60c7e-2938-4a81-960b-de82b6268994.jpg",
+   "description": "A turn-based tactical game of defending a city and its power plant from giant monster attacks.",
    "developer": "Data West",
    "launchbox": "189096",
    "publisher": "Data West",
@@ -4460,6 +4725,7 @@
     "Tengu Story"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/32128615-86f2-4c0f-b966-903768b5ef3a.jpg",
+   "description": "An Alice Soft mystery adventure: two high school girls on a school trip investigate the legend of a tengu.",
    "developer": "Alice Soft",
    "launchbox": "189099",
    "mobygames": 59187,
@@ -4482,6 +4748,7 @@
     "Tir-nan-og"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/fc258b92-a998-4779-b1c8-c509a9ac062b.jpg",
+   "description": "The third Tir-nan-og role-playing game, sequel to The Sign of Chaos.",
    "developer": "SystemSoft",
    "launchbox": "189101",
    "mobygames": 59239,
@@ -4497,6 +4764,7 @@
     "Tsururin Kun"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/998fa67d-568b-4f80-af60-4ba1a0df5d33.jpg",
+   "description": "The fifth of Konami's Game Collections on disk, with extras.",
    "developer": "Konami Industry",
    "launchbox": "189102",
    "mobygames": 78116,
@@ -4511,6 +4779,7 @@
     "Toushin Doshi"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/896b52bd-80f4-4be2-b50d-b5c1912f8019.jpg",
+   "description": "An Alice Soft role-playing game set in a city of gladiator tournaments, where a young fighter competes.",
    "developer": "Alice Soft",
    "launchbox": "189103",
    "mobygames": 18730,
@@ -4524,6 +4793,7 @@
     "Tritorn II: Road of Darkness"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/fefc5db5-6bcf-43b0-908f-280d91273b0c.jpg",
+   "description": "A side-scrolling action role-playing game: the demon Geld sends his army against humanity again.",
    "developer": "XAIN",
    "launchbox": "189104",
    "mobygames": 55678,
@@ -4536,6 +4806,7 @@
     "Ultima I"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/405228fe-8433-4f24-a439-43bda2c78445.jpg",
+   "description": "A remake of the first Ultima: travel to Sosaria, through dungeons and into space, to defeat the evil wizard Mondain.",
    "developer": "Origin Systems",
    "launchbox": "189105",
    "mobygames": 12111,
@@ -4545,6 +4816,7 @@
   },
   "msx2:189106": {
    "boxArtUrl": "https://images.launchbox-app.com/b6dd8ff6-497c-4479-8b51-ecbb498d31ea.jpg",
+   "description": "The fourth Ultima: with evil vanquished, become the Avatar by mastering eight virtues and recovering the Codex of Ultimate Wisdom.",
    "developer": "Newtopia Planning",
    "launchbox": "189106",
    "mobygames": 884,
@@ -4557,6 +4829,7 @@
    "aliases": [
     "Urotsuki Doji"
    ],
+   "description": "An adventure based on the horror anime Urotsukidoji.",
    "developer": "FairyTale",
    "launchbox": "189107",
    "mobygames": 43465,
@@ -4567,6 +4840,7 @@
   },
   "msx2:189108": {
    "boxArtUrl": "https://images.launchbox-app.com/828c404f-7f90-41f2-982c-77b5b9492e26.jpg",
+   "description": "An adventure based on the manga The Laughing Salesman.",
    "developer": "Compile",
    "launchbox": "189108",
    "publisher": "Compile",
@@ -4575,6 +4849,7 @@
   },
   "msx2:189109": {
    "boxArtUrl": "https://images.launchbox-app.com/270c8545-24ad-465c-b9e6-6efabb25b663.jpg",
+   "description": "A text adventure about a cat, based on the manga What's Michael?",
    "developer": "Micro Cabin",
    "launchbox": "189109",
    "mobygames": 197462,
@@ -4585,6 +4860,7 @@
   "msx2:189110": {
    "adult": true,
    "boxArtUrl": "https://images.launchbox-app.com/a9b5ec59-38ad-4147-8c20-179ab89a27f7.jpg",
+   "description": "A text adventure about a high school student named Kentarou.",
    "developer": "Alice Soft",
    "launchbox": "189110",
    "mobygames": 18724,
@@ -4594,6 +4870,7 @@
    "year": 1987
   },
   "msx2:189111": {
+   "description": "A fantasy role-playing game: the young warrior Tetsu leaves home to serve human rulers in their war against demons.",
    "developer": "FairyTale",
    "launchbox": "189111",
    "mobygames": 45584,
@@ -4604,6 +4881,7 @@
   },
   "msx2:189112": {
    "boxArtUrl": "https://images.launchbox-app.com/2c7e522f-6e10-4ef0-a8a7-cc65003d108c.jpg",
+   "description": "A baseball management simulation built on the 1989 professional season's data.",
    "developer": "Cross Media Soft",
    "launchbox": "189112",
    "publisher": "Victor Co. of Japan",
@@ -4631,6 +4909,7 @@
   },
   "msx2:189130": {
    "boxArtUrl": "https://images.launchbox-app.com/8b5bf472-2f04-45f8-9360-3fb013473c41.jpg",
+   "description": "The third J.B. Harold case, set in Washington, D.C.",
    "developer": "Riverhill Soft",
    "launchbox": "189130",
    "mobygames": 45921,
@@ -4644,6 +4923,7 @@
     "Jack Nicklaus Golf"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/780f736f-130d-4343-888a-c37bb4e5e0ff.jpg",
+   "description": "A 3D golf simulation of eighteen holes picked by Jack Nicklaus from major championship courses.",
    "developer": "Sculptured Software",
    "launchbox": "189131",
    "mobygames": 7988,
@@ -4657,6 +4937,7 @@
     "Kiss of Murder"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/94c1d059-664b-43d4-aacb-4dda30275632.jpg",
+   "description": "A J.B. Harold scenario set in a parallel world to Manhattan Requiem.",
    "developer": "Riverhill Soft",
    "launchbox": "189132",
    "mobygames": 71207,
@@ -4666,6 +4947,7 @@
   },
   "msx2:189716": {
    "boxArtUrl": "https://images.launchbox-app.com/9ad240e4-8f64-4e62-8872-4cec5fac318e.jpg",
+   "description": "The third Crimson: the demon Crimson returns, determined to destroy humanity.",
    "developer": "Xtalsoft",
    "launchbox": "189716",
    "mobygames": 55876,
@@ -4675,6 +4957,7 @@
   },
   "msx2:190481": {
    "boxArtUrl": "https://images.launchbox-app.com/c362f39f-ba0d-4d58-a846-4797ce0abf1a.jpg",
+   "description": "A patched version of Vampire Killer reworked to resemble the original Castlevania.",
    "developer": "Manuel Pazos & Imanok",
    "launchbox": "190481",
    "screenshotUrl": "https://images.launchbox-app.com/c67ec08c-ca5f-403a-a378-c1326ec47799.png",
@@ -4693,6 +4976,7 @@
    "contentIds": [
     "sha256-rom-v1:6eac6edbd3c71038fb04d232ff3206ca7d2161b6b74f4e9c677f66a712474e71"
    ],
+   "description": "An adventure with Ali Baba, developed in Kuwait.",
    "developer": "Al Alamiah",
    "launchbox": "192690",
    "publisher": "Al Alamiah",
@@ -4704,6 +4988,7 @@
   },
   "msx2:193564": {
    "boxArtUrl": "https://images.launchbox-app.com/88ff18c4-fa8a-4229-94fa-33e043561fd9.jpg",
+   "description": "A puzzle game aboard a stellar freighter on a collision course.",
    "developer": "Oniric Factor",
    "launchbox": "193564",
    "publisher": "Oniric Factor",
@@ -4713,6 +4998,7 @@
   "msx2:194538": {
    "adult": true,
    "boxArtUrl": "https://images.launchbox-app.com/df913f8c-0db8-4cd8-bca8-7880c4f7f2a0.jpg",
+   "description": "Alice Soft's first Rance: the cocky swordsman Rance takes a job to find a missing girl, in a dungeon role-playing game.",
    "developer": "Alice Soft",
    "launchbox": "194538",
    "mobygames": 18679,
@@ -4726,6 +5012,7 @@
     "CAL 1"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/80bb4739-7ae2-45f6-9f9f-58da157970c7.jpg",
+   "description": "An adventure about an ordinary high school student, named by the player.",
    "developer": "Birdy Soft",
    "launchbox": "194670",
    "mobygames": 43147,
@@ -4743,6 +5030,7 @@
    "aliases": [
     "アゴボード"
    ],
+   "description": "Go, from Konami's Game Collection Extra as a standalone game.",
    "developer": "Konami",
    "launchbox": "200459",
    "publisher": "Konami",
@@ -4755,6 +5043,7 @@
     "Risk II"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/bc48f737-16c2-490f-989f-f47d7117aced.jpg",
+   "description": "A campaign edition of the second Daisenryaku, a modern war strategy game on hex maps.",
    "developer": "SystemSoft",
    "launchbox": "201856",
    "mobygames": 54418,
@@ -4767,6 +5056,7 @@
     "The Legend of Shonan: The Legend of Red Star"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/622ef3c4-3945-433b-a26b-9301c03b3fd2.png",
+   "description": "A turn-based strategy game of rival biker gangs, a parody of delinquent manga.",
    "developer": "Cross Media Soft",
    "launchbox": "202148",
    "publisher": "Cross Media Soft",
@@ -4775,6 +5065,7 @@
   },
   "msx2:204786": {
    "boxArtUrl": "https://images.launchbox-app.com/r2_97f3b8a1-5a43-4ee4-9dfd-41dec7fa1bf3.png",
+   "description": "A puzzle game: clear every crystal from the board.",
    "developer": "Emphasys",
    "launchbox": "204786",
    "publisher": "Emphasys",
@@ -4791,6 +5082,7 @@
   },
   "msx2:204807": {
    "boxArtUrl": "https://images.launchbox-app.com/aa5c3671-c90e-47fe-b9ea-e10fdc77b42a.jpg",
+   "description": "An aerobics workout program.",
    "developer": "Spinnaker Software",
    "launchbox": "204807",
    "publisher": "Idealogic",
@@ -4799,6 +5091,7 @@
   },
   "msx2:204808": {
    "boxArtUrl": "https://images.launchbox-app.com/aa1d109c-50ca-4b12-8f24-9c6f9333dda2.jpg",
+   "description": "An Arkanoid-style brick-breaking game from Italy.",
    "developer": "M.M.G. Software",
    "launchbox": "204808",
    "publisher": "M.M.G. Software",
@@ -4875,6 +5168,7 @@
     "はっちゃけあやよさんIIいけないホリディ"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/925aded4-1f79-4bc6-aa03-f2fed4175997.jpg",
+   "description": "The second Hacchake Ayayo-san, a short visual novel continuing Ayayo's story.",
    "developer": "HARD",
    "launchbox": "205521",
    "mobygames": 58118,
@@ -4936,6 +5230,7 @@
   },
   "msx2:205579": {
    "boxArtUrl": "https://images.launchbox-app.com/2afd1c47-b30e-444c-af64-acd60cbb441f.jpg",
+   "description": "A Puzzle Bobble-style game: fire colored bubbles to match and clear the field.",
    "developer": "Imanok",
    "launchbox": "205579",
    "publisher": "Imanok",
@@ -5146,6 +5441,7 @@
   "msx2:206295": {
    "adult": true,
    "boxArtUrl": "https://images.launchbox-app.com/6731e118-b9a8-48da-93d2-c2ac5657334a.jpg",
+   "description": "An action adventure: an ordinary high school student's strange dream pulls him into a sci-fi battle.",
    "developer": "Cocktail Soft",
    "launchbox": "206295",
    "mobygames": 49991,
@@ -5157,6 +5453,7 @@
   "msx2:206302": {
    "adult": true,
    "boxArtUrl": "https://images.launchbox-app.com/60488173-08b6-49fe-a313-455b5536614b.png",
+   "description": "A mystery adventure: an art school student attends a party at his professor's home.",
    "developer": "FairyTale",
    "launchbox": "206302",
    "mobygames": 48576,
@@ -5177,6 +5474,7 @@
   "msx2:206313": {
    "adult": true,
    "boxArtUrl": "https://images.launchbox-app.com/15f53b62-9c58-4f46-9676-e87e666f568f.jpg",
+   "description": "A mahjong game against a cast of anime-style opponents.",
    "developer": "Nichibutsu",
    "launchbox": "206313",
    "mobygames": 20410,
@@ -5204,6 +5502,7 @@
     "Who Dares Wins"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/dc4fe931-0028-43bc-8d88-6892e74a2abb.jpg",
+   "description": "A remake of the run-and-gun game Who Dares Wins: a lone soldier fights through enemy territory.",
    "developer": "RetroForce",
    "launchbox": "206324",
    "publisher": "MSX Cartridge Shop",
@@ -5212,6 +5511,7 @@
   },
   "msx2:206328": {
    "boxArtUrl": "https://images.launchbox-app.com/eda40946-b3b0-4d16-9b7c-a0a5a90b1c0f.jpg",
+   "description": "A colored remake of Alien 8: a robot repairs the cryogenic systems of a starship in isometric puzzle rooms.",
    "developer": "Manuel Pazos",
    "launchbox": "206328",
    "mobygames": 39201,
@@ -5220,6 +5520,7 @@
    "title": "Alien 8 Remake"
   },
   "msx2:206350": {
+   "description": "A remake of Barbarian: a one-on-one sword fighting game.",
    "developer": "bitVision",
    "launchbox": "206350",
    "publisher": "MSXdev",
@@ -5227,6 +5528,7 @@
    "title": "Barbarian: The Duel"
   },
   "msx2:206352": {
+   "description": "A small beach volleyball game from Compile's Disc Station.",
    "developer": "Imanok",
    "launchbox": "206352",
    "publisher": "Compile",
@@ -5235,6 +5537,7 @@
   },
   "msx2:206362": {
    "boxArtUrl": "https://images.launchbox-app.com/a4a69739-4b7a-4919-90fb-5a011b7d23a8.png",
+   "description": "A map add-on for Daisenryaku with sixteen maps based on real locations.",
    "developer": "SystemSoft",
    "launchbox": "206362",
    "publisher": "Micro Cabin",
@@ -5251,6 +5554,7 @@
   },
   "msx2:206370": {
    "boxArtUrl": "https://images.launchbox-app.com/24d05e6d-a9ee-40e5-848d-301cf3c6980e.jpg",
+   "description": "A map add-on for Super Daisenryaku with thirty new maps.",
    "developer": "SystemSoft",
    "launchbox": "206370",
    "mobygames": 175038,
@@ -5314,6 +5618,7 @@
    "aliases": [
     "Ouke no Tani El Giza no Fuuin Edit Contest Yuushuu Sakuhinshuu"
    ],
+   "description": "King's Valley II's contest edition with player-made stages: dig and solve your way through pyramids to collect the soul stones.",
    "developer": "Konami",
    "launchbox": "209095",
    "publisher": "Konami",
@@ -5322,6 +5627,7 @@
   },
   "msx2:210315": {
    "boxArtUrl": "https://images.launchbox-app.com/73065c58-3e57-4a7c-8797-f67a81c1e533.jpg",
+   "description": "A fantasy adventure in a peaceful kingdom ruled through two gems.",
    "developer": "Maron Team",
    "launchbox": "210315",
    "publisher": "Maron Team",
@@ -5383,6 +5689,7 @@
   },
   "msx2:213422": {
    "boxArtUrl": "https://images.launchbox-app.com/c232b20e-94ff-4d64-afc1-af5f3d5411f2.jpg",
+   "description": "A Retroworks adventure based on the Spanish legend of Brunilda.",
    "developer": "retroworks",
    "launchbox": "213422",
    "publisher": "Retroworks",
@@ -5397,6 +5704,7 @@
   },
   "msx2:216546": {
    "boxArtUrl": "https://images.launchbox-app.com/931d218d-5ef6-4a62-a701-c367d88762af.png",
+   "description": "A role-playing adventure: Lilly, a village girl who stands up to bullies, sets out to recover the Stones of Evergreen.",
    "developer": "Fabulous 8bit",
    "launchbox": "216546",
    "screenshotUrl": "https://images.launchbox-app.com/9dab6688-80af-4e2e-a30e-5f68b6870f58.png",
@@ -5408,6 +5716,7 @@
     "Sword of Ianna"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/5ef774f9-9f00-45c7-8162-040eb62c8e58.jpg",
+   "description": "A fantasy action platformer: the warrior Tukaram climbs into the realm of the evil god to recover the Sword of Ianna.",
    "developer": "retroworks",
    "launchbox": "216586",
    "publisher": "Retroworks",
@@ -5676,6 +5985,7 @@
   },
   "msx2:218882": {
    "boxArtUrl": "https://images.launchbox-app.com/r2_8cbb327e-003d-45b3-b301-f2738c8e5164.png",
+   "description": "A fast multidirectional shooter with parallax scrolling and large sprites.",
    "developer": "Team DEVA",
    "launchbox": "218882",
    "publisher": "Team DEVA",
@@ -5699,6 +6009,7 @@
     "Bombaman: Quest On Iko Iko Island"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/1250b886-b13b-4b04-8e24-006a7d71f97f.jpg",
+   "description": "A Bomberman-style action game.",
    "developer": "TeamBomba",
    "launchbox": "219842",
    "mobygames": 67693,
@@ -5708,6 +6019,7 @@
   },
   "msx2:220146": {
    "boxArtUrl": "https://images.launchbox-app.com/d04b66ef-d390-400f-9173-374609832b56.jpg",
+   "description": "An action game: you awaken in a place of torment and must fight your way out.",
    "developer": "Aetherbyte",
    "launchbox": "220146",
    "publisher": "Aetherbyte",
@@ -5721,6 +6033,7 @@
     "Super Deformed Snatcher"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/5f78f66b-06b0-4360-82be-fb666de2ad8d.jpg",
+   "description": "Konami's role-playing take on Snatcher: in 2042, a Junker hunts the bioroids replacing people in Neo Kobe City.",
    "developer": "Konami",
    "launchbox": "26897",
    "mobygames": 18597,
@@ -5734,6 +6047,7 @@
    "contentIds": [
     "sha256-rom-v1:e47df9bdad35adcba4e45675f632ae30b0bdde578b48c819a1e35d6c29f0a090"
    ],
+   "description": "Konami's stealth action game: Solid Snake infiltrates the fortress state Outer Heaven to destroy the walking nuclear tank Metal Gear.",
    "developer": "Konami",
    "launchbox": "26942",
    "mobygames": 140111,
@@ -5751,6 +6065,7 @@
     "sha256-rom-v1:43b7fab533abeb87313919ec1fc7bc732d7b0ebfacede1e4f89d8295160384f2",
     "sha256-rom-v1:49c48f513f71586ea40e01b2cbf9f1bec1bf6964bdf5fcb74765c47230e82c59"
    ],
+   "description": "Konami's stealth sequel: Solid Snake infiltrates Zanzibar Land to rescue a kidnapped scientist and stop a new Metal Gear.",
    "developer": "Konami",
    "launchbox": "26943",
    "mobygames": 18588,
@@ -5776,6 +6091,7 @@
    "contentIds": [
     "sha256-rom-v1:42a0470e9ff22881039e4fdfdbed3b3348c07fb3a7a21591cca49a93d85d977e"
    ],
+   "description": "Compile's vertical shooter: a lone fighter strikes at the supercomputer DIA51, corrupted by a virus.",
    "developer": "Compile",
    "launchbox": "26945",
    "publisher": "Compile",
@@ -5788,6 +6104,7 @@
   },
   "msx2:26946": {
    "boxArtUrl": "https://images.launchbox-app.com/c4e9955c-77dc-41d7-a9b8-ad85a6f5c320.png",
+   "description": "The second Aleste: in 2039, twenty years after DIA51, a space fortress begins attacking Earth.",
    "developer": "Compile",
    "launchbox": "26946",
    "mobygames": 19701,
@@ -5802,6 +6119,7 @@
     "Arubatoros 2"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/27e20488-2dd1-4293-b602-689711c27b1e.jpg",
+   "description": "Telenet's golf sequel with more courses and options.",
    "developer": "Telenet Japan",
    "launchbox": "26949",
    "mobygames": 205578,
@@ -5818,6 +6136,7 @@
    "contentIds": [
     "sha256-rom-v1:f298db966471bd45851fe50a22926087d1d9cebb98c7bceaa68ee266fa3d5934"
    ],
+   "description": "A vertical shooter set in a universe where matter and antimatter must stay in balance.",
    "developer": "Telenet Japan",
    "launchbox": "26952",
    "mobygames": 59028,
@@ -5830,6 +6149,7 @@
   },
   "msx2:26955": {
    "boxArtUrl": "https://images.launchbox-app.com/4fa4fc09-977c-4dca-bdea-b74cf2a6c51e.jpg",
+   "description": "A DuckTales board game: Scrooge's lucky dime has vanished, stolen by Magica.",
    "developer": "Emphasys",
    "launchbox": "26955",
    "mobygames": 231492,
@@ -5843,6 +6163,7 @@
    "contentIds": [
     "sha256-rom-v1:8eb70ae57d8e606c73ef937e94fd01e3fa85f02db298e23005afb85b87a17120"
    ],
+   "description": "A bowling game for up to five players across thirty lanes.",
    "developer": "Softvision",
    "launchbox": "26956",
    "publisher": "Toshiba-EMI",
@@ -5858,6 +6179,7 @@
    "contentIds": [
     "sha256-rom-v1:e013db9efce513e993dc8fb77ca08aa486c1284e1db36c388c01f8426d736461"
    ],
+   "description": "Konami's baseball sequel with more teams and stadiums.",
    "developer": "Konami",
    "launchbox": "26957",
    "mobygames": 71152,
@@ -5870,6 +6192,7 @@
   },
   "msx2:26958": {
    "boxArtUrl": "https://images.launchbox-app.com/a0f3b3af-d7f7-4b01-819a-fe022b74e4d0.jpg",
+   "description": "A side-scrolling platformer: Giana runs and jumps through dream worlds to wake from her nightmare.",
    "developer": "MGF",
    "launchbox": "26958",
    "publisher": "Sunrise Interactive",
@@ -5885,6 +6208,7 @@
    "contentIds": [
     "sha256-rom-v1:9c42a0b4d4219176e0e894c434deb0b479cde3ce9edbd9e99395a8baae6c01d6"
    ],
+   "description": "Konami's action role-playing game based on King Kong Lives.",
    "developer": "Konami",
    "launchbox": "26972",
    "mobygames": 70956,
@@ -5897,6 +6221,7 @@
   },
   "msx2:26995": {
    "boxArtUrl": "https://images.launchbox-app.com/0f9177a1-d50b-4ee2-bbc7-47e199d7499e.jpg",
+   "description": "T&E Soft's vertical shooter for one or two players, whose jets can dock together into a stronger ship.",
    "developer": "T&E Soft",
    "launchbox": "26995",
    "mobygames": 19732,
@@ -5912,6 +6237,7 @@
    "contentIds": [
     "sha256-rom-v1:7815e5ac436521faeec24719d6edaaa820f07b8fb55ddafab4a0a08364cc766e"
    ],
+   "description": "ASCII's dodgeball game: Penguin-kun plays to rescue his kidnapped friend Penpi-chan.",
    "developer": "ASCII",
    "launchbox": "27007",
    "mobygames": 99228,
@@ -5944,6 +6270,7 @@
   },
   "msx2:27025": {
    "boxArtUrl": "https://images.launchbox-app.com/d2278ff7-d994-44e5-99cd-339450606df2.jpg",
+   "description": "An action game: the penguin Pentaro, exiled to the South Pole by the evil Emperor Penguin, finds his way home.",
    "developer": "Cabinet",
    "launchbox": "27025",
    "publisher": "Sunrise",
@@ -5952,6 +6279,7 @@
   },
   "msx2:27026": {
    "boxArtUrl": "https://images.launchbox-app.com/3cea91cc-f971-4b24-b83a-69fc7ac6dafb.jpg",
+   "description": "The second Pentaro Odyssey, set on an island.",
    "developer": "Cabinet",
    "launchbox": "27026",
    "publisher": "Sunrise",
@@ -5960,6 +6288,7 @@
   },
   "msx2:27028": {
    "boxArtUrl": "https://images.launchbox-app.com/2001149e-e1cd-453e-93d7-4fe2f4d4af3e.jpg",
+   "description": "A baseball game with live commentary.",
    "developer": "Klon",
    "launchbox": "27028",
    "mobygames": 78069,
@@ -5970,6 +6299,7 @@
   },
   "msx2:27090": {
    "boxArtUrl": "https://images.launchbox-app.com/5fb9cfe3-5f53-4f81-907f-3738dee87af6.png",
+   "description": "Compile's board game role-playing hybrid: four warriors search for the missing Rune Master as monsters overrun the land.",
    "developer": "Compile",
    "launchbox": "27090",
    "mobygames": 34438,
@@ -5983,6 +6313,7 @@
     "ルーンマスターII"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/466616e7-7635-40e7-ad99-fc525e97fd01.jpg",
+   "description": "The second Rune Master, set in the small southern kingdom of Fleart.",
    "developer": "Compile",
    "launchbox": "27091",
    "mobygames": 34458,
@@ -5997,6 +6328,7 @@
     "ルーンマスター三国英傑伝"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/cd14932f-f955-4266-b9dd-0e34c7a2abab.jpg",
+   "description": "The third Rune Master: a war among three kingdoms, with pieces that grow in ability.",
    "developer": "Compile",
    "launchbox": "27092",
    "mobygames": 34459,
@@ -6010,6 +6342,7 @@
    "contentIds": [
     "sha256-rom-v1:058f5768ad39a74dafc2dd4e3d7558b82117aee0b6735a02be379f1018694dc9"
    ],
+   "description": "Konami's horizontal shooter: in the year 189 of the stellar calendar, pilot the Manbow against an ancient alien threat.",
    "developer": "Konami",
    "launchbox": "27101",
    "mobygames": 19512,
@@ -6023,6 +6356,7 @@
   },
   "msx2:27103": {
    "boxArtUrl": "https://images.launchbox-app.com/r2_49ee7dde-6ff4-4068-8d1a-45988aee430e.jpg",
+   "description": "An adventure: an old woman's peaceful day of gathering herbs is interrupted.",
    "developer": "UMAX",
    "launchbox": "27103",
    "publisher": "Sunrise Interactive",
@@ -6036,6 +6370,7 @@
     "Valis II"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/4e847fe6-6108-4c89-8f6c-9ac154ef23a0.jpg",
+   "description": "The second Valis: Yuko wields the Valis sword to defend the realm of Vecanti.",
    "developer": "Telenet Japan",
    "launchbox": "27105",
    "mobygames": 17232,
@@ -6050,6 +6385,7 @@
     "Akumajō Dracula"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/363da3ad-e433-41e6-8233-53825dd7a60b.jpg",
+   "description": "Konami's MSX Castlevania: Simon Belmont explores Dracula's castle, finding keys and items to reach the Count.",
    "developer": "Konami",
    "launchbox": "27106",
    "mobygames": 18725,
@@ -6060,6 +6396,7 @@
   },
   "msx2:27111": {
    "boxArtUrl": "https://images.launchbox-app.com/30cd5a35-255f-43fc-a34e-961cda58794e.jpg",
+   "description": "The third Pumpkin Adventure: strange creatures attack Los Angeles.",
    "developer": "UMAX",
    "launchbox": "27111",
    "publisher": "Sunrise",
@@ -6069,6 +6406,7 @@
   },
   "msx2:27113": {
    "boxArtUrl": "https://images.launchbox-app.com/c00f13cf-07f0-4bd8-9446-5d4c67430d31.jpg",
+   "description": "The second Pumpkin Adventure: two boys turned into pumpkins search for the seven keys.",
    "developer": "UMAX",
    "launchbox": "27113",
    "publisher": "Sunrise",
@@ -6078,6 +6416,7 @@
   },
   "msx2:27117": {
    "boxArtUrl": "https://images.launchbox-app.com/e1f28cc4-f15c-4e53-9e1a-8f1ff3895575.jpg",
+   "description": "A comic adventure mixing Monty Python-style humor and heavy metal.",
    "developer": "UMAX",
    "launchbox": "27117",
    "publisher": "Sunrise",
@@ -6090,6 +6429,7 @@
    "contentIds": [
     "sha256-rom-v1:3d1014ebe49672547b3cbc541d9d94c3b1190c018ae53815f346c7f479d5777d"
    ],
+   "description": "A first-person sci-fi action game: a techno-scavenger in 2049 explores the Koronis Rift, salvaging alien technology.",
    "developer": "Mr. Micro",
    "launchbox": "30194",
    "mobygames": 9551,
@@ -6116,6 +6456,7 @@
     "Contra - Gryzor"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/84266747-ac1c-4638-97e3-fc9e18071390.jpg",
+   "description": "Konami's run-and-gun shooter: commandos Bill and Lance fight the alien warlord Red Falcon.",
    "developer": "Konami",
    "launchbox": "31625",
    "mobygames": 138050,
@@ -6126,6 +6467,7 @@
   },
   "msx2:33046": {
    "boxArtUrl": "https://images.launchbox-app.com/4f17a365-347b-4c5b-8162-3e04c641559c.jpg",
+   "description": "Wolf Team's role-playing game: the magic kingdom of Arkases is threatened by an awakened evil.",
    "developer": "Wolf Team",
    "launchbox": "33046",
    "mobygames": 18664,
@@ -6142,6 +6484,7 @@
    "contentIds": [
     "sha256-rom-v1:3dcb85704006e2a3d95f11e9e2dbf13f1457b55f89727d70940ed7720ea0c78c"
    ],
+   "description": "A puzzle game: switch rails to roll orange and blue balls back to their matching spots.",
    "developer": "ArtDink",
    "launchbox": "33050",
    "publisher": "Pony Canyon",
@@ -6154,6 +6497,7 @@
   },
   "msx2:33052": {
    "boxArtUrl": "https://images.launchbox-app.com/c582bc1e-769b-4ec3-958a-264610f0c1e2.png",
+   "description": "Enix's first Dragon Quest: a descendant of Erdrick sets out to rescue the princess and defeat the Dragonlord.",
    "developer": "Chunsoft",
    "launchbox": "33052",
    "publisher": "Enix",
@@ -6163,6 +6507,7 @@
   },
   "msx2:33307": {
    "boxArtUrl": "https://images.launchbox-app.com/5870afe1-d579-4cf6-9a16-3d0001200ebb.jpg",
+   "description": "The falling-jewel puzzle: rotate the order of three stacked gems as they drop, lining up three of a color to clear them and set off chains.",
    "developer": "Compile",
    "launchbox": "33307",
    "mobygames": 7685,
@@ -6173,6 +6518,7 @@
   "msx2:33318": {
    "adult": true,
    "boxArtUrl": "https://images.launchbox-app.com/aa6565cc-6318-483e-9349-efab820a09be.png",
+   "description": "An adventure in which monsters invade an amusement park during a contest.",
    "developer": "D.O.",
    "launchbox": "33318",
    "mobygames": 51178,
@@ -6186,6 +6532,7 @@
     "Pointless Fighting"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/6ac57a03-bb20-46f3-a2e9-9d01a4908866.png",
+   "description": "A fan-made MSX2 version of Street Fighter II.",
    "developer": "Bart van Velzen (Norakomi)",
    "launchbox": "33537",
    "publisher": "Baka-Yo! Softcorp",
@@ -6225,6 +6572,7 @@
     "What Many Princess"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/f426616c-7450-4ce5-94b3-913cf52d887f.jpg",
+   "description": "HAL's comic platformer: the hero Masashi Tashiro sets out to rescue four princesses.",
    "developer": "HAL Laboratory",
    "launchbox": "33706",
    "mobygames": 235722,
@@ -6243,6 +6591,7 @@
    "contentIds": [
     "sha256-rom-v1:fc196d14088481b8068c0b7d2f8ab89ab5c13dc851beda40147c9d172b11c103"
    ],
+   "description": "An adventure based on the Lupin III film The Legend of the Gold of Babylon: Lupin's gang hunts treasure in New York.",
    "developer": "Toho",
    "launchbox": "33768",
    "publisher": "Toho",
@@ -6261,6 +6610,7 @@
    "contentIds": [
     "sha256-rom-v1:91d7dac4fe0c08052b77f0800d39a7f1e09ab0d5b4fce5b9becb4e081be5b53c"
    ],
+   "description": "An action game based on the Lupin III film The Castle of Cagliostro: Lupin infiltrates the castle to rescue Clarisse.",
    "developer": "Toho",
    "launchbox": "33770",
    "mobygames": 157941,
@@ -6273,6 +6623,7 @@
   },
   "msx2:33781": {
    "boxArtUrl": "https://images.launchbox-app.com/c838287e-d128-4af4-afda-5a1223c27fef.jpg",
+   "description": "Enix's action role-playing game set in Gandhara, the ancient Kushan capital, steeped in Buddhist legend.",
    "developer": "Enix",
    "launchbox": "33781",
    "mobygames": 51192,
@@ -6283,6 +6634,7 @@
   },
   "msx2:33786": {
    "boxArtUrl": "https://images.launchbox-app.com/8420a1cf-9450-4340-86bf-dfb6de1eb94f.png",
+   "description": "Compile's falling-blob puzzle: link four same-colored puyo to pop them and set off chains that bury your opponent.",
    "developer": "Compile",
    "launchbox": "33786",
    "mobygames": 19643,
@@ -6298,6 +6650,7 @@
     "Dragon Slayer: The Legend of Heroes"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/39893c99-2b80-4fee-a4b8-4b563f6deb2b.png",
+   "description": "Falcom's role-playing game: the young prince Selios sets out to reclaim his kingdom from the forces that took it.",
    "developer": "Nihon Falcom",
    "launchbox": "33790",
    "mobygames": 15001,
@@ -6308,6 +6661,7 @@
   },
   "msx2:33805": {
    "boxArtUrl": "https://images.launchbox-app.com/bec77a09-5d78-4564-b02c-4186fbb17485.jpg",
+   "description": "A side story to Aleste 2, released free with Compile's magazine.",
    "developer": "Compile",
    "launchbox": "33805",
    "publisher": "Compile",
@@ -6320,6 +6674,7 @@
    "contentIds": [
     "sha256-rom-v1:75138d3f744891ce45f26fdc8ac8c722dd73f60f5c49ef33f084b9a786147904"
    ],
+   "description": "Taito's shooter: the shrine maiden Sayo-chan battles mischievous spirits with charms and her wand.",
    "developer": "Taito",
    "launchbox": "33812",
    "mobygames": 19639,
@@ -6341,6 +6696,7 @@
   },
   "msx2:33814": {
    "boxArtUrl": "https://images.launchbox-app.com/fff6ec31-9722-4b9e-8808-05fc6856673f.jpg",
+   "description": "T&E Soft's vertical fantasy shooter: choose one of three heroes and fight through themed stages.",
    "developer": "T&E Soft",
    "launchbox": "33814",
    "mobygames": 33361,
@@ -6358,6 +6714,7 @@
    "contentIds": [
     "sha256-rom-v1:25556813df44c5062a22174978f8919d341d7ba6088878e5ec2ac52d100d6048"
    ],
+   "description": "The second AshGuine action role-playing game.",
    "developer": "T&E Soft",
    "launchbox": "33838",
    "publisher": "T&E Soft",
@@ -6369,6 +6726,7 @@
   },
   "msx2:33839": {
    "boxArtUrl": "https://images.launchbox-app.com/29d93ded-abd3-4892-bb0b-59f127eb6246.png",
+   "description": "The first AshGuine: the evil Banutracus has thrown the planet Nepenthus back to a primitive age.",
    "developer": "Bit2",
    "launchbox": "33839",
    "publisher": "Panasoft",
@@ -6383,6 +6741,7 @@
    "contentIds": [
     "sha256-rom-v1:3639d50b155fcc59d508311fb29af19e6152abf6db258548befdc53776edf42f"
    ],
+   "description": "The third AshGuine: a top-down action role-playing game with real-time battles.",
    "developer": "Micro Cabin",
    "launchbox": "33840",
    "publisher": "Panasoft",
@@ -6394,6 +6753,7 @@
   },
   "msx2:33841": {
    "boxArtUrl": "https://images.launchbox-app.com/1d56b912-a43a-4a2a-a164-9d25db7240a6.jpg",
+   "description": "A one- or two-player platformer in the vein of Bubble Bobble, with swords.",
    "developer": "Parallax",
    "launchbox": "33841",
    "publisher": "Sunrise",
@@ -6406,6 +6766,7 @@
     "Persevere Goemon!: Tricky Travels"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/bc0f6d7f-c1b2-4b8b-b57c-761c994d17e4.jpg",
+   "description": "Konami's action game: the thief Goemon travels Edo-era Japan, collecting passes to reach each castle.",
    "developer": "Konami",
    "launchbox": "33842",
    "mobygames": 26313,
@@ -6434,6 +6795,7 @@
     "sha256-fd-v1:cd3fdb921a3cb8fee0295b0f8800165689f96ba4cbc7e7219e8a63b92df085f2",
     "sha256-fd-v1:d2c525a927a8d40b503a11b90a6dc4a4380ff1b9664c9dd77b5e1b42fa971ee3"
    ],
+   "description": "A Xak spin-off shooter: the young sorceress Fray sets out to follow her beloved Latok.",
    "developer": "Micro Cabin",
    "launchbox": "33843",
    "mobygames": 44111,
@@ -6465,6 +6827,7 @@
    "contentIds": [
     "sha256-rom-v1:19c35b10615e3532d4e30b442cf741cb9593d2c7b27648d70afc8527aac07ad9"
    ],
+   "description": "A platform action game: a powerful unit is sent against the supercomputer Omega.",
    "developer": "Compile",
    "launchbox": "33845",
    "mobygames": 218629,
@@ -6477,6 +6840,7 @@
   },
   "msx2:33847": {
    "boxArtUrl": "https://images.launchbox-app.com/ff3073eb-eee3-40cf-88b5-36b575f067e2.jpg",
+   "description": "A side-scrolling platformer: an ESP researcher rescues her colleague from monsters, using psychic powers she gains along the way.",
    "developer": "Hertz",
    "launchbox": "33847",
    "mobygames": 8237,
@@ -6494,6 +6858,7 @@
     "sha256-rom-v1:11e0b842a8bddbeafd1662cd102678a74415dad0f45b8f914cad11f1b344c809",
     "sha256-rom-v1:377cc75e785acc3e5809e3fd9dcbed37b6ea35811026cc92cd720a7392ba48fa"
    ],
+   "description": "Konami's platformer: Wit and Cles explore ruins to recover the jewels of Usas, switching moods to change their abilities.",
    "developer": "Konami",
    "launchbox": "33851",
    "mobygames": 19530,
@@ -6509,6 +6874,7 @@
     "Middogarutsu"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/7ef67cf9-e9f1-4ff8-93ad-e0987d8cb8e6.jpg",
+   "description": "Wolf Team's side-scrolling action game: ride a white dragon into battle against the rival dragon clans.",
    "developer": "Wolf Team",
    "launchbox": "33854",
    "mobygames": 46140,
@@ -6523,6 +6889,7 @@
     "Ninja Kun: Ashura no Sho"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/f78a9544-0577-47a4-8968-8ce8c5550a67.png",
+   "description": "A Ninja-kun platformer with a new story.",
    "developer": "Opera House",
    "launchbox": "33855",
    "publisher": "HAL Laboratory",
@@ -6535,6 +6902,7 @@
     "激走ニャンクル"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/48edd1f8-8873-4f66-b672-1451f425aeb0.png",
+   "description": "A vertically scrolling hovercraft race featuring the cute Nyancle family.",
    "developer": "Bit2",
    "launchbox": "33856",
    "mobygames": 28245,
@@ -6550,6 +6918,7 @@
     "Ａ列車で行こう"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/5120147d-8d7a-45a6-8d3f-6c0a3da48b34.jpg",
+   "description": "The first A-Train: build a railway network that grows the towns along its tracks.",
    "developer": "ArtDink",
    "launchbox": "33858",
    "mobygames": 51412,
@@ -6562,6 +6931,7 @@
    "contentIds": [
     "sha256-rom-v1:89c0f51a4fcfa76fb749b74e0d8d141d48e55f488879028947188f362c2ea380"
    ],
+   "description": "A stunt flight simulator: fly a small BD-5J jet through eight aerobatic courses.",
    "developer": "MicroProse",
    "launchbox": "33859",
    "mobygames": 20202,
@@ -6578,6 +6948,7 @@
    "contentIds": [
     "sha256-rom-v1:071109d4805a64b8f42494f1d7d5d6c472fd3692b168b14c570232a99a80ebe3"
    ],
+   "description": "A comedy game based on the manga High School! Kimengumi.",
    "developer": "Pony Canyon",
    "launchbox": "33860",
    "mobygames": 188254,
@@ -6594,6 +6965,7 @@
     "War of the Dead 2"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/f5c4282c-645f-4695-8746-23cf68459abf.png",
+   "description": "The second War of the Dead: years after the first, Lila faces a new outbreak of the undead.",
    "developer": "Victor Interactive Software",
    "launchbox": "33861",
    "mobygames": 51432,
@@ -6607,6 +6979,7 @@
    "contentIds": [
     "sha256-rom-v1:bc621c8bdb5d9a721989dcf3a77158229869ca73fbbdcb796c43e98e2d27d084"
    ],
+   "description": "An action role-playing game: the city of Chinese Hill is cut off and overrun by monsters, and Lila goes in.",
    "developer": "Fun Project",
    "launchbox": "33862",
    "mobygames": 51396,
@@ -6619,6 +6992,7 @@
   },
   "msx2:33864": {
    "boxArtUrl": "https://images.launchbox-app.com/9ce0adc8-a6fd-41df-a559-845f62f04390.png",
+   "description": "Taito's brick-breaking sequel: guide the Vaus through new rounds, with branching paths, to face Doh again.",
    "developer": "Taito",
    "launchbox": "33864",
    "mobygames": 1088,
@@ -6627,6 +7001,7 @@
    "title": "Arkanoid II: Revenge of Doh"
   },
   "msx2:33917": {
+   "adult": true,
    "boxArtUrl": "https://images.launchbox-app.com/f4e2b567-545d-47e1-8925-9664d4af4e2e.jpg",
    "contentIds": [
     "sha256-rom-v1:9efe539c0789eab12e4472dbe3afdd2ff4956a9607c88b6e2e77a63dba2a48ee"
@@ -6655,6 +7030,7 @@
     "Dragon Slayer IV: Draslefamily"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/d91a4d86-fca9-4186-9569-12532cdc236d.png",
+   "description": "Falcom's action adventure: a family of five, each with different abilities, explores a vast dungeon to defeat the dragon Keela.",
    "developer": "Nihon Falcom",
    "launchbox": "33938",
    "mobygames": 12859,
@@ -6669,6 +7045,7 @@
     "Dragon Slayer II: Xanadu"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/496c2bf4-1fb8-4f44-ab67-23e1dda48303.png",
+   "description": "Falcom's action role-playing game: descend through the dungeon kingdom of Xanadu, building your character and gear to defeat the King Dragon.",
    "developer": "Nihon Falcom",
    "launchbox": "33997",
    "publisher": "Nihon Falcom",
@@ -6681,6 +7058,7 @@
    "contentIds": [
     "sha256-rom-v1:6ab912861b6ba38c6c2eedee6f23389e92fb88d01ee7df61f0e1000fdf55554b"
    ],
+   "description": "A Xevious-style vertical shooter.",
    "developer": "Bit2",
    "launchbox": "33998",
    "publisher": "Bit2",
@@ -6693,6 +7071,7 @@
   },
   "msx2:33999": {
    "boxArtUrl": "https://images.launchbox-app.com/8e7f269e-8297-4660-a6f8-0f03ab59a995.jpg",
+   "description": "A fantasy strategy war game on the continent of Gaia, a precursor to Langrisser.",
    "developer": "NCS",
    "launchbox": "33999",
    "mobygames": 157769,
@@ -6705,6 +7084,7 @@
     "Ancient Ys Vanished II: The Final Chapter"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/bea02c17-bba4-46dd-93d7-7325b33a5137.png",
+   "description": "Falcom's action role-playing sequel: Adol arrives in the floating land of Ys and uncovers why it was lost.",
    "developer": "Nihon Falcom",
    "launchbox": "34000",
    "mobygames": 13596,
@@ -6719,6 +7099,7 @@
     "Ys III: Wanderers from Ys"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/3c483da5-ebdf-4644-8bda-f6ab4e982430.jpg",
+   "description": "The third Ys: Adol travels with his friend Dogi to Redmont, battling through side-scrolling dungeons.",
    "developer": "Nihon Falcom",
    "launchbox": "34001",
    "mobygames": 9829,
@@ -6732,6 +7113,7 @@
    "contentIds": [
     "sha256-rom-v1:913fa26b38af54b3fd3ba6024ec7e578ad84760f62ed31bb6e5aafd5205222f6"
    ],
+   "description": "A boxing game viewed from above the ring, with a full range of punches.",
    "developer": "Wood Place",
    "launchbox": "34002",
    "publisher": "Sony",
@@ -6750,6 +7132,7 @@
    "contentIds": [
     "sha256-rom-v1:e9a64c465d31d4a59091c62af4ae570852c7df9626961205325024b32a63a027"
    ],
+   "description": "Koei's age-of-exploration game: as heir to a fallen Portuguese family, trade, explore and fight at sea to restore its fortune.",
    "developer": "Koei",
    "launchbox": "34004",
    "mobygames": 1903,
@@ -6765,6 +7148,7 @@
    "contentIds": [
     "sha256-rom-v1:0aefd43d0ffab71acee32a37e0c118489b9cb1b1595985752ad6d548e893a3f7"
    ],
+   "description": "Hudson's vertical shooter set inside a giant spaceship: evolve your fighter by collecting power-ups.",
    "developer": "Hudson Soft",
    "launchbox": "34034",
    "mobygames": 167674,
@@ -6777,6 +7161,7 @@
   },
   "msx2:34059": {
    "boxArtUrl": "https://images.launchbox-app.com/2867e7f7-8de4-4244-9842-6ef5a52aed6e.jpg",
+   "description": "Konami's cyberpunk adventure: in Neo Kobe City, Gillian Seed hunts the Snatchers, bioroids that replace people.",
    "developer": "Konami",
    "launchbox": "34059",
    "mobygames": 7524,
@@ -6791,6 +7176,7 @@
     "Ys: Ancient Ys Vanished Omen"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/b70f736e-7c5c-4974-bd93-533431b0f037.jpg",
+   "description": "Falcom's action role-playing game: the red-haired swordsman Adol recovers the six books of Ys to save the land of Esteria.",
    "developer": "Nihon Falcom",
    "launchbox": "34082",
    "mobygames": 242,
@@ -6801,6 +7187,7 @@
   },
   "msx2:34083": {
    "boxArtUrl": "https://images.launchbox-app.com/b92c3ee2-04b4-42ec-9b39-88c27dda59bd.png",
+   "description": "An action role-playing game in the style of Ys: the cheerful girl Silviana sets out on an adventure.",
    "developer": "Pack-In-Video",
    "launchbox": "34083",
    "mobygames": 237130,
@@ -6850,6 +7237,7 @@
    "contentIds": [
     "sha256-rom-v1:0be38a676ac6f6bae0ee2b36b9ae14f90843b688cd3f652261a5d7a9abb54c57"
    ],
+   "description": "A commercial airliner landing simulator.",
    "developer": "Nidecom",
    "launchbox": "34125",
    "mobygames": 101058,
@@ -6865,6 +7253,7 @@
    "contentIds": [
     "sha256-rom-v1:8685052f84a430ec9c198ba5f29329ad2f6aa43a92979db8a55621885a06a8a7"
    ],
+   "description": "Namco's action platformer: the hero Clovis explores mountains and caves on his way to slay the dragon and rescue the princess.",
    "developer": "Namco",
    "launchbox": "34128",
    "mobygames": 13398,
@@ -6883,6 +7272,7 @@
    "contentIds": [
     "sha256-rom-v1:b720df7dd6cbcd97b855e14fd1124d929534dbf4035e090a8b824c15bd17d8f1"
    ],
+   "description": "A 3D action game of steering aircraft around a looping course.",
    "developer": "Bothtec",
    "launchbox": "34129",
    "mobygames": 117794,
@@ -6899,6 +7289,7 @@
     "Way of the Ninja"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/5842a44c-064b-4069-accc-367ef5d8384a.jpg",
+   "description": "Koei's ninja role-playing game set in 1581: a survivor of Nobunaga's attack on the Iga clan travels Japan, gathering allies and power to take revenge.",
    "developer": "Koei",
    "launchbox": "34137",
    "mobygames": 13947,
@@ -6911,6 +7302,7 @@
     "Golvellius II"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/b8ce3bd6-f42a-4332-a990-e172ef7d28ba.jpg",
+   "description": "Compile's MSX2 remake of Golvellius: Kelesis explores a valley full of monsters to rescue the princess.",
    "developer": "Compile",
    "launchbox": "34146",
    "mobygames": 228797,
@@ -6939,6 +7331,7 @@
    "contentIds": [
     "sha256-rom-v1:8b3c5d7e802c3644a3c8b7816c5101955c2f8750b44b958341b081d1fad42283"
    ],
+   "description": "T&E Soft's third Hydlide: an action role-playing game with character creation and a world that tracks time.",
    "developer": "T&E Soft",
    "launchbox": "34730",
    "publisher": "T&E Soft",
@@ -6950,6 +7343,7 @@
   },
   "msx2:35008": {
    "boxArtUrl": "https://images.launchbox-app.com/26ce8f20-7ced-4c58-9679-6221c76b8076.jpg",
+   "description": "Gainax's raising simulation: a warrior hero raises a young girl, guiding her studies and work toward the future she chooses.",
    "developer": "Gainax",
    "launchbox": "35008",
    "mobygames": 11646,
@@ -6960,6 +7354,7 @@
   },
   "msx2:419732": {
    "boxArtUrl": "https://images.launchbox-app.com/8aa5c6db-dca1-4a85-82fa-ede1b57b9052.jpg",
+   "description": "An enhanced version of Konami's The Maze of Galious: Popolon and Aphrodite explore a castle and its worlds.",
    "developer": "Victor Martinez",
    "launchbox": "419732",
    "screenshotUrl": "https://images.launchbox-app.com/b8983b17-e1ba-41c8-a8ff-7885968eceab.jpg",
@@ -6971,6 +7366,7 @@
     "Head over Heels"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/49d8da6f-5a4f-47b6-a3ff-686907b5e406.png",
+   "description": "A remake of Head Over Heels: two characters with different abilities work together through an isometric empire.",
    "developer": "FX Software",
    "launchbox": "422036",
    "publisher": "AAMSX",
@@ -6982,6 +7378,7 @@
     "Bat Man MSX2 Remake"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/9326d31d-d823-44da-8ead-561b3faa59f8.png",
+   "description": "A remake of Ocean's isometric Batman: rescue Robin by gathering the Batsuit's parts.",
    "developer": "FX Software",
    "launchbox": "422041",
    "publisher": "MSX Cartridge Shop",
@@ -6991,6 +7388,7 @@
   "msx2:424120": {
    "adult": true,
    "boxArtUrl": "https://images.launchbox-app.com/r2_d819a653-bc1d-4203-8301-ab608390adda.png",
+   "description": "A fantasy role-playing game about the origin of evil.",
    "developer": "City Factory",
    "launchbox": "424120",
    "mobygames": 18673,
@@ -7000,6 +7398,7 @@
   },
   "msx2:424678": {
    "boxArtUrl": "https://images.launchbox-app.com/9d96da99-381a-4dfe-9bd1-105d414e585e.jpg",
+   "description": "A homebrew side-scrolling shooter: a virus from Mars threatens all life on Earth, and the heroine Zhira races to destroy it.",
    "developer": "Kai Magazine Software",
    "launchbox": "424678",
    "mobygames": 192936,
@@ -7009,6 +7408,7 @@
   },
   "msx2:424877": {
    "boxArtUrl": "https://images.launchbox-app.com/97d4e02d-d988-4ef0-961e-1abd9c453038.jpg",
+   "description": "A horror adventure: Caroline Phenix awakens in the depths of hell and must uncover how she died and whether she is truly dead.",
    "developer": "Casper Croes",
    "launchbox": "424877",
    "publisher": "Casper Croes",
@@ -7018,6 +7418,7 @@
   },
   "msx2:424904": {
    "boxArtUrl": "https://images.launchbox-app.com/9a3693e9-e7ee-4675-ade7-a6f56c866622.jpg",
+   "description": "A fantasy adventure set in Ysserria, a mystic world where humans lived in peace for centuries until a new threat arose.",
    "developer": "UMAX",
    "launchbox": "424904",
    "publisher": "Sunrise",
@@ -7029,6 +7430,7 @@
     "キャラバンブーマー"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/04a20575-25a3-4afb-b389-179982aad048.jpg",
+   "description": "A homebrew vertical shooter with dark sci-fi visuals.",
    "developer": "N.I & Bo DSGN",
    "launchbox": "424978",
    "publisher": "N.I & Bo DSGN",
@@ -7038,6 +7440,7 @@
   },
   "msx2:424994": {
    "boxArtUrl": "https://images.launchbox-app.com/7227e7ab-0d36-43a4-94a6-6c95f3906a01.jpg",
+   "description": "A side-scrolling action role-playing game: the legend of the orc king Gadhlan'Thur, who conquered the known world, returns to haunt it.",
    "developer": "Kai Magazine Software",
    "launchbox": "424994",
    "mobygames": 192899,
@@ -7048,6 +7451,7 @@
   },
   "msx2:425020": {
    "boxArtUrl": "https://images.launchbox-app.com/2bdba98d-7df6-4808-96e4-23b0b5544e49.jpg",
+   "description": "A homebrew action platformer: explore the underground of a United Nations colony on Mars, where something has gone wrong.",
    "developer": "Kai Magazine Software",
    "launchbox": "425020",
    "mobygames": 192991,
@@ -7058,6 +7462,7 @@
   },
   "msx2:425038": {
    "boxArtUrl": "https://images.launchbox-app.com/4cf5efbc-0972-4868-90c6-a28cbcdaa26b.jpg",
+   "description": "A fantasy adventure: as Nagash Silverstone, explore a complex world of magic.",
    "developer": "UMAX",
    "launchbox": "425038",
    "publisher": "Sunrise",
@@ -7066,6 +7471,7 @@
   },
   "msx2:425348": {
    "boxArtUrl": "https://images.launchbox-app.com/r2_5c6cca98-77e6-4ab3-bfc5-8813fdd708a4.png",
+   "description": "A French educational game about the events of the French Revolution.",
    "developer": "Legend Software",
    "launchbox": "425348",
    "publisher": "Legend Software",
@@ -7077,6 +7483,7 @@
     "11:48",
     "午後１１時４８分 Version 4"
    ],
+   "description": "A number puzzle: arrange digits so that every row and column adds up to the target sum.",
    "developer": "Fantasy Creators",
    "launchbox": "425350",
    "publisher": "Fantasy Creators",
@@ -7085,12 +7492,14 @@
   },
   "msx2:425379": {
    "boxArtUrl": "https://images.launchbox-app.com/r2_4e3d9486-38b1-46d4-bf99-a89add48f204.png",
+   "description": "A shooter: aim a targeting sight to destroy incoming spacecraft.",
    "developer": "Octopus Bros.",
    "launchbox": "425379",
    "screenshotUrl": "https://images.launchbox-app.com/bff278cd-b816-4ac4-ba94-d803af241831.jpg",
    "title": "3D Fire"
   },
   "msx2:425393": {
+   "description": "A space adventure: a cosmonaut searches for the nine parts of a mysterious object.",
    "developer": "Meichnpp",
    "launchbox": "425393",
    "publisher": "Meichnpp",
@@ -7098,6 +7507,7 @@
    "title": "9 Parts"
   },
   "msx2:425513": {
+   "description": "A shooter in the style of Cybernoid: recover minerals and gems stolen from three hidden asteroids by space pirates.",
    "developer": "KoD",
    "launchbox": "425513",
    "publisher": "KoD",
@@ -7107,6 +7517,7 @@
   "msx2:440319": {
    "adult": true,
    "boxArtUrl": "https://images.launchbox-app.com/6b5e2ace-b375-47ed-83d2-145e20cb8f2e.jpg",
+   "description": "A mystery adventure about Hiroshi and Mayumi, childhood friends who grew up together.",
    "developer": "Birdy Soft",
    "launchbox": "440319",
    "mobygames": 45782,
@@ -7118,6 +7529,7 @@
   "msx2:440324": {
    "adult": true,
    "boxArtUrl": "https://images.launchbox-app.com/24a53355-bbd4-470c-949b-8166c01dadf6.png",
+   "description": "The third Twilight Zone role-playing game, set months after the hero's earlier ordeal.",
    "developer": "Great",
    "launchbox": "440324",
    "mobygames": 58966,
@@ -7133,6 +7545,7 @@
     "Beast: Injū no Yakata"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/d7958eb3-a525-4a92-a816-c2c84a212cc8.jpg",
+   "description": "A horror adventure: friends exploring a forest take shelter from the rain in a mansion, and something stalks them there.",
    "developer": "Birdy Soft",
    "launchbox": "440370",
    "mobygames": 196517,
@@ -7144,6 +7557,7 @@
   "msx2:440427": {
    "adult": true,
    "boxArtUrl": "https://images.launchbox-app.com/15a0a00d-f3c1-4d43-b4c5-e5fc05fab97f.jpg",
+   "description": "A fantasy role-playing game: a young adventurer crosses a desert that was a thriving land five hundred years ago.",
    "developer": "FairyTale",
    "launchbox": "440427",
    "mobygames": 44243,
@@ -7155,6 +7569,7 @@
   "msx2:441544": {
    "adult": true,
    "boxArtUrl": "https://images.launchbox-app.com/da2f91ef-d9f1-4fcf-b411-d97f0a79dccb.jpg",
+   "description": "A traditional Japanese role-playing game with a small party, top-down exploration and turn-based battles.",
    "developer": "Game Technopolis",
    "launchbox": "441544",
    "mobygames": 42816,
@@ -7177,6 +7592,7 @@
    "title": "Cheese 2"
   },
   "msx2:450095": {
+   "description": "A puzzle game: place arrows to steer a car through every flag on the course without crashing.",
    "developer": "Inufuto",
    "launchbox": "450095",
    "publisher": "Inufuto",
@@ -7186,6 +7602,7 @@
   },
   "msx2:450144": {
    "boxArtUrl": "https://images.launchbox-app.com/5454f403-df9b-49c5-9b98-2d2274a5cc52.jpg",
+   "description": "A puzzle action game: collect every star, pushing and loading blocks to defeat monsters along the way.",
    "developer": "Inufuto",
    "launchbox": "450144",
    "publisher": "Inufuto",
@@ -7195,6 +7612,7 @@
   },
   "msx2:451282": {
    "boxArtUrl": "https://images.launchbox-app.com/e0e5d074-8f87-4488-a471-cd0be7bbed48.jpg",
+   "description": "A Capcom-style beat 'em up with role-playing elements: replay stages to earn money and grow stronger.",
    "developer": "Kai Magazine Software",
    "launchbox": "451282",
    "mobygames": 193032,
@@ -7204,6 +7622,7 @@
   },
   "msx2:454109": {
    "boxArtUrl": "https://images.launchbox-app.com/5811fee7-f4e6-44d6-9a3a-58de76319225.png",
+   "description": "A fantasy adventure to rescue Princess Paloma in an ancient forest realm.",
    "developer": "InfiniteMSX",
    "launchbox": "454109",
    "publisher": "MSXdev",
@@ -7212,6 +7631,7 @@
   },
   "msx2:454958": {
    "boxArtUrl": "https://images.launchbox-app.com/78ff668d-0585-46ff-ac8b-6a781689fbe5.jpg",
+   "description": "A sci-fi game set during a war that breaks out over an unmanned planet between two allied stars.",
    "developer": "Heart Soft",
    "launchbox": "454958",
    "publisher": "Heart Soft",
@@ -7223,6 +7643,7 @@
     "Salamander - Enhanced"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/b12fe89d-0d08-470f-9762-68e5db627c96.jpg",
+   "description": "A smooth-scrolling enhanced version of Konami's Salamander shooter.",
    "developer": "Bladeba",
    "launchbox": "455642",
    "publisher": "Bladeba",
@@ -7267,6 +7688,7 @@
    "year": 1990
   },
   "msx2:461222": {
+   "description": "Knightmare reworked with an arranged soundtrack and new features: the knight Popolon fights through a vertical shooter to rescue Aphrodite.",
    "developer": "Amusement Factory",
    "launchbox": "461222",
    "publisher": "Konami",
@@ -7274,6 +7696,7 @@
    "title": "Knightmare Gold"
   },
   "msx2:462326": {
+   "description": "A snake game: the snake grows with each item it collects.",
    "developer": "Paulo Silva",
    "launchbox": "462326",
    "publisher": "Nitrofurano",
@@ -7281,6 +7704,7 @@
    "title": "Just Another Snake Game"
   },
   "msx2:462418": {
+   "description": "An extended holiday edition of the puzzle game Cube Droid.",
    "developer": "bitsofbas",
    "launchbox": "462418",
    "publisher": "bitsofbas",
@@ -7289,6 +7713,7 @@
   },
   "msx2:462421": {
    "boxArtUrl": "https://images.launchbox-app.com/e6ee4d34-02e8-4924-a1f8-ac86529c6cfa.png",
+   "description": "A puzzle game: Cube Droid steals energy from invaders across six planets of six puzzles each.",
    "developer": "bitsofbas",
    "launchbox": "462421",
    "publisher": "bitsofbas",
@@ -7296,6 +7721,7 @@
    "year": 2024
   },
   "msx2:462429": {
+   "description": "A homebrew role-playing game in English and Japanese: explore the world and its dungeons.",
    "developer": "Meichnpp",
    "launchbox": "462429",
    "publisher": "Meichnpp",
@@ -7306,6 +7732,7 @@
    "aliases": [
     "Maiden's Extreme Fist: BUNGARUA"
    ],
+   "description": "A fighting game made as a spiritual successor to Konami's Yie Ar Kung-Fu.",
    "developer": "Retromixis Games",
    "launchbox": "462430",
    "publisher": "MSXdev",
@@ -7313,6 +7740,7 @@
    "title": "Maiden's Extreme Fist 'BUN-GA-RUA'"
   },
   "msx2:462599": {
+   "description": "A Mario Bros.-style platformer through fantastic lands full of hostile creatures.",
    "launchbox": "462599",
    "publisher": "Zemina",
    "screenshotUrl": "https://images.launchbox-app.com/b61e0140-8e2a-40f9-af5a-e392b62da131.jpg",
@@ -7404,6 +7832,7 @@
   },
   "msx2:465813": {
    "boxArtUrl": "https://images.launchbox-app.com/7c143d30-9aa7-48f0-8b60-aaa9aa397dc0.png",
+   "description": "An action game: the last ninja of his clan returns home to find his village destroyed by a rival clan.",
    "developer": "Imanok",
    "launchbox": "465813",
    "publisher": "MSXdev",
@@ -7416,6 +7845,7 @@
     "ファイターズ・ラグナロク"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/4a06ae29-6aa5-4848-a1a5-bc8e6f26bbd9.jpg",
+   "description": "A one-on-one fighting game with nine playable characters and special moves.",
    "developer": "Delta-Z",
    "launchbox": "466586",
    "publisher": "Delta-Z",
@@ -7436,6 +7866,7 @@
   },
   "msx2:466725": {
    "boxArtUrl": "https://images.launchbox-app.com/5acba502-98ed-43ce-abf1-5c45b58a7f15.jpg",
+   "description": "A golf game: play three tournaments against computer players, or match play against a friend.",
    "developer": "Pack-In-Video",
    "launchbox": "466725",
    "mobygames": 157537,
@@ -7444,6 +7875,7 @@
    "title": "The Golf"
   },
   "msx2:468419": {
+   "description": "A shooter in which one or two ships fly together and can dock into a stronger craft.",
    "launchbox": "468419",
    "publisher": "T&E Soft",
    "screenshotUrl": "https://images.launchbox-app.com/949eb69b-d337-4035-bb2c-274169f27bb3.jpg",
@@ -7463,6 +7895,7 @@
   },
   "msx2:470251": {
    "boxArtUrl": "https://images.launchbox-app.com/70aa147d-2c18-4d3d-9a99-989ca7a2bd7c.png",
+   "description": "A Lemmings-style puzzle game: guide a crowd of creatures to the exit by assigning them skills.",
    "developer": "Totta",
    "launchbox": "470251",
    "screenshotUrl": "https://images.launchbox-app.com/08e458ec-214b-4b30-ac31-bbd0ddc3bcb6.jpg",
@@ -7510,6 +7943,7 @@
   },
   "msx2:470315": {
    "boxArtUrl": "https://images.launchbox-app.com/ebb8df25-cafb-40e2-9215-05cae7240f8f.png",
+   "description": "A sci-fi action game on Nimbos 4, a once-living world now walked by a lone survivor.",
    "developer": "Oniric Factor",
    "launchbox": "470315",
    "publisher": "Oniric Factor",
@@ -7565,6 +7999,7 @@
   },
   "msx2:471993": {
    "boxArtUrl": "https://images.launchbox-app.com/42bd277d-5b13-416d-b4a8-0dc76c3a57af.png",
+   "description": "A modern take on Asteroids: blast drifting rocks from a rotating ship.",
    "developer": "NOP",
    "launchbox": "471993",
    "publisher": "MSXdev",
@@ -7572,6 +8007,7 @@
    "title": "Asteroids"
   },
   "msx2:472003": {
+   "description": "A shooter: blast through swarms of drones with missiles and screen-clearing bombs.",
    "developer": "H.Tomioka",
    "launchbox": "472003",
    "publisher": "MSXdev",
@@ -7580,6 +8016,7 @@
   },
   "msx2:472004": {
    "boxArtUrl": "https://images.launchbox-app.com/918de926-9a15-421a-ac95-6d7b1eb8252b.png",
+   "description": "A cyber-noir motorbike adventure across a large futuristic world.",
    "developer": "Wolf",
    "launchbox": "472004",
    "publisher": "MSXdev",
@@ -7588,6 +8025,7 @@
   },
   "msx2:472005": {
    "boxArtUrl": "https://images.launchbox-app.com/20ac6897-748b-4f77-b264-26a29d61ee10.png",
+   "description": "A psychological adventure: you wake in a house that feels both familiar and strange.",
    "developer": "Casper Croes",
    "launchbox": "472005",
    "publisher": "MSXdev",
@@ -7597,6 +8035,7 @@
   "msx2:472123": {
    "adult": true,
    "boxArtUrl": "https://images.launchbox-app.com/f318f0ee-e704-4a33-b8cc-387bbfe725e2.jpg",
+   "description": "A mystery adventure: the private investigator Case Swift looks into a death at a mansion in midsummer.",
    "developer": "Discovery Software",
    "launchbox": "472123",
    "mobygames": 189686,
@@ -7606,12 +8045,14 @@
    "year": 1991
   },
   "msx2:472159": {
+   "description": "An action game: a police officer clears thugs from a small area.",
    "launchbox": "472159",
    "publisher": "Mint Soft",
    "screenshotUrl": "https://images.launchbox-app.com/84ad597b-2abd-4fcb-a3ae-e67d29b7da13.jpg",
    "title": "1 Level Only Game"
   },
   "msx2:472188": {
+   "description": "A memory game: turn over cards and match the pairs.",
    "developer": "Mapax",
    "launchbox": "472188",
    "publisher": "MSXdev",
@@ -7619,6 +8060,7 @@
    "title": "Twin Pics"
   },
   "msx2:472196": {
+   "description": "A version of Taito's Space Invaders: shoot down the descending alien rows before they land.",
    "developer": "Edd Biddulph",
    "launchbox": "472196",
    "publisher": "MSXdev",
@@ -7626,6 +8068,7 @@
    "title": "Space Invaders"
   },
   "msx2:472198": {
+   "description": "A falling-block puzzle game with five-square pieces instead of Tetris's four.",
    "developer": "bosh77",
    "launchbox": "472198",
    "publisher": "MSXdev",
@@ -7633,6 +8076,7 @@
    "title": "Fiver"
   },
   "msx2:472290": {
+   "description": "A side-scrolling runner inspired by Geometry Dash: jump your icon past obstacles to the music.",
    "developer": "Fabulous 8bit",
    "launchbox": "472290",
    "publisher": "MSXdev",
@@ -7641,6 +8085,7 @@
   },
   "msx2:474205": {
    "boxArtUrl": "https://images.launchbox-app.com/26c2cc4c-7279-4978-8cbd-99d81885ee40.jpg",
+   "description": "A vertical shooter in the style of Aleste and Zanac.",
    "developer": "M-Kai",
    "launchbox": "474205",
    "publisher": "M-Kai",
@@ -7668,6 +8113,7 @@
     "Dragon Slayer V: Sorcerian"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/c369e89b-4d77-4add-bfd6-256d564344e0.png",
+   "description": "Falcom's side-scrolling action role-playing game: create a party of adventurers and take on many separate scenarios, aging and training between quests.",
    "developer": "Nihon Falcom",
    "launchbox": "95320",
    "mobygames": 1010,
@@ -8048,6 +8494,7 @@
   },
   "msx2plus:150174": {
    "boxArtUrl": "https://images.launchbox-app.com/627659be-a9c3-4d99-94b4-e2707f126a54.png",
+   "description": "An adventure on the island of Sonyc.",
    "developer": "Analogy",
    "launchbox": "150174",
    "publisher": "Analogy",
@@ -8123,6 +8570,7 @@
    "contentIds": [
     "sha256-fd-v1:1143658789fb65924b63d276cf08fd6b44c79baf9567880c78e282e6fdb6609c"
    ],
+   "description": "A puzzle game of stopping rolling balls so they line up with matching colors.",
    "developer": "Atelier Taka",
    "launchbox": "200954",
    "publisher": "TAKERU",
@@ -8137,6 +8585,7 @@
     "ムーンライト・サガ－ホルスの章－"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/495ec30a-c5d4-4405-b4f9-d3ad1b5bf79c.jpg",
+   "description": "A fantasy role-playing game: the demon world and the human world, once one, are torn by war.",
    "developer": "Maple Yard",
    "launchbox": "201210",
    "publisher": "Maple Yard",
@@ -8176,6 +8625,7 @@
    "contentIds": [
     "sha256-fd-v1:363e5540437549b8a7f17a676e9c7b7e36c48cd0556e3d81f0ab83e00fe704ba"
    ],
+   "description": "A homemade Italian shooter inspired by Space Invaders.",
    "developer": "Pintus Giuseppe Ettore",
    "launchbox": "201215",
    "screenshotUrl": "https://images.launchbox-app.com/e4c4df31-a1c5-4096-8580-31fd00b0195e.png",
@@ -8226,6 +8676,7 @@
     "Ranma ½"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/ba225ae4-e6e1-4233-839d-9e88a9ab5d51.jpg",
+   "description": "A game based on Ranma 1/2: a young martial artist who turns into a girl when splashed with cold water.",
    "developer": "Bothtec",
    "launchbox": "201225",
    "publisher": "Micro Vision",
@@ -8253,6 +8704,7 @@
   },
   "msx2plus:26996": {
    "boxArtUrl": "https://images.launchbox-app.com/8d9bbea2-585a-42cf-9549-fdacf02029d2.jpg",
+   "description": "T&E Soft's shooter sequel: two jet fighters, each flown by its own player, can dock together into a stronger ship.",
    "developer": "T&E Soft",
    "launchbox": "26996",
    "mobygames": 19733,
@@ -8281,6 +8733,7 @@
     "sha256-fd-v1:e9078e1ab8f7dd502ddc5fcfa8d319f84e12720247ee0311968145d9ea477159",
     "sha256-fd-v1:f57e650e00a3de4d221380b4320e18729b43b6bf69f21e4be2e836f6c98bcd3c"
    ],
+   "description": "Micro Cabin's cyberpunk role-playing game: in a 21st-century Hong Kong ravaged by a demon invasion, the hero Tianren takes on monsters.",
    "developer": "Micro Cabin",
    "launchbox": "33659",
    "mobygames": 15537,
@@ -8309,6 +8762,7 @@
   },
   "msx2plus:33803": {
    "boxArtUrl": "https://images.launchbox-app.com/0e099d6c-bf24-419b-bc67-e866e6774a37.jpg",
+   "description": "Konami's F-1 Spirit in 3D: a behind-the-car racing game with scaling graphics.",
    "developer": "Konami",
    "launchbox": "33803",
    "mobygames": 19594,
@@ -8319,6 +8773,7 @@
   },
   "msx2plus:424973": {
    "boxArtUrl": "https://images.launchbox-app.com/1d1f57aa-e9a7-4b1b-b405-e6cd12abbd84.jpg",
+   "description": "A side-scrolling shooter of eleven missions: earn money to upgrade your ship between epic boss fights.",
    "developer": "Kai Magazine Software",
    "launchbox": "424973",
    "mobygames": 193033,
@@ -8327,6 +8782,7 @@
    "title": "Sector 88"
   },
   "msx2plus:425595": {
+   "description": "A puzzle platformer: Trifle, lost in a creepy mansion full of cute monsters, finds the key in each room.",
    "developer": "9958CREW",
    "launchbox": "425595",
    "publisher": "9958CREW",
@@ -8336,6 +8792,7 @@
   "msx2plus:456078": {
    "adult": true,
    "boxArtUrl": "https://images.launchbox-app.com/e4911977-b4a9-4181-bb94-768402bf4476.jpg",
+   "description": "A mystery visual novel: a high school student dreams of a beautiful woman, and the next morning things begin to change.",
    "developer": "Game Technopolis",
    "launchbox": "456078",
    "mobygames": 55137,
@@ -8348,6 +8805,7 @@
     "Invincible Warrior Yajiuman",
     "Muteki Senshi Yajiuman"
    ],
+   "description": "An action game starring the superhero Yajiuman, the Invincible Warrior.",
    "developer": "Team Plankton",
    "launchbox": "460474",
    "publisher": "Team Plankton",
@@ -8398,6 +8856,7 @@
   },
   "msx2plus:466722": {
    "boxArtUrl": "https://images.launchbox-app.com/5780bdfb-142e-4266-85f0-e8f5fd0851ad.jpg",
+   "description": "A golf game: play three tournaments against computer players, or match play against a friend.",
    "developer": "Pack-In-Video",
    "launchbox": "466722",
    "publisher": "Pack-In-Video",
@@ -8412,6 +8871,7 @@
     "sha256-fd-v1:776683243694cdc35e61afbf806c7e7e8948e4171a56296729f574e3b67197fb",
     "sha256-fd-v1:801fe2e2191d03e1d6df13ffe1ea17eab304151b4121b30793b233f7a9be91c1"
    ],
+   "description": "A vertical shooter set against astronomical backdrops.",
    "developer": "Quadrivium",
    "launchbox": "470337",
    "publisher": "Quadrivium",
@@ -8427,6 +8887,7 @@
   },
   "msx2plus:470339": {
    "boxArtUrl": "https://images.launchbox-app.com/9a22e4e4-44ef-4c0d-9283-3298ea19b442.png",
+   "description": "A one-on-one fighting game, sequel to South Town's Hero Turbo.",
    "developer": "FM-Guamuom",
    "launchbox": "470339",
    "publisher": "FM-Guamuom",
@@ -8436,6 +8897,7 @@
   },
   "msx2plus:470340": {
    "boxArtUrl": "https://images.launchbox-app.com/81f64594-5e33-4448-8e75-eedd28d83eb2.png",
+   "description": "A one-on-one fighting game for the MSX.",
    "developer": "FM-Guamuom",
    "launchbox": "470340",
    "publisher": "FM-Guamuom",
@@ -8918,6 +9380,7 @@
    "contentIds": [
     "sha256-rom-v1:d15cb2b8ce83a2e22794cf6f438170948beb38e1b4dca25524624f76287ca005"
    ],
+   "description": "Hudson's Bomberman: a bomb-making robot fights his way to freedom, laying bombs to clear walls and destroy enemies.",
    "developer": "Hudson Soft",
    "launchbox": "101795",
    "publisher": "Hudson Soft",
@@ -8932,6 +9395,7 @@
    "contentIds": [
     "sha256-rom-v1:d5f695cc3b192c28808cedd37dce10631e1b81ebb255e7438f28b897de92290e"
    ],
+   "description": "An old-school adventure starring a mouse, its title combining 'adventure' with a mouse's squeak.",
    "developer": "MIA",
    "launchbox": "102125",
    "mobygames": 23396,
@@ -8944,6 +9408,7 @@
   },
   "msx:102421": {
    "boxArtUrl": "https://images.launchbox-app.com/c8abb714-2564-4cd3-8eed-813a2a3c4a91.png",
+   "description": "A top-down action game based on the James Bond film Licence to Kill: chase the drug lord Sanchez by helicopter, on foot and by truck.",
    "developer": "Consult Software",
    "launchbox": "102421",
    "mobygames": 4586,
@@ -8956,6 +9421,7 @@
     "007: The Living Daylights"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/21a44a35-f899-4217-8496-59b6341cdd3c.png",
+   "description": "A side-scrolling action game based on The Living Daylights: James Bond fights through eight levels drawn from the film.",
    "developer": "Walking Circles",
    "launchbox": "102487",
    "mobygames": 11689,
@@ -8969,6 +9435,7 @@
     "The A-Team"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/2a82219d-7a0b-4cf4-ae8b-27d877b09cc1.png",
+   "description": "An action game based on The A-Team: guide the team through two dangerous missions.",
    "developer": "New Frontier",
    "launchbox": "102505",
    "mobygames": 19913,
@@ -8978,6 +9445,7 @@
   },
   "msx:102782": {
    "boxArtUrl": "https://images.launchbox-app.com/8e3bfc36-511b-4620-8364-6c27020ccfbf.png",
+   "description": "A gravity shooter: in a future where the sun has died, pilot a ship to recover the energy spheres.",
    "developer": "Brain Games",
    "launchbox": "102782",
    "publisher": "Brain Games",
@@ -8987,6 +9455,7 @@
   },
   "msx:103521": {
    "boxArtUrl": "https://images.launchbox-app.com/ae842d57-5c8c-4809-aaec-93faddfc7f10.png",
+   "description": "An action game: Bit Byter lives to bite a bit of everything.",
    "developer": "Spectravideo",
    "launchbox": "103521",
    "publisher": "Spectravideo",
@@ -8995,6 +9464,7 @@
   },
   "msx:103525": {
    "boxArtUrl": "https://images.launchbox-app.com/6675dcff-3980-4aac-93f8-3f7c8ca22d30.png",
+   "description": "An action game: Blackbeard sets out after his old friend Red Beard, who stole his treasure map.",
    "developer": "Topo Soft",
    "launchbox": "103525",
    "mobygames": 19933,
@@ -9010,6 +9480,7 @@
    "contentIds": [
     "sha256-rom-v1:ea922a4c0877b6494a18565b5aa36f0664c41150ef3886504c8031412d9fdbac"
    ],
+   "description": "A single-screen platformer: the burglar Roger the Dodger grabs every key on each level to crack the safe.",
    "developer": "Alligata Software",
    "launchbox": "103582",
    "mobygames": 33464,
@@ -9022,6 +9493,7 @@
   },
   "msx:103583": {
    "boxArtUrl": "https://images.launchbox-app.com/982c3227-7d77-4127-8782-8bd70cc1c497.png",
+   "description": "A blackjack card game with plenty of options.",
    "developer": "DIMensionNEW",
    "launchbox": "103583",
    "publisher": "Idealogic",
@@ -9030,6 +9502,7 @@
   },
   "msx:103584": {
    "boxArtUrl": "https://images.launchbox-app.com/be59ad8a-3472-48ed-8037-b6f5183d13e8.png",
+   "description": "An arcade update of Asteroids: transforming ships, power-ups and boss battles in space.",
    "developer": "Teque Software Development",
    "launchbox": "103584",
    "mobygames": 18183,
@@ -9039,6 +9512,7 @@
   },
   "msx:103627": {
    "boxArtUrl": "https://images.launchbox-app.com/ea30c854-16e8-484a-b75d-67baf37fe88d.png",
+   "description": "Dinamic's platformer: a knight crosses into a mysterious land to recover four objects from the future.",
    "developer": "Dinamic Software",
    "launchbox": "103627",
    "mobygames": 14335,
@@ -9051,6 +9525,7 @@
    "contentIds": [
     "sha256-rom-v1:94ff6ef8e73346ec8111cc70e982594e0873b68addcd96d3e32dc33a9d7a46b3"
    ],
+   "description": "A platform action game starring Bruce Lee: fight through the fortress of an evil wizard to claim his fortune and immortality.",
    "developer": "Datasoft",
    "launchbox": "103628",
    "mobygames": 191,
@@ -9063,6 +9538,7 @@
   },
   "msx:103630": {
    "boxArtUrl": "https://images.launchbox-app.com/98b74bdf-7b3f-43e9-b8ae-e30be68fc818.png",
+   "description": "An isometric action game: a bubble floats through Vadra's maze to free the enslaved people of Irkon.",
    "developer": "Ultimate Play The Game",
    "launchbox": "103630",
    "mobygames": 73721,
@@ -9075,6 +9551,7 @@
     "Capitan Sevilla"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/eaacc215-dc9f-40d6-8d93-ca77a5b39382.png",
+   "description": "A comic action game: a humble sausage seller, changed by a nuclear blast, becomes the superhero Captain Sevilla.",
    "developer": "Hi-Score",
    "launchbox": "103631",
    "mobygames": 19876,
@@ -9084,6 +9561,7 @@
   },
   "msx:104344": {
    "boxArtUrl": "https://images.launchbox-app.com/75b83a90-27ce-4f25-b807-c363e6d11af3.png",
+   "description": "A platform puzzle game in a castle haunted by strange magical phenomena.",
    "developer": "Topo Soft",
    "launchbox": "104344",
    "mobygames": 33994,
@@ -9093,6 +9571,7 @@
   },
   "msx:104346": {
    "boxArtUrl": "https://images.launchbox-app.com/dcee6f92-617a-43fe-86b8-a0df0fa6062a.png",
+   "description": "Dinamic's action game: the commander Arkos rebels against a cruel queen who rules a galaxy.",
    "developer": "Dinamic Software",
    "launchbox": "104346",
    "mobygames": 15789,
@@ -9105,6 +9584,7 @@
     "Phantis"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/5acd710a-54b2-41cc-b51b-553eb1ac51a4.jpg",
+   "description": "The Game Over sequel: a commander fights to rescue his comrade, captured on a moon.",
    "developer": "Dinamic Software",
    "launchbox": "104347",
    "mobygames": 15807,
@@ -9114,6 +9594,7 @@
   },
   "msx:104348": {
    "boxArtUrl": "https://images.launchbox-app.com/r2_42d2db01-873f-4fc9-8b26-974b2c1d2612.jpg",
+   "description": "An action game based on Howard the Duck: rescue Phil and Beverly from the Dark Overlord on Volcano Island.",
    "developer": "Activision",
    "launchbox": "104348",
    "mobygames": 9206,
@@ -9123,6 +9604,7 @@
   },
   "msx:104349": {
    "boxArtUrl": "https://images.launchbox-app.com/4b2c131e-c3c3-42bb-acb0-af7f49283a58.png",
+   "description": "An action game: a painter repaints every tile of the floor while avoiding enemies.",
    "developer": "Made in Spain",
    "launchbox": "104349",
    "mobygames": 15791,
@@ -9132,6 +9614,7 @@
   },
   "msx:104350": {
    "boxArtUrl": "https://images.launchbox-app.com/345842a1-741c-4b9b-9da9-c893ca0d3b08.png",
+   "description": "A platformer: the Viking warrior Hundra sets out after the god Loki tricks her father, the king.",
    "developer": "Zeus Software",
    "launchbox": "104350",
    "mobygames": 15790,
@@ -9141,6 +9624,7 @@
   },
   "msx:104351": {
    "boxArtUrl": "https://images.launchbox-app.com/ef8d23f2-41c1-4606-83a1-6316135c63a5.png",
+   "description": "A top-down shooter flying a small fighter through enemy territory.",
    "developer": "Topo Soft",
    "launchbox": "104351",
    "mobygames": 34120,
@@ -9150,6 +9634,7 @@
   },
   "msx:104352": {
    "boxArtUrl": "https://images.launchbox-app.com/5e4b7c42-8b8f-4ed0-bc48-909350db5db1.jpg",
+   "description": "A Commando-style shooter: recapture eight invaded towns.",
    "developer": "Alligata Software",
    "launchbox": "104352",
    "mobygames": 16343,
@@ -9167,6 +9652,7 @@
   },
   "msx:104359": {
    "boxArtUrl": "https://images.launchbox-app.com/ba5de56c-e00e-4050-adaa-86014c7f95d4.png",
+   "description": "An action puzzle game: Joe Kowalski blows his way to the exit across six levels.",
    "developer": "Eurosoft",
    "launchbox": "104359",
    "mobygames": 56567,
@@ -9176,6 +9662,7 @@
   },
   "msx:104360": {
    "boxArtUrl": "https://images.launchbox-app.com/2135bc9a-87f3-4840-9b99-eb79c57dc2af.png",
+   "description": "An overhead BMX racing game across seven courses of increasing difficulty.",
    "developer": "Codemasters Software",
    "launchbox": "104360",
    "mobygames": 12623,
@@ -9200,6 +9687,7 @@
     "Dustin: The Game"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/f5b67ca0-ff05-42d9-9367-c8e377b654a4.png",
+   "description": "An action game: the thief Dustin tries to escape the high-security prison of WADRAS.",
    "developer": "Dinamic Software",
    "launchbox": "104362",
    "mobygames": 31930,
@@ -9209,6 +9697,7 @@
   },
   "msx:104363": {
    "boxArtUrl": "https://images.launchbox-app.com/59d5604c-ab48-48ae-8b0b-78fed36514d2.jpg",
+   "description": "A Spanish snake game.",
    "launchbox": "104363",
    "publisher": "Dynadata",
    "screenshotUrl": "https://images.launchbox-app.com/5f1def79-8306-4664-80e2-0fea80d7c7f9.png",
@@ -9216,6 +9705,7 @@
   },
   "msx:104364": {
    "boxArtUrl": "https://images.launchbox-app.com/8198925e-8bcb-4378-8966-edaacb1b5947.png",
+   "description": "A platform action game in three phases, in search of the sacred sword.",
    "developer": "Topo Soft",
    "launchbox": "104364",
    "mobygames": 34132,
@@ -9228,6 +9718,7 @@
    "contentIds": [
     "sha256-rom-v1:ad253aaf161c554357a190e45148dc235e0817024a1f24a9ebb6f8df81239c4c"
    ],
+   "description": "A flick-screen platformer: the hero Jean, powerless himself, commands the creature Picot to help him through.",
    "developer": "Opera House",
    "launchbox": "107665",
    "mobygames": 67462,
@@ -9249,6 +9740,7 @@
    "contentIds": [
     "sha256-rom-v1:393d6551a4c5c65b0e20d84f0a80870075e7ae7f5f82fd02b6cc3812e185df96"
    ],
+   "description": "A role-playing game: the demon queen Terarin steals the Golden Seal and opens a passage for monsters, and a hero must recover it.",
    "developer": "Kogado Studio",
    "launchbox": "111723",
    "mobygames": 15931,
@@ -9267,6 +9759,7 @@
    "contentIds": [
     "sha256-rom-v1:85c5db1e4b90d658d9013f8ac5539ea9d7addcfbe69506dfa37bf4c5e8b2bf7f"
    ],
+   "description": "A martial arts beat 'em up: a kung fu master fights his way through a temple's floors of enemies.",
    "developer": "Mass Tael",
    "launchbox": "119137",
    "mobygames": 7511,
@@ -9282,6 +9775,7 @@
    "contentIds": [
     "sha256-rom-v1:b4678f81e6b9e03f59f1fef8cd0488e3bb524143285364ce69ec02fff1cce828"
    ],
+   "description": "ASCII's puzzle platformer: a prince searches a castle of a hundred rooms to rescue the princess.",
    "developer": "ASCII",
    "launchbox": "122811",
    "mobygames": 20353,
@@ -9297,6 +9791,7 @@
    "contentIds": [
     "sha256-rom-v1:87167434421efadb645321227a6ee59233f8834d739cbc99b443fbbe224fb59c"
    ],
+   "description": "Game Arts' platform shooter: a robot that transforms into a jet fights through an alien base.",
    "developer": "Game Arts",
    "launchbox": "123972",
    "mobygames": 49,
@@ -9312,6 +9807,7 @@
    "contentIds": [
     "sha256-rom-v1:dc38f75db0f2d1b925c95b702c6f6a51fef94565a95daead1e853eb27e995f92"
    ],
+   "description": "An action adventure in which a spirit possesses different bodies to explore a strange ruin.",
    "developer": "Bothtec",
    "launchbox": "124468",
    "mobygames": 114075,
@@ -9324,6 +9820,7 @@
   },
   "msx:125648": {
    "boxArtUrl": "https://images.launchbox-app.com/a688167c-7822-4f34-b31a-b656ecec0ebe.jpg",
+   "description": "A martial arts game covering karate, kendo, nunchaku and bo: train at the dojo, then compete at the Budokan.",
    "developer": "AT&P",
    "launchbox": "125648",
    "mobygames": 588,
@@ -9332,6 +9829,7 @@
   },
   "msx:125814": {
    "boxArtUrl": "https://images.launchbox-app.com/0d2b7689-b43c-4c44-8f43-45a5351501b5.png",
+   "description": "A conversion of Konami's Gyruss: circle the screen's edge shooting enemies as you warp toward Earth.",
    "developer": "Repro-Factory",
    "launchbox": "125814",
    "publisher": "Repro-Factory",
@@ -9347,6 +9845,7 @@
    "contentIds": [
     "sha256-rom-v1:c1e48c763aeb731e6c5fc4dd24e9de339f59769219657a0da94e646a145329ea"
    ],
+   "description": "A side-scrolling shooter: pilot a transforming robot to defend a space colony whose central computer has broken down.",
    "developer": "Pony Canyon",
    "launchbox": "126314",
    "mobygames": 20356,
@@ -9362,6 +9861,7 @@
    "contentIds": [
     "sha256-rom-v1:07ca35dc37ca9be47ffaf0f2d78dcd424b3aecc0cf8f97c2daa0541f75473b3e"
    ],
+   "description": "An action game: Angelo ferries wingless new angels from cloud to cloud.",
    "developer": "Mass Tael",
    "launchbox": "126318",
    "publisher": "ASCII",
@@ -9390,6 +9890,7 @@
     "Backgammon Sony"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/45536343-c5b9-497f-b52b-d89d6208e416.png",
+   "description": "Backgammon against the computer.",
    "developer": "TechnoSoft",
    "launchbox": "126398",
    "publisher": "Sony",
@@ -9402,6 +9903,7 @@
     "Clapton II"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/9f2c2515-c2b1-48c8-93fa-7bc6a5966311.png",
+   "description": "A space shooter: move anywhere on the screen to blast enemies.",
    "developer": "T&E Soft",
    "launchbox": "126465",
    "mobygames": 35706,
@@ -9420,6 +9922,7 @@
    "contentIds": [
     "sha256-rom-v1:bdf1a15d8c27aae8106742ce6a52559ebaf00c9631bcf188bf93076e548a4544"
    ],
+   "description": "A platformer: the tomboy Becky takes on an alien horde.",
    "developer": "MIA",
    "launchbox": "126483",
    "mobygames": 133718,
@@ -9438,6 +9941,7 @@
    "contentIds": [
     "sha256-rom-v1:29c31a167030217d414f08f23270ff10eedc40282549e55acb19aeabbf7c42aa"
    ],
+   "description": "Namco's space shooter: destroy enemy bases and dodge missiles in a free-scrolling starfield.",
    "developer": "Namco",
    "launchbox": "126508",
    "mobygames": 18942,
@@ -9453,6 +9957,7 @@
    "contentIds": [
     "sha256-rom-v1:f4cbebed57a0acb30a0d6afe6a174bed3d9bf2fb613fa737c95f59078b84cad4"
    ],
+   "description": "A brick-breaking game: keep the ball in play and smash the bricks.",
    "developer": "The Bytebusters",
    "launchbox": "126518",
    "mobygames": 25450,
@@ -9471,6 +9976,7 @@
    "contentIds": [
     "sha256-rom-v1:7fcaab7248914775aa48628a589e4f7d110e7291e7aab48cbcb29505a982cc4a"
    ],
+   "description": "HAL's action game: the piglet Pig Mock catches the eggs hurled at him and throws them back.",
    "developer": "HAL Laboratory",
    "launchbox": "126548",
    "publisher": "HAL Laboratory",
@@ -9485,6 +9991,7 @@
    "contentIds": [
     "sha256-rom-v1:c882a340f95718daef81f026f9ce914d0a9791ae45247d16aa9287faa9150c99"
    ],
+   "description": "A top-down stunt racing game of spins, crashes and jumps.",
    "developer": "Udamaster",
    "launchbox": "126555",
    "mobygames": 20253,
@@ -9500,6 +10007,7 @@
    "contentIds": [
     "sha256-rom-v1:6b6c8e58b8ad5bbbe4f25b906245f5e3f2a8a94c89a465d5dd821a06a1954934"
    ],
+   "description": "A helicopter rescue game: fly behind enemy lines to rescue hostages and bring them home under fire.",
    "developer": "Programmers-3",
    "launchbox": "126661",
    "mobygames": 8127,
@@ -9516,6 +10024,7 @@
     "sha256-rom-v1:561db81fafdd381280bc1492dcc4f2d5222e1cc46c251296bd38ada35cdd6606",
     "sha256-rom-v1:5bcb30481b5e13f08e9708ab6883ea9b7a82bfd2305d021378ba43bb91608155"
    ],
+   "description": "Taito's maze platformer: Chack'n walks on floors and ceilings to free hearts from captivity.",
    "developer": "Taito",
    "launchbox": "126662",
    "mobygames": 19635,
@@ -9534,6 +10043,7 @@
    "contentIds": [
     "sha256-rom-v1:008b5f9343f9a49076b2b48637fe5a7959e08e6572530c3370991648ceffc1f8"
    ],
+   "description": "An overhead air combat game: three fighters attack an enemy fleet.",
    "developer": "Magic Soft",
    "launchbox": "126739",
    "mobygames": 218679,
@@ -9550,6 +10060,7 @@
     "sha256-rom-v1:896b4cb82a39eb660e2006f0e904874f83d3b7d00889f7c893f11452edcc8402",
     "sha256-rom-v1:a84ae290ae4174310a0818ec2c5378c110acece9d9524ab22a7f680982b19e15"
    ],
+   "description": "Namco's platformer: the police mouse Mappy bounces on trampolines through a mansion to recover stolen goods from the cats.",
    "developer": "Namco",
    "launchbox": "126822",
    "mobygames": 19631,
@@ -9568,6 +10079,7 @@
    "contentIds": [
     "sha256-rom-v1:4d899d6258a8b06dfae8c91a8c57230fa23ff364136d6a243fafeaf282c8be58"
    ],
+   "description": "Activision's jungle platformer: Pitfall Harry swings on vines and leaps hazards to collect 32 treasures.",
    "developer": "David Crane",
    "launchbox": "126823",
    "mobygames": 8793,
@@ -9607,6 +10119,7 @@
    "contentIds": [
     "sha256-rom-v1:64cfbc21bf88c0df9ace3f043598deab6603761c5345b4125026d282fd992167"
    ],
+   "description": "A Knightmare-style vertical shooter: a hero battles through a fantasy realm.",
    "developer": "Casio Computer",
    "launchbox": "126940",
    "mobygames": 20181,
@@ -9622,6 +10135,7 @@
    "contentIds": [
     "sha256-rom-v1:99900247abc5cff8f12fed900e4ebf783c7a7ecf8d689b4a5cccd85a8416451e"
    ],
+   "description": "HAL's golf game, set on the Hal Country Club course.",
    "developer": "HAL Laboratory",
    "launchbox": "127048",
    "mobygames": 19496,
@@ -9640,6 +10154,7 @@
    "contentIds": [
     "sha256-rom-v1:eca2c0d6057b3829210b5fccd0d0005ea6ada7560f5446d9bbc2db2d06d96aae"
    ],
+   "description": "Konami's racing game: finish within the time limit and reach a target ranking.",
    "developer": "Konami",
    "launchbox": "127069",
    "mobygames": 19525,

@@ -50,6 +50,12 @@ All four permit combination with GPL code. KairoMSX's arm64 build does not link 
 
 `third_party/openmsx/Contrib/cbios/` holds [C-BIOS](https://cbios.sourceforge.net/) 0.29, a free MSX BIOS replacement for running cartridge images, under the BSD-2-Clause license in `third_party/openmsx/Contrib/README.cbios`. It contains no original MSX system ROM code.
 
+## Shared frontend
+
+<!-- kairo:shared-frontend-license -->
+The shared RetroArch Slang shader runtime uses librashader under its GPL-3.0-only option, so a shader-enabled KairoMSX build is distributed under GPLv3 terms using first-party "or later" permission. See [shared licensing](../shared/docs/licensing.md).
+<!-- /kairo:shared-frontend-license -->
+
 ## Firmware and games
 
 Apart from C-BIOS, KairoMSX does not include MSX system ROMs, disk ROMs, operating systems, or games. Users supply any firmware and games they need. The app recognizes a player's system ROM dumps by the SHA-1 digests in openMSX's machine definitions (`tools/system_roms.py` writes the list) and copies them to its private storage.

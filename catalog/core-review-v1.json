@@ -1,0 +1,358 @@
+{
+ "approvedArtwork": {},
+ "excluded": {
+  "msx2:113066": {
+   "reason": "MobyGames Adult genre",
+   "title": "Bishoujo Shashinkan Special: The Double Vision"
+  },
+  "msx2:150176": {
+   "reason": "MobyGames Adult genre",
+   "title": "Starship Rendezvous"
+  },
+  "msx2:156347": {
+   "reason": "MobyGames Adult genre",
+   "title": "Cybernetic Hi-School Part 2: Highway Buster"
+  },
+  "msx2:156349": {
+   "reason": "MobyGames Adult genre",
+   "title": "Dragon Knight"
+  },
+  "msx2:156350": {
+   "reason": "MobyGames Adult genre",
+   "title": "Dragon Knight II"
+  },
+  "msx2:156369": {
+   "reason": "MobyGames Adult genre",
+   "title": "Chaos Angels"
+  },
+  "msx2:156371": {
+   "reason": "MobyGames Adult genre",
+   "title": "Cybernetic Hi-School Part 3"
+  },
+  "msx2:168011": {
+   "reason": "MobyGames Adult genre",
+   "title": "Leather Skirts"
+  },
+  "msx2:188846": {
+   "reason": "MobyGames Adult genre",
+   "title": "Cal II"
+  },
+  "msx2:188847": {
+   "reason": "MobyGames Adult genre",
+   "title": "Can Can Bunny Spirits"
+  },
+  "msx2:188848": {
+   "reason": "MobyGames Adult genre",
+   "title": "Can Can Bunny Superior"
+  },
+  "msx2:188854": {
+   "reason": "MobyGames Adult genre",
+   "title": "Crescent Moon Girl"
+  },
+  "msx2:188890": {
+   "reason": "MobyGames Adult genre",
+   "title": "Dream Program System SG"
+  },
+  "msx2:188891": {
+   "reason": "MobyGames Adult genre",
+   "title": "D.P.S. Dream Program System SG: Set 2"
+  },
+  "msx2:188892": {
+   "reason": "MobyGames Adult genre",
+   "title": "D.P.S. Dream Program System SG: Set 3"
+  },
+  "msx2:188893": {
+   "reason": "MobyGames Adult genre",
+   "title": "DE・JA"
+  },
+  "msx2:188897": {
+   "reason": "MobyGames Adult genre",
+   "title": "Dr. Stop!"
+  },
+  "msx2:188899": {
+   "reason": "MobyGames Adult genre",
+   "title": "Dragon Eyes"
+  },
+  "msx2:188901": {
+   "reason": "MobyGames Adult genre",
+   "title": "L Elle"
+  },
+  "msx2:189019": {
+   "reason": "MobyGames Adult genre",
+   "title": "Hacchake Ayayo-san"
+  },
+  "msx2:189032": {
+   "reason": "MobyGames Adult genre",
+   "title": "Illumina!"
+  },
+  "msx2:189033": {
+   "reason": "MobyGames Adult genre",
+   "title": "Intruder: Sakura Yashiki no Tansaku"
+  },
+  "msx2:189038": {
+   "reason": "MobyGames Adult genre",
+   "title": "The Joker"
+  },
+  "msx2:189040": {
+   "reason": "MobyGames Adult genre",
+   "title": "Joker II"
+  },
+  "msx2:189050": {
+   "reason": "MobyGames Adult genre",
+   "title": "Lipstick Adventure"
+  },
+  "msx2:189052": {
+   "reason": "MobyGames Adult genre",
+   "title": "Lipstick Adventure 2"
+  },
+  "msx2:189077": {
+   "reason": "MobyGames Adult genre",
+   "title": "Pocky"
+  },
+  "msx2:189083": {
+   "reason": "MobyGames Adult genre",
+   "title": "Ray Gun"
+  },
+  "msx2:189084": {
+   "reason": "MobyGames Adult genre",
+   "title": "Red Lights of Amsterdam"
+  },
+  "msx2:189094": {
+   "reason": "MobyGames Adult genre",
+   "title": "Hoshi no Suna Monogatari"
+  },
+  "msx2:189099": {
+   "reason": "MobyGames Adult genre",
+   "title": "Abunai Tengu Densetsu"
+  },
+  "msx2:189110": {
+   "reason": "MobyGames Adult genre",
+   "title": "Little Princess"
+  },
+  "msx2:194538": {
+   "reason": "MobyGames Adult genre",
+   "title": "Rance: Hikari o Motomete"
+  },
+  "msx2:194670": {
+   "reason": "MobyGames Adult genre",
+   "title": "CAL"
+  },
+  "msx2:206295": {
+   "reason": "MobyGames Adult genre",
+   "title": "Cosmic Psycho"
+  },
+  "msx2:206302": {
+   "reason": "MobyGames Adult genre",
+   "title": "Kurutta Kajitsu"
+  },
+  "msx2:33318": {
+   "reason": "MobyGames Adult genre",
+   "title": "Exterlien"
+  },
+  "msx2:424120": {
+   "reason": "MobyGames Adult genre",
+   "title": "Dark Sider"
+  },
+  "msx2:440319": {
+   "reason": "MobyGames Adult genre",
+   "title": "Pias"
+  },
+  "msx2:440324": {
+   "reason": "MobyGames Adult genre",
+   "title": "Nagakute Amai Yoru: Twilight Zone III"
+  },
+  "msx2:440370": {
+   "reason": "MobyGames Adult genre",
+   "title": "Beast"
+  },
+  "msx2:440427": {
+   "reason": "MobyGames Adult genre",
+   "title": "Gize! XIX"
+  },
+  "msx2:441544": {
+   "reason": "MobyGames Adult genre",
+   "title": "Continental"
+  },
+  "msx2:472123": {
+   "reason": "MobyGames Adult genre",
+   "title": "Sweet Emotion"
+  },
+  "msx2plus:456078": {
+   "reason": "MobyGames Adult genre",
+   "title": "Himitsu no Hanazono"
+  },
+  "msx:155187": {
+   "reason": "MobyGames Adult genre",
+   "title": "Panique"
+  },
+  "msx:155671": {
+   "reason": "MobyGames Adult genre",
+   "title": "Toi Acid Game"
+  },
+  "msx:168209": {
+   "reason": "MobyGames Adult genre",
+   "title": "Playhouse Strippoker"
+  },
+  "msx:181423": {
+   "reason": "MobyGames Adult genre",
+   "title": "Creamy Lemon: Star Trap"
+  },
+  "msx:181970": {
+   "reason": "MobyGames Adult genre",
+   "title": "Samantha Fox Strip Poker"
+  },
+  "msx:182911": {
+   "reason": "MobyGames Adult genre",
+   "title": "Tenshi-tachi no Gogo"
+  },
+  "msx:188956": {
+   "reason": "MobyGames Adult genre",
+   "title": "Strip Poker II Plus"
+  },
+  "msx:moby-101758": {
+   "reason": "MobyGames Adult genre",
+   "title": "Peach Up 4"
+  },
+  "msx:moby-18681": {
+   "reason": "MobyGames Adult genre",
+   "title": "Rance II: Hangyaku no Shōjotachi"
+  },
+  "msx:moby-18730": {
+   "reason": "MobyGames Adult genre",
+   "title": "Tōshin Toshi"
+  },
+  "msx:moby-20410": {
+   "reason": "MobyGames Adult genre",
+   "title": "Mahjong Hana no Momoko Gumi"
+  },
+  "msx:moby-205184": {
+   "reason": "MobyGames Adult genre",
+   "title": "Erika: SF Adult Adventure"
+  },
+  "msx:moby-227748": {
+   "reason": "MobyGames Adult genre",
+   "title": "Puzzle Mania: MSXdev24 Edition"
+  },
+  "msx:moby-28782": {
+   "reason": "MobyGames Adult genre",
+   "title": "Bishōjo Control"
+  },
+  "msx:moby-29111": {
+   "reason": "MobyGames Adult genre",
+   "title": "Cybernetic Hi-School"
+  },
+  "msx:moby-43465": {
+   "reason": "MobyGames Adult genre",
+   "title": "Urotsukidōji"
+  },
+  "msx:moby-44509": {
+   "reason": "MobyGames Adult genre",
+   "title": "Mai"
+  },
+  "msx:moby-44597": {
+   "reason": "MobyGames Adult genre",
+   "title": "Mirage"
+  },
+  "msx:moby-45214": {
+   "reason": "MobyGames Adult genre",
+   "title": "Super Battle Skin Panic"
+  },
+  "msx:moby-45786": {
+   "reason": "MobyGames Adult genre",
+   "title": "Tenshitachi no Gogo II: Minako"
+  },
+  "msx:moby-45788": {
+   "reason": "MobyGames Adult genre",
+   "title": "Tenshitachi no Gogo III: Ribbon"
+  },
+  "msx:moby-45817": {
+   "reason": "MobyGames Adult genre",
+   "title": "Tenshitachi no Gogo II: Bangai-hen"
+  },
+  "msx:moby-47524": {
+   "reason": "MobyGames Adult genre",
+   "title": "D.P.S: Dream Program System"
+  },
+  "msx:moby-47694": {
+   "reason": "MobyGames Adult genre",
+   "title": "Foxy"
+  },
+  "msx:moby-47799": {
+   "reason": "MobyGames Adult genre",
+   "title": "Girls Paradise: Rakuen no Tenshitachi"
+  },
+  "msx:moby-50286": {
+   "reason": "MobyGames Adult genre",
+   "title": "Kimi Dake ni Ai o..."
+  },
+  "msx:moby-50471": {
+   "reason": "MobyGames Adult genre",
+   "title": "Kōnai Shasei vol.1"
+  },
+  "msx:moby-58118": {
+   "reason": "MobyGames Adult genre",
+   "title": "Ayayo's Love Affair"
+  },
+  "msx:moby-58780": {
+   "reason": "MobyGames Adult genre",
+   "title": "Danchi-zuma no Yūwaku"
+  },
+  "msx:moby-58836": {
+   "reason": "MobyGames Adult genre",
+   "title": "Pinky Ponky Dai-1 Shū: Beautiful Dream"
+  },
+  "msx:moby-58838": {
+   "reason": "MobyGames Adult genre",
+   "title": "Pinky Ponky Dai-3 Shū: Battle Lovers"
+  },
+  "msx:moby-58839": {
+   "reason": "MobyGames Adult genre",
+   "title": "Pinky Ponky Dai-2 Shū: Twilight Games"
+  },
+  "msx:moby-58840": {
+   "reason": "MobyGames Adult genre",
+   "title": "Pink Sox"
+  },
+  "msx:moby-58841": {
+   "reason": "MobyGames Adult genre",
+   "title": "Pink Sox 2"
+  },
+  "msx:moby-58842": {
+   "reason": "MobyGames Adult genre",
+   "title": "Pink Sox 3"
+  },
+  "msx:moby-58843": {
+   "reason": "MobyGames Adult genre",
+   "title": "Pink Sox 4"
+  },
+  "msx:moby-58844": {
+   "reason": "MobyGames Adult genre",
+   "title": "Pink Sox 5"
+  },
+  "msx:moby-58845": {
+   "reason": "MobyGames Adult genre",
+   "title": "Pink Sox 6"
+  },
+  "msx:moby-58846": {
+   "reason": "MobyGames Adult genre",
+   "title": "Pink Sox 7"
+  },
+  "msx:moby-58847": {
+   "reason": "MobyGames Adult genre",
+   "title": "Pink Sox 8"
+  },
+  "msx:moby-58868": {
+   "reason": "MobyGames Adult genre",
+   "title": "Pocky 2: Kaijin Aka Manto no Chōsen"
+  },
+  "msx:moby-58965": {
+   "reason": "MobyGames Adult genre",
+   "title": "Twilight Zone II: Nagisa no Yakata"
+  },
+  "msx:moby-58967": {
+   "reason": "MobyGames Adult genre",
+   "title": "Twilight Zone Vol. 4: Tokubetsu-hen"
+  }
+ },
+ "schemaVersion": 1
+}

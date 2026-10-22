@@ -75,7 +75,8 @@ def section(title, source, texts):
 def main():
     content = HEADER + '\n\n' + '\n\n'.join(section(*s) for s in SECTIONS) + '\n'
     if sys.argv[1:] == ['--check']:
-        if OUT.read_text(encoding='utf-8') != content:
+        # Git may check the file out with CRLF line endings.
+        if OUT.read_text(encoding='utf-8').replace('\r\n', '\n') != content:
             raise SystemExit(f'{OUT.relative_to(ROOT)} is out of date: run tools/notices.py')
         return
     OUT.parent.mkdir(parents=True, exist_ok=True)

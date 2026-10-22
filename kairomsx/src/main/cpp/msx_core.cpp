@@ -39,6 +39,8 @@ public:
         for (int code = 1; code < kKeyCodes; ++code)
             if (keys_[code]) key(code, false);
         for (int control = 0; control < kairomsx::kJoystickControls; ++control) machine_->joystick(control, false);
+        machine_->mouse_button(1, false);
+        machine_->mouse_button(2, false);
     }
 
     void key(int code, bool down) override {
@@ -49,9 +51,9 @@ public:
 
     // Controls in MsxKeys.joystick order, which is the core's.
     void joystick(int control, bool down) override { machine_->joystick(control, down); }
-    // The MSX mouse is not offered.
-    void mouse_move(int, int) override {}
-    void mouse_button(int, bool) override {}
+    // The mouse in port B.
+    void mouse_move(int dx, int dy) override { machine_->mouse_move(dx, dy); }
+    void mouse_button(int button, bool down) override { machine_->mouse_button(button, down); }
 
     void reset() override { machine_->reset(); }
 

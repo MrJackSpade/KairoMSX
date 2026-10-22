@@ -120,7 +120,9 @@ const char *const kSoundGenerators[] = {
 
 // The machine's whole state, as a saved state holds it, without what the machine never reads:
 // the time the file was written, the last time a stopped cassette player was synchronized
-// (loading resynchronizes it, and it only counts while a tape plays), and the sound generators.
+// (loading resynchronizes it, and it only counts while a tape plays), the mouse's last strobe
+// time (loading plugs the mouse in again, which sets it; a game only notices within 1.5 ms of a
+// strobe), and the sound generators.
 bool state(MsxMachine &machine, const std::string &file, std::string &xml, std::string &error) {
     if (!machine.save_state(file, error)) return false;
     xml = unzip(read_file(file));
@@ -132,6 +134,8 @@ bool state(MsxMachine &machine, const std::string &file, std::string &xml, std::
     size_t cassette = xml.find("type=\"CassettePlayer\"");
     if (cassette != std::string::npos && xml.find("<state>STOP</state>", cassette) < xml.find("</pluggable>", cassette))
         cut(xml, cassette, "<prevSyncTime>", "</prevSyncTime>");
+    size_t mouse = xml.find("type=\"Mouse\"");
+    if (mouse != std::string::npos) cut(xml, mouse, "<lastTime>", "</lastTime>");
     for (const char *generator : kSoundGenerators) cut_all(xml, generator);
     return true;
 }

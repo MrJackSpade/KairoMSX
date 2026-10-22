@@ -163,6 +163,9 @@ std::unique_ptr<MsxMachine> MsxMachine::create(const Config &config, std::string
         args.push_back(kJoystickConfig);
         args.push_back("-command");
         args.push_back("plug joyporta msxjoystick1");
+        // The host's mouse is an MSX mouse in port B (see mouse_move()).
+        args.push_back("-command");
+        args.push_back("plug joyportb mouse");
         std::vector<char *> argv;
         for (auto &arg : args) argv.push_back(arg.data());
 
@@ -306,6 +309,29 @@ bool MsxMachine::insert(Slot slot, const std::string &path, std::string &error) 
     } catch (MSXException &e) {
         error = e.getMessage();
         return false;
+    }
+}
+
+// The mouse's events go to the machine at the current time, as openMSX passes on a host mouse's.
+void MsxMachine::mouse_move(int dx, int dy) {
+    SDL_Event event{};
+    event.motion.type = SDL_MOUSEMOTION;
+    event.motion.xrel = dx;
+    event.motion.yrel = dy;
+    MSXMotherBoard &board = impl_->board();
+    board.getMSXEventDistributor().distributeEvent(MouseMotionEvent(event), board.getCurrentTime());
+}
+
+void MsxMachine::mouse_button(int button, bool down) {
+    SDL_Event event{};
+    event.button.type = down ? SDL_MOUSEBUTTONDOWN : SDL_MOUSEBUTTONUP;
+    event.button.button = button == 2 ? SDL_BUTTON_RIGHT : SDL_BUTTON_LEFT;
+    event.button.state = down ? SDL_PRESSED : SDL_RELEASED;
+    MSXMotherBoard &board = impl_->board();
+    if (down) {
+        board.getMSXEventDistributor().distributeEvent(MouseButtonDownEvent(event), board.getCurrentTime());
+    } else {
+        board.getMSXEventDistributor().distributeEvent(MouseButtonUpEvent(event), board.getCurrentTime());
     }
 }
 

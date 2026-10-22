@@ -23,7 +23,7 @@ The MSX emulation comes from [openMSX](https://openmsx.org/) 21.0. Its README st
 
 ### Open question: GPL version and the shader runtime
 
-The shared RetroArch Slang shader runtime uses librashader under its GPL-3.0-only option and includes Rust crates licensed only under Apache-2.0 (`codespan-reporting`, `rspirv`, `spirv`). Apache-2.0 code cannot be combined with GPL-2.0-only code. A shader-enabled KairoMSX build therefore needs openMSX under GPL-2.0-or-later (or another GPLv3-compatible reading) before it can be distributed. This is unresolved: confirm the GPL version with the openMSX developers before any release. The source snapshot itself may be redistributed under its own terms.
+The shared RetroArch Slang shader runtime uses librashader under its GPL-3.0-only option and includes Rust crates licensed only under Apache-2.0 (`codespan-reporting`, `rspirv`, `spirv`). Apache-2.0 code cannot be combined with GPL-2.0-only code. A shader-enabled KairoMSX build therefore needs openMSX under GPL-2.0-or-later. The question is open with the openMSX developers in [openMSX#2248](https://github.com/openMSX/openMSX/issues/2248). Until they confirm "or later", KairoMSX builds leave out the shader runtime and are distributed under GPL-2.0 terms. Shaders are enabled only after that confirmation. The source snapshot itself may be redistributed under its own terms.
 
 ## C-BIOS
 

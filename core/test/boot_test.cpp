@@ -1,9 +1,10 @@
 // Boots an MSX cartridge on C-BIOS on the host and checks what the app relies on.
 //
-//   boot_test <data dir> <work dir> <seconds> [cartridge]
+//   boot_test <data dir> <work dir> <seconds> [cartridge [joystick|none]]
 //
 // Runs the cartridge (or C-BIOS alone) for <seconds> of guest time, writing <work dir>/boot.ppm
-// of the last picture and boot.wav of the sound, then presses Space and writes pressed.ppm. Then
+// of the last picture and boot.wav of the sound, then presses Space (with "joystick", the
+// joystick's trigger A; with "none", nothing) and writes pressed.ppm. Then
 // it saves a state, runs on, loads the state, and checks that every frame of the second after the
 // load leaves the machine as the second after the save did, and draws and plays the same. Last it
 // starts a second machine in the same process, as the app does for its next game.
@@ -28,6 +29,8 @@ namespace {
 
 // Space, in the MSX keyboard matrix.
 constexpr int kSpaceRow = 8, kSpaceColumn = 0;
+// Trigger A, in MsxMachine::joystick's order.
+constexpr int kTriggerA = 4;
 
 // A run of this many seconds runs one frame.
 constexpr double kOneFrame = 1e-6;
@@ -202,13 +205,15 @@ void write_wav(const std::string &file, const std::vector<int16_t> &sound, uint3
 } // namespace
 
 int main(int argc, char **argv) {
-    if (argc != 4 && argc != 5) return fail("usage: boot_test <data dir> <work dir> <seconds> [cartridge]");
+    if (argc < 4 || argc > 6 || (argc == 6 && std::string(argv[5]) != "joystick" && std::string(argv[5]) != "none"))
+        return fail("usage: boot_test <data dir> <work dir> <seconds> [cartridge [joystick|none]]");
     const std::string work = argv[2];
     Config config;
     config.data_dir = argv[1];
     config.home = work + "/home";
     const double seconds = std::atof(argv[3]);
-    if (argc == 5) config.media[kairomsx::kCartA] = argv[4];
+    if (argc >= 5) config.media[kairomsx::kCartA] = argv[4];
+    const std::string pressing = argc == 6 ? argv[5] : "Space";
 
     std::string error;
     auto machine = MsxMachine::create(config, error);
@@ -223,14 +228,20 @@ int main(int argc, char **argv) {
     const double expected = boot.seconds * machine->sample_rate();
     if (boot.audio_frames < expected * 0.95 || boot.audio_frames > expected * 1.05)
         return fail("audio does not follow guest time");
+    std::printf("cartridge A: %s\n", machine->media_path(kairomsx::kCartA).c_str());
 
     Run pressed;
-    machine->key(kSpaceRow, kSpaceColumn, true);
+    auto press = [&](bool down) {
+        if (pressing == "joystick") machine->joystick(kTriggerA, down);
+        else if (pressing == "Space") machine->key(kSpaceRow, kSpaceColumn, down);
+    };
+    press(true);
     if (!run(*machine, 0.5, pressed, error)) return fail("run while pressed: " + error);
-    machine->key(kSpaceRow, kSpaceColumn, false);
+    press(false);
     if (!run(*machine, 4, pressed, error)) return fail("run after press: " + error);
     write_ppm(work + "/pressed.ppm", pressed);
-    std::printf("press: the picture %s\n", pressed.picture == boot.picture ? "did not change" : "changed");
+    std::printf("press %s: the picture %s\n", pressing.c_str(),
+                pressed.picture == boot.picture ? "did not change" : "changed");
 
     // The second after the save and the second after the load, frame by frame: state a saved state
     // misses shows up as states that drift apart.
@@ -269,6 +280,7 @@ int main(int argc, char **argv) {
                 same_picture ? "matches" : "differs", sound ? "matches" : "differs",
                 after_save.sound == after_load.sound ? "also" : "not");
     if (drift >= 0 || !same_picture || !sound) return fail("state round trip");
+    std::printf("cartridge A after the load: %s\n", machine->media_path(kairomsx::kCartA).c_str());
 
     machine.reset();
     auto second = MsxMachine::create(config, error);

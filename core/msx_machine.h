@@ -17,6 +17,9 @@ namespace kairomsx {
 // Where media go: the cartridge slots, the disk drives and the cassette player.
 enum Slot { kCartA, kCartB, kDiskA, kDiskB, kCassette, kSlots };
 
+// The joystick's controls: up, down, left, right, trigger A, trigger B.
+constexpr int kJoystickControls = 6;
+
 // What a machine starts with.
 struct Config {
     // openMSX's data folder (share/ with the C-BIOS machines; tools/stage_openmsx_data.py).
@@ -51,6 +54,8 @@ public:
 
     // A key by its place in the MSX keyboard matrix: row 0 to 10, column (bit) 0 to 7.
     void key(int row, int column, bool down);
+    // A control of the joystick in port A: kJoystickControls in their order.
+    void joystick(int control, bool down);
 
     // Runs an openMSX console command and returns its result; false with error set when it
     // fails.
@@ -63,6 +68,9 @@ public:
 
     // Inserts an image in a slot, or ejects it for ""; false with error set when openMSX refused.
     bool insert(Slot slot, const std::string &path, std::string &error);
+    // The image in a slot, as it was inserted; "" when it is empty. An extension in a cartridge
+    // slot is named by its openMSX name.
+    std::string media_path(Slot slot);
 
 private:
     struct Impl;

@@ -13,6 +13,7 @@
 #include "EventListener.hh"
 #include "KairoHost.hh"
 #include "KairoOutputSurface.hh"
+#include "MSXEventDistributor.hh"
 #include "MSXException.hh"
 #include "MSXMixer.hh"
 #include "MSXMotherBoard.hh"
@@ -33,14 +34,23 @@ struct SlotCommands {
     const char *option;
     const char *insert;
     const char *eject;
+    // The slot's name for "machine_info media".
+    const char *media;
 };
 constexpr SlotCommands kSlotCommands[kSlots] = {
-    {"-carta", "carta insert", "carta eject"},
-    {"-cartb", "cartb insert", "cartb eject"},
-    {"-diska", "diska insert", "diska eject"},
-    {"-diskb", "diskb insert", "diskb eject"},
-    {"-cassetteplayer", "cassetteplayer insert", "cassetteplayer eject"},
+    {"-carta", "carta insert", "carta eject", "carta"},
+    {"-cartb", "cartb insert", "cartb eject", "cartb"},
+    {"-diska", "diska insert", "diska eject", "diska"},
+    {"-diskb", "diskb insert", "diskb eject", "diskb"},
+    {"-cassetteplayer", "cassetteplayer insert", "cassetteplayer eject", "cassetteplayer"},
 };
+
+// The joystick the host's pad stands for: openMSX's joystick 1 ("joy1"), with no host joystick
+// behind it. Its buttons 0 to 5 are the MSX joystick's controls, in MsxMachine::joystick's order.
+constexpr int kJoystick = 0;
+constexpr const char *kJoystickConfig =
+    "set msxjoystick1_config {UP {{joy1 button0}} DOWN {{joy1 button1}} LEFT {{joy1 button2}} "
+    "RIGHT {{joy1 button3}} A {{joy1 button4}} B {{joy1 button5}}}";
 
 // A Tcl command from its words, quoted as Tcl needs.
 std::string tcl_command(std::initializer_list<std::string_view> words) {
@@ -131,6 +141,12 @@ std::unique_ptr<MsxMachine> MsxMachine::create(const Config &config, std::string
         // The host shows no reverse bar, so openMSX keeps no reverse history.
         args.push_back("-command");
         args.push_back("set auto_enable_reverse off");
+        // The host's pad is an MSX joystick in port A, its controls the buttons of joystick 1
+        // (see joystick()).
+        args.push_back("-command");
+        args.push_back(kJoystickConfig);
+        args.push_back("-command");
+        args.push_back("plug joyporta msxjoystick1");
         std::vector<char *> argv;
         for (auto &arg : args) argv.push_back(arg.data());
 
@@ -151,6 +167,10 @@ std::unique_ptr<MsxMachine> MsxMachine::create(const Config &config, std::string
         reactor.powerOn();
         impl->frame_start = impl->board().getCurrentTime();
     } catch (MSXException &e) {
+        error = e.getMessage();
+        return nullptr;
+    } catch (FatalError &e) {
+        // openMSX's start reports what it could not do, such as a start command that failed.
         error = e.getMessage();
         return nullptr;
     }
@@ -207,6 +227,22 @@ void MsxMachine::key(int row, int column, bool down) {
                    std::to_string(1 << column));
 }
 
+void MsxMachine::joystick(int control, bool down) {
+    // The joystick's control as a button of joystick 1, which kJoystickConfig binds; openMSX
+    // passes it on, at the current time, as it passes on a host joystick's events.
+    SDL_Event event{};
+    event.jbutton.type = down ? SDL_JOYBUTTONDOWN : SDL_JOYBUTTONUP;
+    event.jbutton.which = kJoystick;
+    event.jbutton.button = uint8_t(control);
+    event.jbutton.state = down ? SDL_PRESSED : SDL_RELEASED;
+    MSXMotherBoard &board = impl_->board();
+    if (down) {
+        board.getMSXEventDistributor().distributeEvent(JoystickButtonDownEvent(event), board.getCurrentTime());
+    } else {
+        board.getMSXEventDistributor().distributeEvent(JoystickButtonUpEvent(event), board.getCurrentTime());
+    }
+}
+
 bool MsxMachine::command(const std::string &command, std::string &result) {
     try {
         result = std::string(impl_->execute(command).getString());
@@ -255,6 +291,14 @@ bool MsxMachine::insert(Slot slot, const std::string &path, std::string &error) 
         error = e.getMessage();
         return false;
     }
+}
+
+std::string MsxMachine::media_path(Slot slot) {
+    // openMSX's own report of a slot's medium: its "target" is the image or extension, absent or
+    // empty for an empty slot.
+    TclObject info = impl_->execute(tcl_command({"machine_info", "media", kSlotCommands[slot].media}));
+    auto target = info.getOptionalDictValue(TclObject("target"));
+    return target ? std::string(target->getString()) : std::string();
 }
 
 } // namespace kairomsx

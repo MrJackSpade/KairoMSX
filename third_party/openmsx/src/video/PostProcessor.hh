@@ -1,6 +1,10 @@
 #ifndef GLPOSTPROCESSOR_HH
 #define GLPOSTPROCESSOR_HH
 
+#ifdef KAIRO_OPENMSX
+#include "KairoPostProcessor.hh" // KairoMSX: the PostProcessor without OpenGL
+#else
+
 #include "GLUtil.hh"
 #include "RenderSettings.hh"
 #include "VideoLayer.hh"
@@ -231,4 +235,5 @@ private:
 
 } // namespace openmsx
 
+#endif // KAIRO_OPENMSX
 #endif // GLPOSTPROCESSOR_HH

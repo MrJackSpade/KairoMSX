@@ -83,7 +83,9 @@
 //---- Use FreeType to build and rasterize the font atlas (instead of stb_truetype which is embedded by default in Dear ImGui)
 // Requires FreeType headers to be available in the include path. Requires program to be compiled with 'misc/freetype/imgui_freetype.cpp' (in this repository) + the FreeType library (not provided).
 // On Windows you may use vcpkg with 'vcpkg install freetype --triplet=x64-windows' + 'vcpkg integrate install'.
+#ifndef KAIRO_OPENMSX // KairoMSX: no ImGui fonts
 #define IMGUI_ENABLE_FREETYPE
+#endif
 
 //---- Use FreeType+lunasvg library to render OpenType SVG fonts (SVGinOT)
 // Requires lunasvg headers to be available in the include path + program to be linked with the lunasvg library (not provided).

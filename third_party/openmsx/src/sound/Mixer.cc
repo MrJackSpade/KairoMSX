@@ -2,7 +2,11 @@
 
 #include "MSXMixer.hh"
 #include "NullSoundDriver.hh"
+#ifdef KAIRO_OPENMSX
+#include "KairoSoundDriver.hh" // KairoMSX: sound goes to the host
+#else
 #include "SDLSoundDriver.hh"
+#endif
 
 #include "CliComm.hh"
 #include "CommandController.hh"
@@ -84,7 +88,11 @@ void Mixer::reloadDriver()
 	try {
 		switch (soundDriverSetting.getEnum()) {
 		case SoundDriverType::SDL:
+#ifdef KAIRO_OPENMSX
+			driver = std::make_unique<KairoSoundDriver>(
+#else
 			driver = std::make_unique<SDLSoundDriver>(
+#endif
 				reactor,
 				frequencySetting.getInt(),
 				samplesSetting.getInt());

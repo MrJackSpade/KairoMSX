@@ -1,0 +1,73 @@
+// An MSX on openMSX (third_party/openmsx), run one video frame at a time by its host instead of
+// openMSX's own real-time loop. openMSX draws and plays through KairoMSX's replacements
+// (core/kairo/), and the host takes each frame's picture and sound from the machine.
+//
+// openMSX keeps process-wide state and runs on the thread that started it: a process runs one
+// machine at a time, and a machine is created, used and destroyed on one thread.
+
+#pragma once
+
+#include <cstdint>
+#include <memory>
+#include <string>
+#include <vector>
+
+namespace kairomsx {
+
+// Where media go: the cartridge slots, the disk drives and the cassette player.
+enum Slot { kCartA, kCartB, kDiskA, kDiskB, kCassette, kSlots };
+
+// What a machine starts with.
+struct Config {
+    // openMSX's data folder (share/ with the C-BIOS machines; tools/stage_openmsx_data.py).
+    std::string data_dir;
+    // A private folder for openMSX's own files: settings, system ROMs, saved states.
+    std::string home;
+    // The machine, by openMSX's name for it (a file in <data_dir>/machines).
+    std::string machine = "C-BIOS_MSX2+";
+    // Extensions to plug in, by openMSX's names for them (files in <data_dir>/extensions).
+    std::vector<std::string> extensions;
+    // The image in each Slot; "" for an empty one.
+    std::string media[kSlots];
+    // The audio sample rate.
+    int sample_rate = 48000;
+};
+
+class MsxMachine {
+public:
+    // A machine running config's media; null with error set when it cannot start.
+    static std::unique_ptr<MsxMachine> create(const Config &config, std::string &error);
+    ~MsxMachine();
+
+    // Runs one guest video frame; false with error set when the machine stops.
+    bool run_frame(std::string &error);
+    // The guest time the last frame lasted.
+    double frame_seconds() const;
+    // The latest picture: RGBA rows of width pixels.
+    const uint8_t *frame(uint32_t &width, uint32_t &height) const;
+    int sample_rate() const;
+    // Takes up to max_frames interleaved stereo frames produced so far.
+    uint32_t read_audio(int16_t *stereo, uint32_t max_frames);
+
+    // A key by its place in the MSX keyboard matrix: row 0 to 10, column (bit) 0 to 7.
+    void key(int row, int column, bool down);
+
+    // Runs an openMSX console command and returns its result; false with error set when it
+    // fails.
+    bool command(const std::string &command, std::string &result);
+
+    void reset();
+    // Saves or loads the whole machine; false with error set when openMSX refused.
+    bool save_state(const std::string &file, std::string &error);
+    bool load_state(const std::string &file, std::string &error);
+
+    // Inserts an image in a slot, or ejects it for ""; false with error set when openMSX refused.
+    bool insert(Slot slot, const std::string &path, std::string &error);
+
+private:
+    struct Impl;
+    explicit MsxMachine(std::unique_ptr<Impl> impl);
+    std::unique_ptr<Impl> impl_;
+};
+
+} // namespace kairomsx

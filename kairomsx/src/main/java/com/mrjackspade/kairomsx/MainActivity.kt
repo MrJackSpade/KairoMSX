@@ -5,12 +5,14 @@ import com.mrjackspade.kairo.frontend.ControllerGuestSpec
 import com.mrjackspade.kairo.frontend.ControllerLayout
 import com.mrjackspade.kairo.frontend.DiskImageEntry
 import com.mrjackspade.kairo.frontend.DiskImageLibrary
+import com.mrjackspade.kairo.frontend.FirmwareSet
 import com.mrjackspade.kairo.frontend.LayeredGameCatalog
 import com.mrjackspade.kairo.frontend.LibraryStrings
 import com.mrjackspade.kairo.frontend.MachineActivity
 import com.mrjackspade.kairo.frontend.MachineFirstRun
 import com.mrjackspade.kairo.frontend.NativeMachine
 
+import org.json.JSONObject
 import java.io.File
 import java.util.concurrent.atomic.AtomicBoolean
 
@@ -61,14 +63,44 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
         MediaSlot("Cartridge B", ::isCartridge), MediaSlot("Disk A", ::isDisk), MediaSlot("Disk B", ::isDisk),
         MediaSlot("Cassette", ::isTape))
 
+    /**
+     * The system ROMs of the real machines (assets/system_roms.json, from openMSX's machine
+     * definitions), found by content and copied to openMSX's systemroms folder, where openMSX finds
+     * them by digest. One set per machine.
+     */
+    override val firmwareSets by lazy {
+        val machines = JSONObject(assets.open("system_roms.json").bufferedReader().use { it.readText() })
+            .getJSONArray("machines")
+        (0 until machines.length()).map { index ->
+            val machine = machines.getJSONObject(index)
+            val roms = machine.getJSONArray("roms")
+            machine.getString("label") to FirmwareSet(systemRoms, (0 until roms.length()).map { romIndex ->
+                val rom = roms.getJSONObject(romIndex)
+                val file = rom.getString("file")
+                val digests = rom.getJSONArray("sha1")
+                FirmwareSet.Part(file, file, setOf(file.lowercase()), true,
+                    sha1 = (0 until digests.length()).map(digests::getString).toSet(), maxBytes = MAX_SYSTEM_ROM)
+            })
+        }
+    }
+    override val firmwareText get() = Triple("MSX system ROMs",
+        "Choose the folder holding the ROM dumps of your own MSX machines. KairoMSX copies the ones it recognizes.",
+        "Cartridge games need none. Disk and tape games start on a machine whose ROMs are installed.")
+    private val openmsxHome by lazy { File(filesDir, "openmsx") }
+    /** openMSX's user systemroms folder: its OPENMSX_HOME's share/systemroms (msx_core.cpp). */
+    private val systemRoms by lazy { File(openmsxHome, "user/share/systemroms") }
+
     override fun startGame(entry: DiskImageEntry, game: CatalogGame, cancelled: AtomicBoolean,
                            progress: (String) -> Unit) {
-        // C-BIOS starts cartridges only; disks and tapes need an MSX's own system ROMs.
-        check(isCartridge(entry)) { "${entry.mediaLabel} games need MSX system ROMs, which KairoMSX cannot use yet" }
         val home = prepareOpenmsx(progress)
-        val media = listOf(entry, null, null, null, null)
+        // In the core's slot order (msx_core.cpp): cartridge A, cartridge B, disk A, disk B, cassette.
+        val media = listOf(entry.takeIf(::isCartridge), null, entry.takeIf(::isDisk), null, entry.takeIf(::isTape))
         val images = media.map { image -> image?.let { this.images.prepare(it, cancelled, progress).absolutePath } }
-        check(bridge.start("", home.absolutePath, images, optionValues(game))) { "Another machine is still running" }
+        val options = optionValues(game).toMutableMap()
+        if (options[MsxCatalog.machine.id] == MsxCatalog.AUTOMATIC) {
+            options[MsxCatalog.machine.id] = if (isCartridge(entry)) MsxCatalog.CARTRIDGE_MACHINE else MsxCatalog.DISK_MACHINE
+        }
+        check(bridge.start("", home.absolutePath, images, options)) { "Another machine is still running" }
         awaitRunning()
         mediaStarted(media)
     }
@@ -78,7 +110,7 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
      * when its STAMP differs, and "user", openMSX's own files.
      */
     private fun prepareOpenmsx(progress: (String) -> Unit): File {
-        val home = File(filesDir, "openmsx")
+        val home = openmsxHome
         val system = File(home, "system")
         val stamp = assets.open("openmsx/STAMP").bufferedReader().use { it.readText() }
         if (File(system, "STAMP").takeIf { it.isFile }?.readText() != stamp) {
@@ -101,6 +133,11 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
             check(dest.mkdirs() || dest.isDirectory) { "Could not create $dest" }
             for (child in children) copyAsset("$path/$child", File(dest, child))
         }
+    }
+
+    private companion object {
+        /** The largest MSX system ROM, the turbo R's 4 MiB firmware. */
+        const val MAX_SYSTEM_ROM = 4L * 1024 * 1024
     }
 
     override fun stateError(code: Int) = when (code) {

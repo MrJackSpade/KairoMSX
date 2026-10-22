@@ -1,0 +1,104 @@
+{
+ "machines": [
+  {
+   "machine": "Panasonic_FS-A1WSX",
+   "label": "Panasonic FS-A1WSX (MSX2+)",
+   "roms": [
+    {
+     "file": "fs-a1wsx_kanjifont.rom",
+     "sha1": [
+      "5aff2d9b6efc723bc395b0f96f0adfa83cc54a49"
+     ]
+    },
+    {
+     "file": "fs-a1wsx_IC18.rom",
+     "sha1": [
+      "28cc0fbab62d9b4ff5d16971795ebb8a4e02f1f6"
+     ]
+    },
+    {
+     "file": "fs-a1wsx_basic-bios2p.rom",
+     "sha1": [
+      "f4433752d3bf876bfefb363c749d4d2e08a218b6"
+     ]
+    },
+    {
+     "file": "fs-a1wsx_fmbasic.rom",
+     "sha1": [
+      "6354ccc5c100b1c558c9395fa8c00784d2e9b0a3",
+      "aad42ba4289b33d8eed225d42cea930b7fc5c228"
+     ]
+    },
+    {
+     "file": "fs-a1wsx_msx2psub.rom",
+     "sha1": [
+      "fe0254cbfc11405b79e7c86c7769bd6322b04995"
+     ]
+    },
+    {
+     "file": "fs-a1wsx_kanjibasic.rom",
+     "sha1": [
+      "dcc3a67732aa01c4f2ee8d1ad886444a4dbafe06"
+     ]
+    },
+    {
+     "file": "fs-a1wsx_disk.rom",
+     "sha1": [
+      "7ed7c55e0359737ac5e68d38cb6903f9e5d7c2b6"
+     ]
+    },
+    {
+     "file": "fs-a1wsx_firmware.rom",
+     "sha1": [
+      "3330d9b6b76e3c4ccb7cf252496ed15d08b95d3f"
+     ]
+    }
+   ]
+  },
+  {
+   "machine": "Panasonic_FS-A1GT",
+   "label": "Panasonic FS-A1GT (turbo R)",
+   "roms": [
+    {
+     "file": "fs-a1gt_firmware.rom",
+     "sha1": [
+      "5fa3aa79aeba2c0441f349e78e9a16d9d64422ea",
+      "e779c338eb91a7dea3ff75f3fde76b8af22c4a3a"
+     ]
+    },
+    {
+     "file": "fs-a1gt_kanjifont.rom",
+     "sha1": [
+      "5aff2d9b6efc723bc395b0f96f0adfa83cc54a49"
+     ]
+    }
+   ]
+  },
+  {
+   "machine": "Philips_NMS_8250",
+   "label": "Philips NMS 8250 (MSX2)",
+   "roms": [
+    {
+     "file": "nms8250_basic-bios2.rom",
+     "sha1": [
+      "6103b39f1e38d1aa2d84b1c3219c44f1abb5436e"
+     ]
+    },
+    {
+     "file": "nms8250_msx2sub.rom",
+     "sha1": [
+      "5c1f9c7fb655e43d38e5dd1fcc6b942b2ff68b02"
+     ]
+    },
+    {
+     "file": "nms8250_disk.rom",
+     "sha1": [
+      "8625c6b633d9cca2875e4dc33404fb98653379d7",
+      "c3efedda7ab947a06d9345f7b8261076fa7ceeef",
+      "dab3e6f36843392665b71b04178aadd8762c6589"
+     ]
+    }
+   ]
+  }
+ ]
+}

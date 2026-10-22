@@ -4,7 +4,7 @@
 
 ## Status
 
-Early development. There is no release yet. The app runs cartridge games on C-BIOS with sound, the on-screen keyboard, the joystick, save states and the shared game library. Disk and tape games need an MSX's own system ROMs, which the app cannot use yet.
+Early development. There is no release yet. Cartridge games start on C-BIOS, which comes with the app. Disk and tape games start on a real MSX (Panasonic FS-A1WSX, Panasonic FS-A1GT or Philips NMS 8250) with system ROMs dumped from your own machine, imported in Menu > Machine.
 
 ## Games and firmware
 

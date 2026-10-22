@@ -52,4 +52,4 @@ All four permit combination with GPL code. KairoMSX's arm64 build does not link 
 
 ## Firmware and games
 
-Apart from C-BIOS, KairoMSX does not include MSX system ROMs, disk ROMs, operating systems, or games. Users supply any firmware and games they need.
+Apart from C-BIOS, KairoMSX does not include MSX system ROMs, disk ROMs, operating systems, or games. Users supply any firmware and games they need. The app recognizes a player's system ROM dumps by the SHA-1 digests in openMSX's machine definitions (`tools/system_roms.py` writes the list) and copies them to its private storage.

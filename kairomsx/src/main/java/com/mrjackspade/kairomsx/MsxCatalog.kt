@@ -19,21 +19,32 @@ object MsxCatalog : LayeredGameCatalog.Schema {
     override val mediaExtensions =
         Regex("\\.(?:zip|7z|rom|mx1|mx2|ri|dsk|di1|di2|dmk|cas|tsx)$", RegexOption.IGNORE_CASE)
 
+    /** [machine]'s automatic choice: [CARTRIDGE_MACHINE] for cartridges, [DISK_MACHINE] for disks and tapes. */
+    const val AUTOMATIC = "auto"
+    const val CARTRIDGE_MACHINE = "C-BIOS_MSX2+"
+    const val DISK_MACHINE = "Panasonic_FS-A1WSX"
+
     /**
-     * The machines the app ships: C-BIOS, which starts cartridges. Each MSX generation runs the
-     * cartridges of the ones before it; the Japanese machines have the Japanese character set and
-     * the European ones run at 50 Hz.
+     * The machine a game starts on, by openMSX's name. The C-BIOS machines ship with the app and
+     * start cartridges; each MSX generation runs the cartridges of the ones before it, the Japanese
+     * machines have the Japanese character set and the European ones run at 50 Hz. The real
+     * machines, which disks and tapes need, start with the player's own system ROMs
+     * (assets/system_roms.json).
      */
     val machine = MachineOption("machine", "Machine", listOf(
-        ChoiceOption("C-BIOS_MSX2+", "MSX2+"),
-        ChoiceOption("C-BIOS_MSX2+_JP", "MSX2+ Japanese"),
-        ChoiceOption("C-BIOS_MSX2+_EU", "MSX2+ European"),
-        ChoiceOption("C-BIOS_MSX2", "MSX2"),
-        ChoiceOption("C-BIOS_MSX2_JP", "MSX2 Japanese"),
-        ChoiceOption("C-BIOS_MSX2_EU", "MSX2 European"),
-        ChoiceOption("C-BIOS_MSX1", "MSX"),
-        ChoiceOption("C-BIOS_MSX1_JP", "MSX Japanese"),
-        ChoiceOption("C-BIOS_MSX1_EU", "MSX European")), "C-BIOS_MSX2+")
+        ChoiceOption(AUTOMATIC, "Automatic"),
+        ChoiceOption("Panasonic_FS-A1WSX", "Panasonic FS-A1WSX (MSX2+)"),
+        ChoiceOption("Panasonic_FS-A1GT", "Panasonic FS-A1GT (turbo R)"),
+        ChoiceOption("Philips_NMS_8250", "Philips NMS 8250 (MSX2)"),
+        ChoiceOption("C-BIOS_MSX2+", "MSX2+ (C-BIOS)"),
+        ChoiceOption("C-BIOS_MSX2+_JP", "MSX2+ Japanese (C-BIOS)"),
+        ChoiceOption("C-BIOS_MSX2+_EU", "MSX2+ European (C-BIOS)"),
+        ChoiceOption("C-BIOS_MSX2", "MSX2 (C-BIOS)"),
+        ChoiceOption("C-BIOS_MSX2_JP", "MSX2 Japanese (C-BIOS)"),
+        ChoiceOption("C-BIOS_MSX2_EU", "MSX2 European (C-BIOS)"),
+        ChoiceOption("C-BIOS_MSX1", "MSX (C-BIOS)"),
+        ChoiceOption("C-BIOS_MSX1_JP", "MSX Japanese (C-BIOS)"),
+        ChoiceOption("C-BIOS_MSX1_EU", "MSX European (C-BIOS)")), AUTOMATIC)
     val options = listOf(machine)
 
     override val fields: Map<String, Set<String>?> = mapOf(MachineOption.SECTION to options.map { it.id }.toSet())

@@ -1,5 +1,8 @@
 {
- "adultArtwork": {},
+ "adultArtwork": {
+  "art/catalog/moby/30376/box-9bf46453978e.webp": "Panique",
+  "art/catalog/moby/30376/screenshot-2136f63dd858.webp": "Panique"
+ },
  "excluded": {
   "msx2:113066": {
    "reason": "MobyGames Adult genre",

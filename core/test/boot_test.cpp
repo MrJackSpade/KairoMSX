@@ -1,14 +1,16 @@
 // Boots an MSX cartridge on C-BIOS on the host and checks what the app relies on.
 //
-//   boot_test <data dir> <work dir> <seconds> [cartridge [joystick|none]]
+//   boot_test [--machine <name>] [--command <tcl>] <data dir> <work dir> <seconds> [cartridge [joystick|none|key:<row>,<column>]]
 //
 // Runs the cartridge (or C-BIOS alone) for <seconds> of guest time, writing <work dir>/boot.ppm
 // of the last picture and boot.wav of the sound, then presses Space (with "joystick", the
-// joystick's trigger A; with "none", nothing) and writes pressed.ppm. Then
+// joystick's trigger A; with "key:<row>,<column>", that key of the keyboard matrix; with "none",
+// nothing) and writes pressed.ppm. Then
 // it saves a state, runs on, loads the state, and checks that every frame of the second after the
 // load leaves the machine as the second after the save did, and draws and plays the same. Last it
 // starts a second machine in the same process, as the app does for its next game.
-// Saved states are compared as XML, without the fields state() names.
+// Saved states are compared as XML, without the fields state() names. With --command, it prints
+// what that openMSX console command returns after the boot, as for the debugger's registers.
 
 #include <cmath>
 #include <cstdio>
@@ -209,10 +211,23 @@ void write_wav(const std::string &file, const std::vector<int16_t> &sound, uint3
 } // namespace
 
 int main(int argc, char **argv) {
-    if (argc < 4 || argc > 6 || (argc == 6 && std::string(argv[5]) != "joystick" && std::string(argv[5]) != "none"))
-        return fail("usage: boot_test <data dir> <work dir> <seconds> [cartridge [joystick|none]]");
-    const std::string work = argv[2];
     Config config;
+    // --machine <name> first picks the machine, by openMSX's name; C-BIOS MSX2+ otherwise.
+    std::string probe;
+    while (argc >= 3 && (std::string(argv[1]) == "--machine" || std::string(argv[1]) == "--command")) {
+        (std::string(argv[1]) == "--machine" ? config.machine : probe) = argv[2];
+        argc -= 2;
+        argv += 2;
+    }
+    int key_row = -1, key_column = -1;
+    if (argc == 6 && std::string(argv[5]).rfind("key:", 0) == 0 &&
+        std::sscanf(argv[5] + 4, "%d,%d", &key_row, &key_column) != 2)
+        return fail("a key is key:<row>,<column>");
+    if (argc < 4 || argc > 6 ||
+        (argc == 6 && std::string(argv[5]) != "joystick" && std::string(argv[5]) != "none" && key_row < 0))
+        return fail("usage: boot_test [--machine <name>] <data dir> <work dir> <seconds> "
+                    "[cartridge [joystick|none|key:<row>,<column>]]");
+    const std::string work = argv[2];
     config.data_dir = argv[1];
     config.home = work + "/home";
     const double seconds = std::atof(argv[3]);
@@ -233,11 +248,17 @@ int main(int argc, char **argv) {
     if (boot.audio_frames < expected * 0.95 || boot.audio_frames > expected * 1.05)
         return fail("audio does not follow guest time");
     std::printf("cartridge A: %s\n", machine->media_path(kairomsx::kCartA).c_str());
+    if (!probe.empty()) {
+        std::string result;
+        if (!machine->command(probe, result)) return fail("command: " + result);
+        std::printf("command: %s\n", result.c_str());
+    }
 
     Run pressed;
     auto press = [&](bool down) {
         if (pressing == "joystick") machine->joystick(kTriggerA, down);
         else if (pressing == "Space") machine->key(kSpaceRow, kSpaceColumn, down);
+        else if (key_row >= 0) machine->key(key_row, key_column, down);
     };
     press(true);
     if (!run(*machine, 0.5, pressed, error)) return fail("run while pressed: " + error);

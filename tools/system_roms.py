@@ -18,15 +18,33 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 MACHINES = ROOT / 'third_party/openmsx/share/machines'
 OUT = ROOT / 'kairomsx/src/main/assets/system_roms.json'
-# The machines offered for disk and tape games (MsxCatalog), by openMSX name, with their labels.
+# The machines offered for disk and tape games (MsxCatalog), by openMSX name, with their labels and
+# a note on what each is used for.
 OFFERED = [
-    ('Panasonic_FS-A1WSX', 'Panasonic FS-A1WSX (MSX2+)'),
-    ('Panasonic_FS-A1GT', 'Panasonic FS-A1GT (turbo R)'),
-    ('Philips_NMS_8250', 'Philips NMS 8250 (MSX2)'),
+    ('Panasonic_FS-A1WSX', 'Panasonic FS-A1WSX (MSX2+)',
+     'Plays disk and tape games. Cartridge games need no BIOS: they run on the built-in C-BIOS.'),
+    ('Panasonic_FS-A1GT', 'Panasonic FS-A1GT (turbo R)', 'Plays turbo R games.'),
+    ('Philips_NMS_8250', 'Philips NMS 8250 (MSX2)', 'Not needed: used only when a game\'s Machine setting picks it.'),
 ]
+# Each system ROM file's name in the app and what it does. Every offered file must have one.
+DESCRIPTIONS = {
+    'fs-a1wsx_IC18.rom': ('Whole system chip', 'one dump of the whole system chip; stands in for the BIOS, music, sub and disk files'),
+    'fs-a1wsx_basic-bios2p.rom': ('BIOS', 'the MSX2+ BIOS and BASIC that start the machine'),
+    'fs-a1wsx_fmbasic.rom': ('Music BASIC', 'MSX-MUSIC, the FM sound BASIC'),
+    'fs-a1wsx_msx2psub.rom': ('Sub-BIOS', 'the MSX2+ sub-BIOS for graphics and setup'),
+    'fs-a1wsx_kanjibasic.rom': ('Kanji BASIC', 'Kanji BASIC for Japanese text'),
+    'fs-a1wsx_disk.rom': ('Disk', 'runs the floppy drive'),
+    'fs-a1wsx_firmware.rom': ('Firmware', 'the built-in firmware and its menu'),
+    'fs-a1wsx_kanjifont.rom': ('Kanji font', 'the Japanese character font'),
+    'fs-a1gt_firmware.rom': ('System', 'the whole turbo R system: BIOS, BASIC, disk and music'),
+    'fs-a1gt_kanjifont.rom': ('Kanji font', 'the Japanese character font'),
+    'nms8250_basic-bios2.rom': ('BIOS', 'the MSX2 BIOS and BASIC that start the machine'),
+    'nms8250_msx2sub.rom': ('Sub-BIOS', 'the MSX2 sub-BIOS for graphics'),
+    'nms8250_disk.rom': ('Disk', 'runs the floppy drive'),
+}
 
 
-def machine(name, label):
+def machine(name, label, note):
     """The machine's ROM files, each once with its digests, and its requirements: for each device,
     the files any one of which it loads."""
     files, requirements = {}, []
@@ -43,13 +61,17 @@ def machine(name, label):
         options = sorted(set(options))
         if options and options not in requirements:
             requirements.append(options)
-    return {'machine': name, 'label': label,
-            'roms': [{'file': file, 'sha1': list(digests)} for digests, file in files.items()],
+    missing = sorted(set(files.values()) - DESCRIPTIONS.keys())
+    if missing:
+        raise SystemExit(f'{name}: no description for {missing}')
+    return {'machine': name, 'label': label, 'note': note,
+            'roms': [{'file': file, 'sha1': list(digests), 'label': DESCRIPTIONS[file][0], 'description': DESCRIPTIONS[file][1]}
+                     for digests, file in files.items()],
             'requirements': requirements}
 
 
 def content():
-    return json.dumps({'machines': [machine(name, label) for name, label in OFFERED]}, indent=1) + '\n'
+    return json.dumps({'machines': [machine(*offered) for offered in OFFERED]}, indent=1) + '\n'
 
 
 def main():

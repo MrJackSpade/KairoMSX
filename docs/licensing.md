@@ -58,4 +58,4 @@ The shared RetroArch Slang shader runtime uses librashader under its GPL-3.0-onl
 
 ## Firmware and games
 
-Apart from C-BIOS, KairoMSX does not include MSX system ROMs, disk ROMs, operating systems, or games. Users supply any firmware and games they need. The app recognizes a player's system ROM dumps by the SHA-1 digests in openMSX's machine definitions (`tools/system_roms.py` writes the list) and copies them to its private storage.
+Apart from C-BIOS, KairoMSX does not include MSX system firmware (BIOS), operating systems, or games. Users supply any firmware and games they need. The app recognizes a player's system ROM dumps by the SHA-1 digests in openMSX's machine definitions (`tools/system_roms.py` writes the list) and copies them to its private storage.

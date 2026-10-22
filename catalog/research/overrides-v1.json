@@ -24,6 +24,144 @@
   "msx2:33917": {
    "adult": true
   },
+  "msx:153194": {
+   "controller": {
+    "defaults": {
+     "withSticks": [
+      {
+       "input": "virtual:a",
+       "joystick": "button1"
+      },
+      {
+       "input": "virtual:b",
+       "joystick": "button2"
+      },
+      {
+       "input": "virtual:x",
+       "keys": [
+        65
+       ]
+      },
+      {
+       "input": "virtual:y",
+       "keys": [
+        64
+       ]
+      },
+      {
+       "input": "virtual:start",
+       "keys": [
+        8
+       ]
+      },
+      {
+       "input": "virtual:select",
+       "keys": [
+        61
+       ]
+      },
+      {
+       "action": "menu",
+       "input": "virtual:menu"
+      },
+      {
+       "input": "virtual:up",
+       "joystick": "up"
+      },
+      {
+       "input": "virtual:down",
+       "joystick": "down"
+      },
+      {
+       "input": "virtual:left",
+       "joystick": "left"
+      },
+      {
+       "input": "virtual:right",
+       "joystick": "right"
+      },
+      {
+       "input": "virtual:lsup",
+       "keys": [
+        70
+       ]
+      },
+      {
+       "input": "virtual:lsdown",
+       "keys": [
+        71
+       ]
+      },
+      {
+       "input": "virtual:lsleft",
+       "keys": [
+        69
+       ]
+      },
+      {
+       "input": "virtual:lsright",
+       "keys": [
+        72
+       ]
+      }
+     ],
+     "withoutSticks": [
+      {
+       "input": "virtual:a",
+       "joystick": "button1"
+      },
+      {
+       "input": "virtual:b",
+       "joystick": "button2"
+      },
+      {
+       "input": "virtual:x",
+       "keys": [
+        65
+       ]
+      },
+      {
+       "input": "virtual:y",
+       "keys": [
+        64
+       ]
+      },
+      {
+       "input": "virtual:start",
+       "keys": [
+        8
+       ]
+      },
+      {
+       "input": "virtual:select",
+       "keys": [
+        61
+       ]
+      },
+      {
+       "action": "menu",
+       "input": "virtual:menu"
+      },
+      {
+       "input": "virtual:up",
+       "joystick": "up"
+      },
+      {
+       "input": "virtual:down",
+       "joystick": "down"
+      },
+      {
+       "input": "virtual:left",
+       "joystick": "left"
+      },
+      {
+       "input": "virtual:right",
+       "joystick": "right"
+      }
+     ]
+    }
+   }
+  },
   "msx:168907": {
    "adult": true
   }

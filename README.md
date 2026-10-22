@@ -26,11 +26,11 @@
 
 ## Status
 
-Early development. There is no release yet. Cartridge games start on C-BIOS, which comes with the app. Disk and tape games start on a real MSX (Panasonic FS-A1WSX, Panasonic FS-A1GT or Philips NMS 8250) with system ROMs dumped from your own machine, imported in Menu > Machine.
+Early development. There is no release yet. Cartridge games start on C-BIOS, which comes with the app. Disk, tape and turbo R games and MSX-BASIC cartridges start on a real MSX (Panasonic FS-A1WSX, Panasonic FS-A1GT or Philips NMS 8250) with its BIOS from your own machine, imported in Menu › Machine.
 
 ## Games and firmware
 
-Games and system ROMs are not supplied. The pinned core includes [C-BIOS](https://cbios.sourceforge.net/), a free replacement BIOS that runs many cartridge games without any firmware from you. Disk games and the turbo R need system ROMs from your own machine.
+Games and the MSX machines' BIOS are not supplied. The pinned core includes [C-BIOS](https://cbios.sourceforge.net/), a free replacement BIOS that runs most cartridge games without any BIOS from you. Disk games, turbo R games and cartridges written in MSX-BASIC need the BIOS of a real machine from your own. Menu › Machine lists every BIOS file, each marked Required or Optional. Pick each file, or use **Import all from a folder…** to import every file the app recognizes in a folder you choose. Each game starts on the machine it needs; you can change it in the game's Machine settings.
 
 ## Documentation
 

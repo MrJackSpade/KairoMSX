@@ -18,14 +18,14 @@ import java.util.concurrent.atomic.AtomicBoolean
 
 /** KairoMSX: the MSX on openMSX, in the shared Kairo frontend. */
 class MainActivity : MachineActivity<DiskImageEntry>() {
-    override val identity = Identity("KAIROMSX", "KairoMSX", "MSX", "kairomsx",
+    override val identity = Identity("KAIROMSX", 0xff972AFB.toInt(), "KairoMSX", "MSX", "kairomsx",
         LibraryStrings("KAIROMSX", "KairoMSX"),
         "KairoMSX uses openMSX's MSX emulation and the C-BIOS system software. Source and provenance: " +
             "github.com/MrJackSpade/KairoMSX.",
-        "Choose a ROM folder to find cartridge, disk and tape images and the ZIP and 7z archives holding them",
-        "Folder access expired. Select the ROM folder again.",
-        MachineFirstRun.Folder("Choose a ROM folder", "Select the folder containing your MSX games. KairoMSX " +
-            "will scan its cartridge, disk and tape images and the ZIP and 7z archives holding them.", "Choose ROM folder…"),
+        "Choose a games folder to find cartridge, disk and tape images and the ZIP and 7z archives holding them",
+        "Folder access expired. Select the games folder again.",
+        MachineFirstRun.Folder("Choose a games folder", "Select the folder containing your MSX games. KairoMSX " +
+            "will scan its cartridge, disk and tape images and the ZIP and 7z archives holding them.", "Choose games folder…"),
         "SAVE STATES", "MrJackSpade/KairoMSX")
     override val machine = Machine(320, 240, 4.0 / 3.0, "state.oms")
     override val bridge by lazy { NativeMachine("kairomsx") }
@@ -78,7 +78,8 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
                 val rom = roms.getJSONObject(romIndex)
                 val file = rom.getString("file")
                 val digests = rom.getJSONArray("sha1")
-                file to FirmwareSet.Part(file, file, setOf(file.lowercase()), true,
+                file to FirmwareSet.Part(file, rom.getString("label"), "$file · ${rom.getString("description")}",
+                    setOf(file.lowercase()), true,
                     sha1 = (0 until digests.length()).map(digests::getString).toSet(), maxBytes = MAX_SYSTEM_ROM)
             }
             // Each requirement is met by any one of its files (system_roms.py).
@@ -87,12 +88,9 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
                 (0 until requirements.length()).map { index ->
                     val options = requirements.getJSONArray(index)
                     (0 until options.length()).map { parts.getValue(options.getString(it)) }
-                })
+                }, machine.getString("note"))
         }
     }
-    override val firmwareText get() = Triple("MSX system ROMs",
-        "Choose the folder holding the ROM dumps of your own MSX machines. KairoMSX copies the ones it recognizes.",
-        "Cartridge games need none. Disk and tape games start on a machine whose ROMs are installed.")
     private val openmsxHome by lazy { File(filesDir, "openmsx") }
     /** openMSX's user systemroms folder: its OPENMSX_HOME's share/systemroms (msx_core.cpp). */
     private val systemRoms by lazy { File(openmsxHome, "user/share/systemroms") }

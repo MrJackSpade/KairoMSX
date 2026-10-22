@@ -74,13 +74,20 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
         (0 until machines.length()).map { index ->
             val machine = machines.getJSONObject(index)
             val roms = machine.getJSONArray("roms")
-            machine.getString("label") to FirmwareSet(systemRoms, (0 until roms.length()).map { romIndex ->
+            val parts = (0 until roms.length()).associate { romIndex ->
                 val rom = roms.getJSONObject(romIndex)
                 val file = rom.getString("file")
                 val digests = rom.getJSONArray("sha1")
-                FirmwareSet.Part(file, file, setOf(file.lowercase()), true,
+                file to FirmwareSet.Part(file, file, setOf(file.lowercase()), true,
                     sha1 = (0 until digests.length()).map(digests::getString).toSet(), maxBytes = MAX_SYSTEM_ROM)
-            })
+            }
+            // Each requirement is met by any one of its files (system_roms.py).
+            val requirements = machine.getJSONArray("requirements")
+            machine.getString("label") to FirmwareSet(systemRoms, parts.values.toList(),
+                (0 until requirements.length()).map { index ->
+                    val options = requirements.getJSONArray(index)
+                    (0 until options.length()).map { parts.getValue(options.getString(it)) }
+                })
         }
     }
     override val firmwareText get() = Triple("MSX system ROMs",

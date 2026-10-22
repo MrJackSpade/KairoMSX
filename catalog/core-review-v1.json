@@ -261,6 +261,10 @@
    "reason": "MobyGames Adult genre",
    "title": "Playhouse Strippoker"
   },
+  "msx:168907": {
+   "reason": "Adult-content review",
+   "title": "Yab Yum"
+  },
   "msx:181423": {
    "reason": "MobyGames Adult genre",
    "title": "Creamy Lemon: Star Trap"
@@ -288,10 +292,6 @@
   "msx:moby-227748": {
    "reason": "MobyGames Adult genre",
    "title": "Puzzle Mania: MSXdev24 Edition"
-  },
-  "msx:moby-29111": {
-   "reason": "MobyGames Adult genre",
-   "title": "Cybernetic Hi-School"
   },
   "msx:moby-44509": {
    "reason": "MobyGames Adult genre",

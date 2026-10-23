@@ -1,0 +1,17 @@
+{
+ "schemaVersion": 1,
+ "files": {
+  "bios/fs-a1gt_firmware.rom": "C:\\Users\\SERVIC~1\\AppData\\Local\\Temp\\claude\\C--Users-Service-Account-Kairo\\e89e066b-9c64-48e2-8672-c60dfe751f67\\scratchpad\\retrobios-openmsx\\fs-a1gt_firmware.rom",
+  "bios/fs-a1wsx_basic-bios2p.rom": "C:\\Users\\SERVIC~1\\AppData\\Local\\Temp\\claude\\C--Users-Service-Account-Kairo\\e89e066b-9c64-48e2-8672-c60dfe751f67\\scratchpad\\retrobios-openmsx\\fs-a1wsx_basic-bios2p.rom",
+  "bios/fs-a1wsx_disk.rom": "C:\\Users\\SERVIC~1\\AppData\\Local\\Temp\\claude\\C--Users-Service-Account-Kairo\\e89e066b-9c64-48e2-8672-c60dfe751f67\\scratchpad\\retrobios-openmsx\\fs-a1wsx_disk.rom",
+  "bios/fs-a1wsx_firmware.rom": "C:\\Users\\SERVIC~1\\AppData\\Local\\Temp\\claude\\C--Users-Service-Account-Kairo\\e89e066b-9c64-48e2-8672-c60dfe751f67\\scratchpad\\retrobios-openmsx\\fs-a1wsx_firmware.rom",
+  "bios/fs-a1wsx_fmbasic.rom": "C:\\Users\\SERVIC~1\\AppData\\Local\\Temp\\claude\\C--Users-Service-Account-Kairo\\e89e066b-9c64-48e2-8672-c60dfe751f67\\scratchpad\\retrobios-openmsx\\fs-a1wsx_fmbasic.rom",
+  "bios/fs-a1wsx_kanjibasic.rom": "C:\\Users\\SERVIC~1\\AppData\\Local\\Temp\\claude\\C--Users-Service-Account-Kairo\\e89e066b-9c64-48e2-8672-c60dfe751f67\\scratchpad\\retrobios-openmsx\\fs-a1wsx_kanjibasic.rom",
+  "bios/fs-a1wsx_kanjifont.rom": "C:\\Users\\SERVIC~1\\AppData\\Local\\Temp\\claude\\C--Users-Service-Account-Kairo\\e89e066b-9c64-48e2-8672-c60dfe751f67\\scratchpad\\retrobios-openmsx\\fs-a1wsx_kanjifont.rom",
+  "bios/fs-a1wsx_msx2psub.rom": "C:\\Users\\SERVIC~1\\AppData\\Local\\Temp\\claude\\C--Users-Service-Account-Kairo\\e89e066b-9c64-48e2-8672-c60dfe751f67\\scratchpad\\retrobios-openmsx\\fs-a1wsx_msx2psub.rom",
+  "games/msx/Brain, The (1983) (Ascii).zip": "\\\\192.168.1.202\\Public\\Games\\Roms\\MSX\\Brain, The (1983) (Ascii).zip",
+  "games/msx/Champion Boulder Dash (1985) (Comptiq).zip": "\\\\192.168.1.202\\Public\\Games\\Roms\\MSX\\Champion Boulder Dash (1985) (Comptiq).zip",
+  "games/msx/Dam Busters, The (1985) (Comptiq).zip": "\\\\192.168.1.202\\Public\\Games\\Roms\\MSX\\Dam Busters, The (1985) (Comptiq).zip",
+  "games/turbor/Shoot That Flying Windows! (1997)(Nyyrikki)[mouse].zip": "\\\\192.168.1.202\\Public\\Games\\Roms\\MSX Turbo R\\MSX TurboR [TOSEC]\\MSX TurboR - Games (TOSEC-v2012-04-15_CM)\\Shoot That Flying Windows! (1997)(Nyyrikki)[mouse].zip"
+ }
+}

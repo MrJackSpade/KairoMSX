@@ -24,17 +24,52 @@
 
 # KairoMSX
 
-**Play your own MSX games on Android phones and handhelds.** KairoMSX is an Android emulator for the MSX, MSX2, MSX2+, and MSX turbo R, built on the [Kairo shared frontend](https://github.com/MrJackSpade/Kairo): the same game library, controller and touch controls, on-screen keyboard, and per-game settings as [Kairo98](https://github.com/MrJackSpade/Kairo98) and [KairoDos](https://github.com/MrJackSpade/KairoDos). It runs a pinned copy of [openMSX](https://openmsx.org/). It is an independent project, not an official openMSX release.
+**Play your own MSX games on Android phones and handhelds.** KairoMSX is an Android emulator for the MSX, MSX2, MSX2+, and MSX turbo R, built on the [Kairo shared frontend](https://github.com/MrJackSpade/Kairo): the same game library with artwork, controller and touch controls, on-screen keyboard, save states, and per-game settings as [Kairo98](https://github.com/MrJackSpade/Kairo98) and [KairoDos](https://github.com/MrJackSpade/KairoDos). It runs a pinned copy of [openMSX](https://openmsx.org/). It is an independent project, not an official openMSX release.
 
-## Status
+## Download
 
-Early development. There is no release yet. Cartridge games start on C-BIOS, which comes with the app. Disk, tape and turbo R games and MSX-BASIC cartridges start on a real MSX (Panasonic FS-A1WSX, Panasonic FS-A1GT or Philips NMS 8250) with its BIOS from your own machine, imported in Menu › Machine.
+<!-- kairo:download -->
+- **[GitHub Releases](https://github.com/MrJackSpade/KairoMSX/releases)** (free): install the APK yourself. The larger `-with-images` APK also bundles catalog artwork.
 
-## Games and firmware
+Requires an ARM64 device running Android 8.0 or newer.
+<!-- /kairo:download -->
 
-Games and the MSX machines' BIOS are not supplied. The pinned core includes [C-BIOS](https://cbios.sourceforge.net/), a free replacement BIOS that runs most cartridge games without any BIOS from you. Disk games, turbo R games and cartridges written in MSX-BASIC need the BIOS of a real machine from your own. Menu › Machine lists every BIOS file, each marked Required or Optional. Pick each file, or use **Import all from a folder…** to import every file the app recognizes in a folder you choose. Each game starts on the machine it needs; you can change it in the game's Machine settings. MSX2 and MSX2+ machines start with 512 KB of RAM, which the Memory setting changes for all games or one; MSX1 machines and the turbo R keep their own.
+## Quick start
 
-Some disks start from MSX-DOS2, ASCII's disk operating system, which only the turbo R has built in. Their MSX-DOS2 setting is on: they start on the FS-A1GT, and the first start readies the game's working copy of the disk. It gains a DOS2-format boot sector, and `MSXDOS2.SYS` and `COMMAND2.COM` if it lacks them. Those two files are ASCII's software, which the app cannot supply: Menu › Machine › MSX-DOS2 imports your own, like the BIOS files. The setting can be turned on for any other disk in its Machine settings. `tools/msxdos2_disks.py` lists the disks that need it, by `MSXDOS2.SYS` on the disk or by hand in `catalog/research/msxdos2-disks-v1.json`.
+1. Install KairoMSX from [GitHub Releases](https://github.com/MrJackSpade/KairoMSX/releases).
+2. Open KairoMSX and choose the folder that holds your MSX games. You can change it later in **Menu › Manage library**.
+3. Select a game and tap **Play**. Cartridge games run straight away; disk, tape and turbo R games need a BIOS from your own machine (see [Firmware](#firmware)).
+
+Games and the MSX machines' BIOS are not supplied.
+
+## Supported formats
+
+| Type | Formats |
+| --- | --- |
+| Cartridges | ROM, MX1, MX2, RI |
+| Disks | DSK, DI1, DI2, DMK |
+| Tapes | CAS, TSX |
+| Archives | Any of the above inside ZIP or 7z archives |
+
+A game's disks show as one library entry. **Menu › Media** changes disks and tapes during play.
+
+## Firmware
+
+KairoMSX comes with [C-BIOS](https://cbios.sourceforge.net/), a free replacement BIOS that runs most cartridge games without any BIOS from you. Disk games, tape games, turbo R games and cartridges written in MSX-BASIC need the BIOS of a real machine from your own: the Panasonic FS-A1WSX (MSX2+), the Panasonic FS-A1GT (turbo R) or the Philips NMS 8250 (MSX2). **Menu › Machine** lists every BIOS file, each marked Required or Optional. Pick each file, or use **Import all from a folder…** to import every file the app recognizes in a folder you choose.
+
+Each game starts on the machine it needs; you can change it in the game's **Game settings › Machine**.
+
+### MSX-DOS2
+
+Some disks start from MSX-DOS2, ASCII's disk operating system, which only the turbo R has built in. The catalog turns their **MSX-DOS2** setting on: they start on the FS-A1GT, and the first start readies the game's working copy of the disk with a DOS2 boot sector and, if the disk lacks them, `MSXDOS2.SYS` and `COMMAND2.COM`. Those two files are ASCII's software, which the app cannot supply: put your own copies in a folder and import them in **Menu › Machine**, like the BIOS files. You can turn the setting on for any other disk in its **Game settings**.
+
+## Machine settings
+
+**Menu › Machine** sets these for all games; each game can override them in its **Game settings**.
+
+- **Machine:** Automatic picks the right machine for each game; or choose one of the real machines or a C-BIOS MSX, MSX2 or MSX2+.
+- **Memory:** the main RAM of MSX2 and MSX2+ machines, 64 KB to 4 MB (512 KB by default). MSX1 machines and the turbo R keep their own.
+- **MSX-DOS2:** see [above](#msx-dos2).
 
 ## Documentation
 
@@ -64,27 +99,7 @@ Build the app, and optionally install it, with the shared build script:
 shared\tools\build.ps1 -Install <adb serial>
 ```
 
-The host boot test runs the machine without Android: build `core/` with CMake for the host, stage openMSX's data folder with `tools/stage_openmsx_data.py <folder>`, then run `boot_test [--machine <name>] [--memory <KB>] [--disk <image>] [--hold <row>,<column>[;...][@<seconds>]] [--command <Tcl>] <data folder> <work folder> <seconds> [cartridge [joystick|none]]`.
-
-<!-- kairo:ui-tests -->
-## UI tests
-
-KairoMSX has device tests in the style of Selenium tests, on the shared Kairo test framework: they
-name the app's elements, act on them as a player would, and assert what the player would see
-([how they work and how to run them](https://github.com/MrJackSpade/Kairo/blob/main/docs/ui-tests.md)). Run them from this
-repository with a device connected over adb (Android 10 or later) and the `LOCAL_BUILD_TOKEN` key set:
-
-```
-shared\tools\uitest.ps1 -Device <serial>                                              every test
-shared\tools\uitest.ps1 -Device <serial> -Filter 'MenuTests|ControllerTests'          by test name
-shared\tools\uitest.ps1 -Device <serial> -Class com.mrjackspade.kairomsx.uitest.<Class>   one class
-shared\tools\uitest-all.ps1 -Device <serial>                                          every Kairo app
-```
-
-The tests are in `kairomsx/src/androidTest/java/com/mrjackspade/kairomsx/uitest/`. They run in a
-build of their own, `com.loxifi.kairomsx.uitest`, installed beside the app without touching its data, and
-each run's logs, screenshots and summary land in `.build/uitest/<run id>/`.
-<!-- /kairo:ui-tests -->
+Host tests, catalog tools and UI tests: see [development](docs/development.md).
 
 ## License
 

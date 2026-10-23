@@ -64,6 +64,26 @@ shared\tools\build.ps1 -Install <adb serial>
 
 The host boot test runs the machine without Android: build `core/` with CMake for the host, stage openMSX's data folder with `tools/stage_openmsx_data.py <folder>`, then run `boot_test <data folder> <work folder> <seconds> [cartridge [joystick|none]]`.
 
+<!-- kairo:ui-tests -->
+## UI tests
+
+KairoMSX has device tests in the style of Selenium tests, on the shared Kairo test framework: they
+name the app's elements, act on them as a player would, and assert what the player would see
+([how they work and how to run them](https://github.com/MrJackSpade/Kairo/blob/main/docs/ui-tests.md)). Run them from this
+repository with a device connected over adb (Android 10 or later) and the `LOCAL_BUILD_TOKEN` key set:
+
+```
+shared\tools\uitest.ps1 -Device <serial>                                              every test
+shared\tools\uitest.ps1 -Device <serial> -Filter 'MenuTests|ControllerTests'          by test name
+shared\tools\uitest.ps1 -Device <serial> -Class com.mrjackspade.kairomsx.uitest.<Class>   one class
+shared\tools\uitest-all.ps1 -Device <serial>                                          every Kairo app
+```
+
+The tests are in `kairomsx/src/androidTest/java/com/mrjackspade/kairomsx/uitest/`. They run in a
+build of their own, `com.loxifi.kairomsx.uitest`, installed beside the app without touching its data, and
+each run's logs, screenshots and summary land in `.build/uitest/<run id>/`.
+<!-- /kairo:ui-tests -->
+
 ## License
 
 <!-- kairo:license -->

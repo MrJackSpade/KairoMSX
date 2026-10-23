@@ -7,7 +7,8 @@ import org.json.JSONArray
 
 /**
  * KairoMSX's catalog records beyond the common fields: the machine a game starts on (`machine`,
- * by openMSX's machine name) and its main RAM (`memory`, in KB).
+ * by openMSX's machine name), its main RAM (`memory`, in KB) and whether it starts from MSX-DOS2
+ * (`msxdos2`).
  */
 object MsxCatalog : LayeredGameCatalog.Schema {
     override val platform = "msx"
@@ -53,7 +54,14 @@ object MsxCatalog : LayeredGameCatalog.Schema {
     val memory = MachineOption("memory", "Memory", listOf(64, 128, 256, 512, 1024, 2048, 4096).map { kb ->
         ChoiceOption(kb.toString(), if (kb < 1024) "$kb KB" else "${kb / 1024} MB")
     }, "512", numeric = true)
-    val options = listOf(machine, memory)
+    /**
+     * Whether a disk starts from MSX-DOS2 (MsxDos2): its working copy gets the player's MSX-DOS2
+     * files and a DOS2-format boot sector, and Automatic starts it on the turbo R, the only machine
+     * with the DOS2 kernel.
+     */
+    val msxdos2 = MachineOption("msxdos2", "MSX-DOS2", listOf(ChoiceOption("off", "Off"), ChoiceOption("on", "On")), "off")
+    const val DOS2_MACHINE = "Panasonic_FS-A1GT"
+    val options = listOf(machine, memory, msxdos2)
 
     override val fields: Map<String, Set<String>?> = mapOf(MachineOption.SECTION to options.map { it.id }.toSet())
     override val singleMediaRoles = emptySet<String>()

@@ -21,3 +21,7 @@ val stageOpenmsxData = tasks.register<Exec>("stageOpenmsxData") {
 }
 android.sourceSets.getByName("main").assets.srcDir(openmsxAssets)
 tasks.named("preBuild") { dependsOn(stageOpenmsxData) }
+
+dependencies {
+    testImplementation("junit:junit:4.13.2")
+}

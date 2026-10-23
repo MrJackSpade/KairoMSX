@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "manual": {
+  "sha256-fd-v1:b81e15fd56023660db1b24d7aa02aa52ce5bbfa9d47ca881a80e0b4d78ffd98e": "F-Nano 2: its FN2DT.BAT runs FN2-KEY.COM from MSX-DOS2, and its BASIC program needs DOS2 mode's free memory (KairoMSX#3)"
+ },
+ "found": {
+  "sha256-fd-v1:016035f2c9ba21a769a937993ecacaec6abf72625a335294c88105052838d0c8": "turbor:MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/S.T.G. (1996)(Y. Tomohara).zip",
+  "sha256-fd-v1:22947ab038698f50d484b6e16e19c9b9f67dc018401067eb3d37696d1c1c7ef1": "turbor:MSX TurboR [TOSEC]/MSX TurboR - Applications (TOSEC-v2012-04-15_CM)/Myu Sios (1991)(Bit2)(JP)(Disk 2 of 3).zip",
+  "sha256-fd-v1:2b53c04629d63dac464e0947474d9e1c98083ab7057b0ce2ca28952f769989e6": "turbor:MSX TurboR [TOSEC]/MSX TurboR - Applications (TOSEC-v2012-04-15_CM)/XSC Compression Program (1995)(XelaSoft)(NL)[a][needs MSX-DOS 2].zip",
+  "sha256-fd-v1:363e5540437549b8a7f17a676e9c7b7e36c48cd0556e3d81f0ab83e00fe704ba": "turbor:MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Earth Attack (19xx)(GW's Workshop)[b].zip",
+  "sha256-fd-v1:457ccc6ba0ea53c863aa389f78aae21a8f2cda02f8edb7e0d2ecd23062d9899c": "turbor:MSX TurboR [TOSEC]/MSX TurboR - Applications (TOSEC-v2012-04-15_CM)/MSX-DOS Help v2.20 (1994)(Miri Software)(IT).zip",
+  "sha256-fd-v1:45a482e0db43db261c2e9adecab0138b55f3330ff1cd83e60bbed6b08dde27ee": "turbor:MSX TurboR [TOSEC]/MSX TurboR - Applications (TOSEC-v2012-04-15_CM)/GFX9000 Tool Disk (1996)(Fony)(NL).zip",
+  "sha256-fd-v1:487fcd8794179e9826cf9c09d23783b6ab58d87a2494e8477ff8782d98263974": "turbor:MSX TurboR [TOSEC]/MSX TurboR - Applications (TOSEC-v2012-04-15_CM)/MSX View (19xx)(-)[b].zip",
+  "sha256-fd-v1:558ebc73bd7c562f1c66006bede30ad9e145dccc86cef3aa0511c9cc0eeced5e": "turbor:MSX TurboR [TOSEC]/MSX TurboR - Applications (TOSEC-v2012-04-15_CM)/MSX Windows 98 v1.1e (1989)(CyberSoft)[f Valerio][mouse][needs MSX-DOS 2].zip",
+  "sha256-fd-v1:58a01e9ed885fb9e9028bbcc7c4f0d6a4f85b14efe92eda47daf20020ebeb7b1": "turbor:MSX TurboR [TOSEC]/MSX TurboR - Applications (TOSEC-v2012-04-15_CM)/MSX-DOS Help v2.20 (1994)(Miri Software)(IT)[a].zip",
+  "sha256-fd-v1:608ba2e819e85410c3c09d64863966c6c211a745d7ee20bfadd215afd1d2688f": "turbor:MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Earth (1996)(GW's Workshop).zip",
+  "sha256-fd-v1:7395e4057a8b273b0b9c05afc5539f8ebe6aed5e8ad6b541f7ee263ac19ab6c6": "turbor:MSX TurboR [TOSEC]/MSX TurboR - Applications (TOSEC-v2012-04-15_CM)/XSC Compression Program (1995)(XelaSoft)(NL)[needs MSX-DOS 2].zip",
+  "sha256-fd-v1:7bae885c658e99b1d55856f8fe9cc066c81df9345f3702079f3f25e8cef8d7f6": "turbor:MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/S.T.G. Special - Do Don Taku (1998)(Y. Tomohara).zip",
+  "sha256-fd-v1:830b9853bcb4b3606c259840e4b1572fd37215a89ee5c2c3b092da9571b34d10": "turbor:MSX TurboR [TOSEC]/MSX TurboR - Applications (TOSEC-v2012-04-15_CM)/Myu Note (1992)(Bit2)(JP)(Disk 1 of 2).zip",
+  "sha256-fd-v1:8cfad511e3d5572c93de1ba95383348741cfcaeb5253bffc452c4c1ef22bb80c": "turbor:MSX TurboR [TOSEC]/MSX TurboR - Applications (TOSEC-v2012-04-15_CM)/Myu Note (1992)(Bit2)(JP)(Disk 2 of 2).zip",
+  "sha256-fd-v1:95209443741c009a40def05f10911625332683ff8dd634eed6bb219f61d1e96d": "turbor:MSX TurboR [TOSEC]/MSX TurboR - Applications (TOSEC-v2012-04-15_CM)/Turbo Booster (1990)(Team Toy Boys)(JP)[b].zip",
+  "sha256-fd-v1:ab3c2de06d3926806ad7871d8e7f2ea3b54b67e4b23517e1db650e5c0e6231cd": "turbor:MSX TurboR [TOSEC]/MSX TurboR - Applications (TOSEC-v2012-04-15_CM)/MSX Windows 2000 (2000)(CyberSoft)[f Valerio][mouse].zip",
+  "sha256-fd-v1:af57e994032a272e2e324d835bade7b1957ed15637ef65030c971e731d14cdba": "turbor:MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Fishing v1.0 (1996-02-26)(GW's Workshop).zip",
+  "sha256-fd-v1:b3d901c688c1e6fc7969a22db4a459d434a9f62a8471930d8c95be802a7c7ede": "turbor:MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Moonlight Saga (1996)(Maple Yard)(JP).zip",
+  "sha256-fd-v1:b5094c8b56c667c091d0352348ffc0fcb89bf24efd4e3151b8b777a3662aa81c": "turbor:MSX TurboR [TOSEC]/MSX TurboR - Applications (TOSEC-v2012-04-15_CM)/Myu Sios (1991)(Bit2)(JP)(Disk 1 of 3).zip",
+  "sha256-fd-v1:efbdc751fd5694944e8c15991d51487d0e2b5310b4de4858971cffa6c3654186": "turbor:MSX TurboR [TOSEC]/MSX TurboR - Applications (TOSEC-v2012-04-15_CM)/MSX Windows 2000 Installer (2000)(CyberSoft)[f Valerio][mouse].zip"
+ }
+}

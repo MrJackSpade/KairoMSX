@@ -34,6 +34,8 @@ Early development. There is no release yet. Cartridge games start on C-BIOS, whi
 
 Games and the MSX machines' BIOS are not supplied. The pinned core includes [C-BIOS](https://cbios.sourceforge.net/), a free replacement BIOS that runs most cartridge games without any BIOS from you. Disk games, turbo R games and cartridges written in MSX-BASIC need the BIOS of a real machine from your own. Menu › Machine lists every BIOS file, each marked Required or Optional. Pick each file, or use **Import all from a folder…** to import every file the app recognizes in a folder you choose. Each game starts on the machine it needs; you can change it in the game's Machine settings. MSX2 and MSX2+ machines start with 512 KB of RAM, which the Memory setting changes for all games or one; MSX1 machines and the turbo R keep their own.
 
+Some disks start from MSX-DOS2, ASCII's disk operating system, which only the turbo R has built in. Their MSX-DOS2 setting is on: they start on the FS-A1GT, and the first start readies the game's working copy of the disk. It gains a DOS2-format boot sector, and `MSXDOS2.SYS` and `COMMAND2.COM` if it lacks them. Those two files are ASCII's software, which the app cannot supply: Menu › Machine › MSX-DOS2 imports your own, like the BIOS files. The setting can be turned on for any other disk in its Machine settings. `tools/msxdos2_disks.py` lists the disks that need it, by `MSXDOS2.SYS` on the disk or by hand in `catalog/research/msxdos2-disks-v1.json`.
+
 ## Documentation
 
 - [Licensing and credits](docs/licensing.md): code license and third-party components

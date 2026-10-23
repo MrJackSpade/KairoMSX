@@ -89,7 +89,18 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
                     val options = requirements.getJSONArray(index)
                     (0 until options.length()).map { parts.getValue(options.getString(it)) }
                 }, machine.getString("note"))
-        }
+        } + ("MSX-DOS2" to msxDos2)
+    }
+
+    /**
+     * The player's MSX-DOS2 system files, for disks that start from MSX-DOS2 without them (MsxDos2):
+     * ASCII's software, which the app cannot ship. Found by name; no machine needs them.
+     */
+    private val msxDos2 by lazy {
+        FirmwareSet(File(openmsxHome, "user/msxdos2"), listOf(MsxDos2.SYSTEM, MsxDos2.COMMAND).map { file ->
+            FirmwareSet.Part(file, file, "$file · MSX-DOS2 system file",
+                setOf(file.lowercase()), false, maxBytes = MAX_DOS_FILE)
+        }, note = "For disks that start from MSX-DOS2 but do not include it")
     }
     private val openmsxHome by lazy { File(filesDir, "openmsx") }
     /** openMSX's user systemroms folder: its OPENMSX_HOME's share/systemroms (msx_core.cpp). */
@@ -102,8 +113,16 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
         val media = listOf(entry.takeIf(::isCartridge), null, entry.takeIf(::isDisk), null, entry.takeIf(::isTape))
         val images = media.map { image -> image?.let { this.images.prepare(it, cancelled, progress).absolutePath } }
         val options = optionValues(game).toMutableMap()
+        val dos2 = isDisk(entry) && options[MsxCatalog.msxdos2.id] == "on"
         if (options[MsxCatalog.machine.id] == MsxCatalog.AUTOMATIC) {
-            options[MsxCatalog.machine.id] = if (isCartridge(entry)) MsxCatalog.CARTRIDGE_MACHINE else MsxCatalog.DISK_MACHINE
+            options[MsxCatalog.machine.id] = when {
+                dos2 -> MsxCatalog.DOS2_MACHINE
+                isCartridge(entry) -> MsxCatalog.CARTRIDGE_MACHINE
+                else -> MsxCatalog.DISK_MACHINE
+            }
+        }
+        if (dos2) MsxDos2.install(File(checkNotNull(images[2]))) { name ->
+            msxDos2.file(msxDos2.parts.single { it.name == name }).takeIf { it.isFile }
         }
         check(bridge.start("", home.absolutePath, images, options)) { "Another machine is still running" }
         awaitRunning()
@@ -143,6 +162,8 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
     private companion object {
         /** The largest MSX system ROM, the turbo R's 4 MiB firmware. */
         const val MAX_SYSTEM_ROM = 4L * 1024 * 1024
+        /** Larger than any MSX-DOS2 system file (COMMAND2.COM is about 15 KB). */
+        const val MAX_DOS_FILE = 64L * 1024
     }
 
     override fun stateError(code: Int) = when (code) {

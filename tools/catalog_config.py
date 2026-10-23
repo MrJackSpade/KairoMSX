@@ -43,9 +43,14 @@ SCANS = {
 MACHINE_OPTIONS = {"machine": {
     "auto", "Panasonic_FS-A1WSX", "Panasonic_FS-A1GT", "Philips_NMS_8250",
     *(f"C-BIOS_{generation}{region}" for generation in ("MSX1", "MSX2", "MSX2+") for region in ("", "_JP", "_EU"))},
-    "memory": {"64", "128", "256", "512", "1024", "2048", "4096"}}
+    "memory": {"64", "128", "256", "512", "1024", "2048", "4096"},
+    "msxdos2": {"on", "off"}}
 _BASIC = set(json.loads((Path(__file__).resolve().parent.parent / "catalog/research/basic-cartridges-v1.json")
                         .read_text(encoding="utf-8"))["cartridges"])
+# Disks that start from MSX-DOS2 (tools/msxdos2_disks.py), found by MSXDOS2.SYS or listed by hand.
+_MSXDOS2 = json.loads((Path(__file__).resolve().parent.parent / "catalog/research/msxdos2-disks-v1.json")
+                      .read_text(encoding="utf-8"))
+_MSXDOS2 = set(_MSXDOS2["manual"]) | set(_MSXDOS2["found"])
 _JAPANESE = re.compile(r"\((?:J|Jp|JP|Japan)\)")
 _EUROPEAN = re.compile(r"\((?:E|Eu|EU|Europe|UK|DE|De|ES|Es|FR|Fr|NL|Nl|IT|It)\)")
 
@@ -54,7 +59,11 @@ def MACHINE(name, set_name, content_id):
     """The machine a game needs, which Automatic cannot tell from the media alone: turbo R games
     the FS-A1GT; BASIC cartridges (tools/basic_cartridges.py) a machine with MSX-BASIC, which C-BIOS
     lacks; other cartridges the C-BIOS machine of their generation (an MSX1 game can fail on an
-    MSX2+, as Champion Boulder Dash does), in their region for its character set and refresh rate."""
+    MSX2+, as Champion Boulder Dash does), in their region for its character set and refresh rate.
+    A disk that starts from MSX-DOS2 needs the turbo R, the only machine with its kernel, and the
+    MSX-DOS2 setting, which makes its working copy boot DOS2 (MsxDos2.kt)."""
+    if content_id in _MSXDOS2:
+        return {"machine": "Panasonic_FS-A1GT", "msxdos2": "on"}
     if set_name == "turbor":
         return {"machine": "Panasonic_FS-A1GT"}
     if content_id in _BASIC:

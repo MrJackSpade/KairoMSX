@@ -30,23 +30,23 @@
      "withSticks": [
       {
        "input": "virtual:a",
-       "joystick": "button1"
+       "keys": [
+        64
+       ]
       },
       {
        "input": "virtual:b",
-       "joystick": "button2"
-      },
-      {
-       "input": "virtual:x",
        "keys": [
         65
        ]
       },
       {
+       "input": "virtual:x",
+       "joystick": "button1"
+      },
+      {
        "input": "virtual:y",
-       "keys": [
-        64
-       ]
+       "joystick": "button2"
       },
       {
        "input": "virtual:start",
@@ -66,19 +66,31 @@
       },
       {
        "input": "virtual:up",
-       "joystick": "up"
+       "joystick": "up",
+       "keys": [
+        70
+       ]
       },
       {
        "input": "virtual:down",
-       "joystick": "down"
+       "joystick": "down",
+       "keys": [
+        71
+       ]
       },
       {
        "input": "virtual:left",
-       "joystick": "left"
+       "joystick": "left",
+       "keys": [
+        69
+       ]
       },
       {
        "input": "virtual:right",
-       "joystick": "right"
+       "joystick": "right",
+       "keys": [
+        72
+       ]
       },
       {
        "input": "virtual:lsup",
@@ -108,23 +120,23 @@
      "withoutSticks": [
       {
        "input": "virtual:a",
-       "joystick": "button1"
+       "keys": [
+        64
+       ]
       },
       {
        "input": "virtual:b",
-       "joystick": "button2"
-      },
-      {
-       "input": "virtual:x",
        "keys": [
         65
        ]
       },
       {
+       "input": "virtual:x",
+       "joystick": "button1"
+      },
+      {
        "input": "virtual:y",
-       "keys": [
-        64
-       ]
+       "joystick": "button2"
       },
       {
        "input": "virtual:start",
@@ -144,19 +156,31 @@
       },
       {
        "input": "virtual:up",
-       "joystick": "up"
+       "joystick": "up",
+       "keys": [
+        70
+       ]
       },
       {
        "input": "virtual:down",
-       "joystick": "down"
+       "joystick": "down",
+       "keys": [
+        71
+       ]
       },
       {
        "input": "virtual:left",
-       "joystick": "left"
+       "joystick": "left",
+       "keys": [
+        69
+       ]
       },
       {
        "input": "virtual:right",
-       "joystick": "right"
+       "joystick": "right",
+       "keys": [
+        72
+       ]
       }
      ]
     }

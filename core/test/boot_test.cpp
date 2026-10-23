@@ -1,6 +1,6 @@
 // Boots an MSX cartridge on C-BIOS on the host and checks what the app relies on.
 //
-//   boot_test [--machine <name>] [--command <tcl>] <data dir> <work dir> <seconds> [cartridge [joystick|none|key:<row>,<column>]]
+//   boot_test [--machine <name>] [--disk <image>] [--command <tcl>] <data dir> <work dir> <seconds> [cartridge [joystick|none|key:<row>,<column>]]
 //
 // Runs the cartridge (or C-BIOS alone) for <seconds> of guest time, writing <work dir>/boot.ppm
 // of the last picture and boot.wav of the sound, then presses Space (with "joystick", the
@@ -213,9 +213,14 @@ void write_wav(const std::string &file, const std::vector<int16_t> &sound, uint3
 int main(int argc, char **argv) {
     Config config;
     // --machine <name> first picks the machine, by openMSX's name; C-BIOS MSX2+ otherwise.
-    std::string probe;
-    while (argc >= 3 && (std::string(argv[1]) == "--machine" || std::string(argv[1]) == "--command")) {
-        (std::string(argv[1]) == "--machine" ? config.machine : probe) = argv[2];
+    // --disk <image> puts a disk in drive A. --hold <row>,<column>[;...] holds those keys of the
+    // keyboard matrix for the first three seconds, as a player holds keys at power-on.
+    std::string probe, hold;
+    while (argc >= 3 && (std::string(argv[1]) == "--machine" || std::string(argv[1]) == "--command" ||
+                         std::string(argv[1]) == "--disk" || std::string(argv[1]) == "--hold")) {
+        const std::string option = argv[1];
+        (option == "--machine" ? config.machine : option == "--disk" ? config.media[kairomsx::kDiskA] :
+         option == "--hold" ? hold : probe) = argv[2];
         argc -= 2;
         argv += 2;
     }
@@ -238,6 +243,21 @@ int main(int argc, char **argv) {
     auto machine = MsxMachine::create(config, error);
     if (!machine) return fail("create: " + error);
     Run boot;
+    if (!hold.empty()) {
+        // One key or several: <row>,<column>[;<row>,<column>...]
+        std::vector<std::pair<int, int>> held;
+        for (size_t start = 0; start < hold.size();) {
+            const size_t end = std::min(hold.find(';', start), hold.size());
+            int row = -1, column = -1;
+            if (std::sscanf(hold.substr(start, end - start).c_str(), "%d,%d", &row, &column) != 2)
+                return fail("--hold is <row>,<column>[;<row>,<column>...]");
+            held.emplace_back(row, column);
+            start = end + 1;
+        }
+        for (auto [row, column] : held) machine->key(row, column, true);
+        if (!run(*machine, 3, boot, error)) return fail("run: " + error);
+        for (auto [row, column] : held) machine->key(row, column, false);
+    }
     if (!run(*machine, seconds, boot, error)) return fail("run: " + error);
     write_ppm(work + "/boot.ppm", boot);
     write_wav(work + "/boot.wav", boot.sound, static_cast<uint32_t>(machine->sample_rate()));

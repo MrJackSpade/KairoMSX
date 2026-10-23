@@ -234,22 +234,27 @@ object MsxKeys {
         else defaults().filterNot { it.input.startsWith("virtual:ls") || it.input.startsWith("virtual:rs") }
 
     /**
-     * MSX games read the joystick in port A or the cursor keys and Space: the D-pad and face buttons
-     * are the joystick, X and Y are Space and Return, Start is F1 (many games' pause), Select is
-     * Stop, and the left stick is the cursor keys.
+     * MSX games read the joystick in port A, or the cursor keys, Space and Return. So the D-pad sends
+     * both the joystick and the cursor keys, A and B are Return and Space, X and Y are the joystick
+     * triggers, Start is F1 (many games' pause), Select is Stop, the shoulders are F2 to F5, and the
+     * left stick is the cursor keys.
      */
     fun defaults() = listOf(
-        ControllerBinding("virtual:a", joystick = "button1"),
-        ControllerBinding("virtual:b", joystick = "button2"),
-        ControllerBinding("virtual:x", listOf(SPACE)),
-        ControllerBinding("virtual:y", listOf(RETURN)),
+        ControllerBinding("virtual:a", listOf(RETURN)),
+        ControllerBinding("virtual:b", listOf(SPACE)),
+        ControllerBinding("virtual:x", joystick = "button1"),
+        ControllerBinding("virtual:y", joystick = "button2"),
+        ControllerBinding("virtual:l1", listOf(function[1])),
+        ControllerBinding("virtual:r1", listOf(function[2])),
+        ControllerBinding("virtual:l2", listOf(function[3])),
+        ControllerBinding("virtual:r2", listOf(function[4])),
         ControllerBinding("virtual:start", listOf(function[0])),
         ControllerBinding("virtual:select", listOf(STOP)),
         ControllerBinding("virtual:menu", action = "menu"),
-        ControllerBinding("virtual:up", joystick = "up"),
-        ControllerBinding("virtual:down", joystick = "down"),
-        ControllerBinding("virtual:left", joystick = "left"),
-        ControllerBinding("virtual:right", joystick = "right"),
+        ControllerBinding("virtual:up", listOf(UP), joystick = "up"),
+        ControllerBinding("virtual:down", listOf(DOWN), joystick = "down"),
+        ControllerBinding("virtual:left", listOf(LEFT), joystick = "left"),
+        ControllerBinding("virtual:right", listOf(RIGHT), joystick = "right"),
         ControllerBinding("virtual:lsup", listOf(UP)),
         ControllerBinding("virtual:lsdown", listOf(DOWN)),
         ControllerBinding("virtual:lsleft", listOf(LEFT)),

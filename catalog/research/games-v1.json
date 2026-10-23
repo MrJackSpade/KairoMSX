@@ -1596,6 +1596,7 @@
    "contentIds": [
     "sha256-rom-v1:1335f2ee2a7aaa35a02b1ac6e3bd9880ca0ea26b70c5c8fbe2f3808e0011f7c7"
    ],
+   "description": "A head-to-head race with a football in hand: two runners, or one against the computer, sprint for the finish line while the other tries to punch and kick the ball loose.",
    "developer": "Pony Canyon",
    "diskMachine": {
     "sha256-rom-v1:1335f2ee2a7aaa35a02b1ac6e3bd9880ca0ea26b70c5c8fbe2f3808e0011f7c7": {
@@ -1616,6 +1617,7 @@
    "contentIds": [
     "sha256-rom-v1:f876144a0d49ddd30a9304881ed4a2fa7232494e311c6f379898ed5bc6e31780"
    ],
+   "description": "A real-time action role-playing game set in a large maze, where you hunt for items, chief among them bottles of different colours, while cutting down the creatures that roam its screens.",
    "developer": "Sein-Soft",
    "diskMachine": {
     "sha256-rom-v1:f876144a0d49ddd30a9304881ed4a2fa7232494e311c6f379898ed5bc6e31780": {
@@ -1753,6 +1755,7 @@
    "contentIds": [
     "sha256-rom-v1:c76527d6c6efef532b049376fbbdb6fb9dd2eb41342c89e9b7485367c680eedd"
    ],
+   "description": "A vertically scrolling shooter presented as an air race: you fly against several computer-controlled craft, shooting at them or ramming them, and they can do the same to you.",
    "developer": "Bothtec",
    "diskMachine": {
     "sha256-rom-v1:c76527d6c6efef532b049376fbbdb6fb9dd2eb41342c89e9b7485367c680eedd": {
@@ -1906,6 +1909,7 @@
    "contentIds": [
     "sha256-rom-v1:a36dcb95a157f516c4823f9fbb52396c7febd83b12b96d9a2299b6c6f918fe97"
    ],
+   "description": "An action role-playing game set in Sengoku-period Japan. After his dying master warns of a darkness falling over the land, Saikuu sets out to stop it, with Iori taking his place should he fall.",
    "developer": "Wolf Team",
    "diskMachine": {
     "sha256-rom-v1:a36dcb95a157f516c4823f9fbb52396c7febd83b12b96d9a2299b6c6f918fe97": {
@@ -2236,6 +2240,7 @@
   },
   "msx2:150158": {
    "boxArtUrl": "https://images.launchbox-app.com/3c65cb43-734b-4607-942f-d637f55cae93.jpg",
+   "description": "A tactical wargame based on the Aura Battler Dunbine anime series, in which you command its mecha in battles across the world of Byston Well.",
    "developer": "Family Soft",
    "launchbox": "150158",
    "publisher": "Family Soft",
@@ -2788,6 +2793,7 @@
     "SD Gundam: Gachapon Senshi 2: Capsule Senki"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/1413eb24-d193-4a95-8a88-a0a405eb5e15.jpg",
+   "description": "The second Gachapon Senshi strategy game with super-deformed Gundam units: build an army of mobile suits in factories you hold and conquer territory, now moving up to twelve units in a turn. This version adds characters such as S Gundam and Alex.",
    "developer": "Banpresto",
    "launchbox": "151765",
    "mobygames": 65542,
@@ -2821,6 +2827,7 @@
   },
   "msx2:151777": {
    "boxArtUrl": "https://images.launchbox-app.com/cedf5ea5-fd24-497f-bc47-8dfe0cd0c60d.jpg",
+   "description": "An action role-playing game from Compile's Disc Station series in which Kelesis sets out on a journey of culinary training, cooking his way toward approval to marry the young woman he loves.",
    "developer": "Compile",
    "launchbox": "151777",
    "publisher": "Compile",
@@ -2995,7 +3002,7 @@
     "Block Breaker"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/af5af3af-4596-4110-87c9-c3c3c51dfc24.jpg",
-   "description": "A brick-breaking game by the Dutch developer Radarsoft.",
+   "description": "A two-player twist on Breakout from the Dutch developer Radarsoft: one bat guards the bottom of the screen while the other roams freely above it, attacking the bricks with the ball.",
    "developer": "Radarsoft",
    "launchbox": "154180",
    "mobygames": 101407,
@@ -3228,6 +3235,7 @@
   },
   "msx2:156373": {
    "boxArtUrl": "https://images.launchbox-app.com/469ad06a-226f-41ce-b4b9-1df184392835.png",
+   "description": "A visual novel in which a masterless ronin takes on a dangerous mission. The actions and replies you choose decide how the mission ends and whether he lives through it.",
    "developer": "Bit2",
    "launchbox": "156373",
    "mobygames": 208838,
@@ -3337,6 +3345,7 @@
   },
   "msx2:167626": {
    "boxArtUrl": "https://images.launchbox-app.com/0806c714-d3c7-4a9b-b0f7-dd1f60ae7b93.jpg",
+   "description": "A fighting game played with cards, later translated into English and released as freeware in 1997.",
    "developer": "MAR'Z PROJECT",
    "launchbox": "167626",
    "publisher": "Tempest",
@@ -3592,6 +3601,7 @@
   },
   "msx2:168361": {
    "boxArtUrl": "https://images.launchbox-app.com/9db05ab6-cfdd-4c66-9e61-b61f11ccbb6d.jpg",
+   "description": "A scrolling shooter from Radarsoft in which you fly low over planet surfaces, destroying or dodging enemies with a limited supply of ammunition. A high enough score at the end of a level earns a bonus stage.",
    "developer": "Radarsoft",
    "launchbox": "168361",
    "mobygames": 101906,
@@ -3719,6 +3729,7 @@
    "title": "Troxx"
   },
   "msx2:168795": {
+   "description": "A shoot-'em-up by Cas Cremers that won first prize in the MSX Computer Magazine and Eurosoft programming contest. It first appeared on The Games Collection 2 and was later released as freeware.",
    "developer": "Parallax",
    "launchbox": "168795",
    "publisher": "Parallax",
@@ -3752,6 +3763,7 @@
     "Gulf Stream"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/b2568b29-7f9a-48f9-ad8f-ed9f85b258b1.jpg",
+   "description": "An action game from XAIN on two disks, started from disk B, with a menu for starting a game or creating a user disk.",
    "developer": "XAIN",
    "launchbox": "177712",
    "publisher": "XAIN",
@@ -3782,6 +3794,7 @@
     "Bishoujo Control"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/502b9d2c-f7f4-4c7e-98ed-abf2efa101de.jpg",
+   "description": "A vertically scrolling shoot-'em-up: alongside the waves of enemies, shooting special blocks gradually reveals a picture beside the playfield, and bonuses change your ship's weapons.",
    "developer": "HARD",
    "launchbox": "179789",
    "mobygames": 28782,
@@ -5214,6 +5227,7 @@
   },
   "msx2:189100": {
    "boxArtUrl": "https://images.launchbox-app.com/707dc860-5776-43a0-9493-5105eb598ec3.jpg",
+   "description": "A one-on-one ball game in a split-screen first-person view: score more goals than your opponent, playing the computer at three difficulty levels, another player, or watching the computer play itself.",
    "developer": "The Bytebusters",
    "launchbox": "189100",
    "mobygames": 214585,
@@ -5557,6 +5571,7 @@
   },
   "msx2:204801": {
    "boxArtUrl": "https://images.launchbox-app.com/r2_dce93145-cb5f-4baa-8b9b-2427769f79ac.png",
+   "description": "A computer version of the card game 31: each player holds three cards and swaps with the pool in the middle of the table, aiming for the highest hand of up to 31 points while eliminating the other players.",
    "developer": "Meusesoft",
    "launchbox": "204801",
    "publisher": "Meusesoft",
@@ -5574,7 +5589,7 @@
   },
   "msx2:204808": {
    "boxArtUrl": "https://images.launchbox-app.com/aa1d109c-50ca-4b12-8f24-9c6f9333dda2.jpg",
-   "description": "An Arkanoid-style brick-breaking game from Italy.",
+   "description": "An Arkanoid-style brick breaker from the Italian studio M.M.G. Software: clear each wall of bricks, catch the bonuses and keep the ball from getting past your bat.",
    "developer": "M.M.G. Software",
    "launchbox": "204808",
    "publisher": "M.M.G. Software",
@@ -5772,6 +5787,7 @@
     "Chopper 2"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/r2_d1a388dc-1d4a-4c22-ab80-4c1c6d7de4ed.png",
+   "description": "A helicopter action game: fly an armoured attack helicopter over the Colombian jungle to rescue the wounded and bring them back to base, while shaking off enemy planes and helicopters.",
    "developer": "The Bytebusters",
    "launchbox": "205648",
    "mobygames": 210580,
@@ -5846,6 +5862,7 @@
     "Digger Auf Schatzjagd"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/a1a3d2c3-d4a5-4614-a0a1-3ba018ab0f11.jpg",
+   "description": "A Boulder Dash-style game with a twist: while you dig for gems, an enemy chases you, and the only way to stop it is to block its path with falling stones.",
    "developer": "Data Beutner",
    "launchbox": "205703",
    "mobygames": 95810,
@@ -5952,6 +5969,7 @@
   },
   "msx2:206303": {
    "boxArtUrl": "https://images.launchbox-app.com/86fb1fc3-d812-44b5-8247-3988811294d3.jpg",
+   "description": "A vertically scrolling racer on public roads, where you bump other cars aside or steer around them to reach the end of each stage.",
    "developer": "Kai Magazine Software",
    "launchbox": "206303",
    "mobygames": 192900,
@@ -6475,6 +6493,7 @@
   },
   "msx2:218635": {
    "boxArtUrl": "https://images.launchbox-app.com/c6daa6cc-5d36-4c72-b7eb-867326b2ffa0.png",
+   "description": "A diagonal-view action game set in a Cold War version of 1989, a parody packed with references to 1980s and 1990s films and games. An operative sets out to rescue the kidnapped daughter of the president. Released in 2022 by Kai Magazine.",
    "developer": "Kai Magazine Software",
    "launchbox": "218635",
    "mobygames": 186675,
@@ -6508,6 +6527,7 @@
     "Title Memory"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/ee89f3af-7175-422a-8cad-43b344c0982e.jpg",
+   "description": "A memory game from one of Konami's Game Collection disks, in which you match pairs of Konami game titles. Its music takes advantage of the SCC+ sound cartridge from Snatcher and SD Snatcher.",
    "developer": "Konami",
    "launchbox": "218953",
    "publisher": "Konami",
@@ -6610,6 +6630,7 @@
   },
   "msx2:26944": {
    "boxArtUrl": "https://images.launchbox-app.com/36d309f4-f8c7-4b35-bf45-42ef36994096.jpg",
+   "description": "An adventure set in a future where death can be undone if the medics reach you in time: a person's soul, or core, is saved in a device called a soulkeeper and uploaded into a new body.",
    "developer": "Parallax",
    "launchbox": "26944",
    "publisher": "Sunrise",
@@ -6819,6 +6840,7 @@
     "sha256-rom-v1:6576a4cfdd389fd47e4f314c775f3814118027764a75d7b8ec64a09efce82cbb",
     "sha256-rom-v1:73d0010369bbbd4ca65af721fba396ae393e1414ee995b6489ae0649017c3cc3"
    ],
+   "description": "Konami's baseball game with fictional teams, played one against the computer, two players against each other, or across a full pennant season. Team statistics can be edited and saved to disk.",
    "developer": "Konami",
    "diskMachine": {
     "sha256-rom-v1:6576a4cfdd389fd47e4f314c775f3814118027764a75d7b8ec64a09efce82cbb": {
@@ -7804,6 +7826,7 @@
   },
   "msx2:33919": {
    "boxArtUrl": "https://images.launchbox-app.com/99c121c5-8429-4373-b20b-8ed29ab0fc18.png",
+   "description": "A 2015 bomb-laying action game in the style of early-1980s Japanese arcade games: blow up the obstacles to uncover power-ups and finish off the enemies before time runs out, across five areas.",
    "developer": "MSX Area",
    "launchbox": "33919",
    "publisher": "Repro-Factory",
@@ -8012,6 +8035,7 @@
    "contentIds": [
     "sha256-rom-v1:85904d7cfa9768c1a285f9ac842411cbfc103a950b3a23aa7c9103ee4062d607"
    ],
+   "description": "A vertically scrolling shooter in which your weapons fire in eight directions, set against busy battle scenes and a story told between the stages.",
    "developer": "XAIN",
    "diskMachine": {
     "sha256-rom-v1:85904d7cfa9768c1a285f9ac842411cbfc103a950b3a23aa7c9103ee4062d607": {
@@ -8148,6 +8172,7 @@
    "contentIds": [
     "sha256-rom-v1:49055f4a390f41e99913b82e8911c8c9ffa4bc09668502105737ff517743445e"
    ],
+   "description": "A pinball game that recreates the look of 1960s machines down to small details, such as a drum-style score display on the backglass.",
    "developer": "Humming Bird Soft",
    "diskMachine": {
     "sha256-rom-v1:49055f4a390f41e99913b82e8911c8c9ffa4bc09668502105737ff517743445e": {
@@ -8514,6 +8539,7 @@
    "contentIds": [
     "sha256-rom-v1:ba1c020ab8c7133648587e1d9170d5662b2e7b6a1443ec7f5fe32b750acb2ca9"
    ],
+   "description": "Four-player Mahjong, in which you race the other players to complete a hand of sets and a pair before the wall of tiles runs out.",
    "developer": "Tatsuji Otsuka",
    "diskMachine": {
     "sha256-rom-v1:ba1c020ab8c7133648587e1d9170d5662b2e7b6a1443ec7f5fe32b750acb2ca9": {
@@ -8635,6 +8661,7 @@
   },
   "msx2:463138": {
    "boxArtUrl": "https://images.launchbox-app.com/80a9d87e-0bd5-4299-883a-e4fb35335154.png",
+   "description": "A chess program, the follow-up to The Chess Game, with coloured, textured graphics. You pick pieces and squares directly instead of typing coordinates, two analogue clocks time the match, and castling, promotion and en passant are all supported.",
    "developer": "The Bytebusters",
    "launchbox": "463138",
    "mobygames": 238554,
@@ -8710,6 +8737,7 @@
     "モールモール"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/0679fe6b-064c-440b-acde-5e4bd0ad911a.png",
+   "description": "A puzzle game in which you guide a mole through single-screen side-view stages. This MSX2 release appears to be the same program as the original MSX version.",
    "developer": "Cross Media Soft",
    "launchbox": "466600",
    "publisher": "Victor Co. of Japan",
@@ -9565,6 +9593,7 @@
    "title": "Playboy Strippoker"
   },
   "msx2plus:190263": {
+   "description": "A horizontal shooter from XL2S Entertainment built on a motion-blur effect in the MSX's low-resolution screen 3, made for the MSX Resource Center's MEGA Challenge. It needs a turbo R and an SCC sound cartridge.",
    "developer": "XL2S Entertainment",
    "launchbox": "190263",
    "screenshotUrl": "https://images.launchbox-app.com/2656541c-81b8-4fca-a3ed-c7e8b38be8d8.png",
@@ -9673,6 +9702,7 @@
     "sha256-fd-v1:de7eaa3954419beb01e4dcb1125c22009f8aaf488b3c2cb1c902aa179ac0c7aa",
     "sha256-fd-v1:f955f8a57204b85c726bccaf0362ac53b37670036975523f94fb78d6246957ba"
    ],
+   "description": "A side-scrolling shooter through six dream stages: the screen scrolls on its own while you move the boy freely, and enemies drop coloured orbs that change his weapon.",
    "developer": "RAC House",
    "diskMachine": {
     "sha256-fd-v1:6e9d82650cd7d029b1b68f6c9f91a83faa4f9a9f42f11880b0246233d162c9ae": {
@@ -10099,22 +10129,6 @@
    "title": "South Town's Hero Turbo",
    "year": 1995
   },
-  "msx2plus:local-00cefd9a24": {
-   "contentIds": [
-    "sha256-fd-v1:8cfad511e3d5572c93de1ba95383348741cfcaeb5253bffc452c4c1ef22bb80c"
-   ],
-   "diskMachine": {
-    "sha256-fd-v1:8cfad511e3d5572c93de1ba95383348741cfcaeb5253bffc452c4c1ef22bb80c": {
-     "machine": "Panasonic_FS-A1GT"
-    }
-   },
-   "hidden": true,
-   "sourceGroups": [
-    "turbor:MSX TurboR [TOSEC]/MSX TurboR - Applications (TOSEC-v2012-04-15_CM)/Myu Note (1992)(Bit2)(JP)(Disk 2 of 2).zip"
-   ],
-   "title": "Myu Note",
-   "year": 1992
-  },
   "msx2plus:local-0478a078da": {
    "contentIds": [
     "sha256-rom-v1:e101bd0f95ab8b566dae60e699cf88d4e3db1f445a28ca195f34b1bf8c5627e8"
@@ -10130,21 +10144,6 @@
    ],
    "title": "MSX System v4.1 + MSX BASIC",
    "year": 1990
-  },
-  "msx2plus:local-04f5713d17": {
-   "contentIds": [
-    "sha256-fd-v1:59d3d7283e7809ee57e35a02ca1de1c1e8ef9ba2160fc38462717216e7e30238"
-   ],
-   "diskMachine": {
-    "sha256-fd-v1:59d3d7283e7809ee57e35a02ca1de1c1e8ef9ba2160fc38462717216e7e30238": {
-     "machine": "Panasonic_FS-A1GT"
-    }
-   },
-   "sourceGroups": [
-    "turbor:MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 1 of 8)[b2].zip"
-   ],
-   "title": "Ranma Nibunnoichi 1-2",
-   "year": 1992
   },
   "msx2plus:local-063231b215": {
    "contentIds": [
@@ -10177,21 +10176,6 @@
    "title": "MSX-DOS Kernel v2.30 + Disk BASIC v2.01",
    "year": 1990
   },
-  "msx2plus:local-099929fd50": {
-   "contentIds": [
-    "sha256-fd-v1:7c486e4f3e169d01c14976be4e891f66666633c568d84c0ca2df54f729952c7a"
-   ],
-   "diskMachine": {
-    "sha256-fd-v1:7c486e4f3e169d01c14976be4e891f66666633c568d84c0ca2df54f729952c7a": {
-     "machine": "Panasonic_FS-A1GT"
-    }
-   },
-   "sourceGroups": [
-    "turbor:MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 1 of 8).zip"
-   ],
-   "title": "Ranma Nibunnoichi 1-2",
-   "year": 1992
-  },
   "msx2plus:local-0c3bb74836": {
    "contentIds": [
     "sha256-fd-v1:38a51521e039450966b21a7ed1dceef50d50f3c6af16899ea9f46d0d1340a2d1"
@@ -10206,37 +10190,6 @@
    ],
    "title": "Shoot That Flying Windows!",
    "year": 1997
-  },
-  "msx2plus:local-11ac6afd8a": {
-   "contentIds": [
-    "sha256-fd-v1:1a4dea933f257388b2c181c2d7e5dc6f0259c743a90c469db35aa71f8339aa88"
-   ],
-   "diskMachine": {
-    "sha256-fd-v1:1a4dea933f257388b2c181c2d7e5dc6f0259c743a90c469db35aa71f8339aa88": {
-     "machine": "Panasonic_FS-A1GT"
-    }
-   },
-   "sourceGroups": [
-    "turbor:MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 2 of 8).zip"
-   ],
-   "title": "Ranma Nibunnoichi 1-2",
-   "year": 1992
-  },
-  "msx2plus:local-16a04a2a8a": {
-   "contentIds": [
-    "sha256-fd-v1:830b9853bcb4b3606c259840e4b1572fd37215a89ee5c2c3b092da9571b34d10"
-   ],
-   "diskMachine": {
-    "sha256-fd-v1:830b9853bcb4b3606c259840e4b1572fd37215a89ee5c2c3b092da9571b34d10": {
-     "machine": "Panasonic_FS-A1GT"
-    }
-   },
-   "hidden": true,
-   "sourceGroups": [
-    "turbor:MSX TurboR [TOSEC]/MSX TurboR - Applications (TOSEC-v2012-04-15_CM)/Myu Note (1992)(Bit2)(JP)(Disk 1 of 2).zip"
-   ],
-   "title": "Myu Note",
-   "year": 1992
   },
   "msx2plus:local-1b4a1458b1": {
    "contentIds": [
@@ -10316,21 +10269,33 @@
    "title": "S.T.G. Special - Do Don Taku",
    "year": 1998
   },
-  "msx2plus:local-298afce2fa": {
+  "msx2plus:local-23efd6efd8": {
    "contentIds": [
-    "sha256-fd-v1:b5094c8b56c667c091d0352348ffc0fcb89bf24efd4e3151b8b777a3662aa81c"
+    "sha256-fd-v1:830b9853bcb4b3606c259840e4b1572fd37215a89ee5c2c3b092da9571b34d10",
+    "sha256-fd-v1:8cfad511e3d5572c93de1ba95383348741cfcaeb5253bffc452c4c1ef22bb80c"
    ],
    "diskMachine": {
-    "sha256-fd-v1:b5094c8b56c667c091d0352348ffc0fcb89bf24efd4e3151b8b777a3662aa81c": {
+    "sha256-fd-v1:830b9853bcb4b3606c259840e4b1572fd37215a89ee5c2c3b092da9571b34d10": {
      "machine": "Panasonic_FS-A1GT"
+    },
+    "sha256-fd-v1:8cfad511e3d5572c93de1ba95383348741cfcaeb5253bffc452c4c1ef22bb80c": {
+     "machine": "Panasonic_FS-A1GT"
+    }
+   },
+   "diskSets": {
+    "sha256-fd-v1:830b9853bcb4b3606c259840e4b1572fd37215a89ee5c2c3b092da9571b34d10": {
+     "setDisks": [
+      "sha256-fd-v1:8cfad511e3d5572c93de1ba95383348741cfcaeb5253bffc452c4c1ef22bb80c"
+     ]
     }
    },
    "hidden": true,
    "sourceGroups": [
-    "turbor:MSX TurboR [TOSEC]/MSX TurboR - Applications (TOSEC-v2012-04-15_CM)/Myu Sios (1991)(Bit2)(JP)(Disk 1 of 3).zip"
+    "turbor:MSX TurboR [TOSEC]/MSX TurboR - Applications (TOSEC-v2012-04-15_CM)/Myu Note (1992)(Bit2)(JP)(Disk 1 of 2).zip",
+    "turbor:MSX TurboR [TOSEC]/MSX TurboR - Applications (TOSEC-v2012-04-15_CM)/Myu Note (1992)(Bit2)(JP)(Disk 2 of 2).zip"
    ],
-   "title": "Myu Sios",
-   "year": 1991
+   "title": "Myu Note",
+   "year": 1992
   },
   "msx2plus:local-2f08bd2dc1": {
    "contentIds": [
@@ -10346,81 +10311,6 @@
    ],
    "title": "Earth",
    "year": 1996
-  },
-  "msx2plus:local-303b2755c7": {
-   "contentIds": [
-    "sha256-fd-v1:13a93c19c53ad88509f53e8e7032834b46bb24a22a3d3e923192c98230c8ff99"
-   ],
-   "diskMachine": {
-    "sha256-fd-v1:13a93c19c53ad88509f53e8e7032834b46bb24a22a3d3e923192c98230c8ff99": {
-     "machine": "Panasonic_FS-A1GT"
-    }
-   },
-   "sourceGroups": [
-    "turbor:MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 8 of 8).zip"
-   ],
-   "title": "Ranma Nibunnoichi 1-2",
-   "year": 1992
-  },
-  "msx2plus:local-3551166d9e": {
-   "contentIds": [
-    "sha256-fd-v1:fa11de654f4e6dac114c2123517e50898141003e39542287a73c8106c46ddc72"
-   ],
-   "diskMachine": {
-    "sha256-fd-v1:fa11de654f4e6dac114c2123517e50898141003e39542287a73c8106c46ddc72": {
-     "machine": "Panasonic_FS-A1GT"
-    }
-   },
-   "sourceGroups": [
-    "turbor:MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 6 of 8)[a].zip"
-   ],
-   "title": "Ranma Nibunnoichi 1-2",
-   "year": 1992
-  },
-  "msx2plus:local-399052d06d": {
-   "contentIds": [
-    "sha256-fd-v1:3eab42e81f4d1936e5730847c5cd93964ddd01a338b6b41ca9d7ae0cda66a395"
-   ],
-   "diskMachine": {
-    "sha256-fd-v1:3eab42e81f4d1936e5730847c5cd93964ddd01a338b6b41ca9d7ae0cda66a395": {
-     "machine": "Panasonic_FS-A1GT"
-    }
-   },
-   "sourceGroups": [
-    "turbor:MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 8 of 8)[a2].zip"
-   ],
-   "title": "Ranma Nibunnoichi 1-2",
-   "year": 1992
-  },
-  "msx2plus:local-39cc2e3685": {
-   "contentIds": [
-    "sha256-fd-v1:3c8fc44f0adb28d2900965ac9edcdc2fa2621196cd3bc006b414c93dee8ae722"
-   ],
-   "diskMachine": {
-    "sha256-fd-v1:3c8fc44f0adb28d2900965ac9edcdc2fa2621196cd3bc006b414c93dee8ae722": {
-     "machine": "Panasonic_FS-A1GT"
-    }
-   },
-   "sourceGroups": [
-    "turbor:MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 8 of 8)[a].zip"
-   ],
-   "title": "Ranma Nibunnoichi 1-2",
-   "year": 1992
-  },
-  "msx2plus:local-3c5d278206": {
-   "contentIds": [
-    "sha256-fd-v1:384cd0edcc416c87afc69b2cccf2b97d51e17b443862ca65e2b97511e7387172"
-   ],
-   "diskMachine": {
-    "sha256-fd-v1:384cd0edcc416c87afc69b2cccf2b97d51e17b443862ca65e2b97511e7387172": {
-     "machine": "Panasonic_FS-A1GT"
-    }
-   },
-   "sourceGroups": [
-    "turbor:MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 7 of 8).zip"
-   ],
-   "title": "Ranma Nibunnoichi 1-2",
-   "year": 1992
   },
   "msx2plus:local-3cb868e56c": {
    "contentIds": [
@@ -10452,36 +10342,6 @@
    ],
    "title": "MSX Windows 2000",
    "year": 2000
-  },
-  "msx2plus:local-52129d3d8a": {
-   "contentIds": [
-    "sha256-fd-v1:81b9d96418a50efa1de5bd8d1326589199f99faf6a717e914d8b2ae09b7e70cc"
-   ],
-   "diskMachine": {
-    "sha256-fd-v1:81b9d96418a50efa1de5bd8d1326589199f99faf6a717e914d8b2ae09b7e70cc": {
-     "machine": "Panasonic_FS-A1GT"
-    }
-   },
-   "sourceGroups": [
-    "turbor:MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 4 of 8).zip"
-   ],
-   "title": "Ranma Nibunnoichi 1-2",
-   "year": 1992
-  },
-  "msx2plus:local-52bba1415a": {
-   "contentIds": [
-    "sha256-fd-v1:d66897426f45af67fe4aed4668e414e695f79a718e47cddf443b6b70e760e4d9"
-   ],
-   "diskMachine": {
-    "sha256-fd-v1:d66897426f45af67fe4aed4668e414e695f79a718e47cddf443b6b70e760e4d9": {
-     "machine": "Panasonic_FS-A1GT"
-    }
-   },
-   "sourceGroups": [
-    "turbor:MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 1 of 8)[b].zip"
-   ],
-   "title": "Ranma Nibunnoichi 1-2",
-   "year": 1992
   },
   "msx2plus:local-5bfa4ab08e": {
    "contentIds": [
@@ -10547,6 +10407,125 @@
    "title": "MSX Windows 98 v1.1e",
    "year": 1989
   },
+  "msx2plus:local-7463624e60": {
+   "contentIds": [
+    "sha256-fd-v1:11464cc5e61b16714e034da358feff2e8ce8d761876efc84a4d666d765877c6a",
+    "sha256-fd-v1:13a93c19c53ad88509f53e8e7032834b46bb24a22a3d3e923192c98230c8ff99",
+    "sha256-fd-v1:1a4dea933f257388b2c181c2d7e5dc6f0259c743a90c469db35aa71f8339aa88",
+    "sha256-fd-v1:384cd0edcc416c87afc69b2cccf2b97d51e17b443862ca65e2b97511e7387172",
+    "sha256-fd-v1:3b6fe529498431af176b8807940269d4d75db9ed667795e8295c4122ed5fd3ef",
+    "sha256-fd-v1:3c8fc44f0adb28d2900965ac9edcdc2fa2621196cd3bc006b414c93dee8ae722",
+    "sha256-fd-v1:3eab42e81f4d1936e5730847c5cd93964ddd01a338b6b41ca9d7ae0cda66a395",
+    "sha256-fd-v1:59d3d7283e7809ee57e35a02ca1de1c1e8ef9ba2160fc38462717216e7e30238",
+    "sha256-fd-v1:73b813ad10ade078f401ac45272edb395c841ec74d4b987131299d34dc659117",
+    "sha256-fd-v1:7c486e4f3e169d01c14976be4e891f66666633c568d84c0ca2df54f729952c7a",
+    "sha256-fd-v1:81b9d96418a50efa1de5bd8d1326589199f99faf6a717e914d8b2ae09b7e70cc",
+    "sha256-fd-v1:8a272f4c23a89b03aa44a6903e2196dcd3556b89f7a3e4b1e789bffa96e38b16",
+    "sha256-fd-v1:d535472330750ebdcb9cca2fa54e3fd8f7ba1f2900299c2b34d26c0378c67b54",
+    "sha256-fd-v1:d66897426f45af67fe4aed4668e414e695f79a718e47cddf443b6b70e760e4d9",
+    "sha256-fd-v1:e5701d8cc8b2dc75caf763fb51218fe224988c76d2bf44168ff9bd3c56225faf",
+    "sha256-fd-v1:fa11de654f4e6dac114c2123517e50898141003e39542287a73c8106c46ddc72"
+   ],
+   "diskMachine": {
+    "sha256-fd-v1:11464cc5e61b16714e034da358feff2e8ce8d761876efc84a4d666d765877c6a": {
+     "machine": "Panasonic_FS-A1GT"
+    },
+    "sha256-fd-v1:13a93c19c53ad88509f53e8e7032834b46bb24a22a3d3e923192c98230c8ff99": {
+     "machine": "Panasonic_FS-A1GT"
+    },
+    "sha256-fd-v1:1a4dea933f257388b2c181c2d7e5dc6f0259c743a90c469db35aa71f8339aa88": {
+     "machine": "Panasonic_FS-A1GT"
+    },
+    "sha256-fd-v1:384cd0edcc416c87afc69b2cccf2b97d51e17b443862ca65e2b97511e7387172": {
+     "machine": "Panasonic_FS-A1GT"
+    },
+    "sha256-fd-v1:3b6fe529498431af176b8807940269d4d75db9ed667795e8295c4122ed5fd3ef": {
+     "machine": "Panasonic_FS-A1GT"
+    },
+    "sha256-fd-v1:3c8fc44f0adb28d2900965ac9edcdc2fa2621196cd3bc006b414c93dee8ae722": {
+     "machine": "Panasonic_FS-A1GT"
+    },
+    "sha256-fd-v1:3eab42e81f4d1936e5730847c5cd93964ddd01a338b6b41ca9d7ae0cda66a395": {
+     "machine": "Panasonic_FS-A1GT"
+    },
+    "sha256-fd-v1:59d3d7283e7809ee57e35a02ca1de1c1e8ef9ba2160fc38462717216e7e30238": {
+     "machine": "Panasonic_FS-A1GT"
+    },
+    "sha256-fd-v1:73b813ad10ade078f401ac45272edb395c841ec74d4b987131299d34dc659117": {
+     "machine": "Panasonic_FS-A1GT"
+    },
+    "sha256-fd-v1:7c486e4f3e169d01c14976be4e891f66666633c568d84c0ca2df54f729952c7a": {
+     "machine": "Panasonic_FS-A1GT"
+    },
+    "sha256-fd-v1:81b9d96418a50efa1de5bd8d1326589199f99faf6a717e914d8b2ae09b7e70cc": {
+     "machine": "Panasonic_FS-A1GT"
+    },
+    "sha256-fd-v1:8a272f4c23a89b03aa44a6903e2196dcd3556b89f7a3e4b1e789bffa96e38b16": {
+     "machine": "Panasonic_FS-A1GT"
+    },
+    "sha256-fd-v1:d535472330750ebdcb9cca2fa54e3fd8f7ba1f2900299c2b34d26c0378c67b54": {
+     "machine": "Panasonic_FS-A1GT"
+    },
+    "sha256-fd-v1:d66897426f45af67fe4aed4668e414e695f79a718e47cddf443b6b70e760e4d9": {
+     "machine": "Panasonic_FS-A1GT"
+    },
+    "sha256-fd-v1:e5701d8cc8b2dc75caf763fb51218fe224988c76d2bf44168ff9bd3c56225faf": {
+     "machine": "Panasonic_FS-A1GT"
+    },
+    "sha256-fd-v1:fa11de654f4e6dac114c2123517e50898141003e39542287a73c8106c46ddc72": {
+     "machine": "Panasonic_FS-A1GT"
+    }
+   },
+   "diskSets": {
+    "sha256-fd-v1:7c486e4f3e169d01c14976be4e891f66666633c568d84c0ca2df54f729952c7a": {
+     "setDisks": [
+      "sha256-fd-v1:11464cc5e61b16714e034da358feff2e8ce8d761876efc84a4d666d765877c6a",
+      "sha256-fd-v1:13a93c19c53ad88509f53e8e7032834b46bb24a22a3d3e923192c98230c8ff99",
+      "sha256-fd-v1:1a4dea933f257388b2c181c2d7e5dc6f0259c743a90c469db35aa71f8339aa88",
+      "sha256-fd-v1:384cd0edcc416c87afc69b2cccf2b97d51e17b443862ca65e2b97511e7387172",
+      "sha256-fd-v1:3b6fe529498431af176b8807940269d4d75db9ed667795e8295c4122ed5fd3ef",
+      "sha256-fd-v1:59d3d7283e7809ee57e35a02ca1de1c1e8ef9ba2160fc38462717216e7e30238",
+      "sha256-fd-v1:73b813ad10ade078f401ac45272edb395c841ec74d4b987131299d34dc659117",
+      "sha256-fd-v1:81b9d96418a50efa1de5bd8d1326589199f99faf6a717e914d8b2ae09b7e70cc",
+      "sha256-fd-v1:8a272f4c23a89b03aa44a6903e2196dcd3556b89f7a3e4b1e789bffa96e38b16",
+      "sha256-fd-v1:d535472330750ebdcb9cca2fa54e3fd8f7ba1f2900299c2b34d26c0378c67b54",
+      "sha256-fd-v1:d66897426f45af67fe4aed4668e414e695f79a718e47cddf443b6b70e760e4d9",
+      "sha256-fd-v1:e5701d8cc8b2dc75caf763fb51218fe224988c76d2bf44168ff9bd3c56225faf"
+     ]
+    },
+    "sha256-fd-v1:d535472330750ebdcb9cca2fa54e3fd8f7ba1f2900299c2b34d26c0378c67b54": {
+     "setDisks": [
+      "sha256-fd-v1:3c8fc44f0adb28d2900965ac9edcdc2fa2621196cd3bc006b414c93dee8ae722",
+      "sha256-fd-v1:fa11de654f4e6dac114c2123517e50898141003e39542287a73c8106c46ddc72"
+     ]
+    },
+    "sha256-fd-v1:e5701d8cc8b2dc75caf763fb51218fe224988c76d2bf44168ff9bd3c56225faf": {
+     "setDisks": [
+      "sha256-fd-v1:3eab42e81f4d1936e5730847c5cd93964ddd01a338b6b41ca9d7ae0cda66a395"
+     ]
+    }
+   },
+   "sourceGroups": [
+    "turbor:MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 1 of 8).zip",
+    "turbor:MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 1 of 8)[a2].zip",
+    "turbor:MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 1 of 8)[a3].zip",
+    "turbor:MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 1 of 8)[a].zip",
+    "turbor:MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 1 of 8)[b2].zip",
+    "turbor:MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 1 of 8)[b].zip",
+    "turbor:MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 2 of 8).zip",
+    "turbor:MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 3 of 8).zip",
+    "turbor:MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 4 of 8).zip",
+    "turbor:MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 5 of 8).zip",
+    "turbor:MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 6 of 8).zip",
+    "turbor:MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 6 of 8)[a].zip",
+    "turbor:MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 7 of 8).zip",
+    "turbor:MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 8 of 8).zip",
+    "turbor:MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 8 of 8)[a2].zip",
+    "turbor:MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 8 of 8)[a].zip"
+   ],
+   "title": "Ranma Nibunnoichi 1-2",
+   "year": 1992
+  },
   "msx2plus:local-7868c70c1c": {
    "contentIds": [
     "sha256-fd-v1:d5c8c23aca64a8a147c3ab73b913e21eb6fa0b0d37e9ecde017f2a3e27cc897e"
@@ -10562,22 +10541,6 @@
    ],
    "title": "Telebasic - Issue 01",
    "year": 1993
-  },
-  "msx2plus:local-788f0ecd76": {
-   "contentIds": [
-    "sha256-rom-v1:8cb81817f4ab0adf6c9c1e839714b9b2ec622ac9311483e3c1bb53e9e19a5eb2"
-   ],
-   "diskMachine": {
-    "sha256-rom-v1:8cb81817f4ab0adf6c9c1e839714b9b2ec622ac9311483e3c1bb53e9e19a5eb2": {
-     "machine": "Panasonic_FS-A1GT"
-    }
-   },
-   "hidden": true,
-   "sourceGroups": [
-    "turbor:MSX TurboR [TOSEC]/MSX TurboR - Firmware (TOSEC-v2012-04-15_CM)/MSX-DOS v2.2 (1984)(Microsoft)(US)(Disk 8 of 8)[7].zip"
-   ],
-   "title": "MSX-DOS v2.2",
-   "year": 1984
   },
   "msx2plus:local-8531ca3cd7": {
    "contentIds": [
@@ -10610,21 +10573,6 @@
    "title": "Fishing v1.0",
    "year": 1996
   },
-  "msx2plus:local-942e7edbd0": {
-   "contentIds": [
-    "sha256-fd-v1:8a272f4c23a89b03aa44a6903e2196dcd3556b89f7a3e4b1e789bffa96e38b16"
-   ],
-   "diskMachine": {
-    "sha256-fd-v1:8a272f4c23a89b03aa44a6903e2196dcd3556b89f7a3e4b1e789bffa96e38b16": {
-     "machine": "Panasonic_FS-A1GT"
-    }
-   },
-   "sourceGroups": [
-    "turbor:MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 3 of 8).zip"
-   ],
-   "title": "Ranma Nibunnoichi 1-2",
-   "year": 1992
-  },
   "msx2plus:local-94c7cb678d": {
    "contentIds": [
     "sha256-fd-v1:b1be762047f5b92e3933e1ea7489c24d9f1d24534e9ecefa8fa064f07e303288"
@@ -10655,20 +10603,21 @@
    ],
    "title": "The PCM Player"
   },
-  "msx2plus:local-99bdf1ae4f": {
+  "msx2plus:local-a110e9f685": {
    "contentIds": [
-    "sha256-fd-v1:d535472330750ebdcb9cca2fa54e3fd8f7ba1f2900299c2b34d26c0378c67b54"
+    "sha256-rom-v1:8cb81817f4ab0adf6c9c1e839714b9b2ec622ac9311483e3c1bb53e9e19a5eb2"
    ],
    "diskMachine": {
-    "sha256-fd-v1:d535472330750ebdcb9cca2fa54e3fd8f7ba1f2900299c2b34d26c0378c67b54": {
+    "sha256-rom-v1:8cb81817f4ab0adf6c9c1e839714b9b2ec622ac9311483e3c1bb53e9e19a5eb2": {
      "machine": "Panasonic_FS-A1GT"
     }
    },
+   "hidden": true,
    "sourceGroups": [
-    "turbor:MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 1 of 8)[a].zip"
+    "turbor:MSX TurboR [TOSEC]/MSX TurboR - Firmware (TOSEC-v2012-04-15_CM)/MSX-DOS v2.2 (1984)(Microsoft)(US)(Disk 8 of 8)[7].zip"
    ],
-   "title": "Ranma Nibunnoichi 1-2",
-   "year": 1992
+   "title": "MSX-DOS v2.2",
+   "year": 1984
   },
   "msx2plus:local-a1d2c8c734": {
    "contentIds": [
@@ -10699,21 +10648,6 @@
     "turbor:MSX TurboR [TOSEC]/MSX TurboR - Firmware (TOSEC-v2012-04-15_CM)/MSXTR GT System Extension (19xx)(-)[MSXTREXT.ROM].zip"
    ],
    "title": "MSXTR GT System Extension"
-  },
-  "msx2plus:local-a4975d2e17": {
-   "contentIds": [
-    "sha256-fd-v1:3b6fe529498431af176b8807940269d4d75db9ed667795e8295c4122ed5fd3ef"
-   ],
-   "diskMachine": {
-    "sha256-fd-v1:3b6fe529498431af176b8807940269d4d75db9ed667795e8295c4122ed5fd3ef": {
-     "machine": "Panasonic_FS-A1GT"
-    }
-   },
-   "sourceGroups": [
-    "turbor:MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 6 of 8).zip"
-   ],
-   "title": "Ranma Nibunnoichi 1-2",
-   "year": 1992
   },
   "msx2plus:local-a627879fbb": {
    "contentIds": [
@@ -10792,22 +10726,6 @@
    "title": "Fishing v1.0",
    "year": 1996
   },
-  "msx2plus:local-bee91adf06": {
-   "contentIds": [
-    "sha256-fd-v1:f70dd1f8679dfa232a383cbbeec9f37598120a4d5861cbf89bc11b0fb991ffdc"
-   ],
-   "diskMachine": {
-    "sha256-fd-v1:f70dd1f8679dfa232a383cbbeec9f37598120a4d5861cbf89bc11b0fb991ffdc": {
-     "machine": "Panasonic_FS-A1GT"
-    }
-   },
-   "hidden": true,
-   "sourceGroups": [
-    "turbor:MSX TurboR [TOSEC]/MSX TurboR - Applications (TOSEC-v2012-04-15_CM)/Myu Sios (1991)(Bit2)(JP)(Disk 3 of 3).zip"
-   ],
-   "title": "Myu Sios",
-   "year": 1991
-  },
   "msx2plus:local-c013c300d5": {
    "contentIds": [
     "sha256-fd-v1:c5b8693a850768bc42747d48bbe7e92c9020f07a50135674529d5e5b1bae4794"
@@ -10838,21 +10756,6 @@
    ],
    "title": "GFX9000 Tool Disk",
    "year": 1996
-  },
-  "msx2plus:local-d7847dddb4": {
-   "contentIds": [
-    "sha256-fd-v1:11464cc5e61b16714e034da358feff2e8ce8d761876efc84a4d666d765877c6a"
-   ],
-   "diskMachine": {
-    "sha256-fd-v1:11464cc5e61b16714e034da358feff2e8ce8d761876efc84a4d666d765877c6a": {
-     "machine": "Panasonic_FS-A1GT"
-    }
-   },
-   "sourceGroups": [
-    "turbor:MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 5 of 8).zip"
-   ],
-   "title": "Ranma Nibunnoichi 1-2",
-   "year": 1992
   },
   "msx2plus:local-dbb599d12e": {
    "contentIds": [
@@ -10899,6 +10802,40 @@
    "title": "Shoot That Flying Windows!",
    "year": 1997
   },
+  "msx2plus:local-df730a0aa9": {
+   "contentIds": [
+    "sha256-fd-v1:22947ab038698f50d484b6e16e19c9b9f67dc018401067eb3d37696d1c1c7ef1",
+    "sha256-fd-v1:b5094c8b56c667c091d0352348ffc0fcb89bf24efd4e3151b8b777a3662aa81c",
+    "sha256-fd-v1:f70dd1f8679dfa232a383cbbeec9f37598120a4d5861cbf89bc11b0fb991ffdc"
+   ],
+   "diskMachine": {
+    "sha256-fd-v1:22947ab038698f50d484b6e16e19c9b9f67dc018401067eb3d37696d1c1c7ef1": {
+     "machine": "Panasonic_FS-A1GT"
+    },
+    "sha256-fd-v1:b5094c8b56c667c091d0352348ffc0fcb89bf24efd4e3151b8b777a3662aa81c": {
+     "machine": "Panasonic_FS-A1GT"
+    },
+    "sha256-fd-v1:f70dd1f8679dfa232a383cbbeec9f37598120a4d5861cbf89bc11b0fb991ffdc": {
+     "machine": "Panasonic_FS-A1GT"
+    }
+   },
+   "diskSets": {
+    "sha256-fd-v1:b5094c8b56c667c091d0352348ffc0fcb89bf24efd4e3151b8b777a3662aa81c": {
+     "setDisks": [
+      "sha256-fd-v1:22947ab038698f50d484b6e16e19c9b9f67dc018401067eb3d37696d1c1c7ef1",
+      "sha256-fd-v1:f70dd1f8679dfa232a383cbbeec9f37598120a4d5861cbf89bc11b0fb991ffdc"
+     ]
+    }
+   },
+   "hidden": true,
+   "sourceGroups": [
+    "turbor:MSX TurboR [TOSEC]/MSX TurboR - Applications (TOSEC-v2012-04-15_CM)/Myu Sios (1991)(Bit2)(JP)(Disk 1 of 3).zip",
+    "turbor:MSX TurboR [TOSEC]/MSX TurboR - Applications (TOSEC-v2012-04-15_CM)/Myu Sios (1991)(Bit2)(JP)(Disk 2 of 3).zip",
+    "turbor:MSX TurboR [TOSEC]/MSX TurboR - Applications (TOSEC-v2012-04-15_CM)/Myu Sios (1991)(Bit2)(JP)(Disk 3 of 3).zip"
+   ],
+   "title": "Myu Sios",
+   "year": 1991
+  },
   "msx2plus:local-e3b9d531fa": {
    "contentIds": [
     "sha256-rom-v1:ce635e67d15aa36450d3c5aa5ad0ed16d8a5a1cd38fb67ae2f3bca02a8cbaed8"
@@ -10915,37 +10852,6 @@
    "title": "MSX-DOS Kernel v2.31 + Disk BASIC v2.01",
    "year": 1991
   },
-  "msx2plus:local-e3d94fdac7": {
-   "contentIds": [
-    "sha256-fd-v1:22947ab038698f50d484b6e16e19c9b9f67dc018401067eb3d37696d1c1c7ef1"
-   ],
-   "diskMachine": {
-    "sha256-fd-v1:22947ab038698f50d484b6e16e19c9b9f67dc018401067eb3d37696d1c1c7ef1": {
-     "machine": "Panasonic_FS-A1GT"
-    }
-   },
-   "hidden": true,
-   "sourceGroups": [
-    "turbor:MSX TurboR [TOSEC]/MSX TurboR - Applications (TOSEC-v2012-04-15_CM)/Myu Sios (1991)(Bit2)(JP)(Disk 2 of 3).zip"
-   ],
-   "title": "Myu Sios",
-   "year": 1991
-  },
-  "msx2plus:local-ec8d099880": {
-   "contentIds": [
-    "sha256-fd-v1:73b813ad10ade078f401ac45272edb395c841ec74d4b987131299d34dc659117"
-   ],
-   "diskMachine": {
-    "sha256-fd-v1:73b813ad10ade078f401ac45272edb395c841ec74d4b987131299d34dc659117": {
-     "machine": "Panasonic_FS-A1GT"
-    }
-   },
-   "sourceGroups": [
-    "turbor:MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 1 of 8)[a3].zip"
-   ],
-   "title": "Ranma Nibunnoichi 1-2",
-   "year": 1992
-  },
   "msx2plus:local-f1555cea7d": {
    "contentIds": [
     "sha256-fd-v1:457ccc6ba0ea53c863aa389f78aae21a8f2cda02f8edb7e0d2ecd23062d9899c"
@@ -10961,21 +10867,6 @@
    ],
    "title": "MSX-DOS Help v2.20",
    "year": 1994
-  },
-  "msx2plus:local-f74beb54ec": {
-   "contentIds": [
-    "sha256-fd-v1:e5701d8cc8b2dc75caf763fb51218fe224988c76d2bf44168ff9bd3c56225faf"
-   ],
-   "diskMachine": {
-    "sha256-fd-v1:e5701d8cc8b2dc75caf763fb51218fe224988c76d2bf44168ff9bd3c56225faf": {
-     "machine": "Panasonic_FS-A1GT"
-    }
-   },
-   "sourceGroups": [
-    "turbor:MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 1 of 8)[a2].zip"
-   ],
-   "title": "Ranma Nibunnoichi 1-2",
-   "year": 1992
   },
   "msx2plus:local-fffa978789": {
    "contentIds": [
@@ -12860,6 +12751,7 @@
    "contentIds": [
     "sha256-rom-v1:760583fb2434d12cd81525d27921ae1a35ae63f815bb9cd19666575114ad0071"
    ],
+   "description": "A vertical shooter with a 3D effect from Casio: you must first get your craft off the ground before the runway ends, then shoot down the alien invaders.",
    "developer": "Casio Computer",
    "diskMachine": {
     "sha256-rom-v1:760583fb2434d12cd81525d27921ae1a35ae63f815bb9cd19666575114ad0071": {
@@ -13078,6 +12970,7 @@
   },
   "msx:132953": {
    "boxArtUrl": "https://images.launchbox-app.com/3b99cc66-38eb-4451-98d4-9f91a45ac36c.jpg",
+   "description": "A Super Pipeline-style game for two: one plumber fixes leaking pipes to keep the liquid flowing while the other protects him, throwing a limited supply of spanners at the factory mouse and spiders.",
    "developer": "Artificial Intelligence Products",
    "launchbox": "132953",
    "mobygames": 236035,
@@ -13380,6 +13273,7 @@
    "contentIds": [
     "sha256-rom-v1:377a4681c446bee0773c84cf25c9ea288755b9a82719f05867306384ec7ff3e5"
    ],
+   "description": "A maze game from ASCII in which a boy collects items while enemies chase him. His boomerang has a short range and does not come back on its own, so he must pick it up after every throw.",
    "developer": "ASCII",
    "diskMachine": {
     "sha256-rom-v1:377a4681c446bee0773c84cf25c9ea288755b9a82719f05867306384ec7ff3e5": {
@@ -13773,6 +13667,7 @@
    "contentIds": [
     "sha256-rom-v1:cf213420706cc3bd268f9137e9f16a28ac8d3557aa9322e2fb830dee4cf51913"
    ],
+   "description": "A caped hero sets out to rescue his girlfriend, dodging the runners and the riders on the roller coasters. Each round has two scenes, and collecting every bag of gold in both moves you on to the next.",
    "developer": "Nippon Columbia",
    "diskMachine": {
     "sha256-rom-v1:cf213420706cc3bd268f9137e9f16a28ac8d3557aa9322e2fb830dee4cf51913": {
@@ -13914,6 +13809,7 @@
    "contentIds": [
     "sha256-rom-v1:b9484b6c2e18f2fc0ee93c9e5b5c23ff3e67bc96b5e3bd4089397dcd8fb3edff"
    ],
+   "description": "A platform game set in a building of ladders and rooms: search the rooms for documents, and once you have five, escape to the roof while two agents follow you from floor to floor.",
    "diskMachine": {
     "sha256-rom-v1:b9484b6c2e18f2fc0ee93c9e5b5c23ff3e67bc96b5e3bd4089397dcd8fb3edff": {
      "machine": "Panasonic_FS-A1WSX"
@@ -14211,6 +14107,7 @@
    "contentIds": [
     "sha256-rom-v1:a661b01f7a16b9d24090979af1a853d1d56564bbc7f0548ab7569a77c4594a4e"
    ],
+   "description": "A girl with a frying pan helps Color Ball-kun, a mischievous ball banished from above the clouds, find his way home: bounce him higher and higher until he turns white and returns to the sky.",
    "developer": "Hudson Soft",
    "diskMachine": {
     "sha256-rom-v1:a661b01f7a16b9d24090979af1a853d1d56564bbc7f0548ab7569a77c4594a4e": {
@@ -14940,6 +14837,7 @@
    "contentIds": [
     "sha256-rom-v1:ecbb125b88653205a7fff16a75804917c9c9757b38a3604242e8146452b42a1c"
    ],
+   "description": "You man a pillbox at the top of the screen while soldiers creep up from below, sheltering behind rows of sandbags. Any soldier who gets past the last row will destroy the bunker with a grenade.",
    "developer": "Magic Soft",
    "diskMachine": {
     "sha256-rom-v1:ecbb125b88653205a7fff16a75804917c9c9757b38a3604242e8146452b42a1c": {
@@ -15638,6 +15536,7 @@
   },
   "msx:138869": {
    "boxArtUrl": "https://images.launchbox-app.com/ed8ddf4e-29d3-4dc1-bd45-158a5106f5c1.png",
+   "description": "An outlaw flees the law down a straight highway, steering the getaway car while rival gang members lean out of their cars to shoot at him, and shooting back at them.",
    "developer": "Hudson Soft",
    "launchbox": "138869",
    "mobygames": 151000,
@@ -15993,6 +15892,7 @@
   },
   "msx:139900": {
    "boxArtUrl": "https://images.launchbox-app.com/7391a3c1-3299-400d-a6ed-a4543e20a6a7.jpg",
+   "description": "A platform game in which the hero hops between moving platforms collecting food while dodging jumping enemies. A power bag stuns them for rising bonus points, and every fifth round is a bonus stage.",
    "developer": "Colpax",
    "launchbox": "139900",
    "mobygames": 234346,
@@ -16880,6 +16780,7 @@
    "contentIds": [
     "sha256-rom-v1:92665bbd5aa45f6ae23e39678317e9f969b34c17a344e8cdad30602cb7417304"
    ],
+   "description": "An updated release of the space shooter Zexas, with new graphics, boss battles and a two-player mode, and without the original's fuel gauge.",
    "developer": "dB-SOFT",
    "diskMachine": {
     "sha256-rom-v1:92665bbd5aa45f6ae23e39678317e9f969b34c17a344e8cdad30602cb7417304": {
@@ -17116,6 +17017,7 @@
   },
   "msx:152745": {
    "boxArtUrl": "https://images.launchbox-app.com/59d0eaea-70f0-4e0a-b235-c745250a1973.jpg",
+   "description": "A Zaxxon-style diagonally scrolling shooter: fly a helicopter deep into enemy territory, over cities, deserts and military bases, destroying missiles and jets to free comrades held behind the lines.",
    "developer": "The Bytebusters",
    "launchbox": "152745",
    "mobygames": 210086,
@@ -17572,6 +17474,7 @@
    "contentIds": [
     "sha256-rom-v1:1191d866da790dceee1dd5313b44af951ee319b7ed11e7f64f6e9ef5cf4c6592"
    ],
+   "description": "A mother bird defends her nest from enemies who float in by balloon and fire missiles at her. Peck a balloon in the right spot to pop it before it reaches the tree where her eggs are.",
    "developer": "Crosstalk",
    "diskMachine": {
     "sha256-rom-v1:1191d866da790dceee1dd5313b44af951ee319b7ed11e7f64f6e9ef5cf4c6592": {
@@ -17752,23 +17655,23 @@
      "withSticks": [
       {
        "input": "virtual:a",
-       "joystick": "button1"
+       "keys": [
+        64
+       ]
       },
       {
        "input": "virtual:b",
-       "joystick": "button2"
-      },
-      {
-       "input": "virtual:x",
        "keys": [
         65
        ]
       },
       {
+       "input": "virtual:x",
+       "joystick": "button1"
+      },
+      {
        "input": "virtual:y",
-       "keys": [
-        64
-       ]
+       "joystick": "button2"
       },
       {
        "input": "virtual:start",
@@ -17788,19 +17691,31 @@
       },
       {
        "input": "virtual:up",
-       "joystick": "up"
+       "joystick": "up",
+       "keys": [
+        70
+       ]
       },
       {
        "input": "virtual:down",
-       "joystick": "down"
+       "joystick": "down",
+       "keys": [
+        71
+       ]
       },
       {
        "input": "virtual:left",
-       "joystick": "left"
+       "joystick": "left",
+       "keys": [
+        69
+       ]
       },
       {
        "input": "virtual:right",
-       "joystick": "right"
+       "joystick": "right",
+       "keys": [
+        72
+       ]
       },
       {
        "input": "virtual:lsup",
@@ -17830,23 +17745,23 @@
      "withoutSticks": [
       {
        "input": "virtual:a",
-       "joystick": "button1"
+       "keys": [
+        64
+       ]
       },
       {
        "input": "virtual:b",
-       "joystick": "button2"
-      },
-      {
-       "input": "virtual:x",
        "keys": [
         65
        ]
       },
       {
+       "input": "virtual:x",
+       "joystick": "button1"
+      },
+      {
        "input": "virtual:y",
-       "keys": [
-        64
-       ]
+       "joystick": "button2"
       },
       {
        "input": "virtual:start",
@@ -17866,19 +17781,31 @@
       },
       {
        "input": "virtual:up",
-       "joystick": "up"
+       "joystick": "up",
+       "keys": [
+        70
+       ]
       },
       {
        "input": "virtual:down",
-       "joystick": "down"
+       "joystick": "down",
+       "keys": [
+        71
+       ]
       },
       {
        "input": "virtual:left",
-       "joystick": "left"
+       "joystick": "left",
+       "keys": [
+        69
+       ]
       },
       {
        "input": "virtual:right",
-       "joystick": "right"
+       "joystick": "right",
+       "keys": [
+        72
+       ]
       }
      ]
     }
@@ -17921,6 +17848,7 @@
   },
   "msx:153197": {
    "boxArtUrl": "https://images.launchbox-app.com/r2_e476667b-439f-4a84-accb-8e70b56c0c1c.jpg",
+   "description": "A vertically scrolling shooter with a single endless stage, in which waves of coloured planes, each with its own way of moving, try to shoot you down.",
    "developer": "Ample Software",
    "launchbox": "153197",
    "mobygames": 160606,
@@ -18069,6 +17997,7 @@
   },
   "msx:153226": {
    "boxArtUrl": "https://images.launchbox-app.com/5fb892d9-7ce0-4c31-8280-e55c0b46c9c5.jpg",
+   "description": "An isometric action game in which field agent 23 infiltrates a complex to destroy the android army guarding its master computer, collecting the keys that open each area along the way.",
    "developer": "Alligata Software",
    "launchbox": "153226",
    "mobygames": 237407,
@@ -18354,6 +18283,7 @@
    "contentIds": [
     "sha256-rom-v1:9a275f7b1d13521f0ee9762fef5271b7cf2da09d25fc4f8ed3cbf6bb2b46ae11"
    ],
+   "description": "An arcade game spanning two universes separated by a barrier. Your exchanger, a device of black and white holes, sucks aliens through to the other side, and its direction of transfer flips after a short pause.",
    "developer": "ASCII",
    "diskMachine": {
     "sha256-rom-v1:9a275f7b1d13521f0ee9762fef5271b7cf2da09d25fc4f8ed3cbf6bb2b46ae11": {
@@ -18371,6 +18301,7 @@
   },
   "msx:153370": {
    "boxArtUrl": "https://images.launchbox-app.com/825390b2-2b32-4ccc-88f0-b62a6c7451d4.png",
+   "description": "A shoot-'em-up at the edge of civilisation: weave your ship between the blocks that fill the field while enemies fly at you from every direction.",
    "developer": "The Bytebusters",
    "launchbox": "153370",
    "mobygames": 212019,
@@ -18462,6 +18393,7 @@
   },
   "msx:153414": {
    "boxArtUrl": "https://images.launchbox-app.com/51e7afb6-af38-499d-bba0-d3f14fc3c1a8.jpg",
+   "description": "A painting contest written in BASIC for a 1985 Sony competition: guide a round ink tank in eight directions and colour more tiles than your opponent before time runs out.",
    "developer": "Iveson Software",
    "launchbox": "153414",
    "publisher": "Sony Spain",
@@ -19135,6 +19067,7 @@
    "contentIds": [
     "sha256-rom-v1:dd2dcd658c1a50d60f30cd813cb3cc2ffbeab63cc9502a341a68ff9e33474e20"
    ],
+   "description": "A cross between Breakout and Space Invaders: a robot walks and jumps along the top of a brick wall while a line of bugs climbs toward him and a bomb flies across the middle of the screen.",
    "developer": "Mass Tael",
    "diskMachine": {
     "sha256-rom-v1:dd2dcd658c1a50d60f30cd813cb3cc2ffbeab63cc9502a341a68ff9e33474e20": {
@@ -19529,6 +19462,7 @@
   },
   "msx:154084": {
    "boxArtUrl": "https://images.launchbox-app.com/c52bb2a3-5fa6-4603-8b32-b1d31228a41a.jpg",
+   "description": "A Rally-X-style maze game in which your tank drives a city's roads, collecting enemy flags while dodging mines and the enemy tanks swarming the streets.",
    "developer": "MIA",
    "launchbox": "154084",
    "mobygames": 228695,
@@ -19740,6 +19674,7 @@
   },
   "msx:154313": {
    "boxArtUrl": "https://images.launchbox-app.com/b5c916b1-3cd2-4dce-acd8-acd921b564b5.jpg",
+   "description": "A fixed-screen shooter in which you defend the world's capitals from an alien mothership. Your ship fires one missile at a time upward and can also launch mines aimed with a reticle.",
    "developer": "Nisso",
    "launchbox": "154313",
    "mobygames": 227786,
@@ -19823,6 +19758,7 @@
   },
   "msx:154373": {
    "boxArtUrl": "https://images.launchbox-app.com/c6b3fca4-6bc2-4a6a-9320-f62c857361a0.jpg",
+   "description": "A Boulder Dash-style game in which a mining machine collects the gold trapped by an earthquake before the clock runs out, pushing stones aside and digging its way through the rock.",
    "developer": "Boss Company",
    "launchbox": "154373",
    "mobygames": 210789,
@@ -19876,6 +19812,7 @@
   },
   "msx:154381": {
    "boxArtUrl": "https://images.launchbox-app.com/706f618e-d6aa-42dd-b6a4-cf2c9464fa36.jpg",
+   "description": "A Missile Command game in which you defend your missile bases from the enemy weapons and aircraft raining down on them.",
    "developer": "Eurosoft",
    "launchbox": "154381",
    "publisher": "Premium III Software Distribution",
@@ -20105,6 +20042,7 @@
    "contentIds": [
     "sha256-rom-v1:16a99aaa360005ccc175641d82c09fce3272bf529f04e85ae52d984fc957412c"
    ],
+   "description": "A Lunar Lander game: rotate your rocket and fire its thrusters against the moon's gravity to touch down gently on one of five landing sites before the fuel runs out.",
    "developer": "ASCII",
    "diskMachine": {
     "sha256-rom-v1:16a99aaa360005ccc175641d82c09fce3272bf529f04e85ae52d984fc957412c": {
@@ -20744,6 +20682,7 @@
    "contentIds": [
     "sha256-rom-v1:cb65c95de8d609cd885f297fd3068959f07ea2c5df18b9e3825e19e39a20dbbb"
    ],
+   "description": "A single-screen maze game whose passages wrap around the edges. A flame patrols the corridors while a snake moves diagonally and slips through walls, and touching either costs a life.",
    "developer": "MIA",
    "diskMachine": {
     "sha256-rom-v1:cb65c95de8d609cd885f297fd3068959f07ea2c5df18b9e3825e19e39a20dbbb": {
@@ -20853,6 +20792,7 @@
   },
   "msx:154925": {
    "boxArtUrl": "https://images.launchbox-app.com/8f4b8b72-1988-4f5a-9652-4133d02877f8.png",
+   "description": "A top-down shooter set in 2108, after the West's central computer won a war and turned on its human makers, building a robot society called Outroyd to hunt down the survivors.",
    "developer": "Stratford Computer Center",
    "launchbox": "154925",
    "mobygames": 152930,
@@ -20963,6 +20903,7 @@
    "contentIds": [
     "sha256-rom-v1:849303e8758349f456bff4cf5094ef691802e99041e335b2e6fd6c212a04670d"
    ],
+   "description": "A Mahjong-themed action game: as tiles roll in from the left, the hammer-wielding Jankiki-kun pounds the ground to knock them onto his rack, swapping tiles to build a winning hand.",
    "developer": "ASCII",
    "diskMachine": {
     "sha256-rom-v1:849303e8758349f456bff4cf5094ef691802e99041e335b2e6fd6c212a04670d": {
@@ -21357,8 +21298,13 @@
    "artwork": {
     "boxArt": "art/catalog/moby/30376/box-9bf46453978e.webp",
     "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/30376/box-9bf46453978e.webp",
-    "preview": "art/catalog/moby/30376/screenshot-2136f63dd858.webp",
-    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/30376/screenshot-2136f63dd858.webp"
+    "game": 155187,
+    "platform": 80,
+    "preview": {
+     "format": 1,
+     "id": "fb1d63ca-8d4a-4bfe-825f-96740bc7698b",
+     "revision": 0
+    }
    },
    "description": "A Space Panic-style platform game.",
    "developer": "The Bytebusters",
@@ -21403,6 +21349,7 @@
    "contentIds": [
     "sha256-rom-v1:8dd5d7682f05318ce45ff03c1c8c34f7c9999e6429ad19c71c40dd1b6f60a2d7"
    ],
+   "description": "A volleyball-like game of two-player teams on either side of a net, where both players on a side move together, each covering half of the court.",
    "developer": "ASCII",
    "diskMachine": {
     "sha256-rom-v1:8dd5d7682f05318ce45ff03c1c8c34f7c9999e6429ad19c71c40dd1b6f60a2d7": {
@@ -21552,6 +21499,7 @@
    "title": "Pegasus"
   },
   "msx:155217": {
+   "description": "Basque pelota for one or two players, at amateur or professional level: rebound the ball off the front wall so your opponent cannot return it inside the marked lines.",
    "developer": "Manhattan Transfer",
    "launchbox": "155217",
    "mobygames": 238558,
@@ -21696,6 +21644,7 @@
   },
   "msx:155231": {
    "boxArtUrl": "https://images.launchbox-app.com/5cfd980f-cb2f-4104-832e-653abeab3651.jpg",
+   "description": "A pinball game in which the flippers are replaced by a cannon: fire a stream of bullets to steer the ball onto letters, blocks and stars for points and to set off the table's features.",
    "developer": "Eurosoft",
    "launchbox": "155231",
    "mobygames": 213623,
@@ -21797,6 +21746,7 @@
   },
   "msx:155284": {
    "boxArtUrl": "https://images.launchbox-app.com/49c8f619-becf-4294-9050-88d8bf56ad78.png",
+   "description": "A robot riding a lift up and down shoots the blocks that fall from the ceiling before they fill the holes in the floor and make a path for a dragon to reach him.",
    "developer": "Double Brain!",
    "launchbox": "155284",
    "mobygames": 209154,
@@ -22022,6 +21972,7 @@
    "contentIds": [
     "sha256-rom-v1:194df6852053a5bd9652a74bacc8c0c9301eb886f49bd1036cdb62f5b7429291"
    ],
+   "description": "A space shooter in which your craft crosses the galaxy against alien ships, each type with its own attack pattern, while you move freely around the lower part of the screen.",
    "developer": "ASCII",
    "diskMachine": {
     "sha256-rom-v1:194df6852053a5bd9652a74bacc8c0c9301eb886f49bd1036cdb62f5b7429291": {
@@ -22109,6 +22060,7 @@
    "contentIds": [
     "sha256-rom-v1:bf3bcdf0d14ee675bea36dc4c30fa8fe379ec839ee00214910633b240943d6b5"
    ],
+   "description": "A maze game in the chambers of an Egyptian pyramid, each with a monster portal, a pair of warp zones and three mystery boxes that may hold a gun, a diamond or a mummy.",
    "developer": "T&E Soft",
    "diskMachine": {
     "sha256-rom-v1:bf3bcdf0d14ee675bea36dc4c30fa8fe379ec839ee00214910633b240943d6b5": {
@@ -22126,6 +22078,7 @@
   },
   "msx:155314": {
    "boxArtUrl": "https://images.launchbox-app.com/1befbb49-2b2f-41b7-848e-034ad4872fa1.jpg",
+   "description": "A firefighter races around a burning building with a hose of limited length, putting out every fire while stopping the arsonist who keeps starting new ones.",
    "developer": "Nice Ideas",
    "launchbox": "155314",
    "mobygames": 238557,
@@ -22337,6 +22290,7 @@
   },
   "msx:155371": {
    "boxArtUrl": "https://images.launchbox-app.com/eeb77811-0884-4c8b-827b-eb6d7967a500.png",
+   "description": "A pair of games about the Soviet space shuttle Buran, each chosen from the title screen: a simulation of launching the shuttle and deploying satellites, and a separate action game.",
    "developer": "OMK Software",
    "launchbox": "155371",
    "mobygames": 247179,
@@ -22552,6 +22506,7 @@
   },
   "msx:155448": {
    "boxArtUrl": "https://images.launchbox-app.com/25f4d6f3-ca93-481b-8991-1bcca18381ea.jpg",
+   "description": "A robot named C-Bot 9000 keeps the old cargo ship Neptunix from sinking, patching holes in its hull while watching the gauges at the top of the screen.",
    "developer": "The Byetbustes",
    "launchbox": "155448",
    "mobygames": 210792,
@@ -22862,6 +22817,7 @@
   },
   "msx:156425": {
    "boxArtUrl": "https://images.launchbox-app.com/34d1442c-1d5e-42d3-b624-89b99307240d.png",
+   "description": "A motorcycle road race seen from behind the rider: complete twelve laps as fast as you can while watching your speed, engine temperature and fuel, which is topped up after every lap.",
    "developer": "Methodic Solutions",
    "launchbox": "156425",
    "mobygames": 208809,
@@ -22995,6 +22951,7 @@
   },
   "msx:156977": {
    "boxArtUrl": "https://images.launchbox-app.com/2733d4b9-366b-40fe-ac15-044dc79e36f2.png",
+   "description": "A run-and-gun platform shooter set in a space suburb near the restaurant at the end of the universe, where you hunt down the enemies of the System.",
    "developer": "Eurosoft",
    "launchbox": "156977",
    "mobygames": 213172,
@@ -23186,6 +23143,7 @@
    "contentIds": [
     "sha256-rom-v1:5270eb716361c2d6a7dee742880858efff3e7474c10f36c55341284f13a19914"
    ],
+   "description": "A platform game in which a fairy catches the creatures roaming each screen: snails, mice, spiders and aliens, each dealt with its own way, with a shoe, poison or magic.",
    "developer": "Zap",
    "diskMachine": {
     "sha256-rom-v1:5270eb716361c2d6a7dee742880858efff3e7474c10f36c55341284f13a19914": {
@@ -23372,6 +23330,7 @@
   },
   "msx:168373": {
    "boxArtUrl": "https://images.launchbox-app.com/d5bac904-1ae6-426f-a4bd-9af4f202fd0b.jpg",
+   "description": "A fixed-screen shooter in which a space researcher lands on a remote, supposedly deserted world in search of a fortune, only to find it home to a hungry, demented dragon.",
    "developer": "The Bytebusters",
    "launchbox": "168373",
    "mobygames": 211549,
@@ -23576,6 +23535,7 @@
     "The Train Game"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/bc91781d-e58b-4fe2-aab0-192adab16cc9.jpg",
+   "description": "A Dutch train simulator in which you drive a Sprinter commuter train, obeying the signals shown beside the track and stopping precisely at each station to cover as many kilometres as you can.",
    "developer": "The Bytebusters",
    "launchbox": "168577",
    "mobygames": 196071,
@@ -23642,6 +23602,7 @@
   },
   "msx:168587": {
    "boxArtUrl": "https://images.launchbox-app.com/a249c060-a975-4496-b1c2-616ca95fd4a2.jpg",
+   "description": "A science-fiction strategy and action game in which you join a mission to stop Orpheus, an unmanned star-destroying fortress whose damaged computer has set it on course for the solar system.",
    "developer": "The Bytebusters",
    "launchbox": "168587",
    "mobygames": 261484,
@@ -23913,6 +23874,7 @@
   },
   "msx:168781": {
    "boxArtUrl": "https://images.launchbox-app.com/3bae5c43-e78a-47a1-881d-e53cfff7d60b.jpg",
+   "description": "A Defender-style horizontal shooter across eight levels: your jet protects rearming trucks from aircraft of different eras, and when fuel or ammunition runs low you touch a supply plane or truck to refill.",
    "developer": "Personal Software Services",
    "launchbox": "168781",
    "mobygames": 227666,
@@ -23954,6 +23916,7 @@
    "contentIds": [
     "sha256-rom-v1:0717f59bc3359fe35c8ec0eca82de9c16ff043451bc9f25dac36aede4d4b3908"
    ],
+   "description": "A downhill skiing game: steer between the flags and around piles of rock as the course grows narrower and more jagged at higher levels.",
    "developer": "ASCII",
    "diskMachine": {
     "sha256-rom-v1:0717f59bc3359fe35c8ec0eca82de9c16ff043451bc9f25dac36aede4d4b3908": {
@@ -23989,6 +23952,7 @@
   },
   "msx:168794": {
    "boxArtUrl": "https://images.launchbox-app.com/507ee152-b9e6-40a9-972f-ce1db372de5f.jpg",
+   "description": "A side-scrolling shooter set after 2038, when an international space venture called STAR attempts the first transdimensional voyage to Alpha Centauri. Made for the MSXdev contest.",
    "developer": "Infinite",
    "launchbox": "168794",
    "mobygames": 23852,
@@ -24384,6 +24348,7 @@
    "contentIds": [
     "sha256-rom-v1:431ebd19b83aea863a5b7c2c67258bcc7c5d9d70f58617bc449a6bfc5e529d15"
    ],
+   "description": "A take on the mainframe game Star Trek: hunt down the attacking Klimzon ships before time runs out, moving between quadrants on the long-range scan and fighting in the close-up view.",
    "developer": "ASCII",
    "diskMachine": {
     "sha256-rom-v1:431ebd19b83aea863a5b7c2c67258bcc7c5d9d70f58617bc449a6bfc5e529d15": {
@@ -24403,6 +24368,7 @@
    "contentIds": [
     "sha256-rom-v1:b8408d6464e8ee6a62a580422a50a81338748831598f7d642a18085d53e70701"
    ],
+   "description": "A snake game from HAL Laboratory: eat the boxed items to grow your tail while avoiding monsters, the screen edge and your own body. Gaps occasionally open in the edge to let you wrap around.",
    "developer": "HAL Laboratory",
    "diskMachine": {
     "sha256-rom-v1:b8408d6464e8ee6a62a580422a50a81338748831598f7d642a18085d53e70701": {
@@ -24545,6 +24511,7 @@
   },
   "msx:180768": {
    "boxArtUrl": "https://images.launchbox-app.com/d83fde04-ba7f-4501-bf89-f9a5b1d378ef.jpg",
+   "description": "A diving game: armed with a survivor's tale and a scribbled grid that decodes the clues, you dive in search of a treasure ship that sank during a mutiny.",
    "developer": "Electric Software",
    "launchbox": "180768",
    "mobygames": 196411,
@@ -25114,6 +25081,7 @@
    "contentIds": [
     "sha256-rom-v1:26713de870a40f4bfe5dd096290a86d229bd97cce4fa9159b355f5a43336ca8d"
    ],
+   "description": "A single-screen action game made by Taito for the MSX, in which the egg-like Sweey clears a magic garden of cloud-like Peepas by throwing acorns at them.",
    "developer": "Taito",
    "diskMachine": {
     "sha256-rom-v1:26713de870a40f4bfe5dd096290a86d229bd97cce4fa9159b355f5a43336ca8d": {
@@ -25340,6 +25308,7 @@
    "contentIds": [
     "sha256-rom-v1:406cc5ae8bbe43ed9fffeebd77807da3677b3180a86f9772976eb6935dee8537"
    ],
+   "description": "Taito's single-player tile-matching game with Mahjong tiles: pair up every tile within the time limit to reach the next level.",
    "developer": "Taito",
    "diskMachine": {
     "sha256-rom-v1:406cc5ae8bbe43ed9fffeebd77807da3677b3180a86f9772976eb6935dee8537": {
@@ -25883,6 +25852,7 @@
    "contentIds": [
     "sha256-rom-v1:4c1fa0315a71bc4468059365098cb8598a9b09bf4fe832c87ceb112a2ab3f948"
    ],
+   "description": "A golf game: place your ball, choose a strong, moderate or gentle swing and a direction, then time the power meter, keeping the ball in bounds.",
    "developer": "ComTec",
    "diskMachine": {
     "sha256-rom-v1:4c1fa0315a71bc4468059365098cb8598a9b09bf4fe832c87ceb112a2ab3f948": {
@@ -25951,6 +25921,7 @@
   "msx:181970": {
    "adult": true,
    "boxArtUrl": "https://images.launchbox-app.com/3983bb4e-ffc9-4b37-9089-3f5c4d441344.jpg",
+   "description": "Five- or seven-card stud poker against the British model and singer Samantha Fox, with up to three opponents who each have their own playing style.",
    "developer": "Software Communications",
    "launchbox": "181970",
    "mobygames": 19533,
@@ -26052,6 +26023,7 @@
    "title": "Professional Mahjong"
   },
   "msx:182098": {
+   "description": "A puzzle game from MSX-FAN: stack the blocks to match the sample shown beside the playfield, moving the guide left and right and placing each block with the Space key.",
    "developer": "Eight-Iron",
    "launchbox": "182098",
    "publisher": "MSX-FAN",
@@ -26614,6 +26586,7 @@
    "title": "Bubbo World 2"
   },
   "msx:183101": {
+   "description": "A maze game from MSX-FAN: choose where your ball starts, then guide the always-moving ball to the goal in the opposite corner.",
    "launchbox": "183101",
    "publisher": "MSX-FAN",
    "screenshotUrl": "https://images.launchbox-app.com/26d201d2-1d23-403e-960d-f5739ba56be4.png",
@@ -26894,6 +26867,7 @@
   },
   "msx:188823": {
    "boxArtUrl": "https://images.launchbox-app.com/dd7b90e4-333d-404c-b7c1-6d6eddf2ba7c.jpg",
+   "description": "A chess tutor for beginners made up of five lessons, each played against the computer: attacking the king with pawns, castling, using the knights and more.",
    "launchbox": "188823",
    "mobygames": 205022,
    "publisher": "Toshiba-EMI",
@@ -26954,6 +26928,7 @@
   },
   "msx:188830": {
    "boxArtUrl": "https://images.launchbox-app.com/b623e348-fbe5-48c4-853e-b8784ffe0e91.jpg",
+   "description": "A one-player contract bridge game in which you play both North and South through the bidding and the play of the cards, entered as text.",
    "developer": "Alligata Software",
    "launchbox": "188830",
    "mobygames": 213165,
@@ -27474,6 +27449,7 @@
   },
   "msx:188932": {
    "boxArtUrl": "https://images.launchbox-app.com/ea34b623-ae10-4a23-9a5d-62608253eef1.jpg",
+   "description": "A Pac-Man-style maze game with diagonal corridors as well as straight ones, where the hero can also pick up temporary shields, jumps and teleports while eating the dots.",
    "developer": "Jon Sawyer",
    "launchbox": "188932",
    "mobygames": 227572,
@@ -27557,6 +27533,7 @@
   },
   "msx:188939": {
    "boxArtUrl": "https://images.launchbox-app.com/1fa24486-7259-426b-8b42-b11fa321bd65.jpg",
+   "description": "A vertically scrolling shooter in which your ship fights waves of enemies that fly in formation, firing missiles or trying to ram you.",
    "developer": "The Bytebusters",
    "launchbox": "188939",
    "mobygames": 211380,
@@ -27582,6 +27559,7 @@
   },
   "msx:188942": {
    "boxArtUrl": "https://images.launchbox-app.com/4d522954-c0bf-4737-8c34-4569ee9f4f7c.jpg",
+   "description": "An arcade game in which a rescue team descends from its flagship to a dying planet, landing at one of nine stations of different value to pick up stranded comrades.",
    "developer": "The Bytebusters",
    "launchbox": "188942",
    "mobygames": 211556,
@@ -27607,6 +27585,7 @@
   },
   "msx:188945": {
    "boxArtUrl": "https://images.launchbox-app.com/4ec230e2-d9e2-4675-845a-1d7af184efbc.jpg",
+   "description": "A speedboat race around two buoys on a lake: complete twelve laps as fast as you can while handling the waves your boat throws up.",
    "developer": "The Bytebusters",
    "launchbox": "188945",
    "mobygames": 209629,
@@ -27673,6 +27652,7 @@
   },
   "msx:188953": {
    "boxArtUrl": "https://images.launchbox-app.com/9b324fc8-ebc6-4b34-adcf-75f06fccaef6.jpg",
+   "description": "Running through town without a stitch on, you search room after room for your clothes: the more you find, the more of the town opens up. Food keeps your energy up, and some shops only open at certain times.",
    "developer": "Mastertronic",
    "launchbox": "188953",
    "mobygames": 35736,
@@ -27696,6 +27676,7 @@
     "Strip Poker II+"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/bb7f7ad0-c556-43fc-b6cd-c5c44b397210.jpg",
+   "description": "Anco's poker game against two opponents, with its own interface: you start with $100 and bets begin at $5 and can be raised to $25.",
    "developer": "Anco Software",
    "launchbox": "188956",
    "mobygames": 26300,
@@ -27705,6 +27686,7 @@
   },
   "msx:188957": {
    "boxArtUrl": "https://images.launchbox-app.com/4936e762-873a-45aa-be17-42bcbef38bb5.jpg",
+   "description": "A chess program in a top-down view, in which you choose the colour of your pieces and how far ahead the computer looks.",
    "developer": "Kuma Computers",
    "launchbox": "188957",
    "mobygames": 20343,
@@ -28156,6 +28138,7 @@
    "title": "Casio GPM-Compilation Volumen 1"
   },
   "msx:190577": {
+   "description": "An MSXdev entry in which, told that your wife is cheating on you, you set out to catch her in the act with the help of the neighbours in the buildings she visits.",
    "developer": "Crappysoft",
    "launchbox": "190577",
    "publisher": "MSXdev",
@@ -28353,6 +28336,7 @@
   },
   "msx:192137": {
    "boxArtUrl": "https://images.launchbox-app.com/e3703260-ba19-416a-bb0b-199623699b9d.jpg",
+   "description": "An unofficial port of the Game Boy puzzle game Daedalian Opus, made for MSXdev'06, with the same play as the original in colour.",
    "developer": "Karoshi",
    "launchbox": "192137",
    "mobygames": 106195,
@@ -28549,6 +28533,7 @@
   },
   "msx:193566": {
    "boxArtUrl": "https://images.launchbox-app.com/1a317660-5da7-4ee1-ad55-b502bb5d3a13.jpg",
+   "description": "An entry in the 2006 Karoshi MSX-BASIC contest in which you help Mr. Nakago catch drinks to raise his score. The game ends after five missed drinks or when the score falls to zero.",
    "developer": "Crappysoft",
    "launchbox": "193566",
    "publisher": "Crappysoft",
@@ -28565,6 +28550,7 @@
    "title": "Droids en el Planeta Ingo"
   },
   "msx:193717": {
+   "description": "A BASIC contest entry in which a drop of water travels through a monster-filled labyrinth, using a shovel, a pick and a hammer to clear its way.",
    "developer": "MSXosaure",
    "launchbox": "193717",
    "publisher": "MSXosaure",
@@ -28573,6 +28559,7 @@
   },
   "msx:193718": {
    "boxArtUrl": "https://images.launchbox-app.com/eb64fbdc-e869-48f1-a6fa-d5f8d6a49b4d.png",
+   "description": "An unofficial port of the NES game Duck Hunt: your dog flushes ducks out of the marsh, one or two at a time, and you shoot them down before they fly away.",
    "developer": "Karoshi",
    "launchbox": "193718",
    "mobygames": 104990,
@@ -28811,6 +28798,7 @@
   },
   "msx:195295": {
    "boxArtUrl": "https://images.launchbox-app.com/e25f2879-a583-4805-9b4f-46103c047907.jpg",
+   "description": "An unlicensed MSX version of Gun.Smoke, a vertically scrolling shooter in which a lone gunman cleans the Wingate gang out of the gold-rush town of Hicksville, one wanted outlaw per stage.",
    "developer": "Prosoft",
    "launchbox": "195295",
    "mobygames": 14515,
@@ -28820,6 +28808,7 @@
   },
   "msx:195296": {
    "boxArtUrl": "https://images.launchbox-app.com/12bba3a6-532c-4fe9-a6c3-0e94ae0d5cc0.png",
+   "description": "An MSX take on the QBasic game Gorillas, made for a Karoshi mini-game contest: two monkeys take turns hurling explosive bananas at each other, setting the angle and power of each throw.",
    "developer": "Karoshi Corporation",
    "launchbox": "195296",
    "publisher": "Karoshi Corporation",
@@ -29002,6 +28991,7 @@
    "aliases": [
     "House"
    ],
+   "description": "A BASIC contest entry set in a mysterious house: collect the coins scattered through its rooms while ghosts chase you, with every exit locked until you do.",
    "developer": "Yermani Soft",
    "launchbox": "199047",
    "publisher": "Yermani Soft",
@@ -29437,6 +29427,7 @@
   },
   "msx:202183": {
    "boxArtUrl": "https://images.launchbox-app.com/53e9de92-b83a-4869-9baf-26c21415dc16.jpg",
+   "description": "A platform game in which a rabbit at his part-time job drops six packages onto a boat. He can drop a package on the enemies or turn red with a power-up to knock them out, but a fall from a ladder leaves him dizzy.",
    "developer": "Soft Pro International",
    "launchbox": "202183",
    "mobygames": 264555,
@@ -29706,6 +29697,7 @@
    "aliases": [
     "New Boggle Boggle"
    ],
+   "description": "A Korean remake of Bubble Bobble with new level layouts: one or two dragons trap the enemies of each single-screen stage in bubbles and pop them.",
    "developer": "MBiTM",
    "launchbox": "204049",
    "mobygames": 56693,
@@ -30282,6 +30274,7 @@
     "コスモトラベラー"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/517f7d18-5097-4b7c-8d81-ddda59e2548c.jpg",
+   "description": "A space shooter in which you fight off the enemies that descend from the top of the screen, dodging missiles and asteroid belts that cannot be shot. Clearing a round earns a bonus.",
    "developer": "Apollo Technica",
    "launchbox": "205665",
    "mobygames": 229404,
@@ -30765,6 +30758,7 @@
     "ミステリーハウス2"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/5b151885-0b16-43a0-b365-6bb30460830b.jpg",
+   "description": "A Japanese text adventure, the sequel to Mystery House: explore a mysterious house and find its hidden treasure by gathering the four notes that give the clues.",
    "developer": "Micro Cabin",
    "launchbox": "213710",
    "mobygames": 144602,
@@ -31609,6 +31603,7 @@
    "contentIds": [
     "sha256-rom-v1:729b829d15d05507a48f65e227a5a212121c0c8b866d8d934af97934323c055a"
    ],
+   "description": "A side-scrolling action game in which a young wizard sets out to rescue a captured princess, finding and collecting new kinds of attack along the way.",
    "developer": "Seibu Kaihatsu",
    "diskMachine": {
     "sha256-rom-v1:729b829d15d05507a48f65e227a5a212121c0c8b866d8d934af97934323c055a": {
@@ -32164,6 +32159,7 @@
    "contentIds": [
     "sha256-rom-v1:8375c73c0effa523bd18acfa4a1fbd1194dbb7fc1d4c7415cb9f3beb602803c3"
    ],
+   "description": "A first-person horror shooter played with a light gun, sold bundled with one. You fight your way through forests, dungeons, caverns and graveyards, each with its own monsters.",
    "developer": "ASCII",
    "diskMachine": {
     "sha256-rom-v1:8375c73c0effa523bd18acfa4a1fbd1194dbb7fc1d4c7415cb9f3beb602803c3": {
@@ -32592,6 +32588,7 @@
     "G.P. Formula 1 Simulator"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/49b549fc-a824-4ad3-aa4c-d802cf2882ab.png",
+   "description": "An unofficial Formula One game covering a 16-race season, played as practice, a single race or a full championship. Before each race you choose the tyres, a manual or automatic gearbox, the number of laps and the difficulty.",
    "developer": "Diabolic Software",
    "launchbox": "422331",
    "mobygames": 46639,
@@ -32800,6 +32797,7 @@
   },
   "msx:423513": {
    "boxArtUrl": "https://images.launchbox-app.com/14e6c08b-8733-4d41-b3e8-a0da4430e3e2.jpg",
+   "description": "A vertically scrolling shooter much like Xevious, which Namco released as the one new game in its Disk NG 1 collection of earlier MSX titles.",
    "developer": "Namco",
    "launchbox": "423513",
    "publisher": "Namco",
@@ -32812,6 +32810,7 @@
     "boxArt": "art/catalog/moby/50107/box-348dd299758e.webp",
     "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/50107/box-348dd299758e.webp"
    },
+   "description": "A side-scrolling space shooter in which you fly the Fire Hawk prototype to the Zeus galaxy through six planetary defence systems, each against the clock, picking up fuel along the way.",
    "launchbox": "423889",
    "mobygames": 50107,
    "title": "Firehawk"
@@ -33035,6 +33034,7 @@
   },
   "msx:450056": {
    "boxArtUrl": "https://images.launchbox-app.com/1f86e9e6-ef9b-4a8c-8bae-3631ac042272.jpg",
+   "description": "The first of Konami's five Game Collection disks, released only in Japan: Knightmare, Antarctic Adventure, Yie Ar Kung-Fu and its sequel, and King's Valley with a level editor.",
    "developer": "Konami",
    "launchbox": "450056",
    "mobygames": 78107,
@@ -33045,6 +33045,7 @@
   },
   "msx:450062": {
    "boxArtUrl": "https://images.launchbox-app.com/1787f310-9c78-496d-b696-32cbd2425f4e.jpg",
+   "description": "The second of Konami's Game Collection disks: Konami's Boxing, Konami's Tennis, the billiards game Video Hustler, Hyper Olympic 1 and Hyper Sports 2.",
    "developer": "Konami",
    "launchbox": "450062",
    "mobygames": 78109,
@@ -33055,6 +33056,7 @@
   },
   "msx:450072": {
    "boxArtUrl": "https://images.launchbox-app.com/555640d0-c6c6-4cfe-b710-d274ffac98a1.jpg",
+   "description": "The third of Konami's Game Collection disks, a set of shooters: Twin Bee, Super Cobra, Sky Jaguar, Time Pilot and Nemesis.",
    "developer": "Konami",
    "launchbox": "450072",
    "mobygames": 78111,
@@ -33065,6 +33067,7 @@
   },
   "msx:450074": {
    "boxArtUrl": "https://images.launchbox-app.com/518ad6c1-86e2-47f9-99f7-e1fb6a461778.jpg",
+   "description": "The fourth of Konami's Game Collection disks: Konami's Soccer, Konami's Ping Pong, Konami's Golf, Hyper Olympic 2 and Hyper Sports 3.",
    "developer": "Konami",
    "launchbox": "450074",
    "mobygames": 78113,
@@ -33124,6 +33127,7 @@
     "preview": "art/catalog/moby/19920/screenshot-d6028dc4f846.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/19920/screenshot-d6028dc4f846.webp"
    },
+   "description": "A top-down driving game through a maze of city streets: collect three white flags per round while hostile cars try to ram you head-on, picking up money bags and fuel along the way.",
    "launchbox": "452380",
    "mobygames": 19920,
    "publisher": "Iber Software",
@@ -33768,7 +33772,7 @@
   },
   "msx:91433": {
    "boxArtUrl": "https://images.launchbox-app.com/a92b391e-fb7a-4162-8d75-f23d09b01d86.jpg",
-   "description": "A tenpin bowling game by the authors of Leader Board.",
+   "description": "A tenpin bowling game from the authors of Leader Board, where timed presses set the angle, speed and hook of each ball. Three skill levels include one that sets the speed and hook for younger players.",
    "developer": "Paragon Programming",
    "launchbox": "91433",
    "mobygames": 15116,
@@ -33791,6 +33795,7 @@
    "contentIds": [
     "sha256-rom-v1:cdfbc0c248d679892682d0ebbfbee1a4962ae169af457745dd555b048c4687a8"
    ],
+   "description": "A platform game from ASCII in which you climb poles and move around the board to collect every fragment of a picture.",
    "developer": "Mass Tael",
    "diskMachine": {
     "sha256-rom-v1:cdfbc0c248d679892682d0ebbfbee1a4962ae169af457745dd555b048c4687a8": {
@@ -35826,6 +35831,7 @@
    "year": 1985
   },
   "msx:moby-100445": {
+   "description": "A helicopter puzzle game set in the Eindeloos caves, once a tourist attraction, now the lair of an alien being awakened on a moon of Neptune.",
    "mobygames": 100445,
    "title": "Endless",
    "year": 1986
@@ -35846,11 +35852,13 @@
     "preview": "art/catalog/moby/101758/screenshot-942c1b1920ef.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/101758/screenshot-942c1b1920ef.webp"
    },
+   "description": "A 1990 MSX2 disk magazine holding several games, among them The Holy Grail of Griel, a puzzle game in which a knight collects each round's key on his way to the Demon King.",
    "mobygames": 101758,
    "title": "Peach Up 4",
    "year": 1990
   },
   "msx:moby-10376": {
+   "description": "Two-on-two basketball on a full, horizontally scrolling court, with a referee calling the fouls. Your team starts on a set salary and climbs by beating better-paid teams.",
    "mobygames": 10376,
    "title": "Magic Johnson's Fast Break",
    "year": 1990
@@ -35860,6 +35868,7 @@
     "preview": "art/catalog/moby/10630/screenshot-4ac46a30e443.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/10630/screenshot-4ac46a30e443.webp"
    },
+   "description": "Mr. Do! the clown knocks out blocks on the floors of a castle with his hammer, trapping or crushing the unicorns that chase him.",
    "mobygames": 10630,
    "title": "Mr. Do!'s Castle",
    "year": 1984
@@ -35869,6 +35878,7 @@
     "preview": "art/catalog/moby/10650/screenshot-ad863e7a7bbf.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/10650/screenshot-ad863e7a7bbf.webp"
    },
+   "description": "A side-scrolling beat-'em-up in which an unnamed hero fights through five locations, from city streets to a junkyard, to rescue his girlfriend Maria from the Rogues gang, with fists, feet and a chain.",
    "mobygames": 10650,
    "title": "Vigilante",
    "year": 1989
@@ -35881,6 +35891,7 @@
    "contentIds": [
     "sha256-rom-v1:062aeefd04e6ac28f565c15bd1010fc2a007bfbe8d3898ff8586778462091470"
    ],
+   "description": "The follow-up to Scramble: fly a helicopter through ten increasingly difficult enemy defences to a fortified base and recover its treasure, as the screen scrolls constantly to the left.",
    "diskMachine": {
     "sha256-rom-v1:062aeefd04e6ac28f565c15bd1010fc2a007bfbe8d3898ff8586778462091470": {
      "machine": "C-BIOS_MSX1_JP"
@@ -35906,11 +35917,13 @@
     "preview": "art/catalog/moby/113647/screenshot-52a11f44537d.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/113647/screenshot-52a11f44537d.webp"
    },
+   "description": "A remake of the 1984 PC text-mode game Grime for Z80 machines, a shooter in the spirit of Centipede crossed with Conway's Game of Life, against a spreading ooze.",
    "mobygames": 113647,
    "title": "Grime Z80",
    "year": 2018
   },
   "msx:moby-116793": {
+   "description": "A collection of games themed on Snatcher and SD Snatcher, first published in the Future Disk magazine, including Junker Squad, a shooting gallery against snatchers.",
    "mobygames": 116793,
    "title": "FD Konami Collection",
    "year": 1999
@@ -35920,6 +35933,7 @@
     "preview": "art/catalog/moby/118103/screenshot-bc715d0803ee.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/118103/screenshot-bc715d0803ee.webp"
    },
+   "description": "A single-screen platform game in which a young witch paints light back into the night sky with her wand while a rival undoes her work and a stray cat wanders the stage.",
    "mobygames": 118103,
    "title": "Witches",
    "year": 2018
@@ -35929,6 +35943,7 @@
     "preview": "art/catalog/moby/119465/screenshot-c92861a21295.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/119465/screenshot-c92861a21295.webp"
    },
+   "description": "An action role-playing game set in a Japan of the late 16th century, divided between east and west: a ninja of the western clan gathers intelligence on enemy movements and helps his side conquer the country.",
    "mobygames": 119465,
    "title": "Ninja",
    "year": 1988
@@ -35938,11 +35953,13 @@
     "preview": "art/catalog/moby/1196/screenshot-bf92117dda61.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/1196/screenshot-bf92117dda61.webp"
    },
+   "description": "A text adventure with pictures based on Erle Stanley Gardner's Perry Mason stories: a woman is jailed after her wealthy husband is found dead, and Mason must prove her innocence.",
    "mobygames": 1196,
    "title": "Perry Mason: The Case of the Mandarin Murder",
    "year": 1986
   },
   "msx:moby-1204": {
+   "description": "Level 9's three early adventures, Colossal Adventure, Adventure Quest and Dungeon Adventure, collected with pictures and without the Middle-earth references of their first releases.",
    "mobygames": 1204,
    "title": "Jewels of Darkness",
    "year": 1986
@@ -35952,6 +35969,7 @@
     "boxArt": "art/catalog/moby/12261/box-d1a6fd831ca2.webp",
     "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/12261/box-d1a6fd831ca2.webp"
    },
+   "description": "Level 9's science-fiction trilogy of text adventures, Snowball, Return to Eden and Worm in Paradise. They can be played separately, but the highest score comes from completing them in order.",
    "mobygames": 12261,
    "title": "Silicon Dreams",
    "year": 1986
@@ -35961,6 +35979,7 @@
     "preview": "art/catalog/moby/122777/screenshot-51e61d77f01e.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/122777/screenshot-51e61d77f01e.webp"
    },
+   "description": "A first-person maze game inspired by 3D Monster Maze: escape ten labyrinths on the planet Al-Mazar, shooting the robot guards that patrol them. A rising hum warns when one is near.",
    "mobygames": 122777,
    "title": "Illegus Episode IV",
    "year": 1983
@@ -35980,6 +35999,7 @@
     "boxArt": "art/catalog/moby/12594/box-47eccfe39d9d.webp",
     "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/12594/box-47eccfe39d9d.webp"
    },
+   "description": "A football management board game for two to five players, each running a club through the season and building up his team.",
    "mobygames": 12594,
    "title": "Brian Clough's Football Fortunes",
    "year": 1987
@@ -35989,6 +36009,7 @@
     "preview": "art/catalog/moby/127559/screenshot-5742e1b62445.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/127559/screenshot-5742e1b62445.webp"
    },
+   "description": "Pig Mock catches eggs in a frying pan as cloud creatures drop them, carrying them to funnels at the sides of the screen and throwing eggs back up to strike the creatures.",
    "mobygames": 127559,
    "title": "Pig Mock",
    "year": 1983
@@ -35998,11 +36019,13 @@
     "boxArt": "art/catalog/moby/1292/box-5f34eb35e264.webp",
     "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/1292/box-5f34eb35e264.webp"
    },
+   "description": "A text adventure with pictures in which Grindleguts the Orc swears revenge on humankind. The world runs in real time, with each character following a daily routine.",
    "mobygames": 1292,
    "title": "Knight Orc",
    "year": 1987
   },
   "msx:moby-129487": {
+   "description": "A book of type-in programs, among them Tower of Terror, an adventure where your pulse rises with every room you enter, and Skulls of the Pyramid, a pachinko-like scoring game.",
    "mobygames": 129487,
    "title": "Weird Computer Games",
    "year": 1985
@@ -36018,6 +36041,7 @@
     "preview": "art/catalog/moby/132167/screenshot-90d55aec6172.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/132167/screenshot-90d55aec6172.webp"
    },
+   "description": "A platform shooter about Santos Gimenez, a former graveyard guard whose wife was kidnapped by a drug lord said to be the reincarnation of an Aztec priest, who raised an ancient guard from the dead.",
    "mobygames": 132167,
    "title": "Zombie Calavera: Prologue",
    "year": 2021
@@ -36027,11 +36051,13 @@
     "boxArt": "art/catalog/moby/132197/box-d92fe5b12af8.webp",
     "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/132197/box-d92fe5b12af8.webp"
    },
+   "description": "An adventure based on Jules Verne's novel, in the five-part form first released for 16-bit computers as Viaje al centro de la tierra, as the explorers descend through the Earth's interior.",
    "mobygames": 132197,
    "title": "Journey to the Centre of the Earth: Extended Version",
    "year": 2017
   },
   "msx:moby-13496": {
+   "description": "A conversion of the animated laserdisc game: in the year 4001 the time-travelling scientist Reika chases the villain Luna through history to recover a stolen time machine, reacting at the right moment in each scene.",
    "mobygames": 13496,
    "title": "Time Gal",
    "year": 1986
@@ -36053,6 +36079,7 @@
     "preview": "art/catalog/moby/13907/screenshot-6306e749a030.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/13907/screenshot-6306e749a030.webp"
    },
+   "description": "The earliest home computer version of the trivia board game: answer questions in six categories to move around the board, win the six wedges, then take on the final question.",
    "mobygames": 13907,
    "title": "Trivial Pursuit",
    "year": 1986
@@ -36062,11 +36089,13 @@
     "preview": "art/catalog/moby/140432/screenshot-053d5d8c1857.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/140432/screenshot-053d5d8c1857.webp"
    },
+   "description": "A text adventure in which Olivia Lund wakes alone from more than two hundred years of hypersleep aboard her stranded ship, the Polaris-7, with only its artificial intelligence, Io, for company.",
    "mobygames": 140432,
    "title": "Hibernated 1: This Place Is Death",
    "year": 2019
   },
   "msx:moby-14099": {
+   "description": "An educational mystery in which you investigate strange events at the old Cable mansion in Granite Point, where lights switch themselves on and phones ring with no one on the line since the Kim family moved in.",
    "mobygames": 14099,
    "title": "Snooper Troops",
    "year": 1986
@@ -36076,6 +36105,7 @@
     "preview": "art/catalog/moby/141060/screenshot-dcaba58c4e38.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/141060/screenshot-dcaba58c4e38.webp"
    },
+   "description": "A Dutch text adventure about the disappearance of Leon H. Rabburd, the leader of a supposedly defunct religious sect, who vanished from Achnasheen in 1962.",
    "mobygames": 141060,
    "title": "De Sekte...",
    "year": 1987
@@ -36095,6 +36125,7 @@
     "preview": "art/catalog/moby/144572/screenshot-cb6eecf63866.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/144572/screenshot-cb6eecf63866.webp"
    },
+   "description": "A Dutch touch-typing course in seven lessons, from the keyboard's home row through the other rows, numbers, words and sentences to whole texts, with a game to put the practice to use.",
    "mobygames": 144572,
    "title": "Tempo Typen",
    "year": 1986
@@ -36104,16 +36135,19 @@
     "preview": "art/catalog/moby/144573/screenshot-b25fad57ee71.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/144573/screenshot-b25fad57ee71.webp"
    },
+   "description": "A Dutch crossword generator: each game builds a new random puzzle, and you move a cursor around the grid to fill in the words.",
    "mobygames": 144573,
    "title": "Kruiswoord",
    "year": 1986
   },
   "msx:moby-144613": {
+   "description": "One of the earliest Japanese text adventures with pictures: search a three-storey building for a hidden diamond worth ten million yen, collecting and using items to get further.",
    "mobygames": 144613,
    "title": "Diamond Adventure",
    "year": 1983
   },
   "msx:moby-144634": {
+   "description": "A Japanese adventure in which you search a mansion for treasure, typing simple two-word English commands, a verb and then a noun, to use the items you find.",
    "mobygames": 144634,
    "title": "Worry",
    "year": 1985
@@ -36123,16 +36157,19 @@
     "preview": "art/catalog/moby/145781/screenshot-62503c206050.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/145781/screenshot-62503c206050.webp"
    },
+   "description": "A text adventure with pictures set in 1862: when your coachman gets lost in the Black Forest and then disappears, you find a small village where strange things are happening.",
    "mobygames": 145781,
    "title": "The Curse of Rabenstein",
    "year": 2022
   },
   "msx:moby-145952": {
+   "description": "A survival adventure in which a spy plane pilot downed in Siberia must evade enemy troops and the cold to escape across the border into China, seen in first-person scenes.",
    "mobygames": 145952,
    "title": "Shadow of the Bear",
    "year": 1985
   },
   "msx:moby-145954": {
+   "description": "A text adventure in which the captain of the salvage tug Narwal searches the Arctic sea for the wreck of HMS Bearheart, a Second World War ship said to have carried a valuable cargo.",
    "mobygames": 145954,
    "title": "North Sea Bullion Adventure",
    "year": 1985
@@ -36142,16 +36179,19 @@
     "preview": "art/catalog/moby/14761/screenshot-f3e568c6d818.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/14761/screenshot-f3e568c6d818.webp"
    },
+   "description": "An adventure based on François Bourgeon's comic series: on the eve of the French Revolution, Hoel and Isa travel from Brittany to the shores of Africa in search of the truth about Isa's past.",
    "mobygames": 14761,
    "title": "Passengers on the Wind",
    "year": 1986
   },
   "msx:moby-15084": {
+   "description": "A top-down action game in which a decommissioned RoboWarrior is sent to the artificial planet Altile, clearing a path through its terrain with bombs and fighting off its hostile machines.",
    "mobygames": 15084,
    "title": "RoboWarrior",
    "year": 1988
   },
   "msx:moby-15160": {
+   "description": "The follow-up to The Secret Diary of Adrian Mole, on the same Level 9 system: eighteen months of Adrian's life, where at each turn you choose one of three things for him to do and see how his diary entry turns out.",
    "mobygames": 15160,
    "title": "The Growing Pains of Adrian Mole",
    "year": 1987
@@ -36161,6 +36201,7 @@
     "preview": "art/catalog/moby/151988/screenshot-371ef13b6834.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/151988/screenshot-371ef13b6834.webp"
    },
+   "description": "A text adventure by Davide Bucci set in Italy in 1904 and steeped in history: the young archaeologist Emilia Vittorini returns home from nine months on an excavation in Egypt.",
    "mobygames": 151988,
    "title": "The Queen's Footsteps",
    "year": 2020
@@ -36181,6 +36222,7 @@
     "boxArt": "art/catalog/moby/157550/box-8af1b123b280.webp",
     "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/157550/box-8af1b123b280.webp"
    },
+   "description": "The second shogi game featuring the professional player Kōji Tanigawa, in which you work your way toward master rank by defeating four rival players.",
    "mobygames": 157550,
    "title": "Tanigawa Kōji no Shōgi Shinan II: Meijin e no Michi",
    "year": 1988
@@ -36190,6 +36232,7 @@
     "preview": "art/catalog/moby/15803/screenshot-279630420877.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/15803/screenshot-279630420877.webp"
    },
+   "description": "A platform game in which the hero Redham searches a castle full of dragons, guards, spiders and wizards for the three star stones hidden in locked chests, to rescue Taleria.",
    "mobygames": 15803,
    "title": "Conquestador",
    "year": 1986
@@ -36201,6 +36244,7 @@
     "preview": "art/catalog/moby/15864/screenshot-4749e029912e.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/15864/screenshot-4749e029912e.webp"
    },
+   "description": "A vertically scrolling shooter in which the jet fighter Power Strike defends Earth from mutant plants and their brainwashed human followers, in the air and on the ground.",
    "mobygames": 15864,
    "title": "Power Strike",
    "year": 1988
@@ -36230,6 +36274,7 @@
     "preview": "art/catalog/moby/16840/screenshot-b976ea6e3363.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/16840/screenshot-b976ea6e3363.webp"
    },
+   "description": "A Level 9 text adventure with pictures: the Red Moon Crystal that preserved the last of the world's magic has been stolen and hidden in an enchanted castle, and the kingdom of Baskalos is falling into chaos.",
    "mobygames": 16840,
    "title": "Red Moon",
    "year": 1985
@@ -36239,11 +36284,13 @@
     "preview": "art/catalog/moby/17130/screenshot-5a12e7a7f74b.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/17130/screenshot-5a12e7a7f74b.webp"
    },
+   "description": "A boxing game seen from behind your fighter: win four bouts in a row, each tougher than the last, to become the champion.",
    "mobygames": 17130,
    "title": "Rocco",
    "year": 1985
   },
   "msx:moby-183694": {
+   "description": "A first-person helicopter simulator of rescue missions over the North Sea, with a detailed instrument panel, a map and digitised voices.",
    "mobygames": 183694,
    "title": "North Sea Helicopter",
    "year": 1985
@@ -36253,11 +36300,13 @@
     "preview": "art/catalog/moby/188308/screenshot-0ddb73918dea.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/188308/screenshot-0ddb73918dea.webp"
    },
+   "description": "A puzzle game with roguelike elements in which you guide a hero who will not walk into the dark, moving torches and sliding lights along rails to light a path to the exit.",
    "mobygames": 188308,
    "title": "Tenebra",
    "year": 2023
   },
   "msx:moby-18941": {
+   "description": "Five-a-side indoor football in which the ball rebounds off the walls around the pitch, with three skill levels and a two-player mode.",
    "mobygames": 18941,
    "title": "Indoor Soccer",
    "year": 1987
@@ -36269,6 +36318,7 @@
     "preview": "art/catalog/moby/19067/screenshot-6fa41d59f6c5.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/19067/screenshot-6fa41d59f6c5.webp"
    },
+   "description": "An action game based on the comic strip, in three parts: Flash races through a desolate forest, avoiding holes and the minions of Barin, on the way to the Cave of Barin.",
    "mobygames": 19067,
    "title": "Captain Zapp",
    "year": 1987
@@ -36278,6 +36328,7 @@
     "boxArt": "art/catalog/moby/192901/box-646e7a44fc2f.webp",
     "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/192901/box-646e7a44fc2f.webp"
    },
+   "description": "A vertically scrolling action game in which you steer a ball that bounces at a steady pace from platform to platform, moving it only while it is in the air to avoid the gaps.",
    "mobygames": 192901,
    "title": "Dim X",
    "year": 2016
@@ -36287,11 +36338,13 @@
     "boxArt": "art/catalog/moby/192902/box-663a80ac7812.webp",
     "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/192902/box-663a80ac7812.webp"
    },
+   "description": "A side-scrolling beat-'em-up for one or two players in the spirit of Double Dragon and the early Technos games it is dedicated to. Knocked-out enemies can be picked up and thrown at the others.",
    "mobygames": 192902,
    "title": "Nuts",
    "year": 1997
   },
   "msx:moby-193611": {
+   "description": "A turn-based strategy game in which you lead a non-violent protest by the villagers of Holdfast, who demand a school and a clinic from the government of Dictatoria in return for their taxes.",
    "mobygames": 193611,
    "title": "Hold Fast",
    "year": 1984
@@ -36301,6 +36354,7 @@
     "preview": "art/catalog/moby/1941/screenshot-2685a9b63b87.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/1941/screenshot-2685a9b63b87.webp"
    },
+   "description": "A motorcycle racing game based on the 80cc world championship, licensed around the Spanish rider Jorge Martínez 'Aspar', with practice, qualifying and races.",
    "mobygames": 1941,
    "title": "Grand Prix Master",
    "year": 1988
@@ -36310,6 +36364,7 @@
     "preview": "art/catalog/moby/19501/screenshot-888491136fd3.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/19501/screenshot-888491136fd3.webp"
    },
+   "description": "A conversion of Taito's arcade game Scramble Formation: fly a biplane over Tokyo, gathering extra biplanes into formations for more firepower, and face a giant enemy at the end of each level.",
    "mobygames": 19501,
    "title": "Tokio",
    "year": 1987
@@ -36331,6 +36386,7 @@
     "preview": "art/catalog/moby/195611/screenshot-d6e26ced9bec.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/195611/screenshot-d6e26ced9bec.webp"
    },
+   "description": "A text adventure in which secret agent 001, called away from a quiet evening with his girlfriend, must find the base of his arch-enemy Bogfeld and steal an advanced aircraft.",
    "mobygames": 195611,
    "title": "Spy Story",
    "year": 1986
@@ -36345,6 +36401,7 @@
     "boxArt": "art/catalog/moby/195731/box-7c2f6a8a893d.webp",
     "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/195731/box-7c2f6a8a893d.webp"
    },
+   "description": "A Japanese fantasy role-playing game following three adventurers, with Dragon Quest-style first-person battles, written by Atsushi Saito in junior high school in 1987 and finally released in 2022.",
    "mobygames": 195731,
    "title": "Traditional Story",
    "year": 2022
@@ -36358,6 +36415,7 @@
     "sha256-rom-v1:0012a61b7eb4100a598d407e081624bd6ed6969f6b8b0c7c2f81f595ff4da911",
     "sha256-rom-v1:2ea80d02fadd25c97e63ab109f10ca43659872533de6c90cea10075f3b0b5a93"
    ],
+   "description": "A crossbowman protects his king from squads of hot-air balloons trying to carry him away, shooting them down before they lift the king into the sky.",
    "diskMachine": {
     "sha256-rom-v1:0012a61b7eb4100a598d407e081624bd6ed6969f6b8b0c7c2f81f595ff4da911": {
      "machine": "C-BIOS_MSX1_JP"
@@ -36385,6 +36443,7 @@
     "preview": "art/catalog/moby/19641/screenshot-0834b3520548.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/19641/screenshot-0834b3520548.webp"
    },
+   "description": "The fourth Mr. Do! game: the clown collects balls to reload his throwing weapon on a field of different heights, while the trail he leaves can be used to trap his enemies.",
    "mobygames": 19641,
    "title": "Do! Run Run",
    "year": 1988
@@ -36394,6 +36453,7 @@
     "preview": "art/catalog/moby/19665/screenshot-354384e8c254.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/19665/screenshot-354384e8c254.webp"
    },
+   "description": "The sequel to Exerion, a shooter with parallax backgrounds and inertia in the ship's movement, which pairs a slow double-shot cannon with a fast single-shot cannon whose supply the slow one replenishes.",
    "mobygames": 19665,
    "title": "Zorni: Exerion II",
    "year": 1984
@@ -36403,6 +36463,7 @@
     "preview": "art/catalog/moby/19705/screenshot-50abb504915b.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/19705/screenshot-50abb504915b.webp"
    },
+   "description": "A compilation disk from Compile including Aleste Gaiden, a vertical shooter never released on its own, along with Children Wars, Thexder and demo versions of Crimson II and J.B. Harold 3.",
    "mobygames": 19705,
    "title": "Disc Station Special 4: Autumn Edition",
    "year": 1989
@@ -36417,6 +36478,7 @@
    "contentIds": [
     "sha256-rom-v1:4984380f2010daaff49ceeab5c336dc3bc3830c8489961f351bd3c72aac3251c"
    ],
+   "description": "A Laydock shooter set between the first and second games, for one or two players, where two players can dock their jets together, side by side or end to end, for greater firepower.",
    "diskMachine": {
     "sha256-rom-v1:4984380f2010daaff49ceeab5c336dc3bc3830c8489961f351bd3c72aac3251c": {
      "machine": "C-BIOS_MSX1_JP"
@@ -36436,6 +36498,7 @@
     "preview": "art/catalog/moby/19769/screenshot-4e31464a0cd7.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/19769/screenshot-4e31464a0cd7.webp"
    },
+   "description": "Mahjong against three computer opponents at three levels of difficulty.",
    "mobygames": 19769,
    "title": "Mahjong Dōjō",
    "year": 1984
@@ -36453,6 +36516,7 @@
     "preview": "art/catalog/moby/19853/screenshot-06d87411ed24.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/19853/screenshot-06d87411ed24.webp"
    },
+   "description": "A Harrier jump jet simulation written by a real Harrier pilot, Vaughan Dow, played at four ranks from Flight Lieutenant to Group Captain, with a practice mode.",
    "mobygames": 19853,
    "title": "Harrier Mission",
    "year": 1985
@@ -36462,6 +36526,7 @@
     "preview": "art/catalog/moby/19912/screenshot-7b6943447903.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/19912/screenshot-7b6943447903.webp"
    },
+   "description": "The sequel to Fernando Martín Basket Master, a one-on-one basketball game dedicated to the first Spanish and first European player in the NBA.",
    "mobygames": 19912,
    "title": "Fernando Martín Executive",
    "year": 1987
@@ -36471,6 +36536,7 @@
     "preview": "art/catalog/moby/199165/screenshot-e7b9899916a9.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/199165/screenshot-e7b9899916a9.webp"
    },
+   "description": "A text adventure with pictures set in the present day, combining direction keys for movement with typed verb-and-noun commands for actions.",
    "mobygames": 199165,
    "title": "Torreoscura",
    "year": 2020
@@ -36482,11 +36548,13 @@
    "year": 1985
   },
   "msx:moby-200038": {
+   "description": "The first part of a puzzle game about a real treasure hunt: follow a hare through a forest, where the positions of the trees, rocks and sun on each screen hold clues to where the treasure is hidden.",
    "mobygames": 200038,
    "title": "Hareraiser: Prelude",
    "year": 1984
   },
   "msx:moby-200081": {
+   "description": "The final part of the Hareraiser treasure hunt: follow the hare through a night-time forest, reading the clues hidden in the trees, rocks, a spider and the moon.",
    "mobygames": 200081,
    "title": "Hareraiser: Finale",
    "year": 1984
@@ -36496,6 +36564,7 @@
     "preview": "art/catalog/moby/20023/screenshot-c93d8293bec5.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/20023/screenshot-c93d8293bec5.webp"
    },
+   "description": "A chess program with six clearly distinct difficulty levels and an analysis mode for studying games and the problems printed in magazines.",
    "mobygames": 20023,
    "title": "Megachess",
    "year": 1988
@@ -36511,6 +36580,7 @@
     "boxArt": "art/catalog/moby/20077/box-73bb6051524b.webp",
     "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/20077/box-73bb6051524b.webp"
    },
+   "description": "A compilation of Spanish sports games: Basket Master, Aspar GP Master, Choy-Lee-Fut Kung-Fu Warrior, Michel Fútbol Master and Super Skills, and Simulador Profesional de Tenis.",
    "mobygames": 20077,
    "title": "Multi Sports",
    "year": 1991
@@ -36538,11 +36608,13 @@
     "preview": "art/catalog/moby/20248/screenshot-06e4298e4f96.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/20248/screenshot-06e4298e4f96.webp"
    },
+   "description": "A boxing game in a three-quarter top-down view, with jabs, body punches, ducking, dodging and blocking. Each punch saps your opponent's strength, which recovers a little between rounds.",
    "mobygames": 20248,
    "title": "Ring King",
    "year": 1988
   },
   "msx:moby-202742": {
+   "description": "A text adventure in which you explore the Caverns of Doom for their hidden treasures, gathering weapons, armour and other items and fighting a zombie, a minotaur and a spectre.",
    "mobygames": 202742,
    "title": "Caverns of Doom",
    "year": 1984
@@ -36554,6 +36626,7 @@
     "preview": "art/catalog/moby/20375/screenshot-64b5702788ef.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/20375/screenshot-64b5702788ef.webp"
    },
+   "description": "The first official computer version of Scrabble, with a dictionary of the most commonly used words.",
    "mobygames": 20375,
    "title": "The Computer Edition of Scrabble Brand Crossword Game",
    "year": 1985
@@ -36563,6 +36636,7 @@
     "preview": "art/catalog/moby/20397/screenshot-693d529ca7bd.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/20397/screenshot-693d529ca7bd.webp"
    },
+   "description": "A Space Invaders-style fixed-screen shooter: your ship holds the bottom of the screen while enemies of several kinds, each with its own attack, dance above and rain down bombs.",
    "mobygames": 20397,
    "title": "Hiper Tronic",
    "year": 1987
@@ -36572,6 +36646,7 @@
     "preview": "art/catalog/moby/203986/screenshot-8210c3cfe620.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/203986/screenshot-8210c3cfe620.webp"
    },
+   "description": "An educational Space Invaders for children aged four to twelve: answer the sum shown at the bottom of the screen to shoot down the rows of invaders creeping toward you.",
    "mobygames": 203986,
    "title": "Maths Invaders",
    "year": 1985
@@ -36583,11 +36658,13 @@
     "preview": "art/catalog/moby/20417/screenshot-7763be746b94.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/20417/screenshot-7763be746b94.webp"
    },
+   "description": "A darts game played over three sets of 501, against a friend or in a knockout championship against eight computer opponents.",
    "mobygames": 20417,
    "title": "Pub Darts",
    "year": 1987
   },
   "msx:moby-204611": {
+   "description": "A Dutch educational program that teaches addition and subtraction to children aged six to nine, with five to twenty-five sums per session at five levels of difficulty.",
    "mobygames": 204611,
    "title": "Edusom",
    "year": 1984
@@ -36603,11 +36680,13 @@
     "preview": "art/catalog/moby/208583/screenshot-508e03579d04.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/208583/screenshot-508e03579d04.webp"
    },
+   "description": "A Dutch text adventure set in the kingdom of Langlevia, where the wise King Wohar I has been blessed with triplet sons as his heirs.",
    "mobygames": 208583,
    "title": "Het Geheim van de drie burchten",
    "year": 1986
   },
   "msx:moby-209194": {
+   "description": "A text adventure in which a giant eagle snatches you on your way home from the tavern and leaves you on a ledge in the Old Grey Mountains, from which you must escape the mountains and the Dragon Tower.",
    "mobygames": 209194,
    "title": "Dragon Tower",
    "year": 1984
@@ -36623,6 +36702,7 @@
     "preview": "art/catalog/moby/209670/screenshot-8e98772299dc.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/209670/screenshot-8e98772299dc.webp"
    },
+   "description": "A Breakout variant without a bat: you clear the blocks by steering a bouncing ball, Bouncer, which rebounds off whatever it hits.",
    "mobygames": 209670,
    "title": "Bounce",
    "year": 1987
@@ -36632,6 +36712,7 @@
     "preview": "art/catalog/moby/210188/screenshot-24483c7da90c.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/210188/screenshot-24483c7da90c.webp"
    },
+   "description": "A Missile Command-style game in which a cadet of the Kenobian Air Defence shoots down the laser pulses fired at six cities from space, protecting them from three defence stations.",
    "mobygames": 210188,
    "title": "Star Wars",
    "year": 1986
@@ -36641,6 +36722,7 @@
     "preview": "art/catalog/moby/210407/screenshot-4afefebf8eb0.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/210407/screenshot-4afefebf8eb0.webp"
    },
+   "description": "A remake of the Wang 2200 game Martian War: fly your fighter just above the ground, shooting the invading Martians overhead before they wipe out the people below.",
    "mobygames": 210407,
    "title": "Martian War",
    "year": 2023
@@ -36666,11 +36748,13 @@
     "preview": "art/catalog/moby/212341/screenshot-db170c466a91.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/212341/screenshot-db170c466a91.webp"
    },
+   "description": "A snake game: eat blue and purple balls for points and length until the screen is clear, while black and white dots occasionally appear with bonuses.",
    "mobygames": 212341,
    "title": "Snake",
    "year": 1987
   },
   "msx:moby-213003": {
+   "description": "A remake of Mazes Unlimited with the same play but larger, scrolling mazes and bigger sprites.",
    "mobygames": 213003,
    "title": "Maze Master",
    "year": 1988
@@ -36680,41 +36764,49 @@
     "preview": "art/catalog/moby/214039/screenshot-5f414e41ba88.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/214039/screenshot-5f414e41ba88.webp"
    },
+   "description": "A flight action game in two parts: fly a Crusader jet against an enemy fighter, then man a surface-to-air missile system defending your country from attack.",
    "mobygames": 214039,
    "title": "Jet Fighter",
    "year": 1985
   },
   "msx:moby-214042": {
+   "description": "A Dutch educational program for twelve- to fifteen-year-olds introducing analytical geometry: a lesson on vectors, then exercises with coordinate systems and the points on them.",
    "mobygames": 214042,
    "title": "Kaereltje leert wiskunde: Wiskunde I",
    "year": 1985
   },
   "msx:moby-214274": {
+   "description": "The first MSX Compilation, collecting five games published by Aackosoft and Eaglesoft: Alpha Blaster, Jet Fighter, Kaereltje leert wiskunde: Wiskunde I, Skramble and Space Busters.",
    "mobygames": 214274,
    "title": "MSX Compilation 1",
    "year": 1985
   },
   "msx:moby-214331": {
+   "description": "The third MSX Compilation, collecting four games published by Aackosoft and Eaglesoft: Chuckie Egg, Eddie Kidd Jump Challenge, Maths Invaders and Sorcery.",
    "mobygames": 214331,
    "title": "MSX Compilation 3",
    "year": 1986
   },
   "msx:moby-214405": {
+   "description": "The fourth MSX Compilation, collecting four games published by Aackosoft and Eaglesoft: Boom!, MacAttack, Scentipede and Space Busters.",
    "mobygames": 214405,
    "title": "MSX Compilation 4",
    "year": 1986
   },
   "msx:moby-214417": {
+   "description": "The fifth MSX Compilation, collecting four games published by Aackosoft and Eaglesoft: Hopper, Kick It!, Oh Shit! and Space Rescue.",
    "mobygames": 214417,
    "title": "MSX Compilation 5",
    "year": 1986
   },
   "msx:moby-214433": {
+   "description": "The sixth MSX Compilation, collecting four games published by Aackosoft and Eaglesoft: Ice, Moonrider, Robot Wars and Smack Wacker.",
    "mobygames": 214433,
    "title": "MSX Compilation 6",
    "year": 1987
   },
   "msx:moby-214663": {
+   "description": "A sliding-tile puzzle built from pictures of classic MSX and MSX2 games: choose a game's image and a grid from 4×4 to 7×7, then put the picture back together.",
    "mobygames": 214663,
    "title": "Puzzle Mania: MSX GOTO 40 Edition",
    "year": 2023
@@ -36730,6 +36822,7 @@
    "year": 1983
   },
   "msx:moby-217495": {
+   "description": "A young thunder god riding a cloud through the sky strikes rival thunder boys and the rockets that rise toward him, collecting fruit to recharge his lightning.",
    "mobygames": 217495,
    "title": "Kaminari Bōya",
    "year": 1984
@@ -36745,6 +36838,7 @@
    "year": 1983
   },
   "msx:moby-219382": {
+   "description": "An isometric action game in which a soldier with a hammer clears his platform of invading red soldiers, using warp pads to cross it while avoiding bombs and fireballs.",
    "mobygames": 219382,
    "title": "Dimensional Wars",
    "year": 1984
@@ -36762,6 +36856,7 @@
    "year": 1984
   },
   "msx:moby-223452": {
+   "description": "The second Bomberman game, a first-person remake of the original: escape a maze of blocks in the building where you are held, bombing your way past the balloon-shaped ghosts.",
    "mobygames": 223452,
    "title": "Sanjigen Bomberman",
    "year": 1984
@@ -36771,6 +36866,7 @@
     "preview": "art/catalog/moby/22416/screenshot-d4fd3d10ad79.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/22416/screenshot-d4fd3d10ad79.webp"
    },
+   "description": "The preview issue of Compile's long-running disk magazine, with games alongside editorials, artwork and readers' contributions.",
    "mobygames": 22416,
    "title": "Disk Station #0",
    "year": 1988
@@ -36780,6 +36876,7 @@
     "preview": "art/catalog/moby/224915/screenshot-d36d94180895.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/224915/screenshot-d36d94180895.webp"
    },
+   "description": "The second of Hudson's W series compilations, pairing Help! and Sea Bomber, both released on the MSX only here.",
    "mobygames": 224915,
    "title": "Help! / Sea Bomber",
    "year": 1983
@@ -36789,6 +36886,7 @@
     "preview": "art/catalog/moby/224916/screenshot-a63d0f98bf06.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/224916/screenshot-a63d0f98bf06.webp"
    },
+   "description": "The third of Hudson's W series compilations, pairing Fire Ball and Akarui Nōen, both released on the MSX only here.",
    "mobygames": 224916,
    "title": "Fire Ball / Akarui Nōen",
    "year": 1983
@@ -36799,6 +36897,7 @@
     "preview": "art/catalog/moby/227748/screenshot-cf582fc37c86.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/227748/screenshot-cf582fc37c86.webp"
    },
+   "description": "A sliding-tile picture puzzle made for MSXdev24: choose a picture and a grid size, from 4×4 up, and put it back together.",
    "mobygames": 227748,
    "title": "Puzzle Mania: MSXdev24 Edition",
    "year": 2024
@@ -36808,6 +36907,7 @@
     "boxArt": "art/catalog/moby/228160/box-52fc998bf531.webp",
     "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/228160/box-52fc998bf531.webp"
    },
+   "description": "A short text adventure with pictures in which you search for a rune of power to complete the ritual that will make you a druid.",
    "mobygames": 228160,
    "title": "Rite of the Druid",
    "year": 2022
@@ -36817,11 +36917,13 @@
     "boxArt": "art/catalog/moby/22841/box-01f4808ef62d.webp",
     "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/22841/box-01f4808ef62d.webp"
    },
+   "description": "A football management game: take a team from below the top division toward league and European glory, with a squad of up to fifteen players, transfers and bank loans.",
    "mobygames": 22841,
    "title": "Champions!",
    "year": 1985
   },
   "msx:moby-228732": {
+   "description": "An isometric take on Missile Command: defend Japan's cities from a shower of bubbles falling from space by firing missiles from ten shuttles, with a bonus for each city saved.",
    "mobygames": 228732,
    "title": "Bubble Kund 1999",
    "year": 1984
@@ -36833,6 +36935,7 @@
    "year": 1984
   },
   "msx:moby-23260": {
+   "description": "The follow-up to Moon Cresta: a vertically scrolling shooter across a besieged planet's ocean, industrial and other zones, destroying ground turrets and alien attackers.",
    "mobygames": 23260,
    "title": "Terra Cresta",
    "year": 1988
@@ -36842,6 +36945,7 @@
     "preview": "art/catalog/moby/23363/screenshot-beda65abc625.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/23363/screenshot-beda65abc625.webp"
    },
+   "description": "A Level 9 science-fiction text adventure: secret agent Kim Kimberley wakes from her hidden freezer aboard the colony ship Snowball 9, carrying two million sleeping colonists to Eden, to deal with sabotage on board.",
    "mobygames": 23363,
    "title": "Snowball",
    "year": 1984
@@ -36851,6 +36955,7 @@
     "preview": "art/catalog/moby/23369/screenshot-c8333bd7d86c.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/23369/screenshot-c8333bd7d86c.webp"
    },
+   "description": "The sequel to Snowball: Kim Kimberley reaches the planet Eden, whose plants and animals have fought back against the robots colonising it, and must survive in the crumbling walled city.",
    "mobygames": 23369,
    "title": "Return to Eden",
    "year": 1984
@@ -36868,11 +36973,13 @@
    "year": 1984
   },
   "msx:moby-234394": {
+   "description": "An ostrich hops around a platform dodging alien Eggmon, pecking pieces of the floor until they collapse and drop the enemies into the water, while taking care not to fall through itself.",
    "mobygames": 234394,
    "title": "Ostrich",
    "year": 1985
   },
   "msx:moby-235194": {
+   "description": "A lander game from the alien side: fly down to the landing pad to collect a bomb and return it to the mothership without crashing or running out of fuel, while human invaders damage the base.",
    "mobygames": 235194,
    "title": "Misión Espacial",
    "year": 1985
@@ -36884,6 +36991,7 @@
    "year": 1985
   },
   "msx:moby-235913": {
+   "description": "A compilation of five games: Barnstormer, Elidon, Manic Miner, Shark Hunter and Zoids.",
    "mobygames": 235913,
    "title": "Five Star Games",
    "year": 1987
@@ -36893,6 +37001,7 @@
     "boxArt": "art/catalog/moby/237842/box-055e6f8ead32.webp",
     "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/237842/box-055e6f8ead32.webp"
    },
+   "description": "A platform game in the style of Super Mario Bros. and The Great Giana Sisters set in a dystopian wasteland, where Marlow stomps on mutants and collects power-ups that give him new abilities.",
    "mobygames": 237842,
    "title": "MarloW in Apocalyptic Acid World",
    "year": 2025
@@ -36904,11 +37013,13 @@
     "preview": "art/catalog/moby/23796/screenshot-2476eb99bb83.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/23796/screenshot-2476eb99bb83.webp"
    },
+   "description": "A multi-level action adventure that sends one of five adventurers from around the world back forty years to find Professor Renegade, who predicted that an asteroid would strike the Earth.",
    "mobygames": 23796,
    "title": "Cosmic Relief: Prof. Renegade to the Rescue",
    "year": 1988
   },
   "msx:moby-237994": {
+   "description": "A compilation of four games: Blagger, Disc Warrior, 3D Knockout and Superbowl.",
    "mobygames": 237994,
    "title": "MSXtra",
    "year": 1986
@@ -36920,6 +37031,7 @@
     "preview": "art/catalog/moby/23904/screenshot-a191f7012de8.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/23904/screenshot-a191f7012de8.webp"
    },
+   "description": "A six-a-side football game from the makers of SuperStar Ice Hockey, where you play as the centre-forward, the manager or both.",
    "mobygames": 23904,
    "title": "SuperStar Soccer",
    "year": 1987
@@ -36929,6 +37041,7 @@
     "preview": "art/catalog/moby/24052/screenshot-8cbfa5e6e1bc.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/24052/screenshot-8cbfa5e6e1bc.webp"
    },
+   "description": "A small racing game in the spirit of Konami's Road Fighter, made to fit in eight kilobytes, without curves or clever opponents: just drive the road as far as you can.",
    "mobygames": 24052,
    "title": "Sport Racer",
    "year": 2006
@@ -36938,6 +37051,7 @@
     "preview": "art/catalog/moby/24119/screenshot-977779efe637.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/24119/screenshot-977779efe637.webp"
    },
+   "description": "A vertically scrolling bullet-hell shooter for the MSX2 in the style of Cave's games, built to fill the screen with as many bullets as the machine can handle.",
    "mobygames": 24119,
    "title": "Winglancer",
    "year": 2002
@@ -36947,16 +37061,19 @@
     "preview": "art/catalog/moby/241516/screenshot-c1b4a8bda070.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/241516/screenshot-c1b4a8bda070.webp"
    },
+   "description": "A French adventure with role-playing elements in which you play Hénerim d'Artillac, the only son of a former adventurer who settled down as the armourer of a peaceful village.",
    "mobygames": 241516,
    "title": "La Geste d'Artillac",
    "year": 1985
   },
   "msx:moby-241952": {
+   "description": "A logic puzzle game in which you gather information for an up-and-coming gangster, spending a limited budget on informants whose clues vary in cost and reliability.",
    "mobygames": 241952,
    "title": "Gumshoe Logic",
    "year": 1985
   },
   "msx:moby-244228": {
+   "description": "A Pengo-style maze game: push boulders to crush every enemy without being touched, as levels grow harder and some enemies learn to smash the boulders too.",
    "mobygames": 244228,
    "title": "Igloo",
    "year": 1985
@@ -36972,6 +37089,7 @@
     "boxArt": "art/catalog/moby/246028/box-36beb4d83c5b.webp",
     "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/246028/box-36beb4d83c5b.webp"
    },
+   "description": "An 8-bit reimagining of the Mega Drive game Devwill Too, with less linear levels to explore and moves such as sliding and double-jumping unlocked by finding items.",
    "mobygames": 246028,
    "title": "Devwill Too ZX",
    "year": 2021
@@ -36987,6 +37105,7 @@
     "preview": "art/catalog/moby/24731/screenshot-01a42164d429.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/24731/screenshot-01a42164d429.webp"
    },
+   "description": "A darts game played on a standard board, with its doubles, trebles and bullseye.",
    "mobygames": 24731,
    "title": "Wacky Darts",
    "year": 1987
@@ -37006,16 +37125,19 @@
    "year": 2025
   },
   "msx:moby-253420": {
+   "description": "A companion to Sōkoban with an improved level editor and 41 new levels to play.",
    "mobygames": 253420,
    "title": "Sōkoban Toolkit",
    "year": 1984
   },
   "msx:moby-255493": {
+   "description": "An educational spelling game with two modes, including Card Sort, in which you work out the word spelled by a set of letter cards and type it in before time runs out.",
    "mobygames": 255493,
    "title": "Patsy Duck's Card",
    "year": 1986
   },
   "msx:moby-25659": {
+   "description": "A side-scrolling platform game in which you, a university dropout who learned to whirl like a dervish, follow your absent-minded brother, now a doctor, on a perilous expedition.",
    "mobygames": 25659,
    "title": "Whistler's Brother"
   },
@@ -37030,11 +37152,13 @@
     "preview": "art/catalog/moby/258627/screenshot-55fc2b72756b.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/258627/screenshot-55fc2b72756b.webp"
    },
+   "description": "An issue of Compile's disk magazine on two disks, including Nyanpi, a single-screen platform puzzle game in which a cat gathers all the yellow balloons and then heads for the trash can.",
    "mobygames": 258627,
    "title": "Disc Station Deluxe 3",
    "year": 1990
   },
   "msx:moby-262840": {
+   "description": "A Pac-Man variant across nine mazes: Rodmän eats every purple pill to clear a stage, avoiding the enemies in the corridors until a large pill lets him turn the tables.",
    "mobygames": 262840,
    "title": "Rodmän",
    "year": 2021
@@ -37044,6 +37168,7 @@
     "preview": "art/catalog/moby/26379/screenshot-6862e1f95742.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/26379/screenshot-6862e1f95742.webp"
    },
+   "description": "The second and last Snooper Troops case: with your Snoopmobile, the snoopNET computer and your notes, track down Lilly, a missing dolphin, through logical thinking and careful note-taking.",
    "mobygames": 26379,
    "title": "Snooper Troops: Case #2 - The Case of the Disappearing Dolphin",
    "year": 1986
@@ -37074,6 +37199,7 @@
     "preview": "art/catalog/moby/267255/screenshot-968feadd3cb1.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/267255/screenshot-968feadd3cb1.webp"
    },
+   "description": "A river chase in which a junior officer of the International Security Commission races to deliver documents that could stop the villain Mr. E.",
    "mobygames": 267255,
    "title": "River Chase",
    "year": 1985
@@ -37093,6 +37219,7 @@
     "preview": "art/catalog/moby/27036/screenshot-b14232542b44.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/27036/screenshot-b14232542b44.webp"
    },
+   "description": "A Breakout clone written in BASIC, with a tiny ball and bat, softened by walls behind the bat that return a missed ball, except through a hole in the middle.",
    "mobygames": 27036,
    "title": "Smash Out",
    "year": 1984
@@ -37112,16 +37239,19 @@
     "preview": "art/catalog/moby/28314/screenshot-c2cbecfc5220.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/28314/screenshot-c2cbecfc5220.webp"
    },
+   "description": "A Brazilian text adventure set during the Serra Pelada gold rush: four days after finding a record gold nugget nicknamed Foreign Debt, the miner João Goldtooth and his gold mysteriously vanish.",
    "mobygames": 28314,
    "title": "Serra Pelada",
    "year": 1987
   },
   "msx:moby-28316": {
+   "description": "A Level 9 text adventure in which Ingrid Bottomlow, a gnome too clever for her family's liking, is teleported away to a forest and must find her way home through three tasks.",
    "mobygames": 28316,
    "title": "Gnome Ranger",
    "year": 1987
   },
   "msx:moby-28364": {
+   "description": "The sequel to Gnome Ranger: the clumsy but clever gnome Ingrid Bottomlow has three plans to save her village, Little Moaning, from a developer who wants to turn it into a yuppie haven.",
    "mobygames": 28364,
    "title": "Ingrid's Back!",
    "year": 1988
@@ -37133,6 +37263,7 @@
     "preview": "art/catalog/moby/28559/screenshot-ea8593d341d3.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/28559/screenshot-ea8593d341d3.webp"
    },
+   "description": "The sequel to Thing on a Spring: Thing bounces through eleven levels of the Toy Goblin's factory, collecting a tape, a floppy disk, listing paper and a ROM chip to shut it down.",
    "mobygames": 28559,
    "title": "Coil Cop",
    "year": 1987
@@ -37142,6 +37273,7 @@
     "preview": "art/catalog/moby/28564/screenshot-05c2a83e77ac.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/28564/screenshot-05c2a83e77ac.webp"
    },
+   "description": "A text adventure based on Robert Louis Stevenson's novel: young Jim Hawkins learns of a treasure map from the dying Billy Bones at his parents' inn, the Admiral Benbow.",
    "mobygames": 28564,
    "title": "Treasure Island",
    "year": 1986
@@ -37151,11 +37283,13 @@
     "boxArt": "art/catalog/moby/28812/box-34cff1c1a8aa.webp",
     "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/28812/box-34cff1c1a8aa.webp"
    },
+   "description": "Three linked Level 9 adventures, Lords of Time, Red Moon and The Price of Magik, rewritten for the company's later system with longer descriptions and some revised puzzles.",
    "mobygames": 28812,
    "title": "Time and Magik: The Trilogy",
    "year": 1988
   },
   "msx:moby-29107": {
+   "description": "A two-way scrolling shooter in which your jet patrols a looping stretch of sky, shooting down attacking aircraft and landing on platforms to refuel and rearm.",
    "mobygames": 29107,
    "title": "Falcon Patrol",
    "year": 1986
@@ -37165,6 +37299,7 @@
     "preview": "art/catalog/moby/2963/screenshot-ba088f7bd8ba.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/2963/screenshot-ba088f7bd8ba.webp"
    },
+   "description": "International football with tournaments and friendlies for up to eight human players, with three skill levels and a choice of match lengths.",
    "mobygames": 2963,
    "title": "Rick Davis's World Trophy Soccer",
    "year": 1989
@@ -37182,6 +37317,7 @@
     "preview": "art/catalog/moby/3020/screenshot-21da67587619.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/3020/screenshot-21da67587619.webp"
    },
+   "description": "A side-scrolling action game in which a soldier armed with a knife fights his way into enemy territory to rescue prisoners of war, picking up heavier weapons along the way.",
    "mobygames": 3020,
    "title": "Rush'n Attack",
    "year": 1986
@@ -37191,6 +37327,7 @@
     "boxArt": "art/catalog/moby/30337/box-b9429c8c5224.webp",
     "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/30337/box-b9429c8c5224.webp"
    },
+   "description": "Eaglesoft's last MSX Compilation, collecting four games based on arcade classics: Panique, Panel Panic, Snake It and Mazes Unlimited.",
    "mobygames": 30337,
    "title": "MSX Compilation 7",
    "year": 1987
@@ -37200,6 +37337,7 @@
     "preview": "art/catalog/moby/30399/screenshot-7fac0a49d43e.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/30399/screenshot-7fac0a49d43e.webp"
    },
+   "description": "A detective adventure in which a police investigator is called in when a famous writer receives threats, and finds that her assistant and niece has not left her room.",
    "mobygames": 30399,
    "title": "Shadow Hunter",
    "year": 1988
@@ -37209,21 +37347,25 @@
     "preview": "art/catalog/moby/32520/screenshot-50e209b608b9.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/32520/screenshot-50e209b608b9.webp"
    },
+   "description": "An unofficial adaptation of The Jewel of the Nile: reunite three travellers held in separate cells by a dictatorial regime and help them escape the country.",
    "mobygames": 32520,
    "title": "Mystery of the Nile",
    "year": 1986
   },
   "msx:moby-34502": {
+   "description": "A platform game set on Oberon, where a strange life form has awakened among the colonies humanity built after the Earth's air became unbreathable.",
    "mobygames": 34502,
    "title": "Oberon 69",
    "year": 1990
   },
   "msx:moby-34503": {
+   "description": "An Arkanoid clone set inside a machine, where a nut serves as the bat, bouncing the ball against bricks, some of which cannot be broken.",
    "mobygames": 34503,
    "title": "The Brick",
    "year": 1989
   },
   "msx:moby-34667": {
+   "description": "Three games for young children that drill reading and typing at four skill levels, such as typing falling letters before they reach the bottom of the screen.",
    "mobygames": 34667,
    "title": "Kids on Keys",
    "year": 1985
@@ -37233,6 +37375,7 @@
     "boxArt": "art/catalog/moby/35733/box-f0523e3cb687.webp",
     "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/35733/box-f0523e3cb687.webp"
    },
+   "description": "A side-scrolling Western shooter in which bounty hunter Clint Westband roams the town shooting desperadoes, using dynamite, keys and money bags along the way.",
    "mobygames": 35733,
    "title": "Spaghetti Western Simulator",
    "year": 1989
@@ -37242,6 +37385,7 @@
     "boxArt": "art/catalog/moby/35788/box-0ca47482314b.webp",
     "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/35788/box-0ca47482314b.webp"
    },
+   "description": "A snooker game viewed from above the table, with spin, shot power and nominating a colour after a legal pot, plus a practice mode for setting up the balls yourself.",
    "mobygames": 35788,
    "title": "Tournament Snooker",
    "year": 1985
@@ -37253,6 +37397,7 @@
     "preview": "art/catalog/moby/35790/screenshot-7e8f7adfd5a3.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/35790/screenshot-7e8f7adfd5a3.webp"
    },
+   "description": "A martial arts game in which you fight up through a castle overrun by ninja, from the moat to the top, defeating ten enemies on each level and picking up short-lived special powers.",
    "mobygames": 35790,
    "title": "Ninja",
    "year": 1984
@@ -37264,11 +37409,13 @@
     "preview": "art/catalog/moby/36502/screenshot-a2572ff4da2c.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/36502/screenshot-a2572ff4da2c.webp"
    },
+   "description": "A Space Invaders-style game: move your ship along the bottom of the screen, sheltering behind four buildings that both you and the aliens can shoot through.",
    "mobygames": 36502,
    "title": "Space Busters",
    "year": 1985
   },
   "msx:moby-36740": {
+   "description": "A detective adventure following The Vera Cruz Affair: newly promoted to senior sergeant in Saint-Étienne, you investigate the shooting of Mr. James Sydney.",
    "mobygames": 36740,
    "title": "The Sydney Affair",
    "year": 1986
@@ -37292,11 +37439,13 @@
     "preview": "art/catalog/moby/40652/screenshot-0afac1343eb6.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/40652/screenshot-0afac1343eb6.webp"
    },
+   "description": "An action puzzle game in which a locomotive never stops moving across a grid of track panels with one gap, and you slide the panels around to keep the line ahead of it intact.",
    "mobygames": 40652,
    "title": "Loco-Motion",
    "year": 1983
   },
   "msx:moby-41813": {
+   "description": "A horizontally scrolling shooter in the mould of Gradius, with a power-up gauge along the bottom of the screen that fills as you collect items.",
    "mobygames": 41813,
    "title": "Laserfight!",
    "year": 1989
@@ -37323,6 +37472,7 @@
    "year": 1992
   },
   "msx:moby-45703": {
+   "description": "A horizontally scrolling platform game in which the secret agent Top butts enemies with his head, trading the items he collects at the end of each level for energy and time.",
    "mobygames": 45703,
    "title": "Hammer-Head",
    "year": 1992
@@ -37349,16 +37499,19 @@
    "year": 1989
   },
   "msx:moby-46215": {
+   "description": "A compilation of four Zigurat sports games: Carlos Sainz, Emilio Sánchez Vicario Grand Slam, Paris-Dakar and Sito Pons 500cc Grand Prix.",
    "mobygames": 46215,
    "title": "Pack Powersports",
    "year": 1991
   },
   "msx:moby-46218": {
+   "description": "A compilation of five Opera Soft sports games: Angel Nieto Pole 500, Golden Basket, Jai Alai, Mundial de Fútbol and Poli Díaz.",
    "mobygames": 46218,
    "title": "Opera Super Sports",
    "year": 1991
   },
   "msx:moby-46403": {
+   "description": "An unofficial conversion of Hungry Hungry Hippos for two to four players, with two boards and games of ten, twenty or thirty balls.",
    "mobygames": 46403,
    "title": "Zampabolas",
    "year": 1989
@@ -37385,18 +37538,21 @@
    "year": 1989
   },
   "msx:moby-49700": {
+   "description": "An action game licensed from DC Comics in which Superman rescues Lois Lane and saves humanity from Darkseid and Lex Luthor, through sections of 3D flight, overhead scrolling and more.",
    "mobygames": 49700,
    "title": "Superman: The Man of Steel",
    "year": 1989
   },
   "msx:moby-50286": {
    "adult": true,
+   "description": "A Japanese adventure in which Akio attends the wedding of Misa and his old friend Satoshi, whom he has always looked up to, alongside former schoolmates not all happy about the marriage.",
    "mobygames": 50286,
    "title": "Kimi Dake ni Ai o...",
    "year": 1991
   },
   "msx:moby-50471": {
    "adult": true,
+   "description": "A comic visual novel set at a near-mythical girls' high school said to be reached by sailing the Indian Ocean or walking the Silk Road.",
    "mobygames": 50471,
    "title": "Kōnai Shasei vol.1",
    "year": 1991
@@ -37406,6 +37562,7 @@
     "preview": "art/catalog/moby/50641/screenshot-2228232e1451.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/50641/screenshot-2228232e1451.webp"
    },
+   "description": "A Brazilian maze game in which a small round hero shoots every enemy in each maze. Some enemies turn into another monster when shot, and fallen enemies leave crystals worth points.",
    "mobygames": 50641,
    "title": "O Ogro",
    "year": 1988
@@ -37415,6 +37572,7 @@
     "preview": "art/catalog/moby/51064/screenshot-1448f229b8a9.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/51064/screenshot-1448f229b8a9.webp"
    },
+   "description": "A platform game in the Ninja-kun series whose levels alternate between defeating every enemy and simply reaching the exit.",
    "mobygames": 51064,
    "title": "Rad Action",
    "year": 1987
@@ -37432,6 +37590,7 @@
    "year": 1985
   },
   "msx:moby-54023": {
+   "description": "A pinball game whose tables are each split into two parts with their own flippers, with objectives on each table to complete.",
    "mobygames": 54023,
    "title": "Time Scanner",
    "year": 1989
@@ -37461,6 +37620,7 @@
    "year": 1988
   },
   "msx:moby-55736": {
+   "description": "A text adventure in which Lady Artemis sends you into Castle Blackstar to recover a magic orb, with any other treasure you find yours to keep.",
    "mobygames": 55736,
    "title": "Castle Blackstar",
    "year": 1986
@@ -37476,16 +37636,19 @@
    "year": 1985
   },
   "msx:moby-56269": {
+   "description": "A Korean side-scrolling platform game in which a propeller-driven car cannot stop, only turn around and jump, across three stages of skulls and obstacles.",
    "mobygames": 56269,
    "title": "Tti Tti! Ppang Ppang!",
    "year": 1989
   },
   "msx:moby-56430": {
+   "description": "A Korean shooter in which Captain Lee goes after the android terrorists of Metalabor, who stole a powerful plutonium element and kidnapped his sister to force their father to help them.",
    "mobygames": 56430,
    "title": "The Day II",
    "year": 1991
   },
   "msx:moby-56695": {
+   "description": "A sequel to New Boggle Boggle, again replicating Bubble Bobble, with 150 stages, most of them new, and some new enemies.",
    "mobygames": 56695,
    "title": "New Boggle Boggle 2",
    "year": 1989
@@ -37497,6 +37660,7 @@
    "year": 1992
   },
   "msx:moby-57157": {
+   "description": "A book of type-in spy games, such as Spy Eyes, which tests your memory for numbers, and Searchlight, in which you cross enemy ground unseen.",
    "mobygames": 57157,
    "title": "Computer Spy Games",
    "year": 1985
@@ -37518,6 +37682,7 @@
     "preview": "art/catalog/moby/580/screenshot-a5323220d8f5.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/580/screenshot-a5323220d8f5.webp"
    },
+   "description": "A karate game in which you fight your way up through the belts to become world champion, at real locations such as New York, Egypt and Japan.",
    "mobygames": 580,
    "title": "World Karate Championship",
    "year": 1986
@@ -37566,6 +37731,7 @@
   },
   "msx:moby-58780": {
    "adult": true,
+   "description": "The first of Koei's adult adventures: a door-to-door salesman from Kawasaki tries to talk his way into the seven apartments on the ground floor of a residential building.",
    "mobygames": 58780,
    "title": "Danchi-zuma no Yūwaku",
    "year": 1985
@@ -37576,6 +37742,7 @@
     "preview": "art/catalog/moby/58840/screenshot-07737e5f0007.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/58840/screenshot-07737e5f0007.webp"
    },
+   "description": "A disk of mini-games in various genres, including a science-fiction adventure aboard a spaceship and a card game.",
    "mobygames": 58840,
    "title": "Pink Sox",
    "year": 1989
@@ -37586,42 +37753,49 @@
     "preview": "art/catalog/moby/58841/screenshot-dbad1bab56bb.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/58841/screenshot-dbad1bab56bb.webp"
    },
+   "description": "A disk of mini-games in various genres, continuing the science-fiction adventure Who Is There? and the story Halftime Lover, with a card game.",
    "mobygames": 58841,
    "title": "Pink Sox 2",
    "year": 1990
   },
   "msx:moby-58842": {
    "adult": true,
+   "description": "A disk of mini-games in various genres, continuing the science-fiction adventure Who Is There?, with a simplified quiz game.",
    "mobygames": 58842,
    "title": "Pink Sox 3",
    "year": 1990
   },
   "msx:moby-58843": {
    "adult": true,
+   "description": "A disk of mini-games in various genres, continuing Who Is There? and Halftime Lover, with the quiz game and four new mini-games.",
    "mobygames": 58843,
    "title": "Pink Sox 4",
    "year": 1991
   },
   "msx:moby-58844": {
    "adult": true,
+   "description": "A disk of mini-games in various genres, continuing the science-fiction adventure Who Is There?, which takes a darker turn, with the new adventure Balancing Beam of Love.",
    "mobygames": 58844,
    "title": "Pink Sox 5",
    "year": 1991
   },
   "msx:moby-58845": {
    "adult": true,
+   "description": "A disk of mini-games in various genres, concluding the science-fiction adventure Who Is There? and continuing Balancing Beam of Love with a new heroine in a superhero setting.",
    "mobygames": 58845,
    "title": "Pink Sox 6",
    "year": 1991
   },
   "msx:moby-58846": {
    "adult": true,
+   "description": "A disk of mini-games in various genres, mostly new, including the adventure G Gun-Cannon.",
    "mobygames": 58846,
    "title": "Pink Sox 7",
    "year": 1991
   },
   "msx:moby-58847": {
    "adult": true,
+   "description": "A disk of mini-games in various genres, continuing the adventure G Gun-Cannon and the story Halftime Lover.",
    "mobygames": 58847,
    "title": "Pink Sox 8",
    "year": 1992
@@ -37658,6 +37832,7 @@
     "preview": "art/catalog/moby/64105/screenshot-2ce28bf1e54b.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/64105/screenshot-2ce28bf1e54b.webp"
    },
+   "description": "Pool for one or two players, seen from above, with six games to choose from including eight-ball, nine-ball and straight pool.",
    "mobygames": 64105,
    "title": "Minnesota Fats' Pool Challenge",
    "year": 1984
@@ -37677,16 +37852,19 @@
     "preview": "art/catalog/moby/65750/screenshot-8cbaa8b9f9e2.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/65750/screenshot-8cbaa8b9f9e2.webp"
    },
+   "description": "A fixed-screen shooter of sixteen levels against the Ultra, a race of mutant aliens, each level with its own enemies and attack patterns.",
    "mobygames": 65750,
    "title": "The Ultra",
    "year": 1984
   },
   "msx:moby-66111": {
+   "description": "A take on Lights Out with knights and demons: each tile you pick flips its neighbours between the two, and you must turn the whole board to one side.",
    "mobygames": 66111,
    "title": "Knights & Demons",
    "year": 2013
   },
   "msx:moby-66163": {
+   "description": "The sequel to Deep Dungeon: centuries later, the spirit of the evil Emperor Ruu returns, and a hero claiming descent from Raru sets out to climb his tower, a first-person dungeon crawl.",
    "mobygames": 66163,
    "title": "Yūshi no Monshō: Deep Dungeon",
    "year": 1988
@@ -37696,6 +37874,7 @@
     "preview": "art/catalog/moby/6683/screenshot-3f22bf04e285.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/6683/screenshot-3f22bf04e285.webp"
    },
+   "description": "A program for young children that teaches basic computer use by building a cartoon face, animating it and playing memory games with it.",
    "mobygames": 6683,
    "title": "FaceMaker",
    "year": 1985
@@ -37707,6 +37886,7 @@
     "preview": "art/catalog/moby/6739/screenshot-37a518a30985.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/6739/screenshot-37a518a30985.webp"
    },
+   "description": "A vertically scrolling shooter for one or two players, fighting through jungles, rivers and ruins with machine guns, grenades and rocket launchers, and tanks to commandeer.",
    "mobygames": 6739,
    "title": "Ikari Warriors",
    "year": 1987
@@ -37722,6 +37902,7 @@
    "year": 1984
   },
   "msx:moby-6939": {
+   "description": "A hostage rescue in two parts: place three marksmen around an embassy taken by terrorists, then lead three more inside to free the hostages.",
    "mobygames": 6939,
    "title": "Hostage: Rescue Mission",
    "year": 1990
@@ -37731,11 +37912,13 @@
     "preview": "art/catalog/moby/69866/screenshot-944fb428eb63.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/69866/screenshot-944fb428eb63.webp"
    },
+   "description": "French Tarot with the full 78-card deck, against three computer opponents, taking tricks to win enough card points for each hand.",
    "mobygames": 69866,
    "title": "Jeu de Tarot",
    "year": 1985
   },
   "msx:moby-70017": {
+   "description": "A side-scrolling beat-'em-up in which a cartoon duck armed with a frying pan escapes a restaurant to meet his date in the park, fighting off chefs, cats and rats along the way.",
    "mobygames": 70017,
    "title": "Duck Out!",
    "year": 1989
@@ -37751,6 +37934,7 @@
    "year": 1988
   },
   "msx:moby-70797": {
+   "description": "A Finnish trivia quiz with four categories of roughly five hundred questions each, covering sport, geography, literature, nature and general knowledge.",
    "mobygames": 70797,
    "title": "Nero 2000",
    "year": 1987
@@ -37762,11 +37946,13 @@
    "year": 1984
   },
   "msx:moby-72178": {
+   "description": "Punch searches the streets of Bridlington in the summer of 1989 for the parts of his puppet tent and the members of his cast.",
    "mobygames": 72178,
    "title": "Punch & Judy",
    "year": 1989
   },
   "msx:moby-72269": {
+   "description": "A top-down racing game across six courses of an interplanetary championship, raced alone against the clock or by two players on a split screen.",
    "mobygames": 72269,
    "title": "The Race",
    "year": 1990
@@ -37782,11 +37968,13 @@
    "year": 1988
   },
   "msx:moby-76804": {
+   "description": "Pelmanism for two to four players: take turns turning over pairs of cards on a ten-by-nine grid, keeping each matching pair and going again.",
    "mobygames": 76804,
    "title": "Pelmanism",
    "year": 1984
   },
   "msx:moby-77227": {
+   "description": "A Bejeweled-style puzzle game in which you shift columns up and down to line up gems in the centre row, scoring more for bigger combinations.",
    "mobygames": 77227,
    "title": "Shifted",
    "year": 2014
@@ -37796,11 +37984,13 @@
     "preview": "art/catalog/moby/8075/screenshot-70bae3fa209c.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/8075/screenshot-70bae3fa209c.webp"
    },
+   "description": "The second Dragon Quest: a descendant of Erdrick sets out to save the world, now joined by two companions, a magic user and a fighter who can also cast spells.",
    "mobygames": 8075,
    "title": "Dragon Warrior II",
    "year": 1988
   },
   "msx:moby-80838": {
+   "description": "A compilation of four Ultimate Play the Game titles: Knight Lore, Alien 8, Nightshade and Gunfright.",
    "mobygames": 80838,
    "title": "Unbelievable! Ultimate",
    "year": 1986
@@ -37810,6 +38000,7 @@
     "preview": "art/catalog/moby/8264/screenshot-8211d1321d33.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/8264/screenshot-8211d1321d33.webp"
    },
+   "description": "Sega's futuristic take on 1943-style shooters: fly an old, underpowered fighter against large planes, tanks and ground targets, with a close-up section and a boss at the end of each level.",
    "mobygames": 8264,
    "title": "Scramble Spirits",
    "year": 1990
@@ -37821,6 +38012,7 @@
     "preview": "art/catalog/moby/8334/screenshot-513ea473a284.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/8334/screenshot-513ea473a284.webp"
    },
+   "description": "A version of City Connection: drive along the roads of each level, painting them as you go, stopping police cars with oil cans and avoiding cats and spikes.",
    "mobygames": 8334,
    "title": "Cruisin'",
    "year": 1986
@@ -37830,6 +38022,7 @@
     "preview": "art/catalog/moby/8620/screenshot-0ae8af19c28a.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/8620/screenshot-0ae8af19c28a.webp"
    },
+   "description": "Six early-learning games for children aged three to eight, including drawing, sequences, letters and matching, to build reading and counting skills and familiarity with the keyboard.",
    "mobygames": 8620,
    "title": "KinderComp",
    "year": 1985
@@ -37854,6 +38047,7 @@
     "preview": "art/catalog/moby/90158/screenshot-e1e599b5ac54.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/90158/screenshot-e1e599b5ac54.webp"
    },
+   "description": "A Dutch topography program teaching the places of the Netherlands, its cities, lakes, rivers, regions and provinces, through look-up, quiz and game modes.",
    "mobygames": 90158,
    "title": "Nederlandse Topografie",
    "year": 1986
@@ -37863,6 +38057,7 @@
     "preview": "art/catalog/moby/90165/screenshot-751e501d76f3.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/90165/screenshot-751e501d76f3.webp"
    },
+   "description": "A Dutch topography program teaching the cities, regions and rivers of Europe on a mid-1980s map, through look-up, quiz and city-game modes.",
    "mobygames": 90165,
    "title": "Maps Europe",
    "year": 1986
@@ -37872,6 +38067,7 @@
     "preview": "art/catalog/moby/90208/screenshot-3f8bebcba177.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/90208/screenshot-3f8bebcba177.webp"
    },
+   "description": "A Dutch topography program for primary school children learning world geography on a mid-1980s map, through look-up, quiz and helicopter-game modes.",
    "mobygames": 90208,
    "title": "Maps World",
    "year": 1986
@@ -37881,6 +38077,7 @@
     "boxArt": "art/catalog/moby/9071/box-4ef286022c36.webp",
     "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/9071/box-4ef286022c36.webp"
    },
+   "description": "An expansion for Gauntlet with 512 new dungeons.",
    "mobygames": 9071,
    "title": "Gauntlet: The Deeper Dungeons",
    "year": 1987
@@ -37890,6 +38087,7 @@
     "preview": "art/catalog/moby/9223/screenshot-d1ad3bc8fb2e.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/moby/9223/screenshot-d1ad3bc8fb2e.webp"
    },
+   "description": "The first Dragon Quest: the Dragonlord has stolen the Balls of Light that kept Alefgard at peace, and a descendant of the hero Erdrick sets out alone from Tantegel Castle to defeat him.",
    "mobygames": 9223,
    "title": "Dragon Warrior",
    "year": 1986
@@ -37901,6 +38099,7 @@
    "year": 1985
   },
   "msx:moby-95801": {
+   "description": "A German dice game played by the rules of Yahtzee: roll five dice, keep what you like, reroll the rest, then score the result in one of the categories.",
    "mobygames": 95801,
    "title": "Chicago",
    "year": 1987

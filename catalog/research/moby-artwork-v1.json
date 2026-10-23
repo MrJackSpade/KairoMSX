@@ -590,11 +590,6 @@
    "sha256": "7fe8b31527f4273a6ed47339be643e33e4e2cefe806efa896f9e9eaaa96fa0eb",
    "sourceUrl": "https://cdn.mobygames.com/covers/5150266-panique-msx-front-cover.jpg"
   },
-  "art/catalog/moby/30376/screenshot-2136f63dd858.webp": {
-   "game": "msx:155187",
-   "sha256": "a54b17630d9232a2b52f95f3e62d7549d2246ae86c4899dd840b24a7f5851c93",
-   "sourceUrl": "https://cdn.mobygames.com/screenshots/15868890-panique-msx-a-short-intermission.png"
-  },
   "art/catalog/moby/30399/screenshot-7fac0a49d43e.webp": {
    "game": "msx:moby-30399",
    "sha256": "5a97165edd7b7e1a03fd71bf6cff857285cb81e4cabbb3aca1577c1f46dc9edc",

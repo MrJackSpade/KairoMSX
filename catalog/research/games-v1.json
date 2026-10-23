@@ -9842,7 +9842,8 @@
    "diskSets": {
     "sha256-fd-v1:50f9d0305ac89a51708746ef060875e19b1dcb93586476e1e0a2514943d93a12": {
      "setDisks": [
-      "sha256-fd-v1:24d4347ec31ea6dd512f499664483358f0de7ed4d4a29f4f7b72c13f47b318b1"
+      "sha256-fd-v1:24d4347ec31ea6dd512f499664483358f0de7ed4d4a29f4f7b72c13f47b318b1",
+      "sha256-fd-v1:f57e650e00a3de4d221380b4320e18729b43b6bf69f21e4be2e836f6c98bcd3c"
      ]
     },
     "sha256-fd-v1:f57e650e00a3de4d221380b4320e18729b43b6bf69f21e4be2e836f6c98bcd3c": {
@@ -20571,6 +20572,13 @@
     },
     "sha256-rom-v1:8eb9ff2158f92a98711a5a54ed6169c9adadaad38fec88e944885f050622c705": {
      "machine": "C-BIOS_MSX2_JP"
+    }
+   },
+   "diskSets": {
+    "sha256-rom-v1:8eb9ff2158f92a98711a5a54ed6169c9adadaad38fec88e944885f050622c705": {
+     "setDisks": [
+      "sha256-rom-v1:3dfc046787dae7b19b921a67293bd3f53ba03bac7a4508194be4be54b2d45e2b"
+     ]
     }
    },
    "launchbox": "154740",

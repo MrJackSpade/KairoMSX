@@ -3,12 +3,21 @@ package com.mrjackspade.kairomsx.uitest
 import android.view.KeyEvent
 import com.mrjackspade.kairo.uitest.AppUnderTest
 import com.mrjackspade.kairo.uitest.AppUnderTest.BiosFile
+import com.mrjackspade.kairo.uitest.AppUnderTest.MediaSwap
 import com.mrjackspade.kairo.uitest.KairoUiTest
 import com.mrjackspade.kairo.uitest.suites.FirstRunTests
 import com.mrjackspade.kairo.uitest.suites.GameTests
 import com.mrjackspade.kairo.uitest.suites.LibraryTests
 import com.mrjackspade.kairo.uitest.suites.SearchTests
 import com.mrjackspade.kairo.uitest.suites.WordingTests
+import com.mrjackspade.kairo.uitest.suites.MediaTests
+import com.mrjackspade.kairo.uitest.suites.MenuTests
+import com.mrjackspade.kairo.uitest.suites.ControllerTests
+import com.mrjackspade.kairo.uitest.suites.TouchTests
+import com.mrjackspade.kairo.uitest.suites.LaunchTests
+import com.mrjackspade.kairo.uitest.suites.LibraryManagementTests
+import com.mrjackspade.kairo.uitest.suites.SettingsTests
+import com.mrjackspade.kairo.uitest.suites.StateTests
 import org.junit.Test
 
 /**
@@ -24,6 +33,9 @@ object KairoMsxApp : AppUnderTest() {
         BiosFile("fs-a1wsx_IC18.rom", false), BiosFile("fs-a1gt_firmware.rom", true), BiosFile("fs-a1gt_kanjifont.rom", true))
     override val bootGame = "Boulder Dash"
     override val searchTerm = "Boulder"
+    override val bootGameFile = "games/msx/Champion Boulder Dash (1985) (Comptiq).zip"
+    override val otherGame = "The Dam Busters"
+    override val mediaSwap = MediaSwap("The Dam Busters", "Cartridge B", "Brain")
 }
 
 class KairoMsxFirstRunTests : FirstRunTests() { override val app = KairoMsxApp }
@@ -31,6 +43,14 @@ class KairoMsxLibraryTests : LibraryTests() { override val app = KairoMsxApp }
 class KairoMsxSearchTests : SearchTests() { override val app = KairoMsxApp }
 class KairoMsxGameTests : GameTests() { override val app = KairoMsxApp }
 class KairoMsxWordingTests : WordingTests() { override val app = KairoMsxApp }
+class KairoMsxMediaTests : MediaTests() { override val app = KairoMsxApp }
+class KairoMsxMenuTests : MenuTests() { override val app = KairoMsxApp }
+class KairoMsxControllerTests : ControllerTests() { override val app = KairoMsxApp }
+class KairoMsxTouchTests : TouchTests() { override val app = KairoMsxApp }
+class KairoMsxLaunchTests : LaunchTests() { override val app = KairoMsxApp }
+class KairoMsxLibraryManagementTests : LibraryManagementTests() { override val app = KairoMsxApp }
+class KairoMsxSettingsTests : SettingsTests() { override val app = KairoMsxApp }
+class KairoMsxStateTests : StateTests() { override val app = KairoMsxApp }
 
 /** The MSX's own behavior: each game starts on the machine it needs, and keeps its own controls. */
 class MsxTests : KairoUiTest() {
@@ -51,6 +71,25 @@ class MsxTests : KairoUiTest() {
         driver.waitFrames(300)
         val picture = driver.pictures.game("the-brain")
         expect.that("The Brain draws its screen", picture.litFraction() > 0.02) { "lit ${picture.litFraction()}" }
+    }
+
+    @Test
+    fun theTurboRKanjiFontIsFoundByItsContent() {
+        screens.completeFirstRun()
+        val machine = screens.openMachinePage()
+        expect.equal("the FS-A1GT kanji font after importing a folder that holds only the FS-A1WSX one", "Installed",
+            screens.biosRow(machine, "fs-a1gt_kanjifont.rom").find(com.mrjackspade.kairo.uitest.By.id("value")).text())
+    }
+
+    @Test
+    fun aGamesOwnMachineChoiceWins() {
+        val library = screens.completeFirstRun()
+        val settings = library.open("Boulder Dash").openSettings()
+        screens.choose(settings, "machine", "C-BIOS_MSX2+_JP")
+        driver.press(KeyEvent.KEYCODE_BUTTON_B)
+        com.mrjackspade.kairo.uitest.GamePage(driver).play()
+        expect.equal("the machine Boulder Dash started on after choosing its own", "C-BIOS_MSX2+_JP",
+            driver.probe().details["machine.machine"])
     }
 
     @Test

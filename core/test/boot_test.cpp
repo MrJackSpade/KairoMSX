@@ -297,6 +297,18 @@ int main(int argc, char **argv) {
     std::printf("press %s: the picture %s\n", pressing.c_str(),
                 pressed.picture == boot.picture ? "did not change" : "changed");
 
+    // Port B holds no mouse, so games that read it as a joystick see no directions held, until the
+    // host's mouse moves (KairoMSX#6); letting go of a button, as release_inputs does, plugs nothing.
+    std::string port_b;
+    machine->mouse_button(1, false);
+    if (!machine->command("plug joyportb", port_b)) return fail("plug joyportb: " + port_b);
+    std::printf("port B before the mouse moves: '%s'\n", port_b.c_str());
+    if (port_b.find("mouse") != std::string::npos) return fail("the mouse is in port B before it moved");
+    machine->mouse_move(1, 1);
+    if (!machine->command("plug joyportb", port_b)) return fail("plug joyportb: " + port_b);
+    std::printf("port B after the mouse moves: '%s'\n", port_b.c_str());
+    if (port_b.find("mouse") == std::string::npos) return fail("the mouse is not in port B after it moved");
+
     // The second after the save and the second after the load, frame by frame: state a saved state
     // misses shows up as states that drift apart.
     const std::string saved_file = work + "/state.oms";

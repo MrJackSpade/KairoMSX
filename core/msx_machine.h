@@ -62,8 +62,8 @@ public:
     void key(int row, int column, bool down);
     // A control of the joystick in port A: kJoystickControls in their order.
     void joystick(int control, bool down);
-    // The mouse in port B: motion in host pixels (openMSX scales it), and button 1 (left) or 2
-    // (right).
+    // The mouse in port B, plugged in by its first motion or press: motion in host pixels (openMSX
+    // scales it), and button 1 (left) or 2 (right).
     void mouse_move(int dx, int dy);
     void mouse_button(int button, bool down);
 

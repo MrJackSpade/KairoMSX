@@ -10,6 +10,7 @@
 
 #include "CommandController.hh"
 #include "CommandLineParser.hh"
+#include "Connector.hh"
 #include "Display.hh"
 #include "Event.hh"
 #include "EventDistributor.hh"
@@ -21,6 +22,8 @@
 #include "MSXException.hh"
 #include "MSXMixer.hh"
 #include "MSXMotherBoard.hh"
+#include "Pluggable.hh"
+#include "PluggingController.hh"
 #include "Reactor.hh"
 #include "RenderSettings.hh"
 #include "TclObject.hh"
@@ -166,6 +169,19 @@ struct MsxMachine::Impl {
     TclObject execute(const std::string &command) {
         return reactor->getCommandController().executeCommand(command);
     }
+
+    // The MSX mouse goes into port B when the host first uses it, not at the start: a game that
+    // reads port B as a joystick takes an idle mouse for all four directions held, and some, such
+    // as Dragon Quest 1, wait for them to be let go (KairoMSX#6). It is looked up each time
+    // because a loaded state brings its own port B.
+    bool mouse_plugged() {
+        Connector *port = board().getPluggingController().findConnector("joyportb");
+        if (!port) throw MSXException("the machine has no joystick port B");
+        return port->getPlugged().getName() == "mouse";
+    }
+    void plug_mouse() {
+        if (!mouse_plugged()) execute("plug joyportb mouse");
+    }
 };
 
 MsxMachine::MsxMachine(std::unique_ptr<Impl> impl) : impl_(std::move(impl)) {}
@@ -209,9 +225,6 @@ std::unique_ptr<MsxMachine> MsxMachine::create(const Config &config, std::string
         args.push_back(kJoystickConfig);
         args.push_back("-command");
         args.push_back("plug joyporta msxjoystick1");
-        // The host's mouse is an MSX mouse in port B (see mouse_move()).
-        args.push_back("-command");
-        args.push_back("plug joyportb mouse");
         std::vector<char *> argv;
         for (auto &arg : args) argv.push_back(arg.data());
 
@@ -364,6 +377,7 @@ void MsxMachine::mouse_move(int dx, int dy) {
     event.motion.type = SDL_MOUSEMOTION;
     event.motion.xrel = dx;
     event.motion.yrel = dy;
+    impl_->plug_mouse();
     MSXMotherBoard &board = impl_->board();
     board.getMSXEventDistributor().distributeEvent(MouseMotionEvent(event), board.getCurrentTime());
 }
@@ -373,6 +387,9 @@ void MsxMachine::mouse_button(int button, bool down) {
     event.button.type = down ? SDL_MOUSEBUTTONDOWN : SDL_MOUSEBUTTONUP;
     event.button.button = button == 2 ? SDL_BUTTON_RIGHT : SDL_BUTTON_LEFT;
     event.button.state = down ? SDL_PRESSED : SDL_RELEASED;
+    // Letting go of a button (as release_inputs does) plugs nothing in.
+    if (down) impl_->plug_mouse();
+    else if (!impl_->mouse_plugged()) return;
     MSXMotherBoard &board = impl_->board();
     if (down) {
         board.getMSXEventDistributor().distributeEvent(MouseButtonDownEvent(event), board.getCurrentTime());

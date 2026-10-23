@@ -33,6 +33,10 @@ object KairoMsxApp : AppUnderTest() {
         BiosFile("fs-a1wsx_IC18.rom", false), BiosFile("fs-a1gt_firmware.rom", true), BiosFile("fs-a1gt_kanjifont.rom", true))
     override val bootGame = "Boulder Dash"
     override val searchTerm = "Boulder"
+    override val arrowKeys = listOf(com.mrjackspade.kairomsx.MsxKeys.UP, com.mrjackspade.kairomsx.MsxKeys.DOWN,
+        com.mrjackspade.kairomsx.MsxKeys.LEFT, com.mrjackspade.kairomsx.MsxKeys.RIGHT)
+    override val returnKey = com.mrjackspade.kairomsx.MsxKeys.RETURN
+    override val spaceKey = com.mrjackspade.kairomsx.MsxKeys.SPACE
     override val bootGameFile = "games/msx/Champion Boulder Dash (1985) (Comptiq).zip"
     override val otherGame = "The Dam Busters"
     override val mediaSwap = MediaSwap("The Dam Busters", "Cartridge B", "Brain")
@@ -90,6 +94,39 @@ class MsxTests : KairoUiTest() {
         com.mrjackspade.kairo.uitest.GamePage(driver).play()
         expect.equal("the machine Boulder Dash started on after choosing its own", "C-BIOS_MSX2+_JP",
             driver.probe().details["machine.machine"])
+    }
+
+    /** KairoMSX#3: the Memory setting reaches the machine, 512 KB unless the game is given another. */
+    @Test
+    fun theMemorySettingReachesTheMachine() {
+        val library = screens.completeFirstRun()
+        library.open("Boulder Dash").play()
+        expect.equal("the memory a game starts with by default", "512", driver.probe().details["machine.memory"])
+        screens.endGame()
+        val settings = library.open("Boulder Dash").openSettings()
+        screens.choose(settings, "memory", "1024")
+        driver.press(KeyEvent.KEYCODE_BUTTON_B)
+        com.mrjackspade.kairo.uitest.GamePage(driver).play()
+        expect.equal("the memory after choosing 1 MB for the game", "1024", driver.probe().details["machine.memory"])
+    }
+
+    /**
+     * KairoMSX#6: Dragon Quest 1 answers the controller. Its title waits for a key: A (Return) must
+     * change the picture by more than the title changes on its own over the same frames.
+     */
+    @Test
+    fun dragonQuest1AnswersTheController() {
+        screens.completeFirstRun().open("Dragon Quest 1").play()
+        driver.waitFrames(900)
+        val title = driver.pictures.game("title")
+        driver.waitFrames(180)
+        val idle = driver.pictures.game("title-idle")
+        driver.press(KeyEvent.KEYCODE_BUTTON_A)
+        driver.waitFrames(180)
+        val pressed = driver.pictures.game("after-a")
+        val alone = idle.difference(title)
+        val withA = pressed.difference(idle)
+        expect.that("A changes the title screen beyond its own motion", withA > alone + 0.05) { "%.3f with A, %.3f alone".format(withA, alone) }
     }
 
     @Test

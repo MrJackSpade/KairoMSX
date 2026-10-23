@@ -92,8 +92,9 @@ std::unique_ptr<kairo::MachineCore> kairo::create_core(const kairo::Launch &laun
     config.home = launch.home + "/user";
     for (int slot = 0; slot < kairomsx::kSlots; ++slot)
         if (int(launch.media.size()) > slot) config.media[slot] = launch.media[slot];
-    // The setting MsxCatalog's options name; every launch passes it.
+    // The settings MsxCatalog's options name; every launch passes them.
     config.machine = launch.settings.at("machine");
+    config.memory_kb = std::stoi(launch.settings.at("memory"));
     auto machine = MsxMachine::create(config, error);
     if (!machine) return nullptr;
     return std::make_unique<MsxCore>(std::move(machine));

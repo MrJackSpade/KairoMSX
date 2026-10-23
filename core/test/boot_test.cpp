@@ -213,14 +213,17 @@ void write_wav(const std::string &file, const std::vector<int16_t> &sound, uint3
 int main(int argc, char **argv) {
     Config config;
     // --machine <name> first picks the machine, by openMSX's name; C-BIOS MSX2+ otherwise.
-    // --disk <image> puts a disk in drive A. --hold <row>,<column>[;...] holds those keys of the
-    // keyboard matrix for the first three seconds, as a player holds keys at power-on.
-    std::string probe, hold;
+    // --disk <image> puts a disk in drive A. --hold <row>,<column>[;...][@<seconds>] holds those
+    // keys of the keyboard matrix for the first three seconds (or <seconds>), as a player holds
+    // keys at power-on.
+    // --memory <KB> starts the machine with that much main RAM.
+    std::string probe, hold, memory;
     while (argc >= 3 && (std::string(argv[1]) == "--machine" || std::string(argv[1]) == "--command" ||
-                         std::string(argv[1]) == "--disk" || std::string(argv[1]) == "--hold")) {
+                         std::string(argv[1]) == "--disk" || std::string(argv[1]) == "--hold" ||
+                         std::string(argv[1]) == "--memory")) {
         const std::string option = argv[1];
         (option == "--machine" ? config.machine : option == "--disk" ? config.media[kairomsx::kDiskA] :
-         option == "--hold" ? hold : probe) = argv[2];
+         option == "--hold" ? hold : option == "--memory" ? memory : probe) = argv[2];
         argc -= 2;
         argv += 2;
     }
@@ -232,6 +235,7 @@ int main(int argc, char **argv) {
         (argc == 6 && std::string(argv[5]) != "joystick" && std::string(argv[5]) != "none" && key_row < 0))
         return fail("usage: boot_test [--machine <name>] <data dir> <work dir> <seconds> "
                     "[cartridge [joystick|none|key:<row>,<column>]]");
+    if (!memory.empty()) config.memory_kb = std::atoi(memory.c_str());
     const std::string work = argv[2];
     config.data_dir = argv[1];
     config.home = work + "/home";
@@ -244,7 +248,12 @@ int main(int argc, char **argv) {
     if (!machine) return fail("create: " + error);
     Run boot;
     if (!hold.empty()) {
-        // One key or several: <row>,<column>[;<row>,<column>...]
+        // One key or several: <row>,<column>[;<row>,<column>...], and @<seconds> for other than three.
+        double held_seconds = 3;
+        if (const size_t at = hold.find('@'); at != std::string::npos) {
+            held_seconds = std::atof(hold.c_str() + at + 1);
+            hold.resize(at);
+        }
         std::vector<std::pair<int, int>> held;
         for (size_t start = 0; start < hold.size();) {
             const size_t end = std::min(hold.find(';', start), hold.size());
@@ -255,7 +264,7 @@ int main(int argc, char **argv) {
             start = end + 1;
         }
         for (auto [row, column] : held) machine->key(row, column, true);
-        if (!run(*machine, 3, boot, error)) return fail("run: " + error);
+        if (!run(*machine, held_seconds, boot, error)) return fail("run: " + error);
         for (auto [row, column] : held) machine->key(row, column, false);
     }
     if (!run(*machine, seconds, boot, error)) return fail("run: " + error);

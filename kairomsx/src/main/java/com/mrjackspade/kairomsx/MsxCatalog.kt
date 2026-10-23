@@ -7,7 +7,7 @@ import org.json.JSONArray
 
 /**
  * KairoMSX's catalog records beyond the common fields: the machine a game starts on (`machine`,
- * by openMSX's machine name).
+ * by openMSX's machine name) and its main RAM (`memory`, in KB).
  */
 object MsxCatalog : LayeredGameCatalog.Schema {
     override val platform = "msx"
@@ -45,7 +45,15 @@ object MsxCatalog : LayeredGameCatalog.Schema {
         ChoiceOption("C-BIOS_MSX1", "MSX (C-BIOS)"),
         ChoiceOption("C-BIOS_MSX1_JP", "MSX Japanese (C-BIOS)"),
         ChoiceOption("C-BIOS_MSX1_EU", "MSX European (C-BIOS)")), AUTOMATIC)
-    val options = listOf(machine)
+    /**
+     * The main RAM in KB (msx_machine.h kMemorySizes) for a machine whose main RAM is a memory
+     * mapper; MSX1 machines and the turbo R keep their own. 512 KB, the largest internal mapper of
+     * the era's machines, is the default.
+     */
+    val memory = MachineOption("memory", "Memory", listOf(64, 128, 256, 512, 1024, 2048, 4096).map { kb ->
+        ChoiceOption(kb.toString(), if (kb < 1024) "$kb KB" else "${kb / 1024} MB")
+    }, "512", numeric = true)
+    val options = listOf(machine, memory)
 
     override val fields: Map<String, Set<String>?> = mapOf(MachineOption.SECTION to options.map { it.id }.toSet())
     override val singleMediaRoles = emptySet<String>()

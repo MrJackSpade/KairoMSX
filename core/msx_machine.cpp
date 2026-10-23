@@ -3,7 +3,9 @@
 #include <algorithm>
 #include <cstdlib>
 #include <filesystem>
+#include <fstream>
 #include <initializer_list>
+#include <iterator>
 #include <string_view>
 
 #include "CommandController.hh"
@@ -67,6 +69,48 @@ void set_environment(const char *name, const std::string &value) {
 #else
     setenv(name, value.c_str(), 1);
 #endif
+}
+
+// The machine to start for config: config.machine, or for a memory size its variant with that much
+// main RAM, "<machine>_<size>KB". The variants of every size are written beside the machine's own
+// file, where its ROM files resolve, so a saved state of any size finds its machine. False with error
+// set when the machine's file cannot be read or a variant written.
+bool memory_machine(const Config &config, std::string &machine, std::string &error) {
+    machine = config.machine;
+    if (config.memory_kb == 0) return true;
+    if (std::find(std::begin(kMemorySizes), std::end(kMemorySizes), config.memory_kb) == std::end(kMemorySizes)) {
+        error = "unsupported memory size " + std::to_string(config.memory_kb) + " KB";
+        return false;
+    }
+    const std::filesystem::path machines = std::filesystem::path(config.data_dir) / "machines";
+    std::ifstream in(machines / (config.machine + ".xml"), std::ios::binary);
+    if (!in) {
+        error = "cannot read the machine " + config.machine;
+        return false;
+    }
+    const std::string xml((std::istreambuf_iterator<char>(in)), std::istreambuf_iterator<char>());
+    // The main RAM's size: <size> inside <MemoryMapper id="Main RAM">.
+    const size_t mapper = xml.find("<MemoryMapper id=\"Main RAM\">");
+    if (mapper == std::string::npos) return true;
+    const size_t end = xml.find("</MemoryMapper>", mapper);
+    const size_t size = xml.find("<size>", mapper);
+    const size_t size_end = xml.find("</size>", mapper);
+    if (end == std::string::npos || size == std::string::npos || size_end == std::string::npos || size_end > end) {
+        error = "the machine " + config.machine + " has no main RAM size";
+        return false;
+    }
+    for (int kb : kMemorySizes) {
+        std::string variant = xml;
+        variant.replace(size + 6, size_end - size - 6, std::to_string(kb));
+        const std::filesystem::path file = machines / (config.machine + "_" + std::to_string(kb) + "KB.xml");
+        std::ofstream out(file, std::ios::binary | std::ios::trunc);
+        if (!(out << variant)) {
+            error = "cannot write " + file.string();
+            return false;
+        }
+    }
+    machine = config.machine + "_" + std::to_string(config.memory_kb) + "KB";
+    return true;
 }
 
 // Counts the frames the shown VDP finishes, drawn or not: openMSX does not draw the first frame
@@ -144,7 +188,9 @@ std::unique_ptr<MsxMachine> MsxMachine::create(const Config &config, std::string
         Reactor &reactor = *impl->reactor;
 
         // The machine starts as openMSX's own command line would start it.
-        std::vector<std::string> args = {"openmsx", "-machine", config.machine};
+        std::string machine;
+        if (!memory_machine(config, machine, error)) return nullptr;
+        std::vector<std::string> args = {"openmsx", "-machine", machine};
         for (const auto &extension : config.extensions) {
             args.push_back("-ext");
             args.push_back(extension);

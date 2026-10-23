@@ -32,7 +32,7 @@ Early development. There is no release yet. Cartridge games start on C-BIOS, whi
 
 ## Games and firmware
 
-Games and the MSX machines' BIOS are not supplied. The pinned core includes [C-BIOS](https://cbios.sourceforge.net/), a free replacement BIOS that runs most cartridge games without any BIOS from you. Disk games, turbo R games and cartridges written in MSX-BASIC need the BIOS of a real machine from your own. Menu › Machine lists every BIOS file, each marked Required or Optional. Pick each file, or use **Import all from a folder…** to import every file the app recognizes in a folder you choose. Each game starts on the machine it needs; you can change it in the game's Machine settings.
+Games and the MSX machines' BIOS are not supplied. The pinned core includes [C-BIOS](https://cbios.sourceforge.net/), a free replacement BIOS that runs most cartridge games without any BIOS from you. Disk games, turbo R games and cartridges written in MSX-BASIC need the BIOS of a real machine from your own. Menu › Machine lists every BIOS file, each marked Required or Optional. Pick each file, or use **Import all from a folder…** to import every file the app recognizes in a folder you choose. Each game starts on the machine it needs; you can change it in the game's Machine settings. MSX2 and MSX2+ machines start with 512 KB of RAM, which the Memory setting changes for all games or one; MSX1 machines and the turbo R keep their own.
 
 ## Documentation
 
@@ -62,7 +62,7 @@ Build the app, and optionally install it, with the shared build script:
 shared\tools\build.ps1 -Install <adb serial>
 ```
 
-The host boot test runs the machine without Android: build `core/` with CMake for the host, stage openMSX's data folder with `tools/stage_openmsx_data.py <folder>`, then run `boot_test <data folder> <work folder> <seconds> [cartridge [joystick|none]]`.
+The host boot test runs the machine without Android: build `core/` with CMake for the host, stage openMSX's data folder with `tools/stage_openmsx_data.py <folder>`, then run `boot_test [--machine <name>] [--memory <KB>] [--disk <image>] [--hold <row>,<column>[;...][@<seconds>]] [--command <Tcl>] <data folder> <work folder> <seconds> [cartridge [joystick|none]]`.
 
 <!-- kairo:ui-tests -->
 ## UI tests

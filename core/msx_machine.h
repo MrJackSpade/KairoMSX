@@ -20,6 +20,9 @@ enum Slot { kCartA, kCartB, kDiskA, kDiskB, kCassette, kSlots };
 // The joystick's controls: up, down, left, right, trigger A, trigger B.
 constexpr int kJoystickControls = 6;
 
+// The main RAM sizes, in KB, a machine with a memory mapper can start with (Config::memory_kb).
+constexpr int kMemorySizes[] = {64, 128, 256, 512, 1024, 2048, 4096};
+
 // What a machine starts with.
 struct Config {
     // openMSX's data folder (share/ with the C-BIOS machines; tools/stage_openmsx_data.py).
@@ -28,6 +31,9 @@ struct Config {
     std::string home;
     // The machine, by openMSX's name for it (a file in <data_dir>/machines).
     std::string machine = "C-BIOS_MSX2+";
+    // The main memory mapper's size in KB, one of kMemorySizes, or 0 for the machine's own. A
+    // machine whose main RAM is not a plain memory mapper (MSX1 RAM, the turbo R's) keeps its own.
+    int memory_kb = 0;
     // Extensions to plug in, by openMSX's names for them (files in <data_dir>/extensions).
     std::vector<std::string> extensions;
     // The image in each Slot; "" for an empty one.

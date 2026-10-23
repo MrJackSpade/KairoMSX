@@ -42,7 +42,8 @@ SCANS = {
 # The machines a game can ask for, as MsxCatalog.machine names them.
 MACHINE_OPTIONS = {"machine": {
     "auto", "Panasonic_FS-A1WSX", "Panasonic_FS-A1GT", "Philips_NMS_8250",
-    *(f"C-BIOS_{generation}{region}" for generation in ("MSX1", "MSX2", "MSX2+") for region in ("", "_JP", "_EU"))}}
+    *(f"C-BIOS_{generation}{region}" for generation in ("MSX1", "MSX2", "MSX2+") for region in ("", "_JP", "_EU"))},
+    "memory": {"64", "128", "256", "512", "1024", "2048", "4096"}}
 _BASIC = set(json.loads((Path(__file__).resolve().parent.parent / "catalog/research/basic-cartridges-v1.json")
                         .read_text(encoding="utf-8"))["cartridges"])
 _JAPANESE = re.compile(r"\((?:J|Jp|JP|Japan)\)")

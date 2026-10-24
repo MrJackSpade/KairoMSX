@@ -74,7 +74,7 @@ class MsxTests : KairoUiTest() {
         expect.equal("the machine an MSX-BASIC cartridge started on", "Panasonic_FS-A1WSX", startedMachine("The Brain"))
         driver.waitFrames(300)
         val picture = driver.pictures.game("the-brain")
-        expect.that("The Brain draws its screen", picture.litFraction() > 0.02) { "lit ${picture.litFraction()}" }
+        expect.that("The Brain draws its screen", picture.drawn()) { "lit ${picture.litFraction()}" }
     }
 
     @Test
@@ -91,7 +91,7 @@ class MsxTests : KairoUiTest() {
         val settings = library.open("Boulder Dash").openSettings()
         screens.choose(settings, "machine", "C-BIOS_MSX2+_JP")
         driver.press(KeyEvent.KEYCODE_BUTTON_B)
-        com.mrjackspade.kairo.uitest.GamePage(driver).play()
+        com.mrjackspade.kairo.uitest.GamePage(driver, app, "Boulder Dash").play()
         expect.equal("the machine Boulder Dash started on after choosing its own", "C-BIOS_MSX2+_JP",
             driver.probe().details["machine.machine"])
     }
@@ -106,7 +106,7 @@ class MsxTests : KairoUiTest() {
         val settings = library.open("Boulder Dash").openSettings()
         screens.choose(settings, "memory", "1024")
         driver.press(KeyEvent.KEYCODE_BUTTON_B)
-        com.mrjackspade.kairo.uitest.GamePage(driver).play()
+        com.mrjackspade.kairo.uitest.GamePage(driver, app, "Boulder Dash").play()
         expect.equal("the memory after choosing 1 MB for the game", "1024", driver.probe().details["machine.memory"])
     }
 

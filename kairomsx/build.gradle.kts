@@ -5,6 +5,7 @@ plugins {
 
 extra["kairoProduct"] = "kairomsx"
 extra["kairoLabel"] = "KairoMSX"
+extra["kairoCatalogRules"] = "com.mrjackspade.kairomsx.MsxCatalog"
 apply(from = rootProject.file("shared/gradle/kairo-app.gradle"))
 
 // openMSX's data folder with the C-BIOS machines, as tools/stage_openmsx_data.py assembles it, in

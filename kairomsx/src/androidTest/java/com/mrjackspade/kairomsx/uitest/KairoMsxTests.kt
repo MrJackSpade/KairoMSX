@@ -39,7 +39,7 @@ object KairoMsxApp : AppUnderTest() {
     override val spaceKey = com.mrjackspade.kairomsx.MsxKeys.SPACE
     override val bootGameFile = "games/msx/Champion Boulder Dash (1985) (Comptiq).zip"
     override val otherGame = "The Dam Busters"
-    override val mediaSwap = MediaSwap("The Dam Busters", "Cartridge B", "Brain")
+    override val mediaSwap = MediaSwap("The Dam Busters", "Cartridge B", "Brain", filler = "rom")
 }
 
 class KairoMsxFirstRunTests : FirstRunTests() { override val app = KairoMsxApp }

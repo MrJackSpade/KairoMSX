@@ -37,7 +37,6 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
         setOf(MsxKeys.SHIFT, MsxKeys.CTRL, MsxKeys.GRAPH, MsxKeys.CODE), MsxKeys.joystick.zip(MsxKeys.joystickLabels),
         "The joystick in port A.", ControllerGuestSpec.STANDARD_ACTIONS, MsxKeys.layout)
     override val bindingsCodec = MsxKeys.bindings
-    override fun defaultBindings(layout: ControllerLayout) = MsxKeys.defaults(layout)
     override val artworkDownloadsEnabled: Boolean get() = resources.getBoolean(R.bool.catalog_art_download_enabled)
 
     /** Cartridge, disk and tape images in the formats openMSX reads. */

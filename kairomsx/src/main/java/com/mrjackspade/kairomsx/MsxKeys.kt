@@ -229,38 +229,7 @@ object MsxKeys {
     val joystick = JoystickInputRouter.DEFAULT_CONTROLS
     val joystickLabels = listOf("Up", "Down", "Left", "Right", "Trigger A", "Trigger B")
 
-    val bindings = ControllerBindingsCodec(::defaults, { it in bindableCodes }, joystick,
+    val bindings = ControllerBindingsCodec({ it in bindableCodes }, joystick,
         setOf("menu", "pause", "restart", "exit", "fastForward"))
 
-    fun defaults(layout: ControllerLayout): List<ControllerBinding> =
-        if (layout == ControllerLayout.WITH_STICKS) defaults()
-        else defaults().filterNot { it.input.startsWith("virtual:ls") || it.input.startsWith("virtual:rs") }
-
-    /**
-     * MSX games read the joystick in port A, or the cursor keys, Space and Return. So the D-pad sends
-     * both the joystick and the cursor keys, A and B are Return and Space, X and Y are the joystick
-     * triggers, Start is F1 (many games' pause), Select is Stop, the shoulders are F2 to F5, and the
-     * left stick is the cursor keys.
-     */
-    fun defaults() = listOf(
-        ControllerBinding("virtual:a", listOf(RETURN)),
-        ControllerBinding("virtual:b", listOf(SPACE)),
-        ControllerBinding("virtual:x", joystick = "button1"),
-        ControllerBinding("virtual:y", joystick = "button2"),
-        ControllerBinding("virtual:l1", listOf(function[1])),
-        ControllerBinding("virtual:r1", listOf(function[2])),
-        ControllerBinding("virtual:l2", listOf(function[3])),
-        ControllerBinding("virtual:r2", listOf(function[4])),
-        ControllerBinding("virtual:start", listOf(function[0])),
-        ControllerBinding("virtual:select", listOf(STOP)),
-        ControllerBinding("virtual:menu", action = "menu"),
-        ControllerBinding("virtual:up", listOf(UP), joystick = "up"),
-        ControllerBinding("virtual:down", listOf(DOWN), joystick = "down"),
-        ControllerBinding("virtual:left", listOf(LEFT), joystick = "left"),
-        ControllerBinding("virtual:right", listOf(RIGHT), joystick = "right"),
-        ControllerBinding("virtual:lsup", listOf(UP)),
-        ControllerBinding("virtual:lsdown", listOf(DOWN)),
-        ControllerBinding("virtual:lsleft", listOf(LEFT)),
-        ControllerBinding("virtual:lsright", listOf(RIGHT))
-    )
 }

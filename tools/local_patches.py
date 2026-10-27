@@ -119,6 +119,36 @@ OPENMSX_ANDROID_ALIGNED_ALLOC = [
      '#endif\n'),
 ]
 
+# openMSX records the files a machine has open (disks, cassettes, hard disks, cartridge ROMs) by
+# path in a save state and reopens them by those paths. A game's working copy can have another
+# name since the state was saved (named by the game's path since v1.4.1, by a hash before), so
+# each recorded path goes through the shared frontend's kairo_state_path (kairo/state_paths.h),
+# which gives where the file is now while the frontend loads a state.
+STATE_PATH_DECLARATION = (
+    '// KairoMSX: where a file a save state names is now (shared kairo/state_paths.h).\n'
+    'extern "C" const char *kairo_state_path(const char *recorded);\n')
+OPENMSX_STATE_PATHS = [
+    ('openmsx/src/file/Filename.cc',
+     '#include <cassert>\n\nnamespace openmsx {\n',
+     '#include <cassert>\n\n' + STATE_PATH_DECLARATION + '\nnamespace openmsx {\n'),
+    ('openmsx/src/file/Filename.cc',
+     '\tif (empty()) return;\n\tif (FileOperations::exists(resolvedFilename)) return;\n',
+     '\tif (empty()) return;\n'
+     '\t// KairoMSX: a working copy can have another name since the state was saved.\n'
+     '\tif (std::string now = kairo_state_path(resolvedFilename.c_str()); now != resolvedFilename) {\n'
+     '\t\toriginalFilename = now;\n'
+     '\t\tresolvedFilename = std::move(now);\n'
+     '\t\treturn;\n'
+     '\t}\n'
+     '\tif (FileOperations::exists(resolvedFilename)) return;\n'),
+    ('openmsx/src/memory/Rom.cc',
+     '#include <memory>\n\nnamespace openmsx {\n',
+     '#include <memory>\n\n' + STATE_PATH_DECLARATION + '\nnamespace openmsx {\n'),
+    ('openmsx/src/memory/Rom.cc',
+     '\t\t\t\tfile = File(std::string(resolvedFilenameElem->getData()));\n',
+     '\t\t\t\tfile = File(std::string(kairo_state_path(std::string(resolvedFilenameElem->getData()).c_str()))); // KairoMSX\n'),
+]
+
 # SDL's Android port is a bridge to its own Java classes (org.libsdl.app.SDLActivity), with its own
 # JNI_OnLoad, and needs SDL's Android video, audio and joystick drivers. In KairoMSX the Kairo
 # frontend owns the Java side and the library's JNI_OnLoad, and openMSX starts no SDL subsystem.
@@ -198,6 +228,7 @@ PATCHES = {
     'openmsx-imgui-freetype': OPENMSX_IMGUI_FREETYPE,
     'openmsx-postprocessor': OPENMSX_POSTPROCESSOR,
     'openmsx-sound-driver': OPENMSX_SOUND_DRIVER,
+    'openmsx-state-paths': OPENMSX_STATE_PATHS,
 }
 
 

@@ -28,6 +28,9 @@
 #include <algorithm>
 #include <memory>
 
+// KairoMSX: where a file a save state names is now (shared kairo/state_paths.h).
+extern "C" const char *kairo_state_path(const char *recorded);
+
 namespace openmsx {
 
 class RomDebuggable final : public Debuggable
@@ -123,7 +126,7 @@ void Rom::init(MSXMotherBoard& motherBoard, XMLElement& config,
 		// first try already resolved filename ..
 		if (resolvedFilenameElem) {
 			try {
-				file = File(std::string(resolvedFilenameElem->getData()));
+				file = File(std::string(kairo_state_path(std::string(resolvedFilenameElem->getData()).c_str()))); // KairoMSX
 			} catch (FileException&) {
 				// ignore
 			}

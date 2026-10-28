@@ -134,6 +134,23 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
         mediaStarted(media)
     }
 
+    // MSX-BASIC's prompt: the disk machine boots with its drives empty and the game's disks and tape
+    // go in once it runs. A cartridge stays out, since an inserted cartridge starts itself.
+    override val commandLine = true
+
+    override fun startAtPrompt(entry: DiskImageEntry, game: CatalogGame, cancelled: AtomicBoolean,
+                               progress: (String) -> Unit) {
+        val home = prepareOpenmsx(progress)
+        val options = optionValues(game).toMutableMap()
+        if (options[MsxCatalog.machine.id] == MsxCatalog.AUTOMATIC) options[MsxCatalog.machine.id] = MsxCatalog.DISK_MACHINE
+        check(bridge.start("", home.absolutePath, List(5) { null }, options)) { "Another machine is still running" }
+        awaitRunning()
+        val diskB = if (isDisk(entry)) companionFor(game.mediaId("floppyB"), entry, launchEntries,
+            UiText.res(FrontendR.string.kairo_second_disk_missing), ::isDisk) else null
+        // In the core's slot order (msx_core.cpp): cartridge A, cartridge B, disk A, disk B, cassette.
+        insertMedia(listOf(null, null, entry.takeIf(::isDisk), diskB, entry.takeIf(::isTape)), cancelled, progress)
+    }
+
     /**
      * The core's home (msx_core.cpp): "system", openMSX's data folder copied from assets/openmsx
      * when its STAMP differs, and "user", openMSX's own files.

@@ -21,6 +21,7 @@
 #include "MSXEventDistributor.hh"
 #include "MSXException.hh"
 #include "MSXMixer.hh"
+#include "LedStatus.hh"
 #include "MSXMotherBoard.hh"
 #include "Pluggable.hh"
 #include "PluggingController.hh"
@@ -332,6 +333,11 @@ bool MsxMachine::command(const std::string &command, std::string &result) {
 }
 
 void MsxMachine::reset() { impl_->execute("reset"); }
+
+int MsxMachine::locks() {
+    const LedStatus &leds = impl_->board().getLedStatus();
+    return (leds.getLed(LedStatus::CAPS) ? 1 : 0) | (leds.getLed(LedStatus::KANA) ? 2 : 0);
+}
 
 bool MsxMachine::save_state(const std::string &file, std::string &error) {
     try {

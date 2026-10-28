@@ -5,8 +5,9 @@
 // Runs the cartridge (or C-BIOS alone) for <seconds> of guest time, writing <work dir>/boot.ppm
 // of the last picture and boot.wav of the sound, then presses Space (with "joystick", the
 // joystick's trigger A; with "key:<row>,<column>", that key of the keyboard matrix; with "none",
-// nothing) and writes pressed.ppm. Then
-// it saves a state, runs on, loads the state, and checks that every frame of the second after the
+// nothing) and writes pressed.ppm. It lights and darkens the Caps lamp through the PPI, which the
+// reported lock keys must follow, and presses Caps. Then it saves a state, and checks the lock keys
+// are as saved after loading it. It runs on, loads the state, and checks that every frame of the second after the
 // load leaves the machine as the second after the save did, and draws and plays the same. Last it
 // starts a second machine in the same process, as the app does for its next game.
 // Saved states are compared as XML, without the fields state() names. With --command, it prints
@@ -31,6 +32,7 @@ namespace {
 
 // Space, in the MSX keyboard matrix.
 constexpr int kSpaceRow = 8, kSpaceColumn = 0;
+constexpr int kCapsRow = 6, kCapsColumn = 3;
 // Trigger A, in MsxMachine::joystick's order.
 constexpr int kTriggerA = 4;
 
@@ -309,6 +311,23 @@ int main(int argc, char **argv) {
     std::printf("port B after the mouse moves: '%s'\n", port_b.c_str());
     if (port_b.find("mouse") == std::string::npos) return fail("the mouse is not in port B after it moved");
 
+    // Caps: the lamp follows bit 6 of the PPI's port C (0 lights it), and locks() reports it (bit 0).
+    // The port is written as a BIOS writes it; a BIOS's own keyboard handling may or may not light
+    // the lamp on a Caps press (C-BIOS doesn't), so pressing Caps is only reported.
+    std::string written;
+    for (const auto &[value, lit] : {std::pair{0xB8, true}, std::pair{0xF8, false}}) {
+        if (!machine->command("debug write ioports 0xAA " + std::to_string(value), written))
+            return fail("write port C: " + written);
+        if (((machine->locks() & 1) != 0) != lit) return fail("the Caps lamp does not follow port C");
+    }
+    Run caps;
+    machine->key(kCapsRow, kCapsColumn, true);
+    if (!run(*machine, 0.2, caps, error)) return fail("run while Caps is pressed: " + error);
+    machine->key(kCapsRow, kCapsColumn, false);
+    if (!run(*machine, 0.3, caps, error)) return fail("run after Caps: " + error);
+    const int locks = machine->locks();
+    std::printf("locks after Caps: %d\n", locks);
+
     // The second after the save and the second after the load, frame by frame: state a saved state
     // misses shows up as states that drift apart.
     const std::string saved_file = work + "/state.oms";
@@ -323,6 +342,8 @@ int main(int argc, char **argv) {
     }
     if (!run(*machine, 2, ignored, error)) return fail("run on: " + error);
     if (!machine->load_state(saved_file, error)) return fail("load state: " + error);
+    std::printf("locks after load: %d\n", machine->locks());
+    if (machine->locks() != locks) return fail("a loaded state does not keep its lock keys");
     int drift = -1;
     for (int frame = 0; frame <= frames; ++frame) {
         if (frame > 0 && !run(*machine, kOneFrame, after_load, error)) return fail("run after load: " + error);

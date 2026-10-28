@@ -30,6 +30,8 @@ public:
     std::string error() override { return error_; }
     // The emulator's reason, which save_state and load_state leave in error_.
     std::string state_error() override { return error_; }
+    // Bit 0 Caps, as NativeMachine lists it (MainActivity); bit 1, Kana, waits for its key (KairoMSX#45).
+    int locks() override { return machine_->locks(); }
     const uint8_t *frame(uint32_t &width, uint32_t &height) override { return machine_->frame(width, height); }
     double frame_seconds() override { return machine_->frame_seconds(); }
     int32_t audio_rate() override { return machine_->sample_rate(); }

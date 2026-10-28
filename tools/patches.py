@@ -208,6 +208,16 @@ OPENMSX_MAIN_THREAD = [
      '\tmainThreadId = std::thread::id();\n}\n\nbool isMainThread()\n'),
 ]
 
+# openMSX keeps each LED's state but only tells it through its settings, a throttled event. KairoMSX
+# reports the Caps and Kana (Code) lamps as the guest's lock keys (msx_machine.cpp locks()).
+OPENMSX_LED_GETTER = [
+    ('openmsx/src/LedStatus.hh',
+     '\tvoid setLed(Led led, bool status);\n',
+     '\tvoid setLed(Led led, bool status);\n'
+     '\t// KairoMSX: whether a LED is on now.\n'
+     '\t[[nodiscard]] bool getLed(Led led) const { return ledValue[led]; }\n'),
+]
+
 PATCHES = {
     'openmsx-main-thread': OPENMSX_MAIN_THREAD,
     'openmsx-android-stack-check': OPENMSX_ANDROID_STACK_CHECK,
@@ -219,4 +229,5 @@ PATCHES = {
     'openmsx-postprocessor': OPENMSX_POSTPROCESSOR,
     'openmsx-sound-driver': OPENMSX_SOUND_DRIVER,
     'openmsx-state-paths': OPENMSX_STATE_PATHS,
+    'openmsx-led-getter': OPENMSX_LED_GETTER,
 }

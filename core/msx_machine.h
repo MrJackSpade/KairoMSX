@@ -72,6 +72,9 @@ public:
     bool command(const std::string &command, std::string &result);
 
     void reset();
+    // The lock keys on, as the machine's lamps show them: bit 0 Caps, bit 1 Kana (the Code lamp of
+    // an international MSX).
+    int locks();
     // Saves or loads the whole machine; false with error set when openMSX refused.
     bool save_state(const std::string &file, std::string &error);
     bool load_state(const std::string &file, std::string &error);

@@ -32,6 +32,8 @@ public:
 	          MSXCliComm& msxCliComm);
 
 	void setLed(Led led, bool status);
+	// KairoMSX: whether a LED is on now.
+	[[nodiscard]] bool getLed(Led led) const { return ledValue[led]; }
 
 private:
 	void handleEvent(Led led) noexcept;

@@ -33,7 +33,7 @@ KairoMSX builds openMSX's emulation code with its own replacements for the parts
 
 ## Notices in the app
 
-`tools/notices.py` writes the app's `THIRD_PARTY_NOTICES.txt` (About → Licenses) from the license files and source notices below: openMSX's GPL text, the notices of the code its sources embed under other terms (Nuke.YKT's YM2413, SDL_image's PNG code, LZ4, xxHash, UTF8-CPP, fast_log, the Tiger tree hash, function_ref), C-BIOS, Dear ImGui and the four libraries. `tools/notices.py --check` fails when the file is out of date.
+`shared/tools/notices.py .` writes the app's `THIRD_PARTY_NOTICES.txt` (About → Licenses) from `tools/notices_sources.py`, which lists the license files and source notices below: openMSX's GPL text, the notices of the code its sources embed under other terms (Nuke.YKT's YM2413, SDL_image's PNG code, LZ4, xxHash, UTF8-CPP, fast_log, the Tiger tree hash, function_ref), C-BIOS, Dear ImGui and the four libraries. `tools/notices.py --check` fails when the file is out of date.
 
 ## Libraries openMSX needs
 

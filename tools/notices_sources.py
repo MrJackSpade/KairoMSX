@@ -1,18 +1,8 @@
-#!/usr/bin/env python3
-"""Writes kairomsx/src/main/assets/THIRD_PARTY_NOTICES.txt from the license files and notices in
-third_party/: openMSX, the code its sources embed under their own terms, C-BIOS, Dear ImGui and
-the libraries openMSX links. The shared frontend's own notices (its Java libraries, font, NDK
-runtime and AndroidX) follow these in About -> Licenses. Run it again after an import.
+"""KairoMSX's third-party notices: the sources shared/tools/notices.py writes kairomsx/src/main/assets/THIRD_PARTY_NOTICES.txt from.
+Run it again after an import."""
+from notices import excerpt, text
 
-Usage: notices.py [--check]   (--check fails when the file is out of date)
-"""
-import sys
-from pathlib import Path
-
-ROOT = Path(__file__).resolve().parents[1]
-THIRD_PARTY = ROOT / 'third_party'
-OUT = ROOT / 'kairomsx/src/main/assets/THIRD_PARTY_NOTICES.txt'
-RULE = '=' * 72
+OUT = 'kairomsx/src/main/assets/THIRD_PARTY_NOTICES.txt'
 
 HEADER = '''KairoMSX third-party notices
 These notices apply to the emulator code and libraries in this package. KairoMSX emulates the MSX
@@ -22,19 +12,6 @@ team or the C-BIOS authors.'''
 OPENMSX_TERMS = '''openMSX is distributed under the GNU General Public License, version 2; its README names no
 later version. Its contributors are listed in doc/authors.txt of its source. Some of its source
 files carry other terms, given below them. The GPL version 2 text follows.'''
-
-
-def text(path):
-    return (THIRD_PARTY / path).read_text(encoding='utf-8', errors='strict').replace('\r\n', '\n').strip('\n')
-
-
-def excerpt(path, first, last):
-    """The lines of a source file from the one containing `first` through the next containing `last`."""
-    lines = text(path).split('\n')
-    start = next(i for i, line in enumerate(lines) if first in line)
-    end = next(i for i in range(start, len(lines)) if last in lines[i])
-    return '\n'.join(lines[start:end + 1])
-
 
 # (title, source, [text]) in the order shown.
 SECTIONS = [
@@ -66,23 +43,3 @@ SECTIONS = [
     ('Tcl 8.6.18', 'https://www.tcl-lang.org/, third_party/tcl', [text('tcl/license.terms')]),
     ('SDL2 2.32.10', 'https://www.libsdl.org/, third_party/sdl2', [text('sdl2/LICENSE.txt')]),
 ]
-
-
-def section(title, source, texts):
-    return '\n\n'.join([f'{RULE}\n{title}\nSource: {source}\n{RULE}'] + texts)
-
-
-def main():
-    content = HEADER + '\n\n' + '\n\n'.join(section(*s) for s in SECTIONS) + '\n'
-    if sys.argv[1:] == ['--check']:
-        # Git may check the file out with CRLF line endings.
-        if OUT.read_text(encoding='utf-8').replace('\r\n', '\n') != content:
-            raise SystemExit(f'{OUT.relative_to(ROOT)} is out of date: run tools/notices.py')
-        return
-    OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(content, encoding='utf-8', newline='\n')
-    print(f'wrote {OUT.relative_to(ROOT)}')
-
-
-if __name__ == '__main__':
-    main()

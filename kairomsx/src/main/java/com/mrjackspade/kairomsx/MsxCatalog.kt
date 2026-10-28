@@ -14,6 +14,8 @@ import org.json.JSONArray
  * (`msxdos2`).
  */
 object MsxCatalog : LayeredGameCatalog.Schema {
+    /** A floppy disk's content ID prefix, the only media a game's disk B may be. */
+    private const val FLOPPY = "sha256-fd-v1:"
     override val platform = "msx"
     override val catalogUrl = "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/"
     override val selfHostedArt = "/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/"
@@ -61,10 +63,11 @@ object MsxCatalog : LayeredGameCatalog.Schema {
     const val DOS2_MACHINE = "Panasonic_FS-A1GT"
     val options = listOf(machine, memory, msxdos2)
 
-    override val settings: List<CatalogSetting> = options.map(CatalogSetting::Choice)
+    override val settings: List<CatalogSetting> = options.map(CatalogSetting::Choice) +
+        CatalogSetting.Drive("floppyB", UiText.res(FrontendR.string.kairo_drive_b)) { it.startsWith(FLOPPY) }
     override val fields = CatalogSetting.fields(settings)
 
-    override fun validMedia(role: String, contentId: String) = false
+    override fun validMedia(role: String, contentId: String) = role == "floppyB" && contentId.startsWith(FLOPPY)
 
     override fun validField(field: String, value: Any): Boolean =
         field in fields && CatalogSetting.validSection(settings, field, value)

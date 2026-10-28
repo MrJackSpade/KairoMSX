@@ -14,6 +14,7 @@ import com.mrjackspade.kairo.frontend.MachineFirstRun
 import com.mrjackspade.kairo.frontend.NativeMachine
 import com.mrjackspade.kairo.frontend.ShippedAssets
 import com.mrjackspade.kairo.frontend.UiText
+import com.mrjackspade.kairo.frontend.companionFor
 import com.mrjackspade.kairo.frontend.text
 
 import org.json.JSONObject
@@ -110,8 +111,11 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
     override fun startGame(entry: DiskImageEntry, game: CatalogGame, cancelled: AtomicBoolean,
                            progress: (String) -> Unit) {
         val home = prepareOpenmsx(progress)
+        // A disk game's disk B: the one its catalog names, else the set's other disk.
+        val diskB = if (isDisk(entry)) companionFor(game.mediaId("floppyB"), entry, launchEntries,
+            UiText.res(FrontendR.string.kairo_second_disk_missing), ::isDisk) else null
         // In the core's slot order (msx_core.cpp): cartridge A, cartridge B, disk A, disk B, cassette.
-        val media = listOf(entry.takeIf(::isCartridge), null, entry.takeIf(::isDisk), null, entry.takeIf(::isTape))
+        val media = listOf(entry.takeIf(::isCartridge), null, entry.takeIf(::isDisk), diskB, entry.takeIf(::isTape))
         val images = media.map { image -> image?.let { this.images.prepare(it, cancelled, progress).absolutePath } }
         val options = optionValues(game).toMutableMap()
         val dos2 = isDisk(entry) && options[MsxCatalog.msxdos2.id] == "on"

@@ -12,6 +12,9 @@ import java.io.File
 class MsxDos2Test {
     @get:Rule val folder = TemporaryFolder()
 
+    /** The message a start without the player's MSX-DOS2 files fails with. */
+    private val missing = "import MSXDOS2.SYS and COMMAND2.COM"
+
     /** A blank 720 KB MSX disk: 2 sectors a cluster, 2 FATs of 3 sectors, 112 root entries. */
     private fun blankDisk(): ByteArray {
         val image = ByteArray(1440 * 512)
@@ -59,7 +62,7 @@ class MsxDos2Test {
         val image = disk(blankDisk())
         val system = copy("MSXDOS2.SYS", 4480)
         val command = copy("COMMAND2.COM", 15000)
-        MsxDos2.install(image) { mapOf(MsxDos2.SYSTEM to system, MsxDos2.COMMAND to command)[it] }
+        MsxDos2.install(image, missing) { mapOf(MsxDos2.SYSTEM to system, MsxDos2.COMMAND to command)[it] }
         val result = image.readBytes()
         assertArrayEquals(system.readBytes(), read(result, MsxDos2.SYSTEM))
         assertArrayEquals(command.readBytes(), read(result, MsxDos2.COMMAND))
@@ -77,12 +80,12 @@ class MsxDos2Test {
         val image = disk(blankDisk())
         val system = copy("MSXDOS2.SYS", 4480)
         val command = copy("COMMAND2.COM", 15000)
-        MsxDos2.install(image) { mapOf(MsxDos2.SYSTEM to system, MsxDos2.COMMAND to command)[it] }
+        MsxDos2.install(image, missing) { mapOf(MsxDos2.SYSTEM to system, MsxDos2.COMMAND to command)[it] }
         val withFiles = image.readBytes()
         // Back to a DOS1 boot sector: the files stay, and none is asked for again.
         withFiles[0x20] = 0
         image.writeBytes(withFiles)
-        MsxDos2.install(image) { error("asked for $it") }
+        MsxDos2.install(image, missing) { error("asked for $it") }
         assertTrue(MsxDos2.dos2Format(image.readBytes()))
     }
 
@@ -91,9 +94,9 @@ class MsxDos2Test {
         val image = disk(blankDisk())
         val system = copy("MSXDOS2.SYS", 4480)
         val command = copy("COMMAND2.COM", 15000)
-        MsxDos2.install(image) { mapOf(MsxDos2.SYSTEM to system, MsxDos2.COMMAND to command)[it] }
+        MsxDos2.install(image, missing) { mapOf(MsxDos2.SYSTEM to system, MsxDos2.COMMAND to command)[it] }
         val ready = image.readBytes()
-        MsxDos2.install(image) { error("asked for $it") }
+        MsxDos2.install(image, missing) { error("asked for $it") }
         assertArrayEquals(ready, image.readBytes())
     }
 
@@ -101,8 +104,8 @@ class MsxDos2Test {
     fun aMissingFileFailsTheStartAndLeavesTheDiskAlone() {
         val blank = blankDisk()
         val image = disk(blank)
-        val message = runCatching { MsxDos2.install(image) { null } }.exceptionOrNull()?.message.orEmpty()
-        assertTrue(message, message.contains("import MSXDOS2.SYS and COMMAND2.COM"))
+        val message = runCatching { MsxDos2.install(image, missing) { null } }.exceptionOrNull()?.message.orEmpty()
+        assertEquals(missing, message)
         assertArrayEquals(blank, image.readBytes())
     }
 
@@ -112,7 +115,7 @@ class MsxDos2Test {
         // Every cluster in use.
         for (fat in 0 until 2) for (at in 512 + fat * 1536 + 3 until 512 + fat * 1536 + 1536) full[at] = 0xFF.toByte()
         val image = disk(full)
-        val result = runCatching { MsxDos2.install(image) { copy(it, 4480) } }
+        val result = runCatching { MsxDos2.install(image, missing) { copy(it, 4480) } }
         assertFalse(result.isSuccess)
         assertArrayEquals(full, image.readBytes())
     }
@@ -120,7 +123,7 @@ class MsxDos2Test {
     @Test
     fun aDiskWithoutAFileSystemIsRefused() {
         val image = disk(ByteArray(1440 * 512))
-        val message = runCatching { MsxDos2.install(image) { null } }.exceptionOrNull()?.message.orEmpty()
+        val message = runCatching { MsxDos2.install(image, missing) { null } }.exceptionOrNull()?.message.orEmpty()
         assertEquals("Not a FAT12 disk image", message)
     }
 }

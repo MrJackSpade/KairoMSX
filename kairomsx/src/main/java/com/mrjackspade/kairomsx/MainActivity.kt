@@ -11,6 +11,7 @@ import com.mrjackspade.kairo.frontend.LibraryStrings
 import com.mrjackspade.kairo.frontend.MachineActivity
 import com.mrjackspade.kairo.frontend.MachineFirstRun
 import com.mrjackspade.kairo.frontend.NativeMachine
+import com.mrjackspade.kairo.frontend.UiText
 
 import org.json.JSONObject
 import java.io.File
@@ -20,13 +21,11 @@ import java.util.concurrent.atomic.AtomicBoolean
 class MainActivity : MachineActivity<DiskImageEntry>() {
     override val identity = Identity("KAIROMSX", 0xff972AFB.toInt(), "KairoMSX", "MSX", "kairomsx",
         LibraryStrings("KAIROMSX", "KairoMSX"),
-        "KairoMSX uses openMSX's MSX emulation and the C-BIOS system software. Source and provenance: " +
-            "github.com/MrJackSpade/KairoMSX.",
-        "Choose a games folder to find cartridge, disk and tape images and the ZIP and 7z archives holding them",
-        "Folder access expired. Select the games folder again.",
-        MachineFirstRun.Folder("Choose a games folder", "Select the folder containing your MSX games. KairoMSX " +
-            "will scan its cartridge, disk and tape images and the ZIP and 7z archives holding them.", "Choose games folder…"),
-        "SAVE STATES", "MrJackSpade/KairoMSX")
+        UiText.res(R.string.credits, "KairoMSX", "openMSX", "MSX", "C-BIOS", "MrJackSpade/KairoMSX"),
+        UiText.res(R.string.library_empty), UiText.res(R.string.library_expired),
+        MachineFirstRun.Folder(UiText.res(R.string.folder_title), UiText.res(R.string.folder_description, "MSX", "KairoMSX"),
+            UiText.res(R.string.folder_button)),
+        UiText.res(R.string.saves_group), "MrJackSpade/KairoMSX")
     override val machine = Machine(320, 240, 4.0 / 3.0, "state.oms")
     override val bridge by lazy { NativeMachine("kairomsx") }
     override val keyboard = MsxKeys.layout
@@ -35,37 +34,37 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
     override val joystickControls get() = MsxKeys.joystick
     override val controllerSpec = ControllerGuestSpec("MSX", MsxKeys.bindableCodes, { MsxKeys.label(it) ?: "Key $it" },
         setOf(MsxKeys.SHIFT, MsxKeys.CTRL, MsxKeys.GRAPH, MsxKeys.CODE), MsxKeys.joystick.zip(MsxKeys.joystickLabels),
-        "The joystick in port A.", ControllerGuestSpec.STANDARD_ACTIONS, MsxKeys.layout)
+        UiText.res(R.string.joystick_help), ControllerGuestSpec.STANDARD_ACTIONS, MsxKeys.layout)
     override val bindingsCodec = MsxKeys.bindings
     override val artworkDownloadsEnabled: Boolean get() = resources.getBoolean(R.bool.catalog_art_download_enabled)
 
     /** Cartridge, disk and tape images in the formats openMSX reads. */
-    private val images by lazy {
-        DiskImageLibrary(this, DiskImageLibrary.Format(
-            kinds = listOf("rom", "mx1", "mx2", "ri").associateWith { "rom" } +
-                listOf("dsk", "di1", "di2", "dmk").associateWith { "fd" } + listOf("cas", "tsx").associateWith { "tape" },
-            labels = mapOf("rom" to "Cartridge", "fd" to "Floppy disk", "tape" to "Cassette"),
-            maxBytes = mapOf("rom" to 16L * 1024 * 1024, "fd" to 16L * 1024 * 1024, "tape" to 16L * 1024 * 1024),
-            guestName = "MSX"))
-    }
+    private val format = DiskImageLibrary.Format(
+        kinds = listOf("rom", "mx1", "mx2", "ri").associateWith { "rom" } +
+            listOf("dsk", "di1", "di2", "dmk").associateWith { "fd" } + listOf("cas", "tsx").associateWith { "tape" },
+        labels = mapOf("rom" to UiText.res(R.string.cartridge), "fd" to UiText.res(R.string.floppy_disk),
+            "tape" to UiText.res(R.string.cassette)),
+        maxBytes = mapOf("rom" to 16L * 1024 * 1024, "fd" to 16L * 1024 * 1024, "tape" to 16L * 1024 * 1024),
+        guestName = "MSX")
+    private val images by lazy { DiskImageLibrary(this, format) }
     override fun createCatalog() = LayeredGameCatalog(this, MsxCatalog)
     override fun createLibrary(catalog: LayeredGameCatalog) = images
 
-    private fun isCartridge(entry: DiskImageEntry) = entry.mediaLabel == "Cartridge"
-    private fun isDisk(entry: DiskImageEntry) = entry.mediaLabel == "Floppy disk"
-    private fun isTape(entry: DiskImageEntry) = entry.mediaLabel == "Cassette"
+    private fun isCartridge(entry: DiskImageEntry) = format.kind(entry.displayName) == "rom"
+    private fun isDisk(entry: DiskImageEntry) = format.kind(entry.displayName) == "fd"
+    private fun isTape(entry: DiskImageEntry) = format.kind(entry.displayName) == "tape"
 
     override val machineOptions = MsxCatalog.options
-    override val mediaPageTitle = "Media"
+    override val mediaPageTitle = UiText.res(R.string.media)
     // In the core's slot order (msx_machine.h Slot).
-    override val mediaSlots = listOf(MediaSlot<DiskImageEntry>("Cartridge A", ::isCartridge),
-        MediaSlot("Cartridge B", ::isCartridge), MediaSlot("Disk A", ::isDisk), MediaSlot("Disk B", ::isDisk),
-        MediaSlot("Cassette", ::isTape))
+    override val mediaSlots = listOf(MediaSlot<DiskImageEntry>(UiText.res(R.string.cartridge_a), ::isCartridge),
+        MediaSlot(UiText.res(R.string.cartridge_b), ::isCartridge), MediaSlot(UiText.res(R.string.disk_a), ::isDisk),
+        MediaSlot(UiText.res(R.string.disk_b), ::isDisk), MediaSlot(UiText.res(R.string.cassette), ::isTape))
 
     /**
      * The system ROMs of the real machines (assets/system_roms.json, from openMSX's machine
      * definitions), found by content and copied to openMSX's systemroms folder, where openMSX finds
-     * them by digest. One set per machine.
+     * them by digest. One set per machine. Their names and notes are the asset's English.
      */
     override val firmwareSets by lazy {
         val machines = JSONObject(assets.open("system_roms.json").bufferedReader().use { it.readText() })
@@ -77,18 +76,18 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
                 val rom = roms.getJSONObject(romIndex)
                 val file = rom.getString("file")
                 val digests = rom.getJSONArray("sha1")
-                file to FirmwareSet.Part(file, rom.getString("label"), "$file · ${rom.getString("description")}",
-                    setOf(file.lowercase()), true,
+                file to FirmwareSet.Part(file, UiText.fixed(rom.getString("label")),
+                    UiText.res(R.string.firmware_part, file, UiText.fixed(rom.getString("description"))), setOf(file.lowercase()), true,
                     sha1 = (0 until digests.length()).map(digests::getString).toSet(), maxBytes = MAX_SYSTEM_ROM)
             }
             // Each requirement is met by any one of its files (system_roms.py).
             val requirements = machine.getJSONArray("requirements")
-            machine.getString("label") to FirmwareSet(systemRoms, parts.values.toList(),
+            UiText.fixed(machine.getString("label")) to FirmwareSet(systemRoms, parts.values.toList(),
                 (0 until requirements.length()).map { index ->
                     val options = requirements.getJSONArray(index)
                     (0 until options.length()).map { parts.getValue(options.getString(it)) }
-                }, machine.getString("note"))
-        } + ("MSX-DOS2" to msxDos2)
+                }, UiText.fixed(machine.getString("note")))
+        } + (UiText.fixed(DOS2) to msxDos2)
     }
 
     /**
@@ -97,9 +96,9 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
      */
     private val msxDos2 by lazy {
         FirmwareSet(File(openmsxHome, "user/msxdos2"), listOf(MsxDos2.SYSTEM, MsxDos2.COMMAND).map { file ->
-            FirmwareSet.Part(file, file, "$file · MSX-DOS2 system file",
-                setOf(file.lowercase()), false, maxBytes = MAX_DOS_FILE)
-        }, note = "For disks that start from MSX-DOS2 but do not include it")
+            FirmwareSet.Part(file, UiText.fixed(file), UiText.res(R.string.firmware_part, file,
+                UiText.res(R.string.dos2_system_file, DOS2)), setOf(file.lowercase()), false, maxBytes = MAX_DOS_FILE)
+        }, note = UiText.res(R.string.dos2_note, DOS2))
     }
     private val openmsxHome by lazy { File(filesDir, "openmsx") }
     /** openMSX's user systemroms folder: its OPENMSX_HOME's share/systemroms (msx_core.cpp). */
@@ -120,7 +119,8 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
                 else -> MsxCatalog.DISK_MACHINE
             }
         }
-        if (dos2) MsxDos2.install(File(checkNotNull(images[2]))) { name ->
+        if (dos2) MsxDos2.install(File(checkNotNull(images[2])),
+            getString(R.string.dos2_missing, DOS2, MsxDos2.SYSTEM, MsxDos2.COMMAND)) { name ->
             msxDos2.file(msxDos2.parts.single { it.name == name }).takeIf { it.isFile }
         }
         check(bridge.start("", home.absolutePath, images, options)) { "Another machine is still running" }
@@ -137,7 +137,7 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
         val system = File(home, "system")
         val stamp = assets.open("openmsx/STAMP").bufferedReader().use { it.readText() }
         if (File(system, "STAMP").takeIf { it.isFile }?.readText() != stamp) {
-            progress("Preparing the emulator")
+            progress(getString(R.string.preparing_emulator))
             val copy = File(home, "system.new")
             copy.deleteRecursively()
             copyAsset("openmsx", copy)
@@ -163,11 +163,12 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
         const val MAX_SYSTEM_ROM = 4L * 1024 * 1024
         /** Larger than any MSX-DOS2 system file (COMMAND2.COM is about 15 KB). */
         const val MAX_DOS_FILE = 64L * 1024
+        const val DOS2 = "MSX-DOS2"
     }
 
     override fun stateError(code: Int) = when (code) {
-        2 -> "the emulator could not read or write the state"
-        3 -> "the emulator refused the image"
-        else -> "code $code"
+        2 -> getString(R.string.state_error_io)
+        3 -> getString(R.string.state_error_refused)
+        else -> getString(R.string.state_error_code, code)
     }
 }

@@ -26,15 +26,15 @@ object MsxDos2 {
 
     /**
      * Readies [image] to start MSX-DOS2. [copy] gives the player's copy of a file the disk lacks,
-     * or null when it was never imported, which fails the start with what to import.
+     * or null when it was never imported, which fails the start with [missing]: what to import.
      */
-    fun install(image: File, copy: (String) -> File?) {
+    fun install(image: File, missing: String, copy: (String) -> File?) {
         val bytes = image.readBytes()
         val disk = Fat12(bytes)
         var changed = false
         for (name in listOf(SYSTEM, COMMAND)) {
             if (disk.has(name)) continue
-            val source = copy(name) ?: error("This disk starts from MSX-DOS2: import $SYSTEM and $COMMAND on the BIOS page")
+            val source = copy(name) ?: error(missing)
             disk.add(name, source.readBytes())
             changed = true
         }

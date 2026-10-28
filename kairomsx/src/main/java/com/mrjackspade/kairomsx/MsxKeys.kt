@@ -5,6 +5,8 @@ import com.mrjackspade.kairo.frontend.ControllerBindingsCodec
 import com.mrjackspade.kairo.frontend.ControllerLayout
 import com.mrjackspade.kairo.frontend.GuestKeyboardLayout
 import com.mrjackspade.kairo.frontend.GuestKeyboardPage
+import com.mrjackspade.kairo.frontend.UiText
+import com.mrjackspade.kairo.frontend.R as FrontendR
 import com.mrjackspade.kairo.frontend.JoystickInputRouter
 import com.mrjackspade.kairo.frontend.KeyboardKey
 import com.mrjackspade.kairo.frontend.SymbolPage
@@ -71,7 +73,7 @@ object MsxKeys {
         brand = "KAIROMSX",
         pages = listOf(
             GuestKeyboardPage("ABC", alphabetRows()),
-            GuestKeyboardPage("?123", symbolRows(), pickerLabel = "Symbols"),
+            GuestKeyboardPage("?123", symbolRows(), pickerLabel = UiText.res(R.string.keyboard_symbols)),
             GuestKeyboardPage("MSX", msxRows())
         ),
         modifiers = setOf(SHIFT, CTRL, GRAPH, CODE, CAPS),
@@ -227,7 +229,8 @@ object MsxKeys {
 
     /** The joystick's controls in the core's order (msx_machine.h kJoystickControls). */
     val joystick = JoystickInputRouter.DEFAULT_CONTROLS
-    val joystickLabels = listOf("Up", "Down", "Left", "Right", "Trigger A", "Trigger B")
+    val joystickLabels = listOf(FrontendR.string.kairo_up, FrontendR.string.kairo_down, FrontendR.string.kairo_left,
+        FrontendR.string.kairo_right, R.string.joystick_trigger_a, R.string.joystick_trigger_b).map { UiText.res(it) }
 
     val bindings = ControllerBindingsCodec({ it in bindableCodes }, joystick,
         setOf("menu", "pause", "restart", "exit", "fastForward"))

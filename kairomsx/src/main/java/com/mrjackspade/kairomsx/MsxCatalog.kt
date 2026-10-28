@@ -4,6 +4,8 @@ import com.mrjackspade.kairo.frontend.CatalogSetting
 import com.mrjackspade.kairo.frontend.ChoiceOption
 import com.mrjackspade.kairo.frontend.LayeredGameCatalog
 import com.mrjackspade.kairo.frontend.MachineOption
+import com.mrjackspade.kairo.frontend.UiText
+import com.mrjackspade.kairo.frontend.R as FrontendR
 import org.json.JSONArray
 
 /**
@@ -33,34 +35,31 @@ object MsxCatalog : LayeredGameCatalog.Schema {
      * machines, which disks and tapes need, start with the player's own system ROMs
      * (assets/system_roms.json).
      */
-    val machine = MachineOption("machine", "Machine", listOf(
-        ChoiceOption(AUTOMATIC, "Automatic"),
+    val machine = MachineOption("machine", UiText.res(R.string.option_machine), listOf(
+        ChoiceOption(AUTOMATIC, UiText.res(R.string.machine_automatic)),
         ChoiceOption("Panasonic_FS-A1WSX", "Panasonic FS-A1WSX (MSX2+)"),
         ChoiceOption("Panasonic_FS-A1GT", "Panasonic FS-A1GT (turbo R)"),
-        ChoiceOption("Philips_NMS_8250", "Philips NMS 8250 (MSX2)"),
-        ChoiceOption("C-BIOS_MSX2+", "MSX2+ (C-BIOS)"),
-        ChoiceOption("C-BIOS_MSX2+_JP", "MSX2+ Japanese (C-BIOS)"),
-        ChoiceOption("C-BIOS_MSX2+_EU", "MSX2+ European (C-BIOS)"),
-        ChoiceOption("C-BIOS_MSX2", "MSX2 (C-BIOS)"),
-        ChoiceOption("C-BIOS_MSX2_JP", "MSX2 Japanese (C-BIOS)"),
-        ChoiceOption("C-BIOS_MSX2_EU", "MSX2 European (C-BIOS)"),
-        ChoiceOption("C-BIOS_MSX1", "MSX (C-BIOS)"),
-        ChoiceOption("C-BIOS_MSX1_JP", "MSX Japanese (C-BIOS)"),
-        ChoiceOption("C-BIOS_MSX1_EU", "MSX European (C-BIOS)")), AUTOMATIC)
+        ChoiceOption("Philips_NMS_8250", "Philips NMS 8250 (MSX2)")) +
+        listOf("MSX2+" to "C-BIOS_MSX2+", "MSX2" to "C-BIOS_MSX2", "MSX" to "C-BIOS_MSX1").flatMap { (generation, id) ->
+            listOf(ChoiceOption(id, "$generation (C-BIOS)"),
+                ChoiceOption("${id}_JP", UiText.res(R.string.machine_japanese, generation, "C-BIOS")),
+                ChoiceOption("${id}_EU", UiText.res(R.string.machine_european, generation, "C-BIOS")))
+        }, AUTOMATIC)
     /**
      * The main RAM in KB (msx_machine.h kMemorySizes) for a machine whose main RAM is a memory
      * mapper; MSX1 machines and the turbo R keep their own. 512 KB, the largest internal mapper of
      * the era's machines, is the default.
      */
-    val memory = MachineOption("memory", "Memory", listOf(64, 128, 256, 512, 1024, 2048, 4096).map { kb ->
-        ChoiceOption(kb.toString(), if (kb < 1024) "$kb KB" else "${kb / 1024} MB")
+    val memory = MachineOption("memory", UiText.res(R.string.option_memory), listOf(64, 128, 256, 512, 1024, 2048, 4096).map { kb ->
+        ChoiceOption(kb.toString(), if (kb < 1024) UiText.res(R.string.memory_kb, kb) else UiText.res(R.string.memory_mb, kb / 1024))
     }, "512", numeric = true)
     /**
      * Whether a disk starts from MSX-DOS2 (MsxDos2): its working copy gets the player's MSX-DOS2
      * files and a DOS2-format boot sector, and Automatic starts it on the turbo R, the only machine
      * with the DOS2 kernel.
      */
-    val msxdos2 = MachineOption("msxdos2", "MSX-DOS2", listOf(ChoiceOption("off", "Off"), ChoiceOption("on", "On")), "off")
+    val msxdos2 = MachineOption("msxdos2", UiText.fixed("MSX-DOS2"), listOf(ChoiceOption("off", UiText.res(FrontendR.string.kairo_off)),
+        ChoiceOption("on", UiText.res(FrontendR.string.kairo_on))), "off")
     const val DOS2_MACHINE = "Panasonic_FS-A1GT"
     val options = listOf(machine, memory, msxdos2)
 

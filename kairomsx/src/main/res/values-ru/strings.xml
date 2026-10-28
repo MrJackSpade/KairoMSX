@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Russian (ru): the translation of values/strings.xml. Each EN comment is the English a string translates; update it with the translation. Check with shared/tools/translations.py check. -->
+<resources>
+    <!-- %1$s is the app's name, KairoMSX; %2$s the emulator it runs, openMSX; %3$s the machine, MSX;
+         %4$s the bundled system software, C-BIOS; %5$s its GitHub repository. -->
+    <!-- EN: %1$s uses %2$s\'s %3$s emulation and the %4$s system software. Source and provenance: github.com/%5$s. -->
+    <string name="credits">%1$s uses %2$s\'s %3$s emulation and the %4$s system software. Source and provenance: github.com/%5$s.</string>
+    <!-- EN: Choose a games folder to find cartridge, disk and tape images and the ZIP and 7z archives holding them -->
+    <string name="library_empty">Choose a games folder to find cartridge, disk and tape images and the ZIP and 7z archives holding them</string>
+    <!-- EN: Folder access expired. Select the games folder again. -->
+    <string name="library_expired">Folder access expired. Select the games folder again.</string>
+    <!-- EN: Choose a games folder -->
+    <string name="folder_title">Choose a games folder</string>
+    <!-- %1$s is the machine's name, MSX; %2$s the app's name, KairoMSX. -->
+    <!-- EN: Select the folder containing your %1$s games. %2$s will scan its cartridge, disk and tape images and the ZIP and 7z archives holding them. -->
+    <string name="folder_description">Select the folder containing your %1$s games. %2$s will scan its cartridge, disk and tape images and the ZIP and 7z archives holding them.</string>
+    <!-- EN: Choose games folder… -->
+    <string name="folder_button">Choose games folder…</string>
+    <!-- EN: SAVE STATES -->
+    <string name="saves_group">SAVE STATES</string>
+    <!-- EN: The joystick in port A. -->
+    <string name="joystick_help">The joystick in port A.</string>
+    <!-- EN: Trigger A -->
+    <string name="joystick_trigger_a">Trigger A</string>
+    <!-- EN: Trigger B -->
+    <string name="joystick_trigger_b">Trigger B</string>
+    <!-- EN: Symbols -->
+    <string name="keyboard_symbols">Symbols</string>
+    <!-- EN: Cartridge -->
+    <string name="cartridge">Cartridge</string>
+    <!-- EN: Floppy disk -->
+    <string name="floppy_disk">Floppy disk</string>
+    <!-- EN: Cassette -->
+    <string name="cassette">Cassette</string>
+    <!-- EN: Media -->
+    <string name="media">Media</string>
+    <!-- EN: Cartridge A -->
+    <string name="cartridge_a">Cartridge A</string>
+    <!-- EN: Cartridge B -->
+    <string name="cartridge_b">Cartridge B</string>
+    <!-- EN: Disk A -->
+    <string name="disk_a">Disk A</string>
+    <!-- EN: Disk B -->
+    <string name="disk_b">Disk B</string>
+    <!-- A firmware file's description: %1$s is its file name; %2$s what it does. -->
+    <!-- EN: %1$s · %2$s -->
+    <string name="firmware_part">%1$s · %2$s</string>
+    <!-- %1$s is MSX-DOS2. -->
+    <!-- EN: %1$s system file -->
+    <string name="dos2_system_file">%1$s system file</string>
+    <!-- EN: For disks that start from %1$s but do not include it -->
+    <string name="dos2_note">For disks that start from %1$s but do not include it</string>
+    <!-- %1$s is MSX-DOS2; %2$s and %3$s its system files, MSXDOS2.SYS and COMMAND2.COM. -->
+    <!-- EN: This disk starts from %1$s: import %2$s and %3$s on the BIOS page -->
+    <string name="dos2_missing">This disk starts from %1$s: import %2$s and %3$s on the BIOS page</string>
+    <!-- EN: Not a FAT12 disk image -->
+    <string name="disk_not_fat12">Not a FAT12 disk image</string>
+    <!-- %1$s is the file being added, such as MSXDOS2.SYS. -->
+    <!-- EN: The disk\'s root folder has no room for %1$s -->
+    <string name="disk_root_full">The disk\'s root folder has no room for %1$s</string>
+    <!-- EN: The disk has no room for %1$s -->
+    <string name="disk_full">The disk has no room for %1$s</string>
+    <!-- EN: Preparing the emulator -->
+    <string name="preparing_emulator">Preparing the emulator</string>
+    <!-- EN: the emulator could not read or write the state -->
+    <string name="state_error_io">the emulator could not read or write the state</string>
+    <!-- EN: the emulator refused the image -->
+    <string name="state_error_refused">the emulator refused the image</string>
+    <!-- %1$d is the emulator's error code. -->
+    <!-- EN: code %1$d -->
+    <string name="state_error_code">code %1$d</string>
+    <!-- EN: Machine -->
+    <string name="option_machine">Machine</string>
+    <!-- EN: Automatic -->
+    <string name="machine_automatic">Automatic</string>
+    <!-- A built-in machine: %1$s is its MSX generation, such as MSX2+; %2$s its system software, C-BIOS. -->
+    <!-- EN: %1$s Japanese (%2$s) -->
+    <string name="machine_japanese">%1$s Japanese (%2$s)</string>
+    <!-- EN: %1$s European (%2$s) -->
+    <string name="machine_european">%1$s European (%2$s)</string>
+    <!-- EN: Memory -->
+    <string name="option_memory">Memory</string>
+    <!-- %1$d is a size in kilobytes. -->
+    <!-- EN: %1$d KB -->
+    <string name="memory_kb">%1$d KB</string>
+    <!-- %1$d is a size in megabytes. -->
+    <!-- EN: %1$d MB -->
+    <string name="memory_mb">%1$d MB</string>
+</resources>

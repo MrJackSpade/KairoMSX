@@ -36,7 +36,7 @@ object MsxCatalog : LayeredGameCatalog.Schema {
      * (assets/system_roms.json).
      */
     val machine = MachineOption("machine", UiText.res(FrontendR.string.kairo_option_machine), listOf(
-        ChoiceOption(AUTOMATIC, UiText.res(R.string.machine_automatic)),
+        ChoiceOption(AUTOMATIC, UiText.res(FrontendR.string.kairo_automatic)),
         ChoiceOption("Panasonic_FS-A1WSX", "Panasonic FS-A1WSX (MSX2+)"),
         ChoiceOption("Panasonic_FS-A1GT", "Panasonic FS-A1GT (turbo R)"),
         ChoiceOption("Philips_NMS_8250", "Philips NMS 8250 (MSX2)")) +

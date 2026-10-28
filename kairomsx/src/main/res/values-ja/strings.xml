@@ -41,8 +41,6 @@
     <string name="disk_root_full">ディスクのルートフォルダに %1$s を入れる空きがありません</string>
     <!-- EN: The disk has no room for %1$s -->
     <string name="disk_full">ディスクに %1$s を入れる空きがありません</string>
-    <!-- EN: Automatic -->
-    <string name="machine_automatic">自動</string>
     <!-- A built-in machine: %1$s is its MSX generation, such as MSX2+; %2$s its system software, C-BIOS. -->
     <!-- EN: %1$s Japanese (%2$s) -->
     <string name="machine_japanese">%1$s 日本版（%2$s）</string>

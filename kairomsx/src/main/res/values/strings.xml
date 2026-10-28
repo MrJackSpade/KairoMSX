@@ -29,7 +29,6 @@
     <string name="disk_full">The disk has no room for %1$s</string>
 
 
-    <string name="machine_automatic">Automatic</string>
     <!-- A built-in machine: %1$s is its MSX generation, such as MSX2+; %2$s its system software, C-BIOS. -->
     <string name="machine_japanese">%1$s Japanese (%2$s)</string>
     <string name="machine_european">%1$s European (%2$s)</string>

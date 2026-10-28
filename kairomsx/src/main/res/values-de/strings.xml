@@ -41,8 +41,6 @@
     <string name="disk_root_full">Im Stammordner der Diskette ist kein Platz für %1$s</string>
     <!-- EN: The disk has no room for %1$s -->
     <string name="disk_full">Auf der Diskette ist kein Platz für %1$s</string>
-    <!-- EN: Automatic -->
-    <string name="machine_automatic">Automatisch</string>
     <!-- A built-in machine: %1$s is its MSX generation, such as MSX2+; %2$s its system software, C-BIOS. -->
     <!-- EN: %1$s Japanese (%2$s) -->
     <string name="machine_japanese">%1$s japanisch (%2$s)</string>

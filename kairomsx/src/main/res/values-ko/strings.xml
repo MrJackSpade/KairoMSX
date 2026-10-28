@@ -41,8 +41,6 @@
     <string name="disk_root_full">디스크의 루트 폴더에 %1$s을(를) 넣을 공간이 없습니다</string>
     <!-- EN: The disk has no room for %1$s -->
     <string name="disk_full">디스크에 %1$s을(를) 넣을 공간이 없습니다</string>
-    <!-- EN: Automatic -->
-    <string name="machine_automatic">자동</string>
     <!-- A built-in machine: %1$s is its MSX generation, such as MSX2+; %2$s its system software, C-BIOS. -->
     <!-- EN: %1$s Japanese (%2$s) -->
     <string name="machine_japanese">%1$s 일본판(%2$s)</string>

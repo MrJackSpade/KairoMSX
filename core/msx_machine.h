@@ -34,6 +34,8 @@ struct Config {
     // The main memory mapper's size in KB, one of kMemorySizes, or 0 for the machine's own. A
     // machine whose main RAM is not a plain memory mapper (MSX1 RAM, the turbo R's) keeps its own.
     int memory_kb = 0;
+    // The Z80's clock in Hz (openMSX's z80_freq), or 0 for the machine's own.
+    int z80_hz = 0;
     // Extensions to plug in, by openMSX's names for them (files in <data_dir>/extensions).
     std::vector<std::string> extensions;
     // The image in each Slot; "" for an empty one.

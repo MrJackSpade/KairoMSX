@@ -97,6 +97,8 @@ std::unique_ptr<kairo::MachineCore> kairo::create_core(const kairo::Launch &laun
     // The settings MsxCatalog's options name; every launch passes them.
     config.machine = launch.settings.at("machine");
     config.memory_kb = std::stoi(launch.settings.at("memory"));
+    const std::string &clock = launch.settings.at("clock");
+    config.z80_hz = clock == "auto" ? 0 : std::stoi(clock);
     auto machine = MsxMachine::create(config, error);
     if (!machine) return nullptr;
     return std::make_unique<MsxCore>(std::move(machine));

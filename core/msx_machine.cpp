@@ -217,6 +217,11 @@ std::unique_ptr<MsxMachine> MsxMachine::create(const Config &config, std::string
             args.push_back(kSlotCommands[slot].option);
             args.push_back(config.media[slot]);
         }
+        // openMSX runs the Z80 at the machine's own clock until its frequency is unlocked.
+        if (config.z80_hz) {
+            args.push_back("-command");
+            args.push_back("set z80_freq_locked false; set z80_freq " + std::to_string(config.z80_hz));
+        }
         // The host shows no reverse bar, so openMSX keeps no reverse history.
         args.push_back("-command");
         args.push_back("set auto_enable_reverse off");

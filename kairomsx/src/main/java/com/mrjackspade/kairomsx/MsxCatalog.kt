@@ -61,7 +61,15 @@ object MsxCatalog : LayeredGameCatalog.Schema {
     val msxdos2 = MachineOption("msxdos2", UiText.fixed("MSX-DOS2"), listOf(ChoiceOption("off", UiText.res(FrontendR.string.kairo_off)),
         ChoiceOption("on", UiText.res(FrontendR.string.kairo_on))), "off")
     const val DOS2_MACHINE = "Panasonic_FS-A1GT"
-    val options = listOf(machine, memory, msxdos2)
+    /**
+     * The Z80's clock in Hz: Automatic is the machine's own (3.58 MHz, or 5.37 on a Panasonic MSX2+
+     * with its turbo on), and the faster choices speed slow games up. A turbo R's R800 keeps its own.
+     */
+    val clock = MachineOption("clock", UiText.res(FrontendR.string.kairo_option_clock),
+        listOf(ChoiceOption(AUTOMATIC, UiText.res(FrontendR.string.kairo_automatic))) +
+            listOf("3579545" to "3.58", "5369318" to "5.37", "7159090" to "7.16", "10738635" to "10.74")
+                .map { (hz, mhz) -> ChoiceOption(hz, UiText.res(FrontendR.string.kairo_clock_mhz, mhz)) }, AUTOMATIC)
+    val options = listOf(machine, clock, memory, msxdos2)
 
     override val settings: List<CatalogSetting> = options.map(CatalogSetting::Choice) +
         CatalogSetting.Drive("floppyB", UiText.res(FrontendR.string.kairo_drive_b)) { it.startsWith(FLOPPY) }

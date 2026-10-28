@@ -99,10 +99,10 @@
     "ar": "لعبة استراتيجية كبرى من Koei عن الفتوحات المغولية: قد جنكيز خان أو حاكمًا منافسًا عبر آسيا وأوروبا بالحرب والدبلوماسية والحكم.",
     "de": "Koeis große Strategie über die mongolischen Eroberungen: Führe Dschingis Khan oder einen rivalisierenden Herrscher durch Krieg, Diplomatie und Verwaltung über Asien und Europa.",
     "es": "El juego de gran estrategia de Koei sobre las conquistas mongolas: dirige a Gengis Kan o a un gobernante rival por Asia y Europa mediante la guerra, la diplomacia y el gobierno.",
-    "id": "Game strategi besar dari Koei tentang penaklukan Mongol: pimpin Genghis Khan atau penguasa saingan melintasi Asia dan Eropa lewat perang, diplomasi, dan pemerintahan.",
+    "id": "Game strategi besar dari Koei tentang penaklukan Mongol: pimpin Jenghis Khan atau penguasa saingan melintasi Asia dan Eropa lewat perang, diplomasi, dan pemerintahan.",
     "ja": "光栄によるチンギス・ハンの征服を描いた大規模な戦略ゲーム。チンギス・ハンまたはライバルの君主を率い、戦争、外交、統治を通じてアジアとヨーロッパを進む。",
     "ko": "코에이의 몽골 정복을 다룬 대전략 게임이다. 칭기즈 칸 또는 라이벌 통치자를 이끌고 전쟁, 외교, 통치로 아시아와 유럽을 가로지른다.",
-    "pt-BR": "O jogo de grande estratégia da Koei sobre as conquistas mongóis: lidere Genghis Khan ou um governante rival pela Ásia e pela Europa por meio de guerra, diplomacia e governo.",
+    "pt-BR": "O jogo de grande estratégia da Koei sobre as conquistas mongóis: lidere Gengis Khan ou um governante rival pela Ásia e pela Europa por meio de guerra, diplomacia e governo.",
     "ru": "Большая стратегия Koei о монгольских завоеваниях: возглавьте Чингисхана или другого правителя на пути через Азию и Европу с помощью войны, дипломатии и управления."
    },
    "developer": "Koei",
@@ -156,10 +156,10 @@
     "ar": "لعبة استراتيجية من Koei عن الفتوحات المغولية: وحّد القبائل المغولية بدور جنكيز خان، ثم ابنِ إمبراطورية عبر آسيا وأوروبا.",
     "de": "Koeis Strategiespiel zu den mongolischen Eroberungen: Vereine als Dschingis Khan die mongolischen Stämme und errichte dann ein Reich über Asien und Europa.",
     "es": "El juego de estrategia de Koei sobre las conquistas mongolas: une a las tribus mongolas como Gengis Kan y luego construye un imperio por Asia y Europa.",
-    "id": "Game strategi dari Koei tentang penaklukan Mongol: satukan suku Mongol sebagai Genghis Khan, lalu bangun kekaisaran di Asia dan Eropa.",
+    "id": "Game strategi dari Koei tentang penaklukan Mongol: satukan suku Mongol sebagai Jenghis Khan, lalu bangun kekaisaran di Asia dan Eropa.",
     "ja": "光栄のモンゴル征服ストラテジー。チンギス・ハンとしてモンゴルの部族を統一し、アジアとヨーロッパにまたがる帝国を築く。",
     "ko": "코에이의 몽골 정복 전략 게임이다. 칭기즈 칸으로서 몽골 부족을 통일한 뒤 아시아와 유럽에 걸친 제국을 세운다.",
-    "pt-BR": "O jogo de estratégia da Koei sobre as conquistas mongóis: una as tribos mongóis como Genghis Khan e depois construa um império pela Ásia e pela Europa.",
+    "pt-BR": "O jogo de estratégia da Koei sobre as conquistas mongóis: una as tribos mongóis como Gengis Khan e depois construa um império pela Ásia e pela Europa.",
     "ru": "Стратегия от Koei о монгольских завоеваниях: объедините монгольские племена в роли Чингисхана, а затем постройте империю по Азии и Европе."
    },
    "developer": "Koei",
@@ -548,7 +548,7 @@
    ],
    "description": "An action adventure based on the film Labyrinth: an ordinary moviegoer is drawn into the Goblin King's maze and has thirteen hours to escape.",
    "descriptions": {
-    "ar": "مغامرة حركة مبنية على فيلم Labyrinth: ينجذب مشاهد سينما عادي إلى متاهة ملك الغوبلن ولديه ثلاث عشرة ساعة للهرب.",
+    "ar": "مغامرة حركة مبنية على فيلم متاهة: ينجذب مشاهد سينما عادي إلى متاهة ملك الغوبلن ولديه ثلاث عشرة ساعة للهرب.",
     "de": "Ein Action-Adventure nach dem Film Labyrinth: Ein gewöhnlicher Kinobesucher wird in das Labyrinth des Goblinkönigs gezogen und hat dreizehn Stunden, um zu entkommen.",
     "es": "Una aventura de acción basada en la película Labyrinth: un espectador común es arrastrado al laberinto del Rey Goblin y tiene trece horas para escapar.",
     "id": "Petualangan aksi berdasarkan film Labyrinth: penonton film biasa tersedot ke labirin Goblin King dan punya tiga belas jam untuk melarikan diri.",
@@ -1604,7 +1604,7 @@
    ],
    "description": "Namco's Pac-Man in isometric 3D: eat every dot in larger mazes, and jump over the ghosts.",
    "descriptions": {
-    "ar": "Pac-Man من Namco بثلاثة أبعاد متساوية القياس: كل نقطة في متاهات أكبر، واقفز فوق الأشباح.",
+    "ar": "باك مان من Namco بثلاثة أبعاد متساوية القياس: كل نقطة في متاهات أكبر، واقفز فوق الأشباح.",
     "de": "Namcos Pac-Man in isometrischem 3D: Friss in größeren Labyrinthen jeden Punkt und springe über die Geister.",
     "es": "El Pac-Man de Namco en 3D isométrico: come todos los puntos en laberintos más grandes y salta sobre los fantasmas.",
     "id": "Pac-Man dari Namco dalam 3D isometrik: makan setiap titik di labirin yang lebih besar, dan lompati hantu.",
@@ -2290,14 +2290,14 @@
    ],
    "description": "An action game based on Rambo: First Blood Part II: a one-man army fights through the jungle to free prisoners.",
    "descriptions": {
-    "ar": "لعبة حركة مبنية على Rambo: First Blood Part II: جيش من رجل واحد يشق طريقه عبر الغابة لتحرير الأسرى.",
-    "de": "Ein Actionspiel nach Rambo: First Blood Part II: Eine Ein-Mann-Armee kämpft sich durch den Dschungel, um Gefangene zu befreien.",
+    "ar": "لعبة حركة مبنية على رامبو: الدم الأول 2: جيش من رجل واحد يشق طريقه عبر الغابة لتحرير الأسرى.",
+    "de": "Ein Actionspiel nach Rambo II – Der Auftrag: Eine Ein-Mann-Armee kämpft sich durch den Dschungel, um Gefangene zu befreien.",
     "es": "Un juego de acción basado en Rambo: First Blood Part II: un ejército de un solo hombre avanza por la selva para liberar prisioneros.",
     "id": "Game aksi berdasarkan Rambo: First Blood Part II: pasukan satu orang menembus hutan untuk membebaskan tawanan.",
     "ja": "ランボー/怒りの脱出を元にしたアクションゲーム。ひとり軍隊がジャングルを戦い抜き、捕虜を解放する。",
     "ko": "람보 2를 바탕으로 한 액션 게임이다. 홀로 군대 같은 병사가 정글을 돌파해 포로를 구한다.",
     "pt-BR": "Um jogo de ação baseado em Rambo: First Blood Part II: um exército de um homem só avança pela selva para libertar prisioneiros.",
-    "ru": "Экшен по Rambo: First Blood Part II: армия из одного человека пробивается через джунгли, чтобы освободить пленных."
+    "ru": "Экшен по «Рэмбо: Первая кровь 2»: армия из одного человека пробивается через джунгли, чтобы освободить пленных."
    },
    "developer": "Pack-In-Video",
    "diskMachine": {
@@ -2380,14 +2380,14 @@
    "boxArtUrl": "https://images.launchbox-app.com/22df8328-c88e-4f0d-b77b-ca51d17039a6.jpg",
    "description": "A Japanese-style adventure based on Back to the Future.",
    "descriptions": {
-    "ar": "مغامرة بأسلوب ياباني مبنية على Back to the Future.",
+    "ar": "مغامرة بأسلوب ياباني مبنية على العودة إلى المستقبل.",
     "de": "Ein Adventure im japanischen Stil nach Zurück in die Zukunft.",
     "es": "Una aventura de estilo japonés basada en Volver al futuro.",
     "id": "Petualangan gaya Jepang berdasarkan Back to the Future.",
     "ja": "バック・トゥ・ザ・フューチャーを元にした和風アドベンチャー。",
     "ko": "백 투 더 퓨처를 바탕으로 한 일본식 어드벤처이다.",
     "pt-BR": "Uma aventura ao estilo japonês baseada em De Volta para o Futuro.",
-    "ru": "Приключение в японском стиле по Back to the Future."
+    "ru": "Приключение в японском стиле по «Назад в будущее»."
    },
    "developer": "Pony Canyon",
    "launchbox": "124581",
@@ -3595,7 +3595,7 @@
     "ja": "ストラテゴに似た、駒が隠された軍人将棋のボードゲーム。",
     "ko": "스트라테고와 비슷하게 말이 가려진 군사 보드 게임 군인장기이다.",
     "pt-BR": "Gunjin Shogi, um jogo de tabuleiro militar com peças ocultas semelhante a Stratego.",
-    "ru": "Гундзин сёги, военная настольная игра со скрытыми фигурами, напоминающая Stratego."
+    "ru": "Гундзин сёги, военная настольная игра со скрытыми фигурами, напоминающая Стратего."
    },
    "developer": "Dual",
    "launchbox": "151329",
@@ -3689,7 +3689,7 @@
     "ar": "مغامرة نصية عن جزيرة الكنز: ينطلق جيم هوكينز الشاب بحثًا عن كنز الكابتن فلينت.",
     "de": "Ein Text-Adventure der Schatzinsel: Der junge Jim Hawkins zieht aus, Captain Flints Schatz nachzujagen.",
     "es": "Una aventura de texto de La isla del tesoro: el joven Jim Hawkins parte tras el tesoro del capitán Flint.",
-    "id": "Petualangan teks Treasure Island: Jim Hawkins muda berangkat mengejar harta Kapten Flint.",
+    "id": "Petualangan teks Pulau Harta Karun: Jim Hawkins muda berangkat mengejar harta Kapten Flint.",
     "ja": "宝島のテキストアドベンチャー。少年ジム・ホーキンスが、フリント船長の宝を求めて旅立つ。",
     "ko": "보물섬의 텍스트 어드벤처이다. 어린 짐 호킨스가 플린트 선장의 보물을 찾아 나선다.",
     "pt-BR": "Uma aventura de texto de A Ilha do Tesouro: o jovem Jim Hawkins parte atrás do tesouro do Capitão Flint.",
@@ -5097,7 +5097,7 @@
     "ja": "オランダ語版の、言葉のゲームBoggle。",
     "ko": "네덜란드어로 즐기는 단어 게임 보글이다.",
     "pt-BR": "O jogo de palavras Boggle, em holandês.",
-    "ru": "Словесная игра Boggle на голландском языке."
+    "ru": "Словесная игра Боггл на голландском языке."
    },
    "developer": "Erik van Bilsen",
    "launchbox": "167627",
@@ -5599,14 +5599,14 @@
    "boxArtUrl": "https://images.launchbox-app.com/8403e080-c323-4b3a-871e-d1ab0db0c7c4.jpg",
    "description": "A Dutch falling-block puzzle game in the style of Tetris.",
    "descriptions": {
-    "ar": "لعبة ألغاز كتل متساقطة هولندية على طراز Tetris.",
+    "ar": "لعبة ألغاز كتل متساقطة هولندية على طراز تتريس.",
     "de": "Ein niederländisches Puzzlespiel mit fallenden Blöcken im Stil von Tetris.",
     "es": "Un juego de rompecabezas de bloques que caen neerlandés al estilo de Tetris.",
     "id": "Game teka-teki blok jatuh Belanda bergaya Tetris.",
     "ja": "テトリス風のオランダ製の落ちものパズルゲーム。",
     "ko": "테트리스 스타일의 네덜란드 낙하 블록 퍼즐 게임이다.",
     "pt-BR": "Um quebra-cabeça holandês de blocos que caem no estilo de Tetris.",
-    "ru": "Голландская головоломка с падающими блоками в стиле Tetris."
+    "ru": "Голландская головоломка с падающими блоками в стиле Тетриса."
    },
    "developer": "BCF",
    "launchbox": "168791",
@@ -8164,7 +8164,7 @@
     "ja": "ホラーアニメ「超神伝説うろつき童子」を元にしたアドベンチャー。",
     "ko": "공포 애니메이션 Urotsukidoji를 바탕으로 한 어드벤처이다.",
     "pt-BR": "Uma aventura baseada no anime de terror Urotsukidoji.",
-    "ru": "Приключение по хоррор-аниме Urotsukidoji."
+    "ru": "Приключение по хоррор-аниме «Уроцукидодзи. Легенда о сверхдемоне»."
    },
    "developer": "FairyTale",
    "launchbox": "189107",
@@ -8385,7 +8385,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/c362f39f-ba0d-4d58-a846-4797ce0abf1a.jpg",
    "description": "A patched version of Vampire Killer reworked to resemble the original Castlevania.",
    "descriptions": {
-    "ar": "نسخة مرقعة من Vampire Killer أعيد صياغتها لتشبه Castlevania الأصلية.",
+    "ar": "نسخة مرقعة من Vampire Killer أعيد صياغتها لتشبه كاسلفينيا الأصلية.",
     "de": "Eine gepatchte Version von Vampire Killer, umgestaltet, um dem ursprünglichen Castlevania zu ähneln.",
     "es": "Una versión parcheada de Vampire Killer reelaborada para parecerse al Castlevania original.",
     "id": "Versi yang ditambal dari Vampire Killer yang digarap ulang agar menyerupai Castlevania asli.",
@@ -9884,7 +9884,7 @@
    ],
    "description": "Konami's stealth action game: Solid Snake infiltrates the fortress state Outer Heaven to destroy the walking nuclear tank Metal Gear.",
    "descriptions": {
-    "ar": "لعبة تسلل حركة من Konami: يتسلل سوليد سنيك إلى دولة الحصن Outer Heaven لتدمير الدبابة النووية الماشية Metal Gear.",
+    "ar": "لعبة تسلل حركة من Konami: يتسلل سوليد سنيك إلى دولة الحصن Outer Heaven لتدمير الدبابة النووية الماشية ميتال غير.",
     "de": "Konamis Schleich-Actionspiel: Solid Snake dringt in den Festungsstaat Outer Heaven ein, um den laufenden Atompanzer Metal Gear zu zerstören.",
     "es": "El juego de acción furtiva de Konami: Solid Snake se infiltra en el Estado fortaleza de Outer Heaven para destruir el tanque nuclear caminante Metal Gear.",
     "id": "Game aksi siluman dari Konami: Solid Snake menyusup ke negara benteng Outer Heaven untuk menghancurkan tank nuklir berjalan Metal Gear.",
@@ -9917,7 +9917,7 @@
    ],
    "description": "Konami's stealth sequel: Solid Snake infiltrates Zanzibar Land to rescue a kidnapped scientist and stop a new Metal Gear.",
    "descriptions": {
-    "ar": "تكملة تسلل من Konami: يتسلل سوليد سنيك إلى زانزيبار لاند لإنقاذ عالم مخطوف وإيقاف Metal Gear جديدة.",
+    "ar": "تكملة تسلل من Konami: يتسلل سوليد سنيك إلى زانزيبار لاند لإنقاذ عالم مخطوف وإيقاف ميتال غير جديدة.",
     "de": "Konamis Schleich-Fortsetzung: Solid Snake dringt in Zanzibar Land ein, um einen entführten Wissenschaftler zu retten und ein neues Metal Gear aufzuhalten.",
     "es": "La secuela de sigilo de Konami: Solid Snake se infiltra en Zanzibar Land para rescatar a un científico secuestrado y detener un nuevo Metal Gear.",
     "id": "Sekuel siluman dari Konami: Solid Snake menyusup ke Zanzibar Land untuk menyelamatkan ilmuwan yang diculik dan menghentikan Metal Gear baru.",
@@ -10089,12 +10089,12 @@
    "descriptions": {
     "ar": "لعبة لوحية DuckTales: اختفى ربع دولار سكروج الحظ، سرقته ماجيكا.",
     "de": "Ein DuckTales-Brettspiel: Dagoberts Glückstaler ist verschwunden, von Magica gestohlen.",
-    "es": "Un juego de mesa de DuckTales: la moneda de la suerte del Tío Gilito ha desaparecido, robada por Magica.",
+    "es": "Un juego de mesa de Patoaventuras: la moneda de la suerte del Tío Gilito ha desaparecido, robada por Magica.",
     "id": "Permainan papan DuckTales: koin keberuntungan Scrooge hilang, dicuri Magica.",
     "ja": "DuckTalesのボードゲーム。スクルージの幸運の硬貨がマジカに盗まれて消えた。",
     "ko": "덕테일즈 보드 게임이다. 스크루지 맥덕의 행운의 10센트 동전이 매지카 드 스펠에게 도난당해 사라졌다.",
     "pt-BR": "Um jogo de tabuleiro de DuckTales: a moeda da sorte do Tio Patinhas desapareceu, roubada por Maga Patológica.",
-    "ru": "Настольная игра по DuckTales: счастливая монета Скруджа пропала, украденная Магикой."
+    "ru": "Настольная игра по «Утиным историям»: счастливая монета Скруджа пропала, украденная Магикой."
    },
    "developer": "Emphasys",
    "launchbox": "26955",
@@ -10197,13 +10197,13 @@
    "description": "Konami's action role-playing game based on King Kong Lives.",
    "descriptions": {
     "ar": "لعبة تقمص أدوار حركة من Konami مبنية على King Kong Lives.",
-    "de": "Konamis Action-Rollenspiel nach King Kong Lives.",
+    "de": "Konamis Action-Rollenspiel nach King Kong lebt.",
     "es": "El juego de rol de acción de Konami basado en King Kong Lives.",
     "id": "RPG aksi dari Konami berdasarkan King Kong Lives.",
     "ja": "キングコング2を元にした、コナミのアクションロールプレイングゲーム。",
     "ko": "킹콩 2를 바탕으로 한 코나미의 액션 롤플레잉 게임이다.",
     "pt-BR": "O RPG de ação da Konami baseado em King Kong Lives.",
-    "ru": "Экшен-RPG от Konami по King Kong Lives."
+    "ru": "Экшен-RPG от Konami по «Кинг-Конг жив»."
    },
    "developer": "Konami",
    "diskMachine": {
@@ -10779,7 +10779,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/c582bc1e-769b-4ec3-958a-264610f0c1e2.png",
    "description": "Enix's first Dragon Quest: a descendant of Erdrick sets out to rescue the princess and defeat the Dragonlord.",
    "descriptions": {
-    "ar": "أول Dragon Quest من Enix: ينطلق أحد أحفاد إردريك لإنقاذ الأميرة وهزيمة Dragonlord.",
+    "ar": "أول دراغون كويست من Enix: ينطلق أحد أحفاد إردريك لإنقاذ الأميرة وهزيمة Dragonlord.",
     "de": "Enix' erstes Dragon Quest: Ein Nachfahre von Erdrick zieht aus, um die Prinzessin zu retten und den Drachenlord zu besiegen.",
     "es": "El primer Dragon Quest de Enix: un descendiente de Erdrick parte a rescatar a la princesa y derrotar al Señor del Dragón.",
     "id": "Dragon Quest pertama dari Enix: keturunan Erdrick berangkat menyelamatkan putri dan mengalahkan Dragonlord.",
@@ -10844,7 +10844,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/6ac57a03-bb20-46f3-a2e9-9d01a4908866.png",
    "description": "A fan-made MSX2 version of Street Fighter II.",
    "descriptions": {
-    "ar": "نسخة MSX2 صنعها المعجبون من Street Fighter II.",
+    "ar": "نسخة MSX2 صنعها المعجبون من ستريت فايتر 2.",
     "de": "Eine von Fans gemachte MSX2-Version von Street Fighter II.",
     "es": "Una versión de Street Fighter II para MSX2 hecha por fans.",
     "id": "Versi MSX2 Street Fighter II buatan penggemar.",
@@ -14363,7 +14363,7 @@
    ],
    "description": "A homemade Italian shooter inspired by Space Invaders.",
    "descriptions": {
-    "ar": "لعبة إطلاق نار إيطالية منزلية الصنع مستوحاة من Space Invaders.",
+    "ar": "لعبة إطلاق نار إيطالية منزلية الصنع مستوحاة من سبيس إنفيدرز.",
     "de": "Ein selbstgemachter italienischer Shooter, inspiriert von Space Invaders.",
     "es": "Un juego de disparos casero italiano inspirado en Space Invaders.",
     "id": "Penembak buatan sendiri dari Italia yang terinspirasi Space Invaders.",
@@ -15731,7 +15731,7 @@
    ],
    "description": "Hudson's Bomberman: a bomb-making robot fights his way to freedom, laying bombs to clear walls and destroy enemies.",
    "descriptions": {
-    "ar": "Bomberman من Hudson: روبوت صانع قنابل يشق طريقه نحو الحرية، واضعًا القنابل لإزالة الجدران وتدمير الأعداء.",
+    "ar": "بومبرمان من Hudson: روبوت صانع قنابل يشق طريقه نحو الحرية، واضعًا القنابل لإزالة الجدران وتدمير الأعداء.",
     "de": "Hudsons Bomberman: Ein bombenbauender Roboter kämpft sich in die Freiheit, indem er Bomben legt, um Wände zu räumen und Gegner zu zerstören.",
     "es": "El Bomberman de Hudson: un robot fabricante de bombas se abre camino hacia la libertad, colocando bombas para despejar muros y destruir enemigos.",
     "id": "Bomberman dari Hudson: robot pembuat bom berjuang menuju kebebasan, memasang bom untuk membersihkan dinding dan menghancurkan musuh.",
@@ -16146,7 +16146,7 @@
    "description": "An action game based on Howard the Duck: rescue Phil and Beverly from the Dark Overlord on Volcano Island.",
    "descriptions": {
     "ar": "لعبة حركة مبنية على Howard the Duck: أنقذ فيل وبيفرلي من السيد المظلم في جزيرة البركان.",
-    "de": "Ein Actionspiel nach Howard the Duck: Rette Phil und Beverly auf Volcano Island vor dem Dunklen Overlord.",
+    "de": "Ein Actionspiel nach Howard – Ein tierischer Held: Rette Phil und Beverly auf Volcano Island vor dem Dunklen Overlord.",
     "es": "Un juego de acción basado en Howard el pato: rescata a Phil y Beverly del Señor Oscuro en la Isla del Volcán.",
     "id": "Game aksi berdasarkan Howard the Duck: selamatkan Phil dan Beverly dari Dark Overlord di Volcano Island.",
     "ja": "ハワード・ザ・ダックを元にしたアクションゲーム。ボルケーノ島で、フィルとベヴァリーをダーク・オーバーロードから救う。",
@@ -20259,7 +20259,7 @@
     "ja": "アニメ「マクロス」を元にしたシューティング。1999年、異星の船が地球に落下し、宇宙での戦争が始まる。",
     "ko": "애니메이션 초시공요새 마크로스를 바탕으로 한 슈팅 게임이다. 1999년 외계 우주선이 지구에 떨어지며 우주에서 전쟁이 시작된다.",
     "pt-BR": "Um jogo de tiro baseado no anime Macross: em 1999, uma nave alienígena cai na Terra e dá início a uma guerra no espaço.",
-    "ru": "Шутер по аниме Macross: в 1999 году на Землю падает инопланетный корабль, и начинается война в космосе."
+    "ru": "Шутер по аниме «Макросс»: в 1999 году на Землю падает инопланетный корабль, и начинается война в космосе."
    },
    "developer": "Bothtec",
    "diskMachine": {
@@ -21157,7 +21157,7 @@
     "ja": "ストラテゴに似た、駒が隠された軍人将棋のボードゲーム。",
     "ko": "스트라테고와 비슷하게 말이 가려진 군사 보드 게임 군인장기이다.",
     "pt-BR": "Gunjin Shogi, um jogo de tabuleiro militar com peças ocultas semelhante a Stratego.",
-    "ru": "Гундзин сёги, военная настольная игра со скрытыми фигурами, напоминающая Stratego."
+    "ru": "Гундзин сёги, военная настольная игра со скрытыми фигурами, напоминающая Стратего."
    },
    "developer": "Cosmo",
    "diskMachine": {
@@ -21496,7 +21496,7 @@
    ],
    "description": "Konami's Frogger: guide a frog across a busy road and river to safety.",
    "descriptions": {
-    "ar": "Frogger من Konami: وجّه ضفدعًا عبر طريق مزدحم ونهر إلى بر الأمان.",
+    "ar": "فروغر من Konami: وجّه ضفدعًا عبر طريق مزدحم ونهر إلى بر الأمان.",
     "de": "Konamis Frogger: Führe einen Frosch über eine belebte Straße und einen Fluss in Sicherheit.",
     "es": "Frogger de Konami: guía a una rana a salvo a través de una carretera concurrida y un río.",
     "id": "Frogger dari Konami: pandu katak menyeberangi jalan sibuk dan sungai dengan selamat.",
@@ -22761,7 +22761,7 @@
     "ja": "ゴーストバスターズを元にしたアクティビジョンのゲーム。ゴーストバスターの事業を運営し、マシュマロマンが到着する前に、街中のゴーストを捕らえる。",
     "ko": "고스트버스터즈를 바탕으로 한 액티비전의 게임이다. 유령 퇴치 사업을 운영하며 Stay Puft Marshmallow Man이 오기 전에 도시 곳곳에서 유령을 잡는다.",
     "pt-BR": "O jogo da Activision baseado em Os Caça-Fantasmas: dirija um negócio de caça a fantasmas, prendendo fantasmas pela cidade antes que o Homem de Marshmallow Stay Puft chegue.",
-    "ru": "Игра от Activision по Ghostbusters: ведите бизнес по ловле привидений, отлавливая призраков по всему городу, пока не прибыл Зефирный человек."
+    "ru": "Игра от Activision по «Охотникам за привидениями»: ведите бизнес по ловле привидений, отлавливая призраков по всему городу, пока не прибыл Зефирный человек."
    },
    "developer": "Activision",
    "diskMachine": {
@@ -22792,7 +22792,7 @@
     "ja": "ゴーストバスターズ2を元にした、3つの場面からなるアクションゲーム。",
     "ko": "고스트버스터즈 2를 바탕으로 한 세 장면의 액션 게임이다.",
     "pt-BR": "Um jogo de ação em três cenas baseado em Os Caça-Fantasmas II.",
-    "ru": "Экшен из трех сцен по Ghostbusters II."
+    "ru": "Экшен из трех сцен по «Охотникам за привидениями 2»."
    },
    "developer": "New Frontier",
    "launchbox": "138874",
@@ -22881,7 +22881,7 @@
     "ar": "إعادة إنتاج منزلية الصنع لجهاز MSX1 للعبة الألغاز Griel no Seihai: وجّه غريل عبر الغرف بحثًا عن الكأس المقدسة.",
     "de": "Ein Homebrew-MSX1-Remake des Puzzlespiels Griel no Seihai: Führe Griel durch Räume auf der Suche nach dem Heiligen Gral.",
     "es": "Una nueva versión casera para MSX1 del juego de rompecabezas Griel no Seihai: guía a Griel por salas en busca del Santo Grial.",
-    "id": "Remake MSX1 buatan sendiri dari game teka-teki Griel no Seihai: pandu Griel melewati ruangan untuk mencari Holy Grail.",
+    "id": "Remake MSX1 buatan sendiri dari game teka-teki Griel no Seihai: pandu Griel melewati ruangan untuk mencari Cawan Suci.",
     "ja": "パズルゲームGriel no SeihaiのMSX1向け個人制作リメイク。グリエルを導いて、聖杯を求めて部屋を進む。",
     "ko": "퍼즐 게임 Griel no Seihai의 홈브루 MSX1 리메이크이다. Griel을 이끌어 성배를 찾아 방들을 지나간다.",
     "pt-BR": "Um remake caseiro para MSX1 do quebra-cabeça Griel no Seihai: guie Griel por salas em busca do Santo Graal.",
@@ -23163,11 +23163,11 @@
     "ar": "لعبة منصات مبنية على Indiana Jones and the Last Crusade: يطارد إندي الكأس المقدسة.",
     "de": "Ein Plattformspiel nach Indiana Jones und der letzte Kreuzzug: Indy jagt dem Heiligen Gral nach.",
     "es": "Un juego de plataformas basado en Indiana Jones y la última cruzada: Indy persigue el Santo Grial.",
-    "id": "Platformer berdasarkan Indiana Jones and the Last Crusade: Indy mengejar Holy Grail.",
+    "id": "Platformer berdasarkan Indiana Jones and the Last Crusade: Indy mengejar Cawan Suci.",
     "ja": "「インディ・ジョーンズ/最後の聖戦」を元にしたプラットフォームゲーム。インディが聖杯を追う。",
     "ko": "인디아나 존스: 최후의 성전을 바탕으로 인디가 성배를 쫓는 플랫포머이다.",
     "pt-BR": "Um jogo de plataforma baseado em Indiana Jones e a Última Cruzada: Indy persegue o Santo Graal.",
-    "ru": "Платформер по Indiana Jones and the Last Crusade: Инди преследует Святой Грааль."
+    "ru": "Платформер по «Индиане Джонсу и последнему крестовому походу»: Инди преследует Святой Грааль."
    },
    "developer": "Tiertex",
    "launchbox": "139507",
@@ -23759,14 +23759,14 @@
    "boxArtUrl": "https://images.launchbox-app.com/ba90e5e5-bfba-4297-a85f-3c025502558d.jpg",
    "description": "Zemina's mash-up of Tetris and a shooter: fire blocks to fill the gaps.",
    "descriptions": {
-    "ar": "مزيج Zemina من Tetris ولعبة إطلاق نار: أطلق الكتل لملء الفراغات.",
+    "ar": "مزيج Zemina من تتريس ولعبة إطلاق نار: أطلق الكتل لملء الفراغات.",
     "de": "Zeminas Mischung aus Tetris und Shooter: Feuere Blöcke ab, um die Lücken zu füllen.",
     "es": "La mezcla de Tetris y juego de disparos de Zemina: dispara bloques para llenar los huecos.",
     "id": "Perpaduan Tetris dan penembak dari Zemina: tembakkan blok untuk mengisi celah.",
     "ja": "Zeminaの、テトリスとシューティングを混ぜたゲーム。ブロックを撃って隙間を埋める。",
     "ko": "Zemina의 테트리스와 슈팅 게임 혼합작이다. 블록을 쏘아 틈을 메운다.",
     "pt-BR": "A mistura de Tetris e jogo de tiro da Zemina: dispare blocos para preencher as lacunas.",
-    "ru": "Микс Tetris и шутера от Zemina: стреляйте блоками, чтобы заполнять пробелы."
+    "ru": "Микс Тетриса и шутера от Zemina: стреляйте блоками, чтобы заполнять пробелы."
    },
    "developer": "Zemina",
    "launchbox": "142458",
@@ -24057,7 +24057,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/b3785a3a-35c2-472c-b977-3f9e9b521b30.png",
    "description": "A Pac-Man variant with transforming power-ups across many maze levels.",
    "descriptions": {
-    "ar": "نسخة مختلفة من Pac-Man بتعزيزات تحول عبر مستويات متاهة كثيرة.",
+    "ar": "نسخة مختلفة من باك مان بتعزيزات تحول عبر مستويات متاهة كثيرة.",
     "de": "Eine Pac-Man-Variante mit verwandelnden Power-ups über viele Labyrinth-Levels.",
     "es": "Una variante de Pac-Man con potenciadores transformadores a lo largo de muchos niveles de laberinto.",
     "id": "Varian Pac-Man dengan power-up yang mengubah wujud di banyak level labirin.",
@@ -24368,14 +24368,14 @@
    "boxArtUrl": "https://images.launchbox-app.com/3d0d78e1-4b5b-4bb1-9e3e-2d943b017309.jpg",
    "description": "Sega's behind-view shooter loosely based on Buck Rogers: fly through trenches and space to the Planet of Zoom.",
    "descriptions": {
-    "ar": "لعبة إطلاق نار من منظور خلفي من Sega مبنية بشكل فضفاض على Buck Rogers: حلّق عبر الخنادق والفضاء إلى كوكب زوم.",
+    "ar": "لعبة إطلاق نار من منظور خلفي من Sega مبنية بشكل فضفاض على باك روجرز: حلّق عبر الخنادق والفضاء إلى كوكب زوم.",
     "de": "Segas Shooter von hinten, lose nach Buck Rogers: Fliege durch Gräben und den Weltraum zum Planeten Zoom.",
     "es": "El juego de disparos con vista desde atrás de Sega, basado libremente en Buck Rogers: vuela por trincheras y el espacio hasta el Planeta Zoom.",
     "id": "Penembak dari belakang karya Sega yang longgar berdasarkan Buck Rogers: terbang melewati parit dan luar angkasa menuju Planet of Zoom.",
     "ja": "バック・ロジャースをゆるく元にした、セガの後方視点のシューティング。トレンチや宇宙を飛んでズーム星に向かう。",
     "ko": "Buck Rogers를 느슨하게 바탕으로 한 세가의 후방 시점 슈팅 게임이다. 참호와 우주를 날아 Planet of Zoom에 이른다.",
     "pt-BR": "O jogo de tiro com visão por trás da Sega, vagamente baseado em Buck Rogers: voe por trincheiras e pelo espaço até o Planeta de Zoom.",
-    "ru": "Шутер с видом сзади от Sega, свободно основанный на Buck Rogers: летите по траншеям и космосу к Планете Зум."
+    "ru": "Шутер с видом сзади от Sega, свободно основанный на Баке Роджерсе: летите по траншеям и космосу к Планете Зум."
    },
    "developer": "Sega",
    "launchbox": "146773",
@@ -24392,14 +24392,14 @@
    ],
    "description": "An action game based on Rambo: starting with only a knife, fight through the jungle to free prisoners.",
    "descriptions": {
-    "ar": "لعبة حركة مبنية على Rambo: بادئًا بسكين فقط، اشق طريقك عبر الغابة لتحرير الأسرى.",
+    "ar": "لعبة حركة مبنية على رامبو: بادئًا بسكين فقط، اشق طريقك عبر الغابة لتحرير الأسرى.",
     "de": "Ein Actionspiel nach Rambo: Beginne nur mit einem Messer und kämpfe dich durch den Dschungel, um Gefangene zu befreien.",
     "es": "Un juego de acción basado en Rambo: comenzando solo con un cuchillo, avanza por la selva para liberar prisioneros.",
     "id": "Game aksi berdasarkan Rambo: hanya berbekal pisau, tembus hutan untuk membebaskan tawanan.",
     "ja": "ランボー/怒りの脱出を元にしたアクションゲーム。ナイフ1本から始めて、ジャングルを戦い抜き、捕虜を解放する。",
     "ko": "람보를 바탕으로 한 액션 게임이다. 칼 하나로 시작해 정글을 돌파하며 포로를 구한다.",
     "pt-BR": "Um jogo de ação baseado em Rambo: começando só com uma faca, abra caminho pela selva para libertar prisioneiros.",
-    "ru": "Экшен по Rambo: начав лишь с ножом, пробивайтесь через джунгли, чтобы освободить пленных."
+    "ru": "Экшен по Рэмбо: начав лишь с ножом, пробивайтесь через джунгли, чтобы освободить пленных."
    },
    "developer": "Pack-In-Video",
    "diskMachine": {
@@ -24616,7 +24616,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/b9505d8b-ba97-4d60-848f-80012cd5b951.png",
    "description": "An unofficial adaptation of The Jewel of the Nile: three travelers are captured in the desert.",
    "descriptions": {
-    "ar": "اقتباس غير رسمي من The Jewel of the Nile: يؤسر ثلاثة مسافرين في الصحراء.",
+    "ar": "اقتباس غير رسمي من جوهرة النيل: يؤسر ثلاثة مسافرين في الصحراء.",
     "de": "Eine inoffizielle Adaption von Der Juwel vom Nil: Drei Reisende werden in der Wüste gefangen genommen.",
     "es": "Una adaptación no oficial de La joya del Nilo: tres viajeros son capturados en el desierto.",
     "id": "Adaptasi tidak resmi The Jewel of the Nile: tiga pengelana ditawan di gurun.",
@@ -24996,14 +24996,14 @@
    "boxArtUrl": "https://images.launchbox-app.com/2dca553d-5603-4aee-8c2b-6e4342b03d40.png",
    "description": "The original licensed Tetris: rotate and place falling four-square pieces to complete and clear lines.",
    "descriptions": {
-    "ar": "Tetris المرخصة الأصلية: دوّر القطع الساقطة من أربعة مربعات وضعها لإكمال الخطوط وإزالتها.",
+    "ar": "تتريس المرخصة الأصلية: دوّر القطع الساقطة من أربعة مربعات وضعها لإكمال الخطوط وإزالتها.",
     "de": "Das ursprüngliche lizenzierte Tetris: Drehe und platziere fallende Vier-Quadrat-Teile, um Reihen zu vervollständigen und zu räumen.",
     "es": "El Tetris original con licencia: rota y coloca piezas de cuatro cuadrados que caen para completar y eliminar líneas.",
     "id": "Tetris berlisensi yang asli: putar dan letakkan kepingan empat persegi yang jatuh untuk melengkapi dan menghapus garis.",
     "ja": "ライセンスを受けた元祖のテトリス。落ちてくる4つの正方形のピースを回転させて置き、列を完成させて消す。",
     "ko": "최초의 정식 라이선스 테트리스이다. 떨어지는 네 칸짜리 조각을 돌려 배치해 줄을 완성하고 없앤다.",
     "pt-BR": "O Tetris original licenciado: gire e posicione peças de quatro quadrados que caem para completar e eliminar linhas.",
-    "ru": "Исходный лицензионный Tetris: вращайте и размещайте падающие фигуры из четырех квадратов, чтобы составлять и убирать линии."
+    "ru": "Исходный лицензионный Тетрис: вращайте и размещайте падающие фигуры из четырех квадратов, чтобы составлять и убирать линии."
    },
    "developer": "Mirrorsoft",
    "launchbox": "151526",
@@ -25185,7 +25185,7 @@
     "ja": "トロン風のライトサイクルゲーム。軌跡で相手を閉じ込める。",
     "ko": "트론 스타일의 라이트 사이클 게임이다. 자신의 궤적으로 상대를 가둔다.",
     "pt-BR": "Um jogo de light cycles no estilo de Tron: encurrale seu oponente com seu rastro.",
-    "ru": "Игра на светоциклах в стиле Tron: загоните соперника в ловушку своим следом."
+    "ru": "Игра на светоциклах в стиле «Трона»: загоните соперника в ловушку своим следом."
    },
    "developer": "The Bytebusters",
    "launchbox": "152582",
@@ -26944,13 +26944,13 @@
    "description": "A game based on the Star Wars: Droids animated series.",
    "descriptions": {
     "ar": "لعبة مبنية على المسلسل المتحرك Star Wars: Droids.",
-    "de": "Ein Spiel nach der Zeichentrickserie Star Wars: Droids.",
+    "de": "Ein Spiel nach der Zeichentrickserie Freunde im All.",
     "es": "Un juego basado en la serie animada Star Wars: Droids.",
     "id": "Game berdasarkan serial animasi Star Wars: Droids.",
     "ja": "アニメシリーズ「スター・ウォーズ:ドロイド」を元にしたゲーム。",
     "ko": "애니메이션 시리즈 Star Wars: Droids를 바탕으로 한 게임이다.",
     "pt-BR": "Um jogo baseado na série animada Star Wars: Droids.",
-    "ru": "Игра по анимационному сериалу Star Wars: Droids."
+    "ru": "Игра по анимационному сериалу «Звездные войны: Дроиды»."
    },
    "developer": "Walther Miller",
    "launchbox": "153289",
@@ -27447,7 +27447,7 @@
     "ja": "1985年のソニーのコンペのためにBASICで書かれた、塗り絵対決。丸いインクタンクを8方向に動かし、時間切れになる前に相手より多くのタイルに色を塗る。",
     "ko": "1985년 소니 대회를 위해 BASIC으로 작성된 칠하기 대결이다. 둥근 잉크 탱크를 여덟 방향으로 조종해 시간이 다하기 전에 상대보다 더 많은 타일을 칠한다.",
     "pt-BR": "Um concurso de pintura escrito em BASIC para uma competição da Sony de 1985: conduza um tanque de tinta redondo em oito direções e colora mais peças que seu oponente antes que o tempo acabe.",
-    "ru": "Состязание по раскрашиванию, написанное на BASIC для конкурса Sony 1985 года: ведите круглый бак с чернилами в восьми направлениях и закрасьте больше плиток, чем соперник, до истечения времени."
+    "ru": "Состязание по раскрашиванию, написанное на Бейсике для конкурса Sony 1985 года: ведите круглый бак с чернилами в восьми направлениях и закрасьте больше плиток, чем соперник, до истечения времени."
    },
    "developer": "Iveson Software",
    "launchbox": "153414",
@@ -28183,7 +28183,7 @@
    "descriptions": {
     "ar": "لعبة حركة: على سانتا استعادة هدايا عيد الميلاد من Icicle Works.",
     "de": "Ein Actionspiel: Der Weihnachtsmann muss die Geschenke zu Weihnachten aus den Icicle Works zurückholen.",
-    "es": "Un juego de acción: Santa debe recuperar los regalos de Navidad de Icicle Works.",
+    "es": "Un juego de acción: Papá Noel debe recuperar los regalos de Navidad de Icicle Works.",
     "id": "Game aksi: Sinterklas harus merebut kembali hadiah Natal dari Icicle Works.",
     "ja": "アクションゲーム。サンタが、アイシクル・ワークスからクリスマスのプレゼントを取り戻さなければならない。",
     "ko": "액션 게임이다. 산타가 Icicle Works에서 크리스마스 선물을 되찾아야 한다.",
@@ -28514,7 +28514,7 @@
    ],
    "description": "A cross between Breakout and Space Invaders: a robot walks and jumps along the top of a brick wall while a line of bugs climbs toward him and a bomb flies across the middle of the screen.",
    "descriptions": {
-    "ar": "مزيج بين Breakout وSpace Invaders: يمشي روبوت ويقفز على قمة جدار من الطوب بينما يتسلق صف من الحشرات نحوه وتطير قنبلة عبر منتصف الشاشة.",
+    "ar": "مزيج بين Breakout وسبيس إنفيدرز: يمشي روبوت ويقفز على قمة جدار من الطوب بينما يتسلق صف من الحشرات نحوه وتطير قنبلة عبر منتصف الشاشة.",
     "de": "Eine Kreuzung aus Breakout und Space Invaders: Ein Roboter läuft und springt oben auf einer Ziegelwand, während eine Reihe Käfer auf ihn zuklettert und eine Bombe quer über die Bildschirmmitte fliegt.",
     "es": "Un cruce entre Breakout y Space Invaders: un robot camina y salta sobre un muro de ladrillos mientras una fila de bichos trepa hacia él y una bomba cruza el centro de la pantalla.",
     "id": "Persilangan Breakout dan Space Invaders: robot berjalan dan melompat di atas dinding bata sementara barisan serangga memanjat ke arahnya dan bom melintas di tengah layar.",
@@ -28784,14 +28784,14 @@
    "boxArtUrl": "https://images.launchbox-app.com/29987ae9-cbf4-4909-abcd-a32d6678819c.jpg",
    "description": "A homebrew Tetris for MSX made for MSXdev'04.",
    "descriptions": {
-    "ar": "Tetris منزلية الصنع لجهاز MSX صُنعت لمسابقة MSXdev'04.",
+    "ar": "تتريس منزلية الصنع لجهاز MSX صُنعت لمسابقة MSXdev'04.",
     "de": "Ein für MSXdev'04 gemachtes Homebrew-Tetris für MSX.",
     "es": "Un Tetris casero para MSX hecho para el MSXdev'04.",
     "id": "Tetris untuk MSX buatan sendiri yang dibuat untuk MSXdev'04.",
     "ja": "MSXdev'04のために作られた、MSX向けの個人制作テトリス。",
     "ko": "MSXdev'04를 위해 만든 MSX용 홈브루 테트리스이다.",
     "pt-BR": "Um Tetris caseiro para MSX feito para o MSXdev'04.",
-    "ru": "Самодельный Tetris для MSX, созданный для MSXdev'04."
+    "ru": "Самодельный Тетрис для MSX, созданный для MSXdev'04."
    },
    "developer": "Kralizec",
    "launchbox": "153956",
@@ -28999,7 +28999,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/b669387a-1381-410d-8439-890eca3be2bf.jpg",
    "description": "An action game inspired by The Pink Panther: steal the diamond and escape the police.",
    "descriptions": {
-    "ar": "لعبة حركة مستوحاة من The Pink Panther: اسرق الألماسة واهرب من الشرطة.",
+    "ar": "لعبة حركة مستوحاة من النمر الوردي: اسرق الألماسة واهرب من الشرطة.",
     "de": "Ein Actionspiel, inspiriert vom Rosaroten Panther: Stiehl den Diamanten und entkomme der Polizei.",
     "es": "Un juego de acción inspirado en La Pantera Rosa: roba el diamante y escapa de la policía.",
     "id": "Game aksi yang terinspirasi The Pink Panther: curi berlian dan lolos dari polisi.",
@@ -29381,7 +29381,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/d9a87caf-b5ef-4cdf-af75-c6d19fb54f43.jpg",
    "description": "An action game based on the Masters of the Universe film: He-Man recovers the Cosmic Key, lost on Earth.",
    "descriptions": {
-    "ar": "لعبة حركة مبنية على فيلم Masters of the Universe: يستعيد هي-مان المفتاح الكوني الضائع على الأرض.",
+    "ar": "لعبة حركة مبنية على فيلم سادة الكون: يستعيد هي-مان المفتاح الكوني الضائع على الأرض.",
     "de": "Ein Actionspiel nach dem Film Masters of the Universe: He-Man holt den auf der Erde verlorenen Kosmischen Schlüssel zurück.",
     "es": "Un juego de acción basado en la película Masters of the Universe: He-Man recupera la Llave Cósmica, perdida en la Tierra.",
     "id": "Game aksi berdasarkan film Masters of the Universe: He-Man merebut kembali Cosmic Key yang hilang di Bumi.",
@@ -29451,7 +29451,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/b0855a25-884e-4c78-91f5-5db20fcd0e1b.jpg",
    "description": "A simple maze game with Pac-Man influences.",
    "descriptions": {
-    "ar": "لعبة متاهة بسيطة متأثرة بلعبة Pac-Man.",
+    "ar": "لعبة متاهة بسيطة متأثرة بلعبة باك مان.",
     "de": "Ein schlichtes Labyrinthspiel mit Pac-Man-Einflüssen.",
     "es": "Un sencillo juego de laberintos con influencias de Pac-Man.",
     "id": "Game labirin sederhana dengan pengaruh Pac-Man.",
@@ -29986,14 +29986,14 @@
    "boxArtUrl": "https://images.launchbox-app.com/8d202f6a-2cd8-474c-b3db-811cea03463b.jpg",
    "description": "The classic property trading board game Monopoly.",
    "descriptions": {
-    "ar": "لعبة تجارة العقارات اللوحية الكلاسيكية Monopoly.",
+    "ar": "لعبة تجارة العقارات اللوحية الكلاسيكية مونوبولي.",
     "de": "Das klassische Immobilien-Brettspiel Monopoly.",
     "es": "El clásico juego de mesa de comprar y vender propiedades Monopoly.",
     "id": "Permainan papan jual-beli properti klasik Monopoly.",
     "ja": "定番の不動産取引ボードゲーム、モノポリー。",
     "ko": "고전 부동산 거래 보드 게임 모노폴리이다.",
     "pt-BR": "O clássico jogo de tabuleiro de negociação de imóveis Monopoly.",
-    "ru": "Классическая настольная игра о торговле недвижимостью Monopoly."
+    "ru": "Классическая настольная игра о торговле недвижимостью Монополия."
    },
    "developer": "Leisure Genius",
    "launchbox": "154540",
@@ -30954,7 +30954,7 @@
    "description": "A Civil War strategy action game based on the Belgian comic Les Tuniques Bleues.",
    "descriptions": {
     "ar": "لعبة حركة استراتيجية عن الحرب الأهلية مبنية على القصة المصورة البلجيكية Les Tuniques Bleues.",
-    "de": "Ein Bürgerkriegs-Strategie-Actionspiel nach dem belgischen Comic Les Tuniques Bleues.",
+    "de": "Ein Bürgerkriegs-Strategie-Actionspiel nach dem belgischen Comic Die blauen Boys.",
     "es": "Un juego de estrategia y acción de la Guerra Civil estadounidense basado en el cómic belga Les Tuniques Bleues.",
     "id": "Game aksi strategi Perang Saudara berdasarkan komik Belgia Les Tuniques Bleues.",
     "ja": "ベルギーの漫画Les Tuniques Bleuesを元にした、南北戦争のストラテジーアクションゲーム。",
@@ -31316,7 +31316,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/f9f3aa4b-4ad8-4aa1-8fbb-33610170446e.jpg",
    "description": "Namco's side-scrolling Pac-Man adventure: Pac-Man runs and jumps through Pac-Land to return a lost fairy home.",
    "descriptions": {
-    "ar": "مغامرة Pac-Man بتمرير جانبي من Namco: يعدو باك مان ويقفز عبر Pac-Land لإعادة جنية ضائعة إلى بيتها.",
+    "ar": "مغامرة باك مان بتمرير جانبي من Namco: يعدو باك مان ويقفز عبر Pac-Land لإعادة جنية ضائعة إلى بيتها.",
     "de": "Namcos Side-Scrolling-Pac-Man-Abenteuer: Pac-Man rennt und springt durch Pac-Land, um eine verlorene Fee nach Hause zu bringen.",
     "es": "La aventura de Pac-Man de desplazamiento lateral de Namco: Pac-Man corre y salta por Pac-Land para devolver a casa a un hada perdida.",
     "id": "Petualangan Pac-Man side-scrolling dari Namco: Pac-Man berlari dan melompat di Pac-Land untuk mengantar peri yang tersesat pulang.",
@@ -31340,7 +31340,7 @@
    ],
    "description": "Namco's Pac-Man: eat every dot in the maze while dodging the ghosts, turning the tables with power pellets.",
    "descriptions": {
-    "ar": "Pac-Man من Namco: كل نقطة في المتاهة مع تفادي الأشباح، وقلب الطاولة بحبوب القوة.",
+    "ar": "باك مان من Namco: كل نقطة في المتاهة مع تفادي الأشباح، وقلب الطاولة بحبوب القوة.",
     "de": "Namcos Pac-Man: Friss alle Punkte im Labyrinth und weiche den Geistern aus, und wende mit Power-Pillen das Blatt.",
     "es": "Pac-Man de Namco: come todos los puntos del laberinto mientras esquivas a los fantasmas, y da vuelta la situación con las píldoras de poder.",
     "id": "Pac-Man dari Namco: makan setiap titik di labirin sambil menghindari hantu, berbalik menyerang dengan pil tenaga.",
@@ -31378,7 +31378,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/574b8209-1ef3-4a80-88fc-968ceb1ac024.jpg",
    "description": "Namco's Pac-Man in isometric 3D: eat every dot in larger mazes, and jump over the ghosts.",
    "descriptions": {
-    "ar": "Pac-Man من Namco بثلاثة أبعاد متساوية القياس: كل نقطة في متاهات أكبر، واقفز فوق الأشباح.",
+    "ar": "باك مان من Namco بثلاثة أبعاد متساوية القياس: كل نقطة في متاهات أكبر، واقفز فوق الأشباح.",
     "de": "Namcos Pac-Man in isometrischem 3D: Friss in größeren Labyrinthen jeden Punkt und springe über die Geister.",
     "es": "El Pac-Man de Namco en 3D isométrico: come todos los puntos en laberintos más grandes y salta sobre los fantasmas.",
     "id": "Pac-Man dari Namco dalam 3D isometrik: makan setiap titik di labirin yang lebih besar, dan lompati hantu.",
@@ -31555,7 +31555,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/e14897d3-1f47-4292-892b-bfdac50457a8.jpg",
    "description": "A Pac-Man clone with its own graphics, levels and ghosts.",
    "descriptions": {
-    "ar": "نسخة مقلدة من Pac-Man برسوم ومستويات وأشباح خاصة بها.",
+    "ar": "نسخة مقلدة من باك مان برسوم ومستويات وأشباح خاصة بها.",
     "de": "Ein Pac-Man-Klon mit eigener Grafik, eigenen Levels und eigenen Geistern.",
     "es": "Un clon de Pac-Man con sus propios gráficos, niveles y fantasmas.",
     "id": "Tiruan Pac-Man dengan grafis, level, dan hantu sendiri.",
@@ -31672,7 +31672,7 @@
     "ar": "لعبة منصات: ينطلق فانتوماس لتدمير الكونت دراكولا.",
     "de": "Ein Plattformspiel: Phantomas zieht aus, Graf Dracula zu vernichten.",
     "es": "Un juego de plataformas: Phantomas parte a destruir al Conde Drácula.",
-    "id": "Platformer: Phantomas berangkat menghancurkan Count Dracula.",
+    "id": "Platformer: Phantomas berangkat menghancurkan Drakula.",
     "ja": "プラットフォームゲーム。ファントマスが、ドラキュラ伯爵を倒しに出かける。",
     "ko": "플랫포머이다. Phantomas가 드라큘라 백작을 파괴하러 나선다.",
     "pt-BR": "Um jogo de plataforma: Phantomas parte para destruir o Conde Drácula.",
@@ -31938,14 +31938,14 @@
    "boxArtUrl": "https://images.launchbox-app.com/70d89ba5-2345-42dc-942d-b8a3f8069471.png",
    "description": "The Police Academy sequel: a shooting game.",
    "descriptions": {
-    "ar": "تكملة Police Academy: لعبة رماية.",
+    "ar": "تكملة أكاديمية الشرطة: لعبة رماية.",
     "de": "Die Fortsetzung von Police Academy: ein Ballerspiel.",
-    "es": "La secuela de Police Academy: un juego de disparos.",
+    "es": "La secuela de Loca academia de policía: un juego de disparos.",
     "id": "Sekuel Police Academy: game menembak.",
     "ja": "Police Academyの続編で、シューティングゲーム。",
     "ko": "폴리스 아카데미의 속편으로, 사격 게임이다.",
     "pt-BR": "A continuação de Police Academy: um jogo de tiro.",
-    "ru": "Продолжение Police Academy: стрелялка."
+    "ru": "Продолжение «Полицейской академии»: стрелялка."
    },
    "developer": "Methodic Solutions",
    "launchbox": "155163",
@@ -32255,14 +32255,14 @@
    "boxArtUrl": "https://images.launchbox-app.com/9cf1a1d7-a31c-4b2f-b678-1b410f151cc1.png",
    "description": "A shooter based on Rambo III: rescue Colonel Trautman from Soviet-occupied Afghanistan.",
    "descriptions": {
-    "ar": "لعبة إطلاق نار مبنية على Rambo III: أنقذ العقيد تروتمان من أفغانستان التي يحتلها السوفييت.",
+    "ar": "لعبة إطلاق نار مبنية على رامبو 3: أنقذ العقيد تروتمان من أفغانستان التي يحتلها السوفييت.",
     "de": "Ein Shooter nach Rambo III: Rette Colonel Trautman aus dem sowjetisch besetzten Afghanistan.",
     "es": "Un juego de disparos basado en Rambo III: rescata al coronel Trautman de un Afganistán ocupado por los soviéticos.",
     "id": "Penembak berdasarkan Rambo III: selamatkan Kolonel Trautman dari Afghanistan yang diduduki Soviet.",
     "ja": "ランボー3/怒りのアフガンを元にしたシューティング。ソ連占領下のアフガニスタンから、トラウトマン大佐を救出する。",
     "ko": "람보 3을 바탕으로 한 슈팅 게임이다. 소련이 점령한 아프가니스탄에서 Trautman 대령을 구한다.",
     "pt-BR": "Um jogo de tiro baseado em Rambo III: resgate o coronel Trautman do Afeganistão ocupado pelos soviéticos.",
-    "ru": "Шутер по Rambo III: спасите полковника Траутмана из оккупированного СССР Афганистана."
+    "ru": "Шутер по «Рэмбо III»: спасите полковника Траутмана из оккупированного СССР Афганистана."
    },
    "developer": "Ocean Software",
    "launchbox": "155208",
@@ -32774,14 +32774,14 @@
    "boxArtUrl": "https://images.launchbox-app.com/ffd3c60a-f0d1-4070-b825-e2512ca0bc2b.png",
    "description": "A platformer based on the 1987 film: the cyborg cop RoboCop cleans up Detroit's streets.",
    "descriptions": {
-    "ar": "لعبة منصات مبنية على فيلم 1987: الشرطي السيبراني RoboCop ينظف شوارع ديترويت.",
+    "ar": "لعبة منصات مبنية على فيلم 1987: الشرطي السيبراني روبوكوب ينظف شوارع ديترويت.",
     "de": "Ein Plattformspiel nach dem Film von 1987: Der Cyborg-Polizist RoboCop säubert die Straßen von Detroit.",
     "es": "Un juego de plataformas basado en la película de 1987: el policía cyborg RoboCop limpia las calles de Detroit.",
     "id": "Platformer berdasarkan film 1987: polisi cyborg RoboCop membersihkan jalanan Detroit.",
     "ja": "1987年の映画を元にしたプラットフォームゲーム。サイボーグ警官のロボコップが、デトロイトの街を一掃する。",
     "ko": "1987년 영화를 바탕으로 사이보그 경찰 로보캅이 디트로이트 거리를 정화하는 플랫포머이다.",
     "pt-BR": "Um jogo de plataforma baseado no filme de 1987: o policial ciborgue RoboCop limpa as ruas de Detroit.",
-    "ru": "Платформер по фильму 1987 года: полицейский-киборг RoboCop очищает улицы Детройта."
+    "ru": "Платформер по фильму 1987 года: полицейский-киборг Робокоп очищает улицы Детройта."
    },
    "developer": "Ocean Software",
    "launchbox": "155283",
@@ -33660,7 +33660,7 @@
    "descriptions": {
     "ar": "زوج من الألعاب عن المكوك الفضائي السوفييتي بوران، يُختار كل منهما من شاشة العنوان: محاكاة لإطلاق المكوك ونشر الأقمار الصناعية، ولعبة حركة منفصلة.",
     "de": "Zwei Spiele über das sowjetische Space Shuttle Buran, jeweils im Titelbildschirm gewählt: eine Simulation von Start des Shuttles und Aussetzen von Satelliten sowie ein separates Actionspiel.",
-    "es": "Un par de juegos sobre el transbordador espacial soviético Buran, cada uno elegido en la pantalla de título: una simulación de lanzar el transbordador y desplegar satélites, y un juego de acción aparte.",
+    "es": "Un par de juegos sobre el transbordador espacial soviético Burán, cada uno elegido en la pantalla de título: una simulación de lanzar el transbordador y desplegar satélites, y un juego de acción aparte.",
     "id": "Sepasang game tentang pesawat ulang-alik Soviet Buran, masing-masing dipilih dari layar judul: simulasi meluncurkan pesawat dan menempatkan satelit, serta game aksi terpisah.",
     "ja": "ソ連のスペースシャトル、ブランを扱った2本のゲーム。タイトル画面から選ぶ、シャトルの打ち上げと衛星展開のシミュレーションと、別のアクションゲーム。",
     "ko": "소련 우주 왕복선 Buran을 다룬 게임 두 편이 타이틀 화면에서 선택하는 방식으로 들어 있다. 왕복선 발사와 위성 배치 시뮬레이션, 그리고 별도의 액션 게임이다.",
@@ -34276,7 +34276,7 @@
     "ja": "ティーンエイジ・ミュータント・ヒーロー・タートルズを元にしたプラットフォームゲーム。エイプリル・オニールとスプリンターをシュレッダーから救う。",
     "ko": "닌자 거북이를 바탕으로 한 플랫포머이다. Shredder에게서 에이프릴 오닐과 Splinter를 구한다.",
     "pt-BR": "Um jogo de plataforma baseado em As Tartarugas Ninja (Teenage Mutant Hero Turtles): resgate April O'Neil e Mestre Splinter do Destruidor.",
-    "ru": "Платформер по Teenage Mutant Hero Turtles: спасите Эйприл О'Нил и Сплинтера от Шреддера."
+    "ru": "Платформер по «Черепашкам-ниндзя»: спасите Эйприл О'Нил и Сплинтера от Шреддера."
    },
    "developer": "Image Works",
    "launchbox": "155596",
@@ -34441,7 +34441,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/0a10d8e3-670d-4b5f-9234-6d6b826e53f4.png",
    "description": "A platformer based on Tom & Jerry: Jerry escapes Tom through the house.",
    "descriptions": {
-    "ar": "لعبة منصات مبنية على Tom & Jerry: يفر جيري من توم عبر المنزل.",
+    "ar": "لعبة منصات مبنية على توم وجيري: يفر جيري من توم عبر المنزل.",
     "de": "Ein Plattformspiel nach Tom & Jerry: Jerry entkommt Tom durch das Haus.",
     "es": "Un juego de plataformas basado en Tom y Jerry: Jerry escapa de Tom por la casa.",
     "id": "Platformer berdasarkan Tom & Jerry: Jerry lolos dari Tom melewati rumah.",
@@ -34723,7 +34723,7 @@
     "ar": "لعبة منصات من Opera Soft من الأسطورة اليونانية: ينقذ أوليسيس اثنتي عشرة عذراء سجنتهن الساحرة سيرسي.",
     "de": "Opera Softs Plattformspiel aus der griechischen Mythologie: Odysseus rettet zwölf von der Hexe Kirke gefangene Jungfrauen.",
     "es": "El juego de plataformas de mitología griega de Opera Soft: Ulises rescata a doce doncellas encarceladas por la bruja Circe.",
-    "id": "Platformer dari Opera Soft dari mitos Yunani: Ulysses menyelamatkan dua belas gadis yang dipenjara penyihir wanita Circe.",
+    "id": "Platformer dari Opera Soft dari mitos Yunani: Odisseus menyelamatkan dua belas gadis yang dipenjara penyihir wanita Kirke.",
     "ja": "ギリシャ神話を元にした、Opera Softのプラットフォームゲーム。ユリシーズが、魔女キルケに幽閉された12人の乙女を救出する。",
     "ko": "그리스 신화를 바탕으로 한 Opera Soft의 플랫포머이다. 율리시스가 마녀 키르케에게 갇힌 처녀 열두 명을 구한다.",
     "pt-BR": "O jogo de plataforma da Opera Soft da mitologia grega: Ulisses resgata doze donzelas aprisionadas pela bruxa Circe.",
@@ -35031,7 +35031,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/e6c31595-6f73-400c-8550-985c1fb214ef.jpg",
    "description": "Taito's Space Invaders: shoot down the descending alien rows before they land.",
    "descriptions": {
-    "ar": "Space Invaders من Taito: أسقط صفوف الفضائيين النازلة قبل أن تهبط.",
+    "ar": "سبيس إنفيدرز من Taito: أسقط صفوف الفضائيين النازلة قبل أن تهبط.",
     "de": "Taitos Space Invaders: Schieße die herabsinkenden Alienreihen ab, bevor sie landen.",
     "es": "Space Invaders de Taito: derriba las filas de alienígenas que descienden antes de que aterricen.",
     "id": "Space Invaders dari Taito: tembak jatuh barisan alien yang turun sebelum mendarat.",
@@ -35209,14 +35209,14 @@
    "boxArtUrl": "https://images.launchbox-app.com/a99195d4-040f-4256-a322-03cf07100ca5.jpg",
    "description": "Sega's Tetris variant: clear the flashing blocks with falling pieces.",
    "descriptions": {
-    "ar": "نسخة Tetris من Sega: أزل الكتل الوامضة بالقطع الساقطة.",
+    "ar": "نسخة تتريس من Sega: أزل الكتل الوامضة بالقطع الساقطة.",
     "de": "Segas Tetris-Variante: Räume die blinkenden Blöcke mit fallenden Teilen.",
     "es": "La variante de Tetris de Sega: elimina los bloques parpadeantes con piezas que caen.",
     "id": "Varian Tetris dari Sega: hapus blok berkedip dengan kepingan jatuh.",
     "ja": "セガのテトリスの変種。落ちてくるピースで、点滅するブロックを消す。",
     "ko": "세가의 테트리스 변형작이다. 떨어지는 조각으로 깜빡이는 블록을 없앤다.",
     "pt-BR": "A variante de Tetris da Sega: elimine os blocos piscantes com as peças que caem.",
-    "ru": "Вариант Tetris от Sega: убирайте мигающие блоки падающими фигурами."
+    "ru": "Вариант Тетриса от Sega: убирайте мигающие блоки падающими фигурами."
    },
    "developer": "Sega Enterprises",
    "launchbox": "167712",
@@ -36727,7 +36727,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/55715ebb-5da4-487d-b7e7-d31c7e0a1600.png",
    "description": "A homebrew Pong for two players.",
    "descriptions": {
-    "ar": "لعبة Pong منزلية الصنع للاعبين اثنين.",
+    "ar": "لعبة بونغ منزلية الصنع للاعبين اثنين.",
     "de": "Ein Homebrew-Pong für zwei Spieler.",
     "es": "Un Pong casero para dos jugadores.",
     "id": "Pong buatan sendiri untuk dua pemain.",
@@ -36747,7 +36747,7 @@
    "descriptions": {
     "ar": "لعبة كرة سلة مبنية على النجم الأوروبي دراجن بيتروفيتش.",
     "de": "Ein Basketballspiel nach dem europäischen Star Dražen Petrović.",
-    "es": "Un juego de baloncesto basado en la estrella europea Drazen Petrovic.",
+    "es": "Un juego de baloncesto basado en la estrella europea Dražen Petrović.",
     "id": "Game bola basket berdasarkan bintang Eropa Drazen Petrovic.",
     "ja": "ヨーロッパのスター、ドラゼン・ペトロヴィッチを元にしたバスケットボールゲーム。",
     "ko": "유럽 스타 드라젠 페트로비치를 바탕으로 한 농구 게임이다.",
@@ -36986,14 +36986,14 @@
    ],
    "description": "A take on the mainframe game Star Trek: hunt down the attacking Klimzon ships before time runs out, moving between quadrants on the long-range scan and fighting in the close-up view.",
    "descriptions": {
-    "ar": "نسخة من لعبة الحاسوب المركزي Star Trek: طارد سفن الكليمزون المهاجمة قبل نفاد الوقت، متنقلًا بين الأرباع على المسح بعيد المدى ومقاتلًا في العرض القريب.",
+    "ar": "نسخة من لعبة الحاسوب المركزي ستار تريك: طارد سفن الكليمزون المهاجمة قبل نفاد الوقت، متنقلًا بين الأرباع على المسح بعيد المدى ومقاتلًا في العرض القريب.",
     "de": "Eine Version des Mainframe-Spiels Star Trek: Jage die angreifenden Klimzon-Schiffe, bevor die Zeit abläuft, bewege dich im Fernscan zwischen Quadranten und kämpfe in der Nahansicht.",
     "es": "Una versión del juego Star Trek de los mainframes: da caza a las naves Klimzon atacantes antes de que se acabe el tiempo, moviéndote entre cuadrantes con el escáner de largo alcance y combatiendo en la vista cercana.",
     "id": "Versi game mainframe Star Trek: buru kapal Klimzon penyerang sebelum waktu habis, berpindah antar kuadran pada pindaian jarak jauh dan bertempur dalam tampilan dekat.",
     "ja": "大型汎用機のゲーム、スタートレックを元に、時間切れになる前に、長距離スキャンで宙域間を移動し、近接ビューで戦って、攻撃してくるクリムゾンの船を追い詰める。",
     "ko": "메인프레임 게임 스타 트렉을 해석한 작품이다. 시간이 다하기 전에 공격해 오는 Klimzon 우주선을 사냥하며, 장거리 스캔에서 사분면 사이를 이동하고 근접 시점에서 싸운다.",
     "pt-BR": "Uma versão do jogo de mainframe Star Trek: cace as naves Klimzon atacantes antes que o tempo acabe, movendo-se entre quadrantes no escaneamento de longo alcance e lutando na visão de perto.",
-    "ru": "Вариация на тему мейнфреймовой игры Star Trek: выследите атакующие корабли климзонов до истечения времени, перемещаясь между квадрантами по дальнему сканированию и сражаясь в крупном плане."
+    "ru": "Вариация на тему мейнфреймовой игры «Звездный путь»: выследите атакующие корабли климзонов до истечения времени, перемещаясь между квадрантами по дальнему сканированию и сражаясь в крупном плане."
    },
    "developer": "ASCII",
    "diskMachine": {
@@ -37053,7 +37053,7 @@
     "ja": "1960年代のテレビシリーズ「ウルトラマン」を元にした、巨大怪獣と戦うアクションゲーム。",
     "ko": "1960년대 TV 시리즈 울트라맨을 바탕으로 거대 괴수와 싸우는 액션 게임이다.",
     "pt-BR": "Um jogo de ação baseado na série de TV dos anos 1960 Ultraman: combata monstros gigantes.",
-    "ru": "Экшен по телесериалу 1960-х Ultraman: сражайтесь с гигантскими монстрами."
+    "ru": "Экшен по телесериалу 1960-х «Ультрамен»: сражайтесь с гигантскими монстрами."
    },
    "developer": "Bandai",
    "diskMachine": {
@@ -37150,7 +37150,7 @@
     "ja": "Alcazar、Beamrider、Decathlon、ゴーストバスターズ、H.E.R.O.を含むアクティビジョンのゲームのコンピレーション。",
     "ko": "알카사르, Beamrider, Decathlon, 고스트버스터즈, H.E.R.O. 등 액티비전 게임을 모은 컴필레이션이다.",
     "pt-BR": "Uma compilação de jogos da Activision incluindo Alcazar, Beamrider, Decathlon, Ghostbusters e H.E.R.O.",
-    "ru": "Сборник игр Activision, включая Alcazar, Beamrider, Decathlon, Ghostbusters и H.E.R.O."
+    "ru": "Сборник игр Activision, включая Alcazar, Beamrider, Decathlon, «Охотников за привидениями» и H.E.R.O."
    },
    "developer": "JAM",
    "launchbox": "180642",
@@ -37288,7 +37288,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/fc0cddeb-405b-421a-b7a7-6352cce80df0.jpg",
    "description": "Enix's first Dragon Quest: a descendant of Erdrick sets out to rescue the princess and defeat the Dragonlord.",
    "descriptions": {
-    "ar": "أول Dragon Quest من Enix: ينطلق أحد أحفاد إردريك لإنقاذ الأميرة وهزيمة Dragonlord.",
+    "ar": "أول دراغون كويست من Enix: ينطلق أحد أحفاد إردريك لإنقاذ الأميرة وهزيمة Dragonlord.",
     "de": "Enix' erstes Dragon Quest: Ein Nachfahre von Erdrick zieht aus, um die Prinzessin zu retten und den Drachenlord zu besiegen.",
     "es": "El primer Dragon Quest de Enix: un descendiente de Erdrick parte a rescatar a la princesa y derrotar al Señor del Dragón.",
     "id": "Dragon Quest pertama dari Enix: keturunan Erdrick berangkat menyelamatkan putri dan mengalahkan Dragonlord.",
@@ -37561,7 +37561,7 @@
     "ja": "BASICで作られたレトロなプラットフォームゲーム。ネズミに注意。",
     "ko": "BASIC으로 만든 레트로 플랫포머이다. 쥐를 조심하라.",
     "pt-BR": "Um jogo de plataforma retrô feito em BASIC: cuidado com os ratos.",
-    "ru": "Ретро-платформер, написанный на BASIC: берегитесь мышей."
+    "ru": "Ретро-платформер, написанный на Бейсике: берегитесь мышей."
    },
    "developer": "AG Software",
    "launchbox": "180868",
@@ -38565,7 +38565,7 @@
     "ja": "映画「スペースキャンプ」を元にしたアクションゲーム。若い訓練生が、誤って宇宙に打ち上げられてしまう。",
     "ko": "영화 스페이스 캠프를 바탕으로 한 액션 게임이다. 어린 훈련생들이 뜻하지 않게 우주로 발사된다.",
     "pt-BR": "Um jogo de ação baseado no filme Acampamento Espacial: jovens aprendizes são lançados ao espaço por acidente.",
-    "ru": "Экшен по фильму SpaceCamp: юных курсантов случайно запускают в космос."
+    "ru": "Экшен по фильму «Пикник в космосе»: юных курсантов случайно запускают в космос."
    },
    "developer": "Pack-In-Video",
    "diskMachine": {
@@ -39480,7 +39480,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/ef7ce699-e1ef-4c87-a966-0f50bd8139af.jpg",
    "description": "A real-time strategy game of The Lord of the Rings: guide the Fellowship and the free peoples against Sauron.",
    "descriptions": {
-    "ar": "لعبة استراتيجية فورية عن The Lord of the Rings: وجّه الزمالة والشعوب الحرة ضد سورون.",
+    "ar": "لعبة استراتيجية فورية عن سيد الخواتم: وجّه الزمالة والشعوب الحرة ضد سورون.",
     "de": "Ein Echtzeit-Strategiespiel zu Der Herr der Ringe: Führe die Gefährten und die freien Völker gegen Sauron.",
     "es": "Un juego de estrategia en tiempo real de El Señor de los Anillos: guía a la Compañía y a los pueblos libres contra Sauron.",
     "id": "Game strategi real-time The Lord of the Rings: pandu Fellowship dan bangsa-bangsa merdeka melawan Sauron.",
@@ -39840,8 +39840,8 @@
    "descriptions": {
     "ar": "مغامرة نصية من Level 9 عن عصر الفروسية: يسعى لانسلوت إلى الكأس المقدسة.",
     "de": "Level 9s Text-Adventure aus dem Zeitalter der Ritterlichkeit: Lancelot sucht den Heiligen Gral.",
-    "es": "La aventura de texto de Level 9 de la Era de la Caballería: Lancelot busca el Santo Grial.",
-    "id": "Petualangan teks dari Level 9 era ksatria: Lancelot mengembara mencari Holy Grail.",
+    "es": "La aventura de texto de Level 9 de la Era de la Caballería: Lanzarote busca el Santo Grial.",
+    "id": "Petualangan teks dari Level 9 era ksatria: Lancelot mengembara mencari Cawan Suci.",
     "ja": "騎士道の時代を扱った、Level 9のテキストアドベンチャー。ランスロットが聖杯を探し求める。",
     "ko": "기사도 시대를 배경으로 한 Level 9의 텍스트 어드벤처이다. 랜슬롯이 성배를 찾아 나선다.",
     "pt-BR": "A aventura de texto da Level 9 da Era da Cavalaria: Lancelot busca o Santo Graal.",
@@ -40052,14 +40052,14 @@
    "boxArtUrl": "https://images.launchbox-app.com/adb0ed4b-ae6c-4f08-b58f-891a9ef252f7.jpg",
    "description": "Sega's Star Trek game: command the Enterprise against Klingon ships and the giant Nomad.",
    "descriptions": {
-    "ar": "لعبة Star Trek من Sega: قد Enterprise ضد سفن الكلينغون ونوماد العملاق.",
+    "ar": "لعبة ستار تريك من Sega: قد Enterprise ضد سفن الكلينغون ونوماد العملاق.",
     "de": "Segas Star-Trek-Spiel: Befehlige die Enterprise gegen Klingonenschiffe und den riesigen Nomad.",
     "es": "El juego de Star Trek de Sega: comanda la Enterprise contra naves klingon y el gigante Nomad.",
     "id": "Game Star Trek dari Sega: pimpin Enterprise melawan kapal Klingon dan Nomad raksasa.",
     "ja": "セガのスタートレックゲーム。エンタープライズ号を指揮して、クリンゴンの船と巨大なノマッドに立ち向かう。",
     "ko": "세가의 스타 트렉 게임이다. 엔터프라이즈를 지휘해 클링온 함선과 거대 Nomad에 맞선다.",
     "pt-BR": "O jogo de Star Trek da Sega: comande a Enterprise contra naves klingon e o gigante Nomad.",
-    "ru": "Игра Star Trek от Sega: командуйте «Энтерпрайзом» против кораблей клингонов и гигантского Номада."
+    "ru": "Игра «Звездный путь» от Sega: командуйте «Энтерпрайзом» против кораблей клингонов и гигантского Номада."
    },
    "launchbox": "182885",
    "publisher": "Sega",
@@ -40817,14 +40817,14 @@
    "boxArtUrl": "https://images.launchbox-app.com/c00f2542-0beb-4a5f-ab11-1bc178781129.jpg",
    "description": "The earliest official computer version of the word game Scrabble.",
    "descriptions": {
-    "ar": "أقدم نسخة حاسوبية رسمية من لعبة الكلمات Scrabble.",
+    "ar": "أقدم نسخة حاسوبية رسمية من لعبة الكلمات سكرابل.",
     "de": "Die früheste offizielle Computerversion des Wortspiels Scrabble.",
     "es": "La primera versión oficial para computadora del juego de palabras Scrabble.",
     "id": "Versi komputer resmi paling awal dari permainan kata Scrabble.",
     "ja": "言葉のゲーム、スクラブルの、最初の公式コンピューター版。",
     "ko": "단어 게임 스크래블의 가장 초기 공식 컴퓨터 버전이다.",
     "pt-BR": "A mais antiga versão oficial para computador do jogo de palavras Scrabble.",
-    "ru": "Самая ранняя официальная компьютерная версия словесной игры Scrabble."
+    "ru": "Самая ранняя официальная компьютерная версия словесной игры Скрэббл."
    },
    "developer": "Psion Software",
    "launchbox": "188829",
@@ -41551,7 +41551,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/55b831c7-120f-46be-bd9d-e0876c061f70.jpg",
    "description": "An adventure inspired by Indiana Jones.",
    "descriptions": {
-    "ar": "مغامرة مستوحاة من Indiana Jones.",
+    "ar": "مغامرة مستوحاة من إنديانا جونز.",
     "de": "Ein von Indiana Jones inspiriertes Adventure.",
     "es": "Una aventura inspirada en Indiana Jones.",
     "id": "Petualangan yang terinspirasi Indiana Jones.",
@@ -41669,7 +41669,7 @@
     "id": "RPG simulasi berdasarkan novel Shogun.",
     "ja": "小説「将軍」を元にした、シミュレーションロールプレイングゲーム。",
     "ko": "소설 쇼군을 바탕으로 한 시뮬레이션 롤플레잉 게임이다.",
-    "pt-BR": "Um RPG de simulação baseado no romance Shogun.",
+    "pt-BR": "Um RPG de simulação baseado no romance Xógum.",
     "ru": "Ролевой симулятор по роману «Сёгун»."
    },
    "developer": "Nippon Dexter",
@@ -42300,7 +42300,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/f565bbe6-af29-49aa-953b-e5dde48bbdcf.jpg",
    "description": "A Pac-Man clone.",
    "descriptions": {
-    "ar": "نسخة مقلدة من Pac-Man.",
+    "ar": "نسخة مقلدة من باك مان.",
     "de": "Ein Pac-Man-Klon.",
     "es": "Un clon de Pac-Man.",
     "id": "Tiruan Pac-Man.",
@@ -42365,7 +42365,7 @@
     "ar": "لعبة سباق عن سباق 24 ساعة في لومان.",
     "de": "Ein Rennspiel um die 24 Stunden von Le Mans.",
     "es": "Un juego de carreras de las 24 Horas de Le Mans.",
-    "id": "Game balap 24 Hours of Le Mans.",
+    "id": "Game balap Le Mans 24 Jam.",
     "ja": "ル・マン24時間レースのレースゲーム。",
     "ko": "르망 24시 레이싱 게임이다.",
     "pt-BR": "Um jogo de corrida das 24 Horas de Le Mans.",
@@ -42531,10 +42531,10 @@
     "ar": "أول لعبة استراتيجية Genghis Khan من Koei: عش حياة جنكيز خان أو حاكم آخر واغز العالم.",
     "de": "Koeis erstes Strategiespiel zu Dschingis Khan: Erlebe das Leben von Dschingis Khan oder einem anderen Herrscher und erobere die Welt.",
     "es": "El primer juego de estrategia de Gengis Kan de Koei: vive la vida de Gengis Kan u otro gobernante y conquista el mundo.",
-    "id": "Game strategi Genghis Khan pertama dari Koei: jalani hidup Genghis Khan atau penguasa lain dan taklukkan dunia.",
+    "id": "Game strategi Jenghis Khan pertama dari Koei: jalani hidup Jenghis Khan atau penguasa lain dan taklukkan dunia.",
     "ja": "光栄初のチンギス・ハンストラテジー。チンギス・ハンまたは別の君主として生き、世界を征服する。",
     "ko": "코에이의 첫 번째 칭기즈 칸 전략 게임이다. 칭기즈 칸 또는 다른 통치자의 삶을 살며 세계를 정복한다.",
-    "pt-BR": "O primeiro jogo de estratégia sobre Genghis Khan da Koei: viva a vida de Genghis Khan ou de outro governante e conquiste o mundo.",
+    "pt-BR": "O primeiro jogo de estratégia sobre Gengis Khan da Koei: viva a vida de Gengis Khan ou de outro governante e conquiste o mundo.",
     "ru": "Первая стратегия о Чингисхане от Koei: проживите жизнь Чингисхана или другого правителя и завоюйте мир."
    },
    "developer": "Koei",
@@ -43158,7 +43158,7 @@
    ],
    "description": "A Frogger clone.",
    "descriptions": {
-    "ar": "نسخة مقلدة من Frogger.",
+    "ar": "نسخة مقلدة من فروغر.",
     "de": "Ein Frogger-Klon.",
     "es": "Un clon de Frogger.",
     "id": "Tiruan Frogger.",
@@ -43470,14 +43470,14 @@
    "boxArtUrl": "https://images.launchbox-app.com/44d2c39b-254e-4997-939a-e8f84303ca65.jpg",
    "description": "A Star Wars fan game: R2-D2 and C-3PO race against time on the planet Ingo.",
    "descriptions": {
-    "ar": "لعبة معجبين عن Star Wars: R2-D2 وC-3PO يتسابقان مع الزمن على كوكب إنغو.",
+    "ar": "لعبة معجبين عن حرب النجوم: R2-D2 وC-3PO يتسابقان مع الزمن على كوكب إنغو.",
     "de": "Ein Star-Wars-Fanspiel: R2-D2 und C-3PO liefern sich auf dem Planeten Ingo ein Wettrennen gegen die Zeit.",
     "es": "Un juego de fans de Star Wars: R2-D2 y C-3PO compiten contra el tiempo en el planeta Ingo.",
     "id": "Game penggemar Star Wars: R2-D2 dan C-3PO berpacu dengan waktu di planet Ingo.",
     "ja": "スター・ウォーズのファンゲーム。R2-D2とC-3POが、惑星イーンゴで時間と競う。",
     "ko": "스타워즈 팬 게임이다. R2-D2와 C-3PO가 행성 Ingo에서 시간과 경쟁한다.",
     "pt-BR": "Um jogo de fãs de Star Wars: R2-D2 e C-3PO correm contra o tempo no planeta Ingo.",
-    "ru": "Фанатская игра по Star Wars: R2-D2 и C-3PO мчатся наперегонки со временем на планете Инго."
+    "ru": "Фанатская игра по «Звездным войнам»: R2-D2 и C-3PO мчатся наперегонки со временем на планете Инго."
    },
    "developer": "Walther Miller",
    "launchbox": "193712",
@@ -43495,7 +43495,7 @@
     "ja": "水滴が、シャベル、ツルハシ、ハンマーで道を開きながら、怪物だらけの迷宮を進む、BASICコンテスト参加作品。",
     "ko": "물방울이 삽, 곡괭이, 망치로 길을 내며 몬스터 가득한 미궁을 지나는 BASIC 콘테스트 출품작이다.",
     "pt-BR": "Uma entrada de concurso de BASIC em que uma gota d'água atravessa um labirinto cheio de monstros, usando uma pá, uma picareta e um martelo para abrir caminho.",
-    "ru": "Работа для конкурса BASIC, в которой капля воды движется по лабиринту, полному монстров, расчищая путь лопатой, киркой и молотком."
+    "ru": "Работа для конкурса по Бейсику, в которой капля воды движется по лабиринту, полному монстров, расчищая путь лопатой, киркой и молотком."
    },
    "developer": "MSXosaure",
    "launchbox": "193717",
@@ -43541,7 +43541,7 @@
     "ar": "مغامرة نصية من Level 9، خاتمة ثلاثية الأرض الوسطى: اغز قبو سيد الشياطين بحثًا عن الكنوز.",
     "de": "Level 9s Text-Adventure, Abschluss seiner Mittelerde-Trilogie: Plündere den Dungeon des Dämonenlords nach Schätzen.",
     "es": "La aventura de texto de Level 9, conclusión de su trilogía de la Tierra Media: asalta la mazmorra del Señor Demonio en busca de tesoros.",
-    "id": "Petualangan teks dari Level 9, penutup trilogi Middle-earth miliknya: jarah dungeon Demon Lord demi harta.",
+    "id": "Petualangan teks dari Level 9, penutup trilogi Dunia Tengah miliknya: jarah dungeon Demon Lord demi harta.",
     "ja": "中つ国三部作の完結編となる、Level 9のテキストアドベンチャー。魔王のダンジョンを襲撃して宝を奪う。",
     "ko": "가운데땅 3부작의 결말인 Level 9의 텍스트 어드벤처이다. 마왕의 던전을 털어 보물을 얻는다.",
     "pt-BR": "A aventura de texto da Level 9, conclusão de sua trilogia da Terra-média: saqueie a masmorra do Senhor Demônio atrás de tesouros.",
@@ -43586,14 +43586,14 @@
    "boxArtUrl": "https://images.launchbox-app.com/b5b499cb-e289-4c5f-8bda-0d342facd955.jpg",
    "description": "A Star Wars fan game: guide the Ewok Wicket against the clock.",
    "descriptions": {
-    "ar": "لعبة معجبين عن Star Wars: وجّه الإيووك ويكيت ضد الزمن.",
+    "ar": "لعبة معجبين عن حرب النجوم: وجّه الإيووك ويكيت ضد الزمن.",
     "de": "Ein Star-Wars-Fanspiel: Führe den Ewok Wicket gegen die Uhr.",
     "es": "Un juego de fans de Star Wars: guía al ewok Wicket contra el reloj.",
     "id": "Game penggemar Star Wars: pandu Ewok Wicket melawan waktu.",
     "ja": "スター・ウォーズのファンゲーム。イウォークのウィケットを、時間内に導く。",
     "ko": "스타워즈 팬 게임이다. Ewok Wicket을 이끌어 시간과 겨룬다.",
     "pt-BR": "Um jogo de fãs de Star Wars: guie o ewok Wicket contra o relógio.",
-    "ru": "Фанатская игра по Star Wars: проведите эвока Виккета против времени."
+    "ru": "Фанатская игра по «Звездным войнам»: проведите эвока Виккета против времени."
    },
    "developer": "Walther Miller",
    "launchbox": "195205",
@@ -43666,14 +43666,14 @@
   "msx:195212": {
    "description": "A Star Wars fan game: Wicket the Ewok must defeat the monster Sermal.",
    "descriptions": {
-    "ar": "لعبة معجبين عن Star Wars: على الإيووك ويكيت هزيمة الوحش سيرمال.",
+    "ar": "لعبة معجبين عن حرب النجوم: على الإيووك ويكيت هزيمة الوحش سيرمال.",
     "de": "Ein Star-Wars-Fanspiel: Der Ewok Wicket muss das Monster Sermal besiegen.",
     "es": "Un juego de fans de Star Wars: el ewok Wicket debe derrotar al monstruo Sermal.",
     "id": "Game penggemar Star Wars: Ewok Wicket harus mengalahkan monster Sermal.",
     "ja": "スター・ウォーズのファンゲーム。イウォークのウィケットが、怪物セルマルを倒さなければならない。",
     "ko": "스타워즈 팬 게임이다. Ewok Wicket이 괴물 Sermal을 물리쳐야 한다.",
     "pt-BR": "Um jogo de fãs de Star Wars: o ewok Wicket precisa derrotar o monstro Sermal.",
-    "ru": "Фанатская игра по Star Wars: эвок Виккет должен победить монстра Сермала."
+    "ru": "Фанатская игра по «Звездным войнам»: эвок Виккет должен победить монстра Сермала."
    },
    "developer": "Walther Miller",
    "launchbox": "195212",
@@ -43752,7 +43752,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/9cfc72ec-b97d-4133-b6a6-5222f45b83b9.jpg",
    "description": "A demake of Flappy Bird: flap between the pipes.",
    "descriptions": {
-    "ar": "نسخة مبسطة من Flappy Bird: رفرف بين الأنابيب.",
+    "ar": "نسخة مبسطة من فلابي بيرد: رفرف بين الأنابيب.",
     "de": "Ein Demake von Flappy Bird: Flattere zwischen den Röhren hindurch.",
     "es": "Una demake de Flappy Bird: aletea entre las tuberías.",
     "id": "Demake Flappy Bird: kepakkan sayap di antara pipa.",
@@ -44049,7 +44049,7 @@
    "boxArtUrl": "https://images.launchbox-app.com/244b6246-7e19-4d8e-bfba-f3f1beb89154.jpg",
    "description": "A revamped quasi-3D version of the Frogger clone Hopper.",
    "descriptions": {
-    "ar": "نسخة معاد تصميمها شبه ثلاثية الأبعاد من Hopper، المقلدة للعبة Frogger.",
+    "ar": "نسخة معاد تصميمها شبه ثلاثية الأبعاد من Hopper، المقلدة للعبة فروغر.",
     "de": "Eine überarbeitete Quasi-3D-Version des Frogger-Klons Hopper.",
     "es": "Una versión renovada cuasi 3D del clon de Frogger Hopper.",
     "id": "Versi kuasi-3D yang dirombak dari tiruan Frogger Hopper.",
@@ -44296,7 +44296,7 @@
     "ja": "謎の家を舞台にしたBASICコンテスト参加作品。幽霊に追われながら、部屋に散らばったコインを集める。集めるまですべての出口が閉ざされている。",
     "ko": "수수께끼의 집을 배경으로 한 BASIC 콘테스트 출품작이다. 유령에게 쫓기며 방마다 흩어진 코인을 모으며, 다 모으기 전까지는 모든 출구가 잠겨 있다.",
     "pt-BR": "Uma entrada de concurso de BASIC ambientada em uma casa misteriosa: colete as moedas espalhadas por suas salas enquanto fantasmas o perseguem, com todas as saídas trancadas até você conseguir.",
-    "ru": "Работа для конкурса BASIC в загадочном доме: собирайте монеты, разбросанные по комнатам, пока вас преследуют призраки, и все выходы заперты, пока вы не соберете их."
+    "ru": "Работа для конкурса по Бейсику в загадочном доме: собирайте монеты, разбросанные по комнатам, пока вас преследуют призраки, и все выходы заперты, пока вы не соберете их."
    },
    "developer": "Yermani Soft",
    "launchbox": "199047",
@@ -44725,14 +44725,14 @@
    "boxArtUrl": "https://images.launchbox-app.com/e48e9a07-1931-4f78-8366-146bb4eebc16.jpg",
    "description": "A two-player Tetris made for MSXdev'04.",
    "descriptions": {
-    "ar": "Tetris للاعبين اثنين صُنعت لمسابقة MSXdev'04.",
+    "ar": "تتريس للاعبين اثنين صُنعت لمسابقة MSXdev'04.",
     "de": "Ein Tetris für zwei Spieler, gemacht für MSXdev'04.",
     "es": "Un Tetris para dos jugadores hecho para MSXdev'04.",
     "id": "Tetris dua pemain yang dibuat untuk MSXdev'04.",
     "ja": "MSXdev'04向けに作られた、2人用のテトリス。",
     "ko": "MSXdev'04를 위해 만든 2인용 테트리스이다.",
     "pt-BR": "Um Tetris para dois jogadores feito para o MSXdev'04.",
-    "ru": "Tetris для двух игроков, сделанный для MSXdev'04."
+    "ru": "Тетрис для двух игроков, сделанный для MSXdev'04."
    },
    "developer": "Kralizec",
    "launchbox": "201267",
@@ -44809,14 +44809,14 @@
   "msx:201272": {
    "description": "Kralizec's two Tetris games combined.",
    "descriptions": {
-    "ar": "لعبتا Tetris من Kralizec مجتمعتان.",
+    "ar": "لعبتا تتريس من Kralizec مجتمعتان.",
     "de": "Kralizecs zwei Tetris-Spiele kombiniert.",
     "es": "Los dos juegos de Tetris de Kralizec combinados.",
     "id": "Dua game Tetris karya Kralizec digabung.",
     "ja": "Kralizecの2つのテトリスゲームをまとめたもの。",
     "ko": "Kralizec의 두 테트리스 게임을 합친 작품이다.",
     "pt-BR": "Os dois jogos de Tetris da Kralizec combinados.",
-    "ru": "Две игры Tetris от Kralizec, объединенные вместе."
+    "ru": "Две игры «Тетрис» от Kralizec, объединенные вместе."
    },
    "developer": "Kralizec",
    "launchbox": "201272",
@@ -46902,7 +46902,7 @@
     "ar": "لعبة مسدس ضوئي عن ويليام تل.",
     "de": "Ein Lichtpistolenspiel um Wilhelm Tell.",
     "es": "Un juego de pistola de luz sobre Guillermo Tell.",
-    "id": "Game light gun tentang William Tell.",
+    "id": "Game light gun tentang Wilhelm Tell.",
     "ja": "ウィリアム・テルのライトガンゲーム。",
     "ko": "빌헬름 텔을 다룬 광선총 게임이다.",
     "pt-BR": "Um jogo de pistola de luz de Guilherme Tell.",
@@ -47298,7 +47298,7 @@
    ],
    "description": "A homebrew Pac-Man.",
    "descriptions": {
-    "ar": "Pac-Man منزلية الصنع.",
+    "ar": "باك مان منزلية الصنع.",
     "de": "Ein Homebrew-Pac-Man.",
     "es": "Un Pac-Man casero.",
     "id": "Pac-Man buatan sendiri.",
@@ -48475,7 +48475,7 @@
     "ja": "コナミのMSX版グーニーズ。フラテリー一家の隠れ家から、捕らわれた子供たちを救出する。",
     "ko": "코나미의 MSX판 구니스이다. Fratelli 가족의 은신처에서 붙잡힌 아이들을 구출한다.",
     "pt-BR": "A versão para MSX de Os Goonies da Konami: resgate as crianças capturadas do esconderijo da família Fratelli.",
-    "ru": "Версия для MSX The Goonies от Konami: спасите захваченных детей из убежища семьи Фрателли."
+    "ru": "Версия «Балбесов» для MSX от Konami: спасите захваченных детей из убежища семьи Фрателли."
    },
    "developer": "Konami",
    "diskMachine": {
@@ -49358,7 +49358,7 @@
    ],
    "description": "Hudson's original Bomberman: lay bombs to clear walls and destroy enemies in a maze.",
    "descriptions": {
-    "ar": "Bomberman الأصلية من Hudson: ضع القنابل لإزالة الجدران وتدمير الأعداء في متاهة.",
+    "ar": "بومبرمان الأصلية من Hudson: ضع القنابل لإزالة الجدران وتدمير الأعداء في متاهة.",
     "de": "Hudsons ursprüngliches Bomberman: Lege Bomben, um Mauern zu räumen und Gegner in einem Labyrinth zu vernichten.",
     "es": "El Bomberman original de Hudson: coloca bombas para despejar muros y destruir enemigos en un laberinto.",
     "id": "Bomberman asli dari Hudson: letakkan bom untuk membersihkan dinding dan menghancurkan musuh di labirin.",
@@ -51524,7 +51524,7 @@
    ],
    "description": "A tiny Pong made for a 1KB programming contest.",
    "descriptions": {
-    "ar": "لعبة Pong صغيرة جدًا صُنعت لمسابقة برمجة بحجم 1 كيلوبايت.",
+    "ar": "لعبة بونغ صغيرة جدًا صُنعت لمسابقة برمجة بحجم 1 كيلوبايت.",
     "de": "Ein winziges Pong, gemacht für einen 1-KB-Programmierwettbewerb.",
     "es": "Un diminuto Pong hecho para un concurso de programación de 1 KB.",
     "id": "Pong mungil yang dibuat untuk kontes pemrograman 1KB.",
@@ -51804,7 +51804,7 @@
     "ja": "BASIC雑誌のゲーム。アップルビレッジが飢饉に見舞われ、アップランの好物がなくなった。",
     "ko": "BASIC 잡지에 실린 게임이다. Apple Village가 기근에 빠졌고 Appuran이 가장 좋아하는 음식이 사라졌다.",
     "pt-BR": "Um jogo de uma revista de BASIC: a Vila da Maçã passa fome, e a comida favorita de Appuran acabou.",
-    "ru": "Игра из журнала о BASIC: в Яблочной деревне голод, и любимая еда Аппурана пропала."
+    "ru": "Игра из журнала о Бейсике: в Яблочной деревне голод, и любимая еда Аппурана пропала."
    },
    "developer": "Kazuki Suzuki",
    "launchbox": "470879",
@@ -52097,7 +52097,7 @@
    "description": "A remake of Bobby Is Going Home.",
    "descriptions": {
     "ar": "إعادة إنتاج للعبة Bobby Is Going Home.",
-    "de": "Ein Remake von Bobby Is Going Home.",
+    "de": "Ein Remake von Bobby geht nach Hause.",
     "es": "Una nueva versión de Bobby Is Going Home.",
     "id": "Remake Bobby Is Going Home.",
     "ja": "Bobby Is Going Homeのリメイク。",
@@ -52833,7 +52833,7 @@
     "id": "Beat 'em up dari Sega: pahlawan yang dibangkitkan Zeus berubah menjadi binatang untuk menyelamatkan Athena.",
     "ja": "セガのベルトスクロールアクション。ゼウスによってよみがえった英雄が、獣に変身してアテナを救う。",
     "ko": "세가의 벨트스크롤 게임이다. 제우스에게 되살아난 영웅이 짐승으로 변신해 아테나를 구한다.",
-    "pt-BR": "O beat 'em up da Sega: um herói ressuscitado por Zeus se transforma em feras para resgatar Athena.",
+    "pt-BR": "O beat 'em up da Sega: um herói ressuscitado por Zeus se transforma em feras para resgatar Atena.",
     "ru": "Beat 'em up от Sega: герой, воскрешенный Зевсом, превращается в зверей, чтобы спасти Афину."
    },
    "developer": "New Frontier",
@@ -54979,7 +54979,7 @@
     "ar": "ثلاث مغامرات مبكرة من Level 9، Colossal Adventure وAdventure Quest وDungeon Adventure، مجموعة برسوم وبدون إشارات الأرض الوسطى من إصداراتها الأولى.",
     "de": "Level 9s drei frühe Adventures, Colossal Adventure, Adventure Quest und Dungeon Adventure, mit Bildern und ohne die Mittelerde-Bezüge ihrer ersten Veröffentlichungen zusammengefasst.",
     "es": "Las tres primeras aventuras de Level 9, Colossal Adventure, Adventure Quest y Dungeon Adventure, reunidas con imágenes y sin las referencias a la Tierra Media de sus primeros lanzamientos.",
-    "id": "Tiga petualangan awal Level 9, Colossal Adventure, Adventure Quest, dan Dungeon Adventure, dikumpulkan dengan gambar dan tanpa rujukan Middle-earth dari rilisan pertamanya.",
+    "id": "Tiga petualangan awal Level 9, Colossal Adventure, Adventure Quest, dan Dungeon Adventure, dikumpulkan dengan gambar dan tanpa rujukan Dunia Tengah dari rilisan pertamanya.",
     "ja": "Colossal Adventure、Adventure Quest、Dungeon Adventureという、Level 9の初期の3本のアドベンチャーを、絵付きで、初回発売版にあった中つ国への言及なしで収めた作品集。",
     "ko": "Level 9의 초기 어드벤처 세 편 Colossal Adventure, Adventure Quest, Dungeon Adventure를 그림과 함께 묶고 첫 출시 때의 가운데땅 언급을 뺀 모음집이다.",
     "pt-BR": "As três primeiras aventuras da Level 9, Colossal Adventure, Adventure Quest e Dungeon Adventure, reunidas com imagens e sem as referências à Terra-média de seus primeiros lançamentos.",
@@ -55387,7 +55387,7 @@
     "ar": "مغامرة نصية برسوم تدور عام 1862: حين يضيع سائق عربتك في الغابة السوداء ثم يختفي، تجد قرية صغيرة تحدث فيها أمور غريبة.",
     "de": "Ein Text-Adventure mit Bildern im Jahr 1862: Als dein Kutscher sich im Schwarzwald verirrt und dann verschwindet, findest du ein kleines Dorf, in dem seltsame Dinge geschehen.",
     "es": "Una aventura de texto con imágenes ambientada en 1862: cuando tu cochero se pierde en la Selva Negra y luego desaparece, encuentras una pequeña aldea donde ocurren cosas extrañas.",
-    "id": "Petualangan teks bergambar berlatar 1862: ketika kusir Anda tersesat di Black Forest lalu menghilang, Anda menemukan desa kecil tempat hal-hal aneh terjadi.",
+    "id": "Petualangan teks bergambar berlatar 1862: ketika kusir Anda tersesat di Hutan Hitam lalu menghilang, Anda menemukan desa kecil tempat hal-hal aneh terjadi.",
     "ja": "1862年を舞台にした、絵付きのテキストアドベンチャー。御者がシュヴァルツヴァルトで道に迷って姿を消し、奇妙な出来事が起こる小さな村を見つける。",
     "ko": "1862년을 배경으로 한 그림이 곁들여진 텍스트 어드벤처이다. 마부가 슈바르츠발트에서 길을 잃고 사라진 뒤, 기이한 일이 벌어지는 작은 마을을 발견한다.",
     "pt-BR": "Uma aventura de texto com imagens ambientada em 1862: quando seu cocheiro se perde na Floresta Negra e depois desaparece, você encontra uma pequena aldeia onde coisas estranhas acontecem.",
@@ -56313,14 +56313,14 @@
    },
    "description": "The first official computer version of Scrabble, with a dictionary of the most commonly used words.",
    "descriptions": {
-    "ar": "أول نسخة حاسوبية رسمية من Scrabble، بقاموس لأكثر الكلمات استخدامًا.",
+    "ar": "أول نسخة حاسوبية رسمية من سكرابل، بقاموس لأكثر الكلمات استخدامًا.",
     "de": "Die erste offizielle Computerversion von Scrabble mit einem Wörterbuch der gebräuchlichsten Wörter.",
     "es": "La primera versión oficial para computadora de Scrabble, con un diccionario de las palabras más utilizadas.",
     "id": "Versi komputer resmi pertama Scrabble, dengan kamus kata yang paling umum dipakai.",
     "ja": "最も一般的に使われる単語の辞書を備えた、最初の公式のスクラブルコンピューター版。",
     "ko": "가장 흔한 단어로 이루어진 사전이 있는 최초의 공식 스크래블 컴퓨터판이다.",
     "pt-BR": "A primeira versão oficial para computador de Scrabble, com um dicionário das palavras mais usadas.",
-    "ru": "Первая официальная компьютерная версия Scrabble со словарем наиболее употребительных слов."
+    "ru": "Первая официальная компьютерная версия Скрэббла со словарем наиболее употребительных слов."
    },
    "mobygames": 20375,
    "title": "The Computer Edition of Scrabble Brand Crossword Game",
@@ -56353,7 +56353,7 @@
    },
    "description": "An educational Space Invaders for children aged four to twelve: answer the sum shown at the bottom of the screen to shoot down the rows of invaders creeping toward you.",
    "descriptions": {
-    "ar": "Space Invaders تعليمية للأطفال من أربع إلى اثنتي عشرة سنة: أجب عن المسألة الحسابية المعروضة أسفل الشاشة لإسقاط صفوف الغزاة الزاحفة نحوك.",
+    "ar": "سبيس إنفيدرز تعليمية للأطفال من أربع إلى اثنتي عشرة سنة: أجب عن المسألة الحسابية المعروضة أسفل الشاشة لإسقاط صفوف الغزاة الزاحفة نحوك.",
     "de": "Ein Lern-Space-Invaders für Kinder von vier bis zwölf Jahren: Beantworte die unten am Bildschirm gezeigte Rechenaufgabe, um die auf dich zukriechenden Invader-Reihen abzuschießen.",
     "es": "Un Space Invaders educativo para niños de cuatro a doce años: responde la suma que se muestra en la parte inferior de la pantalla para derribar las filas de invasores que se arrastran hacia ti.",
     "id": "Space Invaders edukatif untuk anak usia empat hingga dua belas tahun: jawab soal hitung di bagian bawah layar untuk menembak jatuh barisan penyerbu yang merayap ke arah Anda.",
@@ -56843,7 +56843,7 @@
   "msx:moby-223452": {
    "description": "The second Bomberman game, a first-person remake of the original: escape a maze of blocks in the building where you are held, bombing your way past the balloon-shaped ghosts.",
    "descriptions": {
-    "ar": "لعبة Bomberman الثانية، إعادة إنتاج من منظور الشخص الأول للأصلية: اهرب من متاهة كتل في المبنى الذي تُحتجز فيه، مفجرًا طريقك عبر الأشباح على شكل بالونات.",
+    "ar": "لعبة بومبرمان الثانية، إعادة إنتاج من منظور الشخص الأول للأصلية: اهرب من متاهة كتل في المبنى الذي تُحتجز فيه، مفجرًا طريقك عبر الأشباح على شكل بالونات.",
     "de": "Das zweite Bomberman-Spiel, ein Remake des Originals in der Ego-Perspektive: Entkomme einem Labyrinth aus Blöcken in dem Gebäude, in dem du festgehalten wirst, und bombe dich an den ballonförmigen Geistern vorbei.",
     "es": "El segundo juego de Bomberman, una nueva versión en primera persona del original: escapa de un laberinto de bloques en el edificio donde te retienen, abriéndote paso a bombazos entre fantasmas con forma de globo.",
     "id": "Game Bomberman kedua, remake orang pertama dari yang asli: lolos dari labirin blok di gedung tempat Anda ditahan, membom jalan melewati hantu berbentuk balon.",
@@ -57339,10 +57339,10 @@
     "ar": "إصدار خاص من أول Genghis Khan من Koei مرفق بموسيقاه التصويرية.",
     "de": "Eine Sonderausgabe von Koeis erstem Genghis Khan, gebündelt mit seinem Soundtrack.",
     "es": "Una edición especial del primer Gengis Kan de Koei con su banda sonora.",
-    "id": "Edisi khusus Genghis Khan pertama dari Koei yang dibundel dengan soundtracknya.",
+    "id": "Edisi khusus Jenghis Khan pertama dari Koei yang dibundel dengan soundtracknya.",
     "ja": "サウンドトラックを同梱した、光栄の最初のチンギス・ハンの特別版。",
     "ko": "사운드트랙이 함께 묶인 코에이의 첫 칭기즈 칸 스페셜 에디션이다.",
-    "pt-BR": "Uma edição especial do primeiro Genghis Khan da Koei acompanhada da trilha sonora.",
+    "pt-BR": "Uma edição especial do primeiro Gengis Khan da Koei acompanhada da trilha sonora.",
     "ru": "Особое издание первой игры о Чингисхане от Koei с саундтреком."
    },
    "mobygames": 245411,
@@ -57505,7 +57505,7 @@
   "msx:moby-262840": {
    "description": "A Pac-Man variant across nine mazes: Rodmän eats every purple pill to clear a stage, avoiding the enemies in the corridors until a large pill lets him turn the tables.",
    "descriptions": {
-    "ar": "لعبة على طراز Pac-Man عبر تسع متاهات: يأكل رودمان كل حبة أرجوانية لإنهاء المرحلة، متفاديًا الأعداء في الممرات حتى تتيح حبة كبيرة له قلب الطاولة.",
+    "ar": "لعبة على طراز باك مان عبر تسع متاهات: يأكل رودمان كل حبة أرجوانية لإنهاء المرحلة، متفاديًا الأعداء في الممرات حتى تتيح حبة كبيرة له قلب الطاولة.",
     "de": "Eine Pac-Man-Variante über neun Labyrinthe: Rodmän frisst alle violetten Pillen, um eine Stage zu räumen, und weicht den Gegnern in den Gängen aus, bis eine große Pille ihm erlaubt, den Spieß umzudrehen.",
     "es": "Una variante de Pac-Man por nueve laberintos: Rodmän se come todas las píldoras moradas para despejar un nivel, evitando a los enemigos de los pasillos hasta que una píldora grande le permite dar vuelta la situación.",
     "id": "Varian Pac-Man di sembilan labirin: Rodmän memakan setiap pil ungu untuk menamatkan stage, menghindari musuh di koridor hingga pil besar memungkinkannya berbalik menyerang.",
@@ -57633,7 +57633,7 @@
     "ja": "BASICで書かれたブレイクアウトのクローン。小さなボールとバットで、バットの後ろの壁が外したボールを戻してくれるが、中央の穴は例外。",
     "ko": "BASIC로 만든 브레이크아웃 복제작으로, 아주 작은 공과 배트가 있고, 배트 뒤의 벽이 놓친 공을 돌려보내 주지만 가운데에는 구멍이 있다.",
     "pt-BR": "Um clone de Breakout escrito em BASIC, com uma bolinha e uma raquete minúsculas, amenizado por paredes atrás da raquete que devolvem uma bola perdida, exceto por um buraco no meio.",
-    "ru": "Клон Breakout, написанный на BASIC, с крошечными мячом и ракеткой, смягченный стенами позади ракетки, возвращающими пропущенный мяч, кроме отверстия посередине."
+    "ru": "Клон Breakout, написанный на Бейсике, с крошечными мячом и ракеткой, смягченный стенами позади ракетки, возвращающими пропущенный мяч, кроме отверстия посередине."
    },
    "mobygames": 27036,
    "title": "Smash Out",
@@ -57819,7 +57819,7 @@
     "ja": "BBCのラジオドラマ「アーチャーズ」を元にした、アンブリッジ村を舞台にしたテキストアドベンチャー。",
     "ko": "BBC 라디오 드라마 The Archers를 바탕으로 한, Ambridge 마을을 배경으로 한 텍스트 어드벤처이다.",
     "pt-BR": "Uma aventura de texto baseada na radionovela da BBC The Archers, ambientada na aldeia de Ambridge.",
-    "ru": "Текстовое приключение по радиопостановке BBC The Archers в деревне Эмбридж."
+    "ru": "Текстовое приключение по радиопостановке Би-би-си The Archers в деревне Эмбридж."
    },
    "mobygames": 29900,
    "title": "The Archers",
@@ -57894,7 +57894,7 @@
    },
    "description": "An unofficial adaptation of The Jewel of the Nile: reunite three travellers held in separate cells by a dictatorial regime and help them escape the country.",
    "descriptions": {
-    "ar": "اقتباس غير رسمي من The Jewel of the Nile: لمّ شمل ثلاثة مسافرين محتجزين في زنازين منفصلة لدى نظام دكتاتوري وساعدهم على الهرب من البلاد.",
+    "ar": "اقتباس غير رسمي من جوهرة النيل: لمّ شمل ثلاثة مسافرين محتجزين في زنازين منفصلة لدى نظام دكتاتوري وساعدهم على الهرب من البلاد.",
     "de": "Eine inoffizielle Adaption von Der Juwel vom Nil: Führe drei von einem diktatorischen Regime in getrennten Zellen festgehaltene Reisende zusammen und hilf ihnen, aus dem Land zu fliehen.",
     "es": "Una adaptación no oficial de La joya del Nilo: reúne a tres viajeros retenidos en celdas separadas por un régimen dictatorial y ayúdalos a escapar del país.",
     "id": "Adaptasi tidak resmi The Jewel of the Nile: pertemukan kembali tiga pengelana yang ditahan di sel terpisah oleh rezim diktator dan bantu mereka lolos dari negeri itu.",
@@ -58280,7 +58280,7 @@
    "descriptions": {
     "ar": "تحويل غير رسمي للعبة Hungry Hungry Hippos لما بين لاعبين وأربعة، بلوحتين وألعاب من عشر أو عشرين أو ثلاثين كرة.",
     "de": "Eine inoffizielle Umsetzung von Hungry Hungry Hippos für zwei bis vier Spieler mit zwei Spielbrettern und Partien mit zehn, zwanzig oder dreißig Kugeln.",
-    "es": "Una conversión no oficial de Hungry Hungry Hippos para de dos a cuatro jugadores, con dos tableros y partidas de diez, veinte o treinta bolas.",
+    "es": "Una conversión no oficial de Tragabolas para de dos a cuatro jugadores, con dos tableros y partidas de diez, veinte o treinta bolas.",
     "id": "Konversi tidak resmi Hungry Hungry Hippos untuk dua hingga empat pemain, dengan dua papan dan permainan sepuluh, dua puluh, atau tiga puluh bola.",
     "ja": "2〜4人用の、2種類の盤と、10個、20個、30個のボールで遊ぶHungry Hungry Hipposの非公式移植。",
     "ko": "2~4인용 Hungry Hungry Hippos의 비공식 변환작으로, 보드 두 개와 공 열 개, 스무 개, 서른 개의 게임이 있다.",
@@ -59391,7 +59391,7 @@
    },
    "description": "The second Dragon Quest: a descendant of Erdrick sets out to save the world, now joined by two companions, a magic user and a fighter who can also cast spells.",
    "descriptions": {
-    "ar": "Dragon Quest الثانية: ينطلق أحد أحفاد إردريك لإنقاذ العالم، يرافقه الآن رفيقان، ساحر ومقاتل يستطيع أيضًا إلقاء التعاويذ.",
+    "ar": "دراغون كويست الثانية: ينطلق أحد أحفاد إردريك لإنقاذ العالم، يرافقه الآن رفيقان، ساحر ومقاتل يستطيع أيضًا إلقاء التعاويذ.",
     "de": "Das zweite Dragon Quest: Ein Nachfahre von Erdrick zieht aus, um die Welt zu retten, nun begleitet von zwei Gefährten, einem Zauberer und einem Kämpfer, der auch Zauber wirken kann.",
     "es": "El segundo Dragon Quest: un descendiente de Erdrick parte a salvar el mundo, ahora acompañado de dos compañeros, un mago y un guerrero que también puede lanzar hechizos.",
     "id": "Dragon Quest kedua: keturunan Erdrick berangkat menyelamatkan dunia, kini ditemani dua rekan, seorang pengguna sihir dan seorang petarung yang juga dapat merapal mantra.",
@@ -59613,7 +59613,7 @@
     "ar": "لعبة منصات: يقتحم كونان البربري قلعة لهزيمة فولتا الشرير.",
     "de": "Ein Plattformspiel: Conan der Barbar stürmt ein Schloss, um den bösen Volta zu besiegen.",
     "es": "Un juego de plataformas: Conan el Bárbaro asalta un castillo para derrotar al malvado Volta.",
-    "id": "Platformer: Conan the Barbarian menyerbu kastil untuk mengalahkan Volta yang jahat.",
+    "id": "Platformer: Conan sang Barbar menyerbu kastil untuk mengalahkan Volta yang jahat.",
     "ja": "プラットフォームゲーム。蛮人コナンが城に攻め込み、邪悪なヴォルタを倒す。",
     "ko": "플랫포머이다. 야만 전사 코난이 성에 쳐들어가 사악한 Volta를 물리친다.",
     "pt-BR": "Um jogo de plataforma: Conan, o Bárbaro, invade um castelo para derrotar o maligno Volta.",
@@ -59627,12 +59627,12 @@
    "description": "A German dice game played by the rules of Yahtzee: roll five dice, keep what you like, reroll the rest, then score the result in one of the categories.",
    "descriptions": {
     "ar": "لعبة نرد ألمانية تُلعب بقواعد Yahtzee: ارمِ خمسة أحجار نرد، واحتفظ بما تشاء، وأعد رمي الباقي، ثم احتسب النتيجة في إحدى الفئات.",
-    "de": "Ein deutsches Würfelspiel nach den Regeln von Yahtzee: Würfle fünf Würfel, behalte, was du willst, würfle den Rest neu und werte das Ergebnis dann in einer der Kategorien.",
+    "de": "Ein deutsches Würfelspiel nach den Regeln von Kniffel: Würfle fünf Würfel, behalte, was du willst, würfle den Rest neu und werte das Ergebnis dann in einer der Kategorien.",
     "es": "Un juego de dados alemán que se juega con las reglas del Yahtzee: lanza cinco dados, conserva los que quieras, vuelve a lanzar el resto y luego anota el resultado en una de las categorías.",
     "id": "Permainan dadu Jerman yang dimainkan menurut aturan Yahtzee: lempar lima dadu, simpan yang Anda suka, lempar ulang sisanya, lalu catat hasilnya di salah satu kategori.",
     "ja": "ヤッツィーのルールで遊ぶドイツのサイコロゲーム。5つのサイコロを振り、好きなものを残して残りを振り直し、結果をいずれかのカテゴリーに記録して得点する。",
     "ko": "야찌 규칙으로 하는 독일 주사위 게임이다. 주사위 다섯 개를 굴려 원하는 것을 남기고 나머지를 다시 굴린 뒤, 결과를 한 항목에 기록한다.",
-    "pt-BR": "Um jogo de dados alemão jogado pelas regras de Yahtzee: role cinco dados, guarde o que quiser, role de novo o resto e depois registre o resultado em uma das categorias.",
+    "pt-BR": "Um jogo de dados alemão jogado pelas regras de General (Yahtzee): role cinco dados, guarde o que quiser, role de novo o resto e depois registre o resultado em uma das categorias.",
     "ru": "Немецкая игра в кости по правилам Yahtzee: бросьте пять кубиков, оставьте нужные, перебросьте остальные и запишите результат в одну из категорий."
    },
    "mobygames": 95801,

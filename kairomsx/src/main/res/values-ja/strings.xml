@@ -62,13 +62,6 @@
     <string name="disk_full">ディスクに %1$s を入れる空きがありません</string>
     <!-- EN: Preparing the emulator -->
     <string name="preparing_emulator">エミュレーターを準備しています</string>
-    <!-- EN: the emulator could not read or write the state -->
-    <string name="state_error_io">エミュレーターがステートを読み書きできませんでした</string>
-    <!-- EN: the emulator refused the image -->
-    <string name="state_error_refused">エミュレーターがイメージを拒否しました</string>
-    <!-- %1$d is the emulator's error code. -->
-    <!-- EN: code %1$d -->
-    <string name="state_error_code">コード %1$d</string>
     <!-- EN: Machine -->
     <string name="option_machine">マシン</string>
     <!-- EN: Automatic -->

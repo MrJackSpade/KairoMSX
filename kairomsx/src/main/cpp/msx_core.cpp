@@ -19,8 +19,6 @@ static_assert(kairomsx::kCartA == 0 && kairomsx::kCartB == 1 && kairomsx::kDiskA
 // MainActivity.machine.stateFile.
 constexpr const char *kStateFile = "/state.oms";
 // MainActivity.stateError reads these.
-constexpr int kStateFailed = 2;
-constexpr int kMediaRefused = 3;
 // MsxKeys numbers a key by its matrix place: row * 8 + column + 1, rows 0 to 10.
 constexpr int kKeyCodes = 11 * 8 + 1;
 
@@ -30,6 +28,8 @@ public:
 
     bool run_frame() override { return machine_->run_frame(error_); }
     std::string error() override { return error_; }
+    // The emulator's reason, which save_state and load_state leave in error_.
+    std::string state_error() override { return error_; }
     const uint8_t *frame(uint32_t &width, uint32_t &height) override { return machine_->frame(width, height); }
     double frame_seconds() override { return machine_->frame_seconds(); }
     int32_t audio_rate() override { return machine_->sample_rate(); }
@@ -58,16 +58,16 @@ public:
     void reset() override { machine_->reset(); }
 
     int save_state(const std::string &directory) override {
-        return machine_->save_state(directory + kStateFile, error_) ? 0 : kStateFailed;
+        return machine_->save_state(directory + kStateFile, error_) ? 0 : kFailed;
     }
 
     int load_state(const std::string &directory) override {
-        return machine_->load_state(directory + kStateFile, error_) ? 0 : kStateFailed;
+        return machine_->load_state(directory + kStateFile, error_) ? 0 : kFailed;
     }
 
     int media(int slot, const std::string &path) override {
         if (slot < 0 || slot >= kairomsx::kSlots) return kUnsupported;
-        return machine_->insert(kairomsx::Slot(slot), path, error_) ? 0 : kMediaRefused;
+        return machine_->insert(kairomsx::Slot(slot), path, error_) ? 0 : kFailed;
     }
 
     std::vector<std::string> media_paths() override {

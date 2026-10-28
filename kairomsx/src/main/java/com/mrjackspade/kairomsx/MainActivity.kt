@@ -165,10 +165,4 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
         const val MAX_DOS_FILE = 64L * 1024
         const val DOS2 = "MSX-DOS2"
     }
-
-    override fun stateError(code: Int) = when (code) {
-        2 -> getString(R.string.state_error_io)
-        3 -> getString(R.string.state_error_refused)
-        else -> getString(R.string.state_error_code, code)
-    }
 }

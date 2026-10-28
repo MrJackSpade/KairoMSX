@@ -73,7 +73,7 @@ object MsxKeys {
         brand = "KAIROMSX",
         pages = listOf(
             GuestKeyboardPage("ABC", alphabetRows()),
-            GuestKeyboardPage("?123", symbolRows(), pickerLabel = UiText.res(R.string.keyboard_symbols)),
+            GuestKeyboardPage("?123", symbolRows(), pickerLabel = UiText.res(FrontendR.string.kairo_keyboard_symbols)),
             GuestKeyboardPage("MSX", msxRows())
         ),
         modifiers = setOf(SHIFT, CTRL, GRAPH, CODE, CAPS),

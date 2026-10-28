@@ -5,29 +5,19 @@
          %4$s the bundled system software, C-BIOS; %5$s its GitHub repository. -->
     <string name="credits">%1$s uses %2$s\'s %3$s emulation and the %4$s system software. Source and provenance: github.com/%5$s.</string>
     <string name="library_empty">Choose a games folder to find cartridge, disk and tape images and the ZIP and 7z archives holding them</string>
-    <string name="library_expired">Folder access expired. Select the games folder again.</string>
-    <string name="folder_title">Choose a games folder</string>
     <!-- %1$s is the machine's name, MSX; %2$s the app's name, KairoMSX. -->
     <string name="folder_description">Select the folder containing your %1$s games. %2$s will scan its cartridge, disk and tape images and the ZIP and 7z archives holding them.</string>
-    <string name="folder_button">Choose games folder…</string>
-    <string name="saves_group">SAVE STATES</string>
 
     <string name="joystick_help">The joystick in port A.</string>
     <string name="joystick_trigger_a">Trigger A</string>
     <string name="joystick_trigger_b">Trigger B</string>
-    <string name="keyboard_symbols">Symbols</string>
 
-    <string name="cartridge">Cartridge</string>
-    <string name="floppy_disk">Floppy disk</string>
-    <string name="cassette">Cassette</string>
     <string name="media">Media</string>
     <string name="cartridge_a">Cartridge A</string>
     <string name="cartridge_b">Cartridge B</string>
     <string name="disk_a">Disk A</string>
     <string name="disk_b">Disk B</string>
 
-    <!-- A firmware file's description: %1$s is its file name; %2$s what it does. -->
-    <string name="firmware_part">%1$s · %2$s</string>
     <!-- %1$s is MSX-DOS2. -->
     <string name="dos2_system_file">%1$s system file</string>
     <string name="dos2_note">For disks that start from %1$s but do not include it</string>
@@ -39,14 +29,8 @@
     <string name="disk_full">The disk has no room for %1$s</string>
 
 
-    <string name="option_machine">Machine</string>
     <string name="machine_automatic">Automatic</string>
     <!-- A built-in machine: %1$s is its MSX generation, such as MSX2+; %2$s its system software, C-BIOS. -->
     <string name="machine_japanese">%1$s Japanese (%2$s)</string>
     <string name="machine_european">%1$s European (%2$s)</string>
-    <string name="option_memory">Memory</string>
-    <!-- %1$d is a size in kilobytes. -->
-    <string name="memory_kb">%1$d KB</string>
-    <!-- %1$d is a size in megabytes. -->
-    <string name="memory_mb">%1$d MB</string>
 </resources>

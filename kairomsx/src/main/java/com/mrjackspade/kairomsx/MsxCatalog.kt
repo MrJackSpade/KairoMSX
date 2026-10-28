@@ -33,7 +33,7 @@ object MsxCatalog : LayeredGameCatalog.Schema {
      * machines, which disks and tapes need, start with the player's own system ROMs
      * (assets/system_roms.json).
      */
-    val machine = MachineOption("machine", UiText.res(R.string.option_machine), listOf(
+    val machine = MachineOption("machine", UiText.res(FrontendR.string.kairo_option_machine), listOf(
         ChoiceOption(AUTOMATIC, UiText.res(R.string.machine_automatic)),
         ChoiceOption("Panasonic_FS-A1WSX", "Panasonic FS-A1WSX (MSX2+)"),
         ChoiceOption("Panasonic_FS-A1GT", "Panasonic FS-A1GT (turbo R)"),
@@ -48,8 +48,8 @@ object MsxCatalog : LayeredGameCatalog.Schema {
      * mapper; MSX1 machines and the turbo R keep their own. 512 KB, the largest internal mapper of
      * the era's machines, is the default.
      */
-    val memory = MachineOption("memory", UiText.res(R.string.option_memory), listOf(64, 128, 256, 512, 1024, 2048, 4096).map { kb ->
-        ChoiceOption(kb.toString(), if (kb < 1024) UiText.res(R.string.memory_kb, kb) else UiText.res(R.string.memory_mb, kb / 1024))
+    val memory = MachineOption("memory", UiText.res(FrontendR.string.kairo_option_memory), listOf(64, 128, 256, 512, 1024, 2048, 4096).map { kb ->
+        ChoiceOption(kb.toString(), if (kb < 1024) UiText.res(FrontendR.string.kairo_memory_kb, kb) else UiText.res(FrontendR.string.kairo_memory_mb, kb / 1024))
     }, "512", numeric = true)
     /**
      * Whether a disk starts from MSX-DOS2 (MsxDos2): its working copy gets the player's MSX-DOS2

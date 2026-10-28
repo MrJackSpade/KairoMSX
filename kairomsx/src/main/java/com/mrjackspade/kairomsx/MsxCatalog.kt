@@ -15,9 +15,7 @@ import org.json.JSONArray
  */
 object MsxCatalog : LayeredGameCatalog.Schema {
     override val platform = "msx"
-    override val updateUrl = "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/core-v3.json"
-    override val metadataUrl = "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/core-v3.meta.json"
-    override val coreVersion = 3
+    override val catalogUrl = "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/"
     override val selfHostedArt = "/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/"
     override val contentId = Regex("sha256-(?:rom|fd|tape)-v1:[0-9a-f]{64}")
     override val mediaExtensions =

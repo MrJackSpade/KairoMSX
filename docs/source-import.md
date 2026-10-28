@@ -46,7 +46,7 @@ Each archive was copied whole except for files no KairoMSX build uses:
 
 ## Local changes
 
-`tools/local_patches.py` makes these changes to the snapshots and checks they are in place (`--check`). Each replaces text that occurs exactly once.
+`shared/tools/local_patches.py .` makes these changes, listed in `tools/patches.py`, to the snapshots, and checks they are in place (`--check`, in CI for every app). Each replaces text that occurs exactly once.
 
 | Change | File | What and why |
 | --- | --- | --- |

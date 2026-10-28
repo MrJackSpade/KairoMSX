@@ -33,6 +33,10 @@
     <string name="dos2_note">For disks that start from %1$s but do not include it</string>
     <!-- %1$s is MSX-DOS2; %2$s and %3$s its system files, MSXDOS2.SYS and COMMAND2.COM. -->
     <string name="dos2_missing">This disk starts from %1$s: import %2$s and %3$s on the BIOS page</string>
+    <string name="disk_not_fat12">Not a FAT12 disk image</string>
+    <!-- %1$s is the file being added, such as MSXDOS2.SYS. -->
+    <string name="disk_root_full">The disk\'s root folder has no room for %1$s</string>
+    <string name="disk_full">The disk has no room for %1$s</string>
 
     <string name="preparing_emulator">Preparing the emulator</string>
     <string name="state_error_io">the emulator could not read or write the state</string>

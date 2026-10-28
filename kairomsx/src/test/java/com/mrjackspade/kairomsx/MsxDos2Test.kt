@@ -1,8 +1,8 @@
 package com.mrjackspade.kairomsx
 
+import com.mrjackspade.kairo.frontend.UiText
 import org.junit.Assert.assertArrayEquals
 import org.junit.Assert.assertEquals
-import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue
 import org.junit.Rule
 import org.junit.Test
@@ -12,8 +12,8 @@ import java.io.File
 class MsxDos2Test {
     @get:Rule val folder = TemporaryFolder()
 
-    /** The message a start without the player's MSX-DOS2 files fails with. */
-    private val missing = "import MSXDOS2.SYS and COMMAND2.COM"
+    /** A failure as its resource and arguments, which a test compares without a Context. */
+    private val text: (UiText) -> String = { (it as UiText.Res).let { res -> "${res.id} ${res.args}" } }
 
     /** A blank 720 KB MSX disk: 2 sectors a cluster, 2 FATs of 3 sectors, 112 root entries. */
     private fun blankDisk(): ByteArray {
@@ -62,7 +62,7 @@ class MsxDos2Test {
         val image = disk(blankDisk())
         val system = copy("MSXDOS2.SYS", 4480)
         val command = copy("COMMAND2.COM", 15000)
-        MsxDos2.install(image, missing) { mapOf(MsxDos2.SYSTEM to system, MsxDos2.COMMAND to command)[it] }
+        MsxDos2.install(image, text) { mapOf(MsxDos2.SYSTEM to system, MsxDos2.COMMAND to command)[it] }
         val result = image.readBytes()
         assertArrayEquals(system.readBytes(), read(result, MsxDos2.SYSTEM))
         assertArrayEquals(command.readBytes(), read(result, MsxDos2.COMMAND))
@@ -80,12 +80,12 @@ class MsxDos2Test {
         val image = disk(blankDisk())
         val system = copy("MSXDOS2.SYS", 4480)
         val command = copy("COMMAND2.COM", 15000)
-        MsxDos2.install(image, missing) { mapOf(MsxDos2.SYSTEM to system, MsxDos2.COMMAND to command)[it] }
+        MsxDos2.install(image, text) { mapOf(MsxDos2.SYSTEM to system, MsxDos2.COMMAND to command)[it] }
         val withFiles = image.readBytes()
         // Back to a DOS1 boot sector: the files stay, and none is asked for again.
         withFiles[0x20] = 0
         image.writeBytes(withFiles)
-        MsxDos2.install(image, missing) { error("asked for $it") }
+        MsxDos2.install(image, text) { error("asked for $it") }
         assertTrue(MsxDos2.dos2Format(image.readBytes()))
     }
 
@@ -94,9 +94,9 @@ class MsxDos2Test {
         val image = disk(blankDisk())
         val system = copy("MSXDOS2.SYS", 4480)
         val command = copy("COMMAND2.COM", 15000)
-        MsxDos2.install(image, missing) { mapOf(MsxDos2.SYSTEM to system, MsxDos2.COMMAND to command)[it] }
+        MsxDos2.install(image, text) { mapOf(MsxDos2.SYSTEM to system, MsxDos2.COMMAND to command)[it] }
         val ready = image.readBytes()
-        MsxDos2.install(image, missing) { error("asked for $it") }
+        MsxDos2.install(image, text) { error("asked for $it") }
         assertArrayEquals(ready, image.readBytes())
     }
 
@@ -104,8 +104,8 @@ class MsxDos2Test {
     fun aMissingFileFailsTheStartAndLeavesTheDiskAlone() {
         val blank = blankDisk()
         val image = disk(blank)
-        val message = runCatching { MsxDos2.install(image, missing) { null } }.exceptionOrNull()?.message.orEmpty()
-        assertEquals(missing, message)
+        val message = runCatching { MsxDos2.install(image, text) { null } }.exceptionOrNull()?.message.orEmpty()
+        assertEquals(text(UiText.res(R.string.dos2_missing, "MSX-DOS2", MsxDos2.SYSTEM, MsxDos2.COMMAND)), message)
         assertArrayEquals(blank, image.readBytes())
     }
 
@@ -115,15 +115,15 @@ class MsxDos2Test {
         // Every cluster in use.
         for (fat in 0 until 2) for (at in 512 + fat * 1536 + 3 until 512 + fat * 1536 + 1536) full[at] = 0xFF.toByte()
         val image = disk(full)
-        val result = runCatching { MsxDos2.install(image, missing) { copy(it, 4480) } }
-        assertFalse(result.isSuccess)
+        val result = runCatching { MsxDos2.install(image, text) { copy(it, 4480) } }
+        assertEquals(text(UiText.res(R.string.disk_full, MsxDos2.SYSTEM)), result.exceptionOrNull()?.message)
         assertArrayEquals(full, image.readBytes())
     }
 
     @Test
     fun aDiskWithoutAFileSystemIsRefused() {
         val image = disk(ByteArray(1440 * 512))
-        val message = runCatching { MsxDos2.install(image, missing) { null } }.exceptionOrNull()?.message.orEmpty()
-        assertEquals("Not a FAT12 disk image", message)
+        val message = runCatching { MsxDos2.install(image, text) { null } }.exceptionOrNull()?.message.orEmpty()
+        assertEquals(text(UiText.res(R.string.disk_not_fat12)), message)
     }
 }

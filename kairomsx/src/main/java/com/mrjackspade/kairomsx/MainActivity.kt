@@ -12,6 +12,7 @@ import com.mrjackspade.kairo.frontend.MachineActivity
 import com.mrjackspade.kairo.frontend.MachineFirstRun
 import com.mrjackspade.kairo.frontend.NativeMachine
 import com.mrjackspade.kairo.frontend.UiText
+import com.mrjackspade.kairo.frontend.text
 
 import org.json.JSONObject
 import java.io.File
@@ -119,8 +120,7 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
                 else -> MsxCatalog.DISK_MACHINE
             }
         }
-        if (dos2) MsxDos2.install(File(checkNotNull(images[2])),
-            getString(R.string.dos2_missing, DOS2, MsxDos2.SYSTEM, MsxDos2.COMMAND)) { name ->
+        if (dos2) MsxDos2.install(File(checkNotNull(images[2])), { text(it) }) { name ->
             msxDos2.file(msxDos2.parts.single { it.name == name }).takeIf { it.isFile }
         }
         check(bridge.start("", home.absolutePath, images, options)) { "Another machine is still running" }

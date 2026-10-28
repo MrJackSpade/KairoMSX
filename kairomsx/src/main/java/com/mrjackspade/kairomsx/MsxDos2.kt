@@ -1,5 +1,6 @@
 package com.mrjackspade.kairomsx
 
+import com.mrjackspade.kairo.frontend.UiText
 import java.io.File
 import java.nio.file.Files
 import java.nio.file.StandardCopyOption
@@ -26,15 +27,16 @@ object MsxDos2 {
 
     /**
      * Readies [image] to start MSX-DOS2. [copy] gives the player's copy of a file the disk lacks,
-     * or null when it was never imported, which fails the start with [missing]: what to import.
+     * or null when it was never imported, which fails the start with what to import. [text] puts
+     * a failure in the player's language.
      */
-    fun install(image: File, missing: String, copy: (String) -> File?) {
+    fun install(image: File, text: (UiText) -> String, copy: (String) -> File?) {
         val bytes = image.readBytes()
-        val disk = Fat12(bytes)
+        val disk = Fat12(bytes, text)
         var changed = false
         for (name in listOf(SYSTEM, COMMAND)) {
             if (disk.has(name)) continue
-            val source = copy(name) ?: error(missing)
+            val source = copy(name) ?: error(text(UiText.res(R.string.dos2_missing, "MSX-DOS2", SYSTEM, COMMAND)))
             disk.add(name, source.readBytes())
             changed = true
         }
@@ -53,8 +55,11 @@ object MsxDos2 {
         String(image, 0x20, 6, Charsets.ISO_8859_1) == "VOL_ID"
 }
 
-/** The root folder and allocation table of a FAT12 sector image, changed in [image] itself. */
-internal class Fat12(private val image: ByteArray) {
+/**
+ * The root folder and allocation table of a FAT12 sector image, changed in [image] itself. [text]
+ * puts a failure the player sees in their language.
+ */
+internal class Fat12(private val image: ByteArray, private val text: (UiText) -> String) {
     private fun u8(at: Int) = image[at].toInt() and 0xff
     private fun u16(at: Int) = u8(at) or (u8(at + 1) shl 8)
 
@@ -68,7 +73,7 @@ internal class Fat12(private val image: ByteArray) {
 
     init {
         require(sectorBytes == 512 && clusterSectors in setOf(1, 2, 4, 8) && fats in 1..2 && rootEntries in 1..512 &&
-            fatSectors > 0 && totalSectors.toLong() * sectorBytes <= image.size) { "Not a FAT12 disk image" }
+            fatSectors > 0 && totalSectors.toLong() * sectorBytes <= image.size) { text(UiText.res(R.string.disk_not_fat12)) }
     }
 
     private val fatAt = reserved * sectorBytes
@@ -116,10 +121,10 @@ internal class Fat12(private val image: ByteArray) {
     fun add(name: String, body: ByteArray) {
         require(body.isNotEmpty()) { "$name is empty" }
         val slot = (0 until rootEntries).firstOrNull { u8(entry(it)) == 0 || u8(entry(it)) == 0xE5 }
-            ?: error("The disk's root folder has no room for $name")
+            ?: error(text(UiText.res(R.string.disk_root_full, name)))
         val needed = (body.size + clusterBytes - 1) / clusterBytes
         val free = (2 until clusters).filter { next(it) == 0 }.take(needed)
-        check(free.size == needed) { "The disk has no room for $name" }
+        check(free.size == needed) { text(UiText.res(R.string.disk_full, name)) }
         free.forEachIndexed { index, cluster ->
             link(cluster, free.getOrElse(index + 1) { 0xfff })
             val start = index * clusterBytes

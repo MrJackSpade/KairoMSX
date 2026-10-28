@@ -4,82 +4,82 @@
     <!-- %1$s is the app's name, KairoMSX; %2$s the emulator it runs, openMSX; %3$s the machine, MSX;
          %4$s the bundled system software, C-BIOS; %5$s its GitHub repository. -->
     <!-- EN: %1$s uses %2$s\'s %3$s emulation and the %4$s system software. Source and provenance: github.com/%5$s. -->
-    <string name="credits">%1$s uses %2$s\'s %3$s emulation and the %4$s system software. Source and provenance: github.com/%5$s.</string>
+    <string name="credits">%1$s은(는) %2$s의 %3$s 에뮬레이션과 %4$s 시스템 소프트웨어를 사용합니다. 소스 및 출처: github.com/%5$s</string>
     <!-- EN: Choose a games folder to find cartridge, disk and tape images and the ZIP and 7z archives holding them -->
-    <string name="library_empty">Choose a games folder to find cartridge, disk and tape images and the ZIP and 7z archives holding them</string>
+    <string name="library_empty">카트리지, 디스크, 테이프 이미지와 이를 담은 ZIP 및 7z 압축 파일을 찾으려면 게임 폴더를 선택하세요</string>
     <!-- EN: Folder access expired. Select the games folder again. -->
-    <string name="library_expired">Folder access expired. Select the games folder again.</string>
+    <string name="library_expired">폴더 접근 권한이 만료되었습니다. 게임 폴더를 다시 선택하세요.</string>
     <!-- EN: Choose a games folder -->
-    <string name="folder_title">Choose a games folder</string>
+    <string name="folder_title">게임 폴더 선택</string>
     <!-- %1$s is the machine's name, MSX; %2$s the app's name, KairoMSX. -->
     <!-- EN: Select the folder containing your %1$s games. %2$s will scan its cartridge, disk and tape images and the ZIP and 7z archives holding them. -->
-    <string name="folder_description">Select the folder containing your %1$s games. %2$s will scan its cartridge, disk and tape images and the ZIP and 7z archives holding them.</string>
+    <string name="folder_description">%1$s 게임이 들어 있는 폴더를 선택하세요. %2$s이(가) 카트리지, 디스크, 테이프 이미지와 이를 담은 ZIP 및 7z 압축 파일을 스캔합니다.</string>
     <!-- EN: Choose games folder… -->
-    <string name="folder_button">Choose games folder…</string>
+    <string name="folder_button">게임 폴더 선택…</string>
     <!-- EN: SAVE STATES -->
-    <string name="saves_group">SAVE STATES</string>
+    <string name="saves_group">저장된 상태</string>
     <!-- EN: The joystick in port A. -->
-    <string name="joystick_help">The joystick in port A.</string>
+    <string name="joystick_help">포트 A의 조이스틱입니다.</string>
     <!-- EN: Trigger A -->
-    <string name="joystick_trigger_a">Trigger A</string>
+    <string name="joystick_trigger_a">트리거 A</string>
     <!-- EN: Trigger B -->
-    <string name="joystick_trigger_b">Trigger B</string>
+    <string name="joystick_trigger_b">트리거 B</string>
     <!-- EN: Symbols -->
-    <string name="keyboard_symbols">Symbols</string>
+    <string name="keyboard_symbols">기호</string>
     <!-- EN: Cartridge -->
-    <string name="cartridge">Cartridge</string>
+    <string name="cartridge">카트리지</string>
     <!-- EN: Floppy disk -->
-    <string name="floppy_disk">Floppy disk</string>
+    <string name="floppy_disk">플로피 디스크</string>
     <!-- EN: Cassette -->
-    <string name="cassette">Cassette</string>
+    <string name="cassette">카세트</string>
     <!-- EN: Media -->
-    <string name="media">Media</string>
+    <string name="media">미디어</string>
     <!-- EN: Cartridge A -->
-    <string name="cartridge_a">Cartridge A</string>
+    <string name="cartridge_a">카트리지 A</string>
     <!-- EN: Cartridge B -->
-    <string name="cartridge_b">Cartridge B</string>
+    <string name="cartridge_b">카트리지 B</string>
     <!-- EN: Disk A -->
-    <string name="disk_a">Disk A</string>
+    <string name="disk_a">디스크 A</string>
     <!-- EN: Disk B -->
-    <string name="disk_b">Disk B</string>
+    <string name="disk_b">디스크 B</string>
     <!-- A firmware file's description: %1$s is its file name; %2$s what it does. -->
     <!-- EN: %1$s · %2$s -->
     <string name="firmware_part">%1$s · %2$s</string>
     <!-- %1$s is MSX-DOS2. -->
     <!-- EN: %1$s system file -->
-    <string name="dos2_system_file">%1$s system file</string>
+    <string name="dos2_system_file">%1$s 시스템 파일</string>
     <!-- EN: For disks that start from %1$s but do not include it -->
-    <string name="dos2_note">For disks that start from %1$s but do not include it</string>
+    <string name="dos2_note">%1$s(으)로 부팅하지만 이를 포함하지 않는 디스크용</string>
     <!-- %1$s is MSX-DOS2; %2$s and %3$s its system files, MSXDOS2.SYS and COMMAND2.COM. -->
     <!-- EN: This disk starts from %1$s: import %2$s and %3$s on the BIOS page -->
-    <string name="dos2_missing">This disk starts from %1$s: import %2$s and %3$s on the BIOS page</string>
+    <string name="dos2_missing">이 디스크는 %1$s(으)로 부팅합니다. BIOS 페이지에서 %2$s 및 %3$s을(를) 가져오세요</string>
     <!-- EN: Not a FAT12 disk image -->
-    <string name="disk_not_fat12">Not a FAT12 disk image</string>
+    <string name="disk_not_fat12">FAT12 디스크 이미지가 아닙니다</string>
     <!-- %1$s is the file being added, such as MSXDOS2.SYS. -->
     <!-- EN: The disk\'s root folder has no room for %1$s -->
-    <string name="disk_root_full">The disk\'s root folder has no room for %1$s</string>
+    <string name="disk_root_full">디스크의 루트 폴더에 %1$s을(를) 넣을 공간이 없습니다</string>
     <!-- EN: The disk has no room for %1$s -->
-    <string name="disk_full">The disk has no room for %1$s</string>
+    <string name="disk_full">디스크에 %1$s을(를) 넣을 공간이 없습니다</string>
     <!-- EN: Preparing the emulator -->
-    <string name="preparing_emulator">Preparing the emulator</string>
+    <string name="preparing_emulator">에뮬레이터 준비 중</string>
     <!-- EN: the emulator could not read or write the state -->
-    <string name="state_error_io">the emulator could not read or write the state</string>
+    <string name="state_error_io">에뮬레이터가 상태를 읽거나 쓸 수 없음</string>
     <!-- EN: the emulator refused the image -->
-    <string name="state_error_refused">the emulator refused the image</string>
+    <string name="state_error_refused">에뮬레이터가 이미지를 거부함</string>
     <!-- %1$d is the emulator's error code. -->
     <!-- EN: code %1$d -->
-    <string name="state_error_code">code %1$d</string>
+    <string name="state_error_code">코드 %1$d</string>
     <!-- EN: Machine -->
-    <string name="option_machine">Machine</string>
+    <string name="option_machine">머신</string>
     <!-- EN: Automatic -->
-    <string name="machine_automatic">Automatic</string>
+    <string name="machine_automatic">자동</string>
     <!-- A built-in machine: %1$s is its MSX generation, such as MSX2+; %2$s its system software, C-BIOS. -->
     <!-- EN: %1$s Japanese (%2$s) -->
-    <string name="machine_japanese">%1$s Japanese (%2$s)</string>
+    <string name="machine_japanese">%1$s 일본판(%2$s)</string>
     <!-- EN: %1$s European (%2$s) -->
-    <string name="machine_european">%1$s European (%2$s)</string>
+    <string name="machine_european">%1$s 유럽판(%2$s)</string>
     <!-- EN: Memory -->
-    <string name="option_memory">Memory</string>
+    <string name="option_memory">메모리</string>
     <!-- %1$d is a size in kilobytes. -->
     <!-- EN: %1$d KB -->
     <string name="memory_kb">%1$d KB</string>

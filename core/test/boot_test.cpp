@@ -278,6 +278,10 @@ int main(int argc, char **argv) {
     const double expected = boot.seconds * machine->sample_rate();
     if (boot.audio_frames < expected * 0.95 || boot.audio_frames > expected * 1.05)
         return fail("audio does not follow guest time");
+    // Nothing loads from a disk or tape here, so the host would not run it flat out.
+    std::printf("loading after the boot: %s\n", machine->loading() ? "yes" : "no");
+    if (config.media[kairomsx::kDiskA].empty() && config.media[kairomsx::kCassette].empty() && machine->loading())
+        return fail("loading without a disk or tape");
     std::printf("cartridge A: %s\n", machine->media_path(kairomsx::kCartA).c_str());
     if (!probe.empty()) {
         std::string result;

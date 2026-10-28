@@ -74,6 +74,9 @@ public:
     bool command(const std::string &command, std::string &result);
 
     void reset();
+    // Whether a disk drive or the tape is loading (openMSX's LoadingIndicators, with its
+    // fullspeedwhenloading on), which the host runs flat out.
+    bool loading();
     // The lock keys on, as the machine's lamps show them: bit 0 Caps, bit 1 Kana (the Code lamp of
     // an international MSX).
     int locks();

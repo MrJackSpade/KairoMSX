@@ -21,11 +21,13 @@
 #include "MSXEventDistributor.hh"
 #include "MSXException.hh"
 #include "MSXMixer.hh"
+#include "GlobalSettings.hh"
 #include "LedStatus.hh"
 #include "MSXMotherBoard.hh"
 #include "Pluggable.hh"
 #include "PluggingController.hh"
 #include "Reactor.hh"
+#include "ThrottleManager.hh"
 #include "RenderSettings.hh"
 #include "TclObject.hh"
 #include "Thread.hh"
@@ -222,6 +224,9 @@ std::unique_ptr<MsxMachine> MsxMachine::create(const Config &config, std::string
             args.push_back("-command");
             args.push_back("set z80_freq_locked false; set z80_freq " + std::to_string(config.z80_hz));
         }
+        // A loading drive or tape unthrottles openMSX, which loading() reports to the host.
+        args.push_back("-command");
+        args.push_back("set fullspeedwhenloading on");
         // The host shows no reverse bar, so openMSX keeps no reverse history.
         args.push_back("-command");
         args.push_back("set auto_enable_reverse off");
@@ -338,6 +343,10 @@ bool MsxMachine::command(const std::string &command, std::string &result) {
 }
 
 void MsxMachine::reset() { impl_->execute("reset"); }
+
+// The throttle stays on (KairoMSX's RealTime paces the frames), so openMSX unthrottles only while a
+// device loads (ThrottleManager::isThrottled).
+bool MsxMachine::loading() { return !impl_->reactor->getGlobalSettings().getThrottleManager().isThrottled(); }
 
 int MsxMachine::locks() {
     const LedStatus &leds = impl_->board().getLedStatus();

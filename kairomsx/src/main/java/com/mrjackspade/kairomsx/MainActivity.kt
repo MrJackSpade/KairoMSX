@@ -11,6 +11,7 @@ import com.mrjackspade.kairo.frontend.LibraryStrings
 import com.mrjackspade.kairo.frontend.MachineActivity
 import com.mrjackspade.kairo.frontend.MachineFirstRun
 import com.mrjackspade.kairo.frontend.NativeMachine
+import com.mrjackspade.kairo.frontend.ShippedAssets
 import com.mrjackspade.kairo.frontend.UiText
 import com.mrjackspade.kairo.frontend.text
 
@@ -134,28 +135,9 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
      */
     private fun prepareOpenmsx(progress: (String) -> Unit): File {
         val home = openmsxHome
-        val system = File(home, "system")
-        val stamp = assets.open("openmsx/STAMP").bufferedReader().use { it.readText() }
-        if (File(system, "STAMP").takeIf { it.isFile }?.readText() != stamp) {
-            progress(getString(R.string.preparing_emulator))
-            val copy = File(home, "system.new")
-            copy.deleteRecursively()
-            copyAsset("openmsx", copy)
-            system.deleteRecursively()
-            check(copy.renameTo(system)) { "Could not install the emulator's data in $system" }
-        }
+        ShippedAssets.install(this, "openmsx", File(home, "system"), progress)
         File(home, "user").mkdirs()
         return home
-    }
-
-    private fun copyAsset(path: String, dest: File) {
-        val children = assets.list(path) ?: error("Missing asset $path")
-        if (children.isEmpty()) {
-            assets.open(path).use { input -> dest.outputStream().use { input.copyTo(it) } }
-        } else {
-            check(dest.mkdirs() || dest.isDirectory) { "Could not create $dest" }
-            for (child in children) copyAsset("$path/$child", File(dest, child))
-        }
     }
 
     private companion object {

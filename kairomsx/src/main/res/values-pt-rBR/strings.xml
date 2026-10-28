@@ -60,8 +60,6 @@
     <string name="disk_root_full">A pasta raiz do disco não tem espaço para %1$s</string>
     <!-- EN: The disk has no room for %1$s -->
     <string name="disk_full">O disco não tem espaço para %1$s</string>
-    <!-- EN: Preparing the emulator -->
-    <string name="preparing_emulator">Preparando o emulador</string>
     <!-- EN: Machine -->
     <string name="option_machine">Máquina</string>
     <!-- EN: Automatic -->

@@ -60,8 +60,6 @@
     <string name="disk_root_full">디스크의 루트 폴더에 %1$s을(를) 넣을 공간이 없습니다</string>
     <!-- EN: The disk has no room for %1$s -->
     <string name="disk_full">디스크에 %1$s을(를) 넣을 공간이 없습니다</string>
-    <!-- EN: Preparing the emulator -->
-    <string name="preparing_emulator">에뮬레이터 준비 중</string>
     <!-- EN: Machine -->
     <string name="option_machine">머신</string>
     <!-- EN: Automatic -->

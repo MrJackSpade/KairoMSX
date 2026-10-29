@@ -1,0 +1,608 @@
+{
+  "schemaVersion": 1,
+  "games": {
+    "msx2:123952": {
+      "ja": "学園戦記",
+      "source": "vndb:v15124"
+    },
+    "msx2:124298": {
+      "ja": "めぞん一刻 完結編 ～さよなら、そして…～",
+      "source": "vndb:v7478"
+    },
+    "msx2:124301": {
+      "ja": "めぞん一刻 ～想いでのフォトグラフ～",
+      "source": "vndb:v890"
+    },
+    "msx2:124472": {
+      "ja": "イシターの復活",
+      "source": "launchbox:124472"
+    },
+    "msx2:124874": {
+      "ja": "うる星やつら 〜恋のサバイバル・バースディ〜",
+      "source": "vndb:v4536"
+    },
+    "msx2:124886": {
+      "ja": "山村美紗サスペンス 京都龍の寺殺人事件",
+      "source": "vndb:v25149"
+    },
+    "msx2:141117": {
+      "ja": "ファイアーホークテクザー２",
+      "source": "launchbox:141117"
+    },
+    "msx2:151098": {
+      "ja": "あかんべドラゴン",
+      "source": "launchbox:151098"
+    },
+    "msx2:156308": {
+      "ja": "ＢＵＲＡＩ上巻",
+      "source": "launchbox:156308"
+    },
+    "msx2:156345": {
+      "ja": null,
+      "source": "launchbox:156345",
+      "rejected": "サイキックウォー: LaunchBox's name is its sequel's (Psychic War)"
+    },
+    "msx2:156346": {
+      "ja": "電脳学園シナリオ１",
+      "source": "launchbox:156346"
+    },
+    "msx2:156347": {
+      "ja": "電脳学園２ ～ハイウェイバスター！！～",
+      "source": "vndb:v9376"
+    },
+    "msx2:156349": {
+      "ja": "ドラゴンナイト",
+      "source": "vndb:v2385"
+    },
+    "msx2:156350": {
+      "ja": "ドラゴンナイトII",
+      "source": "vndb:v2376"
+    },
+    "msx2:156351": {
+      "ja": "ドラゴンクイズ",
+      "source": "launchbox:156351"
+    },
+    "msx2:156352": {
+      "ja": "エメラルドドラゴン",
+      "source": "launchbox:156352"
+    },
+    "msx2:156368": {
+      "ja": "クリムゾンII",
+      "source": "launchbox:156368"
+    },
+    "msx2:156369": {
+      "ja": "カオスエンジェルス",
+      "source": "launchbox:156369"
+    },
+    "msx2:167591": {
+      "ja": "バスタード",
+      "source": "launchbox:167591"
+    },
+    "msx2:168082": {
+      "ja": "魔神宮",
+      "source": "launchbox:168082"
+    },
+    "msx2:168599": {
+      "ja": null,
+      "source": "launchbox:168599",
+      "rejected": "タコ　と　イカ -: LaunchBox's name carries stray spacing and a trailing dash"
+    },
+    "msx2:179788": {
+      "ja": "ガルフォース Eternal Story",
+      "source": "vndb:v4555"
+    },
+    "msx2:179792": {
+      "ja": "サイオブレード",
+      "source": "vndb:v7554"
+    },
+    "msx2:182122": {
+      "ja": "セイレーン",
+      "source": "vndb:v9447"
+    },
+    "msx2:186752": {
+      "ja": "第４のユニット",
+      "source": "vndb:v9112"
+    },
+    "msx2:186753": {
+      "ja": "第４のユニット２",
+      "source": "vndb:v9113"
+    },
+    "msx2:186754": {
+      "ja": "コスモスクラブ",
+      "source": "vndb:v8829"
+    },
+    "msx2:186757": {
+      "ja": "デュアルターゲット -第４のユニット３-",
+      "source": "vndb:v9114"
+    },
+    "msx2:186759": {
+      "ja": "ジーザス",
+      "source": "vndb:v877"
+    },
+    "msx2:186768": {
+      "ja": "アンジェラス 〜悪魔の福音〜",
+      "source": "vndb:v4518"
+    },
+    "msx2:186769": {
+      "ja": "あーくしゅ ～陽炎の時代を越えて～",
+      "source": "vndb:v9373"
+    },
+    "msx2:187758": {
+      "ja": "暗黒神話 ヤマトタケル伝説",
+      "source": "vndb:v2645"
+    },
+    "msx2:188834": {
+      "ja": "バーディーワールド",
+      "source": "vndb:v18136"
+    },
+    "msx2:188846": {
+      "ja": "キャルツー",
+      "source": "vndb:v4835"
+    },
+    "msx2:188847": {
+      "ja": "きゃんきゃんバニー スピリッツ",
+      "source": "vndb:v6480"
+    },
+    "msx2:188848": {
+      "ja": "きゃんきゃんバニー スペリオール",
+      "source": "vndb:v6479"
+    },
+    "msx2:188850": {
+      "ja": "カサブランカに愛を 殺人者は時空を越えて",
+      "source": "vndb:v20804"
+    },
+    "msx2:188854": {
+      "ja": "CRESCENT MOON がぁる",
+      "source": "vndb:v5457"
+    },
+    "msx2:188899": {
+      "ja": "ドラゴンアイズ",
+      "source": "vndb:v8683"
+    },
+    "msx2:188909": {
+      "ja": "舞☆MAI ふにふにぱぴゅーんといわせちゃる！",
+      "source": "vndb:v18076"
+    },
+    "msx2:189010": {
+      "ja": "ガウディ ～バルセロナの風～",
+      "source": "vndb:v9391"
+    },
+    "msx2:189017": {
+      "ja": "グラムキャッツ",
+      "source": "vndb:v8888"
+    },
+    "msx2:189019": {
+      "ja": "はっちゃけあやよさん",
+      "source": "vndb:v8892"
+    },
+    "msx2:189021": {
+      "ja": "原宿AfterDARK",
+      "source": "vndb:v9432"
+    },
+    "msx2:189032": {
+      "ja": "イルミナ！",
+      "source": "vndb:v18232"
+    },
+    "msx2:189033": {
+      "ja": "Intruder -桜屋敷の探索-",
+      "source": "vndb:v7370"
+    },
+    "msx2:189040": {
+      "ja": "ジョーカーII",
+      "source": "vndb:v8738"
+    },
+    "msx2:189042": {
+      "ja": "神の聖都",
+      "source": "vndb:v8927"
+    },
+    "msx2:189043": {
+      "ja": "琥珀色の遺言",
+      "source": "vndb:v9437"
+    },
+    "msx2:189044": {
+      "ja": "殺しのドレス２",
+      "source": "vndb:v8935"
+    },
+    "msx2:189045": {
+      "ja": "口説き方教えます",
+      "source": "vndb:v8938"
+    },
+    "msx2:189047": {
+      "ja": "孔雀王",
+      "source": "vndb:v2648"
+    },
+    "msx2:189057": {
+      "ja": "魔導師ラルバ",
+      "source": "vndb:v17937"
+    },
+    "msx2:189059": {
+      "ja": "魔界復活",
+      "source": "vndb:v9466"
+    },
+    "msx2:189065": {
+      "ja": "日曜日に宇宙人が…？",
+      "source": "vndb:v14540"
+    },
+    "msx2:189066": {
+      "ja": "ナイキ",
+      "source": "vndb:v8984"
+    },
+    "msx2:189068": {
+      "ja": "怨霊戦記",
+      "source": "vndb:v14542"
+    },
+    "msx2:189072": {
+      "ja": "ぴんきぃぽんきぃ１ びゅうてぃふるどりぃむ",
+      "source": "vndb:v9009"
+    },
+    "msx2:189073": {
+      "ja": "ぴんきぃぽんきぃ２ とわいらいとげぇむず",
+      "source": "vndb:v9010"
+    },
+    "msx2:189074": {
+      "ja": "ぴんきぃぽんきぃ３ ばとるらばぁ",
+      "source": "vndb:v9011"
+    },
+    "msx2:189094": {
+      "ja": "星の砂物語",
+      "source": "vndb:v8720"
+    },
+    "msx2:189097": {
+      "ja": "帰ってきた探偵団Ｘ",
+      "source": "vndb:v8924"
+    },
+    "msx2:189099": {
+      "ja": "あぶない天狗伝説",
+      "source": "vndb:v8549"
+    },
+    "msx2:189103": {
+      "ja": "闘神都市",
+      "source": "vndb:v888"
+    },
+    "msx2:189107": {
+      "ja": "うろつき童子",
+      "source": "vndb:v4420"
+    },
+    "msx2:189109": {
+      "ja": "ホワッツマイケル",
+      "source": "vndb:v9402"
+    },
+    "msx2:189110": {
+      "ja": "リトルプリンセス",
+      "source": "vndb:v7361"
+    },
+    "msx2:194538": {
+      "ja": "Rance -光をもとめて-",
+      "source": "vndb:v1414"
+    },
+    "msx2:194670": {
+      "ja": "キャル",
+      "source": "vndb:v8589"
+    },
+    "msx2:200459": {
+      "ja": null,
+      "source": "launchbox:200459",
+      "rejected": "アゴボード: LaunchBox's name is garbled"
+    },
+    "msx2:205453": {
+      "ja": "アルゴウォーズ",
+      "source": "launchbox:205453"
+    },
+    "msx2:205521": {
+      "ja": "はっちゃけあやよさんIIいけないホリディ",
+      "source": "launchbox:205521"
+    },
+    "msx2:205646": {
+      "ja": "チャンピオンシップキノコ射的ゲーム",
+      "source": "launchbox:205646"
+    },
+    "msx2:205649": {
+      "ja": "シティファイト",
+      "source": "launchbox:205649"
+    },
+    "msx2:205695": {
+      "ja": null,
+      "source": "launchbox:205695",
+      "rejected": "血塗られら伝説: LaunchBox's name has a typo (血塗られら) and isn't confirmed"
+    },
+    "msx2:205705": {
+      "ja": "ザ・マン・アイ・ラブ",
+      "source": "launchbox:205705"
+    },
+    "msx2:206295": {
+      "ja": "コズミックサイコ",
+      "source": "vndb:v9356"
+    },
+    "msx2:206302": {
+      "ja": "狂った果実",
+      "source": "vndb:v4075"
+    },
+    "msx2:208917": {
+      "ja": "ガイアの紋章",
+      "source": "launchbox:208917"
+    },
+    "msx2:210460": {
+      "ja": "ガウディ ～バルセロナの風～",
+      "source": "vndb:v9391"
+    },
+    "msx2:27091": {
+      "ja": "ルーンマスターII",
+      "source": "launchbox:27091"
+    },
+    "msx2:27092": {
+      "ja": "ルーンマスター三国英傑伝",
+      "source": "launchbox:27092"
+    },
+    "msx2:33318": {
+      "ja": "エクスタリアン",
+      "source": "vndb:v9170"
+    },
+    "msx2:33856": {
+      "ja": "激走ニャンクル",
+      "source": "launchbox:33856"
+    },
+    "msx2:33858": {
+      "ja": "Ａ列車で行こう",
+      "source": "launchbox:33858"
+    },
+    "msx2:424978": {
+      "ja": "キャラバンブーマー",
+      "source": "launchbox:424978"
+    },
+    "msx2:425350": {
+      "ja": "午後１１時４８分 Version 4",
+      "source": "launchbox:425350"
+    },
+    "msx2:440370": {
+      "ja": "BEAST ～淫獣の館～",
+      "source": "vndb:v5518"
+    },
+    "msx2:454958": {
+      "ja": "パラゴンセクサドール ＤＯＬＬ",
+      "source": "vndb:v9003"
+    },
+    "msx2:456066": {
+      "ja": "学園戦記",
+      "source": "vndb:v15124"
+    },
+    "msx2:457772": {
+      "ja": "オーギス",
+      "source": "launchbox:457772"
+    },
+    "msx2:466586": {
+      "ja": "ファイターズ・ラグナロク",
+      "source": "launchbox:466586"
+    },
+    "msx2:466600": {
+      "ja": "モールモール",
+      "source": "launchbox:466600"
+    },
+    "msx2:472123": {
+      "ja": "スウィートエモーション",
+      "source": "vndb:v9104"
+    },
+    "msx2plus:201210": {
+      "ja": "ムーンライト・サガ－ホルスの章－",
+      "source": "launchbox:201210"
+    },
+    "msx2plus:208431": {
+      "ja": "でゃふりゃぁげ'",
+      "source": "launchbox:208431"
+    },
+    "msx2plus:456078": {
+      "ja": "秘密の花園",
+      "source": "vndb:v4715"
+    },
+    "msx2plus:464692": {
+      "ja": "シードオブドラゴン",
+      "source": "launchbox:464692"
+    },
+    "msx:133024": {
+      "ja": "軽井沢誘拐案内",
+      "source": "vndb:v5570"
+    },
+    "msx:151475": {
+      "ja": "ゼクサスリミテッド",
+      "source": "launchbox:151475"
+    },
+    "msx:151477": {
+      "ja": "ズーム９０９",
+      "source": "launchbox:151477"
+    },
+    "msx:151570": {
+      "ja": "ザイゾログ",
+      "source": "launchbox:151570"
+    },
+    "msx:151827": {
+      "ja": "ピポルス",
+      "source": "launchbox:151827"
+    },
+    "msx:153488": {
+      "ja": "ゴジラ対３大怪獣",
+      "source": "launchbox:153488"
+    },
+    "msx:154455": {
+      "ja": "もーかりまっか？ぼちぼちでんなっ！",
+      "source": "launchbox:154455"
+    },
+    "msx:155307": {
+      "ja": "聖拳アチョー",
+      "source": "launchbox:155307"
+    },
+    "msx:167710": {
+      "ja": "フェアリー",
+      "source": "launchbox:167710"
+    },
+    "msx:168369": {
+      "ja": "サファリＸ",
+      "source": "launchbox:168369"
+    },
+    "msx:168374": {
+      "ja": "サイオン",
+      "source": "launchbox:168374"
+    },
+    "msx:168378": {
+      "ja": "センジョー",
+      "source": "launchbox:168378"
+    },
+    "msx:168380": {
+      "ja": "シンドバッド７つの冒険",
+      "source": "launchbox:168380"
+    },
+    "msx:168555": {
+      "ja": "スクーター",
+      "source": "launchbox:168555"
+    },
+    "msx:168573": {
+      "ja": "ソフィア",
+      "source": "launchbox:168573"
+    },
+    "msx:168575": {
+      "ja": "スペーストラブル",
+      "source": "launchbox:168575"
+    },
+    "msx:168576": {
+      "ja": "スパーキー",
+      "source": "launchbox:168576"
+    },
+    "msx:168582": {
+      "ja": "スターブレーザー",
+      "source": "launchbox:168582"
+    },
+    "msx:168592": {
+      "ja": "スーパードリンカー",
+      "source": "launchbox:168592"
+    },
+    "msx:168606": {
+      "ja": "たわらくん",
+      "source": "launchbox:168606"
+    },
+    "msx:168631": {
+      "ja": "テレバニー",
+      "source": "launchbox:168631"
+    },
+    "msx:168632": {
+      "ja": "天才ラビアン大奮戦",
+      "source": "launchbox:168632"
+    },
+    "msx:168635": {
+      "ja": "サンダーボルト",
+      "source": "launchbox:168635"
+    },
+    "msx:168790": {
+      "ja": "トリトーン",
+      "source": "launchbox:168790"
+    },
+    "msx:168903": {
+      "ja": "ワープ＆ワープ",
+      "source": "launchbox:168903"
+    },
+    "msx:168910": {
+      "ja": "ウェディングベル",
+      "source": "launchbox:168910"
+    },
+    "msx:171269": {
+      "ja": "ザース",
+      "source": "vndb:v5555"
+    },
+    "msx:180551": {
+      "ja": null,
+      "source": "launchbox:180551",
+      "rejected": "ド: LaunchBox's name is a single kana, not a title"
+    },
+    "msx:181397": {
+      "ja": "ウイングマン２",
+      "source": "launchbox:181397"
+    },
+    "msx:181410": {
+      "ja": "は～りぃふぉっくす ～雪の魔王編～",
+      "source": "vndb:v9505"
+    },
+    "msx:181421": {
+      "ja": null,
+      "source": "launchbox:181421",
+      "rejected": "連珠: LaunchBox's name is only part of the title"
+    },
+    "msx:181422": {
+      "ja": "スペースキャンプ",
+      "source": "launchbox:181422"
+    },
+    "msx:181963": {
+      "ja": "スターシップシミュレータ",
+      "source": "launchbox:181963"
+    },
+    "msx:182911": {
+      "ja": "天使たちの午後",
+      "source": "vndb:v8769"
+    },
+    "msx:201132": {
+      "ja": null,
+      "source": "launchbox:201132",
+      "rejected": "妖怪屋敷: LaunchBox's name is another MSX game's title (Youkai Yashiki)"
+    },
+    "msx:205665": {
+      "ja": "コスモトラベラー",
+      "source": "launchbox:205665"
+    },
+    "msx:213710": {
+      "ja": "ミステリーハウス2",
+      "source": "launchbox:213710"
+    },
+    "msx:214365": {
+      "ja": "エリカ",
+      "source": "vndb:v9487"
+    },
+    "msx:218773": {
+      "ja": "ウイングマン",
+      "source": "vndb:v5556"
+    },
+    "msx:27029": {
+      "ja": "ジャッキー・チェンのプロジェクトA",
+      "source": "launchbox:27029"
+    },
+    "msx:27030": {
+      "ja": "ジャッキー・チェンのプロテクター",
+      "source": "launchbox:27030"
+    },
+    "msx:27031": {
+      "ja": "ジャッキー・チェンのスパルタンX",
+      "source": "launchbox:27031"
+    },
+    "msx:moby-143930": {
+      "ja": "ミステリーハウス",
+      "source": "vndb:v30626"
+    },
+    "msx:moby-30399": {
+      "ja": "シャドゥハンター",
+      "source": "vndb:v9407"
+    },
+    "msx:moby-45786": {
+      "ja": "天使たちの午後ＩＩ -美奈子-",
+      "source": "vndb:v8770"
+    },
+    "msx:moby-45788": {
+      "ja": "天使たちの午後ＩＩＩ リボン",
+      "source": "vndb:v8771"
+    },
+    "msx:moby-45817": {
+      "ja": "天使たちの午後II -番外編-",
+      "source": "vndb:v8822"
+    },
+    "msx:moby-47799": {
+      "ja": "ガールズパラダイス 楽園の天使たち",
+      "source": "vndb:v8698"
+    },
+    "msx:moby-50286": {
+      "ja": "キミだけに愛を・・・",
+      "source": "vndb:v8749"
+    },
+    "msx:moby-55031": {
+      "ja": "ドーム",
+      "source": "vndb:v8847"
+    },
+    "msx:moby-58967": {
+      "ja": "トワイライトゾーン VOL. 4 特別編",
+      "source": "vndb:v21851"
+    }
+  }
+}

@@ -793,7 +793,10 @@
    "sourceGroups": [
     "msx2:Gakuen Monogatari - High School Story (1988) (Great).zip"
    ],
-   "title": "High School Story"
+   "title": "High School Story",
+   "titles": {
+    "ja": "学園戦記"
+   }
   },
   "msx2:123957": {
    "boxArtUrl": "https://images.launchbox-app.com/4ebbbe08-430d-42f4-9164-84e1fdc212d0.jpg",
@@ -1283,7 +1286,10 @@
    "sourceGroups": [
     "msx2:Maison Ikkoku Final (1988) (Micro Cabin).zip"
    ],
-   "title": "Maison Ikkoku: Kanketsu Hen: Sayonara, Soshite..."
+   "title": "Maison Ikkoku: Kanketsu Hen: Sayonara, Soshite...",
+   "titles": {
+    "ja": "めぞん一刻 完結編 ～さよなら、そして…～"
+   }
   },
   "msx2:124301": {
    "aliases": [
@@ -1317,7 +1323,10 @@
    "sourceGroups": [
     "msx2:Maison Ikkoku (1987) (Micro Cabin).zip"
    ],
-   "title": "Maison Ikkoku"
+   "title": "Maison Ikkoku",
+   "titles": {
+    "ja": "めぞん一刻 ～想いでのフォトグラフ～"
+   }
   },
   "msx2:124332": {
    "aliases": [
@@ -1920,7 +1929,10 @@
    "sourceGroups": [
     "msx2:Return of Ishtar, The (1988) (Namcot).zip"
    ],
-   "title": "The Return of Ishtar"
+   "title": "The Return of Ishtar",
+   "titles": {
+    "ja": "イシターの復活"
+   }
   },
   "msx2:124473": {
    "boxArtUrl": "https://images.launchbox-app.com/5edf8ade-e893-4d25-bfde-3401002407c2.png",
@@ -2661,7 +2673,10 @@
    "sourceGroups": [
     "msx2:Urusei Yatsura (1987) (Micro Cabin).zip"
    ],
-   "title": "Urusei Yatsura: Koi no Survival Birthday"
+   "title": "Urusei Yatsura: Koi no Survival Birthday",
+   "titles": {
+    "ja": "うる星やつら 〜恋のサバイバル・バースディ〜"
+   }
   },
   "msx2:124875": {
    "boxArtUrl": "https://images.launchbox-app.com/ce621df8-cf92-49ac-99ef-13a2c2357eaa.jpg",
@@ -2851,7 +2866,10 @@
    "sourceGroups": [
     "msx2:Kyotoryu no Tera Satsujin Jiken (1988) (Taito).zip"
    ],
-   "title": "Yamamura Misa Suspense: Kyoto Ryuu no Tera Satsujinjiken"
+   "title": "Yamamura Misa Suspense: Kyoto Ryuu no Tera Satsujinjiken",
+   "titles": {
+    "ja": "山村美紗サスペンス 京都龍の寺殺人事件"
+   }
   },
   "msx2:124887": {
    "aliases": [
@@ -3248,7 +3266,10 @@
    "mobygames": 64,
    "publisher": "Game Arts",
    "screenshotUrl": "https://images.launchbox-app.com/f470730b-25c4-4d20-9fae-18e1b1226575.png",
-   "title": "Fire Hawk: Thexder: The Second Contact"
+   "title": "Fire Hawk: Thexder: The Second Contact",
+   "titles": {
+    "ja": "ファイアーホークテクザー２"
+   }
   },
   "msx2:149627": {
    "aliases": [
@@ -3408,7 +3429,10 @@
    "mobygames": 26260,
    "publisher": "Winky Soft",
    "screenshotUrl": "https://images.launchbox-app.com/83eb9e2f-d65c-46f2-be22-71cad5dd36ae.png",
-   "title": "Akanbe Dragon"
+   "title": "Akanbe Dragon",
+   "titles": {
+    "ja": "あかんべドラゴン"
+   }
   },
   "msx2:151167": {
    "boxArtUrl": "https://images.launchbox-app.com/dd44d67b-29dd-4e64-958b-18ad5aa004f5.jpg",
@@ -4624,7 +4648,10 @@
    "mobygames": 43758,
    "publisher": "Riverhill Soft",
    "screenshotUrl": "https://images.launchbox-app.com/53ae08e0-86a4-45c9-8fb5-fd0356bb8995.png",
-   "title": "Burai"
+   "title": "Burai",
+   "titles": {
+    "ja": "ＢＵＲＡＩ上巻"
+   }
   },
   "msx2:156309": {
    "aliases": [
@@ -4693,7 +4720,10 @@
    "mobygames": 29111,
    "publisher": "Gainax",
    "screenshotUrl": "https://images.launchbox-app.com/f74d0d0a-0d3d-485a-9600-d7cb9541d65c.png",
-   "title": "Cybernetic Hi-School part 1"
+   "title": "Cybernetic Hi-School part 1",
+   "titles": {
+    "ja": "電脳学園シナリオ１"
+   }
   },
   "msx2:156347": {
    "adult": true,
@@ -4717,7 +4747,10 @@
    "mobygames": 23817,
    "publisher": "Gainax",
    "screenshotUrl": "https://images.launchbox-app.com/r2_d3f1256b-c170-4ab2-a330-2f0b7ac081ae.png",
-   "title": "Cybernetic Hi-School Part 2: Highway Buster"
+   "title": "Cybernetic Hi-School Part 2: Highway Buster",
+   "titles": {
+    "ja": "電脳学園２ ～ハイウェイバスター！！～"
+   }
   },
   "msx2:156348": {
    "aliases": [
@@ -4750,7 +4783,10 @@
    "launchbox": "156349",
    "mobygames": 18615,
    "publisher": "elf",
-   "title": "Dragon Knight"
+   "title": "Dragon Knight",
+   "titles": {
+    "ja": "ドラゴンナイト"
+   }
   },
   "msx2:156350": {
    "adult": true,
@@ -4774,7 +4810,10 @@
    "launchbox": "156350",
    "mobygames": 16368,
    "publisher": "elf",
-   "title": "Dragon Knight II"
+   "title": "Dragon Knight II",
+   "titles": {
+    "ja": "ドラゴンナイトII"
+   }
   },
   "msx2:156351": {
    "aliases": [
@@ -4796,7 +4835,10 @@
    "launchbox": "156351",
    "mobygames": 20946,
    "publisher": "Compile",
-   "title": "Dragon Quiz"
+   "title": "Dragon Quiz",
+   "titles": {
+    "ja": "ドラゴンクイズ"
+   }
   },
   "msx2:156352": {
    "aliases": [
@@ -4819,7 +4861,10 @@
    "mobygames": 13893,
    "publisher": "Glodia",
    "screenshotUrl": "https://images.launchbox-app.com/e8ba8b64-fe6d-49df-973e-cf2d73fe8f1b.png",
-   "title": "Emerald Dragon"
+   "title": "Emerald Dragon",
+   "titles": {
+    "ja": "エメラルドドラゴン"
+   }
   },
   "msx2:156362": {
    "aliases": [
@@ -4865,7 +4910,10 @@
    "mobygames": 55872,
    "publisher": "XTALSOFT",
    "screenshotUrl": "https://images.launchbox-app.com/dad344b2-abdf-4eb3-9b2f-1c9dbde02f5c.png",
-   "title": "Crimson II"
+   "title": "Crimson II",
+   "titles": {
+    "ja": "クリムゾンII"
+   }
   },
   "msx2:156369": {
    "adult": true,
@@ -4889,7 +4937,10 @@
    "mobygames": 18670,
    "publisher": "ASCII",
    "screenshotUrl": "https://images.launchbox-app.com/fd012b35-3b0c-45fd-ba91-2abb5c2f153b.png",
-   "title": "Chaos Angels"
+   "title": "Chaos Angels",
+   "titles": {
+    "ja": "カオスエンジェルス"
+   }
   },
   "msx2:156371": {
    "adult": true,
@@ -5041,7 +5092,10 @@
    "launchbox": "167591",
    "publisher": "XAIN",
    "screenshotUrl": "https://images.launchbox-app.com/7bc46e24-8617-4ffe-9243-05a43d8bc504.png",
-   "title": "Bastard"
+   "title": "Bastard",
+   "titles": {
+    "ja": "バスタード"
+   }
   },
   "msx2:167597": {
    "boxArtUrl": "https://images.launchbox-app.com/c3ab5ad3-daf2-46e0-abe5-87e8461ead2f.jpg",
@@ -5392,7 +5446,10 @@
    "launchbox": "168082",
    "publisher": "XAIN",
    "screenshotUrl": "https://images.launchbox-app.com/2237ad5d-0972-461e-a770-00a18ed54e4b.png",
-   "title": "Majin Kyu"
+   "title": "Majin Kyu",
+   "titles": {
+    "ja": "魔神宮"
+   }
   },
   "msx2:168205": {
    "developer": "Gbsoft",
@@ -5740,7 +5797,10 @@
    "mobygames": 184572,
    "publisher": "Sony",
    "screenshotUrl": "https://images.launchbox-app.com/8ca7eba8-01cc-43ae-a1c9-20c238b7f011.png",
-   "title": "Gall Force: Eternal Story"
+   "title": "Gall Force: Eternal Story",
+   "titles": {
+    "ja": "ガルフォース Eternal Story"
+   }
   },
   "msx2:179789": {
    "adult": true,
@@ -5787,7 +5847,10 @@
    "mobygames": 16946,
    "publisher": "T&E Soft",
    "screenshotUrl": "https://images.launchbox-app.com/e1cfb03a-6072-410b-a206-49c6d30d4249.png",
-   "title": "Psy-O-Blade"
+   "title": "Psy-O-Blade",
+   "titles": {
+    "ja": "サイオブレード"
+   }
   },
   "msx2:180047": {
    "boxArtUrl": "https://images.launchbox-app.com/8efb774f-0be3-4044-86ef-52fd099f193c.jpg",
@@ -5838,7 +5901,10 @@
    "mobygames": 228790,
    "publisher": "Micro Cabin",
    "screenshotUrl": "https://images.launchbox-app.com/45563bec-2fc5-48b3-af3e-131d3f363a73.png",
-   "title": "Seilane"
+   "title": "Seilane",
+   "titles": {
+    "ja": "セイレーン"
+   }
   },
   "msx2:182191": {
    "aliases": [
@@ -5897,7 +5963,10 @@
    "mobygames": 58056,
    "publisher": "Data West",
    "screenshotUrl": "https://images.launchbox-app.com/631e277a-802b-4796-8e57-77e6f5e9731c.png",
-   "title": "The 4th Unit"
+   "title": "The 4th Unit",
+   "titles": {
+    "ja": "第４のユニット"
+   }
   },
   "msx2:186753": {
    "boxArtUrl": "https://images.launchbox-app.com/b65a5372-eb07-4a81-915d-06730ede7745.jpg",
@@ -5917,7 +5986,10 @@
    "mobygames": 58059,
    "publisher": "Data West",
    "screenshotUrl": "https://images.launchbox-app.com/2a3ea1ce-85eb-4367-a0bc-3edfd1c4e2d7.png",
-   "title": "The 4th Unit 2"
+   "title": "The 4th Unit 2",
+   "titles": {
+    "ja": "第４のユニット２"
+   }
   },
   "msx2:186754": {
    "adult": true,
@@ -5926,7 +5998,10 @@
    "launchbox": "186754",
    "publisher": "Jast",
    "screenshotUrl": "https://images.launchbox-app.com/216ed257-e1d8-4ac8-a7d2-53a5f8096567.png",
-   "title": "Cosmos Club"
+   "title": "Cosmos Club",
+   "titles": {
+    "ja": "コスモスクラブ"
+   }
   },
   "msx2:186755": {
    "boxArtUrl": "https://images.launchbox-app.com/431c7c29-5873-48ff-a730-a78e530a640d.jpg",
@@ -5977,7 +6052,10 @@
    "mobygames": 58062,
    "publisher": "Data West",
    "screenshotUrl": "https://images.launchbox-app.com/df70b49d-6b00-49dc-a37e-e15f72d82bf9.png",
-   "title": "The 4th Unit Act.3: Dual Targets"
+   "title": "The 4th Unit Act.3: Dual Targets",
+   "titles": {
+    "ja": "デュアルターゲット -第４のユニット３-"
+   }
   },
   "msx2:186758": {
    "aliases": [
@@ -6025,7 +6103,10 @@
    "mobygames": 40777,
    "publisher": "Enix",
    "screenshotUrl": "https://images.launchbox-app.com/429f4eda-f686-45df-862c-8642ea7206ea.png",
-   "title": "Jesus"
+   "title": "Jesus",
+   "titles": {
+    "ja": "ジーザス"
+   }
   },
   "msx2:186760": {
    "aliases": [
@@ -6134,7 +6215,10 @@
    "mobygames": 43671,
    "publisher": "Enix",
    "screenshotUrl": "https://images.launchbox-app.com/c251bf45-c66e-4925-b552-574c052c7fd7.png",
-   "title": "Angelus: Akuma no Fukuin"
+   "title": "Angelus: Akuma no Fukuin",
+   "titles": {
+    "ja": "アンジェラス 〜悪魔の福音〜"
+   }
   },
   "msx2:186769": {
    "aliases": [
@@ -6159,6 +6243,9 @@
    "publisher": "Wolf Team",
    "screenshotUrl": "https://images.launchbox-app.com/983b067e-768f-4be9-9789-3a2de4e5f3cb.png",
    "title": "Arcush: Kagerou no Jidai o Koe te",
+   "titles": {
+    "ja": "あーくしゅ ～陽炎の時代を越えて～"
+   },
    "year": 1990
   },
   "msx2:186770": {
@@ -6268,7 +6355,10 @@
    "mobygames": 17755,
    "publisher": "Tokyo Shoseki",
    "screenshotUrl": "https://images.launchbox-app.com/a5dae01e-aabe-4cf6-b2ea-7162ee4ec2f6.png",
-   "title": "Ankoku Shinwa: Yamato Takeru Densetsu"
+   "title": "Ankoku Shinwa: Yamato Takeru Densetsu",
+   "titles": {
+    "ja": "暗黒神話 ヤマトタケル伝説"
+   }
   },
   "msx2:187768": {
    "aliases": [
@@ -6288,7 +6378,10 @@
    "launchbox": "188834",
    "publisher": "Birdy software",
    "screenshotUrl": "https://images.launchbox-app.com/4f9f88c5-c94a-4321-b1c1-925d0fd31d77.png",
-   "title": "Birdy World"
+   "title": "Birdy World",
+   "titles": {
+    "ja": "バーディーワールド"
+   }
   },
   "msx2:188835": {
    "adult": true,
@@ -6353,7 +6446,10 @@
    "mobygames": 16365,
    "publisher": "Birdy Soft",
    "screenshotUrl": "https://images.launchbox-app.com/d92d9cf2-c90f-4ae7-88b0-f9ecd83cb092.png",
-   "title": "Cal II"
+   "title": "Cal II",
+   "titles": {
+    "ja": "キャルツー"
+   }
   },
   "msx2:188847": {
    "adult": true,
@@ -6374,7 +6470,10 @@
    "mobygames": 43151,
    "publisher": "Cocktail Soft",
    "screenshotUrl": "https://images.launchbox-app.com/4f18b04e-db2e-468e-a4d6-e87132da0259.png",
-   "title": "Can Can Bunny Spirits"
+   "title": "Can Can Bunny Spirits",
+   "titles": {
+    "ja": "きゃんきゃんバニー スピリッツ"
+   }
   },
   "msx2:188848": {
    "adult": true,
@@ -6396,6 +6495,9 @@
    "publisher": "Cocktail Soft",
    "screenshotUrl": "https://images.launchbox-app.com/b2919531-8f51-41bc-b232-6259f994407c.png",
    "title": "Can Can Bunny Superior",
+   "titles": {
+    "ja": "きゃんきゃんバニー スペリオール"
+   },
    "year": 1990
   },
   "msx2:188849": {
@@ -6427,7 +6529,10 @@
    "mobygames": 54750,
    "publisher": "Thinking Rabbit",
    "screenshotUrl": "https://images.launchbox-app.com/494dfc64-3b07-49f0-a6aa-6fa682b70a55.png",
-   "title": "Casablanca ni Ai o: Satsujinsha wa Jikuu o Koete"
+   "title": "Casablanca ni Ai o: Satsujinsha wa Jikuu o Koete",
+   "titles": {
+    "ja": "カサブランカに愛を 殺人者は時空を越えて"
+   }
   },
   "msx2:188851": {
    "boxArtUrl": "https://images.launchbox-app.com/8a479a5a-3b11-492f-a1a4-99fb1be0d96e.jpg",
@@ -6475,7 +6580,10 @@
    "mobygames": 59190,
    "publisher": "Alice Soft",
    "screenshotUrl": "https://images.launchbox-app.com/3d82f2f3-b6a6-45ea-bb32-a16e56591677.png",
-   "title": "Crescent Moon Girl"
+   "title": "Crescent Moon Girl",
+   "titles": {
+    "ja": "CRESCENT MOON がぁる"
+   }
   },
   "msx2:188890": {
    "adult": true,
@@ -6680,6 +6788,9 @@
    "publisher": "Game Technopolis",
    "screenshotUrl": "https://images.launchbox-app.com/c32d22f1-bb16-4c7f-963a-8ce99d6db728.png",
    "title": "Dragon Eyes",
+   "titles": {
+    "ja": "ドラゴンアイズ"
+   },
    "year": 1991
   },
   "msx2:188900": {
@@ -6742,6 +6853,9 @@
    "publisher": "FairyTale",
    "screenshotUrl": "https://images.launchbox-app.com/7e717944-b68c-4f31-86fe-643f7b9a3326.png",
    "title": "Dancing Mai",
+   "titles": {
+    "ja": "舞☆MAI ふにふにぱぴゅーんといわせちゃる！"
+   },
    "year": 1991
   },
   "msx2:188910": {
@@ -6774,6 +6888,9 @@
    "publisher": "Wolf Team",
    "screenshotUrl": "https://images.launchbox-app.com/c4575990-2ae6-4fd8-ba86-77fc6c75a423.png",
    "title": "Gaudi: Barcelona no Kaze",
+   "titles": {
+    "ja": "ガウディ ～バルセロナの風～"
+   },
    "year": 1989
   },
   "msx2:189011": {
@@ -6854,7 +6971,10 @@
    "launchbox": "189017",
    "publisher": "DOTT Plan",
    "screenshotUrl": "https://images.launchbox-app.com/ff3e3215-ab8e-4513-b8f1-70f0c337817e.png",
-   "title": "Gram Cats"
+   "title": "Gram Cats",
+   "titles": {
+    "ja": "グラムキャッツ"
+   }
   },
   "msx2:189018": {
    "aliases": [
@@ -6899,6 +7019,9 @@
    "publisher": "HARD",
    "screenshotUrl": "https://images.launchbox-app.com/8529f28f-2a39-4f56-b00e-0cb6b36d55ef.png",
    "title": "Hacchake Ayayo-san",
+   "titles": {
+    "ja": "はっちゃけあやよさん"
+   },
    "year": 1989
   },
   "msx2:189020": {
@@ -6940,7 +7063,10 @@
    "launchbox": "189021",
    "publisher": "Kogado Studio",
    "screenshotUrl": "https://images.launchbox-app.com/4d174bd6-8bfa-44b0-95df-1591d4658851.png",
-   "title": "Harajuku After Dark"
+   "title": "Harajuku After Dark",
+   "titles": {
+    "ja": "原宿AfterDARK"
+   }
   },
   "msx2:189022": {
    "aliases": [
@@ -6989,6 +7115,9 @@
    "publisher": "Cocktail Soft",
    "screenshotUrl": "https://images.launchbox-app.com/26141192-c225-428c-aa09-61e20b9e4a1b.png",
    "title": "Illumina!",
+   "titles": {
+    "ja": "イルミナ！"
+   },
    "year": 1991
   },
   "msx2:189033": {
@@ -7011,6 +7140,9 @@
    "publisher": "Alice Soft",
    "screenshotUrl": "https://images.launchbox-app.com/111958e9-6441-4e95-b13a-f04e84aacc8c.png",
    "title": "Intruder: Sakura Yashiki no Tansaku",
+   "titles": {
+    "ja": "Intruder -桜屋敷の探索-"
+   },
    "year": 1989
   },
   "msx2:189034": {
@@ -7106,6 +7238,9 @@
    "publisher": "Birdy Soft",
    "screenshotUrl": "https://images.launchbox-app.com/86343459-2223-4b8f-9a12-c9b5d82f5fe5.png",
    "title": "Joker II",
+   "titles": {
+    "ja": "ジョーカーII"
+   },
    "year": 1992
   },
   "msx2:189041": {
@@ -7137,6 +7272,9 @@
    "publisher": "Panther Software",
    "screenshotUrl": "https://images.launchbox-app.com/c5fe245a-1bb1-4438-a0bd-27960fccfe90.png",
    "title": "Kami no Machi",
+   "titles": {
+    "ja": "神の聖都"
+   },
    "year": 1989
   },
   "msx2:189043": {
@@ -7160,7 +7298,10 @@
    "mobygames": 54290,
    "publisher": "Riverhill Soft",
    "screenshotUrl": "https://images.launchbox-app.com/848cc36d-16f6-49b6-8a16-cd95bc5db549.png",
-   "title": "Kohakuiro no Yuigon"
+   "title": "Kohakuiro no Yuigon",
+   "titles": {
+    "ja": "琥珀色の遺言"
+   }
   },
   "msx2:189044": {
    "aliases": [
@@ -7172,6 +7313,9 @@
    "publisher": "Kirara",
    "screenshotUrl": "https://images.launchbox-app.com/c752b181-12c2-4ba4-a456-44a2804b2cb2.png",
    "title": "Koroshi no Dress 2",
+   "titles": {
+    "ja": "殺しのドレス２"
+   },
    "year": 1990
   },
   "msx2:189045": {
@@ -7180,7 +7324,10 @@
    "launchbox": "189045",
    "publisher": "HARD",
    "screenshotUrl": "https://images.launchbox-app.com/5e96650d-d11d-4c42-872a-893fa75c1016.png",
-   "title": "Kudokikata Oshiemasu"
+   "title": "Kudokikata Oshiemasu",
+   "titles": {
+    "ja": "口説き方教えます"
+   }
   },
   "msx2:189046": {
    "aliases": [
@@ -7214,7 +7361,10 @@
    "mobygames": 76837,
    "publisher": "Pony Canyon",
    "screenshotUrl": "https://images.launchbox-app.com/c4c4923e-1e49-4807-b0b7-d186a5b5bd87.png",
-   "title": "Kujaku Ou"
+   "title": "Kujaku Ou",
+   "titles": {
+    "ja": "孔雀王"
+   }
   },
   "msx2:189048": {
    "boxArtUrl": "https://images.launchbox-app.com/abace9fa-a32b-478f-afe9-a0a4735467bf.jpg",
@@ -7317,6 +7467,9 @@
    "publisher": "Compile",
    "screenshotUrl": "https://images.launchbox-app.com/7316022d-c2ed-44f1-aaf7-ca495c0b7612.png",
    "title": "Madoushi Lulba",
+   "titles": {
+    "ja": "魔導師ラルバ"
+   },
    "year": 1990
   },
   "msx2:189058": {
@@ -7336,7 +7489,10 @@
    "launchbox": "189059",
    "publisher": "Wing",
    "screenshotUrl": "https://images.launchbox-app.com/ed6ab105-0278-4159-bd38-fa0bc6b76399.png",
-   "title": "Makai Fukkatsu"
+   "title": "Makai Fukkatsu",
+   "titles": {
+    "ja": "魔界復活"
+   }
   },
   "msx2:189060": {
    "boxArtUrl": "https://images.launchbox-app.com/2036484d-345f-4753-871f-0e583d78a7d6.jpg",
@@ -7375,7 +7531,10 @@
    "launchbox": "189065",
    "publisher": "Wing",
    "screenshotUrl": "https://images.launchbox-app.com/8eb60ac5-8c8c-41c7-bc1c-b6fb6549bcf7.png",
-   "title": "Nichiyoubi ni Uchuujin ga…?"
+   "title": "Nichiyoubi ni Uchuujin ga…?",
+   "titles": {
+    "ja": "日曜日に宇宙人が…？"
+   }
   },
   "msx2:189066": {
    "adult": true,
@@ -7394,7 +7553,10 @@
    "launchbox": "189066",
    "publisher": "Cocktail Soft",
    "screenshotUrl": "https://images.launchbox-app.com/e6015a42-3e58-4793-a296-940f8b4d46e0.png",
-   "title": "Nike"
+   "title": "Nike",
+   "titles": {
+    "ja": "ナイキ"
+   }
   },
   "msx2:189067": {
    "aliases": [
@@ -7428,6 +7590,9 @@
    "publisher": "Soft Studio Wing",
    "screenshotUrl": "https://images.launchbox-app.com/4214756d-3934-4d22-9493-8ad469773286.png",
    "title": "Onryou Senki",
+   "titles": {
+    "ja": "怨霊戦記"
+   },
    "year": 1989
   },
   "msx2:189069": {
@@ -7504,6 +7669,9 @@
    "publisher": "elf",
    "screenshotUrl": "https://images.launchbox-app.com/fe544b99-a580-403e-8529-2512fa6c5728.png",
    "title": "Pinky Ponky 1: Beautiful Dream",
+   "titles": {
+    "ja": "ぴんきぃぽんきぃ１ びゅうてぃふるどりぃむ"
+   },
    "year": 1989
   },
   "msx2:189073": {
@@ -7525,7 +7693,10 @@
    "mobygames": 58839,
    "publisher": "elf",
    "screenshotUrl": "https://images.launchbox-app.com/d604607f-062b-4f67-beba-e534d757e8b8.png",
-   "title": "Pinky Ponky 2: Twilight Games"
+   "title": "Pinky Ponky 2: Twilight Games",
+   "titles": {
+    "ja": "ぴんきぃぽんきぃ２ とわいらいとげぇむず"
+   }
   },
   "msx2:189074": {
    "adult": true,
@@ -7547,6 +7718,9 @@
    "publisher": "elf",
    "screenshotUrl": "https://images.launchbox-app.com/f77938de-5d36-4d97-860e-bf1918157e87.png",
    "title": "Pinky Ponky 3: Battle Lover",
+   "titles": {
+    "ja": "ぴんきぃぽんきぃ３ ばとるらばぁ"
+   },
    "year": 1989
   },
   "msx2:189075": {
@@ -7913,6 +8087,9 @@
    "publisher": "D.O.",
    "screenshotUrl": "https://images.launchbox-app.com/c9a02b71-8eaf-4f95-8418-8fb0d4b00af6.png",
    "title": "Hoshi no Suna Monogatari",
+   "titles": {
+    "ja": "星の砂物語"
+   },
    "year": 1991
   },
   "msx2:189095": {
@@ -7950,6 +8127,9 @@
    "publisher": "Heart Soft",
    "screenshotUrl": "https://images.launchbox-app.com/3615eb2a-02d0-4995-b85c-2b001c2e0ad6.png",
    "title": "Kaettekita Tanteidan X",
+   "titles": {
+    "ja": "帰ってきた探偵団Ｘ"
+   },
    "year": 1990
   },
   "msx2:189098": {
@@ -7987,6 +8167,9 @@
    "publisher": "Alice Soft",
    "screenshotUrl": "https://images.launchbox-app.com/ea245e14-f606-44d3-a363-243b69d8b61a.png",
    "title": "Abunai Tengu Densetsu",
+   "titles": {
+    "ja": "あぶない天狗伝説"
+   },
    "year": 1990
   },
   "msx2:189100": {
@@ -8082,6 +8265,9 @@
    "publisher": "Alice Soft",
    "screenshotUrl": "https://images.launchbox-app.com/3fb874e2-985f-42c6-9844-32c861fc52a0.png",
    "title": "Toushin Toshi",
+   "titles": {
+    "ja": "闘神都市"
+   },
    "year": 1991
   },
   "msx2:189104": {
@@ -8172,6 +8358,9 @@
    "publisher": "FairyTale",
    "screenshotUrl": "https://images.launchbox-app.com/fe1ccefe-d336-4c83-ad4f-e49c30caf2bf.png",
    "title": "Urotsukidouji",
+   "titles": {
+    "ja": "うろつき童子"
+   },
    "year": 1990
   },
   "msx2:189108": {
@@ -8211,7 +8400,10 @@
    "mobygames": 197462,
    "publisher": "Micro Cabin",
    "screenshotUrl": "https://images.launchbox-app.com/2e2f4f55-be39-4495-a89b-78b88babc716.png",
-   "title": "What's Michael?"
+   "title": "What's Michael?",
+   "titles": {
+    "ja": "ホワッツマイケル"
+   }
   },
   "msx2:189110": {
    "adult": true,
@@ -8233,6 +8425,9 @@
    "publisher": "Champion Soft",
    "screenshotUrl": "https://images.launchbox-app.com/c0f73ced-bdb5-4d3b-9a42-bbaf9b1e4fe1.png",
    "title": "Little Princess",
+   "titles": {
+    "ja": "リトルプリンセス"
+   },
    "year": 1987
   },
   "msx2:189111": {
@@ -8475,7 +8670,10 @@
    "mobygames": 18679,
    "publisher": "Alice Soft",
    "screenshotUrl": "https://images.launchbox-app.com/6cef4a11-069d-4a61-b11b-b8610ce03f30.png",
-   "title": "Rance: Hikari o Motomete"
+   "title": "Rance: Hikari o Motomete",
+   "titles": {
+    "ja": "Rance -光をもとめて-"
+   }
   },
   "msx2:194670": {
    "adult": true,
@@ -8499,7 +8697,10 @@
    "mobygames": 43147,
    "publisher": "Birdy Soft",
    "screenshotUrl": "https://images.launchbox-app.com/98e0442f-96ed-4940-b96a-0e8653956648.png",
-   "title": "CAL"
+   "title": "CAL",
+   "titles": {
+    "ja": "キャル"
+   }
   },
   "msx2:195265": {
    "developer": "Mijinko-Soft",
@@ -8667,7 +8868,10 @@
    "launchbox": "205453",
    "publisher": "MSX Magazine (JP)",
    "screenshotUrl": "https://images.launchbox-app.com/2015204e-f7c0-460d-bfb9-7de10403036f.png",
-   "title": "Algo Wars"
+   "title": "Algo Wars",
+   "titles": {
+    "ja": "アルゴウォーズ"
+   }
   },
   "msx2:205454": {
    "aliases": [
@@ -8736,7 +8940,10 @@
    "mobygames": 58118,
    "publisher": "HARD",
    "screenshotUrl": "https://images.launchbox-app.com/b401d25c-1d7b-4bbb-a870-6a6d81cacae8.png",
-   "title": "Hacchake Ayayo-san 2: Ikenai Holiday"
+   "title": "Hacchake Ayayo-san 2: Ikenai Holiday",
+   "titles": {
+    "ja": "はっちゃけあやよさんIIいけないホリディ"
+   }
   },
   "msx2:205523": {
    "boxArtUrl": "https://images.launchbox-app.com/r2_30a2db7d-edc0-420e-bf4e-3791b9feb2ba.png",
@@ -8843,7 +9050,10 @@
    "launchbox": "205646",
    "publisher": "Tomorrows Soft",
    "screenshotUrl": "https://images.launchbox-app.com/952a29c5-56f1-4792-b9d3-3d7b31837533.png",
-   "title": "Championship Kinoko Firing Game"
+   "title": "Championship Kinoko Firing Game",
+   "titles": {
+    "ja": "チャンピオンシップキノコ射的ゲーム"
+   }
   },
   "msx2:205647": {
    "aliases": [
@@ -8888,7 +9098,10 @@
    "launchbox": "205649",
    "publisher": "Pony Canyon",
    "screenshotUrl": "https://images.launchbox-app.com/ce477ffd-6cd8-4e2b-b140-7ab4470ec7d7.png",
-   "title": "City Fight"
+   "title": "City Fight",
+   "titles": {
+    "ja": "シティファイト"
+   }
   },
   "msx2:205654": {
    "launchbox": "205654",
@@ -8981,7 +9194,10 @@
    "launchbox": "205705",
    "publisher": "Thinking Rabbit",
    "screenshotUrl": "https://images.launchbox-app.com/4fe12e03-d970-48a4-99ac-4b4529905977.png",
-   "title": "The Man I Love"
+   "title": "The Man I Love",
+   "titles": {
+    "ja": "ザ・マン・アイ・ラブ"
+   }
   },
   "msx2:206248": {
    "launchbox": "206248",
@@ -9057,6 +9273,9 @@
    "publisher": "Cocktail Soft",
    "screenshotUrl": "https://images.launchbox-app.com/4e0d7af2-8e63-4e31-80fd-57a02555acc2.png",
    "title": "Cosmic Psycho",
+   "titles": {
+    "ja": "コズミックサイコ"
+   },
    "year": 1991
   },
   "msx2:206302": {
@@ -9079,6 +9298,9 @@
    "publisher": "FairyTale",
    "screenshotUrl": "https://images.launchbox-app.com/9df395bb-195e-474c-85b4-6e40e1d9d173.png",
    "title": "Kurutta Kajitsu",
+   "titles": {
+    "ja": "狂った果実"
+   },
    "year": 1992
   },
   "msx2:206303": {
@@ -9313,7 +9535,10 @@
    "launchbox": "208917",
    "publisher": "TAKERU",
    "screenshotUrl": "https://images.launchbox-app.com/9232043b-6344-48c2-a4a0-139703bdcf51.png",
-   "title": "Gaia's Crest"
+   "title": "Gaia's Crest",
+   "titles": {
+    "ja": "ガイアの紋章"
+   }
   },
   "msx2:209095": {
    "aliases": [
@@ -9364,7 +9589,10 @@
    "launchbox": "210460",
    "publisher": "Wolf Team",
    "screenshotUrl": "https://images.launchbox-app.com/57ab8423-ba54-4182-af90-f0c6c6160fca.png",
-   "title": "Gaudi: The Wind of Barcelona"
+   "title": "Gaudi: The Wind of Barcelona",
+   "titles": {
+    "ja": "ガウディ ～バルセロナの風～"
+   }
   },
   "msx2:210463": {
    "aliases": [
@@ -10422,6 +10650,9 @@
    "publisher": "Compile",
    "screenshotUrl": "https://images.launchbox-app.com/4b51187c-7b26-48fe-8cb9-62911bd87565.png",
    "title": "Rune Master II",
+   "titles": {
+    "ja": "ルーンマスターII"
+   },
    "year": 1990
   },
   "msx2:27092": {
@@ -10447,6 +10678,9 @@
    "publisher": "Compile",
    "screenshotUrl": "https://images.launchbox-app.com/7220f813-8182-49af-9fa7-d4642e91a09c.png",
    "title": "Rune Master III: War Among Three Kingdoms",
+   "titles": {
+    "ja": "ルーンマスター三国英傑伝"
+   },
    "year": 1991
   },
   "msx2:27101": {
@@ -10835,6 +11069,9 @@
    "publisher": "D.O.",
    "screenshotUrl": "https://images.launchbox-app.com/55240719-2b8f-4166-b506-70e803be2dc4.jpg",
    "title": "Exterlien",
+   "titles": {
+    "ja": "エクスタリアン"
+   },
    "year": 1990
   },
   "msx2:33537": {
@@ -11572,6 +11809,9 @@
    "publisher": "TAKERU",
    "screenshotUrl": "https://images.launchbox-app.com/b8b19665-ca6a-4601-95de-0265d43f7783.jpg",
    "title": "Nyancle",
+   "titles": {
+    "ja": "激走ニャンクル"
+   },
    "year": 1988
   },
   "msx2:33858": {
@@ -11597,7 +11837,10 @@
    "mobygames": 51412,
    "publisher": "Pony Canyon",
    "screenshotUrl": "https://images.launchbox-app.com/ac03b862-cb25-4ead-82ab-495beb31450e.png",
-   "title": "A Ressha De Ikou"
+   "title": "A Ressha De Ikou",
+   "titles": {
+    "ja": "Ａ列車で行こう"
+   }
   },
   "msx2:33859": {
    "boxArtUrl": "https://images.launchbox-app.com/2c4eabe2-9ae9-4664-b401-768c2e189b02.jpg",
@@ -12559,6 +12802,9 @@
    "publisher": "N.I & Bo DSGN",
    "screenshotUrl": "https://images.launchbox-app.com/36ee133b-a423-4308-b575-c8fa60bb8e45.png",
    "title": "Caravan Boomer",
+   "titles": {
+    "ja": "キャラバンブーマー"
+   },
    "year": 2020
   },
   "msx2:424994": {
@@ -12661,7 +12907,10 @@
    "launchbox": "425350",
    "publisher": "Fantasy Creators",
    "screenshotUrl": "https://images.launchbox-app.com/4d938765-21cf-4b49-8a1f-978df836e6f5.jpg",
-   "title": "11:48 PM Version 4"
+   "title": "11:48 PM Version 4",
+   "titles": {
+    "ja": "午後１１時４８分 Version 4"
+   }
   },
   "msx2:425379": {
    "boxArtUrl": "https://images.launchbox-app.com/r2_4e3d9486-38b1-46d4-bf99-a89add48f204.png",
@@ -12785,6 +13034,9 @@
    "publisher": "Birdy Soft",
    "screenshotUrl": "https://images.launchbox-app.com/844be4c4-a4b1-44c8-baad-2d0709b5d9cc.png",
    "title": "Beast",
+   "titles": {
+    "ja": "BEAST ～淫獣の館～"
+   },
    "year": 1991
   },
   "msx2:440427": {
@@ -12944,7 +13196,10 @@
    "launchbox": "454958",
    "publisher": "Heart Soft",
    "screenshotUrl": "https://images.launchbox-app.com/03c22202-7914-4363-9d15-9049600c61ee.png",
-   "title": "Paragon Sex a Doll"
+   "title": "Paragon Sex a Doll",
+   "titles": {
+    "ja": "パラゴンセクサドール ＤＯＬＬ"
+   }
   },
   "msx2:455642": {
    "aliases": [
@@ -12975,7 +13230,10 @@
    "launchbox": "456066",
    "publisher": "Champion Soft",
    "screenshotUrl": "https://images.launchbox-app.com/bf7fad03-edaa-4939-89aa-26d6bbfbd9d8.png",
-   "title": "Gakuen Senki"
+   "title": "Gakuen Senki",
+   "titles": {
+    "ja": "学園戦記"
+   }
   },
   "msx2:457361": {
    "aliases": [
@@ -13019,6 +13277,9 @@
    "launchbox": "457772",
    "screenshotUrl": "https://images.launchbox-app.com/61c1b11f-09a1-43e0-858a-c8c13884b237.png",
    "title": "Ogiss",
+   "titles": {
+    "ja": "オーギス"
+   },
    "year": 1990
   },
   "msx2:461222": {
@@ -13286,6 +13547,9 @@
    "publisher": "Delta-Z",
    "screenshotUrl": "https://images.launchbox-app.com/d707a233-26bf-4811-93f3-0c181fa656da.png",
    "title": "Fighter's Ragnarök",
+   "titles": {
+    "ja": "ファイターズ・ラグナロク"
+   },
    "year": 1997
   },
   "msx2:466600": {
@@ -13308,7 +13572,10 @@
    "launchbox": "466600",
    "publisher": "Victor Co. of Japan",
    "screenshotUrl": "https://images.launchbox-app.com/fec6c12f-0a95-4b35-a35f-daa8bc51c45e.png",
-   "title": "Mole Mole"
+   "title": "Mole Mole",
+   "titles": {
+    "ja": "モールモール"
+   }
   },
   "msx2:466725": {
    "boxArtUrl": "https://images.launchbox-app.com/5acba502-98ed-43ce-abf1-5c45b58a7f15.jpg",
@@ -13589,6 +13856,9 @@
    "publisher": "Discovery Software",
    "screenshotUrl": "https://images.launchbox-app.com/c8d75e25-aa1f-4e61-9b31-897d7fd4ba13.png",
    "title": "Sweet Emotion",
+   "titles": {
+    "ja": "スウィートエモーション"
+   },
    "year": 1991
   },
   "msx2:472159": {
@@ -14316,6 +14586,9 @@
    "publisher": "Maple Yard",
    "screenshotUrl": "https://images.launchbox-app.com/96f52725-bb4a-4117-a8de-38d2aab730a2.jpg",
    "title": "Moon light Saga ~Chapter Horus~ ",
+   "titles": {
+    "ja": "ムーンライト・サガ－ホルスの章－"
+   },
    "year": 1997
   },
   "msx2plus:201212": {
@@ -14539,7 +14812,10 @@
    "sourceGroups": [
     "turbor:MSX TurboR [TOSEC]/MSX TurboR - Educational (TOSEC-v2012-04-15_CM)/Frage II, Die (199x)(Studio Sequence)(JP)[b].zip"
    ],
-   "title": "Die Frage II"
+   "title": "Die Frage II",
+   "titles": {
+    "ja": "でゃふりゃぁげ'"
+   }
   },
   "msx2plus:26996": {
    "boxArtUrl": "https://images.launchbox-app.com/8d9bbea2-585a-42cf-9549-fdacf02029d2.jpg",
@@ -14772,7 +15048,10 @@
    "mobygames": 55137,
    "publisher": "Game Technopolis",
    "screenshotUrl": "https://images.launchbox-app.com/4748888a-2116-435f-96d6-0dbba6dc010f.png",
-   "title": "Himitsu no Hanazono"
+   "title": "Himitsu no Hanazono",
+   "titles": {
+    "ja": "秘密の花園"
+   }
   },
   "msx2plus:460474": {
    "aliases": [
@@ -14871,6 +15150,9 @@
     "turbor:MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Seed of Dragon (1990)(Riverhill Soft)(JP)(Disk 3 of 3)(Game Disk 3)[a].zip"
    ],
    "title": "Seed of Dragon",
+   "titles": {
+    "ja": "シードオブドラゴン"
+   },
    "year": 1990
   },
   "msx2plus:466721": {
@@ -19959,7 +20241,10 @@
    "mobygames": 52328,
    "publisher": "Enix",
    "screenshotUrl": "https://images.launchbox-app.com/4c310ffa-34ac-4fe3-8707-99328836a37a.png",
-   "title": "Karuizawa Yuukai Annai"
+   "title": "Karuizawa Yuukai Annai",
+   "titles": {
+    "ja": "軽井沢誘拐案内"
+   }
   },
   "msx:133025": {
    "boxArtUrl": "https://images.launchbox-app.com/r2_9df6c161-0b6a-4a0a-af80-d00564be0160.jpg",
@@ -24938,7 +25223,10 @@
    "sourceGroups": [
     "msx:Zexas Limited (1985) (dB-Soft).zip"
    ],
-   "title": "Zexas Limited"
+   "title": "Zexas Limited",
+   "titles": {
+    "ja": "ゼクサスリミテッド"
+   }
   },
   "msx:151477": {
    "aliases": [
@@ -24971,7 +25259,10 @@
    "sourceGroups": [
     "msx:Zoom 909 (1985) (Pony Cannon).zip"
    ],
-   "title": "Zoom 909"
+   "title": "Zoom 909",
+   "titles": {
+    "ja": "ズーム９０９"
+   }
   },
   "msx:151479": {
    "boxArtUrl": "https://images.launchbox-app.com/84417e4e-e25c-4c7d-aa0f-307549285761.png",
@@ -25045,7 +25336,10 @@
    "sourceGroups": [
     "msx:Xyxolog (1984) (Taito).zip"
    ],
-   "title": "Xyzolog"
+   "title": "Xyzolog",
+   "titles": {
+    "ja": "ザイゾログ"
+   }
   },
   "msx:151571": {
    "aliases": [
@@ -25149,7 +25443,10 @@
    "sourceGroups": [
     "msx:Pippols (1985) (Konami).zip"
    ],
-   "title": "Pippols"
+   "title": "Pippols",
+   "titles": {
+    "ja": "ピポルス"
+   }
   },
   "msx:152346": {
    "aliases": [
@@ -27795,7 +28092,10 @@
    "launchbox": "153488",
    "publisher": "Bandai",
    "screenshotUrl": "https://images.launchbox-app.com/90f89826-e9f7-436a-bba5-c184d49eaf67.jpg",
-   "title": "Godzilla vs. 3 Giant Monsters"
+   "title": "Godzilla vs. 3 Giant Monsters",
+   "titles": {
+    "ja": "ゴジラ対３大怪獣"
+   }
   },
   "msx:153491": {
    "aliases": [
@@ -29878,7 +30178,10 @@
    "sourceGroups": [
     "msx:Mokarimakka (1986) (Lebrn Pro).zip"
    ],
-   "title": "Mo-Karimakka. Bochibochidenna Sport"
+   "title": "Mo-Karimakka. Bochibochidenna Sport",
+   "titles": {
+    "ja": "もーかりまっか？ぼちぼちでんなっ！"
+   }
   },
   "msx:154484": {
    "boxArtUrl": "https://images.launchbox-app.com/738a2742-e0ca-4046-965e-6e8434b6ea2b.jpg",
@@ -33238,6 +33541,9 @@
     "msx:Seiken Acho (1985) (Ascii).zip"
    ],
    "title": "Seiken Acho",
+   "titles": {
+    "ja": "聖拳アチョー"
+   },
    "year": 1985
   },
   "msx:155309": {
@@ -35203,7 +35509,10 @@
    "sourceGroups": [
     "msx:Fairy (1985) (Zap).zip"
    ],
-   "title": "Fairy"
+   "title": "Fairy",
+   "titles": {
+    "ja": "フェアリー"
+   }
   },
   "msx:167712": {
    "boxArtUrl": "https://images.launchbox-app.com/a99195d4-040f-4256-a322-03cf07100ca5.jpg",
@@ -35432,7 +35741,10 @@
    "launchbox": "168369",
    "publisher": "KG Soft",
    "screenshotUrl": "https://images.launchbox-app.com/9d5b08c1-a3f1-4802-86a1-8a1e245053ae.png",
-   "title": "Safari X"
+   "title": "Safari X",
+   "titles": {
+    "ja": "サファリＸ"
+   }
   },
   "msx:168372": {
    "boxArtUrl": "https://images.launchbox-app.com/cce4d321-65cb-4d67-b9a2-6c5d25271955.jpg",
@@ -35506,7 +35818,10 @@
    "sourceGroups": [
     "msx:Scion (1985) (Sony).zip"
    ],
-   "title": "Scion"
+   "title": "Scion",
+   "titles": {
+    "ja": "サイオン"
+   }
   },
   "msx:168378": {
    "aliases": [
@@ -35540,7 +35855,10 @@
    "sourceGroups": [
     "msx:Senjyo (1984) (Sony).zip"
    ],
-   "title": "Senjyo"
+   "title": "Senjyo",
+   "titles": {
+    "ja": "センジョー"
+   }
   },
   "msx:168380": {
    "aliases": [
@@ -35565,7 +35883,10 @@
    "sourceGroups": [
     "msx:Sinbad (1986) (Casio).zip"
    ],
-   "title": "Shindobaddo Nanatsu no Bouken"
+   "title": "Shindobaddo Nanatsu no Bouken",
+   "titles": {
+    "ja": "シンドバッド７つの冒険"
+   }
   },
   "msx:168381": {
    "aliases": [
@@ -35622,7 +35943,10 @@
    "sourceGroups": [
     "msx:Skooter (1987) (Pony Cannon).zip"
    ],
-   "title": "Skooter"
+   "title": "Skooter",
+   "titles": {
+    "ja": "スクーター"
+   }
   },
   "msx:168573": {
    "aliases": [
@@ -35656,7 +35980,10 @@
    "sourceGroups": [
     "msx:Sofia (1987) (Dempa).zip"
    ],
-   "title": "Sofia"
+   "title": "Sofia",
+   "titles": {
+    "ja": "ソフィア"
+   }
   },
   "msx:168575": {
    "aliases": [
@@ -35690,7 +36017,10 @@
    "sourceGroups": [
     "msx:Space Trouble (1984) (Hal).zip"
    ],
-   "title": "Space Trouble"
+   "title": "Space Trouble",
+   "titles": {
+    "ja": "スペーストラブル"
+   }
   },
   "msx:168576": {
    "aliases": [
@@ -35724,7 +36054,10 @@
    "sourceGroups": [
     "msx:Sparkie (1983) (Sony).zip"
    ],
-   "title": "Sparkie"
+   "title": "Sparkie",
+   "titles": {
+    "ja": "スパーキー"
+   }
   },
   "msx:168577": {
    "aliases": [
@@ -35800,7 +36133,10 @@
    "sourceGroups": [
     "msx:Star Blazer (1985) (Sony).zip"
    ],
-   "title": "Star Blazer"
+   "title": "Star Blazer",
+   "titles": {
+    "ja": "スターブレーザー"
+   }
   },
   "msx:168583": {
    "aliases": [
@@ -35951,7 +36287,10 @@
    "sourceGroups": [
     "msx:Super Drinker (1983) (Ample).zip"
    ],
-   "title": "Super Drinker"
+   "title": "Super Drinker",
+   "titles": {
+    "ja": "スーパードリンカー"
+   }
   },
   "msx:168593": {
    "aliases": [
@@ -36092,7 +36431,10 @@
    "sourceGroups": [
     "msx:Tawarakun (1984) (Ascii).zip"
    ],
-   "title": "Tawara"
+   "title": "Tawara",
+   "titles": {
+    "ja": "たわらくん"
+   }
   },
   "msx:168609": {
    "developer": "CEZ GS",
@@ -36133,7 +36475,10 @@
    "sourceGroups": [
     "msx:Telebunnie (1983) (Ascii).zip"
    ],
-   "title": "Tele Bunnie"
+   "title": "Tele Bunnie",
+   "titles": {
+    "ja": "テレバニー"
+   }
   },
   "msx:168632": {
    "aliases": [
@@ -36167,7 +36512,10 @@
    "sourceGroups": [
     "msx:Tensai Rabbian Daifunsen (1986) (Toshiba Emi).zip"
    ],
-   "title": "Tensai Rabbian Daifunsen"
+   "title": "Tensai Rabbian Daifunsen",
+   "titles": {
+    "ja": "天才ラビアン大奮戦"
+   }
   },
   "msx:168633": {
    "launchbox": "168633",
@@ -36206,7 +36554,10 @@
    "sourceGroups": [
     "msx:Thunder Bolt (1986) (Pixel).zip"
    ],
-   "title": "Thunderbolt"
+   "title": "Thunderbolt",
+   "titles": {
+    "ja": "サンダーボルト"
+   }
   },
   "msx:168781": {
    "boxArtUrl": "https://images.launchbox-app.com/3bae5c43-e78a-47a1-881d-e53cfff7d60b.jpg",
@@ -36329,7 +36680,10 @@
    "mobygames": 55677,
    "publisher": "Sein-Soft",
    "screenshotUrl": "https://images.launchbox-app.com/8e5bf9a7-2a6d-44e0-b986-117bec2b25c3.png",
-   "title": "Tritorn"
+   "title": "Tritorn",
+   "titles": {
+    "ja": "トリトーン"
+   }
   },
   "msx:168793": {
    "launchbox": "168793",
@@ -36388,7 +36742,10 @@
    "sourceGroups": [
     "msx:Warp Warp (1984) (Namcot).zip"
    ],
-   "title": "Warp & Warp"
+   "title": "Warp & Warp",
+   "titles": {
+    "ja": "ワープ＆ワープ"
+   }
   },
   "msx:168904": {
    "boxArtUrl": "https://images.launchbox-app.com/a603a72c-80f0-452b-9795-9ea76ce970f4.jpg",
@@ -36505,7 +36862,10 @@
    "mobygames": 234975,
    "publisher": "Sony",
    "screenshotUrl": "https://images.launchbox-app.com/e747521c-b872-4123-b227-9a6a741b9369.png",
-   "title": "Wedding Bells"
+   "title": "Wedding Bells",
+   "titles": {
+    "ja": "ウェディングベル"
+   }
   },
   "msx:171269": {
    "boxArtUrl": "https://images.launchbox-app.com/025b6473-76a5-40d2-bcf7-d86ca92b26a4.png",
@@ -36524,7 +36884,10 @@
    "launchbox": "171269",
    "mobygames": 52325,
    "publisher": "Enix",
-   "title": "Zarth"
+   "title": "Zarth",
+   "titles": {
+    "ja": "ザース"
+   }
   },
   "msx:173331": {
    "boxArtUrl": "https://images.launchbox-app.com/b14c4079-5366-42c1-aab6-eff0e9783f8b.jpg",
@@ -38255,6 +38618,9 @@
     "msx:Wing Man 2 (1987) (Enix).zip"
    ],
    "title": "Wing Man 2",
+   "titles": {
+    "ja": "ウイングマン２"
+   },
    "year": 1987
   },
   "msx:181398": {
@@ -38374,6 +38740,9 @@
     "msx:Harryfox Yki no Maoh (1985) (Micro Cabin).zip"
    ],
    "title": "Harry Fox: Yuki no Maou hen",
+   "titles": {
+    "ja": "は～りぃふぉっくす ～雪の魔王編～"
+   },
    "year": 1986
   },
   "msx:181411": {
@@ -38580,7 +38949,10 @@
    "sourceGroups": [
     "msx:Space Camp (1986) (Pack In Video).zip"
    ],
-   "title": "Space Camp"
+   "title": "Space Camp",
+   "titles": {
+    "ja": "スペースキャンプ"
+   }
   },
   "msx:181423": {
    "adult": true,
@@ -39121,7 +39493,10 @@
    "sourceGroups": [
     "msx:Starship Simulator (1984) (Nexa).zip"
    ],
-   "title": "Starship Simulator"
+   "title": "Starship Simulator",
+   "titles": {
+    "ja": "スターシップシミュレータ"
+   }
   },
   "msx:181964": {
    "boxArtUrl": "https://images.launchbox-app.com/0a823783-a6ab-41c5-b563-f1ccc9864c43.jpg",
@@ -40140,7 +40515,10 @@
    "sourceGroups": [
     "msx:Tensidachino Gogo (1987) (Jast).zip"
    ],
-   "title": "Tenshi-tachi no Gogo"
+   "title": "Tenshi-tachi no Gogo",
+   "titles": {
+    "ja": "天使たちの午後"
+   }
   },
   "msx:182926": {
    "aliases": [
@@ -46476,7 +46854,10 @@
    "mobygames": 229404,
    "publisher": "Apollo Technica",
    "screenshotUrl": "https://images.launchbox-app.com/19022c59-7629-48db-b682-4c47436d8c63.png",
-   "title": "Cosmo Traveler"
+   "title": "Cosmo Traveler",
+   "titles": {
+    "ja": "コスモトラベラー"
+   }
   },
   "msx:205682": {
    "developer": "Club MSX Badía",
@@ -47159,7 +47540,10 @@
    "launchbox": "213710",
    "mobygames": 144602,
    "publisher": "Micro Cabin",
-   "title": "Mystery House II"
+   "title": "Mystery House II",
+   "titles": {
+    "ja": "ミステリーハウス2"
+   }
   },
   "msx:214365": {
    "adult": true,
@@ -47191,7 +47575,10 @@
    "sourceGroups": [
     "msx:Erika (1987) (Jast).zip"
    ],
-   "title": "Erika"
+   "title": "Erika",
+   "titles": {
+    "ja": "エリカ"
+   }
   },
   "msx:216585": {
    "boxArtUrl": "https://images.launchbox-app.com/ac6d4b0a-176c-4a00-9814-28aff8352926.jpg",
@@ -47290,7 +47677,10 @@
    "mobygames": 52326,
    "publisher": "Enix",
    "screenshotUrl": "https://images.launchbox-app.com/ef1da862-2388-4bb4-9d36-f64a66067d17.png",
-   "title": "Wing Man"
+   "title": "Wing Man",
+   "titles": {
+    "ja": "ウイングマン"
+   }
   },
   "msx:220148": {
    "aliases": [
@@ -47953,6 +48343,9 @@
    "publisher": "Pony Canyon",
    "screenshotUrl": "https://images.launchbox-app.com/d08e31a5-cbf9-4d67-8512-80af6d7d5206.png",
    "title": "Jackie Chan in Project A",
+   "titles": {
+    "ja": "ジャッキー・チェンのプロジェクトA"
+   },
    "year": 1984
   },
   "msx:27030": {
@@ -47977,6 +48370,9 @@
    "publisher": "Pony Canyon",
    "screenshotUrl": "https://images.launchbox-app.com/61d71b37-1465-4199-89c2-e07d143ebc88.png",
    "title": "Jackie Chan in The Protector",
+   "titles": {
+    "ja": "ジャッキー・チェンのプロテクター"
+   },
    "year": 1985
   },
   "msx:27031": {
@@ -48001,6 +48397,9 @@
    "publisher": "Pony Canyon",
    "screenshotUrl": "https://images.launchbox-app.com/c8d92c7f-0494-4afb-9d68-e10df3677e6e.png",
    "title": "Jackie Chan in Spartan X",
+   "titles": {
+    "ja": "ジャッキー・チェンのスパルタンX"
+   },
    "year": 1985
   },
   "msx:27032": {
@@ -55303,6 +55702,9 @@
    },
    "mobygames": 143930,
    "title": "Mystery House",
+   "titles": {
+    "ja": "ミステリーハウス"
+   },
    "year": 1983
   },
   "msx:moby-144572": {
@@ -57885,6 +58287,9 @@
    },
    "mobygames": 30399,
    "title": "Shadow Hunter",
+   "titles": {
+    "ja": "シャドゥハンター"
+   },
    "year": 1988
   },
   "msx:moby-32520": {
@@ -58207,6 +58612,9 @@
    },
    "mobygames": 45786,
    "title": "Tenshitachi no Gogo II: Minako",
+   "titles": {
+    "ja": "天使たちの午後ＩＩ -美奈子-"
+   },
    "year": 1988
   },
   "msx:moby-45788": {
@@ -58224,6 +58632,9 @@
    },
    "mobygames": 45788,
    "title": "Tenshitachi no Gogo III: Ribbon",
+   "titles": {
+    "ja": "天使たちの午後ＩＩＩ リボン"
+   },
    "year": 1990
   },
   "msx:moby-45817": {
@@ -58241,6 +58652,9 @@
    },
    "mobygames": 45817,
    "title": "Tenshitachi no Gogo II: Bangai-hen",
+   "titles": {
+    "ja": "天使たちの午後II -番外編-"
+   },
    "year": 1989
   },
   "msx:moby-46215": {
@@ -58340,6 +58754,9 @@
    },
    "mobygames": 47799,
    "title": "Girls Paradise: Rakuen no Tenshitachi",
+   "titles": {
+    "ja": "ガールズパラダイス 楽園の天使たち"
+   },
    "year": 1989
   },
   "msx:moby-49700": {
@@ -58373,6 +58790,9 @@
    },
    "mobygames": 50286,
    "title": "Kimi Dake ni Ai o...",
+   "titles": {
+    "ja": "キミだけに愛を・・・"
+   },
    "year": 1991
   },
   "msx:moby-50471": {
@@ -58542,6 +58962,9 @@
    },
    "mobygames": 55031,
    "title": "DOME",
+   "titles": {
+    "ja": "ドーム"
+   },
    "year": 1988
   },
   "msx:moby-55736": {
@@ -59024,6 +59447,9 @@
    },
    "mobygames": 58967,
    "title": "Twilight Zone Vol. 4: Tokubetsu-hen",
+   "titles": {
+    "ja": "トワイライトゾーン VOL. 4 特別編"
+   },
    "year": 1990
   },
   "msx:moby-60067": {

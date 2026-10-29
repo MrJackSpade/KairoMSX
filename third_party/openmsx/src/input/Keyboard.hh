@@ -69,6 +69,8 @@ public:
 	~Keyboard();
 
 	[[nodiscard]] const MsxChar2Unicode& getMsxChar2Unicode() const;
+	// KairoMSX: the machine's keyboard layout, for typing startup commands.
+	[[nodiscard]] const UnicodeKeymap& getUnicodeKeymap() const { return unicodeKeymap; }
 
 	/** Returns a pointer to the current KeyBoard matrix
 	 */

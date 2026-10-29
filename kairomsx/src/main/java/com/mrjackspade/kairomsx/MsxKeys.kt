@@ -7,6 +7,7 @@ import com.mrjackspade.kairo.frontend.GuestKeyboardLayout
 import com.mrjackspade.kairo.frontend.GuestKeyboardPage
 import com.mrjackspade.kairo.frontend.UiText
 import com.mrjackspade.kairo.frontend.R as FrontendR
+import com.mrjackspade.kairo.frontend.JisKana
 import com.mrjackspade.kairo.frontend.JoystickInputRouter
 import com.mrjackspade.kairo.frontend.KeyboardKey
 import com.mrjackspade.kairo.frontend.SymbolPage
@@ -14,8 +15,8 @@ import android.view.KeyEvent
 
 /**
  * The MSX keyboard by its place in the keyboard matrix (the core's keys: row * 8 + column + 1, so
- * row 0 column 0 is 1), with the international legends of the C-BIOS machines, and the joystick in
- * port A.
+ * row 0 column 0 is 1): [layout] with the international legends of the C-BIOS machines, [jisLayout]
+ * with a Japanese MSX's JIS legends and kana; and the joystick in port A.
  */
 object MsxKeys {
     private fun key(row: Int, column: Int) = row * 8 + column + 1
@@ -82,6 +83,75 @@ object MsxKeys {
         chordShiftCode = SHIFT
     )
 
+    /**
+     * A Japanese MSX's keyboard: the same matrix with the Japanese legends, so row 1 is - ^ ¥ @ [ ;
+     * and row 2 : ] , . / and the ろ key (_ with Shift). A JIS model (openMSX keyboard_type jp_jis)
+     * shows its kana legends while カナ (the international Code key) is on; a jp_ansi model has its
+     * kana elsewhere, which [japaneseLayout] does not show.
+     */
+    val jisLayout = japaneseLayout(kana = true)
+    val japaneseAnsiLayout = japaneseLayout(kana = false)
+
+    private fun japaneseLayout(kana: Boolean) = GuestKeyboardLayout(
+        brand = "KAIROMSX",
+        pages = listOf(
+            GuestKeyboardPage("ABC", japaneseAlphabetRows(kana)),
+            GuestKeyboardPage("?123", japaneseSymbolRows(), pickerLabel = UiText.res(FrontendR.string.kairo_keyboard_symbols)),
+            GuestKeyboardPage("MSX", msxRows(japanese = true))
+        ),
+        modifiers = setOf(SHIFT, CTRL, GRAPH, CODE, CAPS),
+        shiftCodes = setOf(SHIFT),
+        capsCode = CAPS,
+        chordShiftCode = SHIFT,
+        kanaCode = CODE
+    )
+
+    /** The Japanese keys by their legend and matrix position, with their Shift legend. */
+    private val japaneseSymbols = listOf(
+        Triple('-', MINUS, "="), Triple('^', EQUALS, "~"), Triple('¥', BACKSLASH, "|"),
+        Triple('@', LEFT_BRACKET, "`"), Triple('[', RIGHT_BRACKET, "{"), Triple(';', SEMICOLON, "+"),
+        Triple(':', QUOTE, "*"), Triple(']', BACKQUOTE, "}"), Triple(',', COMMA, "<"), Triple('.', DOT, ">"),
+        Triple('/', SLASH, "?"), Triple('_', DEAD, "_"))
+    private val japaneseShiftedDigits = listOf("!", "\"", "#", "$", "%", "&", "'", "(", ")", null)
+
+    /** A key with its JIS kana legends, or without for a keyboard whose kana are elsewhere. */
+    private fun japanese(char: Char, code: Int, kana: Boolean, shifted: String? = null) =
+        if (kana) JisKana.key(char, code, shifted = shifted) else KeyboardKey("$char", code, shifted = shifted)
+
+    private fun symbol(char: Char, kana: Boolean) = japaneseSymbols.first { it.first == char }.let { (legend, code, shifted) ->
+        japanese(legend, code, kana, shifted)
+    }
+
+    private fun japaneseAlphabetRows(kana: Boolean): List<List<KeyboardKey>> = listOf(
+        listOf(KeyboardKey("Esc", ESC, 1.3f)) +
+            DIGITS.toList().zip(japaneseShiftedDigits).map { (char, shifted) -> japanese(char, digit(char), kana, shifted) } +
+            listOf(symbol('-', kana), symbol('^', kana), symbol('¥', kana), KeyboardKey("BS", BS, 1.5f)),
+        listOf(KeyboardKey("Tab", TAB, 1.3f)) + "QWERTYUIOP".map { japanese(it, letter(it), kana) } +
+            listOf(symbol('@', kana), symbol('[', kana), KeyboardKey("Return", RETURN, 1.5f)),
+        listOf(KeyboardKey("Ctrl", CTRL, 1.4f)) + "ASDFGHJKL".map { japanese(it, letter(it), kana) } +
+            listOf(symbol(';', kana), symbol(':', kana), symbol(']', kana)),
+        listOf(KeyboardKey("Shift", SHIFT, 1.5f)) + "ZXCVBNM".map { japanese(it, letter(it), kana) } +
+            listOf(symbol(',', kana), symbol('.', kana), symbol('/', kana), symbol('_', kana),
+                KeyboardKey("Shift", SHIFT, 1.5f)),
+        listOf(KeyboardKey("Caps", CAPS), KeyboardKey("Graph", GRAPH), KeyboardKey("Space", SPACE, 5f),
+            KeyboardKey("カナ", CODE), KeyboardKey("←", LEFT), KeyboardKey("↑", UP), KeyboardKey("↓", DOWN),
+            KeyboardKey("→", RIGHT))
+    )
+
+    /** Each Japanese symbol on its own key, Shift chorded where the symbol needs it (_ always does). */
+    private fun japaneseSymbolRows(): List<List<KeyboardKey>> = SymbolPage.rows(
+        digits = DIGITS.map { KeyboardKey("$it", digit(it)) },
+        delete = KeyboardKey("BS", BS, 1.5f),
+        shiftedDigits = DIGITS.toList().zip(japaneseShiftedDigits).mapNotNull { (char, symbol) ->
+            symbol?.let { KeyboardKey(it, digit(char), chordShift = true) }
+        },
+        symbols = japaneseSymbols.filter { it.first != '_' }.map { (legend, code, _) -> KeyboardKey("$legend", code) },
+        shiftedSymbols = japaneseSymbols.mapNotNull { (_, code, shifted) -> shifted?.let { KeyboardKey(it, code, chordShift = true) } },
+        space = KeyboardKey("Space", SPACE, 5f),
+        enter = KeyboardKey("Return", RETURN, 1.5f),
+        escape = KeyboardKey("Esc", ESC, 1.3f),
+        tab = KeyboardKey("Tab", TAB))
+
     private fun alphabetRows(): List<List<KeyboardKey>> = listOf(
         listOf(KeyboardKey("Esc", ESC, 1.3f)) +
             DIGITS.zip("!@#$%^&*()").map { (char, shifted) -> KeyboardKey("$char", digit(char), shifted = "$shifted") } +
@@ -117,12 +187,14 @@ object MsxKeys {
         escape = KeyboardKey("Esc", ESC, 1.3f),
         tab = KeyboardKey("Tab", TAB))
 
-    private fun msxRows(): List<List<KeyboardKey>> = listOf(
+    /** The MSX's own keys; on a Japanese MSX ([japanese]) Code is カナ and the dead key's place is ろ. */
+    private fun msxRows(japanese: Boolean = false): List<List<KeyboardKey>> = listOf(
         function.mapIndexed { index, code -> KeyboardKey("F${index + 1}", code) } +
             listOf(KeyboardKey("Stop", STOP), KeyboardKey("Select", SELECT), KeyboardKey("Home", HOME),
                 KeyboardKey("Ins", INS), KeyboardKey("Del", DEL)),
         listOf(KeyboardKey("Ctrl", CTRL), KeyboardKey("Shift", SHIFT), KeyboardKey("Graph", GRAPH),
-            KeyboardKey("Code", CODE), KeyboardKey("Dead", DEAD), KeyboardKey("↑", UP)),
+            KeyboardKey(if (japanese) "カナ" else "Code", CODE), KeyboardKey(if (japanese) "ろ" else "Dead", DEAD),
+            KeyboardKey("↑", UP)),
         listOf(KeyboardKey("7", numpad(7)), KeyboardKey("8", numpad(8)), KeyboardKey("9", numpad(9)),
             KeyboardKey("/", NUM_SLASH), KeyboardKey("*", NUM_STAR), KeyboardKey("←", LEFT), KeyboardKey("↓", DOWN),
             KeyboardKey("→", RIGHT)),

@@ -85,6 +85,9 @@ public:
     // special keys.
     kairo::Prompt prompt();
     bool typed_key(char c, int &code, bool &shift);
+    // The machine's keyboard as its configuration names it (openMSX keyboard_type): jp_jis on a
+    // Japanese MSX, int on an international one, and so on.
+    std::string keyboard_type();
     static int special_key(kairo::SpecialKey key);
     // How many times the guest has toggled a joystick port's pin 8, as a mouse program does to read
     // the mouse (patch group openmsx-mouse-strobes).

@@ -285,6 +285,7 @@ int main(int argc, char **argv) {
     if (config.media[kairomsx::kDiskA].empty() && config.media[kairomsx::kCassette].empty() && machine->loading())
         return fail("loading without a disk or tape");
     std::printf("cartridge A: %s\n", machine->media_path(kairomsx::kCartA).c_str());
+    std::printf("keyboard: %s\n", machine->keyboard_type().c_str());
     if (!typed.empty()) {
         // The machine as kairo::StartupTyper types into it, through MsxMachine's prompt hooks.
         struct Typing {

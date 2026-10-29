@@ -714,6 +714,7 @@ Keyboard::Keyboard(MSXMotherBoard& motherBoard,
 	, keybDebuggable(motherBoard)
 	, unicodeKeymap(config.getChildData(
 		"keyboard_type", defaultKeymapForMatrix[matrix]))
+	, kairoKeyboardType(config.getChildData("keyboard_type", defaultKeymapForMatrix[matrix]))
 	, hasKeypad(config.getChildDataAsBool("has_keypad", true))
 	, blockRow11(matrix == Matrix::MSX
 		&& !config.getChildDataAsBool("has_yesno_keys", false))

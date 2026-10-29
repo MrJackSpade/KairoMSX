@@ -243,6 +243,11 @@ private:
 	} keybDebuggable;
 
 	UnicodeKeymap unicodeKeymap;
+	// KairoMSX: the keyboard_type the keymap was made for.
+	std::string kairoKeyboardType;
+public:
+	[[nodiscard]] const std::string& getKairoKeyboardType() const { return kairoKeyboardType; }
+private:
 
 	// Remembers the last unicode for a key-press-scancode. To be used later
 	// on the corresponding key-release, because those don't have unicode info.

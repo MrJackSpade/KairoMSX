@@ -11,6 +11,7 @@ import com.mrjackspade.kairo.frontend.LayeredGameCatalog
 import com.mrjackspade.kairo.frontend.LibraryStrings
 import com.mrjackspade.kairo.frontend.MachineActivity
 import com.mrjackspade.kairo.frontend.MachineFirstRun
+import com.mrjackspade.kairo.frontend.MachineStatus
 import com.mrjackspade.kairo.frontend.NativeMachine
 import com.mrjackspade.kairo.frontend.StartupCommands
 import com.mrjackspade.kairo.frontend.ShippedAssets
@@ -32,7 +33,8 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
             UiText.res(FrontendR.string.kairo_folder_button)),
         UiText.res(FrontendR.string.kairo_saves_group), "MrJackSpade/KairoMSX")
     override val machine = Machine(320, 240, 4.0 / 3.0, "state.oms")
-    override val bridge by lazy { NativeMachine("kairomsx", listOf(MsxKeys.CAPS)) }
+    // Caps, and on a Japanese MSX the Code key as カナ (MsxKeys.jisLayout), as the machine's lights show them.
+    override val bridge by lazy { NativeMachine("kairomsx", listOf(MsxKeys.CAPS, MsxKeys.CODE)) }
     override val keyboard = MsxKeys.layout
     override val maxKeyCode = MsxKeys.MAX_CODE
     override fun guestKey(androidKey: Int) = MsxKeys.fromAndroid(androidKey)
@@ -133,7 +135,31 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
         options += StartupCommands.setting(MsxCatalog.startupCommands.value(game, options))
         check(bridge.start("", home.absolutePath, images, options)) { "Another machine is still running" }
         awaitRunning()
+        followKeyboard()
         mediaStarted(media)
+    }
+
+    /**
+     * The on-screen keyboard of the machine that runs, once its first frame names it (msx_core.cpp
+     * details, KairoMSX#45): a Japanese MSX (keyboard_type jp_*) has the Japanese legends, with its kana
+     * on a JIS one (jp_jis); any other keeps the international legends.
+     */
+    private fun followKeyboard() {
+        while (true) {
+            val status = MachineStatus(bridge.status())
+            if (status.state == "Error") error(status.error)
+            val type = status.core["keyboard"]
+            if (type != null) {
+                val layout = when {
+                    type == "jp_jis" -> MsxKeys.jisLayout
+                    type.startsWith("jp_") -> MsxKeys.japaneseAnsiLayout
+                    else -> MsxKeys.layout
+                }
+                runOnUiThread { useKeyboard(layout) }
+                return
+            }
+            Thread.sleep(20)
+        }
     }
 
     // MSX-BASIC's prompt: the disk machine boots with its drives empty and the game's disks and tape
@@ -147,6 +173,7 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
         if (options[MsxCatalog.machine.id] == MsxCatalog.AUTOMATIC) options[MsxCatalog.machine.id] = MsxCatalog.DISK_MACHINE
         check(bridge.start("", home.absolutePath, List(5) { null }, options)) { "Another machine is still running" }
         awaitRunning()
+        followKeyboard()
         val diskB = if (isDisk(entry)) companionFor(game.mediaId("floppyB"), entry, launchEntries,
             UiText.res(FrontendR.string.kairo_second_disk_missing), ::isDisk) else null
         // In the core's slot order (msx_core.cpp): cartridge A, cartridge B, disk A, disk B, cassette.

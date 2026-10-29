@@ -241,6 +241,23 @@ OPENMSX_KEYMAP_GETTER = [
      '\t[[nodiscard]] const UnicodeKeymap& getUnicodeKeymap() const { return unicodeKeymap; }\n'),
 ]
 
+# The on-screen keyboard follows the machine's own (KairoMSX#45): its keyboard_type, such as jp_jis
+# on a Japanese MSX, as the machine's configuration names it (MsxMachine::keyboard_type).
+OPENMSX_KEYBOARD_TYPE = [
+    ('openmsx/src/input/Keyboard.hh',
+     '\tUnicodeKeymap unicodeKeymap;\n',
+     '\tUnicodeKeymap unicodeKeymap;\n'
+     '\t// KairoMSX: the keyboard_type the keymap was made for.\n'
+     '\tstd::string kairoKeyboardType;\n'
+     'public:\n'
+     '\t[[nodiscard]] const std::string& getKairoKeyboardType() const { return kairoKeyboardType; }\n'
+     'private:\n'),
+    ('openmsx/src/input/Keyboard.cc',
+     '\t, unicodeKeymap(config.getChildData(\n\t\t"keyboard_type", defaultKeymapForMatrix[matrix]))\n',
+     '\t, unicodeKeymap(config.getChildData(\n\t\t"keyboard_type", defaultKeymapForMatrix[matrix]))\n'
+     '\t, kairoKeyboardType(config.getChildData("keyboard_type", defaultKeymapForMatrix[matrix]))\n'),
+]
+
 PATCHES = {
     'openmsx-main-thread': OPENMSX_MAIN_THREAD,
     'openmsx-android-stack-check': OPENMSX_ANDROID_STACK_CHECK,
@@ -255,4 +272,5 @@ PATCHES = {
     'openmsx-led-getter': OPENMSX_LED_GETTER,
     'openmsx-mouse-strobes': OPENMSX_MOUSE_STROBES,
     'openmsx-keymap-getter': OPENMSX_KEYMAP_GETTER,
+    'openmsx-keyboard-type': OPENMSX_KEYBOARD_TYPE,
 }

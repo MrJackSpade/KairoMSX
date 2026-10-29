@@ -32,6 +32,11 @@ public:
     std::string state_error() override { return error_; }
     // Bit 0 Caps, as NativeMachine lists it (MainActivity); bit 1, Kana, waits for its key (KairoMSX#45).
     int locks() override { return machine_->locks(); }
+    // The machine's keyboard, which the on-screen keyboard follows (MainActivity, KairoMSX#45).
+    std::string details() override {
+        if (details_.empty()) details_ = "keyboard=" + machine_->keyboard_type();
+        return details_;
+    }
 
     // Startup commands (KairoMSX#41), typed at MSX-BASIC's Ok or MSX-DOS's A> on the machine's own
     // keyboard layout; keys are row * 8 + column + 1, as key() takes them.
@@ -94,6 +99,8 @@ public:
 
 private:
     std::unique_ptr<MsxMachine> machine_;
+    // details(), which the machine's keyboard alone makes, read after every frame.
+    std::string details_;
     std::string error_;
     std::array<bool, kKeyCodes> keys_{};
 };

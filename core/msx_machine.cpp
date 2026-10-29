@@ -333,6 +333,12 @@ bool MsxMachine::typed_key(char c, int &code, bool &shift) {
     return true;
 }
 
+std::string MsxMachine::keyboard_type() {
+    const Keyboard *keyboard = impl_->board().getKeyboard();
+    if (!keyboard) throw MSXException("the machine has no keyboard");
+    return keyboard->getKairoKeyboardType();
+}
+
 int MsxMachine::special_key(kairo::SpecialKey key) {
     switch (key) {
     case kairo::SpecialKey::Return: return 7 * 8 + 7 + 1;

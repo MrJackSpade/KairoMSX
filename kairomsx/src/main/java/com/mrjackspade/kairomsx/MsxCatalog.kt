@@ -80,7 +80,13 @@ object MsxCatalog : LayeredGameCatalog.Schema {
 
     override val settings: List<CatalogSetting> = options.map(CatalogSetting::Choice) +
         CatalogSetting.Drive("floppyB", UiText.res(FrontendR.string.kairo_drive_b)) { it.startsWith(FLOPPY) } +
-        startupCommands
+        startupCommands +
+        // A game's startup menus and disk swaps (shared StartupAutomation).
+        listOf(CatalogSetting.StartupChoices,
+        // Disks A and B and the cassette (MainActivity.mediaSlots 2 to 4); a cartridge restarts the machine.
+        CatalogSetting.DiskSwaps(5) { drive, id ->
+            drive in 2..3 && id.startsWith(FLOPPY) || drive == 4 && id.startsWith("sha256-tape-v1:")
+        })
     override val fields = CatalogSetting.fields(settings)
     /** A mouse game's pointer goes to a point by a push to the corner and counts (MsxMachine::mouse_warp). */
     override val directTouch = true
@@ -88,7 +94,7 @@ object MsxCatalog : LayeredGameCatalog.Schema {
     override fun validMedia(role: String, contentId: String) = role == "floppyB" && contentId.startsWith(FLOPPY)
 
     override fun validField(field: String, value: Any): Boolean =
-        field in fields && CatalogSetting.validSection(settings, field, value)
+        field in fields && CatalogSetting.valid(settings, contentId, field, value)
 
     override fun validBindings(bindings: JSONArray) = MsxKeys.bindings.valid(bindings)
 }

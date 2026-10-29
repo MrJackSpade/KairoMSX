@@ -81,3 +81,7 @@ def NOT_GAME(path):
 # Disk sets (shared/tools/disk_sets.py): a game starts from its cartridge, first disk or tape; other disks are swapped in the game.
 BOOT_KINDS = ["rom", "fd", "tape"]
 COMPANION = {}
+
+# The media slots a disk swap can use and the disks each takes (MainActivity.mediaSlots, the
+# catalog schema's CatalogSetting.DiskSwaps; shared/tools/startup_automation.py).
+DISK_SWAPS = {2: {"fd"}, 3: {"fd"}, 4: {"tape"}}

@@ -83,6 +83,15 @@ object MsxKeys {
         chordShiftCode = SHIFT
     )
 
+    // Declared before the layouts below, which read them as the object initializes.
+    /** The Japanese keys by their legend and matrix position, with their Shift legend. */
+    private val japaneseSymbols = listOf(
+        Triple('-', MINUS, "="), Triple('^', EQUALS, "~"), Triple('¥', BACKSLASH, "|"),
+        Triple('@', LEFT_BRACKET, "`"), Triple('[', RIGHT_BRACKET, "{"), Triple(';', SEMICOLON, "+"),
+        Triple(':', QUOTE, "*"), Triple(']', BACKQUOTE, "}"), Triple(',', COMMA, "<"), Triple('.', DOT, ">"),
+        Triple('/', SLASH, "?"), Triple('_', DEAD, "_"))
+    private val japaneseShiftedDigits = listOf("!", "\"", "#", "$", "%", "&", "'", "(", ")", null)
+
     /**
      * A Japanese MSX's keyboard: the same matrix with the Japanese legends, so row 1 is - ^ ¥ @ [ ;
      * and row 2 : ] , . / and the ろ key (_ with Shift). A JIS model (openMSX keyboard_type jp_jis)
@@ -105,14 +114,6 @@ object MsxKeys {
         chordShiftCode = SHIFT,
         kanaCode = CODE
     )
-
-    /** The Japanese keys by their legend and matrix position, with their Shift legend. */
-    private val japaneseSymbols = listOf(
-        Triple('-', MINUS, "="), Triple('^', EQUALS, "~"), Triple('¥', BACKSLASH, "|"),
-        Triple('@', LEFT_BRACKET, "`"), Triple('[', RIGHT_BRACKET, "{"), Triple(';', SEMICOLON, "+"),
-        Triple(':', QUOTE, "*"), Triple(']', BACKQUOTE, "}"), Triple(',', COMMA, "<"), Triple('.', DOT, ">"),
-        Triple('/', SLASH, "?"), Triple('_', DEAD, "_"))
-    private val japaneseShiftedDigits = listOf("!", "\"", "#", "$", "%", "&", "'", "(", ")", null)
 
     /** A key with its JIS kana legends, or without for a keyboard whose kana are elsewhere. */
     private fun japanese(char: Char, code: Int, kana: Boolean, shifted: String? = null) =

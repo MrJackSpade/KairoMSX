@@ -177,7 +177,9 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
                                progress: (String) -> Unit) {
         val home = prepareOpenmsx(progress)
         val options = optionValues(game).toMutableMap()
-        if (options[MsxCatalog.machine.id] == MsxCatalog.AUTOMATIC) options[MsxCatalog.machine.id] = MsxCatalog.DISK_MACHINE
+        // Only a real machine has MSX-BASIC: Automatic, and a C-BIOS machine a cartridge game is set to,
+        // open on the disk machine instead.
+        if (!MsxCatalog.hasBasic(options.getValue(MsxCatalog.machine.id))) options[MsxCatalog.machine.id] = MsxCatalog.DISK_MACHINE
         // A hard disk is there from the start: its IDE interface plugs in only as the machine starts.
         val hardDisk = entry.takeIf(::isHardDisk)?.let { this.images.prepare(it, cancelled, progress).absolutePath }
         check(bridge.start("", home.absolutePath, List(5) { null } + hardDisk, options)) { "Another machine is still running" }

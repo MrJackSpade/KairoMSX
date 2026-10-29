@@ -28,6 +28,9 @@ object MsxCatalog : LayeredGameCatalog.Schema {
     const val CARTRIDGE_MACHINE = "C-BIOS_MSX2+"
     const val DISK_MACHINE = "Panasonic_FS-A1WSX"
 
+    /** Whether [machine] (a [machine] choice) has MSX-BASIC: the real machines; C-BIOS starts only cartridges. */
+    fun hasBasic(machine: String) = machine != AUTOMATIC && !machine.startsWith("C-BIOS")
+
     /**
      * The machine a game starts on, by openMSX's name. The C-BIOS machines ship with the app and
      * start cartridges; each MSX generation runs the cartridges of the ones before it, the Japanese

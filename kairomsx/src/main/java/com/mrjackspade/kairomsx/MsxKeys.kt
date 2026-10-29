@@ -116,11 +116,13 @@ object MsxKeys {
     )
 
     /** A key with its JIS kana legends, or without for a keyboard whose kana are elsewhere. */
-    private fun japanese(char: Char, code: Int, kana: Boolean, shifted: String? = null) =
-        if (kana) JisKana.key(char, code, shifted = shifted) else KeyboardKey("$char", code, shifted = shifted)
+    private fun japanese(char: Char, code: Int, kana: Boolean, shifted: String? = null, chordShift: Boolean = false) =
+        if (kana) JisKana.key(char, code, shifted = shifted, chordShift = chordShift)
+        else KeyboardKey("$char", code, shifted = shifted, chordShift = chordShift)
 
+    /** The _ key types nothing without Shift on a Japanese MSX, so its press chords Shift to type the _ it shows. */
     private fun symbol(char: Char, kana: Boolean) = japaneseSymbols.first { it.first == char }.let { (legend, code, shifted) ->
-        japanese(legend, code, kana, shifted)
+        japanese(legend, code, kana, shifted, chordShift = legend == '_')
     }
 
     private fun japaneseAlphabetRows(kana: Boolean): List<List<KeyboardKey>> = listOf(

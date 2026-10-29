@@ -392,11 +392,13 @@ int MsxMachine::special_key(kairo::SpecialKey key) {
 
 // The prompt is the last line of text with something on it: MSX-BASIC's Ok, or MSX-DOS's drive
 // prompt (A>), with the cursor (a character outside ASCII) after it. Only the text modes have lines.
+// While BASIC shows the function keys (CNSDFG, F3DEh, not 0) they take the screen's last row, which
+// is then not a line of text.
 kairo::Prompt MsxMachine::prompt() {
     const std::string mode(impl_->execute("get_screen_mode").getString());
     if (mode != "TEXT40" && mode != "TEXT80" && mode != "1") return kairo::Prompt::None;
     const std::string screen(impl_->execute("get_screen").getString());
-    std::string last;
+    std::vector<std::string> lines;
     std::string::size_type begin = 0;
     while (begin < screen.size()) {
         auto end = screen.find('\n', begin);
@@ -404,9 +406,13 @@ kairo::Prompt MsxMachine::prompt() {
         std::string line;
         for (auto i = begin; i < end; ++i)
             if (screen[i] > ' ' && screen[i] <= '~') line += screen[i];
-        if (!line.empty()) last = line;
+        lines.push_back(line);
         begin = end + 1;
     }
+    if (!lines.empty() && std::string(impl_->execute("peek 0xF3DE").getString()) != "0") lines.pop_back();
+    std::string last;
+    for (const std::string &line : lines)
+        if (!line.empty()) last = line;
     const bool drive = last.size() == 2 && last[0] >= 'A' && last[0] <= 'H' && last[1] == '>';
     return last == "Ok" || drive ? kairo::Prompt::Line : kairo::Prompt::None;
 }

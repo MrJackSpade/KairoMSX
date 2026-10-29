@@ -22,6 +22,7 @@
 #include "MSXException.hh"
 #include "MSXMixer.hh"
 #include "GlobalSettings.hh"
+#include "Keyboard.hh"
 #include "LedStatus.hh"
 #include "MSXMotherBoard.hh"
 #include "Pluggable.hh"
@@ -317,6 +318,54 @@ uint32_t MsxMachine::read_audio(int16_t *stereo, uint32_t max_frames) {
 void MsxMachine::key(int row, int column, bool down) {
     impl_->execute(std::string(down ? "keymatrixdown " : "keymatrixup ") + std::to_string(row) + " " +
                    std::to_string(1 << column));
+}
+
+bool MsxMachine::typed_key(char c, int &code, bool &shift) {
+    const Keyboard *keyboard = impl_->board().getKeyboard();
+    if (!keyboard) throw MSXException("the machine has no keyboard");
+    const auto info = keyboard->getUnicodeKeymap().get(static_cast<unsigned char>(c));
+    if (!info.isValid()) return false;
+    // A character needing Ctrl, Graph or Code is not typed; Caps only says the key follows it.
+    using Info = UnicodeKeymap::KeyInfo;
+    if (info.modMask & (Info::CTRL_MASK | Info::GRAPH_MASK | Info::CODE_MASK)) return false;
+    code = info.pos.getRow() * 8 + info.pos.getColumn() + 1;
+    shift = (info.modMask & Info::SHIFT_MASK) != 0;
+    return true;
+}
+
+int MsxMachine::special_key(kairo::SpecialKey key) {
+    switch (key) {
+    case kairo::SpecialKey::Return: return 7 * 8 + 7 + 1;
+    case kairo::SpecialKey::Shift: return 6 * 8 + 0 + 1;
+    case kairo::SpecialKey::Ctrl: return 6 * 8 + 1 + 1;
+    case kairo::SpecialKey::F1: return 6 * 8 + 5 + 1;
+    case kairo::SpecialKey::F2: return 6 * 8 + 6 + 1;
+    case kairo::SpecialKey::F3: return 6 * 8 + 7 + 1;
+    case kairo::SpecialKey::F4: return 7 * 8 + 0 + 1;
+    case kairo::SpecialKey::F5: return 7 * 8 + 1 + 1;
+    }
+    return -1;
+}
+
+// The prompt is the last line of text with something on it: MSX-BASIC's Ok, or MSX-DOS's drive
+// prompt (A>), with the cursor (a character outside ASCII) after it. Only the text modes have lines.
+kairo::Prompt MsxMachine::prompt() {
+    const std::string mode(impl_->execute("get_screen_mode").getString());
+    if (mode != "TEXT40" && mode != "TEXT80" && mode != "1") return kairo::Prompt::None;
+    const std::string screen(impl_->execute("get_screen").getString());
+    std::string last;
+    std::string::size_type begin = 0;
+    while (begin < screen.size()) {
+        auto end = screen.find('\n', begin);
+        if (end == std::string::npos) end = screen.size();
+        std::string line;
+        for (auto i = begin; i < end; ++i)
+            if (screen[i] > ' ' && screen[i] <= '~') line += screen[i];
+        if (!line.empty()) last = line;
+        begin = end + 1;
+    }
+    const bool drive = last.size() == 2 && last[0] >= 'A' && last[0] <= 'H' && last[1] == '>';
+    return last == "Ok" || drive ? kairo::Prompt::Line : kairo::Prompt::None;
 }
 
 void MsxMachine::joystick(int control, bool down) {

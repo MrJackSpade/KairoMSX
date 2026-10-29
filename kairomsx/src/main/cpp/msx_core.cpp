@@ -32,6 +32,12 @@ public:
     std::string state_error() override { return error_; }
     // Bit 0 Caps, as NativeMachine lists it (MainActivity); bit 1, Kana, waits for its key (KairoMSX#45).
     int locks() override { return machine_->locks(); }
+
+    // Startup commands (KairoMSX#41), typed at MSX-BASIC's Ok or MSX-DOS's A> on the machine's own
+    // keyboard layout; keys are row * 8 + column + 1, as key() takes them.
+    kairo::Prompt prompt() override { return machine_->prompt(); }
+    bool typed_key(char c, int &code, bool &shift) override { return machine_->typed_key(c, code, shift); }
+    int special_key(kairo::SpecialKey key) override { return MsxMachine::special_key(key); }
     // Flat out while a disk or tape loads (Kairo#82).
     bool loading() override { return machine_->loading(); }
     // Auto touch mode (Kairo#78): the guest clocking a mouse's data out of a joystick port is the

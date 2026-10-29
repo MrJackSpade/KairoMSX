@@ -71,8 +71,16 @@ object MsxCatalog : LayeredGameCatalog.Schema {
                 .map { (hz, mhz) -> ChoiceOption(hz, UiText.res(FrontendR.string.kairo_clock_mhz, mhz)) }, AUTOMATIC)
     val options = listOf(machine, clock, memory, msxdos2)
 
+    const val LAUNCH = "launch"
+    const val COMMANDS = "commands"
+
+    /** The lines typed at MSX-BASIC's Ok or MSX-DOS's A> to start the game, such as RUN"GAME.BAS". */
+    val startupCommands = CatalogSetting.Lines(LAUNCH, COMMANDS, UiText.res(FrontendR.string.kairo_startup_commands),
+        UiText.res(FrontendR.string.kairo_startup_commands_hint), Regex("[ -~]{1,120}"), 8) { _, _ -> emptyList() }
+
     override val settings: List<CatalogSetting> = options.map(CatalogSetting::Choice) +
-        CatalogSetting.Drive("floppyB", UiText.res(FrontendR.string.kairo_drive_b)) { it.startsWith(FLOPPY) }
+        CatalogSetting.Drive("floppyB", UiText.res(FrontendR.string.kairo_drive_b)) { it.startsWith(FLOPPY) } +
+        startupCommands
     override val fields = CatalogSetting.fields(settings)
 
     override fun validMedia(role: String, contentId: String) = role == "floppyB" && contentId.startsWith(FLOPPY)

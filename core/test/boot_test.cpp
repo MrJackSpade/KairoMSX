@@ -219,13 +219,14 @@ int main(int argc, char **argv) {
     // keys of the keyboard matrix for the first three seconds (or <seconds>), as a player holds
     // keys at power-on.
     // --memory <KB> starts the machine with that much main RAM.
-    std::string probe, hold, memory;
+    // --type <line> types a startup command after the boot, as the app's typer types it.
+    std::string probe, hold, memory, typed;
     while (argc >= 3 && (std::string(argv[1]) == "--machine" || std::string(argv[1]) == "--command" ||
                          std::string(argv[1]) == "--disk" || std::string(argv[1]) == "--hold" ||
-                         std::string(argv[1]) == "--memory")) {
+                         std::string(argv[1]) == "--memory" || std::string(argv[1]) == "--type")) {
         const std::string option = argv[1];
         (option == "--machine" ? config.machine : option == "--disk" ? config.media[kairomsx::kDiskA] :
-         option == "--hold" ? hold : option == "--memory" ? memory : probe) = argv[2];
+         option == "--hold" ? hold : option == "--memory" ? memory : option == "--type" ? typed : probe) = argv[2];
         argc -= 2;
         argv += 2;
     }
@@ -284,6 +285,34 @@ int main(int argc, char **argv) {
     if (config.media[kairomsx::kDiskA].empty() && config.media[kairomsx::kCassette].empty() && machine->loading())
         return fail("loading without a disk or tape");
     std::printf("cartridge A: %s\n", machine->media_path(kairomsx::kCartA).c_str());
+    if (!typed.empty()) {
+        // The machine as kairo::StartupTyper types into it, through MsxMachine's prompt hooks.
+        struct Typing {
+            MsxMachine &machine;
+            kairo::Prompt prompt() { return machine.prompt(); }
+            bool typed_key(char c, int &code, bool &shift) { return machine.typed_key(c, code, shift); }
+            int special_key(kairo::SpecialKey key) { return MsxMachine::special_key(key); }
+            bool expand_command(std::string &) { return true; }
+            void key(int code, bool down) { machine.key((code - 1) / 8, (code - 1) % 8, down); }
+        } typing{*machine};
+        std::printf("before typing: the prompt %s\n", machine->prompt() == kairo::Prompt::Line ? "waits" : "does not wait");
+        kairo::StartupTyper typer;
+        typer.start(typed);
+        Run typed_run;
+        int frames = 0;
+        while (typer.active() && frames < 600) {
+            if (!run(*machine, machine->frame_seconds() / 2, typed_run, error)) return fail("run while typing: " + error);
+            if (!typer.frame(typing, error)) return fail("typing: " + error);
+            ++frames;
+        }
+        if (!run(*machine, 1, typed_run, error)) return fail("run after typing: " + error);
+        write_ppm(work + "/typed.ppm", typed_run);
+        std::string screen;
+        if (!machine->command("get_screen", screen)) return fail("get_screen: " + screen);
+        std::printf("typed \"%s\" %s after %d frames; the prompt %s again; the screen:\n%s", typed.c_str(),
+                    typer.active() ? "not finished" : "finished", frames,
+                    machine->prompt() == kairo::Prompt::Line ? "waits" : "does not wait", screen.c_str());
+    }
     if (!probe.empty()) {
         std::string result;
         if (!machine->command(probe, result)) return fail("command: " + result);

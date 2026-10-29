@@ -12,6 +12,7 @@ import com.mrjackspade.kairo.frontend.LibraryStrings
 import com.mrjackspade.kairo.frontend.MachineActivity
 import com.mrjackspade.kairo.frontend.MachineFirstRun
 import com.mrjackspade.kairo.frontend.NativeMachine
+import com.mrjackspade.kairo.frontend.StartupCommands
 import com.mrjackspade.kairo.frontend.ShippedAssets
 import com.mrjackspade.kairo.frontend.UiText
 import com.mrjackspade.kairo.frontend.companionFor
@@ -129,6 +130,7 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
         if (dos2) MsxDos2.install(File(checkNotNull(images[2])), { text(it) }) { name ->
             msxDos2.file(msxDos2.parts.single { it.name == name }).takeIf { it.isFile }
         }
+        options += StartupCommands.setting(MsxCatalog.startupCommands.value(game, options))
         check(bridge.start("", home.absolutePath, images, options)) { "Another machine is still running" }
         awaitRunning()
         mediaStarted(media)

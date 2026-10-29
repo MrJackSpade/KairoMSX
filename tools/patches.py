@@ -231,6 +231,16 @@ OPENMSX_MOUSE_STROBES = [
      '\tif ((prev ^ value) & 0x30) ++kairoMouseStrobes; // KairoMSX\n'),
 ]
 
+# Startup commands (KairoMSX#41) type each character on the key the machine's own keyboard layout
+# has it on (MsxMachine::typed_key).
+OPENMSX_KEYMAP_GETTER = [
+    ('openmsx/src/input/Keyboard.hh',
+     '\t[[nodiscard]] const MsxChar2Unicode& getMsxChar2Unicode() const;\n',
+     '\t[[nodiscard]] const MsxChar2Unicode& getMsxChar2Unicode() const;\n'
+     '\t// KairoMSX: the machine\'s keyboard layout, for typing startup commands.\n'
+     '\t[[nodiscard]] const UnicodeKeymap& getUnicodeKeymap() const { return unicodeKeymap; }\n'),
+]
+
 PATCHES = {
     'openmsx-main-thread': OPENMSX_MAIN_THREAD,
     'openmsx-android-stack-check': OPENMSX_ANDROID_STACK_CHECK,
@@ -244,4 +254,5 @@ PATCHES = {
     'openmsx-state-paths': OPENMSX_STATE_PATHS,
     'openmsx-led-getter': OPENMSX_LED_GETTER,
     'openmsx-mouse-strobes': OPENMSX_MOUSE_STROBES,
+    'openmsx-keymap-getter': OPENMSX_KEYMAP_GETTER,
 }

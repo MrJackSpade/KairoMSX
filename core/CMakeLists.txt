@@ -60,7 +60,9 @@ endif()
 
 # The frame-driven machine (msx_machine.h).
 add_library(kairomsx_core STATIC msx_machine.cpp)
-target_include_directories(kairomsx_core PUBLIC "${CMAKE_CURRENT_LIST_DIR}")
+target_include_directories(kairomsx_core PUBLIC "${CMAKE_CURRENT_LIST_DIR}"
+    # kairo/startup_typer.h, whose prompt hooks msx_machine.h declares (KairoMSX#41).
+    "${CMAKE_CURRENT_LIST_DIR}/../shared/frontend/src/main/cpp")
 target_link_libraries(kairomsx_core PUBLIC kairo_openmsx)
 
 if(NOT ANDROID)

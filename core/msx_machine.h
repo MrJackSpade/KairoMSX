@@ -12,6 +12,8 @@
 #include <string>
 #include <vector>
 
+#include "kairo/startup_typer.h"
+
 namespace kairomsx {
 
 // Where media go: the cartridge slots, the disk drives and the cassette player.
@@ -77,6 +79,13 @@ public:
     // Whether a disk drive or the tape is loading (openMSX's LoadingIndicators, with its
     // fullspeedwhenloading on), which the host runs flat out.
     bool loading();
+    // Startup commands (kairo::StartupTyper), with keys as the app numbers them (row * 8 + column + 1):
+    // whether MSX-BASIC or MSX-DOS waits for a line, the key that types a character on this machine's
+    // keyboard layout and whether Shift goes with it (false for one it has no plain key for), and the
+    // special keys.
+    kairo::Prompt prompt();
+    bool typed_key(char c, int &code, bool &shift);
+    static int special_key(kairo::SpecialKey key);
     // How many times the guest has toggled a joystick port's pin 8, as a mouse program does to read
     // the mouse (patch group openmsx-mouse-strobes).
     unsigned long mouse_strobes() const;

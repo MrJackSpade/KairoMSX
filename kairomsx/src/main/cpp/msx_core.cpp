@@ -32,6 +32,8 @@ public:
     std::string state_error() override { return error_; }
     // Bit 0 Caps, as NativeMachine lists it (MainActivity); bit 1, Kana, waits for its key (KairoMSX#45).
     int locks() override { return machine_->locks(); }
+    void mouse_warp(int x, int y) override { machine_->mouse_warp(x, y); }
+    bool mouse_warp_done() override { return machine_->mouse_warp_done(); }
     // The machine's keyboard, which the on-screen keyboard follows (MainActivity, KairoMSX#45).
     std::string details() override {
         if (details_.empty()) details_ = "keyboard=" + machine_->keyboard_type();

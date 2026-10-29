@@ -72,6 +72,11 @@ public:
     // scales it), and button 1 (left) or 2 (right).
     void mouse_move(int dx, int dy);
     void mouse_button(int button, bool down);
+    // Direct touch: moves an MSX mouse game's pointer to point (x, y) of the picture over the next
+    // frames, by a push past the screen's top-left corner and the counts from there
+    // (kairo::RelativeWarp), for a game that moves its pointer a pixel a count and stops it there.
+    void mouse_warp(int x, int y);
+    bool mouse_warp_done() const;
 
     // Runs an openMSX console command and returns its result; false with error set when it
     // fails.

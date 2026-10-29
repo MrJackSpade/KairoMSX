@@ -258,6 +258,16 @@ OPENMSX_KEYBOARD_TYPE = [
      '\t, kairoKeyboardType(config.getChildData("keyboard_type", defaultKeymapForMatrix[matrix]))\n'),
 ]
 
+# Direct touch (Kairo#79) gives the mouse a warp's push before its counts, each once the MSX has
+# read all of the motion before it (MsxMachine::mouse_warp).
+OPENMSX_MOUSE_IDLE = [
+    ('openmsx/src/input/Mouse.hh',
+     '\tMouse(MSXEventDistributor& eventDistributor,\n\t      StateChangeDistributor& stateChangeDistributor);\n',
+     '\tMouse(MSXEventDistributor& eventDistributor,\n\t      StateChangeDistributor& stateChangeDistributor);\n'
+     '\t// KairoMSX: whether the MSX has read all the motion the mouse was given.\n'
+     '\t[[nodiscard]] bool kairoIdle() const { return curXRel == 0 && curYRel == 0; }\n'),
+]
+
 PATCHES = {
     'openmsx-main-thread': OPENMSX_MAIN_THREAD,
     'openmsx-android-stack-check': OPENMSX_ANDROID_STACK_CHECK,
@@ -273,4 +283,5 @@ PATCHES = {
     'openmsx-mouse-strobes': OPENMSX_MOUSE_STROBES,
     'openmsx-keymap-getter': OPENMSX_KEYMAP_GETTER,
     'openmsx-keyboard-type': OPENMSX_KEYBOARD_TYPE,
+    'openmsx-mouse-idle': OPENMSX_MOUSE_IDLE,
 }

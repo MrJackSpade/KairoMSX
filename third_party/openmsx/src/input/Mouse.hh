@@ -18,6 +18,8 @@ class Mouse final : public JoystickDevice, private MSXEventListener
 public:
 	Mouse(MSXEventDistributor& eventDistributor,
 	      StateChangeDistributor& stateChangeDistributor);
+	// KairoMSX: whether the MSX has read all the motion the mouse was given.
+	[[nodiscard]] bool kairoIdle() const { return curXRel == 0 && curYRel == 0; }
 	~Mouse() override;
 
 	template<typename Archive>

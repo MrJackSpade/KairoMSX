@@ -23,6 +23,8 @@
 #include "MSXMixer.hh"
 #include "GlobalSettings.hh"
 #include "Keyboard.hh"
+#include "Mouse.hh"
+#include "kairo/relative_warp.h"
 #include "LedStatus.hh"
 #include "MSXMotherBoard.hh"
 #include "Pluggable.hh"
@@ -194,6 +196,27 @@ struct MsxMachine::Impl {
     void plug_mouse() {
         if (!mouse_plugged()) execute("plug joyportb mouse");
     }
+
+    // Direct touch (MsxMachine::mouse_warp).
+    kairo::RelativeWarp warp;
+    // Whether the MSX has read all the motion the mouse in port B was given.
+    bool mouse_idle() {
+        Connector *port = board().getPluggingController().findConnector("joyportb");
+        if (!port) throw MSXException("the machine has no joystick port B");
+        const auto *mouse = dynamic_cast<const Mouse *>(&port->getPlugged());
+        if (!mouse) throw MSXException("the mouse is not in joystick port B");
+        return mouse->kairoIdle();
+    }
+    // Motion in MSX counts: openMSX takes two host pixels a count (Mouse.cc SCALE).
+    void move_counts(int dx, int dy) {
+        SDL_Event event{};
+        event.motion.type = SDL_MOUSEMOTION;
+        event.motion.xrel = dx * 2;
+        event.motion.yrel = dy * 2;
+        plug_mouse();
+        MSXMotherBoard &motherboard = board();
+        motherboard.getMSXEventDistributor().distributeEvent(MouseMotionEvent(event), motherboard.getCurrentTime());
+    }
 };
 
 MsxMachine::MsxMachine(std::unique_ptr<Impl> impl) : impl_(std::move(impl)) {}
@@ -285,6 +308,11 @@ bool MsxMachine::run_frame(std::string &error) {
         KairoHost &host = impl_->host;
         if (!host.surface) throw MSXException("openMSX has no video system");
         // A frame ends when the shown VDP finishes it; delivering its event paints it.
+        if (impl_->warp.running()) {
+            int dx, dy;
+            impl_->warp.step(impl_->mouse_idle(), dx, dy);
+            if (dx || dy) impl_->move_counts(dx, dy);
+        }
         uint64_t frames = impl_->frames->frames();
         while (true) {
             reactor.getEventDistributor().deliverEvents();
@@ -461,8 +489,23 @@ bool MsxMachine::insert(Slot slot, const std::string &path, std::string &error) 
     }
 }
 
+// The picture is the screen inside openMSX's borders: 256 pixels across in 320 (twice that in a
+// 512-pixel mode), and 212 or 192 lines (VDP register 9's LN) in 240, both centred.
+void MsxMachine::mouse_warp(int x, int y) {
+    uint32_t width = 0, height = 0;
+    if (!frame(width, height)) throw MSXException("no picture to point at yet");
+    const int across = int(width) / 320, down = int(height) / 240;
+    const int lines = (std::stoi(std::string(impl_->execute("vdpreg 9").getString())) & 0x80) ? 212 : 192;
+    impl_->plug_mouse();
+    impl_->warp.start(x / across - 32, y / down - (240 - lines) / 2, 256, lines);
+}
+
+bool MsxMachine::mouse_warp_done() const { return impl_->warp.done(); }
+
 // The mouse's events go to the machine at the current time, as openMSX passes on a host mouse's.
 void MsxMachine::mouse_move(int dx, int dy) {
+    // A drag after a direct tap goes with the warp's counts until they are given.
+    if (impl_->warp.hold(dx / 2, dy / 2)) return;
     SDL_Event event{};
     event.motion.type = SDL_MOUSEMOTION;
     event.motion.xrel = dx;

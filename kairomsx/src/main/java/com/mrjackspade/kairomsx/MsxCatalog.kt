@@ -82,6 +82,8 @@ object MsxCatalog : LayeredGameCatalog.Schema {
         CatalogSetting.Drive("floppyB", UiText.res(FrontendR.string.kairo_drive_b)) { it.startsWith(FLOPPY) } +
         startupCommands
     override val fields = CatalogSetting.fields(settings)
+    /** A mouse game's pointer goes to a point by a push to the corner and counts (MsxMachine::mouse_warp). */
+    override val directTouch = true
 
     override fun validMedia(role: String, contentId: String) = role == "floppyB" && contentId.startsWith(FLOPPY)
 

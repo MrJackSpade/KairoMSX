@@ -77,6 +77,9 @@ public:
     // Whether a disk drive or the tape is loading (openMSX's LoadingIndicators, with its
     // fullspeedwhenloading on), which the host runs flat out.
     bool loading();
+    // How many times the guest has toggled a joystick port's pin 8, as a mouse program does to read
+    // the mouse (patch group openmsx-mouse-strobes).
+    unsigned long mouse_strobes() const;
     // The lock keys on, as the machine's lamps show them: bit 0 Caps, bit 1 Kana (the Code lamp of
     // an international MSX).
     int locks();

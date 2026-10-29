@@ -218,6 +218,19 @@ OPENMSX_LED_GETTER = [
      '\t[[nodiscard]] bool getLed(Led led) const { return ledValue[led]; }\n'),
 ]
 
+# Auto touch mode (Kairo#78) tells a mouse program by how it reads a joystick port: it toggles the
+# port's pin 8 (PSG register 15, bit 4 for port A, bit 5 for B) to clock out the mouse's nibbles,
+# which a joystick read never does. It counts whatever is plugged in: the host plugs its mouse in
+# only once the mouse is used (MsxMachine::mouse_strobes).
+OPENMSX_MOUSE_STROBES = [
+    ('openmsx/src/sound/MSXPSG.cc',
+     'void MSXPSG::writeB(byte value, EmuTime time)\n{\n',
+     '// KairoMSX: toggles of a joystick port\'s pin 8 (MsxMachine::mouse_strobes).\n'
+     'unsigned long kairoMouseStrobes = 0;\n\n'
+     'void MSXPSG::writeB(byte value, EmuTime time)\n{\n'
+     '\tif ((prev ^ value) & 0x30) ++kairoMouseStrobes; // KairoMSX\n'),
+]
+
 PATCHES = {
     'openmsx-main-thread': OPENMSX_MAIN_THREAD,
     'openmsx-android-stack-check': OPENMSX_ANDROID_STACK_CHECK,
@@ -230,4 +243,5 @@ PATCHES = {
     'openmsx-sound-driver': OPENMSX_SOUND_DRIVER,
     'openmsx-state-paths': OPENMSX_STATE_PATHS,
     'openmsx-led-getter': OPENMSX_LED_GETTER,
+    'openmsx-mouse-strobes': OPENMSX_MOUSE_STROBES,
 }

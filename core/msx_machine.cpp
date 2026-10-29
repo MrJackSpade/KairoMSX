@@ -32,6 +32,9 @@
 #include "TclObject.hh"
 #include "Thread.hh"
 
+// Toggles of a joystick port's pin 8 (patch group openmsx-mouse-strobes).
+namespace openmsx { extern unsigned long kairoMouseStrobes; }
+
 namespace kairomsx {
 
 using namespace openmsx;
@@ -346,6 +349,8 @@ void MsxMachine::reset() { impl_->execute("reset"); }
 
 // The throttle stays on (KairoMSX's RealTime paces the frames), so openMSX unthrottles only while a
 // device loads (ThrottleManager::isThrottled).
+unsigned long MsxMachine::mouse_strobes() const { return openmsx::kairoMouseStrobes; }
+
 bool MsxMachine::loading() { return !impl_->reactor->getGlobalSettings().getThrottleManager().isThrottled(); }
 
 int MsxMachine::locks() {

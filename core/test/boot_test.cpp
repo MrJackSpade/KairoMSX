@@ -280,6 +280,7 @@ int main(int argc, char **argv) {
         return fail("audio does not follow guest time");
     // Nothing loads from a disk or tape here, so the host would not run it flat out.
     std::printf("loading after the boot: %s\n", machine->loading() ? "yes" : "no");
+    std::printf("mouse strobes in the boot: %lu\n", machine->mouse_strobes());
     if (config.media[kairomsx::kDiskA].empty() && config.media[kairomsx::kCassette].empty() && machine->loading())
         return fail("loading without a disk or tape");
     std::printf("cartridge A: %s\n", machine->media_path(kairomsx::kCartA).c_str());

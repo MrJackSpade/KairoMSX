@@ -106,8 +106,12 @@ byte MSXPSG::readA(EmuTime time)
 	return joystick | keyLayout | cassetteInput;
 }
 
+// KairoMSX: toggles of a joystick port's pin 8 (MsxMachine::mouse_strobes).
+unsigned long kairoMouseStrobes = 0;
+
 void MSXPSG::writeB(byte value, EmuTime time)
 {
+	if ((prev ^ value) & 0x30) ++kairoMouseStrobes; // KairoMSX
 	byte val0 =  (value & 0x03)       | ((value & 0x10) >> 2);
 	byte val1 = ((value & 0x0C) >> 2) | ((value & 0x20) >> 3);
 	ports[0]->write(val0, time);

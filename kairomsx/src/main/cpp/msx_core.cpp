@@ -34,6 +34,12 @@ public:
     int locks() override { return machine_->locks(); }
     // Flat out while a disk or tape loads (Kairo#82).
     bool loading() override { return machine_->loading(); }
+    // Auto touch mode (Kairo#78): the guest clocking a mouse's data out of a joystick port is the
+    // mouse; with no keyboard signal of its own, the keyboard stays the default.
+    bool guest_input(GuestInput &input) override {
+        input.mouse_reads = machine_->mouse_strobes();
+        return true;
+    }
     const uint8_t *frame(uint32_t &width, uint32_t &height) override { return machine_->frame(width, height); }
     double frame_seconds() override { return machine_->frame_seconds(); }
     int32_t audio_rate() override { return machine_->sample_rate(); }

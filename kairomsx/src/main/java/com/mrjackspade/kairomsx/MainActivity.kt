@@ -48,25 +48,31 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
     /** Cartridge, disk and tape images in the formats openMSX reads. */
     private val format = DiskImageLibrary.Format(
         kinds = listOf("rom", "mx1", "mx2", "ri").associateWith { "rom" } +
-            listOf("dsk", "di1", "di2", "dmk").associateWith { "fd" } + listOf("cas", "tsx").associateWith { "tape" },
+            listOf("dsk", "di1", "di2", "dmk").associateWith { "fd" } + listOf("cas", "tsx").associateWith { "tape" } +
+            listOf("hdd", "ide", "hda", "img").associateWith { "hd" },
         labels = mapOf("rom" to UiText.res(FrontendR.string.kairo_cartridge), "fd" to UiText.res(FrontendR.string.kairo_floppy_disk),
-            "tape" to UiText.res(FrontendR.string.kairo_cassette)),
-        maxBytes = mapOf("rom" to 16L * 1024 * 1024, "fd" to 16L * 1024 * 1024, "tape" to 16L * 1024 * 1024),
+            "tape" to UiText.res(FrontendR.string.kairo_cassette), "hd" to UiText.res(FrontendR.string.kairo_hard_disk)),
+        maxBytes = mapOf("rom" to 16L * 1024 * 1024, "fd" to 16L * 1024 * 1024, "tape" to 16L * 1024 * 1024,
+            "hd" to 4L * 1024 * 1024 * 1024),
         guestName = "MSX")
-    private val images by lazy { DiskImageLibrary(this, format) }
+    // 2: archives are read again for the hard disks in them.
+    private val images by lazy { DiskImageLibrary(this, format, DiskImageLibrary.Cache(mediaFormatsVersion = 2)) }
     override fun createCatalog() = LayeredGameCatalog(this, MsxCatalog)
     override fun createLibrary(catalog: LayeredGameCatalog) = images
 
     private fun isCartridge(entry: DiskImageEntry) = format.kind(entry.displayName) == "rom"
     private fun isDisk(entry: DiskImageEntry) = format.kind(entry.displayName) == "fd"
     private fun isTape(entry: DiskImageEntry) = format.kind(entry.displayName) == "tape"
+    private fun isHardDisk(entry: DiskImageEntry) = format.kind(entry.displayName) == "hd"
 
     override val machineOptions = MsxCatalog.options
     override val mediaPageTitle = UiText.res(R.string.media)
     // In the core's slot order (msx_machine.h Slot).
     override val mediaSlots = listOf(MediaSlot<DiskImageEntry>(UiText.res(R.string.cartridge_a), ::isCartridge),
         MediaSlot(UiText.res(R.string.cartridge_b), ::isCartridge), MediaSlot(UiText.res(R.string.disk_a), ::isDisk),
-        MediaSlot(UiText.res(R.string.disk_b), ::isDisk), MediaSlot(UiText.res(FrontendR.string.kairo_cassette), ::isTape))
+        MediaSlot(UiText.res(R.string.disk_b), ::isDisk), MediaSlot(UiText.res(FrontendR.string.kairo_cassette), ::isTape),
+        // On a Sunrise IDE with the player's Nextor (msx_machine.h kHardDisk): changing it restarts the machine.
+        MediaSlot(UiText.res(FrontendR.string.kairo_hard_disk), ::isHardDisk))
 
     /**
      * The system ROMs of the real machines (assets/system_roms.json, from openMSX's machine
@@ -117,8 +123,9 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
         // A disk game's disk B: the one its catalog names, else the set's other disk.
         val diskB = if (isDisk(entry)) companionFor(game.mediaId("floppyB"), entry, launchEntries,
             UiText.res(FrontendR.string.kairo_second_disk_missing), ::isDisk) else null
-        // In the core's slot order (msx_core.cpp): cartridge A, cartridge B, disk A, disk B, cassette.
-        val media = listOf(entry.takeIf(::isCartridge), null, entry.takeIf(::isDisk), diskB, entry.takeIf(::isTape))
+        // In the core's slot order (msx_core.cpp): cartridge A, cartridge B, disk A, disk B, cassette, hard disk.
+        val media = listOf(entry.takeIf(::isCartridge), null, entry.takeIf(::isDisk), diskB, entry.takeIf(::isTape),
+            entry.takeIf(::isHardDisk))
         val images = media.map { image -> image?.let { this.images.prepare(it, cancelled, progress).absolutePath } }
         val options = optionValues(game).toMutableMap()
         val dos2 = isDisk(entry) && options[MsxCatalog.msxdos2.id] == "on"
@@ -171,13 +178,17 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
         val home = prepareOpenmsx(progress)
         val options = optionValues(game).toMutableMap()
         if (options[MsxCatalog.machine.id] == MsxCatalog.AUTOMATIC) options[MsxCatalog.machine.id] = MsxCatalog.DISK_MACHINE
-        check(bridge.start("", home.absolutePath, List(5) { null }, options)) { "Another machine is still running" }
+        // A hard disk is there from the start: its IDE interface plugs in only as the machine starts.
+        val hardDisk = entry.takeIf(::isHardDisk)?.let { this.images.prepare(it, cancelled, progress).absolutePath }
+        check(bridge.start("", home.absolutePath, List(5) { null } + hardDisk, options)) { "Another machine is still running" }
         awaitRunning()
         followKeyboard()
         val diskB = if (isDisk(entry)) companionFor(game.mediaId("floppyB"), entry, launchEntries,
             UiText.res(FrontendR.string.kairo_second_disk_missing), ::isDisk) else null
-        // In the core's slot order (msx_core.cpp): cartridge A, cartridge B, disk A, disk B, cassette.
+        // In the core's slot order (msx_core.cpp): cartridge A, cartridge B, disk A, disk B, cassette; the
+        // hard disk went in with the start.
         insertMedia(listOf(null, null, entry.takeIf(::isDisk), diskB, entry.takeIf(::isTape)), cancelled, progress)
+        mediaStarted(listOf(null, null, entry.takeIf(::isDisk), diskB, entry.takeIf(::isTape), entry.takeIf(::isHardDisk)))
     }
 
     /**

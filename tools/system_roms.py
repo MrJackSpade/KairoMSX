@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Writes kairomsx/src/main/assets/system_roms.json: the system ROMs of the real MSX machines
-KairoMSX offers, read from openMSX's machine definitions (third_party/openmsx/share/machines).
+KairoMSX offers and of the extensions it plugs in, read from openMSX's definitions
+(third_party/openmsx/share/machines and extensions).
 
 Usage: system_roms.py [--check]   (--check fails when the file is out of date)
 
@@ -16,15 +17,17 @@ import xml.etree.ElementTree as ElementTree
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-MACHINES = ROOT / 'third_party/openmsx/share/machines'
+SHARE = ROOT / 'third_party/openmsx/share'
 OUT = ROOT / 'kairomsx/src/main/assets/system_roms.json'
-# The machines offered for disk and tape games (MsxCatalog), by openMSX name, with their labels and
-# a note on what each is used for.
+# The machines offered for disk and tape games (MsxCatalog), and the extensions the app plugs in,
+# by openMSX's folder and name, with their labels and a note on what each is used for.
 OFFERED = [
-    ('Panasonic_FS-A1WSX', 'Panasonic FS-A1WSX (MSX2+)',
+    ('machines', 'Panasonic_FS-A1WSX', 'Panasonic FS-A1WSX (MSX2+)',
      'Plays disk and tape games. Cartridge games need no BIOS: they run on the built-in C-BIOS.'),
-    ('Panasonic_FS-A1GT', 'Panasonic FS-A1GT (turbo R)', 'Plays turbo R games.'),
-    ('Philips_NMS_8250', 'Philips NMS 8250 (MSX2)', 'Not needed: used only when a game\'s Machine setting picks it.'),
+    ('machines', 'Panasonic_FS-A1GT', 'Panasonic FS-A1GT (turbo R)', 'Plays turbo R games.'),
+    ('machines', 'Philips_NMS_8250', 'Philips NMS 8250 (MSX2)', 'Not needed: used only when a game\'s Machine setting picks it.'),
+    # A hard disk goes on this IDE interface (msx_machine.cpp kHardDiskExtension).
+    ('extensions', 'SunriseIDE_Nextor', 'Sunrise IDE (Nextor)', 'Plays hard disk images.'),
 ]
 # Each system ROM file's name in the app and what it does. Every offered file must have one.
 DESCRIPTIONS = {
@@ -41,14 +44,15 @@ DESCRIPTIONS = {
     'nms8250_basic-bios2.rom': ('BIOS', 'the MSX2 BIOS and BASIC that start the machine'),
     'nms8250_msx2sub.rom': ('Sub-BIOS', 'the MSX2 sub-BIOS for graphics'),
     'nms8250_disk.rom': ('Disk', 'runs the floppy drive'),
+    'Nextor-2.1.1.SunriseIDE.ROM': ('IDE ROM', 'Nextor, which runs the IDE interface and starts hard disks'),
 }
 
 
-def machine(name, label, note):
-    """The machine's ROM files, each once with its digests, and its requirements: for each device,
-    the files any one of which it loads."""
+def machine(folder, name, label, note):
+    """The machine's or extension's ROM files, each once with its digests, and its requirements: for
+    each device, the files any one of which it loads."""
     files, requirements = {}, []
-    for device in ElementTree.parse(MACHINES / f'{name}.xml').iter():
+    for device in ElementTree.parse(SHARE / folder / f'{name}.xml').iter():
         options = []
         for rom in device.findall('rom'):
             digests = tuple(sorted(d.text.strip().lower() for d in rom.findall('sha1')))

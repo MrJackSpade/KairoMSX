@@ -15,7 +15,7 @@ using kairomsx::MsxMachine;
 
 // Media slots, as MainActivity numbers them: the core's slots.
 static_assert(kairomsx::kCartA == 0 && kairomsx::kCartB == 1 && kairomsx::kDiskA == 2 && kairomsx::kDiskB == 3 &&
-              kairomsx::kCassette == 4);
+              kairomsx::kCassette == 4 && kairomsx::kHardDisk == 5);
 // MainActivity.machine.stateFile.
 constexpr const char *kStateFile = "/state.oms";
 // MainActivity.stateError reads these.

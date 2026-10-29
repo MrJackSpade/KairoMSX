@@ -220,12 +220,15 @@ int main(int argc, char **argv) {
     // keys at power-on.
     // --memory <KB> starts the machine with that much main RAM.
     // --type <line> types a startup command after the boot, as the app's typer types it.
+    // --hd <image> starts with a hard disk on the Sunrise IDE (Nextor from <work dir>/home/share/systemroms).
     std::string probe, hold, memory, typed;
     while (argc >= 3 && (std::string(argv[1]) == "--machine" || std::string(argv[1]) == "--command" ||
                          std::string(argv[1]) == "--disk" || std::string(argv[1]) == "--hold" ||
-                         std::string(argv[1]) == "--memory" || std::string(argv[1]) == "--type")) {
+                         std::string(argv[1]) == "--memory" || std::string(argv[1]) == "--type" ||
+                         std::string(argv[1]) == "--hd")) {
         const std::string option = argv[1];
         (option == "--machine" ? config.machine : option == "--disk" ? config.media[kairomsx::kDiskA] :
+         option == "--hd" ? config.media[kairomsx::kHardDisk] :
          option == "--hold" ? hold : option == "--memory" ? memory : option == "--type" ? typed : probe) = argv[2];
         argc -= 2;
         argv += 2;
@@ -286,6 +289,7 @@ int main(int argc, char **argv) {
         return fail("loading without a disk or tape");
     std::printf("cartridge A: %s\n", machine->media_path(kairomsx::kCartA).c_str());
     std::printf("keyboard: %s\n", machine->keyboard_type().c_str());
+    std::printf("hard disk: %s\n", machine->media_path(kairomsx::kHardDisk).c_str());
     if (!typed.empty()) {
         // The machine as kairo::StartupTyper types into it, through MsxMachine's prompt hooks.
         struct Typing {

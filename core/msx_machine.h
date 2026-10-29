@@ -17,7 +17,9 @@
 namespace kairomsx {
 
 // Where media go: the cartridge slots, the disk drives and the cassette player.
-enum Slot { kCartA, kCartB, kDiskA, kDiskB, kCassette, kSlots };
+// kHardDisk: a hard disk image on a Sunrise IDE interface with Nextor (the player's IDE ROM), plugged
+// in when the machine starts with one.
+enum Slot { kCartA, kCartB, kDiskA, kDiskB, kCassette, kHardDisk, kSlots };
 
 // The joystick's controls: up, down, left, right, trigger A, trigger B.
 constexpr int kJoystickControls = 6;
@@ -104,10 +106,14 @@ public:
     // The image in a slot, as it was inserted; "" when it is empty. An extension in a cartridge
     // slot is named by its openMSX name.
     std::string media_path(Slot slot);
+    // Whether the machine has the IDE interface a hard disk goes on (it starts with one).
+    bool has_hard_disk();
 
 private:
     struct Impl;
     explicit MsxMachine(std::unique_ptr<Impl> impl);
+    // insert() for the hard disk: the machine restarts with it.
+    bool insert_hard_disk(const std::string &path, std::string &error);
     std::unique_ptr<Impl> impl_;
 };
 

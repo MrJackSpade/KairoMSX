@@ -57,7 +57,12 @@ constexpr SlotCommands kSlotCommands[kSlots] = {
     {"-diska", "diska insert", "diska eject", "diska"},
     {"-diskb", "diskb insert", "diskb eject", "diskb"},
     {"-cassetteplayer", "cassetteplayer insert", "cassetteplayer eject", "cassetteplayer"},
+    // openMSX changes a hard disk only with the machine off (insert) and has none to take out.
+    {"-hda", "hda insert", nullptr, "hda"},
 };
+
+// The IDE interface a hard disk goes on (openMSX's extensions/SunriseIDE_Nextor.xml).
+constexpr const char *kHardDiskExtension = "SunriseIDE_Nextor";
 
 // The joystick the host's pad stands for: openMSX's joystick 1 ("joy1"), with no host joystick
 // behind it. Its buttons 0 to 5 are the MSX joystick's controls, in MsxMachine::joystick's order.
@@ -217,6 +222,10 @@ std::unique_ptr<MsxMachine> MsxMachine::create(const Config &config, std::string
         for (const auto &extension : config.extensions) {
             args.push_back("-ext");
             args.push_back(extension);
+        }
+        if (!config.media[kHardDisk].empty()) {
+            args.push_back("-ext");
+            args.push_back(kHardDiskExtension);
         }
         for (int slot = 0; slot < kSlots; ++slot) {
             if (config.media[slot].empty()) continue;
@@ -438,6 +447,7 @@ bool MsxMachine::load_state(const std::string &file, std::string &error) {
 }
 
 bool MsxMachine::insert(Slot slot, const std::string &path, std::string &error) {
+    if (slot == kHardDisk) return insert_hard_disk(path, error);
     try {
         if (path.empty()) {
             impl_->execute(kSlotCommands[slot].eject);
@@ -478,7 +488,39 @@ void MsxMachine::mouse_button(int button, bool down) {
     }
 }
 
+// The machine restarts with the new hard disk: openMSX changes one only with the power off.
+bool MsxMachine::insert_hard_disk(const std::string &path, std::string &error) {
+    if (path.empty()) {
+        error = "A hard disk cannot be taken out of a running MSX; start another game instead";
+        return false;
+    }
+    if (!has_hard_disk()) {
+        error = "This MSX started without a hard disk interface; start the hard disk as a game instead";
+        return false;
+    }
+    try {
+        impl_->execute("set power off");
+        impl_->execute(std::string(kSlotCommands[kHardDisk].insert) + " " + tcl_command({path}));
+        impl_->execute("set power on");
+        return true;
+    } catch (MSXException &e) {
+        error = e.getMessage();
+        return false;
+    }
+}
+
+// Whether the machine has the IDE interface, whose hda command reports its image.
+bool MsxMachine::has_hard_disk() {
+    return std::string(impl_->execute(tcl_command({"info", "commands", "hda"})).getString()) == "hda";
+}
+
 std::string MsxMachine::media_path(Slot slot) {
+    if (slot == kHardDisk) {
+        if (!has_hard_disk()) return {};
+        // "hda: <image>", and the options of a read-only one.
+        TclObject result = impl_->execute(kSlotCommands[kHardDisk].media);
+        return std::string(result.getListIndex(impl_->reactor->getInterpreter(), 1).getString());
+    }
     // A slot the machine does not have, such as a disk drive on C-BIOS, holds nothing.
     const std::string_view name = kSlotCommands[slot].media;
     TclObject slots = impl_->execute(tcl_command({"machine_info", "media"}));

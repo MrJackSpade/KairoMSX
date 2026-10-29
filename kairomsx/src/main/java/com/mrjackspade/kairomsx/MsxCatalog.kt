@@ -19,7 +19,7 @@ object MsxCatalog : LayeredGameCatalog.Schema {
     override val platform = "msx"
     override val catalogUrl = "https://raw.githubusercontent.com/MrJackSpade/KairoMSX/main/catalog/"
     override val selfHostedArt = "/MrJackSpade/KairoMSX/main/catalog/artwork/art/catalog/"
-    override val contentId = Regex("sha256-(?:rom|fd|tape)-v1:[0-9a-f]{64}")
+    override val contentId = Regex("sha256-(?:rom|fd|tape|hd)-v1:[0-9a-f]{64}")
     override val mediaExtensions =
         Regex("\\.(?:zip|7z|rom|mx1|mx2|ri|dsk|di1|di2|dmk|cas|tsx)$", RegexOption.IGNORE_CASE)
 

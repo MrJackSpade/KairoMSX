@@ -77,6 +77,7 @@ Some disks start from MSX-DOS2, ASCII's disk operating system, which only the tu
 
 ## Documentation
 
+- [Add a game](docs/add-a-game.md): set up a game the catalog doesn't know, such as your own copy of a multi-disk game
 - [Create a game](docs/create-a-game.md): make a new game on a blank floppy or hard disk and format it
 - [Licensing and credits](docs/licensing.md): code license and third-party components
 - [Source provenance](docs/source-import.md): where the emulator source came from and what was copied

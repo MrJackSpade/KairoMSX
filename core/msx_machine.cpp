@@ -7,6 +7,7 @@
 #include <initializer_list>
 #include <iterator>
 #include <string_view>
+#include <vector>
 
 #include "CommandController.hh"
 #include "CommandLineParser.hh"
@@ -88,14 +89,28 @@ void set_environment(const char *name, const std::string &value) {
 #endif
 }
 
-// The machine to start for config: config.machine, or for a memory size its variant with that much
-// main RAM, "<machine>_<size>KB". The variants of every size are written beside the machine's own
-// file, where its ROM files resolve, so a saved state of any size finds its machine. False with error
-// set when the machine's file cannot be read or a variant written.
-bool memory_machine(const Config &config, std::string &machine, std::string &error) {
+// A machine variant's name: "<machine>", then "_<size>KB" for a main RAM size and "_2drives" for a
+// second disk drive.
+std::string variant_name(const std::string &machine, int memory_kb, bool two_drives) {
+    std::string name = machine;
+    if (memory_kb) name += "_" + std::to_string(memory_kb) + "KB";
+    if (two_drives) name += "_2drives";
+    return name;
+}
+
+// The machine to start for config: config.machine, or a variant of it (variant_name):
+// - for a memory size, with that much main RAM;
+// - with an image for drive B, with a second drive on its disk interface. The disk machines have
+//   one, and openMSX only makes diskb for a second drive.
+// Every variant of the machine is written beside its own file, where its ROM files resolve, so a
+// saved state of any variant finds its machine. False with error set when the machine's file
+// cannot be read, it has no RAM size or disk drive the config needs, or a variant is not written.
+bool machine_variant(const Config &config, std::string &machine, std::string &error) {
     machine = config.machine;
-    if (config.memory_kb == 0) return true;
-    if (std::find(std::begin(kMemorySizes), std::end(kMemorySizes), config.memory_kb) == std::end(kMemorySizes)) {
+    bool sized = config.memory_kb != 0;
+    bool two_drives = !config.media[kDiskB].empty();
+    if (!sized && !two_drives) return true;
+    if (sized && std::find(std::begin(kMemorySizes), std::end(kMemorySizes), config.memory_kb) == std::end(kMemorySizes)) {
         error = "unsupported memory size " + std::to_string(config.memory_kb) + " KB";
         return false;
     }
@@ -106,27 +121,52 @@ bool memory_machine(const Config &config, std::string &machine, std::string &err
         return false;
     }
     const std::string xml((std::istreambuf_iterator<char>(in)), std::istreambuf_iterator<char>());
-    // The main RAM's size: <size> inside <MemoryMapper id="Main RAM">.
+    // The main RAM's size: <size> inside <MemoryMapper id="Main RAM">. A machine whose main RAM is
+    // not a memory mapper keeps its own.
     const size_t mapper = xml.find("<MemoryMapper id=\"Main RAM\">");
-    if (mapper == std::string::npos) return true;
-    const size_t end = xml.find("</MemoryMapper>", mapper);
-    const size_t size = xml.find("<size>", mapper);
-    const size_t size_end = xml.find("</size>", mapper);
-    if (end == std::string::npos || size == std::string::npos || size_end == std::string::npos || size_end > end) {
-        error = "the machine " + config.machine + " has no main RAM size";
-        return false;
-    }
-    for (int kb : kMemorySizes) {
-        std::string variant = xml;
-        variant.replace(size + 6, size_end - size - 6, std::to_string(kb));
-        const std::filesystem::path file = machines / (config.machine + "_" + std::to_string(kb) + "KB.xml");
-        std::ofstream out(file, std::ios::binary | std::ios::trunc);
-        if (!(out << variant)) {
-            error = "cannot write " + file.string();
+    if (mapper == std::string::npos) sized = false;
+    if (sized) {
+        const size_t end = xml.find("</MemoryMapper>", mapper);
+        const size_t size = xml.find("<size>", mapper);
+        const size_t size_end = xml.find("</size>", mapper);
+        if (end == std::string::npos || size == std::string::npos || size_end == std::string::npos || size_end > end) {
+            error = "the machine " + config.machine + " has no main RAM size";
             return false;
         }
     }
-    machine = config.machine + "_" + std::to_string(config.memory_kb) + "KB";
+    // The disk interface's drive count, one on the disk machines.
+    constexpr std::string_view kOneDrive = "<drives>1</drives>";
+    const bool one_drive = xml.find(kOneDrive) != std::string::npos;
+    if (two_drives && !one_drive) {
+        if (xml.find("<drives>2</drives>") != std::string::npos) {
+            two_drives = false;
+        } else {
+            error = "the machine " + config.machine + " has no disk drive, so drive B cannot be added";
+            return false;
+        }
+    }
+    if (!sized && !two_drives) return true;
+
+    std::vector<int> sizes = {0};
+    if (sized) sizes.assign(std::begin(kMemorySizes), std::end(kMemorySizes));
+    for (int kb : sizes) {
+        for (bool second : {false, true}) {
+            if ((kb == 0 && !second) || (second && !one_drive)) continue;
+            std::string variant = xml;
+            if (kb) {
+                const size_t size = variant.find("<size>", variant.find("<MemoryMapper id=\"Main RAM\">"));
+                variant.replace(size + 6, variant.find("</size>", size) - size - 6, std::to_string(kb));
+            }
+            if (second) variant.replace(variant.find(kOneDrive), kOneDrive.size(), "<drives>2</drives>");
+            const std::filesystem::path file = machines / (variant_name(config.machine, kb, second) + ".xml");
+            std::ofstream out(file, std::ios::binary | std::ios::trunc);
+            if (!(out << variant)) {
+                error = "cannot write " + file.string();
+                return false;
+            }
+        }
+    }
+    machine = variant_name(config.machine, sized ? config.memory_kb : 0, two_drives);
     return true;
 }
 
@@ -240,7 +280,7 @@ std::unique_ptr<MsxMachine> MsxMachine::create(const Config &config, std::string
 
         // The machine starts as openMSX's own command line would start it.
         std::string machine;
-        if (!memory_machine(config, machine, error)) return nullptr;
+        if (!machine_variant(config, machine, error)) return nullptr;
         std::vector<std::string> args = {"openmsx", "-machine", machine};
         for (const auto &extension : config.extensions) {
             args.push_back("-ext");
@@ -483,6 +523,12 @@ bool MsxMachine::load_state(const std::string &file, std::string &error) {
 bool MsxMachine::insert(Slot slot, const std::string &path, std::string &error) {
     if (slot == kHardDisk) return insert_hard_disk(path, error);
     try {
+        // A machine started with one disk drive has no drive B until it starts with an image there.
+        if (slot == kDiskB && !path.empty() &&
+            std::string(impl_->execute(tcl_command({"info", "commands", "diskb"})).getString()) != "diskb") {
+            error = "This MSX started with one disk drive; set Drive B in Game settings to start with two";
+            return false;
+        }
         if (path.empty()) {
             impl_->execute(kSlotCommands[slot].eject);
         } else {

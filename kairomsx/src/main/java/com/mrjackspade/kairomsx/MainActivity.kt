@@ -66,6 +66,11 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
     private fun isHardDisk(entry: DiskImageEntry) = format.kind(entry.displayName) == "hd"
 
     override val machineOptions = MsxCatalog.options
+    // Unformatted, as new disks were: CALL FORMAT prepares a floppy, Nextor's CALL FDISK a hard disk.
+    override val blankDisks = listOf(
+        coreBlankDisk("floppy-1dd", UiText.res(FrontendR.string.kairo_blank_floppy, "360 KB · 1DD"), "dsk"),
+        coreBlankDisk("floppy-2dd", UiText.res(FrontendR.string.kairo_blank_floppy, "720 KB · 2DD"), "dsk"),
+        coreBlankDisk("ide-32", UiText.res(FrontendR.string.kairo_blank_hard_disk, "32 MB · IDE"), "hdd"))
     override val mediaPageTitle = UiText.res(R.string.media)
     // In the core's slot order (msx_machine.h Slot).
     override val mediaSlots = listOf(MediaSlot<DiskImageEntry>(UiText.res(R.string.cartridge_a), ::isCartridge),

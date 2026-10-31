@@ -6,6 +6,7 @@
 #include <string>
 #include <vector>
 
+#include "kairo/blank_image.h"
 #include "kairo/machine_core.h"
 #include "msx_machine.h"
 
@@ -125,4 +126,14 @@ std::unique_ptr<kairo::MachineCore> kairo::create_core(const kairo::Launch &laun
     auto machine = MsxMachine::create(config, error);
     if (!machine) return nullptr;
     return std::make_unique<MsxCore>(std::move(machine));
+}
+
+// The blank disks MainActivity.blankDisks lists, unformatted: 360 KB (1DD) and 720 KB (2DD)
+// floppies, which Disk BASIC's CALL FORMAT or MSX-DOS's FORMAT prepares, and a 32 MB hard disk for
+// the Sunrise IDE, which Nextor's CALL FDISK partitions. openMSX reads a floppy's sides from its size.
+std::string kairo::create_blank_disk(const std::string &kind, const std::string &path) {
+    if (kind == "floppy-1dd") return kairo::write_zeroed_image(path, 360 * 1024);
+    if (kind == "floppy-2dd") return kairo::write_zeroed_image(path, 720 * 1024);
+    if (kind == "ide-32") return kairo::write_zeroed_image(path, 32ull * 1024 * 1024);
+    return "KairoMSX makes no blank disk " + kind;
 }

@@ -60,10 +60,10 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
     override fun createCatalog() = LayeredGameCatalog(this, MsxCatalog)
     override fun createLibrary(catalog: LayeredGameCatalog) = images
 
-    private fun isCartridge(entry: DiskImageEntry) = format.kind(entry.displayName) == "rom"
-    private fun isDisk(entry: DiskImageEntry) = format.kind(entry.displayName) == "fd"
-    private fun isTape(entry: DiskImageEntry) = format.kind(entry.displayName) == "tape"
-    private fun isHardDisk(entry: DiskImageEntry) = format.kind(entry.displayName) == "hd"
+    private fun isCartridge(entry: DiskImageEntry) = entry.kind == "rom"
+    private fun isDisk(entry: DiskImageEntry) = entry.kind == "fd"
+    private fun isTape(entry: DiskImageEntry) = entry.kind == "tape"
+    private fun isHardDisk(entry: DiskImageEntry) = entry.kind == "hd"
 
     override val machineOptions = MsxCatalog.options
     // Unformatted, as new disks were: CALL FORMAT prepares a floppy, Nextor's CALL FDISK a hard disk.

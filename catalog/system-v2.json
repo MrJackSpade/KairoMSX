@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "controller": {
     "bindings": [
       {"input": "virtual:up", "keys": [70], "joystick": "up"},
@@ -10,6 +10,8 @@
       {"input": "virtual:b", "keys": [65]},
       {"input": "virtual:x", "joystick": "button1"},
       {"input": "virtual:y", "joystick": "button2"},
+      {"input": "virtual:c", "joystick": "button1"},
+      {"input": "virtual:z", "joystick": "button2"},
       {"input": "virtual:l1", "keys": [55]},
       {"input": "virtual:r1", "keys": [56]},
       {"input": "virtual:l2", "keys": [57]},

@@ -16,6 +16,8 @@
       {"input": "virtual:r1", "keys": [56]},
       {"input": "virtual:l2", "keys": [57]},
       {"input": "virtual:r2", "keys": [58]},
+      {"input": "virtual:l3", "keys": [55]},
+      {"input": "virtual:r3", "keys": [56]},
       {"input": "virtual:start", "keys": [54]},
       {"input": "virtual:select", "keys": [61]},
       {"input": "virtual:menu", "action": "menu"},

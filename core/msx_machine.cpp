@@ -28,6 +28,7 @@
 #include "kairo/relative_warp.h"
 #include "LedStatus.hh"
 #include "MSXMotherBoard.hh"
+#include "VDP.hh"
 #include "Pluggable.hh"
 #include "PluggingController.hh"
 #include "Reactor.hh"
@@ -512,6 +513,11 @@ bool MsxMachine::load_state(const std::string &file, std::string &error) {
         std::string loaded(impl_->execute(tcl_command({"restore_machine", file})).getString());
         impl_->execute(tcl_command({"delete_machine", impl_->board().getMachineID()}));
         impl_->execute(tcl_command({"activate_machine", loaded}));
+        // The loaded machine draws the frame it was saved in (KairoMSX#63): the one a paused game
+        // shows under the menu, which otherwise stayed the picture from before the load.
+        auto *vdp = dynamic_cast<VDP *>(impl_->board().findDevice("VDP"));
+        if (!vdp) throw MSXException("the loaded machine has no VDP");
+        vdp->kairoDrawLoadedFrame();
         impl_->frame_start = impl_->board().getCurrentTime();
         return true;
     } catch (MSXException &e) {

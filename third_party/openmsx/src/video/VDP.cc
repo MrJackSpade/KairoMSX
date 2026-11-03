@@ -2017,6 +2017,12 @@ void VDP::serialize(Archive& ar, unsigned serVersion)
 		renderer->reInit();
 	}
 }
+// KairoMSX#63 (VDP.hh).
+void VDP::kairoDrawLoadedFrame()
+{
+	renderer->frameStart(frameStartTime.getTime());
+}
+
 INSTANTIATE_SERIALIZE_METHODS(VDP);
 REGISTER_MSXDEVICE(VDP, "VDP");
 

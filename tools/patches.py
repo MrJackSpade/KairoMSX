@@ -268,6 +268,17 @@ OPENMSX_MOUSE_IDLE = [
      '\t[[nodiscard]] bool kairoIdle() const { return curXRel == 0 && curYRel == 0; }\n'),
 ]
 
+# The first frame after a state loads is drawn (KairoMSX#63): openMSX's renderer otherwise waits for
+# the next frame's start, and the paused game under the menu showed the picture from before the load.
+OPENMSX_LOADED_FRAME_DRAWS = [
+    ('openmsx/src/video/VDP.hh',
+     '\t// for debugging only\n\tVDPCmdEngine& getCmdEngine() { return *cmdEngine; }\n',
+     "\t// for debugging only\n\tVDPCmdEngine& getCmdEngine() { return *cmdEngine; }\n\n\t// KairoMSX: starts drawing the frame now running from its start, once a loaded machine is\n\t// active. A state saved between two of the host's frames is just past a frame's start (frameStart\n\t// ends one frame and begins the next), and the renderer of a loaded machine waits for the next\n\t// frame's start (reInit), so the first frame after a load was never drawn (KairoMSX#63).\n\tvoid kairoDrawLoadedFrame();\n"),
+    ('openmsx/src/video/VDP.cc',
+     'INSTANTIATE_SERIALIZE_METHODS(VDP);\n',
+     '// KairoMSX#63 (VDP.hh).\nvoid VDP::kairoDrawLoadedFrame()\n{\n\trenderer->frameStart(frameStartTime.getTime());\n}\n\nINSTANTIATE_SERIALIZE_METHODS(VDP);\n'),
+]
+
 PATCHES = {
     'openmsx-main-thread': OPENMSX_MAIN_THREAD,
     'openmsx-android-stack-check': OPENMSX_ANDROID_STACK_CHECK,
@@ -284,4 +295,5 @@ PATCHES = {
     'openmsx-keymap-getter': OPENMSX_KEYMAP_GETTER,
     'openmsx-keyboard-type': OPENMSX_KEYBOARD_TYPE,
     'openmsx-mouse-idle': OPENMSX_MOUSE_IDLE,
+    'openmsx-loaded-frame-draws': OPENMSX_LOADED_FRAME_DRAWS,
 }

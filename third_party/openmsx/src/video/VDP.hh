@@ -738,6 +738,12 @@ public:
 	// for debugging only
 	VDPCmdEngine& getCmdEngine() { return *cmdEngine; }
 
+	// KairoMSX: starts drawing the frame now running from its start, once a loaded machine is
+	// active. A state saved between two of the host's frames is just past a frame's start (frameStart
+	// ends one frame and begins the next), and the renderer of a loaded machine waits for the next
+	// frame's start (reInit), so the first frame after a load was never drawn (KairoMSX#63).
+	void kairoDrawLoadedFrame();
+
 	template<typename Archive>
 	void serialize(Archive& ar, unsigned version);
 

@@ -38,8 +38,9 @@ SECTIONS = [
      [excerpt('openmsx/Contrib/README.cbios', 'Copyright (c) 2002-2005 BouKiCHi', 'SUCH DAMAGE.')]),
     ('Dear ImGui', 'https://github.com/ocornut/imgui, third_party/openmsx/src/3rdparty/imgui',
      [text('openmsx/src/3rdparty/imgui/LICENSE.txt')]),
-    ('zlib 1.3.2', 'https://zlib.net/, third_party/zlib', [text('zlib/LICENSE')]),
-    ('libpng 1.6.59', 'http://www.libpng.org/pub/png/libpng.html, third_party/libpng', [text('libpng/LICENSE')]),
+    ('zlib 1.3.2', 'https://zlib.net/, shared/third_party/zlib', [text('../shared/third_party/zlib/LICENSE')]),
+    ('libpng 1.6.59', 'http://www.libpng.org/pub/png/libpng.html, shared/third_party/libpng',
+     [text('../shared/third_party/libpng/LICENSE')]),
     ('Tcl 8.6.18', 'https://www.tcl-lang.org/, third_party/tcl', [text('tcl/license.terms')]),
     ('SDL2 2.32.10', 'https://www.libsdl.org/, third_party/sdl2', [text('sdl2/LICENSE.txt')]),
 ]

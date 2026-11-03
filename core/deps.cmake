@@ -1,36 +1,14 @@
-# The libraries openMSX needs, built from the pinned snapshots in third_party/: zlib, libpng, Tcl
-# and SDL2. SDL2 is built without its video, audio and input drivers: openMSX uses it for event
+# The libraries openMSX needs: zlib and libpng from the shared frontend, and Tcl and SDL2 built
+# from the pinned snapshots in third_party/. SDL2 is built without its video, audio and input drivers: openMSX uses it for event
 # types, key names, surfaces and timing, while KairoMSX supplies video, sound and input itself.
 
 get_filename_component(THIRD_PARTY "${CMAKE_CURRENT_LIST_DIR}/../third_party" ABSOLUTE)
 
-# zlib
-set(ZLIB_DIR "${THIRD_PARTY}/zlib")
-add_library(kairo_zlib STATIC
-    "${ZLIB_DIR}/adler32.c" "${ZLIB_DIR}/compress.c" "${ZLIB_DIR}/crc32.c" "${ZLIB_DIR}/deflate.c"
-    "${ZLIB_DIR}/gzclose.c" "${ZLIB_DIR}/gzlib.c" "${ZLIB_DIR}/gzread.c" "${ZLIB_DIR}/gzwrite.c"
-    "${ZLIB_DIR}/infback.c" "${ZLIB_DIR}/inffast.c" "${ZLIB_DIR}/inflate.c" "${ZLIB_DIR}/inftrees.c"
-    "${ZLIB_DIR}/trees.c" "${ZLIB_DIR}/uncompr.c" "${ZLIB_DIR}/zutil.c")
-target_include_directories(kairo_zlib PUBLIC "${ZLIB_DIR}")
-if(NOT WIN32)
-    target_compile_definitions(kairo_zlib PRIVATE HAVE_UNISTD_H)
-endif()
-
-# libpng, with its stock configuration; only screenshots and images use it, so without NEON code.
-set(PNG_DIR "${THIRD_PARTY}/libpng")
-set(PNG_CONF "${CMAKE_CURRENT_BINARY_DIR}/libpng")
-configure_file("${PNG_DIR}/scripts/pnglibconf.h.prebuilt" "${PNG_CONF}/pnglibconf.h" COPYONLY)
-add_library(kairo_png STATIC
-    "${PNG_DIR}/png.c" "${PNG_DIR}/pngerror.c" "${PNG_DIR}/pngget.c" "${PNG_DIR}/pngmem.c"
-    "${PNG_DIR}/pngpread.c" "${PNG_DIR}/pngread.c" "${PNG_DIR}/pngrio.c" "${PNG_DIR}/pngrtran.c"
-    "${PNG_DIR}/pngrutil.c" "${PNG_DIR}/pngset.c" "${PNG_DIR}/pngtrans.c" "${PNG_DIR}/pngwio.c"
-    "${PNG_DIR}/pngwrite.c" "${PNG_DIR}/pngwtran.c" "${PNG_DIR}/pngwutil.c")
-target_include_directories(kairo_png PUBLIC "${PNG_DIR}" "${PNG_CONF}")
-target_compile_definitions(kairo_png PRIVATE PNG_ARM_NEON_OPT=0)
-target_link_libraries(kairo_png PUBLIC kairo_zlib)
+# zlib and libpng, from the shared frontend (kairo_zlib, kairo_png).
+include("${CMAKE_CURRENT_LIST_DIR}/../shared/cmake/KairoLibraries.cmake")
 
 # Tcl 8.6, configured as its own configure script configures it for each target, with threads,
-# statically, without extension loading (tclLoadNone) and with KairoMSX's zlib. The definitions are
+# statically, without extension loading (tclLoadNone) and with the shared zlib. The definitions are
 # configure's (unix/configure --host=aarch64-linux-android --enable-threads --disable-shared
 # --disable-load; win/configure --host=x86_64-w64-mingw32 --enable-threads --disable-shared
 # --enable-64bit), except the C library replacements configure picks when it cannot run test

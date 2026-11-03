@@ -39,8 +39,8 @@ KairoMSX builds openMSX's emulation code with its own replacements for the parts
 
 | Library | Location | License |
 | --- | --- | --- |
-| zlib 1.3.2 | `third_party/zlib/` | zlib license (`LICENSE`) |
-| libpng 1.6.59 | `third_party/libpng/` | PNG Reference Library License version 2 (`LICENSE`) |
+| zlib 1.3.2 | `shared/third_party/zlib/` | zlib license (`LICENSE`) |
+| libpng 1.6.59 | `shared/third_party/libpng/` | PNG Reference Library License version 2 (`LICENSE`) |
 | Tcl 8.6.18 | `third_party/tcl/` | Tcl/Tk license, BSD-style (`license.terms`) |
 | SDL2 2.32.10 | `third_party/sdl2/` | zlib license (`LICENSE.txt`) |
 

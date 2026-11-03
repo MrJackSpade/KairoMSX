@@ -25,22 +25,18 @@ The local changes are below.
 
 ## Libraries openMSX needs
 
-openMSX links zlib, libpng, Tcl and SDL2. Each is a pinned release copied into `third_party/`, built by `core/deps.cmake`.
+openMSX links zlib, libpng, Tcl and SDL2. zlib 1.3.2 and libpng 1.6.59 come from the shared frontend (`shared/third_party/`, built by `shared/cmake/KairoLibraries.cmake`). Tcl and SDL2 are pinned releases copied into `third_party/`, built by `core/deps.cmake`.
 
 | Library | Release | Archive | Archive SHA-256 | Released |
 | --- | --- | --- | --- | --- |
-| zlib (`zlib/`) | 1.3.2 | GitHub release `v1.3.2` of `madler/zlib`, `zlib-1.3.2.tar.gz` | `bb329a0a2cd0274d05519d61c667c062e06990d72e125ee2dfa8de64f0119d16` | 2026-02-17 |
-| libpng (`libpng/`) | 1.6.59 | <https://codeload.github.com/pnggroup/libpng/tar.gz/refs/tags/v1.6.59> | `2540302a1844ad2b2b501977abecfa850f265f97b78f065a712ab4074a89f5b5` | 2026-09-28 |
 | Tcl (`tcl/`) | 8.6.18 | GitHub release `core-8-6-18` of `tcltk/tcl`, `tcl8.6.18-src.tar.gz` | `14f9af32b1767ff718477a8f974ad03c34341097e6b43f4ce54644ee974e268e` | 2026-05-13 |
 | SDL2 (`sdl2/`) | 2.32.10 | GitHub release `release-2.32.10` of `libsdl-org/SDL`, `SDL2-2.32.10.tar.gz` | `5f5993c530f084535c65a6879e9b26ad441169b3e25d789d83287040a9ca5165` | 2025-09-01 |
 
-All were imported on 2026-10-22. The zlib and SDL2 archives were checked against their release signatures: zlib's by Mark Adler (key `5ED4 6A67 21D3 6558 7791 E2AA 783F CD8E 58BC AFBA`), SDL2's by Sam Lantinga (key `1528 635D 8053 A57F 77D1 E086 30A5 9377 A776 3BE6`).
+Both were imported on 2026-10-22. The SDL2 archive was checked against its release signature, by Sam Lantinga (key `1528 635D 8053 A57F 77D1 E086 30A5 9377 A776 3BE6`).
 
 Each archive was copied whole except for files no KairoMSX build uses:
 
-- zlib: `amiga/`, `contrib/`, `doc/`, `msdos/`, `os400/`, `qnx/`, `test/`, `watcom/` and `win32/`.
-- libpng: `ci/`.
-- Tcl: `doc/`, `macosx/`, `pkgs/`, `tests/`, `tools/`, `compat/zlib/` (KairoMSX's zlib is used instead) and the prebuilt `win/nmakehlp.exe`.
+- Tcl: `doc/`, `macosx/`, `pkgs/`, `tests/`, `tools/`, `compat/zlib/` (the shared zlib is used instead) and the prebuilt `win/nmakehlp.exe`.
 - SDL2: the IDE projects (`VisualC*/`, `Xcode*/`), `acinclude/`, `android-project*/`, `docs/`, `mingw/`, `test/`, `visualtest/` and `wayland-protocols/`.
 - Nested Git files (`.gitignore`, `.gitattributes` and similar), so every copied file is tracked.
 

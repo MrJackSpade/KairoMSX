@@ -32,6 +32,8 @@ object KairoMsxApp : AppUnderTest() {
     override val biosFiles = listOf(BiosFile("fs-a1wsx_firmware.rom", true), BiosFile("fs-a1wsx_kanjifont.rom", true),
         BiosFile("fs-a1wsx_IC18.rom", false), BiosFile("fs-a1gt_firmware.rom", true), BiosFile("fs-a1gt_kanjifont.rom", true))
     override val bootGame = "Boulder Dash"
+    // An MSX1 cartridge, which starts on the bundled C-BIOS: the required firmware is the real machines'.
+    override val bootGameNeedsFirmware = false
     override val searchTerm = "Boulder"
     override val arrowKeys = listOf(com.mrjackspade.kairomsx.MsxKeys.UP, com.mrjackspade.kairomsx.MsxKeys.DOWN,
         com.mrjackspade.kairomsx.MsxKeys.LEFT, com.mrjackspade.kairomsx.MsxKeys.RIGHT)
@@ -126,7 +128,9 @@ class MsxTests : KairoUiTest() {
         val pressed = driver.pictures.game("after-a")
         val alone = idle.difference(title)
         val withA = pressed.difference(idle)
-        expect.that("A changes the title screen beyond its own motion", withA > alone + 0.05) { "%.3f with A, %.3f alone".format(withA, alone) }
+        // A brings up the START/CONTINUE menu, whose text covers about 2.5% of the screen (0.025 on
+        // the test emulator, the title itself still: 0.000 alone); 5% asked for more than the answer.
+        expect.that("A changes the title screen beyond its own motion", withA > alone + 0.01) { "%.3f with A, %.3f alone".format(withA, alone) }
     }
 
     @Test

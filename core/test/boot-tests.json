@@ -1,0 +1,156 @@
+{
+  "tests": [
+    {
+      "name": "Boulder Dash",
+      "firmware": "bios",
+      "home": {
+        "system": "app:.build/host-data/openmsx",
+        "user/share/systemroms/fs-a1gt_firmware.rom": "bios/fs-a1gt_firmware.rom",
+        "user/share/systemroms/fs-a1wsx_firmware.rom": "bios/fs-a1wsx_firmware.rom",
+        "user/share/systemroms/fs-a1wsx_kanjifont.rom": "bios/fs-a1wsx_kanjifont.rom",
+        "user/share/systemroms/fs-a1wsx_basic-bios2p.rom": "bios/fs-a1wsx_basic-bios2p.rom",
+        "user/share/systemroms/fs-a1wsx_disk.rom": "bios/fs-a1wsx_disk.rom",
+        "user/share/systemroms/fs-a1wsx_fmbasic.rom": "bios/fs-a1wsx_fmbasic.rom",
+        "user/share/systemroms/fs-a1wsx_kanjibasic.rom": "bios/fs-a1wsx_kanjibasic.rom",
+        "user/share/systemroms/fs-a1wsx_msx2psub.rom": "bios/fs-a1wsx_msx2psub.rom"
+      },
+      "media": [
+        "games/msx/Champion Boulder Dash (1985) (Comptiq)/Champion Boulder Dash (1985) (Comptiq) (J).rom"
+      ],
+      "settings": {
+        "machine": "C-BIOS_MSX1_JP",
+        "memory": "512",
+        "clock": "auto"
+      },
+      "checks": {
+        "boot": {
+          "frames": 600
+        },
+        "guestInput": {
+          "frames": 1200,
+          "expect": "keyboard"
+        },
+        "sessions": {
+          "frames": 300
+        },
+        "state": {
+          "at": 120,
+          "frames": 120
+        }
+      }
+    },
+    {
+      "name": "Shoot That Flying Windows!",
+      "firmware": "bios",
+      "home": {
+        "system": "app:.build/host-data/openmsx",
+        "user/share/systemroms/fs-a1gt_firmware.rom": "bios/fs-a1gt_firmware.rom",
+        "user/share/systemroms/fs-a1wsx_firmware.rom": "bios/fs-a1wsx_firmware.rom",
+        "user/share/systemroms/fs-a1wsx_kanjifont.rom": "bios/fs-a1wsx_kanjifont.rom",
+        "user/share/systemroms/fs-a1wsx_basic-bios2p.rom": "bios/fs-a1wsx_basic-bios2p.rom",
+        "user/share/systemroms/fs-a1wsx_disk.rom": "bios/fs-a1wsx_disk.rom",
+        "user/share/systemroms/fs-a1wsx_fmbasic.rom": "bios/fs-a1wsx_fmbasic.rom",
+        "user/share/systemroms/fs-a1wsx_kanjibasic.rom": "bios/fs-a1wsx_kanjibasic.rom",
+        "user/share/systemroms/fs-a1wsx_msx2psub.rom": "bios/fs-a1wsx_msx2psub.rom"
+      },
+      "media": [
+        "",
+        "",
+        "games/turbor/Shoot That Flying Windows! (1997)(Nyyrikki)[mouse]/Shoot That Flying Windows! (1997)(Nyyrikki)[mouse].dsk"
+      ],
+      "settings": {
+        "machine": "Panasonic_FS-A1GT",
+        "memory": "512",
+        "clock": "auto"
+      },
+      "checks": {
+        "boot": {
+          "frames": 1800
+        },
+        "guestInput": {
+          "frames": 3600,
+          "expect": "mouse",
+          "keys": [
+            {
+              "frame": 1800,
+              "code": 2
+            }
+          ]
+        },
+        "loading": {
+          "startsBy": 300,
+          "doneBy": 1800,
+          "settled": 120,
+          "idle": {
+            "media": [],
+            "frames": 900
+          }
+        },
+        "stateDisks": {
+          "drive": 2,
+          "at": 1800,
+          "swap": ""
+        }
+      }
+    },
+    {
+      "name": "MSX-BASIC",
+      "firmware": "bios",
+      "home": {
+        "system": "app:.build/host-data/openmsx",
+        "user/share/systemroms/fs-a1gt_firmware.rom": "bios/fs-a1gt_firmware.rom",
+        "user/share/systemroms/fs-a1wsx_firmware.rom": "bios/fs-a1wsx_firmware.rom",
+        "user/share/systemroms/fs-a1wsx_kanjifont.rom": "bios/fs-a1wsx_kanjifont.rom",
+        "user/share/systemroms/fs-a1wsx_basic-bios2p.rom": "bios/fs-a1wsx_basic-bios2p.rom",
+        "user/share/systemroms/fs-a1wsx_disk.rom": "bios/fs-a1wsx_disk.rom",
+        "user/share/systemroms/fs-a1wsx_fmbasic.rom": "bios/fs-a1wsx_fmbasic.rom",
+        "user/share/systemroms/fs-a1wsx_kanjibasic.rom": "bios/fs-a1wsx_kanjibasic.rom",
+        "user/share/systemroms/fs-a1wsx_msx2psub.rom": "bios/fs-a1wsx_msx2psub.rom"
+      },
+      "media": [],
+      "settings": {
+        "machine": "Panasonic_FS-A1WSX",
+        "memory": "512",
+        "clock": "auto"
+      },
+      "checks": {
+        "commands": {
+          "commands": "PRINT 6*7",
+          "typedBy": 1800,
+          "answerBy": 300,
+          "screens": [
+            "d63a2d8df4703025"
+          ]
+        },
+        "locks": {
+          "at": 900,
+          "keys": [
+            {
+              "code": 52,
+              "bit": 0
+            },
+            {
+              "code": 53,
+              "bit": 1
+            }
+          ]
+        },
+        "clock": {
+          "setting": "clock",
+          "values": [
+            "3579545",
+            "7159090"
+          ],
+          "commands": "FOR I=1 TO 4000:NEXT:SCREEN 2:FOR J=0 TO 1:J=0:NEXT",
+          "typedBy": 1800,
+          "doneBy": 3600,
+          "ratio": 0.5,
+          "margin": 0.05,
+          "screens": [
+            "95ae9183a3a04f25"
+          ]
+        }
+      }
+    }
+  ]
+}

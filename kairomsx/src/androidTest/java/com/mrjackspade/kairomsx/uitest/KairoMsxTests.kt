@@ -42,6 +42,12 @@ object KairoMsxApp : AppUnderTest() {
     override val bootGameFile = "games/msx/Champion Boulder Dash (1985) (Comptiq).zip"
     override val otherGame = "The Dam Busters"
     override val mediaSwap = MediaSwap("The Dam Busters", "Cartridge B", "Brain", filler = "rom")
+    // Shoot That Flying Windows! is played with the mouse; Boulder Dash with the keyboard or a pad
+    // (TouchTests' Auto).
+    override val mouseGame = "Shoot That Flying Windows!"
+    override val keyboardGame = "Boulder Dash"
+    // It asks for its language first: 1, English.
+    override val mouseGameKeys = listOf(KeyEvent.KEYCODE_1)
 }
 
 class KairoMsxFirstRunTests : FirstRunTests() { override val app = KairoMsxApp }

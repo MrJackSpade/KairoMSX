@@ -44,7 +44,7 @@ DESCRIPTIONS = {
     'nms8250_basic-bios2.rom': ('BIOS', 'the MSX2 BIOS and BASIC that start the machine'),
     'nms8250_msx2sub.rom': ('Sub-BIOS', 'the MSX2 sub-BIOS for graphics'),
     'nms8250_disk.rom': ('Disk', 'runs the floppy drive'),
-    'Nextor-2.1.1.SunriseIDE.ROM': ('IDE ROM', 'Nextor, which runs the IDE interface and starts hard disks'),
+    'Nextor-2.1.1.SunriseIDE.ROM': ('IDE firmware', 'Nextor, which runs the IDE interface and starts hard disks'),
 }
 
 

@@ -17,7 +17,7 @@
 namespace kairomsx {
 
 // Where media go: the cartridge slots, the disk drives and the cassette player.
-// kHardDisk: a hard disk image on a Sunrise IDE interface with Nextor (the player's IDE ROM), plugged
+// kHardDisk: a hard disk image on a Sunrise IDE interface with Nextor (the player's IDE firmware), plugged
 // in when the machine starts with one.
 enum Slot { kCartA, kCartB, kDiskA, kDiskB, kCassette, kHardDisk, kSlots };
 

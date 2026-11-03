@@ -187,7 +187,7 @@
       "d3a4375ff5f58cf59cc609dd41c90af285f033c2",
       "dca824d7b0ddf25c6e87a8098e97ab7489725f57"
      ],
-     "label": "IDE ROM",
+     "label": "IDE firmware",
      "description": "Nextor, which runs the IDE interface and starts hard disks"
     }
    ],

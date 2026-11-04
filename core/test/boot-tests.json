@@ -157,6 +157,92 @@
           ]
         }
       }
+    },
+    {
+      "name": "Cartridges A and B",
+      "firmware": "bios",
+      "home": {
+        "system": "app:.build/host-data/openmsx",
+        "user/share/systemroms/fs-a1gt_firmware.rom": "bios/fs-a1gt_firmware.rom",
+        "user/share/systemroms/fs-a1wsx_firmware.rom": "bios/fs-a1wsx_firmware.rom",
+        "user/share/systemroms/fs-a1wsx_kanjifont.rom": "bios/fs-a1wsx_kanjifont.rom",
+        "user/share/systemroms/fs-a1wsx_basic-bios2p.rom": "bios/fs-a1wsx_basic-bios2p.rom",
+        "user/share/systemroms/fs-a1wsx_disk.rom": "bios/fs-a1wsx_disk.rom",
+        "user/share/systemroms/fs-a1wsx_fmbasic.rom": "bios/fs-a1wsx_fmbasic.rom",
+        "user/share/systemroms/fs-a1wsx_kanjibasic.rom": "bios/fs-a1wsx_kanjibasic.rom",
+        "user/share/systemroms/fs-a1wsx_msx2psub.rom": "bios/fs-a1wsx_msx2psub.rom"
+      },
+      "media": [
+        "games/msx/Dam Busters, The (1985) (Comptiq)/Dam Busters, The (1985) (Comptiq) (J).rom",
+        "games/msx/Brain, The (1983) (Ascii)/Brain, The (1983) (Ascii) (J).rom"
+      ],
+      "settings": {
+        "machine": "C-BIOS_MSX1_JP",
+        "memory": "512",
+        "clock": "auto"
+      },
+      "checks": {
+        "stateDisks": {
+          "drive": 1,
+          "at": 600,
+          "swap": "games/msx/Champion Boulder Dash (1985) (Comptiq)/Champion Boulder Dash (1985) (Comptiq) (J).rom"
+        }
+      }
+    },
+    {
+      "name": "Nextor hard disk",
+      "firmware": "bios",
+      "home": {
+        "system": "app:.build/host-data/openmsx",
+        "user/share/systemroms/fs-a1gt_firmware.rom": "bios/fs-a1gt_firmware.rom",
+        "user/share/systemroms/fs-a1wsx_firmware.rom": "bios/fs-a1wsx_firmware.rom",
+        "user/share/systemroms/fs-a1wsx_kanjifont.rom": "bios/fs-a1wsx_kanjifont.rom",
+        "user/share/systemroms/fs-a1wsx_basic-bios2p.rom": "bios/fs-a1wsx_basic-bios2p.rom",
+        "user/share/systemroms/fs-a1wsx_disk.rom": "bios/fs-a1wsx_disk.rom",
+        "user/share/systemroms/fs-a1wsx_fmbasic.rom": "bios/fs-a1wsx_fmbasic.rom",
+        "user/share/systemroms/fs-a1wsx_kanjibasic.rom": "bios/fs-a1wsx_kanjibasic.rom",
+        "user/share/systemroms/fs-a1wsx_msx2psub.rom": "bios/fs-a1wsx_msx2psub.rom",
+        "user/share/systemroms/Nextor-2.1.1.SunriseIDE.ROM": "bios/Nextor-2.1.1.SunriseIDE.ROM"
+      },
+      "media": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "app:.build/host-data/hdtest.dsk"
+      ],
+      "settings": {
+        "machine": "Panasonic_FS-A1WSX",
+        "memory": "512",
+        "clock": "auto"
+      },
+      "checks": {
+        "boot": {
+          "frames": 1200
+        },
+        "hardDisk": {
+          "settle": 300,
+          "write": {
+            "commands": "OPEN\"KAIRO.TXT\"FOR OUTPUT AS#1:PRINT#1,\"KAIRO\":CLOSE#1",
+            "typedBy": 2400
+          },
+          "read": {
+            "commands": "OPEN\"KAIRO.TXT\"FOR INPUT AS#1:INPUT#1,A$:PRINT A$:CLOSE#1",
+            "typedBy": 2400,
+            "answerBy": 300,
+            "screens": [
+              "4a26f3c8a50452a5"
+            ]
+          }
+        },
+        "stateDisks": {
+          "drive": 5,
+          "at": 600,
+          "swap": "app:.build/host-data/hdtest2.dsk",
+          "eject": false
+        }
+      }
     }
   ]
 }

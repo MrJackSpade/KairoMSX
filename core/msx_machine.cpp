@@ -16,6 +16,7 @@
 #include "Event.hh"
 #include "EventDistributor.hh"
 #include "EventListener.hh"
+#include "FileOperations.hh"
 #include "Interpreter.hh"
 #include "KairoHost.hh"
 #include "KairoOutputSurface.hh"
@@ -538,7 +539,9 @@ bool MsxMachine::insert(Slot slot, const std::string &path, std::string &error) 
         if (path.empty()) {
             impl_->execute(kSlotCommands[slot].eject);
         } else {
-            impl_->execute(std::string(kSlotCommands[slot].insert) + " " + tcl_command({path}));
+            // openMSX's own form of the path: on Windows its commands take a drive's path with '/'
+            // and read "C:\..." as relative, dropping the drive (the command line takes either).
+            impl_->execute(std::string(kSlotCommands[slot].insert) + " " + tcl_command({FileOperations::getConventionalPath(path)}));
         }
         return true;
     } catch (MSXException &e) {
@@ -601,7 +604,7 @@ bool MsxMachine::insert_hard_disk(const std::string &path, std::string &error) {
     }
     try {
         impl_->execute("set power off");
-        impl_->execute(std::string(kSlotCommands[kHardDisk].insert) + " " + tcl_command({path}));
+        impl_->execute(std::string(kSlotCommands[kHardDisk].insert) + " " + tcl_command({FileOperations::getConventionalPath(path)}));
         impl_->execute("set power on");
         return true;
     } catch (MSXException &e) {
@@ -620,7 +623,7 @@ std::string MsxMachine::media_path(Slot slot) {
         if (!has_hard_disk()) return {};
         // "hda: <image>", and the options of a read-only one.
         TclObject result = impl_->execute(kSlotCommands[kHardDisk].media);
-        return std::string(result.getListIndex(impl_->reactor->getInterpreter(), 1).getString());
+        return FileOperations::getNativePath(std::string(result.getListIndex(impl_->reactor->getInterpreter(), 1).getString()));
     }
     // A slot the machine does not have, such as a disk drive on C-BIOS, holds nothing.
     const std::string_view name = kSlotCommands[slot].media;
@@ -634,7 +637,8 @@ std::string MsxMachine::media_path(Slot slot) {
     // empty for an empty slot.
     TclObject info = impl_->execute(tcl_command({"machine_info", "media", name}));
     auto target = info.getOptionalDictValue(TclObject("target"));
-    return target ? std::string(target->getString()) : std::string();
+    // In the platform's own form, as the launch gave it.
+    return target ? FileOperations::getNativePath(std::string(target->getString())) : std::string();
 }
 
 } // namespace kairomsx

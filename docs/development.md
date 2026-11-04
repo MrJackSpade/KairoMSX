@@ -10,13 +10,9 @@ shared\tools\build.ps1 -Install <adb serial>
 
 ## Host tests
 
-The machine also builds for the host, without Android: build `core/` with CMake for the host, stage openMSX's data folder with `tools/stage_openmsx_data.py <folder>`, then run, under `shared\tools\run-limited.ps1`:
-
-```
-boot_test [--machine <name>] [--memory <KB>] [--disk <image>] [--hold <row>,<column>[;...][@<seconds>]] [--command <Tcl>] <data folder> <work folder> <seconds> [cartridge [joystick|none|key:<row>,<column>]]
-```
-
-It boots a cartridge (or the machine alone) and presses Space, the joystick's trigger, or a key of the keyboard matrix; checks that a save state loads back to the same picture and sound, and that the mouse joins port B only once it is used; and starts a second machine in the same process, as the app does for its next game. `--command` prints what an openMSX console command returns after the boot, such as debugger registers or a watchpoint script.
+The shared PC boot test runs the core on the host from `core/test/boot-tests.json`: run
+`shared\tools\test-core.ps1` (`-Test <name>` for some entries). `tools/prepare_host_test.py` stages openMSX's data folder
+for it, as the build stages it into the app's assets (`tools/stage_openmsx_data.py`).
 
 ## MSX-DOS2 disks
 

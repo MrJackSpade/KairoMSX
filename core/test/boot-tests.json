@@ -31,7 +31,13 @@
           "expect": "keyboard"
         },
         "sessions": {
-          "frames": 300
+          "frames": 300,
+          "prompt": {
+            "media": [],
+            "settings": {
+              "machine": "Panasonic_FS-A1WSX"
+            }
+          }
         },
         "state": {
           "at": 120,

@@ -65,12 +65,3 @@ target_include_directories(kairomsx_core PUBLIC "${CMAKE_CURRENT_LIST_DIR}"
     "${CMAKE_CURRENT_LIST_DIR}/../shared/frontend/src/main/cpp")
 target_link_libraries(kairomsx_core PUBLIC kairo_openmsx)
 
-if(NOT ANDROID)
-    # openMSX's state loads ask the shared kairo_state_path; the app has it in its machine library.
-    add_executable(boot_test test/boot_test.cpp "${CMAKE_CURRENT_LIST_DIR}/../shared/frontend/src/main/cpp/kairo/state_paths.cpp")
-    target_include_directories(boot_test PRIVATE "${CMAKE_CURRENT_LIST_DIR}/../shared/frontend/src/main/cpp")
-    target_link_libraries(boot_test PRIVATE kairomsx_core)
-    if(WIN32)
-        target_link_options(boot_test PRIVATE -static)
-    endif()
-endif()

@@ -2,6 +2,7 @@ package com.mrjackspade.kairomsx
 
 import com.mrjackspade.kairo.frontend.CatalogSetting
 import com.mrjackspade.kairo.frontend.ChoiceOption
+import com.mrjackspade.kairo.frontend.CustomValue
 import com.mrjackspade.kairo.frontend.LayeredGameCatalog
 import com.mrjackspade.kairo.frontend.MachineOption
 import com.mrjackspade.kairo.frontend.UiText
@@ -72,9 +73,14 @@ object MsxCatalog : LayeredGameCatalog.Schema {
      * with its turbo on), and the faster choices speed slow games up. A turbo R's R800 keeps its own.
      */
     val clock = MachineOption("clock", UiText.res(FrontendR.string.kairo_option_clock),
-        listOf(ChoiceOption(AUTOMATIC, UiText.res(FrontendR.string.kairo_automatic))) +
+        { listOf(ChoiceOption(AUTOMATIC, UiText.res(FrontendR.string.kairo_automatic))) +
             listOf("3579545" to "3.58", "5369318" to "5.37", "7159090" to "7.16", "10738635" to "10.74")
-                .map { (hz, mhz) -> ChoiceOption(hz, UiText.res(FrontendR.string.kairo_clock_mhz, mhz)) }, AUTOMATIC)
+                .map { (hz, mhz) -> ChoiceOption(hz, UiText.res(FrontendR.string.kairo_clock_mhz, mhz)) } }, AUTOMATIC,
+        // Any clock typed in MHz to two places (Kairo#183), from 1 to 100 MHz as openMSX's z80_freq takes it, kept in Hz
+        customWith = { CustomValue.range(100, 10000, 1, scale = 10000, decimals = 2) { hz -> UiText.res(FrontendR.string.kairo_clock_mhz, mhz(hz)) } })
+
+    /** [hz] in MHz, to at most two places. */
+    private fun mhz(hz: Int): String = java.text.NumberFormat.getNumberInstance().apply { maximumFractionDigits = 2 }.format(hz / 1_000_000.0)
     val options = listOf(machine, clock, memory, msxdos2)
 
     const val LAUNCH = "launch"

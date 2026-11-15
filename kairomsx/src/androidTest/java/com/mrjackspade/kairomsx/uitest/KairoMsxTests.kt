@@ -35,8 +35,6 @@ object KairoMsxApp : AppUnderTest() {
     // An MSX1 cartridge, which starts on the bundled C-BIOS: the required firmware is the real machines'.
     override val bootGameNeedsFirmware = false
     override val searchTerm = "Boulder"
-    override val arrowKeys = listOf(com.mrjackspade.kairomsx.MsxKeys.UP, com.mrjackspade.kairomsx.MsxKeys.DOWN,
-        com.mrjackspade.kairomsx.MsxKeys.LEFT, com.mrjackspade.kairomsx.MsxKeys.RIGHT)
     override val returnKey = com.mrjackspade.kairomsx.MsxKeys.RETURN
     override val spaceKey = com.mrjackspade.kairomsx.MsxKeys.SPACE
     override val bootGameFile = "games/msx/Champion Boulder Dash (1985) (Comptiq).zip"

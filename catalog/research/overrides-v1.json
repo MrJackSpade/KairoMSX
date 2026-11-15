@@ -66,31 +66,19 @@
       },
       {
        "input": "virtual:up",
-       "joystick": "up",
-       "keys": [
-        70
-       ]
+       "joystick": "up"
       },
       {
        "input": "virtual:down",
-       "joystick": "down",
-       "keys": [
-        71
-       ]
+       "joystick": "down"
       },
       {
        "input": "virtual:left",
-       "joystick": "left",
-       "keys": [
-        69
-       ]
+       "joystick": "left"
       },
       {
        "input": "virtual:right",
-       "joystick": "right",
-       "keys": [
-        72
-       ]
+       "joystick": "right"
       },
       {
        "input": "virtual:lsup",
@@ -156,31 +144,19 @@
       },
       {
        "input": "virtual:up",
-       "joystick": "up",
-       "keys": [
-        70
-       ]
+       "joystick": "up"
       },
       {
        "input": "virtual:down",
-       "joystick": "down",
-       "keys": [
-        71
-       ]
+       "joystick": "down"
       },
       {
        "input": "virtual:left",
-       "joystick": "left",
-       "keys": [
-        69
-       ]
+       "joystick": "left"
       },
       {
        "input": "virtual:right",
-       "joystick": "right",
-       "keys": [
-        72
-       ]
+       "joystick": "right"
       }
      ]
     }

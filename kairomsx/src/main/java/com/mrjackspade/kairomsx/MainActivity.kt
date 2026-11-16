@@ -7,11 +7,11 @@ import com.mrjackspade.kairo.frontend.ControllerLayout
 import com.mrjackspade.kairo.frontend.DiskImageEntry
 import com.mrjackspade.kairo.frontend.DiskImageLibrary
 import com.mrjackspade.kairo.frontend.FirmwareSet
+import com.mrjackspade.kairo.frontend.GuestKeyboardLayout
 import com.mrjackspade.kairo.frontend.LayeredGameCatalog
 import com.mrjackspade.kairo.frontend.LibraryStrings
 import com.mrjackspade.kairo.frontend.MachineActivity
 import com.mrjackspade.kairo.frontend.MachineFirstRun
-import com.mrjackspade.kairo.frontend.MachineStatus
 import com.mrjackspade.kairo.frontend.NativeMachine
 import com.mrjackspade.kairo.frontend.StartupCommands
 import com.mrjackspade.kairo.frontend.ShippedAssets
@@ -110,30 +110,20 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
         options += StartupCommands.setting(MsxCatalog.startupCommands.value(game, options))
         check(bridge.start("", home.absolutePath, images, options)) { "Another machine is still running" }
         awaitRunning()
-        followKeyboard()
         mediaStarted(media)
     }
 
     /**
      * The on-screen keyboard of the machine that runs, once its first frame names it (msx_core.cpp
      * details, KairoMSX#45): a Japanese MSX (keyboard_type jp_*) has the Japanese legends, with its kana
-     * on a JIS one (jp_jis); any other keeps the international legends.
+     * on a JIS one (jp_jis); any other keeps the international legends. The shared frontend follows it
+     * after the launch, so a launch never waits on a frame the paused guest has not drawn (KairoMSX#64).
      */
-    private fun followKeyboard() {
-        while (true) {
-            val status = MachineStatus(bridge.status())
-            if (status.state == "Error") error(status.error)
-            val type = status.core["keyboard"]
-            if (type != null) {
-                val layout = when {
-                    type == "jp_jis" -> MsxKeys.jisLayout
-                    type.startsWith("jp_") -> MsxKeys.japaneseAnsiLayout
-                    else -> MsxKeys.layout
-                }
-                runOnUiThread { useKeyboard(layout) }
-                return
-            }
-            Thread.sleep(20)
+    override val keyboardNamed: (String) -> GuestKeyboardLayout = { type ->
+        when {
+            type == "jp_jis" -> MsxKeys.jisLayout
+            type.startsWith("jp_") -> MsxKeys.japaneseAnsiLayout
+            else -> MsxKeys.layout
         }
     }
 
@@ -152,7 +142,6 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
         val hardDisk = entry.takeIf(::isHardDisk)?.let { this.images.prepare(it, cancelled, progress).absolutePath }
         check(bridge.start("", home.absolutePath, List(5) { null } + hardDisk, options)) { "Another machine is still running" }
         awaitRunning()
-        followKeyboard()
         val diskB = if (isDisk(entry)) companionFor(game.mediaId("floppyB"), entry, launchEntries,
             UiText.res(FrontendR.string.kairo_second_disk_missing), ::isDisk) else null
         // In the core's slot order (msx_core.cpp): cartridge A, cartridge B, disk A, disk B, cassette; the

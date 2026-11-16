@@ -769,11 +769,30 @@ void VDP::setPalette(unsigned index, uint16_t grb, EmuTime time)
 
 void VDP::vramWrite(uint8_t value, EmuTime time)
 {
+	time = kairoWaitForCpuVramAccess(time);
 	scheduleCpuVramAccess(false, value, time);
+}
+
+// KairoMSX#68 (VDP.hh). At the MSX's own clock the VDP drops an access that
+// comes too fast, as the real one does; a faster Z80 (a raised clock, or a
+// Panasonic MSX2+'s turbo) waits for the access before, as turbo hardware
+// holds the CPU for the VDP. The R800 has the turbo R's own VDP I/O delay.
+EmuTime VDP::kairoWaitForCpuVramAccess(EmuTime time)
+{
+	if (!pendingCpuAccess) [[likely]] return time;
+	if (cpu.isR800Active() || cpu.kairoZ80Freq() <= 3579545) return time;
+	EmuTime done = time;
+	bool pending = syncCpuVramAccess.pendingSyncPoint(done);
+	assert(pending); (void)pending;
+	syncCpuVramAccess.removeSyncPoint();
+	execCpuVramAccess(done);
+	cpu.wait(done);
+	return done;
 }
 
 uint8_t VDP::vramRead(EmuTime time)
 {
+	time = kairoWaitForCpuVramAccess(time);
 	// Return the result from a previous read. In case
 	// allowTooFastAccess==true, the call to scheduleCpuVramAccess()
 	// already overwrites that variable, so make a local copy first.

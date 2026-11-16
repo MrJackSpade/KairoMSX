@@ -133,6 +133,8 @@ public:
 
 	/** Switch the Z80 clock freq. */
 	void setZ80Freq(unsigned freq);
+	/** KairoMSX#68: the Z80's clock now, in Hz. */
+	[[nodiscard]] unsigned kairoZ80Freq() const;
 
 	void setInterface(MSXCPUInterface* interface);
 

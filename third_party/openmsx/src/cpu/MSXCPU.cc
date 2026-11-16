@@ -321,6 +321,11 @@ void MSXCPU::setZ80Freq(unsigned freq)
 	z80->setFreq(freq);
 }
 
+unsigned MSXCPU::kairoZ80Freq() const
+{
+	return z80->getFreq();
+}
+
 void MSXCPU::wait(EmuTime time)
 {
 	z80Active ? z80 ->wait(time)

@@ -988,6 +988,11 @@ private:
 	/** Helper methods for CPU-VRAM access. */
 	void scheduleCpuVramAccess(bool isRead, uint8_t write, EmuTime time);
 	void executeCpuVramAccess(EmuTime time);
+	/** KairoMSX#68: a Z80 clocked above the MSX's 3.58 MHz waits for the
+	  * VDP's pending CPU-VRAM access before the next, as a turbo's VDP
+	  * wait holds it, instead of the access being dropped. Returns the
+	  * time the next access is made. */
+	[[nodiscard]] EmuTime kairoWaitForCpuVramAccess(EmuTime time);
 
 	/** Read the contents of a status register
 	  */

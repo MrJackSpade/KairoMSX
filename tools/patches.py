@@ -279,6 +279,48 @@ OPENMSX_LOADED_FRAME_DRAWS = [
      '// KairoMSX#63 (VDP.hh).\nvoid VDP::kairoDrawLoadedFrame()\n{\n\trenderer->frameStart(frameStartTime.getTime());\n}\n\nINSTANTIATE_SERIALIZE_METHODS(VDP);\n'),
 ]
 
+# A Z80 clocked above the MSX's 3.58 MHz (the clock setting, a Panasonic MSX2+'s turbo) waits for the
+# VDP's pending CPU-VRAM access instead of the next access being dropped, as turbo hardware's VDP wait
+# holds the CPU (KairoMSX#68: MSX-BASIC's function key line lost letters at 7.16 MHz). At 3.58 MHz the
+# VDP drops a too-fast access as before; the R800 keeps the turbo R's own VDP I/O delay.
+OPENMSX_TURBO_VDP_WAIT = [
+    ('openmsx/src/cpu/MSXCPU.hh',
+     '\t/** Switch the Z80 clock freq. */\n\tvoid setZ80Freq(unsigned freq);\n',
+     '\t/** Switch the Z80 clock freq. */\n\tvoid setZ80Freq(unsigned freq);\n'
+     '\t/** KairoMSX#68: the Z80\'s clock now, in Hz. */\n\t[[nodiscard]] unsigned kairoZ80Freq() const;\n'),
+    ('openmsx/src/cpu/MSXCPU.cc',
+     'void MSXCPU::setZ80Freq(unsigned freq)\n{\n\tz80->setFreq(freq);\n}\n',
+     'void MSXCPU::setZ80Freq(unsigned freq)\n{\n\tz80->setFreq(freq);\n}\n\n'
+     'unsigned MSXCPU::kairoZ80Freq() const\n{\n\treturn z80->getFreq();\n}\n'),
+    ('openmsx/src/video/VDP.hh',
+     '\tvoid scheduleCpuVramAccess(bool isRead, uint8_t write, EmuTime time);\n\tvoid executeCpuVramAccess(EmuTime time);\n',
+     '\tvoid scheduleCpuVramAccess(bool isRead, uint8_t write, EmuTime time);\n\tvoid executeCpuVramAccess(EmuTime time);\n'
+     '\t/** KairoMSX#68: a Z80 clocked above the MSX\'s 3.58 MHz waits for the\n'
+     '\t  * VDP\'s pending CPU-VRAM access before the next, as a turbo\'s VDP\n'
+     '\t  * wait holds it, instead of the access being dropped. Returns the\n'
+     '\t  * time the next access is made. */\n'
+     '\t[[nodiscard]] EmuTime kairoWaitForCpuVramAccess(EmuTime time);\n'),
+    ('openmsx/src/video/VDP.cc',
+     'void VDP::vramWrite(uint8_t value, EmuTime time)\n{\n\tscheduleCpuVramAccess(false, value, time);\n}\n\n'
+     'uint8_t VDP::vramRead(EmuTime time)\n{\n',
+     'void VDP::vramWrite(uint8_t value, EmuTime time)\n{\n\ttime = kairoWaitForCpuVramAccess(time);\n\tscheduleCpuVramAccess(false, value, time);\n}\n\n'
+     '// KairoMSX#68 (VDP.hh). At the MSX\'s own clock the VDP drops an access that\n'
+     '// comes too fast, as the real one does; a faster Z80 (a raised clock, or a\n'
+     '// Panasonic MSX2+\'s turbo) waits for the access before, as turbo hardware\n'
+     '// holds the CPU for the VDP. The R800 has the turbo R\'s own VDP I/O delay.\n'
+     'EmuTime VDP::kairoWaitForCpuVramAccess(EmuTime time)\n{\n'
+     '\tif (!pendingCpuAccess) [[likely]] return time;\n'
+     '\tif (cpu.isR800Active() || cpu.kairoZ80Freq() <= 3579545) return time;\n'
+     '\tEmuTime done = time;\n'
+     '\tbool pending = syncCpuVramAccess.pendingSyncPoint(done);\n'
+     '\tassert(pending); (void)pending;\n'
+     '\tsyncCpuVramAccess.removeSyncPoint();\n'
+     '\texecCpuVramAccess(done);\n'
+     '\tcpu.wait(done);\n'
+     '\treturn done;\n}\n\n'
+     'uint8_t VDP::vramRead(EmuTime time)\n{\n\ttime = kairoWaitForCpuVramAccess(time);\n'),
+]
+
 PATCHES = {
     'openmsx-main-thread': OPENMSX_MAIN_THREAD,
     'openmsx-android-stack-check': OPENMSX_ANDROID_STACK_CHECK,
@@ -296,4 +338,5 @@ PATCHES = {
     'openmsx-keyboard-type': OPENMSX_KEYBOARD_TYPE,
     'openmsx-mouse-idle': OPENMSX_MOUSE_IDLE,
     'openmsx-loaded-frame-draws': OPENMSX_LOADED_FRAME_DRAWS,
+    'openmsx-turbo-vdp-wait': OPENMSX_TURBO_VDP_WAIT,
 }

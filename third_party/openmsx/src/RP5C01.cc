@@ -134,8 +134,9 @@ void RP5C01::writePort(uint4_t port, uint4_t value, EmuTime time)
 
 void RP5C01::initializeTime()
 {
-	time_t t = time(nullptr);
-	const struct tm* tm = localtime(&t);
+	// KairoMSX#69: a repeatable run starts from a fixed time (RP5C01.hh).
+	time_t t = kairoStartTime ? *kairoStartTime : time(nullptr);
+	const struct tm* tm = kairoStartTime ? gmtime(&t) : localtime(&t);
 	fraction = 0;			// fractions of a second
 	seconds  = tm->tm_sec;		// 0-59
 	minutes  = tm->tm_min;		// 0-59

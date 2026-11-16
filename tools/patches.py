@@ -321,6 +321,27 @@ OPENMSX_TURBO_VDP_WAIT = [
      'uint8_t VDP::vramRead(EmuTime time)\n{\n\ttime = kairoWaitForCpuVramAccess(time);\n'),
 ]
 
+# A run that must repeat exactly starts the real-time clock at a fixed time (KairoMSX#69): RP5C01 set
+# its time from the host's when the machine was made, so a guest reading the clock saw a different
+# time in every test run. MsxMachine::create sets the start for a repeatable launch.
+OPENMSX_RTC_START_TIME = [
+    ('openmsx/src/RP5C01.hh',
+     '#include <cstdint>\n#include <string>\n',
+     '#include <cstdint>\n#include <ctime>\n#include <optional>\n#include <string>\n'),
+    ('openmsx/src/RP5C01.hh',
+     '\ttemplate<typename Archive>\n\tvoid serialize(Archive& ar, unsigned version);\n\nprivate:\n\tvoid initializeTime();\n',
+     '\ttemplate<typename Archive>\n\tvoid serialize(Archive& ar, unsigned version);\n\n'
+     '\t/** KairoMSX#69: when set, the time (UTC) a clock starts at instead of the host\'s, for runs that\n'
+     '\t  * must repeat exactly; set before the machine is created. */\n'
+     '\tstatic inline std::optional<time_t> kairoStartTime;\n\n'
+     'private:\n\tvoid initializeTime();\n'),
+    ('openmsx/src/RP5C01.cc',
+     '\ttime_t t = time(nullptr);\n\tconst struct tm* tm = localtime(&t);\n',
+     '\t// KairoMSX#69: a repeatable run starts from a fixed time (RP5C01.hh).\n'
+     '\ttime_t t = kairoStartTime ? *kairoStartTime : time(nullptr);\n'
+     '\tconst struct tm* tm = kairoStartTime ? gmtime(&t) : localtime(&t);\n'),
+]
+
 PATCHES = {
     'openmsx-main-thread': OPENMSX_MAIN_THREAD,
     'openmsx-android-stack-check': OPENMSX_ANDROID_STACK_CHECK,
@@ -339,4 +360,5 @@ PATCHES = {
     'openmsx-mouse-idle': OPENMSX_MOUSE_IDLE,
     'openmsx-loaded-frame-draws': OPENMSX_LOADED_FRAME_DRAWS,
     'openmsx-turbo-vdp-wait': OPENMSX_TURBO_VDP_WAIT,
+    'openmsx-rtc-start-time': OPENMSX_RTC_START_TIME,
 }

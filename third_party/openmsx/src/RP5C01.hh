@@ -10,6 +10,8 @@
 #include "EnumSetting.hh"
 
 #include <cstdint>
+#include <ctime>
+#include <optional>
 #include <string>
 
 namespace openmsx {
@@ -34,6 +36,10 @@ public:
 
 	template<typename Archive>
 	void serialize(Archive& ar, unsigned version);
+
+	/** KairoMSX#69: when set, the time (UTC) a clock starts at instead of the host's, for runs that
+	  * must repeat exactly; set before the machine is created. */
+	static inline std::optional<time_t> kairoStartTime;
 
 private:
 	void initializeTime();

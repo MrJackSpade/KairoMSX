@@ -29,6 +29,7 @@
 #include "kairo/relative_warp.h"
 #include "LedStatus.hh"
 #include "MSXMotherBoard.hh"
+#include "RP5C01.hh"
 #include "VDP.hh"
 #include "Pluggable.hh"
 #include "PluggingController.hh"
@@ -274,6 +275,9 @@ std::unique_ptr<MsxMachine> MsxMachine::create(const Config &config, std::string
     std::filesystem::create_directories(temp);
     set_environment("TMPDIR", temp);
 
+    // A repeatable run's real-time clock starts at 1993-01-01 00:00:00 UTC, the host's time otherwise:
+    // the clocks are made with the machine below (KairoMSX#69).
+    openmsx::RP5C01::kairoStartTime = config.repeatable ? std::optional<time_t>(725846400) : std::nullopt;
     auto impl = std::make_unique<Impl>();
     impl->host.sampleRate = unsigned(config.sample_rate);
     try {

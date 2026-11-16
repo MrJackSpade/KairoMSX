@@ -46,6 +46,9 @@ struct Config {
     std::string media[kSlots];
     // The audio sample rate.
     int sample_rate = 48000;
+    // A run that must repeat exactly (kairo::Launch::repeatable): the real-time clock starts at a
+    // fixed time instead of the host's (KairoMSX#69).
+    bool repeatable = false;
 };
 
 class MsxMachine {
